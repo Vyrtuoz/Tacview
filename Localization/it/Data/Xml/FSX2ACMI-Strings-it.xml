@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- FSX2ACMI Italian Text -->
+<!-- Translation by Diego Festari <festari.diego@gmail.com> -->
+
+<Resources Language="it">
+
+	<!-- Status -->
+	<String ID="StatusSimConnectNotInstalled">SimConnect non rilevato.&#10;Assicurarsi che Microsoft Flight&#160;Simulator&#160;X o Lockheed&#160;Martin Prepar3D sia correttamente installato nel computer.</String>
+	<String ID="StatusWaitingForSimConnect">FSX2ACMI è pronto!&#10;È ora possibile avviare Microsoft Flight&#160;Simulator&#160;X&#10;o Lockheed&#160;Martin Prepar3D.</String>
+	<String ID="StatusWaitingForSimConnectFailed">Impossibile registrare il tuo ultimo volo...&#10;Prima di riavviare il simulatore, assicurarsi che ci sia abbastanza spazio libero sul disco rigido.</String>
+	<String ID="StatusWaitingForSimConnectSucceeded">Il tuo ultimo volo è stato registrato con successo!&#10;È ora possibile chiudere FSX2ACMI o riavviare il simulatore per registrare un altro volo.</String>
+	<String ID="StatusConnectedToSimConnect">FSX2ACMI è collegato al simulatore.&#10;È ora possibile avviare un volo,&#10;sarà registrato automaticamente.</String>
+	<String ID="StatusConnectedToSimConnectFailed">Impossibile registrare il tuo ultimo volo...&#10;Prima di provare a registrare un altro volo, assicurarsi che ci sia abbastanza spazio libero sul disco rigido.</String>
+	<String ID="StatusConnectedToSimConnectSucceeded">Il tuo ultimo volo è stato registrato con successo!&#10;È ora possibile avviare un altro volo o chiudere FSX2ACMI.</String>
+	<String ID="StatusRecordingFlight">Il volo è ora in fase di registrazione&#10;finché chiudi FSX2ACMI,&#10;spegni il simulatore o avvii un altro volo.</String>
+	<String ID="StatusRecordingFlightFailed">Impossibile registrare il tuo ultimo volo...&#10;FSX2ACMI sta ora cercando di registrare il nuovo volo. Assicurarsi che ci sia abbastanza spazio libero sul disco rigido.</String>
+	<String ID="StatusRecordingFlightSucceeded">Il tuo ultimo volo è stato registrato con successo!&#10;Un nuovo volo è ora in fase di registrazione fino a quando chiudi FSX2ACMI, spegni il tuo simulatore o avvii un altro volo.</String>
+
+	<!-- Controls -->
+	<String ID="ObjectsCountFormat">{0} oggetti</String>
+	<String ID="UpdateSpeedFormat">{0} ms</String>
+	<String ID="ACMIFilesFolder">File ACMI del Tacview</String>
+	<String ID="IntroductionText">Registratore di voli Tacview per Microsoft Flight&#160;Simulator</String>
+
+	<!-- Options -->
+	<String ID="AutoLaunchText">Auto &amp;Avviare</String>
+	<String ID="AutoQuitText">Auto &amp;Chiudere</String>
+
+</Resources>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- XtraSetup Italian Text -->
+<!-- Translation by Diego Festari <festari.diego@gmail.com> -->
+
+<Resources Language="it">
+
+	<!-- Misc -->
+	<String ID="InstallTitle">{0} installazione</String>
+	<String ID="InstallLabel">{0} installazione</String>
+
+	<!-- Main Page -->
+	<String ID="WelcomePageTitle">Benvenuto</String>
+	<String ID="WelcomeTitle">Benvenuto al {0} programma d'installazione</String>
+	<String ID="WelcomeInstructions">Installando questa applicazione,&#10;l'utente conferma di aver letto e accettato il contratto di licenza.</String>
+<!--
+	<String ID="WelcomeInstructions">Per iniziare l'installazione, fare clic su Installa.&#10;Per personalizzare l'installazione, fare clic sulla scheda Opzioni.</String>
+-->
+	<String ID="WelcomeInfoURL">Impara di più riguardo {0}</String>
+	<String ID="OpenBetaWarningURL">ATTENZIONE: Per utilizzare questa versione è necessario un codice prodotto.</String>
+	<String ID="ClosedBetaWarning">ATTENZIONE: Questo è una closed beta test. Non distribuire questa versione.</String>
+
+	<String ID="LicensePageTitle">Licenza</String>
+
+	<String ID="OptionsPageTitle">Opzioni</String>
+	<String ID="InstallFolders">Cartelle</String>
+	<String ID="InstallFolderLabel">{0} sarà installato nella seguente cartella:</String>
+	<String ID="SpaceRequired">Spazio richiesto: {0,.0} MB</String>
+	<String ID="ProgramGroupLabel">Le icone dei programmi verranno aggiunti nel seguente gruppo:</String>
+	<String ID="ShortcutsGroup">Shortcuts Aggiuntive</String>
+	<String ID="CreateDesktopShortcut">Creare un &amp;Icona del desktop</String>
+	<String ID="CreateQuickLaunchShortcut">Creare un &amp;Icona di accesso rapido</String>
+
+	<String ID="BrowseInstallFolderHelp">Seleziona cartella di installazione</String>
+
+	<!-- File Transfer Page -->
+	<String ID="InstallInProgress">Installare in corso...</String>
+	<String ID="ProgressionText">Scrittura di file: {0,.0}% Completata</String>
+	<String ID="TimeRemaining">Tempo rimanente:</String>
+	<String ID="CancelConfirmation">Sei sicuro di voler annullare {0} l'installazione?</String>
+
+	<!-- Canceled Page -->
+	<String ID="InstallCanceled">installazione Annullata</String>
+	<String ID="CanceledMessage">Il processo di installazione è stata annullata con successo.</String>
+
+	<!-- Failure Page -->
+	<String ID="InstallFailed">Installazione Fallita</String>
+	<String ID="FailureMessage">Si prega di assicurarsi di avere sufficienti diritti di accesso e spazio libero su disco&#10;prima di contattare il produttore del software per assistenza.</String>
+	<String ID="TechnicalSupport">Supporto tecnico</String>
+
+	<!-- Success Page -->
+	<String ID="InstallSucceeded">installazione Riuscita</String>
+	<String ID="SuccessMessage">{0} è stato installato con successo.</String>
+	<String ID="OfficialWebSiteInfo">Trovi una documentazione dettagliata e gli ultimi aggiornamenti sul sito ufficiale.</String>
+
+	<!-- Buttons -->
+	<String ID="InstallButton">&amp;Installa</String>
+	<String ID="RunButton">&amp;Avvia {0}</String>
+
+</Resources>

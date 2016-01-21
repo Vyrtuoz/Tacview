@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- Tacview Installer French Text -->
+
+<Resources Language="fr">
+
+	<!-- Main Page -->
+	<String ID="WelcomeText">Avec ce puissant outil, vous allez enfin pouvoir enregistrer n'importe quel vol&#10;pour revoir, analyser et comprendre ce qu'il s'est réellement passé&#160;!</String>
+	<String ID="ApplicationDescription">Analysez n'importe quel vol, comprenez et améliorez vos aptitudes comme jamais auparavant&#160;!</String>
+
+	<!-- Additional Shortcuts -->
+	<String ID="FSX2ACMIShortcutName">FSX2ACMI</String>
+	<String ID="FSX2ACMIShortcutHelp">Enregistreur de vol Microsoft Flight Simulator X pour Tacview</String>
+
+</Resources>

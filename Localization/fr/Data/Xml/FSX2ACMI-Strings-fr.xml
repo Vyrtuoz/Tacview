@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- FSX2ACMI French Text -->
+
+<Resources Language="fr">
+
+	<!-- Status -->
+	<String ID="StatusSimConnectNotInstalled">SimConnect n'a pas été détecté&#160;!&#10;Assurez-vous que Microsoft Flight&#160;Simulator&#160;X ou Lockheed&#160;Martin Prepar3D soit correctement installé.</String>
+	<String ID="StatusWaitingForSimConnect">FSX2ACMI est prêt&#160;!&#10;Vous pouvez à présent lancer Microsoft Flight&#160;Simulator&#160;X&#10;ou Lockheed&#160;Martin Prepar3D.</String>
+	<String ID="StatusWaitingForSimConnectFailed">Echec d'enregistrement du dernier vol...&#10;Avant de redémarrer votre simulateur, assurez-vous qu'il y ait suffisamment d'espace disque disponible.</String>
+	<String ID="StatusWaitingForSimConnectSucceeded">Votre dernier vol a été enregistré avec succès&#160;!&#10;Vous pouvez à présent fermer FSX2ACMI ou redémarrer votre simulateur pour enregistrer un autre vol.</String>
+	<String ID="StatusConnectedToSimConnect">FSX2ACMI est connecté à votre simulateur.&#10;You pouvez maintenant démarrer un vol,&#10;il sera automatiquement enregistré.</String>
+	<String ID="StatusConnectedToSimConnectFailed">Echec d'enregistrement du dernier vol...&#10;Avant d'essayer d'enregistrer un nouveau vol, assurez-vous qu'il y ait suffisamment d'espace disque disponible.</String>
+	<String ID="StatusConnectedToSimConnectSucceeded">Votre dernier vol a été enregistré avec succès&#160;!&#10;Vous pouvez à présent démarrer un autre vol&#10;ou fermer FSX2ACMI.</String>
+	<String ID="StatusRecordingFlight">Votre vol est à présent en cours d'enregistrement&#10;jusqu'à ce que vous fermez FSX2ACMI,&#10;quittez votre simulateur ou commencez un autre vol.</String>
+	<String ID="StatusRecordingFlightFailed">Echec d'enregistrement du dernier vol...&#10;FSX2ACMI est en train d'essayer d'enregistrer un nouveau vol. Assurez-vous d'avoir suffisamment d'espace disque disponible.</String>
+	<String ID="StatusRecordingFlightSucceeded">Votre dernier vol a été enregistré avec succès&#160;!&#10;Un nouveau vol est en train d'être enregistré jusqu'à ce que vous quittez FSX2ACMI, votre simulateur ou commencez un autre vol.</String>
+
+	<!-- Controls -->
+	<String ID="ObjectsCountFormat">{0} objets</String>
+	<String ID="UpdateSpeedFormat">{0} ms</String>
+	<String ID="ACMIFilesFolder">Fichiers ACMI Tacview</String>
+	<String ID="IntroductionText">Enregistreur de vol Microsoft Flight&#160;Simulator pour Tacview</String>
+
+	<!-- Options -->
+	<String ID="AutoLaunchText">&amp;Lancer Automatiquement</String>
+	<String ID="AutoQuitText">&amp;Quitter Automatiquement</String>
+
+</Resources>

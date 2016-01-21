@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- FSX2ACMI Simplified Chinese (简体中文) Text -->
+<!-- Translation by 张炯 'Billeinstein' and 姚尧 '@6' -->
+
+<Resources Language="zh">
+
+	<!-- Status -->
+	<String ID="StatusSimConnectNotInstalled">未发现模拟飞行软件连接。&#10;请确认完整的微软模拟&#160;飞行&#160;X或洛克希德&#160;马丁Prepar3D在计算机上安装正确。</String>
+	<String ID="StatusWaitingForSimConnect">FSX2ACMI准备就绪！&#10;现在可以启动微软模拟&#160;飞行&#160;X或洛克希德&#160;马丁Prepar3D。</String>
+	<String ID="StatusWaitingForSimConnectFailed">本次飞行记录失败...&#10;重新启动模拟软件前，请确认硬盘上有足够的空间。</String>
+	<String ID="StatusWaitingForSimConnectSucceeded">本次飞行成功记录！&#10;现在可以关闭FSX2ACMI或者重新启动模拟软件以记录另一次飞行。</String>
+	<String ID="StatusConnectedToSimConnect">FSX2ACMI已连接模拟软件。&#10;现在可以开始飞行，&#10;它将被自动记录。</String>
+	<String ID="StatusConnectedToSimConnectFailed">本次飞行记录失败...&#10;在记录另一次飞行前，请确认硬盘上有足够的空间。</String>
+	<String ID="StatusConnectedToSimConnectSucceeded">本次飞行成功记录！&#10;现在可以开始另一次飞行或者关闭FSX2ACMI。</String>
+	<String ID="StatusRecordingFlight">飞行正在记录&#10;直到关闭FSX2ACMI、&#10;关闭模拟软件或开始另一次飞行。</String>
+	<String ID="StatusRecordingFlightFailed">本次飞行记录失败...&#10;FSX2ACMI正在尝试记录新的飞行。请确认硬盘上有足够的空间。</String>
+	<String ID="StatusRecordingFlightSucceeded">本次飞行成功记录！&#10;FSX2ACMI正在记录一次新的飞行，直到关闭FSX2ACMI、关闭模拟软件或开始另一次飞行。</String>
+
+	<!-- Controls -->
+	<String ID="ObjectsCountFormat">{0} 物体</String>
+	<String ID="UpdateSpeedFormat">{0} ms</String>
+	<String ID="ACMIFilesFolder">Tacview ACMI 文件</String>
+	<String ID="IntroductionText">用于Tacview的&#160;微软模拟飞行记录器</String>
+
+	<!-- Options -->
+	<String ID="AutoLaunchText">自动&amp;启动</String>
+	<String ID="AutoQuitText">自动&amp;退出</String>
+
+</Resources>

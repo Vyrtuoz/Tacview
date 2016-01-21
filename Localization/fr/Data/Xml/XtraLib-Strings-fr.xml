@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- XtraLib French Text -->
+
+<Resources Language="fr">
+
+	<!-- Main Menu -->
+	<String ID="OpenRecentFileCmdHelp">Ouvre [{0}]</String>
+
+	<!-- Dockable Windows -->
+	<String ID="DockableFloatingText">&amp;Flottante</String>
+	<String ID="DockableFloatingHelp">Détache cette fenêtre de la fenêtre principale</String>
+	<String ID="DockableDockableText">&amp;Ancrée</String>
+	<String ID="DockableDockableHelp">Ancre cette fenêtre dans la fenêtre principale</String>
+	<String ID="DockableAutoHideText">Au&amp;tomatiquement masquée</String>
+	<String ID="DockableAutoHideHelp">Ancre cette fenêtre et la masque automatiquement lorsqu'elle n'est pas au premier plan</String>
+	<String ID="DockableTransparencyText">&amp;Transparence</String>
+	<String ID="DockableOpaqueText">&amp;Opaque</String>
+	<String ID="DockableOpaqueHelp">Rends cette fenêtre toujours opaque</String>
+	<String ID="DockableTransparentHelp">Rends cette fenêtre transparente lorsqu'elle n'est pas au premier plan</String>
+	<String ID="DockableHideText">&amp;Masquer</String>
+	<String ID="DockableHideHelp">Ferme cette fenêtre</String>
+	<String ID="DockableWindowCloseButtonTip">Masquer</String>
+	<String ID="DockableWindowAutoHideButtonTip">Masquer automatiquement</String>
+
+	<!-- Rich Edit -->
+	<String ID="RichEditUndoText">&amp;Annuler</String>
+	<String ID="RichEditUndoHelp">Annule la dernière modification</String>
+	<String ID="RichEditRedoText">&amp;Refaire</String>
+	<String ID="RichEditRedoHelp">Restaure l'action précédemment annulée</String>
+	<String ID="RichEditCutText">Cou&amp;per</String>
+	<String ID="RichEditCutHelp">Coupe la sélection et la met dans le Presse-papiers</String>
+	<String ID="RichEditCopyText">&amp;Copier</String>
+	<String ID="RichEditCopyHelp">Copie la sélection et la met dans le Presse-papiers</String>
+	<String ID="RichEditPasteText">C&amp;oller</String>
+	<String ID="RichEditPasteHelp">Insère le contenu du Presse-papiers</String>
+	<String ID="RichEditSelectAllText">Sélectionner &amp;tout</String>
+	<String ID="RichEditSelectAllHelp">Sélectionne le texte en entier</String>
+
+	<!-- Time Remaining Estimation -->
+	<String ID="TimeRemainingAboutXMinutes">Environ {0} minutes</String>
+	<String ID="TimeRemainingAboutAMinute">Environ une minute</String>
+	<String ID="TimeRemainingLessThanMinute">Moins d'une minute</String>
+	<String ID="TimeRemainingAbout10Seconds">Environ 10 secondes</String>
+	<String ID="TimeRemainingAbout5Seconds">Environ 5 secondes</String>
+	<String ID="TimeRemaining0Second">Terminé</String>
+
+	<!-- Message Boxes -->
+	<String ID="NotInstalled">{0} n'est pas installé sur cet ordinateur.</String>
+	<String ID="CloseBeforeUninstall">Veuillez quitter {0} avant d'utiliser le programme d'installation.</String>
+	<String ID="UninstallConfirmation">Etes-vous certain de vouloir désinstaller {0}&#160;?</String>
+	<String ID="UninstallSucceed">{0} a été désinstallé avec succès.</String>
+
+	<String ID="OKButton">&amp;OK</String>
+	<String ID="CancelButton">&amp;Annuler</String>
+	<String ID="YesButton">&amp;Oui</String>
+	<String ID="NoButton">&amp;Non</String>
+	<String ID="CloseButton">&amp;Fermer</String>
+	<String ID="QuitButton">&amp;Quitter</String>
+
+</Resources>

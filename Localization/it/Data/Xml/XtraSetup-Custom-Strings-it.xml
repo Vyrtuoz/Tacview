@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- Tacview Installer Italian Text -->
+<!-- Translation by Diego Festari <festari.diego@gmail.com> -->
+
+<Resources Language="it">
+
+	<!-- Main Page -->
+	<String ID="WelcomeText">Questo potente strumento vi permetterà di registrare qualsiasi volo,&#10;di rivedere, analizzare e capire che cosa è realmente accaduto!</String>
+	<String ID="ApplicationDescription">Analizzare ogni volo, comprendere e migliorare le vostre capacità come mai prima!</String>
+
+	<!-- Additional Shortcuts -->
+	<String ID="FSX2ACMIShortcutName">FSX2ACMI</String>
+	<String ID="FSX2ACMIShortcutHelp">Registratore di voli Tacview per Microsoft Flight Simulator X</String>
+
+</Resources>

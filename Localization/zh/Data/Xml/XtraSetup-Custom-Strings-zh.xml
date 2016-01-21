@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- Tacview Installer Simplified Chinese Text -->
+<!-- Translation by 张炯 'Billeinstein' and 姚尧 '@6' -->
+
+<Resources Language="zh">
+
+	<!-- Main Page -->
+	<String ID="WelcomeText">这个功能强大的软件可以让你记录任何飞行过程，&#10;用于回顾、分析和理解实际发生的情况！</String>
+	<String ID="ApplicationDescription">记录任何飞行过程用于回顾、分析和理解实际发生的情况！</String>
+
+	<!-- Additional Shortcuts -->
+	<String ID="FSX2ACMIShortcutName">FSX2ACMI</String>
+	<String ID="FSX2ACMIShortcutHelp">用于微软模拟飞行十（FSX）的Tacview飞行记录器</String>
+
+</Resources>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- XtraSetup Simplified Chinese Text -->
+<!-- Translation by 张炯 'Billeinstein' and 姚尧 '@6' -->
+
+<Resources Language="zh">
+
+	<!-- Misc -->
+	<String ID="InstallTitle">{0}安装</String>
+	<String ID="InstallLabel">{0}安装</String>
+
+	<!-- Main Page -->
+	<String ID="WelcomePageTitle">欢迎</String>
+	<String ID="WelcomeTitle">欢迎 {0} 安装程序</String>
+	<String ID="WelcomeInstructions">安装此应用，&#10;表示您同意已阅读并接受许可协议。</String>
+<!--
+	<String ID="WelcomeInstructions">要开始安装，请点击安装。&#10;要自定义安装，请点击选项。</String>
+-->
+	<String ID="WelcomeInfoURL">了解更多关于 {0}</String>
+	<String ID="OpenBetaWarningURL">警告：要使用此版本的全部功能，你需要一个产品密钥。</String>
+	<String ID="ClosedBetaWarning">警告：此为内部测试，请不要对外发布此版本。</String>
+
+	<String ID="LicensePageTitle">许可协议</String>
+
+	<String ID="OptionsPageTitle">选项</String>
+	<String ID="InstallFolders">文件夹</String>
+	<String ID="InstallFolderLabel">{0} 将安装在以下路径中：</String>
+	<String ID="SpaceRequired">空间需求：{0,.0} MB</String>
+	<String ID="ProgramGroupLabel">程序图标将添加至以下组：</String>
+	<String ID="ShortcutsGroup">添加快捷方式</String>
+	<String ID="CreateDesktopShortcut">创建&amp;桌面图标</String>
+	<String ID="CreateQuickLaunchShortcut">创建&amp;快速启动图标</String>
+
+	<String ID="BrowseInstallFolderHelp">选择安装文件夹</String>
+
+	<!-- File Transfer Page -->
+	<String ID="InstallInProgress">安装进行中...</String>
+	<String ID="ProgressionText">写入文件：{0,.0}% 完成</String>
+	<String ID="TimeRemaining">剩余时间：</String>
+	<String ID="CancelConfirmation">你确认要中断 {0} 的安装吗？</String>
+
+	<!-- Canceled Page -->
+	<String ID="InstallCanceled">安装取消</String>
+	<String ID="CanceledMessage">安装进程成功取消。</String>
+
+	<!-- Failure Page -->
+	<String ID="InstallFailed">安装失败</String>
+	<String ID="FailureMessage">在联系软件制作者协助之前&#10;请确认有足够的访问权限和磁盘剩余空间。</String>
+	<String ID="TechnicalSupport">技术支持</String>
+
+	<!-- Success Page -->
+	<String ID="InstallSucceeded">安装成功</String>
+	<String ID="SuccessMessage">{0}成功安装。</String>
+	<String ID="OfficialWebSiteInfo">请访问官方网站了解详细文档和最新更新信息。</String>
+
+	<!-- Buttons -->
+	<String ID="InstallButton">&amp;安装</String>
+	<String ID="RunButton">&amp;启动{0}</String>
+
+</Resources>

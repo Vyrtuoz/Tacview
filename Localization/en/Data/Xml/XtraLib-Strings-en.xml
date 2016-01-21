@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- XtraLib English Text -->
+
+<Resources Language="en">
+
+	<!-- Main Menu -->
+	<String ID="OpenRecentFileCmdHelp">Open [{0}]</String>
+
+	<!-- Dockable Windows -->
+	<String ID="DockableFloatingText">&amp;Floating</String>
+	<String ID="DockableFloatingHelp">Undock this window from the main window</String>
+	<String ID="DockableDockableText">&amp;Docked</String>
+	<String ID="DockableDockableHelp">Dock this window into the main window</String>
+	<String ID="DockableAutoHideText">&amp;Auto Hide</String>
+	<String ID="DockableAutoHideHelp">Dock this window and hide it when not in foreground</String>
+	<String ID="DockableTransparencyText">&amp;Transparency</String>
+	<String ID="DockableOpaqueText">&amp;Opaque</String>
+	<String ID="DockableOpaqueHelp">Make this window always opaque</String>
+	<String ID="DockableTransparentHelp">Make this window transparent when not in foreground</String>
+	<String ID="DockableHideText">&amp;Hide</String>
+	<String ID="DockableHideHelp">Close this window</String>
+	<String ID="DockableWindowCloseButtonTip">Hide</String>
+	<String ID="DockableWindowAutoHideButtonTip">Auto Hide</String>
+
+	<!-- Rich Edit -->
+	<String ID="RichEditUndoText">&amp;Undo</String>
+	<String ID="RichEditUndoHelp">Reverses the last action</String>
+	<String ID="RichEditRedoText">&amp;Redo</String>
+	<String ID="RichEditRedoHelp">Redoes the previously undone action</String>
+	<String ID="RichEditCutText">Cu&amp;t</String>
+	<String ID="RichEditCutHelp">Cuts the selection and moves it to the Clipboard</String>
+	<String ID="RichEditCopyText">&amp;Copy</String>
+	<String ID="RichEditCopyHelp">Copies the selection and puts it to the Clipboard</String>
+	<String ID="RichEditPasteText">&amp;Paste</String>
+	<String ID="RichEditPasteHelp">Inserts Clipboard contents</String>
+	<String ID="RichEditSelectAllText">Select &amp;All</String>
+	<String ID="RichEditSelectAllHelp">Selects the entire text</String>
+
+	<!-- Time Remaining Estimation -->
+	<String ID="TimeRemainingAboutXMinutes">About {0} minutes</String>
+	<String ID="TimeRemainingAboutAMinute">About a minute</String>
+	<String ID="TimeRemainingLessThanMinute">Less than a minute</String>
+	<String ID="TimeRemainingAbout10Seconds">About 10 seconds</String>
+	<String ID="TimeRemainingAbout5Seconds">About 5 seconds</String>
+	<String ID="TimeRemaining0Second">Complete</String>
+
+	<!-- Message Boxes -->
+	<String ID="NotInstalled">{0} is not installed on this computer.</String>
+	<String ID="CloseBeforeUninstall">Please close {0} before using the installer.</String>
+	<String ID="UninstallConfirmation">Are you sure you want to completely remove {0} and all of its components?</String>
+	<String ID="UninstallSucceed">{0} was successfully removed from this computer.</String>
+
+	<String ID="OKButton">&amp;OK</String>
+	<String ID="CancelButton">&amp;Cancel</String>
+	<String ID="YesButton">&amp;Yes</String>
+	<String ID="NoButton">&amp;No</String>
+	<String ID="CloseButton">&amp;Close</String>
+	<String ID="QuitButton">&amp;Quit</String>
+
+</Resources>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- XtraSetup French Text -->
+
+<Resources Language="fr">
+
+	<!-- Misc -->
+	<String ID="InstallTitle">Installation de {0}</String>
+	<String ID="InstallLabel">Installation de {0}</String>
+
+	<!-- Main Page -->
+	<String ID="WelcomePageTitle">Accueil</String>
+	<String ID="WelcomeTitle">Bienvenue dans le programme d'installation de {0}</String>
+	<String ID="WelcomeInstructions">En installant cette application,&#10;vous reconnaissez avoir lu et approuvé l'accord de licence.</String>
+<!--
+	<String ID="WelcomeInstructions">Pour commencer l'installation, cliquez sur Installer.&#10;Pour personnaliser l'installation, cliquez sur l'onglet Options.</String>
+-->
+	<String ID="WelcomeInfoURL">En savoir plus sur {0}</String>
+	<String ID="OpenBetaWarningURL">ATTENTION: Pour utiliser cette version vous avez besoin d'une clé de produit.</String>
+	<String ID="ClosedBetaWarning">ATTENTION: Il s'agit d'un beta-test privé. Ne distribuez pas cette version.</String>
+
+	<String ID="LicensePageTitle">License</String>
+
+	<String ID="OptionsPageTitle">Options</String>
+	<String ID="InstallFolders">Dossiers</String>
+	<String ID="InstallFolderLabel">{0} va être installé dans le dossier suivant :</String>
+	<String ID="SpaceRequired">Espace requis&#160;: {0,.0} Mo</String>
+	<String ID="ProgramGroupLabel">Les icônes seront crées dans le groupe suivant :</String>
+	<String ID="ShortcutsGroup">Raccourcis additionnels</String>
+	<String ID="CreateDesktopShortcut">Créer un raccourci sur le bureau</String>
+	<String ID="CreateQuickLaunchShortcut">Créer un raccourci dans la barre de lancement rapide</String>
+
+	<String ID="BrowseInstallFolderHelp">Choisissez le dossier d'installation</String>
+
+	<!-- File Transfer Page -->
+	<String ID="InstallInProgress">Installation en cours...</String>
+	<String ID="ProgressionText">Copie des fichiers&#160;: {0,.0}% accompli</String>
+	<String ID="TimeRemaining">Temps restant :</String>
+	<String ID="CancelConfirmation">Etes-vous certain de vouloir annuler l'installation de {0}&#160;?</String>
+
+	<!-- Canceled Page -->
+	<String ID="InstallCanceled">Installation Annulée</String>
+	<String ID="CanceledMessage">Toutes les opérations ont été annulées avec succès.</String>
+
+	<!-- Failure Page -->
+	<String ID="InstallFailed">Echec de l'installation</String>
+	<String ID="FailureMessage">Assurez-vous d'avoir suffisamment de droits d'accès et d'espace libre sur le disque&#10;avant de contacter le fabricant pour obtenir de l'aide.</String>
+	<String ID="TechnicalSupport">Support technique</String>
+
+	<!-- Success Page -->
+	<String ID="InstallSucceeded">Installation réussie</String>
+	<String ID="SuccessMessage">{0} a été installé avec succès.</String>
+	<String ID="OfficialWebSiteInfo">Trouvez une documentation complète ainsi que des mises à jour sur le site officiel</String>
+
+	<!-- Buttons -->
+	<String ID="InstallButton">&amp;Installer</String>
+	<String ID="RunButton">&amp;Lancer {0}</String>
+
+</Resources>

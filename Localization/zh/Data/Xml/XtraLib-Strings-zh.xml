@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- XtraLib Simplified Chinese (简体中文) Text -->
+<!-- Translation by 张炯 'Billeinstein' and 姚尧 '@6' -->
+
+<Resources Language="zh">
+
+	<!-- Main Menu -->
+	<String ID="OpenRecentFileCmdHelp">打开[{0}]</String>
+
+	<!-- Dockable Windows -->
+	<String ID="DockableFloatingText">&amp;悬浮</String>
+	<String ID="DockableFloatingHelp">从主窗口解锁此窗口</String>
+	<String ID="DockableDockableText">&amp;停靠</String>
+	<String ID="DockableDockableHelp">把此窗口停靠入主窗口</String>
+	<String ID="DockableAutoHideText">&amp;自动隐藏</String>
+	<String ID="DockableAutoHideHelp">停靠此窗口并在非前台时隐藏</String>
+	<String ID="DockableTransparencyText">&amp;透明度</String>
+	<String ID="DockableOpaqueText">&amp;不透明</String>
+	<String ID="DockableOpaqueHelp">使此窗口总是不透明</String>
+	<String ID="DockableTransparentHelp">使此窗口在非前台时透明</String>
+	<String ID="DockableHideText">&amp;隐藏</String>
+	<String ID="DockableHideHelp">关闭此窗口</String>
+	<String ID="DockableWindowCloseButtonTip">隐藏</String>
+	<String ID="DockableWindowAutoHideButtonTip">自动隐藏</String>
+
+	<!-- Rich Edit -->
+	<String ID="RichEditUndoText">&amp;撤销</String>
+	<String ID="RichEditUndoHelp">撤销最近的动作</String>
+	<String ID="RichEditRedoText">&amp;恢复</String>
+	<String ID="RichEditRedoHelp">恢复上次撤销动作</String>
+	<String ID="RichEditCutText">剪&amp;切</String>
+	<String ID="RichEditCutHelp">剪切已选内容并移动至剪贴板</String>
+	<String ID="RichEditCopyText">&amp;复制</String>
+	<String ID="RichEditCopyHelp">复制已选内容并放入剪贴板</String>
+	<String ID="RichEditPasteText">&amp;粘贴</String>
+	<String ID="RichEditPasteHelp">插入剪贴板内容</String>
+	<String ID="RichEditSelectAllText">全&amp;选</String>
+	<String ID="RichEditSelectAllHelp">选择所有文本</String>
+
+	<!-- Time Remaining Estimation -->
+	<String ID="TimeRemainingAboutXMinutes">约{0}分钟</String>
+	<String ID="TimeRemainingAboutAMinute">约一分钟</String>
+	<String ID="TimeRemainingLessThanMinute">少于一分钟</String>
+	<String ID="TimeRemainingAbout10Seconds">约10秒</String>
+	<String ID="TimeRemainingAbout5Seconds">约5秒</String>
+	<String ID="TimeRemaining0Second">完成</String>
+
+	<!-- Message Boxes -->
+	<String ID="NotInstalled">{0}未在计算机上安装。</String>
+	<String ID="CloseBeforeUninstall">请关闭{0}后再使用安装器。</String>
+	<String ID="UninstallConfirmation">确认希望完全删除{0}及其所有组件？</String>
+	<String ID="UninstallSucceed">{0}已成功从计算机上删除。</String>
+
+	<String ID="OKButton">&amp;好</String>
+	<String ID="CancelButton">&amp;取消</String>
+	<String ID="YesButton">&amp;是</String>
+	<String ID="NoButton">&amp;否</String>
+	<String ID="CloseButton">&amp;关闭</String>
+	<String ID="QuitButton">&amp;退出</String>
+
+</Resources>

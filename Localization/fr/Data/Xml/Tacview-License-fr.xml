@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- Tacview French License Text -->
+
+<Resources Language="fr">
+
+	<!-- EULA -->
+	<String ID="LicenseText">
+		<br/>
+		<p align="center"><b>Accord de Licence de Tacview</b></p>
+		<p align="center">Mis à jour le 22 mars 2015</p>
+		<p><b>IMPORTANT</b></p>
+		<p>Lisez avec attention la présente licence d'utilisation avant d'utiliser ce logiciel.</p>
+		<p>LE FAIT D'UTILISER CE LOGICIEL IMPLIQUE QUE VOUS RECONNAISSEZ AVOIR LU, COMPRIS ET ACCEPTE LES TERMES DU PRESENT CONTRAT. SI VOUS N'ETES PAS D'ACCORD AVEC LES TERMES DE CE CONTRAT, N'UTILISEZ CE LOGICIEL EN AUCUNE MANIERE, RETOURNEZ LE ET EFFACEZ TOUT EXEMPLAIRE EN VOTRE POSSESSION.</p>
+		<p><b>DROITS CONCEDES</b></p>
+		<p>Tous les droits sont la propriété exclusive de l'auteur Frantz RAIA ("Stra&#160;Software"). Tous les droits non expressément concédés ici sont réservés par l'auteur. Stra&#160;Software vous concède le droit non exclusif de tester et utiliser ce logiciel ("Tacview") ainsi que sa documentation, tel que spécifié par la présente licence.</p>
+		<p>Vous pouvez&#160;:</p>
+		<ul>
+			<li>Installer et utiliser Tacview aussi longtemps que vous respectez les présentes conditions&#160;;</li>
+			<li>Redistribuer librement le programme d'installation original de Tacview.</li>
+		</ul>
+		<p><b>RESTRICTIONS</b></p>
+		<p>Vous NE pouvez PAS&#160;:</p>
+		<ul>
+			<li>Vendre Tacview&#160;;</li>
+			<li>Louer Tacview&#160;;</li>
+			<li>Procéder ou permettre du reverse engineering, le désassemblage, la décompilation ou l'altération de Tacview&#160;;</li>
+			<li>Retirer ou désactiver toute marque d'identification du produit, de copyright ou de limitation de Tacview.</li>
+		</ul>
+		<p>Une telle pratique résulterait en une annulation immédiate de tous vos droits concernant ce logiciel, vous encourrez également le risque de poursuites judiciaires ainsi que les peines et sanctions prévues par la loi.</p>
+		<p><b>DISTRIBUTION</b></p>
+		<p>Vous êtes autorisé à effectuer autant de copies de Tacview que vous le souhaitez et le redistribuer à toute personne tant que tous les fichiers restent intacts. Vous devez redistribuer le programme d'installation de Tacview, pas les fichiers résultants de l'installation. Vous n'êtes pas autorisé à vendre Tacview. Toutes les formes de media sont autorisés à redistribuer ce logiciel sur tout medium (DVD, Disque d'accompagnement, Site Web) sans autorisation préalable de Stra&#160;Software.</p>
+		<p><b>COLLECTE DE DONNEES ANONYMES</b></p>
+		<p>Stra&#160;Software se réserve le droit de collecter, stocker et utiliser des données anonymes sur l'utilisation de Tacview. Ces données ne seront pas revendues à un tiers et seront exclusivement utilisées afin d'améliorer la qualité et la stabilité de Tacview.</p>
+		<p><b>UTILISATEURS ENREGISTRES</b></p>
+		<p>A la suite de la période d'évaluation de 21 jours, certaines fonctionnalités avancées seront désactivées. Vous devez acheter une licence Home ou Professional si vous désirez continuer à profiter de ces fonctionnalités.</p>
+		<p>Pour vous enregistrer, complétez le formulaire d'enregistrement en ligne et expédiez-le avec votre règlement à un des sites Web autorisés. Allez sur http://tacview.strasoftware.com pour obtenir la liste des sites autorisés.</p>
+		<p>Une fois enregistré, l'utilisateur dispose d'une licence non exclusive permettant l'usage de ce programme sur autant de machines que défini par la licence achetée. La clé d'enregistrement ne peut être distribuée, vendue ou louée, mais peut être transférée de manière permanente, et ce, dans son intégralité, si la personne qui la reçoit est d'accord avec les termes de la présente licence.</p>
+		<p><b>DROITS D'AUTEUR / PROPRIETE INTELLECTUELLE</b></p>
+		<p>Tacview ainsi que son code source sont la propriété exclusive de Stra&#160;Software et sont protégés par les lois internationales sur le copyright et les droits d'auteur.</p>
+		<p><b>RESILIATION</b></p>
+		<p>Si vous ne respectez pas les clauses et conditions de la présente licence, cet accord sera annulé. Dans ce cas, vous devrez cesser d'utiliser Tacview et devrez détruire toute copie à votre disposition.</p>
+		<p><b>EXCLUSION DE GARANTIE</b></p>
+		<p>Tacview est fourni "tel quel". Stra&#160;Software exclut par la présente, toute garantie, expresse ou implicite, incluant (mais non de façon limitative), les garanties marchandes ou physiques quelles qu'elles soient. L'utilisateur assume l'ensemble des risques découlant de l'utilisation de Tacview.</p>
+		<p><b>EXCLUSION DE RESPONSABILITE POUR LES DOMMAGES</b></p>
+		<p>Stra&#160;Software n'assume aucune responsabilité pour les dommages, directs ou indirects, pouvant résulter de l'utilisation de Tacview, même si Stra&#160;Software a prévenu de la possibilité de tels dommages.</p>
+	</String>
+
+</Resources>
