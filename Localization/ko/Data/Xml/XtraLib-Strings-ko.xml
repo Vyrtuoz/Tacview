@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- XtraLib Korean Text -->
+
+<Resources Language="ko">
+
+	<!-- Main Menu -->
+	<String ID="OpenRecentFileCmdHelp">열기 [{0}]</String>
+
+	<!-- Dockable Windows -->
+	<String ID="DockableFloatingText">&amp;창 띄우기</String>
+	<String ID="DockableFloatingHelp">메인 윈도우에서 이 윈도우를 분리 시키기</String>
+	<String ID="DockableDockableText">&amp;고정</String>
+	<String ID="DockableDockableHelp">메인 윈도우에 이 윈도우를 고정 시키기</String>
+	<String ID="DockableAutoHideText">&amp;자동 숨김</String>
+	<String ID="DockableAutoHideHelp">이 윈도우를 고정시키고 상위로 나오지 않을 때 자동으로 숨기기</String>
+	<String ID="DockableTransparencyText">&amp;투명화</String>
+	<String ID="DockableOpaqueText">&amp;투명도</String>
+	<String ID="DockableOpaqueHelp">이 창이 항상 불투명하도록 만들기</String>
+	<String ID="DockableTransparentHelp">이 창이 상위에 오지 않으면 투명하게 만들기</String>
+	<String ID="DockableHideText">&amp;숨기기</String>
+	<String ID="DockableHideHelp">윈도우를 종료합니다.</String>
+	<String ID="DockableWindowCloseButtonTip">숨기기</String>
+	<String ID="DockableWindowAutoHideButtonTip">자동으로 숨기기</String>
+
+	<!-- Rich Edit -->
+	<String ID="RichEditUndoText">&amp;되돌리기</String>
+	<String ID="RichEditUndoHelp">마지막 작업을 이전으로 되돌리기</String>
+	<String ID="RichEditRedoText">&amp;재실행</String>
+	<String ID="RichEditRedoHelp">방금 전 되돌린 작업을 다시 수행하기</String>
+	<String ID="RichEditCutText">잘라&amp;내기</String>
+	<String ID="RichEditCutHelp">선택구간을 잘라내고 내용을 클립보드로 옮기기</String>
+	<String ID="RichEditCopyText">&amp;복사하기</String>
+	<String ID="RichEditCopyHelp">선택 구간을 복사하고 내용을 클립보드로 옮기기</String>
+	<String ID="RichEditPasteText">&amp;붙이기</String>
+	<String ID="RichEditPasteHelp">클립보드의 내용을 삽입하기</String>
+	<String ID="RichEditSelectAllText">전체 &amp;선택</String>
+	<String ID="RichEditSelectAllHelp">전체 텍스트 선택하기</String>
+
+	<!-- Time Remaining Estimation -->
+	<String ID="TimeRemainingAboutXMinutes">약 {0} 분</String>
+	<String ID="TimeRemainingAboutAMinute">약 일분</String>
+	<String ID="TimeRemainingLessThanMinute">일분 이하</String>
+	<String ID="TimeRemainingAbout10Seconds">약 10초</String>
+	<String ID="TimeRemainingAbout5Seconds">약 5초</String>
+	<String ID="TimeRemaining0Second">완료</String>
+
+	<!-- Message Boxes -->
+	<String ID="NotInstalled">{0} 프로그램이 이 컴퓨터에 설치되지 않았습니다.</String>
+	<String ID="CloseBeforeUninstall">설치 전 {0} 프로그램을 종료하여 주시기 바랍니다.</String>
+	<String ID="UninstallConfirmation">정말 {0} 프로그램과 모든 컴포넌트들을 삭제하시겠습니까?</String>
+	<String ID="UninstallSucceed">{0} 프로그램이 컴퓨터로부터 완전히 제거되었습니다.</String>
+
+	<String ID="OKButton">&amp;확인</String>
+	<String ID="CancelButton">&amp;취소</String>
+	<String ID="YesButton">&amp;예</String>
+	<String ID="NoButton">&amp;아니오</String>
+	<String ID="CloseButton">&amp;닫기</String>
+	<String ID="QuitButton">&amp;종료</String>
+
+</Resources>

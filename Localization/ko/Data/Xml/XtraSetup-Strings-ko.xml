@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- XtraSetup Korean Text -->
+
+<Resources Language="ko">
+
+	<!-- Misc -->
+	<String ID="InstallTitle">{0} 설치</String>
+	<String ID="InstallLabel">{0} 설치</String>
+
+	<!-- Main Page -->
+	<String ID="WelcomePageTitle">환영합니다</String>
+	<String ID="WelcomeTitle">{0} 설치 프로그램에 오신 것을 환영합니다.</String>
+	<String ID="WelcomeInstructions">이 프로그램을 설치함에 따라,&#10;당신은 라이센스 규약을 읽고 받아들인 것으로 간주됩니다.</String>
+<!--
+	<String ID="WelcomeInstructions">To begin the installation, click Install.&#10;To customize the installation, click the Options tab.</String>
+-->
+	<String ID="WelcomeInfoURL">{0}에 대해 더 알아보기</String>
+	<String ID="OpenBetaWarningURL">경고: 이 버전을 사용하기 위해서는 제품키가 필요합니다.</String>
+	<String ID="ClosedBetaWarning">경고: 이 버전은 클로즈 베타테스트 버전입니다. 이 제품을 배포하지 마시기 바랍니다.</String>
+
+	<String ID="LicensePageTitle">라이센스</String>
+
+	<String ID="OptionsPageTitle">설정</String>
+	<String ID="InstallFolders">폴더</String>
+	<String ID="InstallFolderLabel">{0} 제품이 다음의 경로에 설치 될 예정입니다:</String>
+	<String ID="SpaceRequired">필요한 공간: {0,.0} MB</String>
+	<String ID="ProgramGroupLabel">프로그램 아이콘들이 다음의 그룹에 추가 될 예정입니다:</String>
+	<String ID="ShortcutsGroup">추가 단축아이콘</String>
+	<String ID="CreateDesktopShortcut">데스크탑 아이콘 &amp;생성하기</String>
+	<String ID="CreateQuickLaunchShortcut">빠른실행 아이콘 &amp;생성하기</String>
+
+	<String ID="BrowseInstallFolderHelp">설치 경로(폴더)를 선택 해 주세요</String>
+
+	<!-- File Transfer Page -->
+	<String ID="InstallInProgress">설치가 진행중입니다...</String>
+	<String ID="ProgressionText">파일 작성..: {0,.0}% 완료되었습니다.</String>
+	<String ID="TimeRemaining">예상 시간:</String>
+	<String ID="CancelConfirmation">정말로 {0} 설치를 중단하시겠습니까?</String>
+
+	<!-- Canceled Page -->
+	<String ID="InstallCanceled">설치가 취소되었습니다.</String>
+	<String ID="CanceledMessage">설치 프로세스가 정상적으로 취소되었습니다.</String>
+
+	<!-- Failure Page -->
+	<String ID="InstallFailed">설치를 실패하였습니다.</String>
+	<String ID="FailureMessage">소프트웨어 판매자에게 도움을 요청하기 전에 &#10;설치 경로에 대한 충분한 권한이 있는지, 여유공간이 충분한지 확인 해 주시기 바랍니다.</String>
+	<String ID="TechnicalSupport">기술 서포트</String>
+
+	<!-- Success Page -->
+	<String ID="InstallSucceeded">설치에 성공하였습니다.</String>
+	<String ID="SuccessMessage">{0} 제품이 정상적으로 설치되었습니다.</String>
+	<String ID="OfficialWebSiteInfo">자세한 문서나 최신 업데이트를 공식 웹사이트에서 찾아 주시기 바랍니다.</String>
+
+	<!-- Buttons -->
+	<String ID="InstallButton">&amp;설치</String>
+	<String ID="RunButton">&amp;{0} 실행</String>
+
+</Resources>

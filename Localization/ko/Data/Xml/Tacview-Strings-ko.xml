@@ -1,0 +1,762 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- Tacview Korean Text -->
+<!-- Translation by 번역 - ihopi [NAVER JTWF SQUADRON] ihopi73@gmail.com -->
+
+<Resources Language="ko">
+
+	<!-- Main Menu -->
+	<String ID="FileMenuTooltip">파일</String>
+	<String ID="FileMenuHelp">비행 데이터 불러오기 혹은 내보내기</String>
+	<String ID="FileOpenCmdText">&amp;열기...&#9;Ctrl+O</String>
+	<String ID="FileOpenCmdHelp">기존의 비행기록 열기</String>
+	<String ID="FileOpenContainingFolderCmdText">폴더&amp; 열기</String>
+	<String ID="FileOpenContainingFolderCmdHelp">비행기록 파일이 포함되어 있는 폴더를 파일 탐색기에서 열기</String>
+	<String ID="FileMergeCmdText">&amp;합치기...</String>
+	<String ID="FileMergeCmdHelp">현재 열려져 있는 모든 데이터를 기존의 비행기록에 합치기</String>
+	<String ID="FileSaveCmdText">&amp;저장하기&#9;Ctrl+S</String>
+	<String ID="FileSaveCmdHelp">현재 비행기록을 저장하기</String>
+	<String ID="FileSaveCmdAsText">다른 이름으로 &amp;저장하기</String>
+	<String ID="FileSaveAsCmdHelp">현재 비행기록을 새로운 이름으로 저장하기</String>
+	<String ID="FileExportText">내보내기</String>
+	<String ID="FileExportFlightLogText">현재의 비행로그를 &amp;내보내기...</String>
+	<String ID="FileExportFlightLogHelp">비행 로그를 XML이나 CSV 파일로 내보내기</String>
+
+	<String ID="RecordingMenuTooltip">기록하기</String>
+	<String ID="RecordingMenuHelp">비행 데이터 기록 설정하기</String>
+	<String ID="RecordingNetworkCmdText">&amp;원격 기록...</String>
+	<String ID="RecordingNetworkCmdHelp">비행을 네트워크를 통해 기록하기</String>
+	<String ID="RecordingRecordDCSWorldCmdText">DCS 월드&amp;비행 기록하기</String>
+	<String ID="RecordingRecordDCSWorldCmdHelp">모든 'DCS 월드' 비행 기록하기</String>
+	<String ID="RecordingExportPathCmdText">ACMI 파일 &amp;기록 폴더...</String>
+	<String ID="RecordingExportPathCmdHelp">현재 유저의 기록된 .acmi 파일이 저장 될 곳을 고르기</String>
+
+	<String ID="AnalysisMenuTooltip">분석</String>
+	<String ID="AnalysisMenuHelp">분석 도구</String>
+	<String ID="AnalysisPropertiesText">&amp;설정</String>
+	<String ID="AnalysisPropertiesHelp">비행 기록의 설정값을 보이거나 숨기기</String>
+	<String ID="AnalysisEventLogText">&amp;비행 로그</String>
+	<String ID="AnalysisEventLogHelp">비행기록의 로그를 보이거나 숨기기</String>
+	<String ID="AnalysisDisplayTelemetry0Text">텔레메트리 &amp;1</String>
+	<String ID="AnalysisDisplayTelemetry0Help">텔레메트리 윈도우 #1을 보이거나 숨기기</String>
+	<String ID="AnalysisDisplayTelemetry1Text">텔레메트리 &amp;2</String>
+	<String ID="AnalysisDisplayTelemetry1Help">텔레메트리 윈도우 #2를 보이거나 숨기기</String>
+	<String ID="AnalysisDisplayTelemetry2Text">텔레메트리 &amp;3</String>
+	<String ID="AnalysisDisplayTelemetry2Help">텔레메트리 윈도우 #3을 보이거나 숨기기</String>
+	<String ID="AnalysisDisplayTelemetry3Text">텔레메트리 &amp;4</String>
+	<String ID="AnalysisDisplayTelemetry3Help">텔레메트리 윈도우 #4를 보이거나 숨기기</String>
+	<String ID="AnalysisDisplayChart1Text">챠트 &amp;1</String>
+	<String ID="AnalysisDisplayChart1Help">챠트 윈도우 #1을 보이거나 숨기기</String>
+	<String ID="AnalysisDisplayChart2Text">챠트 &amp;2</String>
+	<String ID="AnalysisDisplayChart2Help">챠트 윈도우 #2를 보이거나 숨기기</String>
+	<String ID="AnalysisDisplayChart3Text">챠트 &amp;3</String>
+	<String ID="AnalysisDisplayChart3Help">챠트 윈도우 #3을 보이거나 숨기기</String>
+	<String ID="AnalysisDisplayChart4Text">챠트 &amp;4</String>
+	<String ID="AnalysisDisplayChart4Help">챠트 윈도우 #4를 보이거나 숨기기</String>
+
+	<String ID="DebriefingMenuTooltip">디브리핑</String>
+	<String ID="DebriefingMenuHelp">디브리핑 도구</String>
+	<String ID="DebriefingOnlineDebriefingText">&amp;온라인 디브리핑...</String>
+	<String ID="DebriefingOnlineDebriefingHelp">온라인 디브리핑을 열거나 참여하기</String>
+
+	<String ID="OptionsMenuTooltip">옵션</String>
+	<String ID="OptionsMenuHelp">프로그렘 세팅을 변경하기</String>
+	<String ID="OptionsDisplayCommentsText">설명 &amp;보이기</String>
+	<String ID="OptionsDisplayCommentsHelp">3D 뷰에서 비행에 대한 설명을 자막처럼 보이게 하기</String>
+
+	<String ID="OptionsTerrainDisplayModeText">지형 디스플레이 모드</String>
+	<String ID="OptionsTerrainDisplayMode3DText">&amp;3D</String>
+	<String ID="OptionsTerrainDisplayMode3DHelp">3D 모드 지형으로 보기</String>
+	<String ID="OptionsTerrainDisplayModeFlatText">&amp;평평하게</String>
+	<String ID="OptionsTerrainDisplayModeFlatHelp">가독성을 높이기 위하여 지형을 평평하게 보기</String>
+	<String ID="OptionsTerrainDisplayModeEmptyText">&amp;빈 공간</String>
+	<String ID="OptionsTerrainDisplayModeEmptyHelp">가독성을 더 높이기 위하여 지형을 빈 공간으로 보이게 하기</String>
+
+	<String ID="OptionsTerrainText">지형</String>
+	<String ID="OptionsTerrainAutoText">(&amp;자동)</String>
+	<String ID="OptionsTerrainAutoHelp">자동적으로 최적의 가능한 지형을 사용</String>
+	<String ID="OptionsTerrainGenericHelp">'{0}' 에서 부터 지형을 사용</String>
+	<String ID="OptionsTerrainTextRealWorld">실제 지형</String>
+	<String ID="OptionsTerrainHelpRealWorld">나사의 셔틀 레이더 토포그레피 미션에서 얻은 지구의 실제 지형 사용하기</String>
+	<String ID="OptionsTerrainTextDCSWorld">DCS 월드</String>
+	<String ID="OptionsTerrainHelpDCSWorld">DCS 월드 최신 버전의 지형 사용하기</String>
+	<String ID="OptionsTerrainTextEECH">Enemy Engaged: 코만치 vs 호컴</String>
+	<String ID="OptionsTerrainHelpEECH">EECH (코만치 vs 호컴) 지형 사용하기</String>
+	<String ID="OptionsTerrainTextFalcon4">팰콘 4.0</String>
+	<String ID="OptionsTerrainHelpFalcon4">팰콘 4.0의 지형 사용하기</String>
+
+	<String ID="OptionsLanguageText">언어</String>
+	<String ID="OptionsLanguageAutoText">(&amp;자동)</String>
+	<String ID="OptionsLanguageAutoHelp">자동으로 최적의 언어 선택하기</String>
+
+	<!-- Units -->
+	<String ID="OptionsMeasurementSystemText">단위</String>
+	<String ID="OptionsAutoUnitsText">(&amp;자동)</String>
+	<String ID="OptionsAutoUnitsHelp">적절한 측량 시스템을 자동적으로 사용하기</String>
+
+	<String ID="OptionsMetricDataAnalysisUnitsText">미터법 - 데이터 분석용</String>
+	<String ID="OptionsMetricDataAnalysisUnitsHelp">속도: m/s - 수직 속도: m/s - 고도: m - 거리: m</String>
+	<String ID="OptionsMetricHelicopterUnitsText">미터법 - 헬리콥터</String>
+	<String ID="OptionsMetricHelicopterUnitsHelp">속도: km/h - 수직 속도: m/s - 고도: m - 거리: km</String>
+	<String ID="OptionsMetricAirplaneUnitsText">미터법 - 비행기</String>
+	<String ID="OptionsMetricAirplaneUnitsHelp">속도: km/h - 수직 속도: m/min - 고도: m - 거리: km</String>
+
+	<String ID="OptionsImperialDataAnalysisMIUnitsText">임페리얼(야드법) - 데이터 분석용 (mi)</String>
+	<String ID="OptionsImperialDataAnalysisMIUnitsHelp">속도: mph - 수직 속도: ft/min - 고도: ft - 거리: ft</String>
+	<String ID="OptionsImperialDataAnalysisNMUnitsText">임페리얼(야드법) - 데이터 분석용 (nm)</String>
+	<String ID="OptionsImperialDataAnalysisNMUnitsHelp">속도: kts - 수직 속도: ft/min - 고도: ft - 거리: ft</String>
+	<String ID="OptionsImperialAircraftMIUnitsText">임페리얼(야드법) - 비행기 (mi)</String>
+	<String ID="OptionsImperialAircraftMIUnitsHelp">속도: mph - 수직 속도: ft/min - 고도: ft - 거리: mi &amp; ft</String>
+	<String ID="OptionsImperialAircraftNMUnitsText">임페리얼(야드법) - 비행기 (nm)</String>
+	<String ID="OptionsImperialAircraftNMUnitsHelp">속도: kts - 수직 속도: ft/min - 고도: ft - 거리: nm &amp; ft</String>
+
+	<String ID="OptionsPositionFormatText">좌표 포맷</String>
+	<String ID="OptionsPositionFormatDDDHelp">십진 방식, 십진수도</String>
+	<String ID="OptionsPositionFormatDMMHelp">도,분 방식, 도,십진수분</String>
+	<String ID="OptionsPositionFormatDMSHelp">도,분,초 방식</String>
+	<String ID="OptionsPositionFormatMGRSHelp">군사용 좌표 레퍼런스 시스템</String>
+
+	<String ID="AspectAngleLeft">L</String>
+	<String ID="AspectAngleRight">R</String>
+
+	<!-- Other Options -->
+	<String ID="OptionsAssociateFileTypesText">&amp;택뷰를 acmi 파일과 연동하기</String>
+	<String ID="OptionsAssociateFileTypesHelp">윈도우 내에서 비행기록 파일을 더블 클릭하였을 때, 택뷰에서 해당 파일을 열어준다.</String>
+	<String ID="OptionsTrackIRCmdText">트랙IR</String>
+	<String ID="OptionsTrackIRCmdHelp">조종석 시점에서 트랙IR을 활성화 시켜준다.</String>
+
+	<String ID="InsertBookmarkText">&amp;북마크 삽입하기</String>
+	<String ID="InsertBookmarkHelp">북마크를 이벤트와 타임라인에 생성하거나 삽입하도록 해 준다.</String>
+	<String ID="RemoveBookmarkText">&amp;북마크 제거</String>
+	<String ID="RemoveBookmarkHelp">이 북마크를 제거한다.</String>
+	<String ID="ShareCopyShortcutText">&amp;복사 단축키&#9;(Ctrl+C)</String>
+	<String ID="ShareCopyShortcutHelp">현재 뷰의 단축키를 생성하여, 상대방과 이것을 공유할 수 있음.</String>
+	<String ID="SharePasteShortcutText">&amp;붙이기 단축키&#9;(Ctrl+V)</String>
+	<String ID="SharePasteShortcutHelp">상대방이 공유 한 뷰를 생성할 수 있음.</String>
+	<String ID="AttractAttentionHelp">특정 물체에 관람자의 관심을 끌도록 유도함</String>
+
+	<String ID="SelectedObjectsTelemetryText">선택 된 오브젝트의 라벨</String>
+	<String ID="AircraftsTelemetryText">선택되지 않은 기체의 라벨</String>
+	<String ID="LabelOnAllGroundObjectsText">지상 모든 물체에 라벨 켜기</String>
+	<String ID="LabelOnAllGroundObjectsHelp">대-기체용 위협을 포함한 모든 지상 물체들의 라벨 켜기</String>
+
+	<String ID="LabelsScaleText">라벨 확대 및 축소</String>
+	<String ID="ScaleAutoText">자동</String>
+	<String ID="ScaleAutoHelp">뷰포트의 영역에 따라 자동적으로 스케일이 결정 됨</String>
+	<String ID="Scale1Text">작게</String>
+	<String ID="Scale1Help">기본 크기</String>
+	<String ID="Scale2Text">크게</String>
+	<String ID="Scale2Help">기본 크기보다 두 배의 크기</String>
+
+	<String ID="HelpMenuTooltip">도움말</String>
+	<String ID="HelpMenuHelp">이 프로그램에 대한 일반적인 정보와 도움말 켜기</String>
+	<String ID="HelpDisplayControlsText">&amp;컨트롤 리스트&#9;F1</String>
+	<String ID="HelpDisplayControlsHelp">3D 뷰 컨트롤 리스트 보여주기</String>
+	<String ID="HelpCommandLineOptionsText">커맨드 라인 &amp;옵션</String>
+	<String ID="HelpCommandLineOptionsHelp">택뷰에서 지원하는 커맨드라인 옵션 보여주기</String>
+	<String ID="HelpTechnicalSupportText">기술 &amp;지원</String>
+	<String ID="HelpTechnicalSupportHelp">택뷰 공식 웹사이트로 연결Connect to Tacview official website</String>
+	<String ID="HelpUserLicenseAgreementText">사용자 &amp;라이센스 동의서</String>
+	<String ID="HelpUserLicenseAgreementHelp">사용자 최종 라이센스 동의서 보여주기</String>
+	<String ID="HelpCheckForUpdatesText">업데이트 &amp;확인하기</String>
+	<String ID="HelpCheckForUpdatesHelp">신규 택뷰 릴리즈가 있는지 온라인에서 확인 해 보기</String>
+	<String ID="HelpDebugLogText">디버그 로그</String>
+	<String ID="HelpDebugLogHelp">문제를 확인하기 위한 유용한 디버그 내용 출력</String>
+	<String ID="HelpEventsProfilerText">이벤트 프로파일러</String>
+	<String ID="HelpEventsProfilerHelp">프로파일링 툴의 이벤트 보여주기</String>
+	<String ID="HelpFunctionsProfilerText">기능 프로파일러</String>
+	<String ID="HelpFunctionsProfilerHelp">기능 프로파일링 툴 보여주기</String>
+	<String ID="HelpGraphicalProfilerText">그래픽 &amp;프로파일러</String>
+	<String ID="HelpGraphicalProfilerHelp">그래픽 프로파일링 툴 보여주기</String>
+	<String ID="HelpMemoryProfilerText">&amp;메모리 프로파일러</String>
+	<String ID="HelpMemoryProfilerHelp">메모리 프로파일링 툴 보여주기</String>
+	<String ID="HelpAboutText">&amp;택뷰에 대하여</String>
+	<String ID="HelpAboutHelp">저작권 정보 보여주기</String>
+
+	<String ID="RegisterCmdTooltip">등록</String>
+	<String ID="RegisterCmdHelp">택뷰 등록하기</String>
+	<String ID="UpgradeCmdTooltip">프로페셔널 에디션으로 업그레이드</String>
+	<String ID="UpgradeCmdHelp">홈 에디션을 프로페셔널 에디션으로 업그레이드 하기</String>
+
+	<!-- Popup Menus -->
+	<String ID="ObjectsInfoCmdRateOfClosureText">거리 / 접근률</String>
+	<String ID="ObjectsInfoCmdRateOfClosureHelp">선택된 오브젝트들의 거리 및 접근률 보여주기</String>
+	<String ID="ObjectsInfoCmdAbsoluteBearingText">거리 / 방위</String>
+	<String ID="ObjectsInfoCmdAbsoluteBearingHelp">선택된 오브젝트들의 거리 및 방위 보여주기</String>
+	<String ID="ObjectsInfoCmdRelativeBearingNavText">거리 / 상대방위 (네비게이션/2D)</String>
+	<String ID="ObjectsInfoCmdRelativeBearingNavHelp">선택된 오브젝트들의 거리와 2D 상대방위 보여주기</String>
+	<String ID="ObjectsInfoCmdRelativeBearingCombatText">거리 / 상대방위 (전투/3D)</String>
+	<String ID="ObjectsInfoCmdRelativeBearingCombatHelp">선택된 오브젝트들의 거리와 3D 상대방위 보여주기</String>
+	<String ID="ObjectsInfoCmdAspectAngleText">거리 / 측면각</String>
+	<String ID="ObjectsInfoCmdAspectAngleHelp">선택된 기체의 거리 및 상대 기체의 6시와 내 기체의 헤딩의 차이각을 보여주기</String>
+	<String ID="ObjectsInfoCmdDisplayObjectsInfoText">3D 뷰로 보여주기</String>
+	<String ID="ObjectsInfoCmdDisplayObjectsInfoHelp">3D 뷰에서 선택된 오브젝트의 정보를 보여주기</String>
+	<String ID="ObjectsInfoCmdLineOfSightRateText">거리 / 시선각속도(LOS rate)</String>
+	<String ID="ObjectsInfoCmdLineOfSightRateHelp">선택된 오브젝트들의 거리와 시선각(Line of Sight)의 속도를 보여주기</String>
+
+	<!-- Charts -->
+	<String ID="ChartDisplayObjet0Tooltip">주 목표 보여주기</String>
+	<String ID="ChartDisplayObjet0Help">주 목표의 데이터 보여주기</String>
+	<String ID="ChartDisplayObjet1Tooltip">둘째 목표 보여주기</String>
+	<String ID="ChartDisplayObjet1Help">둘째 목표의 데이터 보여주기</String>
+	<String ID="ChartDisplayObjet2Tooltip">셋째 목표 보여주기</String>
+	<String ID="ChartDisplayObjet2Help">셋째 목표의 데이터 보여주기</String>
+	<String ID="ChartDisplayObjet3Tooltip">넷째 목표 보여주기</String>
+	<String ID="ChartDisplayObjet3Help">넷째 목표의 데이터 보여주기</String>
+	<String ID="ChartOneClickChartTooltip">미리 지정된 챠트</String>
+	<String ID="ChartOneClickChartMenuHelp">미리 지정된 챠트 선택하기</String>
+	<String ID="ChartPrimaryYAxisTooltip">메인 Y축 타입</String>
+	<String ID="ChartPrimaryYAxisHelp">메인 Y 축에 보여줄 데이터 선택</String>
+	<String ID="ChartXAxisTooltip">X축 타입</String>
+	<String ID="ChartXAxisHelp">X축에 보여줄 데이터 선택</String>
+	<String ID="ChartSecondaryYAxisTooltip">세컨더리 Y축 타입</String>
+	<String ID="ChartSecondaryYAxisHelp">세컨더리 Y축에 보여줄 데이터 선택</String>
+	<String ID="ChartResetZoomTooltip">확대 초기화</String>
+	<String ID="ChartResetZoomHelp">스크린에 전체 챠트 보여주기</String>
+	<String ID="ChartZoomOutTooltip">축소</String>
+	<String ID="ChartZoomOutHelp">더 많은 정보 보여주기</String>
+	<String ID="ChartZoomInTooltip">확대</String>
+	<String ID="ChartZoomInHelp">자세한 정보 보여주기</String>
+	<String ID="ChartExportTelemetryTooltip">익스포트</String>
+	<String ID="ChartExportTelemetryHelp">텔레메트리 데이터를 다른 툴에서 볼 수 있는 형태로 익스포트 하기</String>
+	<String ID="ExportTelemetryText">익스포트 텔레메트리</String>
+	<String ID="ExportTelemetryHelp">챠트를 CSV 파일 형태로 익스포트 하기</String>
+	<String ID="ExportTelemetryPositionText">위치 포함하기</String>
+	<String ID="ExportTelemetryPositionHelp">익스포트 된 데이터 안에 기체의 위치정보 포함하기</String>
+	<String ID="ExportTelemetryRotationText">회전정보 포함하기</String>
+	<String ID="ExportTelemetryRotationHelp">익스포트 된 데이터 안에 기체의 회전정보 포함하기</String>
+
+	<String ID="ChartAltitudeSpeedHelp">기준 고도/속도 챠트</String>
+	<String ID="ChartAltitudeSpeedText">고도/속도</String>
+	<String ID="ChartEnergyHelp">에너지 레벨과 소모량</String>
+	<String ID="ChartEnergyText">에너지</String>
+	<String ID="ChartEnergyTransferHelp">운동 에너지와 위치 에너지간의 이동</String>
+	<String ID="ChartEnergyTransferText">에너지 이동</String>
+	<String ID="ChartAccelerationHelp">미사일 성능 비교</String>
+	<String ID="ChartAccelerationText">가속</String>
+	<String ID="ChartPerformanceHelp">미사일 성능 분석</String>
+	<String ID="ChartPerformanceText">성능</String>
+
+	<String ID="AxisNoneHelp">두 번째 축 숨기기</String>
+	<String ID="AxisNoneText">사용안함</String>
+
+	<!-- Telemetry -->
+	<String ID="ATCHelp">텔레메트리같은 ATC: 고도/100, 수직속도, 그리고 지상속도/10</String>
+	<String ID="ATCText">ATC (ASL+VS+GS)</String>
+
+	<String ID="TASHelp">비행중인 지역의 공기압에 연관된 비행기의 속도</String>
+	<String ID="TASText">속도 (TAS)</String>
+	<String ID="IASHelp">속도계에 나와있는 기체의 속도</String>
+	<String ID="IASText">속도 (IAS)</String>
+	<String ID="MachHelp">마하 넘버</String>
+	<String ID="MachText">속도 (Mach)</String>
+	<String ID="ASLHelp">해발 고도</String>
+	<String ID="ASLText">고도 (ASL)</String>
+
+	<String ID="AoAHelp">받음각</String>
+	<String ID="AoAText">받음각 (AoA)</String>
+	<String ID="GHelp">자유낙하 대비 가속도</String>
+	<String ID="GText">지-포스 (G)</String>
+	<String ID="RollRateHelp">롤 레이트</String>
+	<String ID="RollRateText">롤 레이트 (RRT)</String>
+	<String ID="TurnRateHelp">턴 레이트</String>
+	<String ID="TurnRateText">턴 레이트 (TRT)</String>
+	<String ID="TurnRadiusHelp">회전 반경</String>
+	<String ID="TurnRadiusText">회전 반경 (TRD)</String>
+
+	<String ID="EKHelp">운동 에너지</String>
+	<String ID="EKText">운동 에너지 (Ek)</String>
+	<String ID="EPHelp">위치 에너지</String>
+	<String ID="EPText">위치 에너지 (Ep)</String>
+	<String ID="EMHelp">역학 에너지</String>
+	<String ID="EMText">역학 에너지 (Em=Ek+Ep)</String>
+
+	<String ID="GSHelp">대지와 연계 된 기체의 속도</String>
+	<String ID="GSText">대지 속도 (GS)</String>
+	<String ID="VSHelp">수직 속도</String>
+	<String ID="VSText">수직 속도 (VS)</String>
+	<String ID="AGLHelp">지상 고도</String>
+	<String ID="AGLText">고도 (AGL)</String>
+	<String ID="HDGHelp">진북(true north)대비 기체가 향하고 있는 방향</String>
+	<String ID="HDGText">헤딩 (HDG)</String>
+	<String ID="TRKHelp">진북(true north)대비 기체가 움직이는 방향</String>
+	<String ID="TRKText">트랙 (TRK)</String>
+	<String ID="DistanceHelp">표현 된 거리</String>
+	<String ID="DistanceText">거리</String>
+	<String ID="ElevationProfileHelp">기체 하부의 지상고도의 프로파일</String>
+	<String ID="ElevationProfileText">고도 프로파일</String>
+
+	<String ID="AbsoluteTimeHelp">절대 시간</String>
+	<String ID="AbsoluteTimeText">시간</String>
+	<String ID="RelativeTimeHelp">데이터 비교를 좀 더 쉽게 해 줌</String>
+	<String ID="RelativeTimeText">상대 시간</String>
+
+	<String ID="NoTelemetryHelp">텔레메트리가 표시되지 않음</String>
+	<String ID="NoTelemetryText">사용 안함</String>
+
+	<String ID="TelemetryMinValue">최소&#9;{0}</String>
+	<String ID="TelemetryMaxValue">최대&#9;{0}</String>
+	<String ID="TelemetryNoLimit">(제한 없음)</String>
+
+	<String ID="AltitudeRestrictionsTitle">고도 제한</String>
+	<String ID="AltitudeRestrictionsIntro">특정 제한값을 기체가 넘어설 경우를 탐지하기 위해 이 툴을 사용 할 것&#10;제한을 없애려면 제로(0) 값을 입력한다.</String>
+	<String ID="MaxAltitudeLabel">순항고도 제한:</String>
+	<String ID="MaxAltitudeLabelShort">최대</String>
+	<String ID="MinAltitudeLabel">최저 고도 제한:</String>
+	<String ID="MinAltitudeLabelShort">최소</String>
+
+	<String ID="BookmarkTitle">새로운 북마크 삽입</String>
+	<String ID="BookmarkIntro">현 시점과 선택들을 포함한 북마크를 생성한다.</String>
+	<String ID="BookmarkLabel">북마크 이름:</String>
+
+	<String ID="OnlineDebriefingTitle">온라인 디브리핑</String>
+	<String ID="OnlineDebriefingIntro">디브리핑 세션을 편대나 친구들과 함께 할 수 있습니다.</String>
+	<String ID="OnlineDebriefingUsername">유저 이름 :</String>
+	<String ID="OnlineDebriefingUsernameHelp">최소 3글자를 사용하세요.</String>
+	<String ID="OnlineDebriefingPassword">비밀번호 :</String>
+	<String ID="OnlineDebriefingPort">TCP 포트 :</String>
+	<String ID="OnlineDebriefingPortHelp">라우터에서 포트를 열어두는 것을 잊지 마세요!</String>
+	<String ID="OnlineDebriefingSessionName">세션 이름 :</String>
+	<String ID="OnlineDebriefingPublicAddress">공용 주소 :</String>
+	<String ID="OnlineDebriefingHostButton">호스트</String>
+	<String ID="OnlineDebriefingEndSessionButton">세션 끝내기</String>
+	<String ID="OnlineDebriefingSessionAddress">호스트 주소 :</String>
+	<String ID="OnlineDebriefingSessionAddressHelp">IP4나 IP6 주소로 접속할 수 있습니다.</String>
+	<String ID="OnlineDebriefingJoinButton">참여</String>
+	<String ID="OnlineDebriefingLeaveButton">나가기</String>
+	<String ID="OnlineDebriefingCancelButton">취소</String>
+	<String ID="OnlineDebriefingWarningHost">온라인 디브리핑 세션을 호스트 하기 위해선, 프로페셔널 버전의 택뷰가 필요합니다.</String>
+	<String ID="OnlineDebriefingWarningClient">온라인 디브리핑 세션에 참여하기는 택뷰 버전에 상관 없이 가능합니다.</String>
+	<String ID="OnlineDebriefingHostInProgress">온라인 디브리핑 세션을 호스팅 하기 [{0}]</String>
+	<String ID="OnlineDebriefingClientInProgress">온라인 디브리핑 세션에 연결되었습니다 [{0}]</String>
+<!--
+	Korean characters are not yet supported in the 3D view
+	<String ID="OnlineDebriefingDataMismatch">데이터 파일이 존재하지 않습니다; 디브리핑을 위한 파일을 정상적으로 로드하였습니까?</String>
+	<String ID="OnlineDebriefingHostTip">오브젝트를 쉬프트+클릭하여 시청자의 주의를 끌 수 있습니다.</String>
+	<String ID="OnlineDebriefingClientTip">알트+엔터를 이용하여 풀 스크린 모드를 전환할 수 있습니다.</String>
+	<String ID="OnlineDebriefingControlGivenTip">{0} 사용자가 잠시 디브리핑을 맡게 됩니다.</String>
+	<String ID="OnlineDebriefingControlReceivedTip">당신이 일시적으로 디브리핑을 담당하게 되었습니다.</String>
+-->
+	<String ID="OnlineDebriefingDataMismatch">Some data is missing; did you load the right file for this debriefing?</String>
+	<String ID="OnlineDebriefingStatusConnecting">호스트를 검색 중입니다, 기다려 주세요...</String>
+	<String ID="OnlineDebriefingStatusFailedToJoin">⚠ 연결에 실패하였습니다, 주소와 포트넘버를 확인하시기 바랍니다.</String>
+	<String ID="OnlineDebriefingStatusFailedToHost">⚠ 세션을 호스팅 하는데 실패하였습니다. 동일한 컴퓨터에서 여러 세션을 호스트 하기 위해서는 다른 포트를 사용하시기 바랍니다.</String>
+	<String ID="OnlineDebriefingStatusInvalidProtocol">⚠ 프로토콜이 지원되지 않습니다. 호스트용 택뷰 버전이 동일한지 확인 해 주시기 바랍니다.</String>
+	<String ID="OnlineDebriefingStatusInvalidPassword">⚠ 비밀번호가 틀렸습니다. 잘못 된 입력을 피하기 위해서 복사/붙이기를 시도 해 보시기 바랍니다.</String>
+	<String ID="OnlineDebriefingHostTip">Shift+Click an object to attract viewers' attention</String>
+	<String ID="OnlineDebriefingClientTip">Press Alt+Enter to switch to fullscreen mode</String>
+	<String ID="OnlineDebriefingControlGivenTip">{0} is temporarily in charge of the debriefing</String>
+	<String ID="OnlineDebriefingControlReceivedTip">You are temporarily in charge of the debriefing</String>
+
+	<!-- Profiler -->
+	<String ID="ProfilerProfileMainLoopTooltip">메인 루프 프로파일 (F16)</String>
+	<String ID="ProfilerProfileMainLoopHelp">메인 루프를 프로파일 (1 프레임 캡쳐)</String>
+	<String ID="ProfilerProfileMainLoopFourTimesTooltip">메인 루프를 4회 프로파일 (F17)</String>
+	<String ID="ProfilerProfileMainLoopFourTimesHelp">메인 루프 프로파일 (4 프레임 캡쳐)</String>
+	<String ID="ProfilerProfileDataLoadingTooltip">데이터 로딩 프로파일</String>
+	<String ID="ProfilerProfileDataLoadingHelp">다음 파일 로딩 프로파일</String>
+	<String ID="ProfilerProfileDataAnalysisTooltip">데이터 분석 프로파일</String>
+	<String ID="ProfilerProfileDataAnalysisHelp">다음 파일의 데이터 분석 프로파일</String>
+	<String ID="ProfilerResetZoomTooltip">줌 리셋</String>
+	<String ID="ProfilerResetZoomHelp">스크린에 전체 프로파일 보여주기</String>
+	<String ID="ProfilerProfileMemoryTooltip">메모리 프로파일 (F18)</String>
+	<String ID="ProfilerProfileMemoryHelp">현재 메모리 사용 프로파일</String>
+
+	<!-- Add On Strings -->
+	<String ID="AddOnTitleTelemetry0">텔레메트리 1</String>
+	<String ID="AddOnTitleTelemetry1">텔레메트리 2</String>
+	<String ID="AddOnTitleTelemetry2">텔레메트리 3</String>
+	<String ID="AddOnTitleTelemetry3">텔레메트리 4</String>
+	<String ID="AddOnTitleChart0">챠트 1</String>
+	<String ID="AddOnTitleChart1">챠트 2</String>
+	<String ID="AddOnTitleChart2">챠트 3</String>
+	<String ID="AddOnTitleChart3">챠트 4</String>
+	<String ID="AddOnTelemetryData">데이터</String>
+	<String ID="AddOnTelemetryValue">값</String>
+	<String ID="AddOnTelemetryUnit">유닛</String>
+
+	<String ID="AddOnTitleDocumentProperties">속성</String>
+	<String ID="TitleProperty">제목</String>
+	<String ID="AuthorProperty">저자</String>
+	<String ID="CategoryProperty">분류</String>
+	<String ID="SourceProperty">소스</String>
+	<String ID="RecorderProperty">녹화 장치</String>
+	<String ID="RecordingTimeProperty">녹화일</String>
+	<String ID="MissionTimeProperty">미션일</String>
+	<String ID="BriefingProperty">브리핑</String>
+	<String ID="DebriefingProperty">디브리핑</String>
+	<String ID="CommentsProperty">코멘트</String>
+
+	<String ID="AddOnTitleEventsLog">비행 로그</String>
+	<String ID="AddOnTitleControlsList">컨트롤 목록</String>
+	<String ID="AddOnTitleCommandLineOptionsList">명령줄 옵션</String>
+	<String ID="AddOnTitleUserLicenseAgreement">유저 라이센스 동의서</String>
+	<String ID="AddOnTitleDebugLog">디버그 로그</String>
+	<String ID="AddOnTitleEventsProfiler">이벤트 프로파일러</String>
+	<String ID="AddOnTitleFunctionsProfiler">기능 프로파일러</String>
+	<String ID="AddOnTitleGraphicalProfiler">그래픽 프로파일러</String>
+	<String ID="AddOnTitleMemoryProfiler">메모리 프로파일러</String>
+
+	<String ID="DebugEventTime">시간</String>
+	<String ID="DebugEventLevel">레벨</String>
+	<String ID="DebugEventModule">모듈</String>
+	<String ID="DebugEventMessage">메세지</String>
+
+	<String ID="EventsProfilerNames">이벤트</String>
+	<String ID="EventsProfilerOccurrences">발생</String>
+	<String ID="FunctionsProfilerNames">기능</String>
+	<String ID="FunctionsProfilerSelfRatio">% 자체</String>
+	<String ID="FunctionsProfilerSelfTime">자체 시간</String>
+	<String ID="FunctionsProfilerTotalTime">전체 시간</String>
+	<String ID="FunctionsProfilerOccurrences">발생</String>
+	<String ID="MemoryProfilerFileName">파일</String>
+	<String ID="MemoryProfilerCount">배치</String>
+	<String ID="MemoryProfilerTotal">전체 크기</String>
+	<String ID="MemoryProfilerAverage">평균 크기</String>
+
+	<String ID="CommandLineImportExport">임포트/익스포트</String>
+	<String ID="CommandLineBehavior">General Behavior</String>
+	<String ID="CommandLineSpecial">고급 옵션</String>
+	<String ID="CmdOpen">/Open:"C:\Temp\Demo-BlackShark.acmi"</String>
+	<String ID="CmdOpenHelp">비행기록 파일 열기.</String>
+	<String ID="CmdMerge">/Merge:"C:\Temp\Falcon-4.0-AF-Korea-20061213.vhs"</String>
+	<String ID="CmdMergeHelp">현재 열려진 데이터에 기존 비행기록을 병합시킵니다.</String>
+	<String ID="CmdSave">/Save[:"C:\Flight\TopGun2014.acmi"]</String>
+	<String ID="CmdSaveHelp">고효율 압축 포맷으로 비행기록을 저장함</String>
+	<String ID="CmdExportFlightLog">/ExportFlightLog:"C:\Reports\Mission Black Gold.csv"</String>
+	<String ID="CmdExportFlightLogHelp">비행로그를 XML이나 CSV 파일로 익스포트 합니다.</String>
+	<String ID="CmdFalcon4Theater">/Falcon4Theater:"Aegean"</String>
+	<String ID="CmdFalcon4TheaterHelp">VHS 파일용 팰콘 4.0 전장 셋 (에게해, 발칸, 이스라엘, 코리아...)</String>
+	<String ID="CmdQuiet">/Quiet</String>
+	<String ID="CmdQuietHelp">택뷰가 지정된 작업을 모두 수행 한 후 다른 윈도우를 표시하지 않은 채 종료됩니다.</String>
+	<String ID="CmdQuit">/Quit</String>
+	<String ID="CmdQuitHelp">택뷰가 지정된 작업이 모두 완료 된 뒤 자동으로 종료됩니다.</String>
+	<String ID="CmdVBOOff">/VBO:꺼짐</String>
+	<String ID="CmdVBOOffHelp">몇몇 ATI 크로스파이어 설정으로 인해 크래쉬 되는 버텍스 버퍼 오브젝트 기능을 사용안함으로 합니다.</String>
+	<String ID="CmdDebugMode">/Debug:켜짐</String>
+	<String ID="CmdDebugModeHelp">버그를 수정하기 위해 디버그 정보를 표시합니다.</String>
+
+	<String ID="Selection">선택항목</String>
+	<String ID="TimeControl">시간 컨트롤</String>
+	<String ID="LookMove">보기/움직이기</String>
+	<String ID="Misc">기타</String>
+
+	<String ID="3DView">3D 뷰</String>
+	<String ID="FlightLog">비행 로그</String>
+	<String ID="ObjectsLists">오브젝트 목록</String>
+	<String ID="FreeCamera">자유 카메라</String>
+	<String ID="ChartWindow">챠트 윈도우</String>
+
+	<String ID="ControlsArrows">[W] [A] [S] [D] / [E] [C]</String>
+	<String ID="ControlsCtrlLeftClick">[컨트롤] + [좌 클릭]</String>
+	<String ID="ControlsCtrlRightClick">[컨트롤] + [우 클릭]</String>
+	<String ID="ControlsDoubleClick">[더블 클릭]</String>
+	<String ID="ControlsLeftRight">[좌] / [우]</String>
+	<String ID="ControlsMouseLeftDrag">[마우스 왼쪽 버튼] + {드래그}</String>
+	<String ID="ControlsMouseRightDrag">[마우스 오른쪽 버튼] + {드래그}</String>
+	<String ID="ControlsMouseWheel">[마우스 휠]</String>
+	<String ID="ControlsMouseLeftRightDrag">[마우스 왼측 버튼] + [마우스 오른쪽 버튼] + {드래그}</String>
+	<String ID="ControlsMouseWheelDrag">[마우스 휠] + {드래그}</String>
+	<String ID="ControlsShiftLeftClick">[쉬프트] + [좌 클릭]</String>
+	<String ID="ControlsShiftMove">[쉬프트] + {움직이기}</String>
+	<String ID="ControlsSpaceBar">[스페이스 바]</String>
+	<String ID="ControlsAltReturn">[알트] + [리턴]</String>
+	<String ID="ControlsCtrlC">[컨트롤] + [C]</String>
+	<String ID="ControlsCtrlV">[컨트롤] + [V]</String>
+
+	<String ID="ControlsBackwardForward">시간 구간 뒷쪽으로/앞쪽으로</String>
+	<String ID="ControlsSelectEvent">해당 이벤트로 이동 후 관련 오브젝트 선택</String>
+	<String ID="ControlsMoveCamera">카메라 움직이기</String>
+	<String ID="ControlsMoveCameraFast">카메라 빨리 움직이기</String>
+	<String ID="ControlsMoveCameraFaster">카메라 더 빨리 움직이기</String>
+	<String ID="ControlsPlayPause">플레이/일시중지</String>
+	<String ID="ControlsRotate">선택 된 오브젝트 중심으로 회전하기 / 머리 움직임</String>
+	<String ID="ControlsSelectObject">오브젝트를 선택하고 필요 시 오브젝트가 생성 된 타임으로 이동</String>
+	<String ID="ControlsSelectPrimaryObject">3D 뷰에서 프라이머리 오브젝트를 선택</String>
+	<String ID="ControlsSelectSecondaryObject">3D 뷰에서 세컨더리 오브젝트를 선택</String>
+	<String ID="ControlsZoomInOut">확대/축소</String>
+	<String ID="ControlsToggleFullScreen">전체화면 모드 토글</String>
+
+	<!-- Additional Tooltips -->
+	<String ID="UpdateAvailableTooltip">새 버전의 택뷰가 출시되었습니다!</String>
+	<String ID="DCSWorldHookedSmallTooltip">'DCS 월드' 비행기록이 가능하게 되었습니다.</String>
+	<String ID="TwitterLinkTooltip">트위터</String>
+	<String ID="FacebookLinkTooltip">페이스북</String>
+	<String ID="FlightSimHookTooltipTitle">이제 택뷰를 종료하셔도 됩니다.</String>
+	<String ID="FlightSimHookTooltipMessage">이 아이콘이 보인다면, 플라이트 시뮬레이터의 모든 비행이 자동으로 녹화 될 것입니다.&#10;비행 중 택뷰를 계속 실행시킬 필요는 없습니다.</String>
+	<String ID="FlightRecordingOptimizedNotification">현재 레코딩이 {0} 배 정도 필요 이상으로 큽니다. 다시 저장하여 디스크공간을 절약 하시기 바랍니다.</String>
+	<String ID="FlightRecordingCorruptedNotification">이 비행 녹화 파일은 손상되었거나 잘못 된 파일로 부터 불려져 왔기 때문에 잘려질 수 있습니다.</String>
+	<String ID="FlightRecordingEmptyNotification">비행 기록이 비어있습니다.</String>
+	<String ID="FlightRecordingMissingTimestamp">몇몇 오브젝트에 타임스탬프가 기록되어져 있지 않아서, 속도 계산이 정확하지 않을 수 있습니다.</String>
+<!--
+	Korean characters are not yet supported in the 3D view
+	<String ID="LowEndOpenGL">그래픽 카드 드라이버를 업데이트 해 주세요.</String>
+-->
+	<String ID="LowEndOpenGL">Please update your graphics card driver</String>
+
+	<!-- Message Boxes -->
+	<String ID="SaveFileRequestText">변경 내용을 '{0}' 에 저장하시겠습니까&#160;?</String>
+	<String ID="SaveButton">&amp;저장</String>
+	<String ID="DontSaveButton">&amp;저장하지 않음</String>
+
+	<!-- Dialogs Boxes Strings -->
+	<String ID="LicenseTitle">택뷰 라이센스 합의서</String>
+	<String ID="LicenseHint">아래 라이센스 합의서를 주의깊게 읽어 주시기 바랍니다. 계속하기 위해서는 스크롤을 내려 끝까지 이동하셔야 합니다.</String>
+	<String ID="LicenseAccept">&amp;동의</String>
+	<String ID="LicenseDecline">&amp;거절</String>
+	<String ID="RegisterTitle">택뷰 등록하기</String>
+	<String ID="UpgradeTitle">택뷰를 프로페셔널 버전으로 업그레이드 하기</String>
+	<String ID="RegisterSubTitle">제품 키를 입력하여 주세요.</String>
+	<String ID="RegisterComment">제품을 등록하거나 향상된 기능을 해제하기 위해서는, 이메일을 통해 받은 25 문자열을 입력 해 주시기 바랍니다. 만약 제품키가 아직 없다면, 새 제품을 구입하실 수 있습니다.</String>
+	<String ID="UpgradeComment">제품을 업그레이드 하여 향상된 기능을 사용하기 위해서는 이메일을 통해 받은 25 문자열을 입력 해 주시기 바랍니다. 만약 프로페셔널 제품 키가 아직 없다면, 새 제품을 구입하실 수 있습니다.</String>
+	<String ID="RegisterExample">예시:</String>
+	<String ID="RegisterProductKey">제품 키:</String>
+	<String ID="RegisterBuyProductKey">온라인으로 새로운 제품 키 구입</String>
+	<String ID="RegisterInvalidProductKey">제품 키가 올바르지 않습니다. 키를 확인하신 후 다시 시도하여 주시기 바랍니다.</String>
+	<String ID="RegistrationSucceededSubTitle">축하합니다!</String>
+	<String ID="RegistrationSucceededComment">제품이 등록되었습니다. 택뷰를 다시 설치해야 하는 경우를 위해, 제품키를 안전한 곳에 보관 해 두시기 바랍니다.&#10;&#10;많은 향상된 기능과 더불어, 우선적으로 기술지원을 받으실 수 있으며, 앞으로 나올 2.x. 버전의 택뷰 프리뷰를 액세스 할 수 있는 권한을 가지게 되셨습니다.</String>
+	<String ID="RegistrationSucceededURL">제품을 등록함으로써 얻게 되는 추가적인 잇점에 대해 더 알아보기</String>
+	<String ID="RequireHomeLicenseText">이 버전의 택뷰를 사용하기 위해서는, 제품을 등록 해 주셔야 합니다.</String>
+	<String ID="RequireProfessionalLicenseText">이 버전의 택뷰를 사용하기 위해서는, 프로페셔널 라이센스가 필요합니다.</String>
+
+	<!-- Additional Dialogs Strings -->
+	<String ID="BrowseDCSWorldFolderHelp">'DCS 월드' 설치 폴더를 선택하여 주시기 바랍니다.</String>
+	<String ID="BrowseExportPathFolderHelp">현재 사용 유저용 .acmi 저장 폴더를 선택 해 주시기 바랍니다.</String>
+	<String ID="Falcon4TheaterFilter">팰콘 4.0 전장:</String>
+
+	<!-- Online Debriefing -->
+<!--
+	Korean characters are not yet supported in the 3D view
+	<String ID="HostLabel">(호스트)</String>
+	<String ID="InstructorLabel">(교관)</String>
+-->
+	<String ID="HostLabel">(host)</String>
+	<String ID="InstructorLabel">(instructor)</String>
+	<String ID="UnknownIPAddress">(익명)</String>
+<!--
+	Korean characters are not yet supported in the 3D view
+	<String ID="OnlineDebriefingHostTitle">호스팅 &#2;{0}&#1; 디브리핑</String>
+	<String ID="OnlineDebriefingClientJoiningTitle">디브리핑에 연결 중...</String>
+	<String ID="OnlineDebriefingClientTitle">디브리핑에 &#2;{0}&#1; 연결되었습니다</String>
+-->
+	<String ID="OnlineDebriefingHostTitle">Hosting &#2;{0}&#1; Debriefing</String>
+	<String ID="OnlineDebriefingClientJoiningTitle">Connecting to debriefing...</String>
+	<String ID="OnlineDebriefingClientTitle">Connected to &#2;{0}&#1; Debriefing</String>
+
+	<!-- Misc -->
+	<String ID="DemoEditionShortOneDay">데모 ({0} 일 남음)</String>
+	<String ID="DemoEditionShortManyDays">데모 ({0} 일 남음)</String>
+	<String ID="FreeEditionShort"></String>
+	<String ID="HomeEditionShort">홈</String>
+	<String ID="ProfessionalEditionShort">프로페셔널</String>
+	<String ID="DemoEditionOneDay">{0} 데모, {1} 일 남음</String>
+	<String ID="DemoEditionManyDays">{0} 데모, {1} 일 남음</String>
+	<String ID="FreeEdition">{0} 프리 에디션</String>
+	<String ID="HomeEdition">{0} 홈 에디션</String>
+	<String ID="ProfessionalEdition">{0} 프로페셔널 에디션</String>
+	<String ID="32bitEdition">32-bit</String>
+	<String ID="64bitEdition">64-bit</String>
+	<String ID="ProfessionalToolDemoWarningOneDay">이 툴은 택뷰 프로페셔널 에디션에서 <a href="cmd:RegisterCmd">사용이 가능합니다.</a>. {0} 일간 더 사용해 보실 수 있습니다.</String>
+	<String ID="ProfessionalToolDemoWarningManyDays">이 툴은 택뷰 프로페셔널 에디션에서 <a href="cmd:RegisterCmd">사용이 가능합니다.</a>. {0} 일간 더 사용해 보실 수 있습니다.</String>
+	<String ID="ProfessionalToolDemoExpired">이툴을 사용하시려면 프로페셔널 라이센스로 <a href="cmd:RegisterCmd">업그레이드</a> 하셔야 합니다.</String>
+<!--
+	Korean characters are not yet supported in the 3D view
+	<String ID="StrategicViewDemoWarning">이 전술 뷰는 택뷰 프로페셔널에서 사용 가능합니다.</String>
+-->
+	<String ID="StrategicViewDemoWarning">This Strategic View is available in Tacview Professional.</String>
+
+	<!-- Units -->
+<!--
+	Korean characters are not yet supported in the 3D view
+	<String ID="UnitLabelASL">해발 고도 ({0})</String>
+	<String ID="UnitLabelAGL">지상 고도 ({0})</String>
+	<String ID="UnitLabelElevationProfile">지상 높이 ({0})</String>
+	<String ID="UnitLabelTAS">TAS ({0})</String>
+	<String ID="UnitLabelIAS">IAS ({0})</String>
+	<String ID="UnitLabelGS">대지 속도 ({0})</String>
+	<String ID="UnitLabelAbsoluteTime">시간</String>
+	<String ID="UnitLabelRelativeTime">상대 시간</String>
+	<String ID="UnitLabelMachNumber">마하</String>
+	<String ID="UnitLabelAbsoluteAoA">AoA (°)</String>
+	<String ID="UnitLabelIndicatedAoA">AoA (°)</String>
+	<String ID="UnitLabelAbsoluteG">지-포스 (G)</String>
+	<String ID="UnitLabelIndicatedG">지-포스 (G)</String>
+	<String ID="UnitLabelRollRate">롤 레이트 (°/s)</String>
+	<String ID="UnitLabelTurnRate">턴 레이트 (°/s)</String>
+	<String ID="UnitLabelTurnRadius">회전 반경 ({0})</String>
+	<String ID="UnitLabelKineticEnergy">운동 에너지 (Ek)</String>
+	<String ID="UnitLabelPotentialEnergy">위치 에너지 (Ep)</String>
+	<String ID="UnitLabelMechanicalEnergy">역학 에너지 (Em)</String>
+	<String ID="UnitLabelVS">VS ({0})</String>
+	<String ID="UnitLabelHeading">헤딩 (°)</String>
+	<String ID="UnitLabelTrack">트랙 (°)</String>
+	<String ID="UnitLabelDistance">거리 ({0})</String>
+-->
+	<String ID="UnitLabelASL">ASL Altitude ({0})</String>
+	<String ID="UnitLabelAGL">AGL Altitude ({0})</String>
+	<String ID="UnitLabelElevationProfile">Ground Elevation ({0})</String>
+	<String ID="UnitLabelTAS">TAS ({0})</String>
+	<String ID="UnitLabelIAS">IAS ({0})</String>
+	<String ID="UnitLabelGS">Ground Speed ({0})</String>
+	<String ID="UnitLabelAbsoluteTime">Time</String>
+	<String ID="UnitLabelRelativeTime">Relative Time</String>
+	<String ID="UnitLabelMachNumber">Mach</String>
+	<String ID="UnitLabelAbsoluteAoA">AoA (°)</String>
+	<String ID="UnitLabelIndicatedAoA">AoA (°)</String>
+	<String ID="UnitLabelAbsoluteG">g-force (G)</String>
+	<String ID="UnitLabelIndicatedG">g-force (G)</String>
+	<String ID="UnitLabelRollRate">Roll Rate (°/s)</String>
+	<String ID="UnitLabelTurnRate">Turn Rate (°/s)</String>
+	<String ID="UnitLabelTurnRadius">Turn Radius ({0})</String>
+	<String ID="UnitLabelKineticEnergy">Kinetic Energy (Ek)</String>
+	<String ID="UnitLabelPotentialEnergy">Potential Energy (Ep)</String>
+	<String ID="UnitLabelMechanicalEnergy">Mechanical Energy (Em)</String>
+	<String ID="UnitLabelVS">VS ({0})</String>
+	<String ID="UnitLabelHeading">Heading (°)</String>
+	<String ID="UnitLabelTrack">Track (°)</String>
+	<String ID="UnitLabelDistance">Distance ({0})</String>
+
+	<!-- **** Not certified below **** -->
+
+	<!-- Dialogs Strings -->
+	<String ID="ScriptInstallFailedText">설치 스크립트 익스포트가 실패하였습니다¤ '{0}' 이 정상적으로 설치되었는지, 그리고 해당 폴더에 쓰기권한이 있는지 확인 해 주시기 바랍니다.</String>
+	<String ID="ScriptUninstallFailedText">제거 스크립트 익스포트가 실패하였습니다.¤'{0}' 폴더에 쓰기권한이 있는지 확인 해 주시기 바랍니다.</String>
+	<String ID="InvalidCommandLineArgumentText">지원되지 않는 커맨드 라인 인자입니다: [{0}]¤헬프 메뉴를 확인하셔서 가능한 명령어를 확인하여 주시고, 정상적으로 입력되었는지 다시 한 번 확인 해 주시기 바랍니다.</String>
+	<String ID="InvalidShortcutText">미션 내에 현재의 단축키가 지정 된 오브젝트나 시간을 찾을 수 없습니다. 정상적인 파일을 열었는지, 그리고 단축키가 정상적으로 복사/붙이기 되었는지 확인하시기 바랍니다.</String>
+
+	<String ID="AboutTitle">택뷰에 대하여</String>
+	<String ID="AboutCopyright">Copyright © 2006-2016, Stra Software. All Rights Reserved.&#10;이 컴퓨터 프로그램은 국제규약의 저작권 법에 의해 보호받고 있습니다.&#10;변경되지 않은 버전의 설치본을 자유롭게 배포하실 수 있습니다.</String>
+
+	<String ID="LoadingInProgressShort">로딩...</String>
+	<String ID="LoadingInProgress">로딩 '{0}'</String>
+	<String ID="DataMergeInProgress">합치기 '{0}'</String>
+	<String ID="DataAnalysisInProgress">데이터 분석...</String>
+	<String ID="SavingInProgressShort">저장...</String>
+	<String ID="SavingInProgress">저장 '{0}'</String>
+
+	<!-- Misc GUI Strings -->
+	<String ID="InvalidObjectName">(없음)</String>
+	<String ID="NotAvailable">N/A</String>
+	<String ID="ACMIFileDescription">택뷰 ACMI - 비행 기록</String>
+	<String ID="VHSFileDescription">팰콘 4.0 - 비행 기록</String>
+	<String ID="CustomProtocolDescription">택뷰 단축키</String>
+	<String ID="NoRecentDocuments">(최근 문서 없음)</String>
+	<String ID="FileTypeDescriptionACMIMany">여러 종류의 비행 기록</String>
+	<String ID="FileTypeDescriptionTacview">택뷰 비행 기록</String>
+	<String ID="FileTypeDescriptionTacviewMany">택뷰 비행 기록</String>
+	<String ID="FileTypeDescriptionGPXMany">GPS 변환 파일</String>
+	<String ID="FileTypeDescriptionFalcon4Many">팰콘 4.0 비행 기록</String>
+	<String ID="FileTypeDescriptionCSVMany">CSV 포맷의 비행 기록</String>
+	<String ID="FileTypeDescriptionKMLMany">키홀 마크업 언어 (KML) 포맷의 비행 기록</String>
+	<String ID="FileTypeDescriptionXMLFlightLog">XML 비행 로그</String>
+	<String ID="FileTypeDescriptionCSVFlightLog">UTF-8 쉼표 구분값 비행 로그</String>
+	<String ID="FileTypeDescriptionCSVTelemetry">UTF-8 쉼표 구분값 파일comma-separated values file</String>
+	<String ID="FileTypeDescriptionObjectsMany">고정 오브젝트와 팰콘 4.0 BMS DTC 파일</String>
+	<String ID="FileTypeDescriptionAll">모든 파일</String>
+	<String ID="TypeColumn">타입</String>
+	<String ID="TimeColumn">시간</String>
+	<String ID="EventColumn">이벤트</String>
+	<String ID="LogLevelDebug">디버그</String>
+	<String ID="LogLevelInfo">정보</String>
+	<String ID="LogLevelWarning">경고</String>
+	<String ID="LogLevelError">에러</String>
+
+	<!-- Flight Recording Strings -->
+	<String ID="ObjectNameShrapnel">파편</String>
+	<String ID="ObjectNameShell">탄피</String>
+	<String ID="ObjectNameBullet">탄환</String>
+	<String ID="ObjectNameChaff">챼프</String>
+	<String ID="ObjectNameFlare">플레어</String>
+	<String ID="ObjectNameSmokeGrenade">연막 수류탄</String>
+	<String ID="ObjectNameBuilding">빌딩</String>
+
+	<String ID="EventDecoyed">(디코이)</String>
+	<String ID="EventDecoyedBy">({0}에 의한 디코이)</String>
+	<String ID="EventHasDestroyed">( {0}(을)를 파괴하였습니다.)</String>
+	<String ID="EventHasHit">({0}(을)를 맞췄습니다.)</String>
+	<String ID="EventFlightRecordingStart">비행 기록 시작지점</String>
+	<String ID="EventFlightRecordingEnd">비행 기록 종료 지점 (지속시간: {0,02}:{1,02}:{2,02})</String>
+	<String ID="EventHasEnteredTheArea">{0} (이)가 전장에 참여하였습니다.</String>
+	<String ID="EventHasEnteredTheAreaCloseTo">{0} (이)가 {1}에 가깝게 전장에 참여하였습니다.</String>
+	<String ID="EventHasEnteredTheAreaAt">{0} (이)가 {1} 지역에 들어왔습니다.</String>
+	<String ID="EventHasLanded">{0} (이)가 착륙하였습니다.</String>
+	<String ID="EventHasLandedCloseTo">{0} (이)가 {1} 근처에 착륙하였습니다.</String>
+	<String ID="EventHasLandedAt">{0} (이)가 {1} 에 착륙하였습니다.</String>
+	<String ID="EventHasLandedOn">{0} (이)가 {1} 위에 착륙하였습니다.</String>
+	<String ID="EventHasLeftTheArea">{0} (이)가 지역을 벗어났습니다.</String>
+	<String ID="EventHasLeftTheAreaCloseTo">{0} (이)가 지역을 벗어났습니다. ({1} 근처임)</String>
+	<String ID="EventHasLeftTheAreaFrom">{0} (이)가 지역을 벗어났습니다. ({1}에서 부터)</String>
+	<String ID="EventHasTakeOff">{0} (이)가 이륙하였습니다. </String>
+	<String ID="EventHasTakeOffCloseTo">{0} (이)가 {1} 근처에서 이륙하였습니다.</String>
+	<String ID="EventHasTakeOffFrom">{0} (이)가 {1} 에서 이륙하였습니다.</String>
+	<String ID="EventHasFiredSingle">{0} (이)가 {1}(을)를 발사하였습니다.</String>
+	<String ID="EventHasFiredMultiple">{0} (이)가 {2}× {1}(을)를 발사하였습니다.</String>
+	<String ID="EventHasBeenHitBySingle">{0} (이)가 {1}에 맞았습니다.</String>
+	<String ID="EventHasBeenHitByMultiple">{0} (이)가 {2}번 {1}에 맞았습니다.</String>
+	<String ID="EventHasBeenDestroyed">{0} (이)가 파괴되었습니다.</String>
+	<String ID="EventHasBeenDestroyedBy">{0} (이)가 {1}에 의해 파괴되었습니다.</String>
+
+<!--
+	Korean characters are not yet supported in the 3D view
+	<String ID="StatusPlay">플레이</String>
+	<String ID="StatusPlayFast">플레이 &#2;×{0:g}</String>
+	<String ID="StatusRewind">되감기</String>
+	<String ID="StatusRewindFast">되감기 &#2;×{0:g}</String>
+	<String ID="StatusPause">일시정지</String>
+-->
+	<String ID="StatusPlay">PLAY</String>
+	<String ID="StatusPlayFast">PLAY &#2;×{0:g}</String>
+	<String ID="StatusRewind">REWIND</String>
+	<String ID="StatusRewindFast">REWIND &#2;×{0:g}</String>
+	<String ID="StatusPause">PAUSE</String>
+
+	<!-- Error Messages -->
+	<String ID="ErrorUnknown">알수 없는 에러 0x{0,08:X}</String>
+
+	<String ID="LoadingErrorObjectNotFound">파일 '{1}'(이)가 발견되지 않습니다.¤해당 비행기록이 엑세스가 가능한 지 확인하여 주시기 바랍니다.</String>
+	<String ID="LoadingErrorInvalidName">'{1}'(은)는 올바르지 않은 파일 이름입니다.¤조금 더 단순하거나 잘 포맷 된 이름으로 다시 시도 해 주시기 바랍니다.</String>
+	<String ID="LoadingErrorInvalidFormat">올바르지 않은 파일 포맷입니다.¤'{1}'(은)는 포맷이 잘못되었거나 비행기록 파일이 아닙니다.</String>
+	<String ID="LoadingErrorInvalidObject">올바르지 않은 파일입니다.¤'{1}'(은)는 파일에 문제가 있는 듯 합니다.</String>
+	<String ID="LoadingErrorOutOfMemory">메모리가 부족합니다.¤다른 응용프로그램을 종료 후 다시 시도 해 주시기 바랍니다.¤(혹은 비행기록 파일이 너무 클 수도 있습니다.)</String>
+	<String ID="LoadingErrorNotSupported">파일포맷 '{1}' (은)는 지원되지 않습니다.¤공식 웹사이트인 &lt;a href="http://tacview.strasoftware.com/"&gt;를 방문하셔서 &lt;/a&gt; 새 버전이나 이 파일을 지원할 수 있는 다른 에디션이 있는지 확인 해 보시기 바랍니다.</String>
+	<String ID="LoadingErrorMissingParameter">파일 포맷이 올바르지 않습니다.¤파라미터 중 하나가 없습니다.</String>
+	<String ID="LoadingErrorInvalidParameter">파일 포맷이 올바르지 않습니다.¤몇 개의 파라미터가 올바른 값이 아닙니다.</String>
+	<String ID="LoadingErrorOutOfSpace">지원되지 않는 파일 포맷입니다.¤'{1}'(은)는 새 버전의 택뷰에서 제작되었을 수 있습니다.</String>
+	<String ID="LoadingErrorInvalidID">파일 포맷이 올바르지 않습니다.¤유닛 ID가 잘못되었습니다.</String>
+	<String ID="LoadingErrorUnexpectedCall">파일 포맷이 올바르지 않습니다.¤하나의 유닛이 지역을 벗어났음에도 계속 나타나 있는 상태입니다.</String>
+	<String ID="LoadingErrorEndOfFile">'{1}'(은)는 비어있습니다.¤추출 스크립트가 적절하게 설치가 되었는지 확인하시고 온라인 서버가 해당 스크립트를 사용 불가능으로 지정하지 않았는지 확인 해 주시기 바랍니다.</String>
+	<String ID="LoadingErrorInvalidPath">경로가 올바르지 않습니다.¤비행기록 파일이 엑세스가 가능한 지 다시 확인하여 주시기 바랍니다.</String>
+
+	<String ID="SavingErrorInvalidName">파일 이름이 올바르지 않습니다.¤파일 이름이 적절한 포맷인지 확인하시고 조금 단순한 파일 이름으로 다시 시도 해 주시기 바랍니다.</String>
+	<String ID="SavingErrorInvalidPath">경로가 올바르지 않습니다.¤Please ensure that the target path is accessible and available.</String>
+	<String ID="SavingErrorOutOfMemory">메모리가 부족합니다.¤다른 응용 프로그램을 종료 후 다시 시도하여 주시기 바랍니다.</String>
+	<String ID="SavingErrorOutOfSpace">디스크가 꽉 찼습니다.¤일부 파일을 지우신 후 다시 시도하여 주시기 바랍니다.</String>
+	<String ID="SavingErrorSharingViolation">공유 위반입니다.¤이 파일이 다른 곳에서 이미 사용되고 있지 않은지 확인하여 주시기 바랍니다.</String>
+
+	<!-- Misc Help Strings -->
+	<String ID="TTRewind">처음으로 돌아가기</String>
+	<String ID="TTSlower">천천히</String>
+	<String ID="TTPlayPause">플레이 / 일시정지</String>
+	<String ID="TTFaster">빠르게</String>
+	<String ID="TTEnd">끝으로 가기</String>
+	<String ID="TTOneFrame">프레임 바이 프레임</String>
+
+	<String ID="TTViewCockpit">조종석 시점 (F5)</String>
+	<String ID="TTViewExternal">외부 시점 (F6)</String>
+	<String ID="TTViewSatellite">위성 시점 (F7)</String>
+	<String ID="TTViewFree">프리 카메라 (F8)</String>
+
+	<String ID="TTDrawHeight">오브젝트의 높이 보여주기</String>
+	<String ID="TTDrawDirection">선택된 오브젝트의 방향 보여주기</String>
+	<String ID="TTDrawIDs">오브젝트 ID 보여주기</String>
+	<String ID="TTDrawThreats">SAM/AAA의 위협거리 보여주기</String>
+	<String ID="TTDrawRadarLocks">레이더 락 보여주기 (가능 할 경우)</String>
+	<String ID="TTDrawAutoScaleUp">먼 거리의 오브젝트 자동 스케일 업</String>
+	<String ID="TTShare">쇼트컷 공유하기</String>
+	<String ID="TTTakeControl">컨트롤 가져오기 (온라인 디브리핑)</String>
+
+	<String ID="TTObjectsRange">선택된 오브젝트들의 거리와 근접률&#10;(오브젝트 스왑은 클릭, 옵션은 우클릭)</String>
+	<String ID="TTDogfightButton">독파이팅 카메라 모드</String>
+	<String ID="TTTrailSize">트레일 크기</String>
+
+</Resources>
