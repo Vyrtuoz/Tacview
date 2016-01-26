@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- Tacview Installer Spanish Text -->
+<!-- Translation by xxxx -->
+
+<Resources Language="es">
+
+	<!-- Main Page -->
+	<String ID="WelcomeText">This powerful tool will enable you to record any flight,&#10;to review, analyze and understand what really happened!</String>
+	<String ID="ApplicationDescription">Analyze any flight, understand, and improve your skills like never before!</String>
+
+	<!-- Additional Shortcuts -->
+	<String ID="FSX2ACMIShortcutName">FSX2ACMI</String>
+	<String ID="FSX2ACMIShortcutHelp">Microsoft Flight Simulator X flight recorder for Tacview</String>
+
+</Resources>
