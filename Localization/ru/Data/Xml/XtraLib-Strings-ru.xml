@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- XtraLib Russian Text -->
+<!-- Translation by Иван Гулевич <vomitter@gmail.com> -->
+
+<Resources Language="ru">
+
+	<!-- Main Menu -->
+	<String ID="OpenRecentFileCmdHelp">Открыть [{0}]</String>
+
+	<!-- Dockable Windows -->
+	<String ID="DockableFloatingText">&amp;Перемещение</String>
+	<String ID="DockableFloatingHelp">Открепить это окно от основного</String>
+	<String ID="DockableDockableText">&amp;Закреплено</String>
+	<String ID="DockableDockableHelp">Закрепить это окно в основном</String>
+	<String ID="DockableAutoHideText">&amp;Скрывать автоматически</String>
+	<String ID="DockableAutoHideHelp">Закрепить окно и скрывать, если оно не на переднем плане</String>
+	<String ID="DockableTransparencyText">&amp;Прозрачность</String>
+	<String ID="DockableOpaqueText">&amp;Непрозрачность</String>
+	<String ID="DockableOpaqueHelp">Сделать это окно всегда непрозрачным</String>
+	<String ID="DockableTransparentHelp">Сделать окно прозрачным, если не на переднем плане</String>
+	<String ID="DockableHideText">&amp;Скрыть</String>
+	<String ID="DockableHideHelp">Закрыть это окно</String>
+	<String ID="DockableWindowCloseButtonTip">Скрыть</String>
+	<String ID="DockableWindowAutoHideButtonTip">Скрывать автоматически</String>
+
+	<!-- Rich Edit -->
+	<String ID="RichEditUndoText">&amp;Отменить действие</String>
+	<String ID="RichEditUndoHelp">Обратить крайнее действие</String>
+	<String ID="RichEditRedoText">&amp;Повторить действие</String>
+	<String ID="RichEditRedoHelp">Повторить крайнее отменённое действие</String>
+	<String ID="RichEditCutText">Вырезать&amp;</String>
+	<String ID="RichEditCutHelp">Вырезать выделенное в буфер обмена</String>
+	<String ID="RichEditCopyText">&amp;Копировать</String>
+	<String ID="RichEditCopyHelp">Копировать выделенное в буфер обмена</String>
+	<String ID="RichEditPasteText">&amp;Вставить</String>
+	<String ID="RichEditPasteHelp">Вставка из буфера обмена</String>
+	<String ID="RichEditSelectAllText">Выбрать &amp;все</String>
+	<String ID="RichEditSelectAllHelp">Выделить весь текст</String>
+
+	<!-- Time Remaining Estimation -->
+	<String ID="TimeRemainingAboutXMinutes">Около {0} минут</String>
+	<String ID="TimeRemainingAboutAMinute">Около минуты</String>
+	<String ID="TimeRemainingLessThanMinute">Менее минуты</String>
+	<String ID="TimeRemainingAbout10Seconds">Около 10 секунд</String>
+	<String ID="TimeRemainingAbout5Seconds">Около 5 секунд</String>
+	<String ID="TimeRemaining0Second">Завершено</String>
+
+	<!-- Message Boxes -->
+	<String ID="NotInstalled">{0} не установлен на данном ПК.</String>
+	<String ID="CloseBeforeUninstall">Пожалуйста, закройте {0} перед запуском инсталлятора.</String>
+	<String ID="UninstallConfirmation">Вы действительно хотите полностью удалить {0} и все его компоненты?</String>
+	<String ID="UninstallSucceed">{0} был успешно удалён с данного ПК.</String>
+
+	<String ID="OKButton">&amp;ОК</String>
+	<String ID="CancelButton">&amp;Отмена</String>
+	<String ID="YesButton">&amp;Да</String>
+	<String ID="NoButton">&amp;Нет</String>
+	<String ID="CloseButton">&amp;Закрыть</String>
+	<String ID="QuitButton">&amp;Выйти</String>
+
+</Resources>

@@ -1,0 +1,701 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- Tacview Russian Text -->
+<!-- Translation by Иван Гулевич <vomitter@gmail.com> -->
+
+<Resources Language="ru">
+
+	<String ID="FileMenuTooltip">Файл</String>
+	<!-- Main Menu -->
+	<String ID="FileMenuHelp">Импорт и экспорт данных полёта</String>
+	<String ID="FileOpenCmdText">&amp;Открыть...&#9;Ctrl+O</String>
+	<String ID="FileOpenCmdHelp">Окрыть существующую запись</String>
+	<String ID="FileOpenContainingFolderCmdText">Открыть папку &amp;с файлом</String>
+	<String ID="FileOpenContainingFolderCmdHelp">Открыть папку с текущей записью в Проводнике</String>
+	<String ID="FileMergeCmdText">&amp;Объединить...</String>
+	<String ID="FileMergeCmdHelp">Объединить существующую запись со всеми данными, загруженными на данный момент</String>
+	<String ID="FileSaveCmdText">&amp;Сохранить&#9;Ctrl+S</String>
+	<String ID="FileSaveCmdHelp">Сохранить текущую запись полёта</String>
+	<String ID="FileSaveCmdAsText">Сохранить &amp;как...</String>
+	<String ID="FileSaveAsCmdHelp">Сохранить запись полёта под новым именем</String>
+	<String ID="FileExportText">Экспорт</String>
+	<String ID="FileExportFlightLogText">Экспортировать данные полёта &amp;Лог...</String>
+	<String ID="FileExportFlightLogHelp">Экспортировать данные полёта в формате XML или CSV</String>
+
+	<String ID="RecordingMenuTooltip">Ведётся запись</String>
+	<String ID="RecordingMenuHelp">Задать свойства записи полёта</String>
+	<String ID="RecordingNetworkCmdText">&amp;Удалённая запись...</String>
+	<String ID="RecordingNetworkCmdHelp">Записать полёт через сеть</String>
+	<String ID="RecordingRecordDCSWorldCmdText">Записать полёты в DCS World</String>
+	<String ID="RecordingRecordDCSWorldCmdHelp">Записывать все полёты в DCS World</String>
+	<String ID="RecordingExportPathCmdText">Файлы ACMI &amp;Папка для сохранённых записей...</String>
+	<String ID="RecordingExportPathCmdHelp">Выбрать папку записи файлов .acмi для текущего пользователя</String>
+
+	<String ID="AnalysisMenuTooltip">Анализ</String>
+	<String ID="AnalysisMenuHelp">Инструменты</String>
+	<String ID="AnalysisPropertiesText">&amp;Свойства</String>
+	<String ID="AnalysisPropertiesHelp">Показать / скрыть свойства записи полёта</String>
+	<String ID="AnalysisEventLogText">&amp;Лог полёта</String>
+	<String ID="AnalysisEventLogHelp">Показать / скрыть лог файла записи полёта</String>
+	<String ID="AnalysisDisplayTelemetry0Text">Телеметрия &amp;1</String>
+	<String ID="AnalysisDisplayTelemetry0Help">Показать / скрыть телеметрическое окно #1</String>
+	<String ID="AnalysisDisplayTelemetry1Text">Телеметрия &amp;2</String>
+	<String ID="AnalysisDisplayTelemetry1Help">Показать / скрыть телеметрическое окно #2</String>
+	<String ID="AnalysisDisplayTelemetry2Text">Телеметрия &amp;3</String>
+	<String ID="AnalysisDisplayTelemetry2Help">Показать / скрыть телеметрическое окно #3</String>
+	<String ID="AnalysisDisplayTelemetry3Text">Телеметрия &amp;4</String>
+	<String ID="AnalysisDisplayTelemetry3Help">Показать / скрыть телеметрическое окно #4</String>
+	<String ID="AnalysisDisplayChart1Text">Графики &amp;1</String>
+	<String ID="AnalysisDisplayChart1Help">Показать / скрыть окно с графиком #1</String>
+	<String ID="AnalysisDisplayChart2Text">Графики &amp;2</String>
+	<String ID="AnalysisDisplayChart2Help">Показать / скрыть окно с графиком #2</String>
+	<String ID="AnalysisDisplayChart3Text">Графики &amp;3</String>
+	<String ID="AnalysisDisplayChart3Help">Показать / скрыть окно с графиком #3</String>
+	<String ID="AnalysisDisplayChart4Text">Графики &amp;4</String>
+	<String ID="AnalysisDisplayChart4Help">Показать / скрыть окно с графиком #4</String>
+
+	<String ID="DebriefingMenuTooltip">Разбор полётов</String>
+	<String ID="DebriefingMenuHelp">Инструменты</String>
+	<String ID="DebriefingOnlineDebriefingText">&amp;Онлайн брифинг...</String>
+	<String ID="DebriefingOnlineDebriefingHelp">Присоединиться / создать свой онлайн брифинг</String>
+
+	<String ID="OptionsMenuTooltip">Опции</String>
+	<String ID="OptionsMenuHelp">Изменить настройки программы</String>
+	<String ID="OptionsDisplayCommentsText">Отображать &amp;комментарии</String>
+	<String ID="OptionsDisplayCommentsHelp">Отображать комментарии субтитрами поверх 3D</String>
+
+	<String ID="OptionsTerrainDisplayModeText">Режим отображения ландшафта</String>
+	<String ID="OptionsTerrainDisplayMode3DText">&amp;3D</String>
+	<String ID="OptionsTerrainDisplayMode3DHelp">Полностью в 3D</String>
+	<String ID="OptionsTerrainDisplayModeFlatText">&amp;Плоский</String>
+	<String ID="OptionsTerrainDisplayModeFlatHelp">Уменьшить неровности для лучшего восприятия</String>
+	<String ID="OptionsTerrainDisplayModeEmptyText">&amp;Пустой</String>
+	<String ID="OptionsTerrainDisplayModeEmptyHelp">Отображать пустой ландшафт для лучшего воприятия</String>
+
+	<String ID="OptionsTerrainText">Ландшафт</String>
+	<String ID="OptionsTerrainAutoText">(&amp;Авто)</String>
+	<String ID="OptionsTerrainAutoHelp">Автоматически использовать наилучшую модель ландшафта</String>
+	<String ID="OptionsTerrainGenericHelp">Использовать ландшафт из '{0}'</String>
+	<String ID="OptionsTerrainTextRealWorld">Реальный ландшафт</String>
+	<String ID="OptionsTerrainHelpRealWorld">Использовать реалистичный ландшафт, на базе данных, собранных топографическими ислледованиями НАСА</String>
+	<String ID="OptionsTerrainTextDCSWorld">DCS World</String>
+	<String ID="OptionsTerrainHelpDCSWorld">Использовать ландшафт из крайней версии DCS World</String>
+	<String ID="OptionsTerrainTextEECH">Разорванное небо: Ка-52 против Команча</String>
+	<String ID="OptionsTerrainHelpEECH">Использовать ландшафт из игры "Разорванное небо"</String>
+	<String ID="OptionsTerrainTextFalcon4">Falcon 4.0</String>
+	<String ID="OptionsTerrainHelpFalcon4">Использовать ландшафт из "Falcon 4.0"</String>
+
+	<String ID="OptionsLanguageText">Язык</String>
+	<String ID="OptionsLanguageAutoText">(&amp;Авто)</String>
+	<String ID="OptionsLanguageAutoHelp">Автоматически выбрать оптимальную локализацию</String>
+
+	<!-- Units -->
+	<String ID="OptionsMeasurementSystemText">Единицы измерения</String>
+	<String ID="OptionsAutoUnitsText">(&amp;Авто)</String>
+	<String ID="OptionsAutoUnitsHelp">Автоматически выбрать подходящую систему измерений</String>
+
+	<String ID="OptionsMetricDataAnalysisUnitsText">Метрическая - Анализ данных</String>
+	<String ID="OptionsMetricDataAnalysisUnitsHelp">Скорость: м/с - Вертикальная скорость: м/с - Высота: м - Расстояние: м</String>
+	<String ID="OptionsMetricHelicopterUnitsText">Метрическая - Вертолёт</String>
+	<String ID="OptionsMetricHelicopterUnitsHelp">Скорость: км/час - Вертикальная скорость: м/с - Высота: м - Расстояние: км</String>
+	<String ID="OptionsMetricAirplaneUnitsText">Метрическая - Самолёт</String>
+	<String ID="OptionsMetricAirplaneUnitsHelp">Скорость: км/час - Вертикальная скорость: м/мин - Высота: м - Расстояние: км</String>
+
+	<String ID="OptionsImperialDataAnalysisMIUnitsText">Имперская - Анализ данных (мили)</String>
+	<String ID="OptionsImperialDataAnalysisMIUnitsHelp">Скорость: миль/час - Вертикальная Скорость: фут/мин - Высота: фут - Расстояние: фут</String>
+	<String ID="OptionsImperialDataAnalysisNMUnitsText">Имперская - Анализ данных (морские мили)</String>
+	<String ID="OptionsImperialDataAnalysisNMUnitsHelp">Скорость: узлы - Вертикальная Скорость: фут/мин - Высота: фут - Расстояние: фут</String>
+	<String ID="OptionsImperialAircraftMIUnitsText">Имперская - Самолёт (мили)</String>
+	<String ID="OptionsImperialAircraftMIUnitsHelp">Скорость: миль/час - Вертикальная Скорость: фут/мин - Высота: фут - Расстояние: миль &amp; фут</String>
+	<String ID="OptionsImperialAircraftNMUnitsText">Имперская - Самолёт (морские мили)</String>
+	<String ID="OptionsImperialAircraftNMUnitsHelp">Скорость: узлы - Вертикальная Скорость: фут/мин - Высота: фут - Расстояние: м.миль &amp; фут</String>
+
+	<String ID="OptionsPositionFormatText">Формат координат</String>
+	<String ID="OptionsPositionFormatDDDHelp">Десятичные градусы</String>
+	<String ID="OptionsPositionFormatDMMHelp">Градусы, десятичные минуты</String>
+	<String ID="OptionsPositionFormatDMSHelp">Градусы, минуты, секунды</String>
+	<String ID="OptionsPositionFormatMGRSHelp">Военная система прямоугольных координат(MGRS)</String>
+
+	<String ID="AspectAngleLeft">Л</String>
+	<String ID="AspectAngleRight">П</String>
+
+	<!-- Other Options -->
+	<String ID="OptionsAssociateFileTypesText">&amp;Ассоциировать acmi файлы с Tacview</String>
+	<String ID="OptionsAssociateFileTypesHelp">Позволяет открывать acmi файлы в программе Tacview по двойному щелчку мыши (Windows OS)</String>
+	<String ID="OptionsTrackIRCmdText">TrackIR</String>
+	<String ID="OptionsTrackIRCmdHelp">Включить поддержку TrackIR в вида из кабины</String>
+
+	<String ID="InsertBookmarkText">&amp;Добавить закладку</String>
+	<String ID="InsertBookmarkHelp">Создать и добавить закладку в события на шкале времени</String>
+	<String ID="RemoveBookmarkText">&amp;Удалить закладку</String>
+	<String ID="RemoveBookmarkHelp">Удалить текущую закладку</String>
+	<String ID="ShareCopyShortcutText">&amp;Копировать ярлык&#9;(Ctrl+C)</String>
+	<String ID="ShareCopyShortcutHelp">Создать ярлык для текущего вида, чтобы поделиться с друзьями</String>
+	<String ID="SharePasteShortcutText">&amp;Вставить ярлык&#9;(Ctrl+V)</String>
+	<String ID="SharePasteShortcutHelp">Восстановить положение камеры из ярлыка, присланного друга</String>
+	<String ID="AttractAttentionHelp">Привязать внимание зрителя к конкретному объекту</String>
+
+	<String ID="SelectedObjectsTelemetryText">Метки выбранных объектов</String>
+	<String ID="AircraftsTelemetryText">Метки не выбранных самолётов</String>
+	<String ID="LabelOnAllGroundObjectsText">Отметить все наземные объекты</String>
+	<String ID="LabelOnAllGroundObjectsHelp">Отображать метки на всех наземных объектах, включая ПВО</String>
+
+	<String ID="LabelsScaleText">Размер меток</String>
+	<String ID="ScaleAutoText">Авто</String>
+	<String ID="ScaleAutoHelp">Масштаб изменится сообразно размеру окна просмотра</String>
+	<String ID="Scale1Text">Маленький</String>
+	<String ID="Scale1Help">Дефолтный</String>
+	<String ID="Scale2Text">Большой</String>
+	<String ID="Scale2Help">Вдвое больше дефолтного размера</String>
+
+	<String ID="HelpMenuTooltip">Помощь</String>
+	<String ID="HelpMenuHelp">Отображать подсказки и общую информацию о программе</String>
+	<String ID="HelpDisplayControlsText">&amp;Список элементов управления&#9;F1</String>
+	<String ID="HelpDisplayControlsHelp">Отображать список элементов управления 3D видами</String>
+	<String ID="HelpCommandLineOptionsText">Коммандная строка &amp;Опции</String>
+	<String ID="HelpCommandLineOptionsHelp">Отображать подсказки в командной строке для команд, поддеживаемых TacView</String>
+	<String ID="HelpTechnicalSupportText">Техническая &amp;Поддержка</String>
+	<String ID="HelpTechnicalSupportHelp">Подключиться к оффициальному сайту программы Tacview</String>
+	<String ID="HelpUserLicenseAgreementText">Пользовательское &amp;Лицензионное соглашение</String>
+	<String ID="HelpUserLicenseAgreementHelp">Отобразить пользовательское соглашение</String>
+	<String ID="HelpCheckForUpdatesText">Проверить наличие &amp;обновлений</String>
+	<String ID="HelpCheckForUpdatesHelp">Проверить нличие новой версии Tacview онлайн</String>
+	<String ID="HelpDebugLogText">Лог отладчика</String>
+	<String ID="HelpDebugLogHelp">Результаты работы отладчика, помогающие выявить проблемы</String>
+	<String ID="HelpEventsProfilerText">Профилировщик событий</String>
+	<String ID="HelpEventsProfilerHelp">Отображать инструменты профилировщика событий</String>
+	<String ID="HelpFunctionsProfilerText">Профилировщик функций</String>
+	<String ID="HelpFunctionsProfilerHelp">Отображать инструменты профилировщика событий</String>
+	<String ID="HelpGraphicalProfilerText">Графический &amp;профилировщик</String>
+	<String ID="HelpGraphicalProfilerHelp">Отображать инструменты профилировщика графики</String>
+	<String ID="HelpMemoryProfilerText">&amp;Профилировщик памяти</String>
+	<String ID="HelpMemoryProfilerHelp">Отображать инструменты профилировщика памяти</String>
+	<String ID="HelpAboutText">&amp;О программе Tacview</String>
+	<String ID="HelpAboutHelp">Отображать информацию об авторских правах</String>
+
+	<String ID="RegisterCmdTooltip">Зарегистрироваться</String>
+	<String ID="RegisterCmdHelp">Зарегистрировать свою копию Tacview</String>
+	<String ID="UpgradeCmdTooltip">Обновиться до версии Professional</String>
+	<String ID="UpgradeCmdHelp">Обновить "Home" версию продукта до "Professional"</String>
+
+	<!-- Popup Menus -->
+	<String ID="ObjectsInfoCmdRateOfClosureText">Расстояние / Скорость сближения</String>
+	<String ID="ObjectsInfoCmdRateOfClosureHelp">Отображать расстояние и скорость сближения между выбранными объектами</String>
+	<String ID="ObjectsInfoCmdAbsoluteBearingText">Расстояние / Курс</String>
+	<String ID="ObjectsInfoCmdAbsoluteBearingHelp">Отображать расстояние и курс между выбранными объектами</String>
+	<String ID="ObjectsInfoCmdRelativeBearingNavText">Расстояние / Относительный курс (Навигация/2D)</String>
+	<String ID="ObjectsInfoCmdRelativeBearingNavHelp">Отображать расстояние и относительный курс (в 2D) между выбранными объектами</String>
+	<String ID="ObjectsInfoCmdRelativeBearingCombatText">Расстояние / Относительный курс (Боевой/3D)</String>
+	<String ID="ObjectsInfoCmdRelativeBearingCombatHelp">Отображать растояние и относительный курс (в 3D) между выбранными объектами</String>
+	<String ID="ObjectsInfoCmdAspectAngleText">Расстояние / Угловое положение</String>
+	<String ID="ObjectsInfoCmdAspectAngleHelp">Отображать значение угла (хвост цели - ваш летательный аппарат)</String>
+	<String ID="ObjectsInfoCmdDisplayObjectsInfoText">Отображать в 3D</String>
+	<String ID="ObjectsInfoCmdDisplayObjectsInfoHelp">Отображать информацию о выбранных аппаратах в 3D виде</String>
+	<String ID="ObjectsInfoCmdLineOfSightRateText">Расстояние / Угловая скорость линии визирования</String>
+	<String ID="ObjectsInfoCmdLineOfSightRateHelp">Отображать расстояние и угловую скорость линии визирования между выбранными объектами</String>
+
+	<!-- Graphics -->
+	<String ID="ChartDisplayObjet0Tooltip">Отображать основной объект</String>
+	<String ID="ChartDisplayObjet0Help">Отображать информацию об основном объекте</String>
+	<String ID="ChartDisplayObjet1Tooltip">Отображать 2-й объект</String>
+	<String ID="ChartDisplayObjet1Help">Отображать информацию о 2-м объекте</String>
+	<String ID="ChartDisplayObjet2Tooltip">Отображать 3-й объект</String>
+	<String ID="ChartDisplayObjet2Help">Отображать информацию о 3-м объекте</String>
+	<String ID="ChartDisplayObjet3Tooltip">Отображать 4-й объект</String>
+	<String ID="ChartDisplayObjet3Help">Отображать информацию о 4ом основном объекте</String>
+	<String ID="ChartOneClickChartTooltip">Готовые графики</String>
+	<String ID="ChartOneClickChartMenuHelp">Выбрать уже готовый график</String>
+	<String ID="ChartPrimaryYAxisTooltip">Тип - основная ось Y</String>
+	<String ID="ChartPrimaryYAxisHelp">Выбрать данные, отображенные на основной оси Y</String>
+	<String ID="ChartXAxisTooltip">Тип - основная ось X</String>
+	<String ID="ChartXAxisHelp">Выбрать данные, отображенные на основной оси X</String>
+	<String ID="ChartSecondaryYAxisTooltip">Тип - второстепенная ось Y</String>
+	<String ID="ChartSecondaryYAxisHelp">Выбрать данные, отображенные на второстепенной оси Y</String>
+	<String ID="ChartResetZoomTooltip">Сбросить приближение</String>
+	<String ID="ChartResetZoomHelp">Показать полные графики в окне</String>
+	<String ID="ChartZoomOutTooltip">Отдалить камеру</String>
+	<String ID="ChartZoomOutHelp">Показать больше данных</String>
+	<String ID="ChartZoomInTooltip">Приблизить камеру</String>
+	<String ID="ChartZoomInHelp">Показать больше деталей</String>
+	<String ID="ChartExportTelemetryTooltip">Экспорт</String>
+	<String ID="ChartExportTelemetryHelp">Экспортировать данные телеметрии в формате, доступном другим инструментам</String>
+	<String ID="ExportTelemetryText">Экспортировать данные телеметрии</String>
+	<String ID="ExportTelemetryHelp">Экспортировать графики в формате СSV</String>
+	<String ID="ExportTelemetryPositionText">Добавить позицию</String>
+	<String ID="ExportTelemetryPositionHelp">Добавить данные о положении ЛА в экспортированные данные</String>
+	<String ID="ExportTelemetryRotationText">Добавить вращение</String>
+	<String ID="ExportTelemetryRotationHelp">Добавить данные о вращении ЛА в экспортированные данные</String>
+
+	<String ID="ChartAltitudeSpeedHelp">Стандартные графики "высота/скорость"</String>
+	<String ID="ChartAltitudeSpeedText">Высота/Скорость</String>
+	<String ID="ChartEnergyHelp">Уровень энергии и её потребление</String>
+	<String ID="ChartEnergyText">Энергия</String>
+	<String ID="ChartEnergyTransferHelp">Преобразование кинетической энергии в потенциальную</String>
+	<String ID="ChartEnergyTransferText">Передача энергии</String>
+	<String ID="ChartAccelerationHelp">Сравнить динамические характеристики ракет</String>
+	<String ID="ChartAccelerationText">Ускорение</String>
+	<String ID="ChartPerformanceHelp">Анализировать динамические характеристики ракет</String>
+	<String ID="ChartPerformanceText">Характеристики</String>
+
+	<String ID="AxisNoneHelp">Скрыть второстепенные оси</String>
+	<String ID="AxisNoneText">Отключено</String>
+
+	<!-- Telemetry -->
+	<String ID="ATCHelp">ATC - подобная телеметрия: Высота/100, вертикальная скорость и наземная скорость/10</String>
+	<String ID="ATCText">ATC (ASL+VS+GS)</String>
+
+	<String ID="TASHelp">Скорость ЛА относительно окружающей воздушной массы</String>
+	<String ID="TASText">Истинная воздушная скорость(TAS)</String>
+	<String ID="IASHelp">Считывать показания скорости прямо с прибора</String>
+	<String ID="IASText">Приборная скорость (IAS)</String>
+	<String ID="MachHelp">Число Маха</String>
+	<String ID="MachText">Скорость (Мах)</String>
+	<String ID="ASLHelp">Высота над уровнем моря</String>
+	<String ID="ASLText">Высота (ASL)</String>
+
+	<String ID="AoAHelp">Угол атаки</String>
+	<String ID="AoAText">Угол атаки (AoA)</String>
+	<String ID="GHelp">Ускорение свободного падения</String>
+	<String ID="GText">G-Force (G)</String>
+	<String ID="RollRateHelp">Скорость вращения</String>
+	<String ID="RollRateText">Скорость вращения (RRT)</String>
+	<String ID="TurnRateHelp">Скорость поворота</String>
+	<String ID="TurnRateText">Скорость поворота (TRT)</String>
+	<String ID="TurnRadiusHelp">Радиус разворота</String>
+	<String ID="TurnRadiusText">Радиус разворота (TRD)</String>
+
+	<String ID="EKHelp">Кинетическая энергия</String>
+	<String ID="EKText">Кинетическая энергия (Ek)</String>
+	<String ID="EPHelp">Потенциальная энергия</String>
+	<String ID="EPText">Потенциальная энергия (Ep)</String>
+	<String ID="EMHelp">Полная механическая энергия</String>
+	<String ID="EMText">Полная механическая энергия (Em=Ek+Ep)</String>
+
+	<String ID="GSHelp">Путевая скорость ЛА</String>
+	<String ID="GSText">Путевая скорость(GS)</String>
+	<String ID="VSHelp">Вертикальная скорость</String>
+	<String ID="VSText">Вертикальная скорость (VS)</String>
+	<String ID="AGLHelp">Высота над уровнем земли</String>
+	<String ID="AGLText">Высота (AGL)</String>
+	<String ID="HDGHelp">Направление носа ЛА относительно географического севера</String>
+	<String ID="HDGText">Азимут (HDG)</String>
+	<String ID="TRKHelp">Фактическое направление перемещения ЛА относительно географического севера</String>
+	<String ID="TRKText">Track (TRK)</String>
+	<String ID="DistanceHelp">Пройденное расстояние</String>
+	<String ID="DistanceText">Расстояние</String>
+	<String ID="ElevationProfileHelp">Профиль высот земной поверхности под ЛА</String>
+	<String ID="ElevationProfileText">Профиль превышения</String>
+
+	<String ID="AbsoluteTimeHelp">Абсолютное время</String>
+	<String ID="AbsoluteTimeText">Время</String>
+	<String ID="RelativeTimeHelp">Упрощает сравнение данных</String>
+	<String ID="RelativeTimeText">Относитльное время</String>
+
+	<String ID="NoTelemetryHelp">Не показывать телеметрию</String>
+	<String ID="NoTelemetryText">Отключено</String>
+
+	<String ID="TelemetryMinValue">мин&#9;{0}</String>
+	<String ID="TelemetryMaxValue">макс&#9;{0}</String>
+	<String ID="TelemetryNoLimit">(нет ограничений)</String>
+
+	<String ID="AltitudeRestrictionsTitle">Ограничения высоты</String>
+	<String ID="AltitudeRestrictionsIntro">Использовать инструмент для определения выхода ЛА за указанные пределы.&#10;Установка значения (0) отключает ограничение.</String>
+	<String ID="MaxAltitudeLabel">Ограничить потолок полёта:</String>
+	<String ID="MaxAltitudeLabelShort">макс</String>
+	<String ID="MinAltitudeLabel">Ограничить минимальную высоту полёта:</String>
+	<String ID="MinAltitudeLabelShort">мин</String>
+
+	<String ID="BookmarkTitle">Добавить новую закладку</String>
+	<String ID="BookmarkIntro">Вы собираетесь добавить новую закладку с текущей точкой обзора.</String>
+	<String ID="BookmarkLabel">Имя закладки:</String>
+
+	<String ID="OnlineDebriefingTitle">Дебрифинг по сети</String>
+	<String ID="OnlineDebriefingIntro">Поделиться сессией дебрифинга со сквадом и друзьями!</String>
+	<String ID="OnlineDebriefingUsername">Имя :</String>
+	<String ID="OnlineDebriefingUsernameHelp">Введите минимум 3 символа</String>
+	<String ID="OnlineDebriefingPassword">Пароль :</String>
+	<String ID="OnlineDebriefingPort">TCP порт :</String>
+	<String ID="OnlineDebriefingPortHelp">Не забудьте открть этот порт в своем роутере!</String>
+	<String ID="OnlineDebriefingSessionName">Имя сессии :</String>
+	<String ID="OnlineDebriefingPublicAddress">Публичный адрес :</String>
+	<String ID="OnlineDebriefingHostButton">Хост</String>
+	<String ID="OnlineDebriefingEndSessionButton">Закончить сессию</String>
+	<String ID="OnlineDebriefingSessionAddress">Адрес хоста :</String>
+	<String ID="OnlineDebriefingSessionAddressHelp">Подключение возможно по IPv4 и IPv6 адресам</String>
+	<String ID="OnlineDebriefingJoinButton">Присоединиться</String>
+	<String ID="OnlineDebriefingLeaveButton">Покинуть</String>
+	<String ID="OnlineDebriefingCancelButton">Отмена</String>
+	<String ID="OnlineDebriefingWarningHost">Создать свой сетевой дебрифинг возможно лишь в профессиональной версии программы Tacview.</String>
+	<String ID="OnlineDebriefingWarningClient">Присоединиться к дебрифингу по сети можно в любой зарегистрированной версии программы.</String>
+	<String ID="OnlineDebriefingHostInProgress">Инициируем дбрифинг по сети [{0}]</String>
+	<String ID="OnlineDebriefingClientInProgress">Подключён к сессии дебрифинга [{0}]</String>
+	<String ID="OnlineDebriefingDataMismatch">Часть данных отсутствует; проверьте корректность файла, загруженного для дебрифинга.</String>
+	<String ID="OnlineDebriefingStatusConnecting">Идёт поиск хоста, пожалуйста, подождите...</String>
+	<String ID="OnlineDebriefingStatusFailedToJoin">⚠ Соединенеие не удалось, пожалуйста, провертье сетеовй адрес и порт.</String>
+	<String ID="OnlineDebriefingStatusFailedToHost">⚠ Создать сессию не удалось. Используйте разные порты для хостинга нескольких сессий одновременно на одном ПК.</String>
+	<String ID="OnlineDebriefingStatusInvalidProtocol">⚠ Протокол не поддерживается. Убедитесь, что ваша версия Tacview совпадает с версией хоста сессии.</String>
+	<String ID="OnlineDebriefingStatusInvalidPassword">⚠ Неверный пароль. Поробуйте копировать/вставить пароль, чтобы избежать опечаток.</String>
+	<String ID="OnlineDebriefingHostTip">Shift+ ПКМ на объекте, чтобы привлечь внимание зрителей</String>
+	<String ID="OnlineDebriefingClientTip">Alt+Enter для перехода в полноэкранный режим</String>
+	<String ID="OnlineDebriefingControlGivenTip">{0} временно назначен ответственным по дебрифингу</String>
+	<String ID="OnlineDebriefingControlReceivedTip">Вы временно назначены ответственным по дебрифингу</String>
+
+	<!-- Profiler -->
+	<String ID="ProfilerProfileMainLoopTooltip">Настройка основного цикла (F16)</String>
+	<String ID="ProfilerProfileMainLoopFourTimesTooltip">Настройка основного цикла x4 кратно (F17)</String>
+	<String ID="ProfilerProfileMainLoopHelp">Настройка основного цикла (захват 1 кадра)</String>
+	<String ID="ProfilerProfileMainLoopFourTimesHelp">Настройка основного цикла (захват 4 кадров)</String>
+	<String ID="ProfilerProfileDataLoadingTooltip">Загрузка данных конфигурации</String>
+	<String ID="ProfilerProfileDataLoadingHelp">Настроить следующий загружаемы файл</String>
+	<String ID="ProfilerProfileDataAnalysisTooltip">Анализ данных профиля</String>
+	<String ID="ProfilerProfileDataAnalysisHelp">Настроить анализ следующего файла данных</String>
+	<String ID="ProfilerResetZoomTooltip">Сбросить приближение</String>
+	<String ID="ProfilerResetZoomHelp">Отобразить профиль на экране целиком</String> 
+	<String ID="ProfilerProfileMemoryTooltip">Конфигурация памяти (F18)</String>
+	<String ID="ProfilerProfileMemoryHelp">Настроить текущее использование памяти</String>
+
+	<!-- Add On Strings -->
+	<String ID="AddOnTitleTelemetry0">Телеметрия 1</String>
+	<String ID="AddOnTitleTelemetry1">Телеметрия 2</String>
+	<String ID="AddOnTitleTelemetry2">Телеметрия 3</String>
+	<String ID="AddOnTitleTelemetry3">Телеметрия 4</String>
+	<String ID="AddOnTitleChart0">Графики 1</String>
+	<String ID="AddOnTitleChart1">Графики 2</String>
+	<String ID="AddOnTitleChart2">Графики 3</String>
+	<String ID="AddOnTitleChart3">Графики 4</String>
+	<String ID="AddOnTelemetryData">Данные</String>
+	<String ID="AddOnTelemetryValue">Значение</String>
+	<String ID="AddOnTelemetryUnit">Единицы</String>
+
+	<String ID="AddOnTitleDocumentProperties">Свойства</String>
+	<String ID="TitleProperty">Название</String>
+	<String ID="AuthorProperty">Автор</String>
+	<String ID="CategoryProperty">Категория</String>
+	<String ID="SourceProperty">Источник</String>
+	<String ID="RecorderProperty">Записывающее устройство</String>
+	<String ID="RecordingTimeProperty">Дата записи</String>
+	<String ID="MissionTimeProperty">Дата миссии</String>
+	<String ID="BriefingProperty">Брифинг</String>
+	<String ID="DebriefingProperty">Дебрифинг</String>
+	<String ID="CommentsProperty">Комментарии</String>
+
+	<String ID="AddOnTitleEventsLog">Лог полета</String>
+	<String ID="AddOnTitleControlsList">Управление, список</String>
+	<String ID="AddOnTitleCommandLineOptionsList">Опции командной строки</String>
+	<String ID="AddOnTitleUserLicenseAgreement">Пользовательское соглашение</String>
+	<String ID="AddOnTitleDebugLog">Лог отладчика</String>
+	<String ID="AddOnTitleEventsProfiler">Настройщик событий</String>
+	<String ID="AddOnTitleFunctionsProfiler">Настройщик функций</String>
+	<String ID="AddOnTitleGraphicalProfiler">Графический настройщик</String>
+	<String ID="AddOnTitleMemoryProfiler">Настройщик памяти</String>
+
+	<String ID="DebugEventTime">Время</String>
+	<String ID="DebugEventLevel">Уровень</String>
+	<String ID="DebugEventModule">Модуль</String>
+	<String ID="DebugEventMessage">Сообщение</String>
+
+	<String ID="EventsProfilerNames">Событие</String>
+	<String ID="EventsProfilerOccurrences">Происшествие</String>
+	<String ID="FunctionsProfilerNames">Функция</String>
+	<String ID="FunctionsProfilerSelfTime">Собственное время</String>
+	<String ID="FunctionsProfilerSelfRatio">% себя</String>
+	<String ID="FunctionsProfilerTotalTime">Полное время</String>
+	<String ID="FunctionsProfilerOccurrences">Происшествия</String>
+	<String ID="MemoryProfilerFileName">Файл</String>
+	<String ID="MemoryProfilerCount">Месторасположения</String>
+	<String ID="MemoryProfilerTotal">Общий размер</String>
+	<String ID="MemoryProfilerAverage">Средний размер</String>
+
+	<String ID="CommandLineImportExport">Импорт/Экспорт</String>
+	<String ID="CommandLineBehavior">Общее поведение</String>
+	<String ID="CommandLineSpecial">Дополнительные опции</String>
+	<String ID="CmdOpen">/Открыть:"C:\Teмp\Deмo-BlackShark.acмi"</String>
+	<String ID="CmdOpenHelp">Открыть существующую запись.</String>
+	<String ID="CmdMerge">/Объединить:"C:\Teмp\Falcon-4.0-AF-Korea-20061213.vhs"</String>
+	<String ID="CmdMergeHelp">Объединить существующую запись со всеми текущими данными.</String>
+	<String ID="CmdSave">/Сохранить[:"C:\Flight\TopGun2014.acмi"]</String>
+	<String ID="CmdSaveHelp">Сохранить запись в формате со сжатием.</String>
+	<String ID="CmdExportFlightLog">/Экспортировать лог полёта:"C:\Reports\мission Black Gold.csv"</String>
+	<String ID="CmdExportFlightLogHelp">Экспортировать лог в виде XML или CSV.</String>
+	<String ID="CmdFalcon4Theater">/Falcon4Theater:"Aegean"</String>
+	<String ID="CmdFalcon4TheaterHelp">Использовать ТВД из Falcon 4.0 для VHS файлов. (Aegean, Balkan, Israel, Korea...)</String>
+	<String ID="CmdQuiet">/Отключить звук</String>
+	<String ID="CmdQuietHelp">Tacview выполнит все указанные операции и закроется без дополнительных уведомлений.</String>
+	<String ID="CmdQuit">/Выйти</String>
+	<String ID="CmdQuitHelp">Tacview закроется после того, как будут выполнены все указанные операции.</String>
+	<String ID="CmdVBOOff">/VBO:отключен</String>
+	<String ID="CmdVBOOffHelp">Отключить объекты буфера вершин, чтобы избежать падений программы на некторых конфигурациях ATI CrossFire.</String>
+	<String ID="CmdDebugMode">/Отладчик:включен</String>
+	<String ID="CmdDebugModeHelp">Отображает информацию об отладке, помогающую устранять баги.</String>
+
+	<String ID="Selection">Выделение</String>
+	<String ID="TimeControl">Управление временем</String>
+	<String ID="LookMove">Наблюдать/Двигаться</String>
+	<String ID="Misc">Разное</String>
+
+	<String ID="3DView">3D вид</String>
+	<String ID="FlightLog">Лог полёта</String>
+	<String ID="ObjectsLists">Списки объектов</String>
+	<String ID="FreeCamera">Свободная камера</String>
+	<String ID="ChartWindow">Окно с графиком</String>
+
+	<String ID="ControlsArrows">[W] [A] [S] [D] / [E] [C]</String>
+	<String ID="ControlsCtrlLeftClick">[Ctrl] + [ЛКМ]</String>
+	<String ID="ControlsCtrlRightClick">[Ctrl] + [ПКМ]</String>
+	<String ID="ControlsDoubleClick">[Двойной клик]</String>
+	<String ID="ControlsLeftRight">[Влево] / [Вправо]</String>
+	<String ID="ControlsMouseLeftDrag">[ЛКМ] + {потянуть}</String>
+	<String ID="ControlsMouseRightDrag">[ПКМ] + {потянуть}</String>
+	<String ID="ControlsMouseWheel">[Колесо мыши]</String>
+	<String ID="ControlsMouseLeftRightDrag">[ЛКМ] + [ПКМ] + {потянуть}</String>
+	<String ID="ControlsMouseWheelDrag">[Колесо мыши] + {потянуть}</String>
+	<String ID="ControlsShiftLeftClick">[Shift] + [ЛКМ]</String>
+	<String ID="ControlsShiftMove">[Shift] + {потянуть}</String>
+	<String ID="ControlsSpaceBar">[Пробел]</String>
+	<String ID="ControlsAltReturn">[Alt] + [Return]</String>
+	<String ID="ControlsCtrlC">[Ctrl] + [C]</String>
+	<String ID="ControlsCtrlV">[Ctrl] + [V]</String>
+
+	<String ID="ControlsBackwardForward">Промотать назад/вперёд</String>
+	<String ID="ControlsSelectEvent">Перейти к событию и выделить ассоциированные объекты</String>
+	<String ID="ControlsMoveCamera">Перемещение камеры</String>
+	<String ID="ControlsMoveCameraFast">Ускорить перемещение камеры</String>
+	<String ID="ControlsMoveCameraFaster">Еще быстрее</String>
+	<String ID="ControlsPlayPause">Воспроизведение/Пауза</String>
+	<String ID="ControlsRotate">Вращаться вокруг выбранных объектов/Повернуть голову</String>
+	<String ID="ControlsSelectObject">Выбрать объект и перейти ко времени его появления при необходимости</String>
+	<String ID="ControlsSelectPrimaryObject">Выбрать первичный объект из 3D вида</String>
+	<String ID="ControlsSelectSecondaryObject">Выбрать вторичный объект из 3D вида</String>
+	<String ID="ControlsZoomInOut">Приблизиться/Отдалиться</String>
+	<String ID="ControlsToggleFullScreen">Переключиться в полноэкранный режим</String>
+
+	<!-- Additional Tooltips -->
+	<String ID="UpdateAvailableTooltip">Доступна новая версия Tacview!</String>
+	<String ID="DCSWorldHookedSmallTooltip">Активирована запись полётов в 'DCS World'</String>
+	<String ID="TwitterLinkTooltip">Twitter</String>
+	<String ID="FacebookLinkTooltip">Facebook</String>
+	<String ID="FlightSimHookTooltipTitle">Теперь можно закрыть Tacview</String>
+	<String ID="FlightSimHookTooltipMessage">Когда эта иконка видима, все полёты атовматически записываются вашим симулятором.&#10;Нет необходимости в запущенном Tacview во время игры.</String>
+	<String ID="FlightRecordingOptimizedNotification">Эта запись в {0} раза больше, чем требуется. Пересохраните её, чтобы освободить место на диске.</String>
+	<String ID="FlightRecordingCorruptedNotification">This flight recording мay be truncated because it coмes From an invalid or corrupted file.</String>
+	<String ID="FlightRecordingEmptyNotification">Эта запись полёта пуста.</String>
+	<String ID="FlightRecordingMissingTimestamp">Speed calculations мay be inaccurate since Timestaмp inFormation is мissing for soмe objects.</String>
+	<String ID="LowEndOpenGL">Пожалуйста, обновите драйвера своей видеокарты.</String>
+
+	<!-- Message Boxes -->
+	<String ID="SaveFileRequestText">Сохранить иземенения для '{0}'&#160;?</String>
+	<String ID="SaveButton">&amp;Сохранить</String>
+	<String ID="DontSaveButton">&amp;Не сохранять</String>
+
+	<!-- Dialogs Boxes Strings -->
+	<String ID="LicenseTitle">Лицензионное соглашение Tacview</String>
+	<String ID="LicenseHint">Пожалуйста, внимательно прочтите данное соглашение. Пролистайте вниз, чтобы дочитать до конца.</String>
+	<String ID="LicenseAccept">&amp;Принимаю</String>
+	<String ID="LicenseDecline">&amp;Не принимаю</String>
+	<String ID="RegisterTitle">Зарегистрировать свою копию Tacview</String>
+	<String ID="UpgradeTitle">Обновиться до версии Professional</String>
+	<String ID="RegisterSubTitle">Ввести ключ продукта</String>
+	<String ID="RegisterComment">Пожалуйста, введите 25-значный ключ продукта, полученный вами по почте, чтобы зарегистрировать программу и активировать дополнительные функции. Вы можете купить ключ, если его у вас нет.</String>
+	<String ID="UpgradeComment">Пожалуйста, введите 25-значный ключ Professional версии продукта, полученный вами по почте, чтобы зарегистрировать программу и активировать дополнительные функции. Вы можете купить ключ для данной версии, если его у вас нет.</String>
+	<String ID="RegisterExample">Пример:</String>
+	<String ID="RegisterProductKey">Ключ продукта:</String>
+	<String ID="RegisterBuyProductKey">Купить ключ продукта онлайн</String>
+	<String ID="RegisterInvalidProductKey">Данный ключ не подходит. Проверьте ведённые значения.</String>
+	<String ID="RegistrationSucceededSubTitle">Поздравляем!</String>
+	<String ID="RegistrationSucceededComment">Ваша копия зарегистрирована. Храните ключи в надёжном месте, они потребуются для переустановки программы.&#10;&#10;В дополнение к ряду дополнительных функций, вам обеспечен повышенный приоритет при рассмотрении заявок в тех.поддержку, равно как и ранний доступ к обновлениям и превью новых версий Tacview (2.x).</String>
+	<String ID="RegistrationSucceededURL">Узнать больше о преимуществах регистрации Tacview</String>
+	<String ID="RequireHomeLicenseText">Вам необходимо зарегистрировать свою копию, чтобы пользоваться этой версией программы Tacview.</String>
+	<String ID="RequireProfessionalLicenseText">Вам необходима ключ для версии Professional, чтобы использовать эту программу.</String>
+
+	<!-- Additional Dialogs Strings -->
+	<String ID="BrowseDCSWorldFolderHelp">Пожалуйста, выберите папку установки 'DCS World'</String>
+	<String ID="BrowseExportPathFolderHelp">Пожалуйста, выберите путь сохранения файлов .acmi для текущего пользователя</String>
+	<String ID="Falcon4TheaterFilter">ТВД Falcon 4.0:</String>
+
+	<!-- Online Debriefing -->
+	<String ID="HostLabel">(хост)</String>
+	<String ID="InstructorLabel">(инструктор)</String>
+	<String ID="UnknownIPAddress">(неизвестно)</String>
+	<String ID="OnlineDebriefingHostTitle">Хостинг &#2;{0}&#1; Дебрифинг</String>
+	<String ID="OnlineDebriefingClientJoiningTitle">Подключаемся к дебрифингу...</String>
+	<String ID="OnlineDebriefingClientTitle">Подключён к &#2;{0}&#1; дебрифингу</String>
+
+	<!-- мisc -->
+	<String ID="DemoEditionShortOneDay">Демо-версия (остался {0} день)</String>
+	<String ID="DemoEditionShortManyDays">Демо-версия (осталось {0} дней)</String>
+	<String ID="FreeEditionShort"></String>
+	<String ID="HomeEditionShort">Home</String>
+	<String ID="ProfessionalEditionShort">Professional</String>
+	<String ID="DemoEditionOneDay">{0} Демо-версия, остался {1} день</String>
+	<String ID="DemoEditionManyDays">{0} Демо-версия, {1} days left</String>
+	<String ID="FreeEdition">{0} Free версия</String>
+	<String ID="HomeEdition">{0} Home версия</String>
+	<String ID="ProfessionalEdition">{0} Professional версия</String>
+	<String ID="32bitEdition">32-бит</String>
+	<String ID="64bitEdition">64-бит</String>
+	<String ID="ProfessionalToolDemoWarningOneDay">Данный инструмент доступен в Tacview <a href="Cmd:RegisterCmd">Professional</a>. Вы можете использовать его {0} день.</String>
+	<String ID="ProfessionalToolDemoWarningManyDays">Данный инструмент доступен в Tacview <a href="Cmd:RegisterCmd">Professional</a>. Вы можете использовать его {0} дней.</String>
+	<String ID="ProfessionalToolDemoExpired">Вам необходимо <a href="Cmd:RegisterCmd">приобрести ключ</a> к версии Professional Edition, чтобы пользоваться данным инструментом.</String>
+	<String ID="StrategicViewDemoWarning">Стратегический обзор доступен в Professional версии программы Tacview.</String>
+
+	<!-- Units -->
+	<String ID="UnitLabelASL">ASL Высота ({0})</String>
+	<String ID="UnitLabelAGL">AGL Высота ({0})</String>
+	<String ID="UnitLabelElevationProfile">Профиль местности ({0})</String>
+	<String ID="UnitLabelTAS">TAS ({0})</String>
+	<String ID="UnitLabelIAS">IAS ({0})</String>
+	<String ID="UnitLabelGS">Путевая скорость ({0})</String>
+	<String ID="UnitLabelAbsoluteTime">Время</String>
+	<String ID="UnitLabelRelativeTime">Относительное Время</String>
+	<String ID="UnitLabelMachNumber">Мах</String>
+	<String ID="UnitLabelAbsoluteAoA">AoA (°)</String>
+	<String ID="UnitLabelIndicatedAoA">AoA (°)</String>
+	<String ID="UnitLabelAbsoluteG">Перегрузка (G)</String>
+	<String ID="UnitLabelIndicatedG">Перегрузка (G)</String>
+	<String ID="UnitLabelRollRate">Угловая скорость крена (°/сек)</String>
+	<String ID="UnitLabelTurnRate">Угловая скорость виража (°/сек)</String>
+	<String ID="UnitLabelTurnRadius">Радиус виража ({0})</String>
+	<String ID="UnitLabelKineticEnergy">Кинетическая энергия (Ek)</String>
+	<String ID="UnitLabelPotentialEnergy">Потенциальная энергия (Ep)</String>
+	<String ID="UnitLabelMechanicalEnergy">Полная механическая энергия (Em)</String>
+	<String ID="UnitLabelVS">ВС ({0})</String>
+	<String ID="UnitLabelHeading">Азимут (°)</String>
+	<String ID="UnitLabelTrack">Трэк (°)</String>
+	<String ID="UnitLabelDistance">Расстояние ({0})</String>
+
+	<!-- **** Not certified below **** -->
+
+	<!-- Dialogs Strings -->
+	<String ID="ScriptInstallFailedText">Установка скрипта экспорта не удалась¤Пожалуйста, убедитесь, что '{0}' корректно установлен и запись в папку разрешена.</String>
+	<String ID="ScriptUninstallFailedText">Удаление скрипта экспорта не удалось¤Пожалуйста, убедитесь, что у нас есть права на запись в папку '{0}'.</String>
+	<String ID="InvalidCommandLineArgumentText">Неподдерживаемый аргумент в коммандной строке: [{0}]¤В меню помощи приведён список доступных команд, убедитесь в корректности написания.</String>
+	<String ID="InvalidShortcutText">Невозможно найти объекты и время, на которые ссылается данный ярлык. Убедитесь, что открыт требуемый файл и целиком скопирован/вставлен ярлык.</String>
+
+	<String ID="AboutTitle">О программе Tacview</String>
+	<String ID="AboutCopyright">© 2006-2016, Stra Software. Все права защищены.&#10;Данное ПО охраняется авторским правом и международными соглашениями.&#10;Вы имеете право на беспрепятственное копирование и распростанение немодифицированных копий этой программы.</String>
+
+	<String ID="LoadingInProgressShort">Загрузка...</String>
+	<String ID="LoadingInProgress">Загружаем '{0}'</String>
+	<String ID="DataMergeInProgress">Объединяем '{0}'</String>
+	<String ID="DataAnalysisInProgress">Анализируем данные...</String>
+	<String ID="SavingInProgressShort">Сохранение...</String>
+	<String ID="SavingInProgress">Сохраняем '{0}'</String>
+
+	<!-- Misc GUI Strings -->
+	<String ID="InvalidObjectName">(пусто)</String>
+	<String ID="NotAvailable">н/д</String>
+	<String ID="ACMIFileDescription">Запись Tacview в формате ACMI</String>
+	<String ID="VHSFileDescription">Запись полёта Falcon 4.0</String>
+	<String ID="CustomProtocolDescription">Ярлык Tacview </String>
+	<String ID="NoRecentDocuments">(Отсутствуют недавние документы)</String>
+	<String ID="FileTypeDescriptionACMIMany">Любая запись полёта</String>
+	<String ID="FileTypeDescriptionTacview">Запись полёта Tacview</String>
+	<String ID="FileTypeDescriptionTacviewMany">Записи полёта Tacview</String>
+	<String ID="FileTypeDescriptionGPXMany">Файлы обмена GPS</String>
+	<String ID="FileTypeDescriptionFalcon4Many">Записи полёта Falcon 4.0</String>
+	<String ID="FileTypeDescriptionCSVMany">Записи полёта в CSV формате</String>
+	<String ID="FileTypeDescriptionKMLMany">Запись в формате KML</String>
+	<String ID="FileTypeDescriptionXMLFlightLog">Лог полёта в XML</String>
+	<String ID="FileTypeDescriptionCSVFlightLog">Лог полёта в UTF-8 (разделитель - запятая)</String>
+	<String ID="FileTypeDescriptionCSVTelemetry">Файл значений UTF-8 (разделитель - запятая)</String>
+	<String ID="FileTypeDescriptionObjectsMany">Статичные объекты и BMS DTC файлы Falcon 4.0</String>
+	<String ID="FileTypeDescriptionAll">Все файлы</String>
+	<String ID="TypeColumn">Тип</String>
+	<String ID="TimeColumn">Время</String>
+	<String ID="EventColumn">Событие</String>
+	<String ID="LogLevelDebug">Отладка</String>
+	<String ID="LogLevelInfo">Инфо</String>
+	<String ID="LogLevelWarning">ВНИМАНИЕ</String>
+	<String ID="LogLevelError">ОШИБКА</String>
+
+	<!-- Flight Recording Strings -->
+	<String ID="ObjectNameShrapnel">Шрапнель</String>
+	<String ID="ObjectNameShell">Снаряд</String>
+	<String ID="ObjectNameBullet">Пуля</String>
+	<String ID="ObjectNameChaff">Дипольный отражатель</String>
+	<String ID="ObjectNameFlare">Тепловая ловушка</String>
+	<String ID="ObjectNameSmokeGrenade">Дымовая граната</String>
+	<String ID="ObjectNameBuilding">Строение</String>
+
+	<String ID="EventDecoyed">(применил ЛЦ)</String>
+	<String ID="EventDecoyedBy">({0} отвлёк противника ЛЦ)</String>
+	<String ID="EventHasDestroyed">(уничтожил {0})</String>
+	<String ID="EventHasHit">(попал по {0})</String>
+	<String ID="EventFlightRecordingStart">Начало записи полёта</String>
+	<String ID="EventFlightRecordingEnd">Конец записи полёта (длительность: {0,02}:{1,02}:{2,02})</String>
+	<String ID="EventHasEnteredTheArea">{0} появился в зоне полётов</String>
+	<String ID="EventHasEnteredTheAreaCloseTo">{0} появился в зоне полётов, недалеко от {1}</String>
+	<String ID="EventHasEnteredTheAreaAt">{0} появился в зоне полётов здесь: {1}</String>
+	<String ID="EventHasLanded">{0} приземлился</String>
+	<String ID="EventHasLandedCloseTo">{0} прземлился недалеко от {1}</String>
+	<String ID="EventHasLandedAt">{0} приземлился у {1}</String>
+	<String ID="EventHasLandedOn">{0} прземлился на {1}</String>
+	<String ID="EventHasLeftTheArea">{0} покинул ТВД</String>
+	<String ID="EventHasLeftTheAreaCloseTo">{0} покинул ТВД (недалеко от {1})</String>
+	<String ID="EventHasLeftTheAreaFrom">{0} покинул ТВД (из {1})</String>
+	<String ID="EventHasTakeOff">{0} взлетел</String>
+	<String ID="EventHasTakeOffCloseTo">{0} взлетел в окрестности {1}</String>
+	<String ID="EventHasTakeOffFrom">{0} взлетел из {1}</String>
+	<String ID="EventHasFiredSingle">{0} выстрелил {1}</String>
+	<String ID="EventHasFiredMultiple">{0} выстрелил {2}× {1}</String>
+	<String ID="EventHasBeenHitBySingle">{0} получил повреждения от {1}</String>
+	<String ID="EventHasBeenHitByMultiple">{0} получил {2} попадания от {1}</String>
+	<String ID="EventHasBeenDestroyed">{0} был унитчтожен</String>
+	<String ID="EventHasBeenDestroyedBy">{0} был униичтожен {1}</String>
+
+	<String ID="StatusPlay">Старт</String>
+	<String ID="StatusPlayFast">Старт &#2;×{0:g}</String>
+	<String ID="StatusRewind">Промотка</String>
+	<String ID="StatusRewindFast">Промотка &#2;×{0:g}</String>
+	<String ID="StatusPause">Пауза</String>
+
+	<!-- Error Messages -->
+	<String ID="ErrorUnknown">Неизвестная ошибка 0x{0,08:X}</String>
+
+	<String ID="LoadingErrorObjectNotFound">Файл '{1}' не найден.¤Пожалуйста, убедитесь, что указанная запись присутствует и доступ к ней разрешён.</String>
+	<String ID="LoadingErrorInvalidName">'{1}' недопустимое имя файла.¤Пожалуйста, попробуйте другой формат/длину имени.</String>
+	<String ID="LoadingErrorInvalidFormat">Неверный формат файла.¤'{1}' не является файлом записи, либо имеет недопустимый формат.</String>
+	<String ID="LoadingErrorInvalidObject">Неверный файл.¤'{1}' вероятнее всего содержит ошибки.</String>
+	<String ID="LoadingErrorOutOfMemory">Нехватка памяти.¤Попробуйте закрыть одно из приложений и повторить попытку¤(возможно, текущая запись просто слишком велика).</String>
+	<String ID="LoadingErrorNotSupported">Формат файла '{1}' не поддерживается.¤Посетите &lt;a href="http://tacview.strasoftware.coм/"&gt;оффициальный веб-сайт,&lt;/a&gt; чтобы узнать, доступна ли новая/совместимая версия Tacview.</String>
+	<String ID="LoadingErrorMissingParameter">Неверный формат файла.¤Отсутствует один из необходимых параметров.</String>
+	<String ID="LoadingErrorInvalidParameter">Неверный формат файла.¤Отсутствуют необходимые параметры.</String>
+	<String ID="LoadingErrorOutOfSpace">Неподдерживаемый формат файла.¤'{1}' Мог быть создан более новой версией проограммы Tacview.</String>
+	<String ID="LoadingErrorInvalidID">Неверный формат файла.¤Iнекорректный ID объекта.</String>
+	<String ID="LoadingErrorUnexpectedCall">Неверный формат файла.¤Присутствует ссылка на объект, покинувший ТВД.</String>
+	<String ID="LoadingErrorEndOfFile">'{1}' пуст.¤Пожалуйста, убедитесь, что скрипт экспортёра корректно установлен и не блокируется сервером, на котором вы летаете.</String>
+	<String ID="LoadingErrorInvalidPath">Неверный путь.¤Убедитесь, что данная запись полёта присутствует и доступ к ней разрешён.</String>
+
+	<String ID="SavingErrorInvalidName">Неверное имя файла.¤Пожалуйста, попробуйте другой формат/длину имени.</String>
+	<String ID="SavingErrorInvalidPath">Неверный путь.¤Убедитесь, что путь существует и доступ к нему разрешён.</String>
+	<String ID="SavingErrorOutOfMemory">Нехватка памяти.¤Попробуйте закрыть одно из приложений и повторить попытку.</String>
+	<String ID="SavingErrorOutOfSpace">Диск заполнен.¤Удалите ненужные файлы и повторите попытку.</String>
+	<String ID="SavingErrorSharingViolation">Конфликт приложений.¤Убедитесь, что файл не используется на данный момент другой программой.</String>
+
+	<!-- Misc Help Strings -->
+	<String ID="TTRewind">В начало записи</String>
+	<String ID="TTSlower">Медленнее</String>
+	<String ID="TTPlayPause">Воспроизведение / Пауза</String>
+	<String ID="TTFaster">Быстрее</String>
+	<String ID="TTEnd">Перейти к концу записи</String>
+	<String ID="TTOneFrame">Покадрово</String>
+
+	<String ID="TTViewCockpit">Вид из кабины (F5)</String>
+	<String ID="TTViewExternal">Внешний вид (F6)</String>
+	<String ID="TTViewSatellite">Вид со спутника (F7)</String>
+	<String ID="TTViewFree">Свободная камера (F8)</String>
+
+	<String ID="TTDrawHeight">Отображать высоту объектов</String>
+	<String ID="TTDrawDirection">Отображать направление выбранных объектов</String>
+	<String ID="TTDrawIDs">Отображать ID объектов</String>
+	<String ID="TTDrawThreats">Отображать эффективную дальность поражения ПВО</String>
+	<String ID="TTDrawRadarLocks">Отоюражать захват радаром (при доступности)</String>
+	<String ID="TTDrawAutoScaleUp">автоматически увеличивать масштаб отдалённыз объектов</String>
+	<String ID="TTShare">Поделиться ярлыками</String>
+	<String ID="TTTakeControl">Принять руководство по управлению дебрифингом</String>
+
+	<String ID="TTObjectsRange">Расстояние и темп сближения между выбранными объектами&#10;(ЛКМ, чтобы поменять объекты местами, ПКМ - опции)</String>
+	<String ID="TTDogfightButton">Камера - боевой режим</String>
+	<String ID="TTTrailSize">Размер следа</String>
+
+</Resources>

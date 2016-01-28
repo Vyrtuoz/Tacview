@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- XtraSetup Russian Text -->
+<!-- Translation by Иван Гулевич <vomitter@gmail.com> -->
+
+<Resources Language="ru">
+
+	<!-- Misc -->
+	<String ID="InstallTitle">{0} Установка</String>
+	<String ID="InstallLabel">{0} Установка</String>
+
+	<!-- Main Page -->
+	<String ID="WelcomePageTitle">Добро пожаловать!</String>
+	<String ID="WelcomeTitle">Вас приветствует {0} установщик программы</String>
+	<String ID="WelcomeInstructions">Устанавливая данное приложение,&#10; вы подтверждаете, что прочитали и приняли условия Пользовательского Соглашения.</String>
+<!--
+	<String ID="WelcomeInstructions">Для того, чтобы начать установку, нажмите "Установить".&#10;Настройки установки доступны в секции "Опции".</String>
+-->
+	<String ID="WelcomeInfoURL">Узнать больше {0}</String>
+	<String ID="OpenBetaWarningURL">ВАЖНО: Чтобы использовать даную версию программы, вам требуется лицензионный ключ.</String>
+	<String ID="ClosedBetaWarning">ВАЖНО: Данная версия программы используется в рамках закрытого бета теста. Пожалуйста, не распространяйте её вовне.</String>
+
+	<String ID="LicensePageTitle">Пользовательское Соглашение</String>
+
+	<String ID="OptionsPageTitle">Опции</String>
+	<String ID="InstallFolders">Папки</String>
+	<String ID="InstallFolderLabel">{0} Установка будет произведена в данную папку:</String>
+	<String ID="SpaceRequired">Требуется свободного места: {0,.0} MB</String>
+	<String ID="ProgramGroupLabel">Добавить ярлыки программы в:</String>
+	<String ID="ShortcutsGroup">Дополнительные ярлыки</String>
+	<String ID="CreateDesktopShortcut">Добавить значок a &amp;на Рабочий стол</String>
+	<String ID="CreateQuickLaunchShortcut">Добавить значок a &amp;на Панель быстрого запуска</String>
+
+	<String ID="BrowseInstallFolderHelp">Установить в папку</String>
+
+	<!-- File Transfer Page -->
+	<String ID="InstallInProgress">Идёт установка программы...</String>
+	<String ID="ProgressionText">Копируем файлы: {0,.0}% завершено</String>
+	<String ID="TimeRemaining">Время до завершения:</String>
+	<String ID="CancelConfirmation">Вы уверены,что хотите прервать {0} процесс установки?</String>
+
+	<!-- Canceled Page -->
+	<String ID="InstallCanceled">Установка отменена</String>
+	<String ID="CanceledMessage">Процесс установки был успешно отменён.</String>
+
+	<!-- Failure Page -->
+	<String ID="InstallFailed">Установка не удалась</String>
+	<String ID="FailureMessage">Пожалуйста, убедитесь, что у вас достаточно прав и на диске хватает места&#10;прежде, чем обращаться к разработчику за технической помощью.</String>
+	<String ID="TechnicalSupport">Техническая поддержка</String>
+
+	<!-- Success Page -->
+	<String ID="InstallSucceeded">Установка успешно завершена</String>
+	<String ID="SuccessMessage">{0} Установка завершена.</String>
+	<String ID="OfficialWebSiteInfo">Найти детальную документацию и свежие обновления вы можете,&#10;посетив оффициальный веб-сайт.</String>
+
+	<!-- Buttons -->
+	<String ID="InstallButton">&amp;Установка</String>
+	<String ID="RunButton">&amp;Запуск {0}</String>
+
+</Resources>

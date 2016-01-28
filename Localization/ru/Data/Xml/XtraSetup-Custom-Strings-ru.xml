@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- Tacview Installer Russian Text -->
+<!-- Translation by Иван Гулевич <vomitter@gmail.com> -->
+
+<Resources Language="ru">
+
+	<!-- Main Page -->
+	<String ID="WelcomeText">Данное приложение позволит вам записать любой полёт,&#10; а также поможет оценить, проанализировать и понять, что происходило на самом деле!</String>
+	<String ID="ApplicationDescription">Анализируйте свои полёты, приобретайте знания и улучшайте навыки пилотирования с совершенно новым инструментом!</String>
+
+	<!-- Additional Shortcuts -->
+	<String ID="FSX2ACMIShortcutName">FSX2ACMI</String>
+	<String ID="FSX2ACMIShortcutHelp">Программа записи полётов в Microsoft Flight Simulator X flight для Tacview</String>
+
+</Resources>
