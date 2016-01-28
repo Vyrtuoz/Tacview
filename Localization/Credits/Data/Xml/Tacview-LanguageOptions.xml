@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- Tacview Special Options -->
+
+<Resources>
+
+	<String ID="OptionsLanguageChineseText">&amp;简体中文 (Simplified Chinese)</String>
+	<String ID="OptionsLanguageChineseHelp">切换至简体中文界面（必须重启Tacview才能使语言切换完全生效）翻译：张炯（Billeinstein）校对：姚尧（@6）</String>
+	<String ID="OptionsLanguageEnglishText">&amp;English (English)</String>
+	<String ID="OptionsLanguageEnglishHelp">Switch to English (Tacview must be restarted for the language change to fully take effect)</String>
+	<String ID="OptionsLanguageFrenchText">&amp;Français (French)</String>
+	<String ID="OptionsLanguageFrenchHelp">Basculer vers le français (Tacview doit être redémarré pour que la langue puisse changer)</String>
+	<String ID="OptionsLanguageItalianText">&amp;Italiano (Italian)</String>
+	<String ID="OptionsLanguageItalianHelp">Passare all'Italiano (Tacview deve essere riavviato per far si che la modifica della lingua prenda pienamente effetto) (Tradotto da Diego Festari &lt;festari.diego@gmail.com&gt;)</String>
+	<String ID="OptionsLanguageKoreanText">&amp;한국어 (Korean)</String>
+	<String ID="OptionsLanguageKoreanHelp">한국어로 변경 - 언어 변경이 완전히 적용되려면 택뷰를 재시작 해 주셔야 합니다. (번역 - ihopi [NAVER JTWF SQUADRON] &lt;ihopi73@gmail.com&gt;)</String>
+	<String ID="OptionsLanguageRussianText">&amp;Russian (Russian)</String>
+	<String ID="OptionsLanguageRussianHelp">Switch to Russian (Translation by Иван Гулевич &lt;vomitter@gmail.com&gt;)</String>
+
+</Resources>
