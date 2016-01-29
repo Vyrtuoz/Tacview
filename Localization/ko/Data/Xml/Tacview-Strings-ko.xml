@@ -132,7 +132,7 @@
 	<String ID="ShareCopyShortcutText">&amp;복사 단축키&#9;(Ctrl+C)</String>
 	<String ID="ShareCopyShortcutHelp">현재 뷰의 단축키를 생성하여, 상대방과 이것을 공유할 수 있음.</String>
 	<String ID="SharePasteShortcutText">&amp;붙이기 단축키&#9;(Ctrl+V)</String>
-	<String ID="SharePasteShortcutHelp">상대방이 공유 한 뷰를 생성할 수 있음.</String>
+	<String ID="SharePasteShortcutHelp">상대방이 공유 한 뷰를 화면에 보여줄 수 있음.</String>
 	<String ID="AttractAttentionHelp">특정 물체에 관람자의 관심을 끌도록 유도함</String>
 
 	<String ID="SelectedObjectsTelemetryText">선택 된 오브젝트의 라벨</String>
@@ -752,7 +752,7 @@
 	<String ID="TTDrawThreats">SAM/AAA의 위협거리 보여주기</String>
 	<String ID="TTDrawRadarLocks">레이더 락 보여주기 (가능 할 경우)</String>
 	<String ID="TTDrawAutoScaleUp">먼 거리의 오브젝트 자동 스케일 업</String>
-	<String ID="TTShare">쇼트컷 공유하기</String>
+	<String ID="TTShare">북마크와 단축키 공유하기</String>
 	<String ID="TTTakeControl">컨트롤 가져오기 (온라인 디브리핑)</String>
 
 	<String ID="TTObjectsRange">선택된 오브젝트들의 거리와 근접률&#10;(오브젝트 스왑은 클릭, 옵션은 우클릭)</String>
