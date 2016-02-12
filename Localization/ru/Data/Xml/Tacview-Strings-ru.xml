@@ -542,9 +542,9 @@
 	<String ID="ProfessionalEdition">{0} Professional версия</String>
 	<String ID="32bitEdition">32-бит</String>
 	<String ID="64bitEdition">64-бит</String>
-	<String ID="ProfessionalToolDemoWarningOneDay">Данный инструмент доступен в Tacview <a href="Cmd:RegisterCmd">Professional</a>. Вы можете использовать его {0} день.</String>
-	<String ID="ProfessionalToolDemoWarningManyDays">Данный инструмент доступен в Tacview <a href="Cmd:RegisterCmd">Professional</a>. Вы можете использовать его {0} дней.</String>
-	<String ID="ProfessionalToolDemoExpired">Вам необходимо <a href="Cmd:RegisterCmd">приобрести ключ</a> к версии Professional Edition, чтобы пользоваться данным инструментом.</String>
+	<String ID="ProfessionalToolDemoWarningOneDay">Данный инструмент доступен в Tacview <a href="cmd:RegisterCmd">Professional</a>. Вы можете использовать его {0} день.</String>
+	<String ID="ProfessionalToolDemoWarningManyDays">Данный инструмент доступен в Tacview <a href="cmd:RegisterCmd">Professional</a>. Вы можете использовать его {0} дней.</String>
+	<String ID="ProfessionalToolDemoExpired">Вам необходимо <a href="cmd:RegisterCmd">приобрести ключ</a> к версии Professional Edition, чтобы пользоваться данным инструментом.</String>
 	<String ID="HomeToolDemoWarningOneDay">This tool is available in Tacview <a href="cmd:RegisterCmd">Home Edition</a>. You can try it for {0} day.</String>
 	<String ID="HomeToolDemoWarningManyDays">This tool is available in Tacview <a href="cmd:RegisterCmd">Home Edition</a>. You can try it for {0} days.</String>
 	<String ID="HomeToolDemoExpired">You must <a href="cmd:RegisterCmd">upgrade your license</a> to the Home or Professional Edition to use this tool.</String>
@@ -584,7 +584,7 @@
 	<String ID="InvalidShortcutText">Невозможно найти объекты и время, на которые ссылается данный ярлык. Убедитесь, что открыт требуемый файл и целиком скопирован/вставлен ярлык.</String>
 
 	<String ID="AboutTitle">О программе Tacview</String>
-	<String ID="AboutCopyright">© 2006-2016, Stra Software. Все права защищены.&#10;Данное ПО охраняется авторским правом и международными соглашениями.&#10;Вы имеете право на беспрепятственное копирование и распростанение немодифицированных копий этой программы.</String>
+	<String ID="AboutCopyright">© 2006-2016, Stra Software. Все права защищены.&#10;Данное ПО охраняется авторским правом и международными соглашениями. Вы имеете право на беспрепятственное копирование и распростанение немодифицированных копий этой программы.</String>
 
 	<String ID="LoadingInProgressShort">Загрузка...</String>
 	<String ID="LoadingInProgress">Загружаем '{0}'</String>
