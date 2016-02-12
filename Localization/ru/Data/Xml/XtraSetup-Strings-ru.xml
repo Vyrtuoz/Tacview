@@ -29,7 +29,7 @@
 	<String ID="ProgramGroupLabel">Добавить ярлык в:</String>
 	<String ID="ShortcutsGroup">Дополнительные ярлыки</String>
 	<String ID="CreateDesktopShortcut">Добавить значок &amp;на Рабочий стол</String>
-	<String ID="CreateQuickLaunchShortcut">Добавить значок amp;на Панель быстрого запуска</String>
+	<String ID="CreateQuickLaunchShortcut">Добавить значок &amp;на Панель быстрого запуска</String>
 
 	<String ID="BrowseInstallFolderHelp">Установить в папку</String>
 
