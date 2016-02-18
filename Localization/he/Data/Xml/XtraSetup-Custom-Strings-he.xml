@@ -5,8 +5,8 @@
 <Resources Language="en">
 
 	<!-- Main Page -->
-	<String ID="WelcomeText">This powerful tool will enable you to record any flight,&#10;to review, analyze and understand what really happened!</String>
-	<String ID="ApplicationDescription">Analyze any flight, understand, and improve your skills like never before!</String>
+	<String ID="WelcomeText">כלי זה מאפשר לך להקליט כל טיסה. לצפות, לנתח ולהבין מה באמת קורה!</String>
+	<String ID="ApplicationDescription">נתח כל גיחה, הבן ושפר את יכולות הטיסה שלך!</String>
 
 	<!-- Additional Shortcuts -->
 	<String ID="FSX2ACMIShortcutName">FSX2ACMI</String>
