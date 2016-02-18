@@ -16,5 +16,7 @@
 	<String ID="OptionsLanguageKoreanHelp">한국어로 변경 - 언어 변경이 완전히 적용되려면 택뷰를 재시작 해 주셔야 합니다. (번역 - ihopi [NAVER JTWF SQUADRON] &lt;ihopi73@gmail.com&gt;)</String>
 	<String ID="OptionsLanguageRussianText">&amp;Русский (Russian)</String>
 	<String ID="OptionsLanguageRussianHelp">Переключиться на Русский (переведено Scorzy &lt;vommieer.translations@gmail.com&gt;)</String>
-
+	<String ID="OptionsLanguageEnglishText">&amp;עברית (Hebrew)</String>
+	<String ID="OptionsLanguageEnglishHelp">עבור לעברית (relperetz@gmail.com : נוצר ע"י אריאל פרץ)</String>
+	
 </Resources>
