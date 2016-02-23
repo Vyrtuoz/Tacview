@@ -45,6 +45,10 @@
 	<String ID="AnalysisDisplayTelemetry2Help">텔레메트리 윈도우 #3을 보이거나 숨기기</String>
 	<String ID="AnalysisDisplayTelemetry3Text">텔레메트리 &amp;4</String>
 	<String ID="AnalysisDisplayTelemetry3Help">텔레메트리 윈도우 #4를 보이거나 숨기기</String>
+	<String ID="AnalysisDisplayRawTelemetry0Text">Raw Telemetry 1</String>
+	<String ID="AnalysisDisplayRawTelemetry0Help">Show or hide raw telemetry window #1</String>
+	<String ID="AnalysisDisplayRawTelemetry1Text">Raw Telemetry 2</String>
+	<String ID="AnalysisDisplayRawTelemetry1Help">Show or hide raw telemetry window #2</String>
 	<String ID="AnalysisDisplayChart1Text">챠트 &amp;1</String>
 	<String ID="AnalysisDisplayChart1Help">챠트 윈도우 #1을 보이거나 숨기기</String>
 	<String ID="AnalysisDisplayChart2Text">챠트 &amp;2</String>
@@ -367,6 +371,8 @@
 	<String ID="AddOnTitleTelemetry1">텔레메트리 2</String>
 	<String ID="AddOnTitleTelemetry2">텔레메트리 3</String>
 	<String ID="AddOnTitleTelemetry3">텔레메트리 4</String>
+	<String ID="AddOnTitleRawTelemetry0">Raw Telemetry 1</String>
+	<String ID="AddOnTitleRawTelemetry1">Raw Telemetry 2</String>
 	<String ID="AddOnTitleChart0">챠트 1</String>
 	<String ID="AddOnTitleChart1">챠트 2</String>
 	<String ID="AddOnTitleChart2">챠트 3</String>
@@ -374,6 +380,16 @@
 	<String ID="AddOnTelemetryData">데이터</String>
 	<String ID="AddOnTelemetryValue">값</String>
 	<String ID="AddOnTelemetryUnit">유닛</String>
+	<String ID="AddOnTelemetryType">Type</String>
+	<String ID="AddOnTelemetryText">Text</String>
+	<String ID="AddOnTelemetryNumeric">Number</String>
+	<String ID="AddOnTelemetryTime">Time</String>
+	<String ID="AddOnTelemetryMetadata">Metadata</String>
+	<String ID="AddOnTelemetryTransform">Transform</String>
+	<String ID="AddOnTelemetryGroupGlobal">Globals</String>
+	<String ID="AddOnTelemetryGroupMetadata">Metadata</String>
+	<String ID="AddOnTelemetryGroupTransform">Transform</String>
+	<String ID="AddOnTelemetryGroupProperties">Properties</String>
 
 	<String ID="AddOnTitleDocumentProperties">속성</String>
 	<String ID="TitleProperty">제목</String>
@@ -559,6 +575,9 @@
 	<String ID="ProfessionalToolDemoWarningOneDay">이 툴은 택뷰 프로페셔널 에디션에서 <a href="cmd:RegisterCmd">사용이 가능합니다.</a>. {0} 일간 더 사용해 보실 수 있습니다.</String>
 	<String ID="ProfessionalToolDemoWarningManyDays">이 툴은 택뷰 프로페셔널 에디션에서 <a href="cmd:RegisterCmd">사용이 가능합니다.</a>. {0} 일간 더 사용해 보실 수 있습니다.</String>
 	<String ID="ProfessionalToolDemoExpired">이툴을 사용하시려면 프로페셔널 라이센스로 <a href="cmd:RegisterCmd">업그레이드</a> 하셔야 합니다.</String>
+	<String ID="HomeToolDemoWarningOneDay">This tool is available in Tacview <a href="cmd:RegisterCmd">Home Edition</a>. You can try it for {0} day.</String>
+	<String ID="HomeToolDemoWarningManyDays">This tool is available in Tacview <a href="cmd:RegisterCmd">Home Edition</a>. You can try it for {0} days.</String>
+	<String ID="HomeToolDemoExpired">You must <a href="cmd:RegisterCmd">upgrade your license</a> to the Home or Professional Edition to use this tool.</String>
 <!--
 	Korean characters are not yet supported in the 3D view
 	<String ID="StrategicViewDemoWarning">이 전술 뷰는 택뷰 프로페셔널에서 사용 가능합니다.</String>
@@ -636,6 +655,7 @@
 
 	<!-- Misc GUI Strings -->
 	<String ID="InvalidObjectName">(없음)</String>
+	<String ID="GlobalObjectName">Global Properties</String>
 	<String ID="NotAvailable">N/A</String>
 	<String ID="ACMIFileDescription">택뷰 ACMI - 비행 기록</String>
 	<String ID="VHSFileDescription">팰콘 4.0 - 비행 기록</String>

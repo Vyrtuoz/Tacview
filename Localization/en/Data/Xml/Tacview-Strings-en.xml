@@ -44,6 +44,10 @@
 	<String ID="AnalysisDisplayTelemetry2Help">Show or hide telemetry window #3</String>
 	<String ID="AnalysisDisplayTelemetry3Text">Telemetry &amp;4</String>
 	<String ID="AnalysisDisplayTelemetry3Help">Show or hide telemetry window #4</String>
+	<String ID="AnalysisDisplayRawTelemetry0Text">Raw Telemetry 1</String>
+	<String ID="AnalysisDisplayRawTelemetry0Help">Show or hide raw telemetry window #1</String>
+	<String ID="AnalysisDisplayRawTelemetry1Text">Raw Telemetry 2</String>
+	<String ID="AnalysisDisplayRawTelemetry1Help">Show or hide raw telemetry window #2</String>
 	<String ID="AnalysisDisplayChart1Text">Chart &amp;1</String>
 	<String ID="AnalysisDisplayChart1Help">Show or hide chart window #1</String>
 	<String ID="AnalysisDisplayChart2Text">Chart &amp;2</String>
@@ -358,6 +362,8 @@
 	<String ID="AddOnTitleTelemetry1">Telemetry 2</String>
 	<String ID="AddOnTitleTelemetry2">Telemetry 3</String>
 	<String ID="AddOnTitleTelemetry3">Telemetry 4</String>
+	<String ID="AddOnTitleRawTelemetry0">Raw Telemetry 1</String>
+	<String ID="AddOnTitleRawTelemetry1">Raw Telemetry 2</String>
 	<String ID="AddOnTitleChart0">Chart 1</String>
 	<String ID="AddOnTitleChart1">Chart 2</String>
 	<String ID="AddOnTitleChart2">Chart 3</String>
@@ -365,6 +371,16 @@
 	<String ID="AddOnTelemetryData">Data</String>
 	<String ID="AddOnTelemetryValue">Value</String>
 	<String ID="AddOnTelemetryUnit">Unit</String>
+	<String ID="AddOnTelemetryType">Type</String>
+	<String ID="AddOnTelemetryText">Text</String>
+	<String ID="AddOnTelemetryNumeric">Number</String>
+	<String ID="AddOnTelemetryTime">Time</String>
+	<String ID="AddOnTelemetryMetadata">Metadata</String>
+	<String ID="AddOnTelemetryTransform">Transform</String>
+	<String ID="AddOnTelemetryGroupGlobal">Globals</String>
+	<String ID="AddOnTelemetryGroupMetadata">Metadata</String>
+	<String ID="AddOnTelemetryGroupTransform">Transform</String>
+	<String ID="AddOnTelemetryGroupProperties">Properties</String>
 
 	<String ID="AddOnTitleDocumentProperties">Properties</String>
 	<String ID="TitleProperty">Title</String>
@@ -535,6 +551,9 @@
 	<String ID="ProfessionalToolDemoWarningOneDay">This tool is available in Tacview <a href="cmd:RegisterCmd">Professional Edition</a>. You can try it for {0} day.</String>
 	<String ID="ProfessionalToolDemoWarningManyDays">This tool is available in Tacview <a href="cmd:RegisterCmd">Professional Edition</a>. You can try it for {0} days.</String>
 	<String ID="ProfessionalToolDemoExpired">You must <a href="cmd:RegisterCmd">upgrade your license</a> to the Professional Edition to use this tool.</String>
+	<String ID="HomeToolDemoWarningOneDay">This tool is available in Tacview <a href="cmd:RegisterCmd">Home Edition</a>. You can try it for {0} day.</String>
+	<String ID="HomeToolDemoWarningManyDays">This tool is available in Tacview <a href="cmd:RegisterCmd">Home Edition</a>. You can try it for {0} days.</String>
+	<String ID="HomeToolDemoExpired">You must <a href="cmd:RegisterCmd">upgrade your license</a> to the Home or Professional Edition to use this tool.</String>
 	<String ID="StrategicViewDemoWarning">This Strategic View is available in Tacview Professional.</String>
 
 	<!-- Units -->
@@ -582,6 +601,7 @@
 
 	<!-- Misc GUI Strings -->
 	<String ID="InvalidObjectName">(none)</String>
+	<String ID="GlobalObjectName">Global Properties</String>
 	<String ID="NotAvailable">N/A</String>
 	<String ID="ACMIFileDescription">Tacview ACMI - Flight recording</String>
 	<String ID="VHSFileDescription">Falcon 4.0 - Flight recording</String>

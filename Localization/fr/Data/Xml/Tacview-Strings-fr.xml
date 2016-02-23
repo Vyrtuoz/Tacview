@@ -44,6 +44,10 @@
 	<String ID="AnalysisDisplayTelemetry2Help">Afficher ou masquer la fenêtre de télémétrie nº3</String>
 	<String ID="AnalysisDisplayTelemetry3Text">Télémétrie &amp;4</String>
 	<String ID="AnalysisDisplayTelemetry3Help">Afficher ou masquer la fenêtre de télémétrie nº4</String>
+	<String ID="AnalysisDisplayRawTelemetry0Text">Télémétrie Brute 1</String>
+	<String ID="AnalysisDisplayRawTelemetry0Help">Afficher ou masquer la fenêtre de télémétrie brute nº1</String>
+	<String ID="AnalysisDisplayRawTelemetry1Text">Télémétrie Brute 2</String>
+	<String ID="AnalysisDisplayRawTelemetry1Help">Afficher ou masquer la fenêtre de télémétrie brute nº2</String>
 	<String ID="AnalysisDisplayChart1Text">Graphique &amp;1</String>
 	<String ID="AnalysisDisplayChart1Help">Afficher ou masquer la fenêtre du graphique nº1</String>
 	<String ID="AnalysisDisplayChart2Text">Graphique &amp;2</String>
@@ -160,7 +164,7 @@
 	<String ID="HelpCheckForUpdatesText">Vérifier les &amp;mises à jour</String>
 	<String ID="HelpCheckForUpdatesHelp">Vérifie en ligne si une nouvelle version de Tacview est disponible</String>
 	<String ID="HelpDebugLogText">Journal de debug</String>
-	<String ID="HelpDebugLogHelp">Journal d’évènements utile pour diagnostiquer l’origine des problèmes</String>
+	<String ID="HelpDebugLogHelp">Journal d'évènements utile pour diagnostiquer l’origine des problèmes</String>
 	<String ID="HelpEventsProfilerText">Profiler d'événements</String>
 	<String ID="HelpEventsProfilerHelp">Affiche les outils de profilage d'événements</String>
 	<String ID="HelpFunctionsProfilerText">Profiler de fonctions</String>
@@ -358,6 +362,8 @@
 	<String ID="AddOnTitleTelemetry1">Télémétrie 2</String>
 	<String ID="AddOnTitleTelemetry2">Télémétrie 3</String>
 	<String ID="AddOnTitleTelemetry3">Télémétrie 4</String>
+	<String ID="AddOnTitleRawTelemetry0">Télémétrie Brute 1</String>
+	<String ID="AddOnTitleRawTelemetry1">Télémétrie Brute 2</String>
 	<String ID="AddOnTitleChart0">Graphique 1</String>
 	<String ID="AddOnTitleChart1">Graphique 2</String>
 	<String ID="AddOnTitleChart2">Graphique 3</String>
@@ -365,6 +371,16 @@
 	<String ID="AddOnTelemetryData">Donnée</String>
 	<String ID="AddOnTelemetryValue">Valeur</String>
 	<String ID="AddOnTelemetryUnit">Unité</String>
+	<String ID="AddOnTelemetryType">Type</String>
+	<String ID="AddOnTelemetryText">Texte</String>
+	<String ID="AddOnTelemetryNumeric">Nombre</String>
+	<String ID="AddOnTelemetryTime">Temps</String>
+	<String ID="AddOnTelemetryMetadata">Métadonnée</String>
+	<String ID="AddOnTelemetryTransform">Transformation</String>
+	<String ID="AddOnTelemetryGroupGlobal">Globales</String>
+	<String ID="AddOnTelemetryGroupMetadata">Métadonnées</String>
+	<String ID="AddOnTelemetryGroupTransform">Transformation</String>
+	<String ID="AddOnTelemetryGroupProperties">Propriétés</String>
 
 	<String ID="AddOnTitleDocumentProperties">Propriétés</String>
 	<String ID="TitleProperty">Titre</String>
@@ -382,7 +398,7 @@
 	<String ID="AddOnTitleControlsList">Liste des contrôles</String>
 	<String ID="AddOnTitleCommandLineOptionsList">Options de la ligne de commande</String>
 	<String ID="AddOnTitleUserLicenseAgreement">Contrat de licence utilisateur</String>
-	<String ID="AddOnTitleDebugLog">Journal d’évènements</String>
+	<String ID="AddOnTitleDebugLog">Journal d'évènements</String>
 	<String ID="AddOnTitleEventsProfiler">Profiler d'événements</String>
 	<String ID="AddOnTitleFunctionsProfiler">Profiler de functions</String>
 	<String ID="AddOnTitleGraphicalProfiler">Profiler graphique</String>
@@ -535,6 +551,9 @@
 	<String ID="ProfessionalToolDemoWarningOneDay">Cet outil est disponible dans la <a href="cmd:RegisterCmd">version professionnelle de Tacview</a>. Vous pouvez l'essayer pendant encore {0} jour.</String>
 	<String ID="ProfessionalToolDemoWarningManyDays">Cet outil est disponible dans la <a href="cmd:RegisterCmd">version professionnelle de Tacview</a>. Vous pouvez l'essayer pendant encore {0} jours.</String>
 	<String ID="ProfessionalToolDemoExpired">Vous devez <a href="cmd:RegisterCmd">passer à la version professionnelle</a> de Tacview pour utiliser cet outil.</String>
+	<String ID="HomeToolDemoWarningOneDay">Cet outil est disponible dans la <a href="cmd:RegisterCmd">version familiale de Tacview</a>. Vous pouvez l'essayer pendant encore {0} jour.</String>
+	<String ID="HomeToolDemoWarningManyDays">Cet outil est disponible dans la <a href="cmd:RegisterCmd">version familiale de Tacview</a>. Vous pouvez l'essayer pendant encore {0} jours.</String>
+	<String ID="HomeToolDemoExpired">Vous devez <a href="cmd:RegisterCmd">passer à la version professionnelle</a> ou familiale de Tacview pour utiliser cet outil.</String>
 	<String ID="StrategicViewDemoWarning">Cette vue stratégique est disponible dans la version professionnelle de Tacview.</String>
 
 	<!-- Units -->
@@ -582,6 +601,7 @@
 
 	<!-- Misc GUI Strings -->
 	<String ID="InvalidObjectName">(aucun)</String>
+	<String ID="GlobalObjectName">Propriétés Globales</String>
 	<String ID="NotAvailable">S/O</String>
 	<String ID="ACMIFileDescription">Tacview ACMI - Enregistrement de vol</String>
 	<String ID="VHSFileDescription">Falcon 4.0 - Enregistrement de vol</String>
@@ -602,7 +622,7 @@
 	<String ID="TypeColumn">Type</String>
 	<String ID="TimeColumn">Heure</String>
 	<String ID="EventColumn">Evénement</String>
-	<String ID="LogLevelDebug">DÉBUG</String>
+	<String ID="LogLevelDebug">DEBUG</String>
 	<String ID="LogLevelInfo">INFO</String>
 	<String ID="LogLevelWarning">ALERTE</String>
 	<String ID="LogLevelError">ERREUR</String>

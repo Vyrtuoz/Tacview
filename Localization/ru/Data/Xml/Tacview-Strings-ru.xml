@@ -375,6 +375,13 @@
 	<String ID="AddOnTelemetryType">Type</String>
 	<String ID="AddOnTelemetryText">Text</String>
 	<String ID="AddOnTelemetryNumeric">Number</String>
+	<String ID="AddOnTelemetryTime">Time</String>
+	<String ID="AddOnTelemetryMetadata">Metadata</String>
+	<String ID="AddOnTelemetryTransform">Transform</String>
+	<String ID="AddOnTelemetryGroupGlobal">Globals</String>
+	<String ID="AddOnTelemetryGroupMetadata">Metadata</String>
+	<String ID="AddOnTelemetryGroupTransform">Transform</String>
+	<String ID="AddOnTelemetryGroupProperties">Properties</String>
 
 	<String ID="AddOnTitleDocumentProperties">Свойства</String>
 	<String ID="TitleProperty">Название</String>
