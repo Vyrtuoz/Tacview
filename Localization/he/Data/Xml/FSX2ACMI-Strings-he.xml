@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 
-<!-- FSX2ACMI English Text -->
+<!-- FSX2ACMI Hebrew Text -->
+<!-- Translation by relperetz@gmail.com : נוצר ע"י אריאל פרץ -->
 
-<Resources Language="en">
+<Resources Language="he">
 
 	<!-- Status -->
 	<String ID="StatusSimConnectNotInstalled">SimConnect not detected.&#10;Make sure either Microsoft Flight&#160;Simulator&#160;X or Lockheed&#160;Martin Prepar3D is properly installed on your computer.</String>

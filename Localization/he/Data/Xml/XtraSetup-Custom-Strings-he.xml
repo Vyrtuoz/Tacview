@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 
-<!-- Tacview Installer English Text -->
+<!-- Tacview Installer Hebrew Text -->
+<!-- Translation by relperetz@gmail.com : נוצר ע"י אריאל פרץ -->
 
-<Resources Language="en">
+<Resources Language="he">
 
 	<!-- Main Page -->
 	<String ID="WelcomeText">כלי זה מאפשר לך להקליט כל טיסה. לצפות, לנתח ולהבין מה באמת קורה!</String>

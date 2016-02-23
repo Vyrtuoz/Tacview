@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 
-<!-- Tacview English Text -->
+<!-- Tacview Hebrew Text -->
+<!-- Translation by relperetz@gmail.com : נוצר ע"י אריאל פרץ -->
 
-<Resources Language="en">
+<Resources Language="he">
 
 	<!-- Main Menu -->
 	<String ID="FileMenuTooltip">קובץ</String>
@@ -13,7 +14,7 @@
 	<String ID="FileOpenContainingFolderCmdHelp">פתח בסייר תיקיית קובץ הנתונים הנוכחי</String>
 	<String ID="FileMergeCmdText">&#9;...מזג קבצים</String>
 	<String ID="FileMergeCmdHelp">מזג נתוני הטיסה הנוכחית עם קובץ קיים</String>
-	<String ID="FileSaveCmdText">Ctrl+O&#9;...שמור קובץ</String>
+	<String ID="FileSaveCmdText">Ctrl+S&#9;...שמור קובץ</String>
 	<String ID="FileSaveCmdHelp">שמור קובץ נתונים נוכחי</String>
 	<String ID="FileSaveCmdAsText">&#9;...שמור קובץ בשם</String>
 	<String ID="FileSaveAsCmdHelp">שמור קובץ נתונים נוכחי בשם חדש</String>
@@ -107,13 +108,10 @@
 	<String ID="OptionsImperialDataAnalysisMIUnitsText">(mi) אימפריאל - ניתוח נתונים</String>
 	<String ID="OptionsImperialDataAnalysisMIUnitsHelp">מהירות: [מייל/שעה] , מהירות אנכית: [רגל/דקה] , גובה: [רגל] , מרחק: [רגל]</String>
 	<String ID="OptionsImperialDataAnalysisNMUnitsText">(nm) אימפריאל - ניתוח נתונים</String>
-	<String ID="OptionsImperialDataAnalysisNMUnitsHelp">Speed: kts - Vertical Speed: ft/min - Altitude: ft - Distance: ft</String>
 	<String ID="OptionsImperialDataAnalysisNMUnitsHelp">מהירות: [קשר] , מהירות אנכית: [רגל/דקה] , גובה: [רגל] , מרחק: [רגל]</String>
 	<String ID="OptionsImperialAircraftMIUnitsText">(mi) אימפריאל - מטוסים</String>
-	<String ID="OptionsImperialAircraftMIUnitsHelp">Speed: mph - Vertical Speed: ft/min - Altitude: ft - Distance: mi &amp; ft</String>
 	<String ID="OptionsImperialAircraftMIUnitsHelp">מהירות: [מייל/שעה] , מהירות אנכית: [רגל/דקה] , גובה: [רגל] , מרחק: [רגל]</String>
 	<String ID="OptionsImperialAircraftNMUnitsText">(nm) אימפריאל - מטוסים</String>
-	<String ID="OptionsImperialAircraftNMUnitsHelp">Speed: kts - Vertical Speed: ft/min - Altitude: ft - Distance: nm &amp; ft</String>
 	<String ID="OptionsImperialAircraftNMUnitsHelp">מהירות: [קשר] , מהירות אנכית: [רגל/דקה] , גובה: [רגל] , מרחק: [רגל]</String>
 
 	<String ID="OptionsPositionFormatText">.פורמט נ.צ</String>
@@ -378,8 +376,10 @@
 	<String ID="AddOnTelemetryText">טקסט</String>
 	<String ID="AddOnTelemetryNumeric">מספר</String>
 	<String ID="AddOnTelemetryTime">זמן</String>
+	<String ID="AddOnTelemetryMetadata">Metadata</String>
 	<String ID="AddOnTelemetryTransform">Transform</String>
 	<String ID="AddOnTelemetryGroupGlobal">Globals</String>
+	<String ID="AddOnTelemetryGroupMetadata">Metadata</String>
 	<String ID="AddOnTelemetryGroupTransform">Transform</String>
 	<String ID="AddOnTelemetryGroupProperties">Properties</String>
 
@@ -440,7 +440,6 @@
 	<String ID="CmdQuit">/Quit</String>
 	<String ID="CmdQuitHelp">סגירת התוכנה לאחר ביצוע הפעולות הנדרשות</String>
 	<String ID="CmdVBOOff">/VBO:off</String>
-	<String ID="CmdVBOOffHelp">Disable Vertex Buffer Objects to avoid crashes on some ATI CrossFire configurations.</String>
 	<String ID="CmdVBOOffHelp">ATI למניעת קריסה בחלק מכרטיסי VBO בטל</String>
 	<String ID="CmdDebugMode">/Debug:on</String>
 	<String ID="CmdDebugModeHelp">מציג נתוני תקלות לפתרון בעיות</String>

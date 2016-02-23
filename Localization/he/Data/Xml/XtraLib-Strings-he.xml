@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 
-<!-- XtraLib English Text -->
+<!-- XtraLib Hebrew Text -->
+<!-- Translation by relperetz@gmail.com : נוצר ע"י אריאל פרץ -->
 
-<Resources Language="en">
+<Resources Language="he">
 
 	<!-- Main Menu -->
 	<String ID="OpenRecentFileCmdHelp">[{0}] פתח</String>
