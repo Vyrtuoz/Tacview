@@ -20,7 +20,7 @@
 	<String ID="FileSaveAsCmdHelp">Сохранить запись полёта под новым именем</String>
 	<String ID="FileExportText">Экспорт</String>
 	<String ID="FileExportFlightLogText">Экспортировать журнал &amp;полёта...</String>
-	<String ID="FileExportFlightLogHelp">Экспортировать данные полёта в формате XML или CSV</String>
+	<String ID="FileExportFlightLogHelp">Экспортировать данные полёта в формате .xml или .csv</String>
 
 	<String ID="RecordingMenuTooltip">Ведётся запись</String>
 	<String ID="RecordingMenuHelp">Задать свойства записи полёта</String>
@@ -28,7 +28,7 @@
 	<String ID="RecordingNetworkCmdHelp">Записать полёт через сеть</String>
 	<String ID="RecordingRecordDCSWorldCmdText">Записывать полёты в &amp; DCS World</String>
 	<String ID="RecordingRecordDCSWorldCmdHelp">Записывать все полёты в DCS World</String>
-	<String ID="RecordingExportPathCmdText">Папка для сохранения &amp;записей acmi...</String>
+	<String ID="RecordingExportPathCmdText">Папка для сохранения &amp;записей .acmi...</String>
 	<String ID="RecordingExportPathCmdHelp">Выбрать папку записи файлов .acmi для текущего пользователя</String>
 
 	<String ID="AnalysisMenuTooltip">Анализ</String>
@@ -45,10 +45,10 @@
 	<String ID="AnalysisDisplayTelemetry2Help">Показать / скрыть телеметрическое окно #3</String>
 	<String ID="AnalysisDisplayTelemetry3Text">Телеметрия &amp;4</String>
 	<String ID="AnalysisDisplayTelemetry3Help">Показать / скрыть телеметрическое окно #4</String>
-	<String ID="AnalysisDisplayRawTelemetry0Text">Raw Telemetry 1</String>
-	<String ID="AnalysisDisplayRawTelemetry0Help">Show or hide raw telemetry window #1</String>
-	<String ID="AnalysisDisplayRawTelemetry1Text">Raw Telemetry 2</String>
-	<String ID="AnalysisDisplayRawTelemetry1Help">Show or hide raw telemetry window #2</String>
+	<String ID="AnalysisDisplayRawTelemetry0Text">Сырая телеметрия 1</String>
+	<String ID="AnalysisDisplayRawTelemetry0Help">Показать / скрыть окно #1</String>
+	<String ID="AnalysisDisplayRawTelemetry1Text">Сырая телеметрия 2</String>
+	<String ID="AnalysisDisplayRawTelemetry1Help">Показать / скрыть окно #2</String>
 	<String ID="AnalysisDisplayChart1Text">Графики &amp;1</String>
 	<String ID="AnalysisDisplayChart1Help">Показать / скрыть окно с графиком #1</String>
 	<String ID="AnalysisDisplayChart2Text">Графики &amp;2</String>
@@ -81,7 +81,7 @@
 	<String ID="OptionsTerrainAutoHelp">Автоматически использовать наилучшую модель ландшафта</String>
 	<String ID="OptionsTerrainGenericHelp">Использовать ландшафт из '{0}'</String>
 	<String ID="OptionsTerrainTextRealWorld">Реалистичный ландшафт</String>
-	<String ID="OptionsTerrainHelpRealWorld">Использовать реалистичный ландшафт (на базе данных, собранных топографической программой НАСА)</String>
+	<String ID="OptionsTerrainHelpRealWorld">Использовать реалистичный ландшафт (на базе данных топографической программы НАСА)</String>
 	<String ID="OptionsTerrainTextDCSWorld">DCS World</String>
 	<String ID="OptionsTerrainHelpDCSWorld">Использовать ландшафт из крайней версии DCS World</String>
 	<String ID="OptionsTerrainTextEECH">Разорванное небо: Ка-52 против Команча</String>
@@ -118,14 +118,14 @@
 	<String ID="OptionsPositionFormatDDDHelp">Десятичные градусы</String>
 	<String ID="OptionsPositionFormatDMMHelp">Градусы, десятичные минуты</String>
 	<String ID="OptionsPositionFormatDMSHelp">Градусы, минуты, секунды</String>
-	<String ID="OptionsPositionFormatMGRSHelp">Военная система прямоугольных координат(MGRS)</String>
+	<String ID="OptionsPositionFormatMGRSHelp">Военная система прямоугольных координат (MGRS)</String>
 
 	<String ID="AspectAngleLeft">Л</String>
 	<String ID="AspectAngleRight">П</String>
 
 	<!-- Other Options -->
-	<String ID="OptionsAssociateFileTypesText">&amp;Ассоциировать acmi файлы с Tacview</String>
-	<String ID="OptionsAssociateFileTypesHelp">Позволяет открывать acmi файлы в программе Tacview по двойному щелчку мыши (Windows OS)</String>
+	<String ID="OptionsAssociateFileTypesText">&amp;Ассоциировать .acmi файлы с Tacview</String>
+	<String ID="OptionsAssociateFileTypesHelp">Позволяет открывать .acmi файлы в программе Tacview по двойному щелчку мыши (Windows OS)</String>
 	<String ID="OptionsTrackIRCmdText">TrackIR</String>
 	<String ID="OptionsTrackIRCmdHelp">Включить поддержку TrackIR в вида из кабины</String>
 
@@ -136,8 +136,8 @@
 	<String ID="ShareCopyShortcutText">&amp;Копировать метку&#9;(Ctrl+C)</String>
 	<String ID="ShareCopyShortcutHelp">Создать метку для текущего вида, чтобы поделиться с друзьями</String>
 	<String ID="SharePasteShortcutText">&amp;Вставить метку&#9;(Ctrl+V)</String>
-	<String ID="SharePasteShortcutHelp">Восстановить положение камеры из метки, присланной другом</String>
-	<String ID="AttractAttentionHelp">Привязать внимание зрителя к конкретному объекту</String>
+	<String ID="SharePasteShortcutHelp">Восстановить положение камеры из сторонней метки</String>
+	<String ID="AttractAttentionHelp">Привязать внимание зрителя к объекту</String>
 
 	<String ID="SelectedObjectsTelemetryText">Метки выбранных объектов</String>
 	<String ID="AircraftsTelemetryText">Метки не выбранных самолётов</String>
@@ -148,9 +148,9 @@
 	<String ID="ScaleAutoText">Авто</String>
 	<String ID="ScaleAutoHelp">Масштаб изменится сообразно размеру окна просмотра</String>
 	<String ID="Scale1Text">Маленький</String>
-	<String ID="Scale1Help">Дефолтный</String>
+	<String ID="Scale1Help">По умолчанию</String>
 	<String ID="Scale2Text">Большой</String>
-	<String ID="Scale2Help">Вдвое больше дефолтного размера</String>
+	<String ID="Scale2Help">Вдвое больше базового размера</String>
 
 	<String ID="HelpMenuTooltip">Помощь</String>
 	<String ID="HelpMenuHelp">Отображать подсказки и общую информацию о программе</String>
@@ -161,11 +161,11 @@
 	<String ID="HelpTechnicalSupportText">Техническая &amp;Поддержка</String>
 	<String ID="HelpTechnicalSupportHelp">Подключиться к официальному сайту программы Tacview</String>
 	<String ID="HelpUserLicenseAgreementText">Пользовательское &amp; Соглашение</String>
-	<String ID="HelpUserLicenseAgreementHelp">Отобразить пользовательское соглашение</String>
+	<String ID="HelpUserLicenseAgreementHelp">Отобразить Пользовательское Соглашение</String>
 	<String ID="HelpCheckForUpdatesText">Проверить наличие &amp;обновлений</String>
 	<String ID="HelpCheckForUpdatesHelp">Проверить наличие новой версии Tacview онлайн</String>
 	<String ID="HelpDebugLogText">Журнал отладчика</String>
-	<String ID="HelpDebugLogHelp">Результаты работы отладчика, отражающие проблему</String>
+	<String ID="HelpDebugLogHelp">Результаты работы отладчика, отражающие проблемы</String>
 	<String ID="HelpEventsProfilerText">Профилировщик событий</String>
 	<String ID="HelpEventsProfilerHelp">Отображать инструменты профилировщика событий</String>
 	<String ID="HelpFunctionsProfilerText">Профилировщик функций</String>
@@ -224,7 +224,7 @@
 	<String ID="ChartExportTelemetryTooltip">Экспорт</String>
 	<String ID="ChartExportTelemetryHelp">Экспортировать данные телеметрии в формате, доступном другим инструментам</String>
 	<String ID="ExportTelemetryText">Экспортировать данные телеметрии</String>
-	<String ID="ExportTelemetryHelp">Экспортировать графики в формате csv</String>
+	<String ID="ExportTelemetryHelp">Экспортировать графики в формате .csv</String>
 	<String ID="ExportTelemetryPositionText">Добавить позицию</String>
 	<String ID="ExportTelemetryPositionHelp">Добавить данные о положении ЛА в экспортированные данные</String>
 	<String ID="ExportTelemetryRotationText">Добавить вращение</String>
@@ -314,17 +314,17 @@
 	<String ID="BookmarkLabel">Имя закладки:</String>
 
 	<String ID="OnlineDebriefingTitle">Дебрифинг по сети</String>
-	<String ID="OnlineDebriefingIntro">Начать сессию дебрифинга совместно со сквадом и друзьями!</String>
-	<String ID="OnlineDebriefingUsername">Имя :</String>
+	<String ID="OnlineDebriefingIntro">Начать сессию дебрифинга совместно со командой и друзьями!</String>
+	<String ID="OnlineDebriefingUsername">Имя:</String>
 	<String ID="OnlineDebriefingUsernameHelp">Введите минимум 3 символа</String>
-	<String ID="OnlineDebriefingPassword">Пароль :</String>
-	<String ID="OnlineDebriefingPort">TCP порт :</String>
+	<String ID="OnlineDebriefingPassword">Пароль:</String>
+	<String ID="OnlineDebriefingPort">TCP порт:</String>
 	<String ID="OnlineDebriefingPortHelp">Не забудьте открыть этот порт в своем роутере!</String>
-	<String ID="OnlineDebriefingSessionName">Имя сессии :</String>
-	<String ID="OnlineDebriefingPublicAddress">Публичный адрес :</String>
+	<String ID="OnlineDebriefingSessionName">Имя сессии:</String>
+	<String ID="OnlineDebriefingPublicAddress">Публичный адрес:</String>
 	<String ID="OnlineDebriefingHostButton">Хост</String>
 	<String ID="OnlineDebriefingEndSessionButton">Конец сессии</String>
-	<String ID="OnlineDebriefingSessionAddress">Адрес хоста :</String>
+	<String ID="OnlineDebriefingSessionAddress">Адрес хоста:</String>
 	<String ID="OnlineDebriefingSessionAddressHelp">Подключение возможно по IPv4/IPv6 адресам</String>
 	<String ID="OnlineDebriefingJoinButton">Подключиться</String>
 	<String ID="OnlineDebriefingLeaveButton">Покинуть</String>
@@ -378,7 +378,7 @@
 	<String ID="AddOnTelemetryTime">Время</String>
 	<String ID="AddOnTelemetryMetadata">Метаданные</String>
 	<String ID="AddOnTelemetryTransform">Преобразование</String>
-	<String ID="AddOnTelemetryGroupGlobal">Globals</String>
+	<String ID="AddOnTelemetryGroupGlobal">Глобально</String>
 	<String ID="AddOnTelemetryGroupMetadata">Метаданные</String>
 	<String ID="AddOnTelemetryGroupTransform">Преобразование</String>
 	<String ID="AddOnTelemetryGroupProperties">Свойства</String>
@@ -432,16 +432,16 @@
 	<String ID="CmdSave">/Сохранить[:"C:\Flight\TopGun2014.acmi"]</String>
 	<String ID="CmdSaveHelp">Сохранить запись в формате со сжатием.</String>
 	<String ID="CmdExportFlightLog">/Экспортировать журнал полёта:"C:\Reports\mission Black Gold.csv"</String>
-	<String ID="CmdExportFlightLogHelp">Экспортировать журнал в виде XML или CSV.</String>
+	<String ID="CmdExportFlightLogHelp">Экспортировать журнал в виде .xml или .csv.</String>
 	<String ID="CmdFalcon4Theater">/Falcon4Theater:"Aegean"</String>
 	<String ID="CmdFalcon4TheaterHelp">Использовать ТВД из Falcon 4.0 для VHS файлов. (Aegean, Balkan, Israel, Korea...)</String>
 	<String ID="CmdQuiet">/Отключить звук</String>
 	<String ID="CmdQuietHelp">Tacview выполнит все указанные операции и закроется без дополнительных уведомлений.</String>
 	<String ID="CmdQuit">/Выйти</String>
 	<String ID="CmdQuitHelp">Tacview закроется после того, как будут выполнены все указанные операции.</String>
-	<String ID="CmdVBOOff">/VBO:отключён</String>
+	<String ID="CmdVBOOff">/VBO: отключён</String>
 	<String ID="CmdVBOOffHelp">Отключить объекты буфера вершин, чтобы избежать падений программы на некторых конфигурациях ATI CrossFire.</String>
-	<String ID="CmdDebugMode">/Отладчик:включён</String>
+	<String ID="CmdDebugMode">/Отладчик: включён</String>
 	<String ID="CmdDebugModeHelp">Отображает информацию об отладке, помогающую устранять баги.</String>
 
 	<String ID="Selection">Выделение</String>
@@ -491,15 +491,15 @@
 	<String ID="TwitterLinkTooltip">Twitter</String>
 	<String ID="FacebookLinkTooltip">Facebook</String>
 	<String ID="FlightSimHookTooltipTitle">Теперь можно закрыть Tacview</String>
-	<String ID="FlightSimHookTooltipMessage">Когда эта иконка видима, все полёты атовматически записываются вашим симулятором.&#10;Нет необходимости в запущенном Tacview во время игры.</String>
-	<String ID="FlightRecordingOptimizedNotification">Эта запись в {0} раза больше, чем требуется. Пересохраните её, чтобы освободить место на диске.</String>
+	<String ID="FlightSimHookTooltipMessage">Когда эта иконка видима, все полёты автоматически записываются симулятором.&#10;Запускать Tacview во время игры необязательно.</String>
+	<String ID="FlightRecordingOptimizedNotification">Эта запись в {0} раза больше требуемого. Пересохраните её, чтобы освободить место на диске.</String>
 	<String ID="FlightRecordingCorruptedNotification">Данный файл может быть обрезан, поскольку исходный файл неверен, либо содержит ошибки.</String>
 	<String ID="FlightRecordingEmptyNotification">Эта запись полёта пуста.</String>
 	<String ID="FlightRecordingMissingTimestamp">Расчётная скорость может быть неверной, поскольку для ряда объектов отсутствуют метки.</String>
 	<String ID="LowEndOpenGL">Пожалуйста, обновите драйвера своей видеокарты.</String>
 
 	<!-- Message Boxes -->
-	<String ID="SaveFileRequestText">Сохранить иземенения для '{0}'&#160;?</String>
+	<String ID="SaveFileRequestText">Сохранить изменения для '{0}'&#160;?</String>
 	<String ID="SaveButton">&amp;Сохранить</String>
 	<String ID="DontSaveButton">&amp;Не сохранять</String>
 
@@ -512,7 +512,7 @@
 	<String ID="UpgradeTitle">Обновиться до версии Professional</String>
 	<String ID="RegisterSubTitle">Ввести ключ продукта</String>
 	<String ID="RegisterComment">Пожалуйста, введите 25-значный ключ продукта, чтобы зарегистрировать программу и активировать дополнительные функции.</String>
-	<String ID="UpgradeComment">Пожалуйста, введите 25-значный ключ Professional версии продукта, полученный вами по почте, чтобы зарегистрировать программу и активировать дополнительные функции. Вы можете купить ключ для данной версии, если его у вас нет.</String>
+	<String ID="UpgradeComment">Пожалуйста, введите 25-значный ключ Professional версии продукта, чтобы зарегистрировать программу и активировать дополнительные функции. Вы можете купить ключ для данной версии, если его у вас нет.</String>
 	<String ID="RegisterExample">Пример:</String>
 	<String ID="RegisterProductKey">Ключ продукта:</String>
 	<String ID="RegisterBuyProductKey">Купить ключ продукта онлайн</String>
@@ -536,7 +536,7 @@
 	<String ID="OnlineDebriefingClientJoiningTitle">Подключаемся к дебрифингу...</String>
 	<String ID="OnlineDebriefingClientTitle">Подключён к &#2;{0}&#1; дебрифингу</String>
 
-	<!-- мisc -->
+	<!-- misc -->
 	<String ID="DemoEditionShortOneDay">Демо-версия (остался {0} день)</String>
 	<String ID="DemoEditionShortManyDays">Демо-версия (осталось {0} дней)</String>
 	<String ID="FreeEditionShort"></String>
@@ -549,12 +549,12 @@
 	<String ID="ProfessionalEdition">{0} Professional версия</String>
 	<String ID="32bitEdition">32-бит</String>
 	<String ID="64bitEdition">64-бит</String>
-	<String ID="ProfessionalToolDemoWarningOneDay">Данный инструмент доступен в Tacview <a href="cmd:RegisterCmd">Professional</a>. Вы можете использовать его {0} день.</String>
-	<String ID="ProfessionalToolDemoWarningManyDays">Данный инструмент доступен в Tacview <a href="cmd:RegisterCmd">Professional</a>. Вы можете использовать его {0} дней.</String>
-	<String ID="ProfessionalToolDemoExpired">Вам необходимо <a href="cmd:RegisterCmd">приобрести ключ</a> к версии Professional Edition, чтобы пользоваться данным инструментом.</String>
-	<String ID="HomeToolDemoWarningOneDay">This tool is available in Tacview <a href="cmd:RegisterCmd">Home Edition</a>. You can try it for {0} day.</String>
-	<String ID="HomeToolDemoWarningManyDays">This tool is available in Tacview <a href="cmd:RegisterCmd">Home Edition</a>. You can try it for {0} days.</String>
-	<String ID="HomeToolDemoExpired">You must <a href="cmd:RegisterCmd">upgrade your license</a> to the Home or Professional Edition to use this tool.</String>
+	<String ID="ProfessionalToolDemoWarningOneDay">Данный инструмент доступен в Tacview <a href="cmd:RegisterCmd">Professional</a>, Вы можете использовать его {0} день.</String>
+	<String ID="ProfessionalToolDemoWarningManyDays">Данный инструмент доступен в Tacview <a href="cmd:RegisterCmd">Professional</a>, Вы можете использовать его {0} дней.</String>
+	<String ID="ProfessionalToolDemoExpired">Вам необходимо <a href="cmd:RegisterCmd">приобрести ключ</a> к версии Professional, чтобы пользоваться данным инструментом.</String>
+	<String ID="HomeToolDemoWarningOneDay">Этот инструмент доступен в <a href="cmd:RegisterCmd">Home версии</a> программы Tacview, Вы можете использовать его {0} день.</String>
+	<String ID="HomeToolDemoWarningManyDays">Этот инструмент доступен в <a href="cmd:RegisterCmd">Home версии</a> программы Tacview, Вы можете использовать его {0} дней.</String>
+	<String ID="HomeToolDemoExpired">Для использования этого инструмента необходимо<a href="cmd:RegisterCmd">обновить лицензию</a> до версии Home или Professional.</String>
 	<String ID="StrategicViewDemoWarning">Стратегический обзор доступен в Professional версии программы Tacview.</String>
 
 	<!-- Units -->
@@ -579,19 +579,19 @@
 	<String ID="UnitLabelMechanicalEnergy">Полная механическая энергия (Em)</String>
 	<String ID="UnitLabelVS">ВС ({0})</String>
 	<String ID="UnitLabelHeading">Азимут (°)</String>
-	<String ID="UnitLabelTrack">Трэк (°)</String>
+	<String ID="UnitLabelTrack">Трек (°)</String>
 	<String ID="UnitLabelDistance">Расстояние ({0})</String>
 
 	<!-- **** Not certified below **** -->
 
 	<!-- Dialogs Strings -->
-	<String ID="ScriptInstallFailedText">Установка скрипта экспорта не удалась¤Пожалуйста, убедитесь, что '{0}' корректно установлен и запись в папку разрешена.</String>
+	<String ID="ScriptInstallFailedText">Установка скрипта экспорта не удалась¤Пожалуйста, убедитесь, что '{0}' корректно установлен / разрешена запись в папку.</String>
 	<String ID="ScriptUninstallFailedText">Удаление скрипта экспорта не удалось¤Пожалуйста, убедитесь, что у нас есть права на запись в папку '{0}'.</String>
 	<String ID="InvalidCommandLineArgumentText">Неподдерживаемый аргумент в командной строке: [{0}]¤В меню помощи приведён список доступных команд, убедитесь в корректности написания.</String>
-	<String ID="InvalidShortcutText">Невозможно найти объекты и время, на которые ссылается данный ярлык. Убедитесь, что открыт требуемый файл и целиком скопирован/вставлен ярлык.</String>
+	<String ID="InvalidShortcutText">Невозможно найти объекты и время, на которые ссылается данный ярлык. Убедитесь, что открыт требуемый файл и целиком скопирован / вставлена метка.</String>
 
 	<String ID="AboutTitle">О программе Tacview</String>
-	<String ID="AboutCopyright">© 2006-2016, Stra Software. Все права защищены.&#10;Данное ПО охраняется авторским правом и международными соглашениями. Вы имеете право на беспрепятственное копирование и распростанение немодифицированных копий этой программы.</String>
+	<String ID="AboutCopyright">© 2006-2016, Stra Software. Все права защищены.&#10;Данное ПО защищено авторским правом и международными соглашениями. Вы имеете право на беспрепятственное копирование и распространение немодифицированных копий этой программы.</String>
 
 	<String ID="LoadingInProgressShort">Загрузка...</String>
 	<String ID="LoadingInProgress">Загружаем '{0}'</String>
@@ -604,7 +604,7 @@
 	<String ID="InvalidObjectName">(пусто)</String>
 	<String ID="GlobalObjectName">Global Properties</String>
 	<String ID="NotAvailable">н/д</String>
-	<String ID="ACMIFileDescription">Запись Tacview в формате acmi</String>
+	<String ID="ACMIFileDescription">Запись Tacview в формате .acmi</String>
 	<String ID="VHSFileDescription">Запись полёта Falcon 4.0</String>
 	<String ID="CustomProtocolDescription">Ярлык Tacview</String>
 	<String ID="NoRecentDocuments">(Отсутствуют недавние документы)</String>
@@ -613,9 +613,9 @@
 	<String ID="FileTypeDescriptionTacviewMany">Записи полёта Tacview</String>
 	<String ID="FileTypeDescriptionGPXMany">Файлы обмена GPS</String>
 	<String ID="FileTypeDescriptionFalcon4Many">Записи полёта Falcon 4.0</String>
-	<String ID="FileTypeDescriptionCSVMany">Записи полёта в CSV формате</String>
-	<String ID="FileTypeDescriptionKMLMany">Запись в формате KML</String>
-	<String ID="FileTypeDescriptionXMLFlightLog">Журнал полёта в XML</String>
+	<String ID="FileTypeDescriptionCSVMany">Записи полёта в .csv формате</String>
+	<String ID="FileTypeDescriptionKMLMany">Запись в формате .kml</String>
+	<String ID="FileTypeDescriptionXMLFlightLog">Журнал полёта в .xml</String>
 	<String ID="FileTypeDescriptionCSVFlightLog">Журнал полёта в UTF-8 (разделитель - запятая)</String>
 	<String ID="FileTypeDescriptionCSVTelemetry">Файл значений UTF-8 (разделитель - запятая)</String>
 	<String ID="FileTypeDescriptionObjectsMany">Статичные объекты и BMS DTC файлы Falcon 4.0</String>
@@ -647,9 +647,9 @@
 	<String ID="EventHasEnteredTheAreaCloseTo">{0} появился в зоне полётов, недалеко от {1}</String>
 	<String ID="EventHasEnteredTheAreaAt">{0} появился в зоне полётов здесь: {1}</String>
 	<String ID="EventHasLanded">{0} приземлился</String>
-	<String ID="EventHasLandedCloseTo">{0} прземлился недалеко от {1}</String>
+	<String ID="EventHasLandedCloseTo">{0} приземлился недалеко от {1}</String>
 	<String ID="EventHasLandedAt">{0} приземлился у {1}</String>
-	<String ID="EventHasLandedOn">{0} прземлился на {1}</String>
+	<String ID="EventHasLandedOn">{0} приземлился на {1}</String>
 	<String ID="EventHasLeftTheArea">{0} покинул ТВД</String>
 	<String ID="EventHasLeftTheAreaCloseTo">{0} покинул ТВД (недалеко от {1})</String>
 	<String ID="EventHasLeftTheAreaFrom">{0} покинул ТВД (из {1})</String>
@@ -660,8 +660,8 @@
 	<String ID="EventHasFiredMultiple">{0} выстрелил {2}× {1}</String>
 	<String ID="EventHasBeenHitBySingle">{0} получил повреждения от {1}</String>
 	<String ID="EventHasBeenHitByMultiple">{0} получил {2} попадания от {1}</String>
-	<String ID="EventHasBeenDestroyed">{0} был унитчтожен</String>
-	<String ID="EventHasBeenDestroyedBy">{0} был униичтожен {1}</String>
+	<String ID="EventHasBeenDestroyed">{0} был уничтожен</String>
+	<String ID="EventHasBeenDestroyedBy">{0} был уничтожен {1}</String>
 
 	<String ID="StatusPlay">Старт</String>
 	<String ID="StatusPlayFast">Старт &#2;×{0:g}</String>
@@ -672,7 +672,7 @@
 	<!-- Error Messages -->
 	<String ID="ErrorUnknown">Неизвестная ошибка 0x{0,08:X}</String>
 
-	<String ID="LoadingErrorObjectNotFound">Файл '{1}' не найден.¤Пожалуйста, убедитесь, что указанная запись присутствует и доступ к ней разрешён.</String>
+	<String ID="LoadingErrorObjectNotFound">Файл '{1}' не найден.¤Пожалуйста, убедитесь, что указанная запись присутствует, и доступ к ней разрешён.</String>
 	<String ID="LoadingErrorInvalidName">'{1}' недопустимое имя файла.¤Пожалуйста, попробуйте другой формат/длину имени.</String>
 	<String ID="LoadingErrorInvalidFormat">Неверный формат файла.¤'{1}' не является файлом записи, либо имеет недопустимый формат.</String>
 	<String ID="LoadingErrorInvalidObject">Неверный файл.¤'{1}' вероятнее всего содержит ошибки.</String>
@@ -681,13 +681,13 @@
 	<String ID="LoadingErrorMissingParameter">Неверный формат файла.¤Отсутствует один из необходимых параметров.</String>
 	<String ID="LoadingErrorInvalidParameter">Неверный формат файла.¤Отсутствуют необходимые параметры.</String>
 	<String ID="LoadingErrorOutOfSpace">Неподдерживаемый формат файла.¤'{1}' Мог быть создан более новой версией проограммы Tacview.</String>
-	<String ID="LoadingErrorInvalidID">Неверный формат файла.¤Iнекорректный ID объекта.</String>
+	<String ID="LoadingErrorInvalidID">Неверный формат файла.¤Некорректный ID объекта.</String>
 	<String ID="LoadingErrorUnexpectedCall">Неверный формат файла.¤Присутствует ссылка на объект, покинувший ТВД.</String>
 	<String ID="LoadingErrorEndOfFile">'{1}' пуст.¤Пожалуйста, убедитесь, что скрипт экспортёра корректно установлен и не блокируется сервером, на котором вы летаете.</String>
 	<String ID="LoadingErrorInvalidPath">Неверный путь.¤Убедитесь, что данная запись полёта присутствует и доступ к ней разрешён.</String>
 
 	<String ID="SavingErrorInvalidName">Неверное имя файла.¤Пожалуйста, попробуйте другой формат/длину имени.</String>
-	<String ID="SavingErrorInvalidPath">Неверный путь.¤Убедитесь, что путь существует и доступ к нему разрешён.</String>
+	<String ID="SavingErrorInvalidPath">Неверный путь.¤Убедитесь, что путь существует, и доступ к нему разрешён.</String>
 	<String ID="SavingErrorOutOfMemory">Нехватка памяти.¤Попробуйте закрыть одно из приложений и повторить попытку.</String>
 	<String ID="SavingErrorOutOfSpace">Диск заполнен.¤Удалите ненужные файлы и повторите попытку.</String>
 	<String ID="SavingErrorSharingViolation">Конфликт приложений.¤Убедитесь, что файл не используется на данный момент другой программой.</String>
