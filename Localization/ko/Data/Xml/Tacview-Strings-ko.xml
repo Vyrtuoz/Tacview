@@ -285,6 +285,8 @@
 	<String ID="HDGText">헤딩 (HDG)</String>
 	<String ID="TRKHelp">진북(true north)대비 기체가 움직이는 방향</String>
 	<String ID="TRKText">트랙 (TRK)</String>
+	<String ID="FlightPathAngleHelp">Aircraft true slope angle</String>
+	<String ID="FlightPathAngleText">Flight Path Angle</String>
 	<String ID="DistanceHelp">표현 된 거리</String>
 	<String ID="DistanceText">거리</String>
 	<String ID="ElevationProfileHelp">기체 하부의 지상고도의 프로파일</String>
@@ -361,6 +363,8 @@
 	<String ID="ProfilerProfileDataLoadingHelp">다음 파일 로딩 프로파일</String>
 	<String ID="ProfilerProfileDataAnalysisTooltip">데이터 분석 프로파일</String>
 	<String ID="ProfilerProfileDataAnalysisHelp">다음 파일의 데이터 분석 프로파일</String>
+	<String ID="ProfilerProfileDataSaveTooltip">Profile Data Save</String>
+	<String ID="ProfilerProfileDataSaveHelp">Profile next file save</String>
 	<String ID="ProfilerResetZoomTooltip">줌 리셋</String>
 	<String ID="ProfilerResetZoomHelp">스크린에 전체 프로파일 보여주기</String>
 	<String ID="ProfilerProfileMemoryTooltip">메모리 프로파일 (F18)</String>
@@ -663,7 +667,9 @@
 	<String ID="NoRecentDocuments">(최근 문서 없음)</String>
 	<String ID="FileTypeDescriptionACMIMany">여러 종류의 비행 기록</String>
 	<String ID="FileTypeDescriptionTacview">택뷰 비행 기록</String>
+	<String ID="FileTypeDescriptionTacviewText">Tacview Text Telemetry Data</String>
 	<String ID="FileTypeDescriptionTacviewMany">택뷰 비행 기록</String>
+	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole Markup Language static objects</String>
 	<String ID="FileTypeDescriptionGPXMany">GPS 변환 파일</String>
 	<String ID="FileTypeDescriptionFalcon4Many">팰콘 4.0 비행 기록</String>
 	<String ID="FileTypeDescriptionCSVMany">CSV 포맷의 비행 기록</String>

@@ -285,6 +285,8 @@
 	<String ID="HDGText">(HDG) כיוון אמיתי</String>
 	<String ID="TRKHelp">מסלול קרקעי של המטוס ביחס לצפון האמיתי</String>
 	<String ID="TRKText">(TRK) מסלול אמיתי</String>
+	<String ID="FlightPathAngleHelp">Aircraft true slope angle</String>
+	<String ID="FlightPathAngleText">Flight Path Angle</String>
 	<String ID="DistanceHelp">מרחק הטיסה</String>
 	<String ID="DistanceText">מרחק</String>
 	<String ID="ElevationProfileHelp">פרופיל גובה הטיסה הקרקעי מעליו המטוס טס</String>
@@ -353,6 +355,8 @@
 	<String ID="ProfilerProfileDataLoadingHelp">Profile next file loading</String>
 	<String ID="ProfilerProfileDataAnalysisTooltip">Profile Data Analysis</String>
 	<String ID="ProfilerProfileDataAnalysisHelp">Profile next file data analysis</String>
+	<String ID="ProfilerProfileDataSaveTooltip">Profile Data Save</String>
+	<String ID="ProfilerProfileDataSaveHelp">Profile next file save</String>
 	<String ID="ProfilerResetZoomTooltip">Reset zoom</String>
 	<String ID="ProfilerResetZoomHelp">Show the entire profile on screen</String>
 	<String ID="ProfilerProfileMemoryTooltip">Profile Memory (F18)</String>
@@ -610,7 +614,9 @@
 	<String ID="NoRecentDocuments">(רשימת הקבצים האחרונים ריקה)</String>
 	<String ID="FileTypeDescriptionACMIMany">כל סוגי הקלטת טיסה</String>
 	<String ID="FileTypeDescriptionTacview">Tacview הקלטת</String>
+	<String ID="FileTypeDescriptionTacviewText">Tacview Text Telemetry Data</String>
 	<String ID="FileTypeDescriptionTacviewMany">Tacview הקלטות</String>
+	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole Markup Language static objects</String>
 	<String ID="FileTypeDescriptionGPXMany">GPS eXchange קבצי</String>
 	<String ID="FileTypeDescriptionFalcon4Many">Falcon 4.0 הקלטות</String>
 	<String ID="FileTypeDescriptionCSVMany">CSV הקלטות בפורמט</String>

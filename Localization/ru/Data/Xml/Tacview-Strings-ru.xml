@@ -285,6 +285,8 @@
 	<String ID="HDGText">Азимут (HDG)</String>
 	<String ID="TRKHelp">Фактическое направление перемещения ЛА относительно географического севера</String>
 	<String ID="TRKText">Track (TRK)</String>
+	<String ID="FlightPathAngleHelp">Aircraft true slope angle</String>
+	<String ID="FlightPathAngleText">Flight Path Angle</String>
 	<String ID="DistanceHelp">Пройденное расстояние</String>
 	<String ID="DistanceText">Расстояние</String>
 	<String ID="ElevationProfileHelp">Профиль высот земной поверхности под ЛА</String>
@@ -353,6 +355,8 @@
 	<String ID="ProfilerProfileDataLoadingHelp">Настроить следующий загружаемый файл</String>
 	<String ID="ProfilerProfileDataAnalysisTooltip">Анализ данных профиля</String>
 	<String ID="ProfilerProfileDataAnalysisHelp">Настроить анализ следующего файла данных</String>
+	<String ID="ProfilerProfileDataSaveTooltip">Profile Data Save</String>
+	<String ID="ProfilerProfileDataSaveHelp">Profile next file save</String>
 	<String ID="ProfilerResetZoomTooltip">Сбросить приближение</String>
 	<String ID="ProfilerResetZoomHelp">Отобразить профиль на экране целиком</String>
 	<String ID="ProfilerProfileMemoryTooltip">Конфигурация памяти (F18)</String>
@@ -425,23 +429,23 @@
 	<String ID="CommandLineImportExport">Импорт/Экспорт</String>
 	<String ID="CommandLineBehavior">Общее поведение</String>
 	<String ID="CommandLineSpecial">Дополнительные опции</String>
-	<String ID="CmdOpen">/Открыть:"C:\Temp\Demo-BlackShark.acmi"</String>
+	<String ID="CmdOpen">/Open:"C:\Temp\Demo-BlackShark.acmi"</String>
 	<String ID="CmdOpenHelp">Открыть существующую запись.</String>
-	<String ID="CmdMerge">/Объединить:"C:\Temp\Falcon-4.0-AF-Korea-20061213.vhs"</String>
+	<String ID="CmdMerge">/Merge:"C:\Temp\Falcon-4.0-AF-Korea-20061213.vhs"</String>
 	<String ID="CmdMergeHelp">Объединить существующую запись со всеми текущими данными.</String>
-	<String ID="CmdSave">/Сохранить[:"C:\Flight\TopGun2014.acmi"]</String>
+	<String ID="CmdSave">/Save[:"C:\Flight\TopGun2014.acmi"]</String>
 	<String ID="CmdSaveHelp">Сохранить запись в формате со сжатием.</String>
-	<String ID="CmdExportFlightLog">/Экспортировать журнал полёта:"C:\Reports\mission Black Gold.csv"</String>
+	<String ID="CmdExportFlightLog">/ExportFlightLog:"C:\Reports\Mission Black Gold.csv"</String>
 	<String ID="CmdExportFlightLogHelp">Экспортировать журнал в виде .xml или .csv.</String>
 	<String ID="CmdFalcon4Theater">/Falcon4Theater:"Aegean"</String>
 	<String ID="CmdFalcon4TheaterHelp">Использовать ТВД из Falcon 4.0 для VHS файлов. (Aegean, Balkan, Israel, Korea...)</String>
-	<String ID="CmdQuiet">/Отключить звук</String>
+	<String ID="CmdQuiet">/Quiet</String>
 	<String ID="CmdQuietHelp">Tacview выполнит все указанные операции и закроется без дополнительных уведомлений.</String>
-	<String ID="CmdQuit">/Выйти</String>
+	<String ID="CmdQuit">/Quit</String>
 	<String ID="CmdQuitHelp">Tacview закроется после того, как будут выполнены все указанные операции.</String>
-	<String ID="CmdVBOOff">/VBO: отключён</String>
+	<String ID="CmdVBOOff">/VBO:off</String>
 	<String ID="CmdVBOOffHelp">Отключить объекты буфера вершин, чтобы избежать падений программы на некторых конфигурациях ATI CrossFire.</String>
-	<String ID="CmdDebugMode">/Отладчик: включён</String>
+	<String ID="CmdDebugMode">/Debug:on</String>
 	<String ID="CmdDebugModeHelp">Отображает информацию об отладке, помогающую устранять баги.</String>
 
 	<String ID="Selection">Выделение</String>
@@ -536,7 +540,7 @@
 	<String ID="OnlineDebriefingClientJoiningTitle">Подключаемся к дебрифингу...</String>
 	<String ID="OnlineDebriefingClientTitle">Подключён к &#2;{0}&#1; дебрифингу</String>
 
-	<!-- misc -->
+	<!-- Misc -->
 	<String ID="DemoEditionShortOneDay">Демо-версия (остался {0} день)</String>
 	<String ID="DemoEditionShortManyDays">Демо-версия (осталось {0} дней)</String>
 	<String ID="FreeEditionShort"></String>
@@ -610,7 +614,9 @@
 	<String ID="NoRecentDocuments">(Отсутствуют недавние документы)</String>
 	<String ID="FileTypeDescriptionACMIMany">Любая запись полёта</String>
 	<String ID="FileTypeDescriptionTacview">Запись полёта Tacview</String>
+	<String ID="FileTypeDescriptionTacviewText">Tacview Text Telemetry Data</String>
 	<String ID="FileTypeDescriptionTacviewMany">Записи полёта Tacview</String>
+	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole Markup Language static objects</String>
 	<String ID="FileTypeDescriptionGPXMany">Файлы обмена GPS</String>
 	<String ID="FileTypeDescriptionFalcon4Many">Записи полёта Falcon 4.0</String>
 	<String ID="FileTypeDescriptionCSVMany">Записи полёта в .csv формате</String>

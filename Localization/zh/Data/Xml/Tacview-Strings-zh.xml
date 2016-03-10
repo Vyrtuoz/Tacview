@@ -285,6 +285,8 @@
 	<String ID="HDGText">航向 (HDG)</String>
 	<String ID="TRKHelp">航空器实际飞行方向相对真北方向的角度</String>
 	<String ID="TRKText">航迹 (TRK)</String>
+	<String ID="FlightPathAngleHelp">Aircraft true slope angle</String>
+	<String ID="FlightPathAngleText">Flight Path Angle</String>
 	<String ID="DistanceHelp">实际飞行距离</String>
 	<String ID="DistanceText">航程</String>
 	<String ID="ElevationProfileHelp">航空器下方地面的高程剖面</String>
@@ -361,6 +363,8 @@
 	<String ID="ProfilerProfileDataLoadingHelp">配置下一个文件加载</String>
 	<String ID="ProfilerProfileDataAnalysisTooltip">配置数据分析</String>
 	<String ID="ProfilerProfileDataAnalysisHelp">配置下一个文件数据分析</String>
+	<String ID="ProfilerProfileDataSaveTooltip">Profile Data Save</String>
+	<String ID="ProfilerProfileDataSaveHelp">Profile next file save</String>
 	<String ID="ProfilerResetZoomTooltip">重置缩放</String>
 	<String ID="ProfilerResetZoomHelp">在屏幕上显示整个配置</String>
 	<String ID="ProfilerProfileMemoryTooltip">配置内存 (F18)</String>
@@ -663,7 +667,9 @@
 	<String ID="NoRecentDocuments">（无新文档）</String>
 	<String ID="FileTypeDescriptionACMIMany">任何飞行记录</String>
 	<String ID="FileTypeDescriptionTacview">Tacview飞行记录</String>
+	<String ID="FileTypeDescriptionTacviewText">Tacview Text Telemetry Data</String>
 	<String ID="FileTypeDescriptionTacviewMany">Tacview飞行记录</String>
+	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole Markup Language static objects</String>
 	<String ID="FileTypeDescriptionGPXMany">GPS eXchange文件</String>
 	<String ID="FileTypeDescriptionFalcon4Many">Falcon 4.0飞行记录</String>
 	<String ID="FileTypeDescriptionCSVMany">CSV格式飞行记录</String>

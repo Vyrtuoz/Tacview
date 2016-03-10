@@ -285,6 +285,8 @@
 	<String ID="HDGText">Heading (HDG)</String>
 	<String ID="TRKHelp">Effettiva direzione dell'aereo rispetto al nord vero</String>
 	<String ID="TRKText">Traccia (TRK)</String>
+	<String ID="FlightPathAngleHelp">Aircraft true slope angle</String>
+	<String ID="FlightPathAngleText">Flight Path Angle</String>
 	<String ID="DistanceHelp">Distanza Coperta</String>
 	<String ID="DistanceText">Distanza</String>
 	<String ID="ElevationProfileHelp">Profilo della elevazione del terreno sotto l'aereo</String>
@@ -353,6 +355,8 @@
 	<String ID="ProfilerProfileDataLoadingHelp">Profilo Prossimo File Caricato</String>
 	<String ID="ProfilerProfileDataAnalysisTooltip">Profilo Dati Analizzati</String>
 	<String ID="ProfilerProfileDataAnalysisHelp">Profilo Prossimo File di Dati Analizzati</String>
+	<String ID="ProfilerProfileDataSaveTooltip">Profile Data Save</String>
+	<String ID="ProfilerProfileDataSaveHelp">Profile next file save</String>
 	<String ID="ProfilerResetZoomTooltip">Resettare zoom</String>
 	<String ID="ProfilerResetZoomHelp">Mostrare l'Intero Profilo nel monitor</String>
 	<String ID="ProfilerProfileMemoryTooltip">Memoria Profilo (F18)</String>
@@ -610,7 +614,9 @@
 	<String ID="NoRecentDocuments">(Nessun documento recente)</String>
 	<String ID="FileTypeDescriptionACMIMany">Qualsiasi registrazione di Volo</String>
 	<String ID="FileTypeDescriptionTacview">Tacview Registro di Volo</String>
+	<String ID="FileTypeDescriptionTacviewText">Tacview Text Telemetry Data</String>
 	<String ID="FileTypeDescriptionTacviewMany">Tacview Registro di Volo</String>
+	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole Markup Language static objects</String>
 	<String ID="FileTypeDescriptionGPXMany">Scambio di File GPS</String>
 	<String ID="FileTypeDescriptionFalcon4Many">Falcon 4.0 Registro di Volo</String>
 	<String ID="FileTypeDescriptionCSVMany">Registro di Volo in formato CSV</String>
