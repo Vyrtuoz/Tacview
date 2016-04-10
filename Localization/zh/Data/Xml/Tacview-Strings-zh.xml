@@ -371,8 +371,8 @@
 	<String ID="AddOnTitleTelemetry1">遥测2</String>
 	<String ID="AddOnTitleTelemetry2">遥测3</String>
 	<String ID="AddOnTitleTelemetry3">遥测4</String>
-	<String ID="AddOnTitleRawTelemetry0">Raw Telemetry 1</String>
-	<String ID="AddOnTitleRawTelemetry1">Raw Telemetry 2</String>
+	<String ID="AddOnTitleRawTelemetry0">原始数据遥测 1</String>
+	<String ID="AddOnTitleRawTelemetry1">原始数据遥测 2</String>
 	<String ID="AddOnTitleChart0">图表1</String>
 	<String ID="AddOnTitleChart1">图表2</String>
 	<String ID="AddOnTitleChart2">图表3</String>
@@ -382,7 +382,7 @@
 	<String ID="AddOnTelemetryUnit">单位</String>
 	<String ID="AddOnTelemetryType">类型</String>
 	<String ID="AddOnTelemetryText">文本</String>
-	<String ID="AddOnTelemetryNumeric">号码</String>
+	<String ID="AddOnTelemetryNumeric">数字</String>
 	<String ID="AddOnTelemetryTime">时间</String>
 	<String ID="AddOnTelemetryMetadata">元数据</String>
 	<String ID="AddOnTelemetryTransform">转换</String>
@@ -575,9 +575,9 @@
 	<String ID="ProfessionalToolDemoWarningOneDay">此工具仅可运行于Tacview <a href="cmd:RegisterCmd">专业版</a>。 你可以试用{0}天。</String>
 	<String ID="ProfessionalToolDemoWarningManyDays">此工具仅可运行于Tacview <a href="cmd:RegisterCmd">专业版</a>。你可以试用{0}天。</String>
 	<String ID="ProfessionalToolDemoExpired">你必须<a href="cmd:RegisterCmd">升级你的许可</a>至专业版方可使用此工具。</String>
-	<String ID="HomeToolDemoWarningOneDay">This tool is available in Tacview <a href="cmd:RegisterCmd">Home Edition</a>. You can try it for {0} day.</String>
-	<String ID="HomeToolDemoWarningManyDays">This tool is available in Tacview <a href="cmd:RegisterCmd">Home Edition</a>. You can try it for {0} days.</String>
-	<String ID="HomeToolDemoExpired">You must <a href="cmd:RegisterCmd">upgrade your license</a> to the Home or Professional Edition to use this tool.</String>
+	<String ID="HomeToolDemoWarningOneDay">此工具可运行于Tacview <a href="cmd:RegisterCmd">家庭版</a>。 你可以试用{0}天。</String>
+	<String ID="HomeToolDemoWarningManyDays">此工具可运行于Tacview <a href="cmd:RegisterCmd">家庭版</a>。 你可以试用{0}天。</String>
+	<String ID="HomeToolDemoExpired">你必须<a href="cmd:RegisterCmd">升级你的许可</a>至家庭版方可使用此工具。</String>
 <!--
 	Chinese characters are not yet supported in the 3D view
 	<String ID="StrategicViewDemoWarning">战略视角可在专业版Tacview内使用。&#10;你可以试用{0}天。</String>
@@ -655,7 +655,7 @@
 
 	<!-- Misc GUI Strings -->
 	<String ID="InvalidObjectName">（无）</String>
-	<String ID="GlobalObjectName">Global Properties</String>
+	<String ID="GlobalObjectName">全局属性</String>
 	<String ID="NotAvailable">N/A</String>
 	<String ID="ACMIFileDescription">Tacview ACMI - 飞行记录</String>
 	<String ID="VHSFileDescription">Falcon 4.0 - 飞行记录</String>
