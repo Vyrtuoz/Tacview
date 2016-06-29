@@ -112,6 +112,8 @@
 	<String ID="OptionsImperialAircraftMIUnitsHelp">Vitesse: mph - Vitesse verticale: ft/min - Altitude: ft - Distance: mi &amp; ft</String>
 	<String ID="OptionsImperialAircraftNMUnitsText">Impérial - Aéronef (nm)</String>
 	<String ID="OptionsImperialAircraftNMUnitsHelp">Vitesse: kts - Vitesse verticale: ft/min - Altitude: ft - Distance: nm &amp; ft</String>
+	<String ID="OptionsDistanceAutoSwitchText">Basculer les distances en pieds sous 2 nm</String>
+	<String ID="OptionsDistanceAutoSwitchHelp">Basculer les distances en pieds sous 2 nm au lieu de 1 nm</String>
 
 	<String ID="OptionsPositionFormatText">Format de la position</String>
 	<String ID="OptionsPositionFormatDDDHelp">Degrés décimaux</String>
@@ -164,7 +166,7 @@
 	<String ID="HelpCheckForUpdatesText">Vérifier les &amp;mises à jour</String>
 	<String ID="HelpCheckForUpdatesHelp">Vérifie en ligne si une nouvelle version de Tacview est disponible</String>
 	<String ID="HelpDebugLogText">Journal de debug</String>
-	<String ID="HelpDebugLogHelp">Journal d'évènements utile pour diagnostiquer l’origine des problèmes</String>
+	<String ID="HelpDebugLogHelp">Journal d'évènements utile pour diagnostiquer l'origine des problèmes</String>
 	<String ID="HelpEventsProfilerText">Profiler d'événements</String>
 	<String ID="HelpEventsProfilerHelp">Affiche les outils de profilage d'événements</String>
 	<String ID="HelpFunctionsProfilerText">Profiler de fonctions</String>
@@ -286,8 +288,10 @@
 	<String ID="TRKText">Cap (TRK)</String>
 	<String ID="FlightPathAngleHelp">Aircraft true slope angle</String>
 	<String ID="FlightPathAngleText">Flight Path Angle</String>
-	<String ID="DistanceHelp">Distance parcourue</String>
-	<String ID="DistanceText">Distance</String>
+	<String ID="DistanceAirHelp">Distance parcourue (air)</String>
+	<String ID="DistanceAirText">Distance (air)</String>
+	<String ID="DistanceGroundHelp">Distance parcourue (sol)</String>
+	<String ID="DistanceGroundText">Distance (sol)</String>
 	<String ID="ElevationProfileHelp">Profile du sol sous l'aéronef</String>
 	<String ID="ElevationProfileText">Profile du Terrain</String>
 
@@ -495,10 +499,8 @@
 	<String ID="FacebookLinkTooltip">Facebook</String>
 	<String ID="FlightSimHookTooltipTitle">Vous pouvez maintenant fermer Tacview</String>
 	<String ID="FlightSimHookTooltipMessage">Lorsque cette icone est visible, tous les vols sont automatiquement enregistrés par votre simulateur de vol. Il n'est pas nécessaire de garder Tacview ouvert pendant que vous volez.</String>
-	<String ID="FlightRecordingOptimizedNotification">Cet enregistrement est {0} fois plus gros que nécessaire. Re-sauvegardez le afin de libérer de l'espace disque.</String>
 	<String ID="FlightRecordingCorruptedNotification">Cet enregistrement est peut être tronqué car il provient d'un fichier invalide ou corrompu.</String>
 	<String ID="FlightRecordingEmptyNotification">Cet enregistrement est vide.</String>
-	<String ID="FlightRecordingMissingTimestamp">Les calculs de vitesse peuvent être incorrects car certaines informations de temps son absentes de certains objets.</String>
 	<String ID="LowEndOpenGL">Veuillez mettre à jour vos pilotes de carte graphique</String>
 
 	<!-- Message Boxes -->
@@ -583,7 +585,8 @@
 	<String ID="UnitLabelVS">VS ({0})</String>
 	<String ID="UnitLabelHeading">Orientation (°)</String>
 	<String ID="UnitLabelTrack">Cap (°)</String>
-	<String ID="UnitLabelDistance">Distance ({0})</String>
+	<String ID="UnitLabelDistanceAir">Distance Air ({0})</String>
+	<String ID="UnitLabelDistanceGround">Distance Sol ({0})</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -611,20 +614,20 @@
 	<String ID="VHSFileDescription">Falcon 4.0 - Enregistrement de vol</String>
 	<String ID="CustomProtocolDescription">Raccourci Tacview</String>
 	<String ID="NoRecentDocuments">(Aucun document récent)</String>
-	<String ID="FileTypeDescriptionACMIMany">Tous les enregistrements de vol</String>
-	<String ID="FileTypeDescriptionTacview">Enregistrement de vol de Tacview</String>
-	<String ID="FileTypeDescriptionTacviewText">Données de télémétries texte de Tacview</String>
-	<String ID="FileTypeDescriptionTacviewMany">Enregistrements de vol de Tacview</String>
+	<String ID="FileTypeDescriptionAnyTelemetryFile">Tout fichier de télémétrie</String>
+	<String ID="FileTypeDescriptionTacviewText">Données texte de télémétrie de Tacview</String>
+	<String ID="FileTypeDescriptionTacviewBinary">Données binaire de télémétrie de Tacview</String>
+	<String ID="FileTypeDescriptionGAEText">Données texte GAE/DIS</String>
 	<String ID="FileTypeDescriptionKMLStaticObjects">Objets statiques au format KML (Keyhole Markup Language)</String>
-	<String ID="FileTypeDescriptionGPXMany">Enregistrements de coordonnées GPS</String>
-	<String ID="FileTypeDescriptionFalcon4Many">Enregistrements de Falcon 4.0</String>
-	<String ID="FileTypeDescriptionCSVMany">Enregistrements de vol au format CSV</String>
-	<String ID="FileTypeDescriptionKMLMany">Vols enregistrés en KML (Keyhole Markup Language)</String>
+	<String ID="FileTypeDescriptionGPX">Enregistrements de coordonnées GPS</String>
+	<String ID="FileTypeDescriptionVHS">Enregistrements de Falcon 4.0</String>
+	<String ID="FileTypeDescriptionCSV">Fichiers CSV (comma-separated values)</String>
+	<String ID="FileTypeDescriptionKML">Vols enregistrés en KML (Keyhole Markup Language)</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">Journal de vol au format XML</String>
 	<String ID="FileTypeDescriptionCSVFlightLog">Journal de vol au format UTF-8 contenant des valeurs séparées par des virgules</String>
 	<String ID="FileTypeDescriptionCSVTelemetry">Fichier UTF-8 contenant des valeurs séparées par des virgules</String>
 	<String ID="FileTypeDescriptionObjectsMany">Objets statiques et fichiers DTC de Falcon 4.0 BMS</String>
-	<String ID="FileTypeDescriptionAll">Tous les fichiers</String>
+	<String ID="FileTypeDescriptionAny">Tout fichier</String>
 	<String ID="TypeColumn">Type</String>
 	<String ID="TimeColumn">Heure</String>
 	<String ID="EventColumn">Evénement</String>

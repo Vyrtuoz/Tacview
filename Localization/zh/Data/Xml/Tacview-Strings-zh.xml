@@ -45,10 +45,10 @@
 	<String ID="AnalysisDisplayTelemetry2Help">显示或隐藏遥测窗口#3</String>
 	<String ID="AnalysisDisplayTelemetry3Text">遥测&amp;4</String>
 	<String ID="AnalysisDisplayTelemetry3Help">显示或隐藏遥测窗口#4</String>
-	<String ID="AnalysisDisplayRawTelemetry0Text">原始数据遥测 1</String>
-	<String ID="AnalysisDisplayRawTelemetry0Help">显示或隐藏原始数据遥测窗口 #1</String>
-	<String ID="AnalysisDisplayRawTelemetry1Text">原始数据遥测 2</String>
-	<String ID="AnalysisDisplayRawTelemetry1Help">显示或隐藏原始数据遥测窗口 #2</String>
+	<String ID="AnalysisDisplayRawTelemetry0Text">Raw Telemetry 1</String>
+	<String ID="AnalysisDisplayRawTelemetry0Help">Show or hide raw telemetry window #1</String>
+	<String ID="AnalysisDisplayRawTelemetry1Text">Raw Telemetry 2</String>
+	<String ID="AnalysisDisplayRawTelemetry1Help">Show or hide raw telemetry window #2</String>
 	<String ID="AnalysisDisplayChart1Text">图表&amp;1</String>
 	<String ID="AnalysisDisplayChart1Help">显示或隐藏图表窗口#1</String>
 	<String ID="AnalysisDisplayChart2Text">图表&amp;2</String>
@@ -113,6 +113,8 @@
 	<String ID="OptionsImperialAircraftMIUnitsHelp">速度: mph - 垂直速度: ft/min - 高度: ft - 距离: mi &amp; ft</String>
 	<String ID="OptionsImperialAircraftNMUnitsText">英制 - 航空器 (nm)</String>
 	<String ID="OptionsImperialAircraftNMUnitsHelp">速度: kts - 垂直速度: ft/min - 高度: ft - 距离: nm &amp; ft</String>
+	<String ID="OptionsDistanceAutoSwitchText">Switch distances to feet under 2 nm</String>
+	<String ID="OptionsDistanceAutoSwitchHelp">Switch distances to feet under 2 nm instead of 1 nm</String>
 
 	<String ID="OptionsPositionFormatText">地理坐标格式</String>
 	<String ID="OptionsPositionFormatDDDHelp">十进制显示度</String>
@@ -287,8 +289,10 @@
 	<String ID="TRKText">航迹 (TRK)</String>
 	<String ID="FlightPathAngleHelp">Aircraft true slope angle</String>
 	<String ID="FlightPathAngleText">Flight Path Angle</String>
-	<String ID="DistanceHelp">实际飞行距离</String>
-	<String ID="DistanceText">航程</String>
+	<String ID="DistanceAirHelp">Covered air distance</String>
+	<String ID="DistanceAirText">Distance (Air)</String>
+	<String ID="DistanceGroundHelp">Covered ground distance</String>
+	<String ID="DistanceGroundText">Distance (Ground)</String>
 	<String ID="ElevationProfileHelp">航空器下方地面的高程剖面</String>
 	<String ID="ElevationProfileText">高程剖面</String>
 
@@ -375,8 +379,8 @@
 	<String ID="AddOnTitleTelemetry1">遥测2</String>
 	<String ID="AddOnTitleTelemetry2">遥测3</String>
 	<String ID="AddOnTitleTelemetry3">遥测4</String>
-	<String ID="AddOnTitleRawTelemetry0">原始数据遥测 1</String>
-	<String ID="AddOnTitleRawTelemetry1">原始数据遥测 2</String>
+	<String ID="AddOnTitleRawTelemetry0">Raw Telemetry 1</String>
+	<String ID="AddOnTitleRawTelemetry1">Raw Telemetry 2</String>
 	<String ID="AddOnTitleChart0">图表1</String>
 	<String ID="AddOnTitleChart1">图表2</String>
 	<String ID="AddOnTitleChart2">图表3</String>
@@ -384,16 +388,16 @@
 	<String ID="AddOnTelemetryData">数据</String>
 	<String ID="AddOnTelemetryValue">值</String>
 	<String ID="AddOnTelemetryUnit">单位</String>
-	<String ID="AddOnTelemetryType">类型</String>
-	<String ID="AddOnTelemetryText">文本</String>
-	<String ID="AddOnTelemetryNumeric">数字</String>
-	<String ID="AddOnTelemetryTime">时间</String>
-	<String ID="AddOnTelemetryMetadata">元数据</String>
-	<String ID="AddOnTelemetryTransform">转换</String>
-	<String ID="AddOnTelemetryGroupGlobal">全局</String>
-	<String ID="AddOnTelemetryGroupMetadata">元数据</String>
-	<String ID="AddOnTelemetryGroupTransform">转换</String>
-	<String ID="AddOnTelemetryGroupProperties">属性</String>
+	<String ID="AddOnTelemetryType">Type</String>
+	<String ID="AddOnTelemetryText">Text</String>
+	<String ID="AddOnTelemetryNumeric">Number</String>
+	<String ID="AddOnTelemetryTime">Time</String>
+	<String ID="AddOnTelemetryMetadata">Metadata</String>
+	<String ID="AddOnTelemetryTransform">Transform</String>
+	<String ID="AddOnTelemetryGroupGlobal">Globals</String>
+	<String ID="AddOnTelemetryGroupMetadata">Metadata</String>
+	<String ID="AddOnTelemetryGroupTransform">Transform</String>
+	<String ID="AddOnTelemetryGroupProperties">Properties</String>
 
 	<String ID="AddOnTitleDocumentProperties">属性</String>
 	<String ID="TitleProperty">标题</String>
@@ -402,7 +406,7 @@
 	<String ID="SourceProperty">源</String>
 	<String ID="RecorderProperty">记录设备</String>
 	<String ID="RecordingTimeProperty">记录时间</String>
-	<String ID="MissionTimeProperty">任务日期</String>
+	<String ID="MissionTimeProperty">Mission Date</String>
 	<String ID="BriefingProperty">简报</String>
 	<String ID="DebriefingProperty">任务报告</String>
 	<String ID="CommentsProperty">注释</String>
@@ -504,10 +508,8 @@
 	<String ID="FacebookLinkTooltip">Facebook</String>
 	<String ID="FlightSimHookTooltipTitle">你现在可以关闭Tacview</String>
 	<String ID="FlightSimHookTooltipMessage">当此图标可见时，所有飞行记录将由模拟飞行软件自动生成。&#10;你在飞行时没有必要保持Tacview运行。</String>
-	<String ID="FlightRecordingOptimizedNotification">记录已{0}倍于实际需要的大小，请重新保存以节省磁盘空间。</String>
 	<String ID="FlightRecordingCorruptedNotification">此飞行记录可能发生缺失，因为其来自无效或毁坏的文件。</String>
 	<String ID="FlightRecordingEmptyNotification">此飞行记录为空。</String>
-	<String ID="FlightRecordingMissingTimestamp">由于部分物体的时间戳信息丢失，速度计算可能不准确</String>
 <!--
 	Chinese characters are not yet supported in the 3D view
 	<String ID="LowEndOpenGL">请升级你的显卡驱动</String>
@@ -579,9 +581,9 @@
 	<String ID="ProfessionalToolDemoWarningOneDay">此工具仅可运行于Tacview <a href="cmd:RegisterCmd">专业版</a>。 你可以试用{0}天。</String>
 	<String ID="ProfessionalToolDemoWarningManyDays">此工具仅可运行于Tacview <a href="cmd:RegisterCmd">专业版</a>。你可以试用{0}天。</String>
 	<String ID="ProfessionalToolDemoExpired">你必须<a href="cmd:RegisterCmd">升级你的许可</a>至专业版方可使用此工具。</String>
-	<String ID="HomeToolDemoWarningOneDay">此工具可运行于Tacview <a href="cmd:RegisterCmd">家庭版</a>。 你可以试用{0}天。</String>
-	<String ID="HomeToolDemoWarningManyDays">此工具可运行于Tacview <a href="cmd:RegisterCmd">家庭版</a>。 你可以试用{0}天。</String>
-	<String ID="HomeToolDemoExpired">你必须<a href="cmd:RegisterCmd">升级你的许可</a>至家庭版方可使用此工具。</String>
+	<String ID="HomeToolDemoWarningOneDay">This tool is available in Tacview <a href="cmd:RegisterCmd">Home Edition</a>. You can try it for {0} day.</String>
+	<String ID="HomeToolDemoWarningManyDays">This tool is available in Tacview <a href="cmd:RegisterCmd">Home Edition</a>. You can try it for {0} days.</String>
+	<String ID="HomeToolDemoExpired">You must <a href="cmd:RegisterCmd">upgrade your license</a> to the Home or Professional Edition to use this tool.</String>
 <!--
 	Chinese characters are not yet supported in the 3D view
 	<String ID="StrategicViewDemoWarning">战略视角可在专业版Tacview内使用。&#10;你可以试用{0}天。</String>
@@ -613,7 +615,8 @@
 	<String ID="UnitLabelVS">垂直速度 ({0})</String>
 	<String ID="UnitLabelHeading">航向 (°)</String>
 	<String ID="UnitLabelTrack">航迹 (°)</String>
-	<String ID="UnitLabelDistance">航程 ({0})</String>
+	<String ID="UnitLabelDistanceAir">Air Distance ({0})</String>
+	<String ID="UnitLabelDistanceGround">Ground Distance ({0})</String>
 -->
 	<String ID="UnitLabelASL">ASL Altitude ({0})</String>
 	<String ID="UnitLabelAGL">AGL Altitude ({0})</String>
@@ -637,7 +640,8 @@
 	<String ID="UnitLabelVS">VS ({0})</String>
 	<String ID="UnitLabelHeading">Heading (°)</String>
 	<String ID="UnitLabelTrack">Track (°)</String>
-	<String ID="UnitLabelDistance">Distance ({0})</String>
+	<String ID="UnitLabelDistanceAir">Air Distance ({0})</String>
+	<String ID="UnitLabelDistanceGround">Ground Distance ({0})</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -659,26 +663,26 @@
 
 	<!-- Misc GUI Strings -->
 	<String ID="InvalidObjectName">（无）</String>
-	<String ID="GlobalObjectName">全局属性</String>
+	<String ID="GlobalObjectName">Global Properties</String>
 	<String ID="NotAvailable">N/A</String>
 	<String ID="ACMIFileDescription">Tacview ACMI - 飞行记录</String>
 	<String ID="VHSFileDescription">Falcon 4.0 - 飞行记录</String>
 	<String ID="CustomProtocolDescription">Tacview快捷方式</String>
 	<String ID="NoRecentDocuments">（无新文档）</String>
-	<String ID="FileTypeDescriptionACMIMany">任何飞行记录</String>
-	<String ID="FileTypeDescriptionTacview">Tacview飞行记录</String>
+	<String ID="FileTypeDescriptionAnyTelemetryFile">Any Telemetry Data</String>
 	<String ID="FileTypeDescriptionTacviewText">Tacview Text Telemetry Data</String>
-	<String ID="FileTypeDescriptionTacviewMany">Tacview飞行记录</String>
+	<String ID="FileTypeDescriptionTacviewBinary">Tacview Binary Telemetry Data</String>
+	<String ID="FileTypeDescriptionGAEText">GAE Distributed Interactive Simulation Text Data</String>
 	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole Markup Language static objects</String>
-	<String ID="FileTypeDescriptionGPXMany">GPS eXchange文件</String>
-	<String ID="FileTypeDescriptionFalcon4Many">Falcon 4.0飞行记录</String>
-	<String ID="FileTypeDescriptionCSVMany">CSV格式飞行记录</String>
-	<String ID="FileTypeDescriptionKMLMany">Keyhole标记语言（KML）格式的飞行记录</String>
+	<String ID="FileTypeDescriptionGPX">GPS eXchange文件</String>
+	<String ID="FileTypeDescriptionVHS">Falcon 4.0飞行记录</String>
+	<String ID="FileTypeDescriptionCSV">CSV (Comma-separated values) files</String>
+	<String ID="FileTypeDescriptionKML">Keyhole标记语言（KML）格式的飞行记录</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">XML任务报告</String>
 	<String ID="FileTypeDescriptionCSVFlightLog">UTF-8逗号分割任务报告</String>
 	<String ID="FileTypeDescriptionCSVTelemetry">UTF-8逗号分割文件</String>
 	<String ID="FileTypeDescriptionObjectsMany">静态物体和Falcon 4.0 BMS DTC文件</String>
-	<String ID="FileTypeDescriptionAll">所有文件</String>
+	<String ID="FileTypeDescriptionAny">所有文件</String>
 	<String ID="TypeColumn">类型</String>
 	<String ID="TimeColumn">时间</String>
 	<String ID="EventColumn">事件</String>

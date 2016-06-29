@@ -10,13 +10,15 @@
 	<String ID="OptionsLanguageEnglishHelp">Switch to English (Tacview must be restarted for the language change to fully take effect)</String>
 	<String ID="OptionsLanguageFrenchText">&amp;Français (French)</String>
 	<String ID="OptionsLanguageFrenchHelp">Basculer vers le français (Tacview doit être redémarré pour que la langue puisse changer)</String>
+	<String ID="OptionsLanguageHebrewText">&amp;עברית (Hebrew)</String>
+	<String ID="OptionsLanguageHebrewHelp">עבור לעברית (relperetz@gmail.com : נוצר ע"י אריאל פרץ)</String>
 	<String ID="OptionsLanguageItalianText">&amp;Italiano (Italian)</String>
 	<String ID="OptionsLanguageItalianHelp">Passare all'Italiano (Tacview deve essere riavviato per far si che la modifica della lingua prenda pienamente effetto) (Tradotto da Diego Festari &lt;festari.diego@gmail.com&gt;)</String>
 	<String ID="OptionsLanguageKoreanText">&amp;한국어 (Korean)</String>
-	<String ID="OptionsLanguageKoreanHelp">한국어로 변경 - 언어 변경이 완전히 적용되려면 택뷰를 재시작 해 주셔야 합니다. (ihopi &lt;ihopi73@gmail.com&gt;)</String>
+	<String ID="OptionsLanguageKoreanHelp">한국어로 변경 - 언어 변경이 완전히 적용되려면 택뷰를 재시작 해 주셔야 합니다. (번역 - ihopi [NAVER JTWF SQUADRON] &lt;ihopi73@gmail.com&gt;)</String>
 	<String ID="OptionsLanguageRussianText">&amp;Русский (Russian)</String>
 	<String ID="OptionsLanguageRussianHelp">Переключиться на Русский (переведено Scorzy &lt;vommieer.translations@gmail.com&gt;)</String>
-	<String ID="OptionsLanguageHebrewText">&amp;עברית (Hebrew)</String>
-	<String ID="OptionsLanguageHebrewHelp">עבור לעברית (relperetz@gmail.com : נוצר ע"י אריאל פרץ)</String>
+	<String ID="OptionsLanguageSpanishText">&amp;Spanish (Spanish)</String>
+	<String ID="OptionsLanguageSpanishHelp">Switch to Spanish (Tacview must be restarted for the language change to fully take effect) (Translation by Revientor &lt;revientor111@gmail.com&gt;)</String>
 
 </Resources>

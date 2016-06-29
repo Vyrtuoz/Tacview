@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 
 <!-- XtraSetup Spanish Text -->
-<!-- Translation by xxxx -->
+<!-- Translation by Revientor <revientor111@gmail.com> -->
 
-<Resources Language="e">
+<Resources Language="es">
 
 	<!-- Misc -->
 	<String ID="InstallTitle">{0} Installation</String>

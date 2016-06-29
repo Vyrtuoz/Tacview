@@ -112,6 +112,8 @@
 	<String ID="OptionsImperialAircraftMIUnitsHelp">Speed: mph - Vertical Speed: ft/min - Altitude: ft - Distance: mi &amp; ft</String>
 	<String ID="OptionsImperialAircraftNMUnitsText">Imperial - Aircraft (nm)</String>
 	<String ID="OptionsImperialAircraftNMUnitsHelp">Speed: kts - Vertical Speed: ft/min - Altitude: ft - Distance: nm &amp; ft</String>
+	<String ID="OptionsDistanceAutoSwitchText">Switch distances to feet under 2 nm</String>
+	<String ID="OptionsDistanceAutoSwitchHelp">Switch distances to feet under 2 nm instead of 1 nm</String>
 
 	<String ID="OptionsPositionFormatText">Position Format</String>
 	<String ID="OptionsPositionFormatDDDHelp">Decimal degrees</String>
@@ -286,8 +288,10 @@
 	<String ID="TRKText">Track (TRK)</String>
 	<String ID="FlightPathAngleHelp">Aircraft true slope angle</String>
 	<String ID="FlightPathAngleText">Flight Path Angle</String>
-	<String ID="DistanceHelp">Covered distance</String>
-	<String ID="DistanceText">Distance</String>
+	<String ID="DistanceAirHelp">Covered air distance</String>
+	<String ID="DistanceAirText">Distance (Air)</String>
+	<String ID="DistanceGroundHelp">Covered ground distance</String>
+	<String ID="DistanceGroundText">Distance (Ground)</String>
 	<String ID="ElevationProfileHelp">Profile of the ground altitude under the aircraft</String>
 	<String ID="ElevationProfileText">Elevation Profile</String>
 
@@ -495,10 +499,8 @@
 	<String ID="FacebookLinkTooltip">Facebook</String>
 	<String ID="FlightSimHookTooltipTitle">You can now close Tacview</String>
 	<String ID="FlightSimHookTooltipMessage">When this icon is visible, all flights are automatically recorded by your flight simulator.&#10;It is not necessary to keep Tacview running while you are flying.</String>
-	<String ID="FlightRecordingOptimizedNotification">This recording is {0} times bigger than necessary. Re-save it to free up some disk space.</String>
 	<String ID="FlightRecordingCorruptedNotification">This flight recording may be truncated because it comes from an invalid or corrupted file.</String>
 	<String ID="FlightRecordingEmptyNotification">This flight recording is empty.</String>
-	<String ID="FlightRecordingMissingTimestamp">Speed calculations may be inaccurate since timestamp information is missing for some objects.</String>
 	<String ID="LowEndOpenGL">Please update your graphics card driver</String>
 
 	<!-- Message Boxes -->
@@ -583,7 +585,8 @@
 	<String ID="UnitLabelVS">VS ({0})</String>
 	<String ID="UnitLabelHeading">Heading (°)</String>
 	<String ID="UnitLabelTrack">Track (°)</String>
-	<String ID="UnitLabelDistance">Distance ({0})</String>
+	<String ID="UnitLabelDistanceAir">Air Distance ({0})</String>
+	<String ID="UnitLabelDistanceGround">Ground Distance ({0})</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -611,20 +614,20 @@
 	<String ID="VHSFileDescription">Falcon 4.0 - Flight recording</String>
 	<String ID="CustomProtocolDescription">Tacview Shortcut</String>
 	<String ID="NoRecentDocuments">(No recent document)</String>
-	<String ID="FileTypeDescriptionACMIMany">Any Flight Recording</String>
-	<String ID="FileTypeDescriptionTacview">Tacview Flight Recording</String>
+	<String ID="FileTypeDescriptionAnyTelemetryFile">Any Telemetry Data</String>
 	<String ID="FileTypeDescriptionTacviewText">Tacview Text Telemetry Data</String>
-	<String ID="FileTypeDescriptionTacviewMany">Tacview Flight Recordings</String>
+	<String ID="FileTypeDescriptionTacviewBinary">Tacview Binary Telemetry Data</String>
+	<String ID="FileTypeDescriptionGAEText">GAE Distributed Interactive Simulation Text Data</String>
 	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole Markup Language static objects</String>
-	<String ID="FileTypeDescriptionGPXMany">GPS eXchange Files</String>
-	<String ID="FileTypeDescriptionFalcon4Many">Falcon 4.0 Flight Recordings</String>
-	<String ID="FileTypeDescriptionCSVMany">Flight Recordings in CSV format</String>
-	<String ID="FileTypeDescriptionKMLMany">Flight recorded in Keyhole Markup Language (KML) format</String>
+	<String ID="FileTypeDescriptionGPX">GPS Exchange Format</String>
+	<String ID="FileTypeDescriptionVHS">Falcon 4.0 Flight Recordings</String>
+	<String ID="FileTypeDescriptionCSV">Comma-separated values</String>
+	<String ID="FileTypeDescriptionKML">Keyhole Markup Language</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">XML Flight Log</String>
 	<String ID="FileTypeDescriptionCSVFlightLog">UTF-8 comma-separated values Flight Log</String>
 	<String ID="FileTypeDescriptionCSVTelemetry">UTF-8 comma-separated values file</String>
 	<String ID="FileTypeDescriptionObjectsMany">Static Objects and Falcon 4.0 BMS DTC Files</String>
-	<String ID="FileTypeDescriptionAll">All Files</String>
+	<String ID="FileTypeDescriptionAny">Any File</String>
 	<String ID="TypeColumn">Type</String>
 	<String ID="TimeColumn">Time</String>
 	<String ID="EventColumn">Event</String>

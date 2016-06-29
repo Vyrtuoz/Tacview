@@ -113,6 +113,8 @@
 	<String ID="OptionsImperialAircraftMIUnitsHelp">속도: mph - 수직 속도: ft/min - 고도: ft - 거리: mi &amp; ft</String>
 	<String ID="OptionsImperialAircraftNMUnitsText">임페리얼(야드법) - 비행기 (nm)</String>
 	<String ID="OptionsImperialAircraftNMUnitsHelp">속도: kts - 수직 속도: ft/min - 고도: ft - 거리: nm &amp; ft</String>
+	<String ID="OptionsDistanceAutoSwitchText">Switch distances to feet under 2 nm</String>
+	<String ID="OptionsDistanceAutoSwitchHelp">Switch distances to feet under 2 nm instead of 1 nm</String>
 
 	<String ID="OptionsPositionFormatText">좌표 포맷</String>
 	<String ID="OptionsPositionFormatDDDHelp">십진 방식, 십진수도</String>
@@ -287,8 +289,10 @@
 	<String ID="TRKText">트랙 (TRK)</String>
 	<String ID="FlightPathAngleHelp">Aircraft true slope angle</String>
 	<String ID="FlightPathAngleText">Flight Path Angle</String>
-	<String ID="DistanceHelp">표현 된 거리</String>
-	<String ID="DistanceText">거리</String>
+	<String ID="DistanceAirHelp">Covered air distance</String>
+	<String ID="DistanceAirText">Distance (Air)</String>
+	<String ID="DistanceGroundHelp">Covered ground distance</String>
+	<String ID="DistanceGroundText">Distance (Ground)</String>
 	<String ID="ElevationProfileHelp">기체 하부의 지상고도의 프로파일</String>
 	<String ID="ElevationProfileText">고도 프로파일</String>
 
@@ -504,10 +508,8 @@
 	<String ID="FacebookLinkTooltip">페이스북</String>
 	<String ID="FlightSimHookTooltipTitle">이제 택뷰를 종료하셔도 됩니다.</String>
 	<String ID="FlightSimHookTooltipMessage">이 아이콘이 보인다면, 플라이트 시뮬레이터의 모든 비행이 자동으로 녹화 될 것입니다.&#10;비행 중 택뷰를 계속 실행시킬 필요는 없습니다.</String>
-	<String ID="FlightRecordingOptimizedNotification">현재 레코딩이 {0} 배 정도 필요 이상으로 큽니다. 다시 저장하여 디스크공간을 절약 하시기 바랍니다.</String>
 	<String ID="FlightRecordingCorruptedNotification">이 비행 녹화 파일은 손상되었거나 잘못 된 파일로 부터 불려져 왔기 때문에 잘려질 수 있습니다.</String>
 	<String ID="FlightRecordingEmptyNotification">비행 기록이 비어있습니다.</String>
-	<String ID="FlightRecordingMissingTimestamp">몇몇 오브젝트에 타임스탬프가 기록되어져 있지 않아서, 속도 계산이 정확하지 않을 수 있습니다.</String>
 <!--
 	Korean characters are not yet supported in the 3D view
 	<String ID="LowEndOpenGL">그래픽 카드 드라이버를 업데이트 해 주세요.</String>
@@ -613,7 +615,8 @@
 	<String ID="UnitLabelVS">VS ({0})</String>
 	<String ID="UnitLabelHeading">헤딩 (°)</String>
 	<String ID="UnitLabelTrack">트랙 (°)</String>
-	<String ID="UnitLabelDistance">거리 ({0})</String>
+	<String ID="UnitLabelDistanceAir">Air Distance ({0})</String>
+	<String ID="UnitLabelDistanceGround">Ground Distance ({0})</String>
 -->
 	<String ID="UnitLabelASL">ASL Altitude ({0})</String>
 	<String ID="UnitLabelAGL">AGL Altitude ({0})</String>
@@ -637,7 +640,8 @@
 	<String ID="UnitLabelVS">VS ({0})</String>
 	<String ID="UnitLabelHeading">Heading (°)</String>
 	<String ID="UnitLabelTrack">Track (°)</String>
-	<String ID="UnitLabelDistance">Distance ({0})</String>
+	<String ID="UnitLabelDistanceAir">Air Distance ({0})</String>
+	<String ID="UnitLabelDistanceGround">Ground Distance ({0})</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -665,20 +669,20 @@
 	<String ID="VHSFileDescription">팰콘 4.0 - 비행 기록</String>
 	<String ID="CustomProtocolDescription">택뷰 단축키</String>
 	<String ID="NoRecentDocuments">(최근 문서 없음)</String>
-	<String ID="FileTypeDescriptionACMIMany">여러 종류의 비행 기록</String>
-	<String ID="FileTypeDescriptionTacview">택뷰 비행 기록</String>
+	<String ID="FileTypeDescriptionAnyTelemetryFile">Any Telemetry Data</String>
 	<String ID="FileTypeDescriptionTacviewText">Tacview Text Telemetry Data</String>
-	<String ID="FileTypeDescriptionTacviewMany">택뷰 비행 기록</String>
+	<String ID="FileTypeDescriptionTacviewBinary">Tacview Binary Telemetry Data</String>
+	<String ID="FileTypeDescriptionGAEText">GAE Distributed Interactive Simulation Text Data</String>
 	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole Markup Language static objects</String>
-	<String ID="FileTypeDescriptionGPXMany">GPS 변환 파일</String>
-	<String ID="FileTypeDescriptionFalcon4Many">팰콘 4.0 비행 기록</String>
-	<String ID="FileTypeDescriptionCSVMany">CSV 포맷의 비행 기록</String>
-	<String ID="FileTypeDescriptionKMLMany">키홀 마크업 언어 (KML) 포맷의 비행 기록</String>
+	<String ID="FileTypeDescriptionGPX">GPS 변환 파일</String>
+	<String ID="FileTypeDescriptionVHS">팰콘 4.0 비행 기록</String>
+	<String ID="FileTypeDescriptionCSV">CSV (Comma-separated values) files</String>
+	<String ID="FileTypeDescriptionKML">키홀 마크업 언어 (KML) 포맷의 비행 기록</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">XML 비행 로그</String>
 	<String ID="FileTypeDescriptionCSVFlightLog">UTF-8 쉼표 구분값 비행 로그</String>
 	<String ID="FileTypeDescriptionCSVTelemetry">UTF-8 쉼표 구분값 파일comma-separated values file</String>
 	<String ID="FileTypeDescriptionObjectsMany">고정 오브젝트와 팰콘 4.0 BMS DTC 파일</String>
-	<String ID="FileTypeDescriptionAll">모든 파일</String>
+	<String ID="FileTypeDescriptionAny">모든 파일</String>
 	<String ID="TypeColumn">타입</String>
 	<String ID="TimeColumn">시간</String>
 	<String ID="EventColumn">이벤트</String>

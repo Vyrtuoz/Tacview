@@ -113,6 +113,8 @@
 	<String ID="OptionsImperialAircraftMIUnitsHelp">Velocità: mph - Velocità Verticale: ft/min - Altitudine: ft - Distanza: mi &amp; ft</String>
 	<String ID="OptionsImperialAircraftNMUnitsText">Imperiale - Aereoplani (nm)</String>
 	<String ID="OptionsImperialAircraftNMUnitsHelp">Velocità: kts - Velocità Verticale: ft/min - Altitudine: ft - Distanza: nm &amp; ft</String>
+	<String ID="OptionsDistanceAutoSwitchText">Switch distances to feet under 2 nm</String>
+	<String ID="OptionsDistanceAutoSwitchHelp">Switch distances to feet under 2 nm instead of 1 nm</String>
 
 	<String ID="OptionsPositionFormatText">Formato posizione</String>
 	<String ID="OptionsPositionFormatDDDHelp">Gradi Decimali</String>
@@ -287,8 +289,10 @@
 	<String ID="TRKText">Traccia (TRK)</String>
 	<String ID="FlightPathAngleHelp">Aircraft true slope angle</String>
 	<String ID="FlightPathAngleText">Flight Path Angle</String>
-	<String ID="DistanceHelp">Distanza Coperta</String>
-	<String ID="DistanceText">Distanza</String>
+	<String ID="DistanceAirHelp">Covered air distance</String>
+	<String ID="DistanceAirText">Distance (Air)</String>
+	<String ID="DistanceGroundHelp">Covered ground distance</String>
+	<String ID="DistanceGroundText">Distance (Ground)</String>
 	<String ID="ElevationProfileHelp">Profilo della elevazione del terreno sotto l'aereo</String>
 	<String ID="ElevationProfileText">Profilo Elevazione</String>
 
@@ -496,10 +500,8 @@
 	<String ID="FacebookLinkTooltip">Facebook</String>
 	<String ID="FlightSimHookTooltipTitle">Ora puoi chiudere Tacview</String>
 	<String ID="FlightSimHookTooltipMessage">Quando questa icona è visibile, tutti i voli vengono registrati automaticamente dal tuo simulatore di volo.&#10;Non è necessario mantenere Tacview in esecuzione mentre si vola.</String>
-	<String ID="FlightRecordingOptimizedNotification">Questa registrazione è {0} volte più grande del necessario. Ri-salvarlo per liberare spazio su disco.</String>
 	<String ID="FlightRecordingCorruptedNotification">Questa registrazione di volo può essere troncato perché viene da un file non valido o danneggiato.</String>
 	<String ID="FlightRecordingEmptyNotification">Questa registrazione di volo è vuota.</String>
-	<String ID="FlightRecordingMissingTimestamp">I Calcoli di velocità possono essere imprecisi, in quanto le informazioni di data e ora mancano per alcuni oggetti.</String>
 	<String ID="LowEndOpenGL">Si prega di aggiornare il driver della scheda grafica</String>
 
 	<!-- Message Boxes -->
@@ -584,7 +586,8 @@
 	<String ID="UnitLabelVS">VS ({0})</String>
 	<String ID="UnitLabelHeading">Heading (°)</String>
 	<String ID="UnitLabelTrack">Traccia (°)</String>
-	<String ID="UnitLabelDistance">Distanza ({0})</String>
+	<String ID="UnitLabelDistanceAir">Air Distance ({0})</String>
+	<String ID="UnitLabelDistanceGround">Ground Distance ({0})</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -612,20 +615,20 @@
 	<String ID="VHSFileDescription">Falcon 4.0 - Registro di Volo</String>
 	<String ID="CustomProtocolDescription">Scorciatoia a Tacview</String>
 	<String ID="NoRecentDocuments">(Nessun documento recente)</String>
-	<String ID="FileTypeDescriptionACMIMany">Qualsiasi registrazione di Volo</String>
-	<String ID="FileTypeDescriptionTacview">Tacview Registro di Volo</String>
+	<String ID="FileTypeDescriptionAnyTelemetryFile">Any Telemetry Data</String>
 	<String ID="FileTypeDescriptionTacviewText">Tacview Text Telemetry Data</String>
-	<String ID="FileTypeDescriptionTacviewMany">Tacview Registro di Volo</String>
+	<String ID="FileTypeDescriptionTacviewBinary">Tacview Binary Telemetry Data</String>
+	<String ID="FileTypeDescriptionGAEText">GAE Distributed Interactive Simulation Text Data</String>
 	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole Markup Language static objects</String>
-	<String ID="FileTypeDescriptionGPXMany">Scambio di File GPS</String>
-	<String ID="FileTypeDescriptionFalcon4Many">Falcon 4.0 Registro di Volo</String>
-	<String ID="FileTypeDescriptionCSVMany">Registro di Volo in formato CSV</String>
-	<String ID="FileTypeDescriptionKMLMany">Registro di Volo in formato Keyhole Markup Language (KML)</String>
+	<String ID="FileTypeDescriptionGPX">Scambio di File GPS</String>
+	<String ID="FileTypeDescriptionVHS">Falcon 4.0 Registro di Volo</String>
+	<String ID="FileTypeDescriptionCSV">CSV (Comma-separated values) files</String>
+	<String ID="FileTypeDescriptionKML">Registro di Volo in formato Keyhole Markup Language (KML)</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">Registro di volo in XML</String>
 	<String ID="FileTypeDescriptionCSVFlightLog">Registro di volo UTF-8 valori separati da virgole</String>
 	<String ID="FileTypeDescriptionCSVTelemetry">File UTF-8 valori separati da virgole</String>
 	<String ID="FileTypeDescriptionObjectsMany">Oggetti statici e Files di Falcon 4.0 BMS DTC</String>
-	<String ID="FileTypeDescriptionAll">Tutti i Files</String>
+	<String ID="FileTypeDescriptionAny">Tutti i Files</String>
 	<String ID="TypeColumn">Tipologia</String>
 	<String ID="TimeColumn">Tempo</String>
 	<String ID="EventColumn">Evento</String>

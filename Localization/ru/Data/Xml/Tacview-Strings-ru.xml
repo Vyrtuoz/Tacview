@@ -113,6 +113,8 @@
 	<String ID="OptionsImperialAircraftMIUnitsHelp">Скорость: миль/час - Вертикальная Скорость: фут/мин - Высота: фут - Расстояние: миль &amp; фут</String>
 	<String ID="OptionsImperialAircraftNMUnitsText">Имперская - ЛА (морские мили)</String>
 	<String ID="OptionsImperialAircraftNMUnitsHelp">Скорость: узлы - Вертикальная Скорость: фут/мин - Высота: фут - Расстояние: м.миль &amp; фут</String>
+	<String ID="OptionsDistanceAutoSwitchText">Switch distances to feet under 2 nm</String>
+	<String ID="OptionsDistanceAutoSwitchHelp">Switch distances to feet under 2 nm instead of 1 nm</String>
 
 	<String ID="OptionsPositionFormatText">Формат координат</String>
 	<String ID="OptionsPositionFormatDDDHelp">Десятичные градусы</String>
@@ -287,8 +289,10 @@
 	<String ID="TRKText">Track (TRK)</String>
 	<String ID="FlightPathAngleHelp">Aircraft true slope angle</String>
 	<String ID="FlightPathAngleText">Flight Path Angle</String>
-	<String ID="DistanceHelp">Пройденное расстояние</String>
-	<String ID="DistanceText">Расстояние</String>
+	<String ID="DistanceAirHelp">Covered air distance</String>
+	<String ID="DistanceAirText">Distance (Air)</String>
+	<String ID="DistanceGroundHelp">Covered ground distance</String>
+	<String ID="DistanceGroundText">Distance (Ground)</String>
 	<String ID="ElevationProfileHelp">Профиль высот земной поверхности под ЛА</String>
 	<String ID="ElevationProfileText">Профиль превышения</String>
 
@@ -496,10 +500,8 @@
 	<String ID="FacebookLinkTooltip">Facebook</String>
 	<String ID="FlightSimHookTooltipTitle">Теперь можно закрыть Tacview</String>
 	<String ID="FlightSimHookTooltipMessage">Когда эта иконка видима, все полёты автоматически записываются симулятором.&#10;Запускать Tacview во время игры необязательно.</String>
-	<String ID="FlightRecordingOptimizedNotification">Эта запись в {0} раза больше требуемого. Пересохраните её, чтобы освободить место на диске.</String>
 	<String ID="FlightRecordingCorruptedNotification">Данный файл может быть обрезан, поскольку исходный файл неверен, либо содержит ошибки.</String>
 	<String ID="FlightRecordingEmptyNotification">Эта запись полёта пуста.</String>
-	<String ID="FlightRecordingMissingTimestamp">Расчётная скорость может быть неверной, поскольку для ряда объектов отсутствуют метки.</String>
 	<String ID="LowEndOpenGL">Пожалуйста, обновите драйвера своей видеокарты.</String>
 
 	<!-- Message Boxes -->
@@ -584,7 +586,8 @@
 	<String ID="UnitLabelVS">ВС ({0})</String>
 	<String ID="UnitLabelHeading">Азимут (°)</String>
 	<String ID="UnitLabelTrack">Трек (°)</String>
-	<String ID="UnitLabelDistance">Расстояние ({0})</String>
+	<String ID="UnitLabelDistanceAir">Air Distance ({0})</String>
+	<String ID="UnitLabelDistanceGround">Ground Distance ({0})</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -612,20 +615,20 @@
 	<String ID="VHSFileDescription">Запись полёта Falcon 4.0</String>
 	<String ID="CustomProtocolDescription">Ярлык Tacview</String>
 	<String ID="NoRecentDocuments">(Отсутствуют недавние документы)</String>
-	<String ID="FileTypeDescriptionACMIMany">Любая запись полёта</String>
-	<String ID="FileTypeDescriptionTacview">Запись полёта Tacview</String>
+	<String ID="FileTypeDescriptionAnyTelemetryFile">Any Telemetry Data</String>
 	<String ID="FileTypeDescriptionTacviewText">Tacview Text Telemetry Data</String>
-	<String ID="FileTypeDescriptionTacviewMany">Записи полёта Tacview</String>
+	<String ID="FileTypeDescriptionTacviewBinary">Tacview Binary Telemetry Data</String>
+	<String ID="FileTypeDescriptionGAEText">GAE Distributed Interactive Simulation Text Data</String>
 	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole Markup Language static objects</String>
-	<String ID="FileTypeDescriptionGPXMany">Файлы обмена GPS</String>
-	<String ID="FileTypeDescriptionFalcon4Many">Записи полёта Falcon 4.0</String>
-	<String ID="FileTypeDescriptionCSVMany">Записи полёта в .csv формате</String>
-	<String ID="FileTypeDescriptionKMLMany">Запись в формате .kml</String>
+	<String ID="FileTypeDescriptionGPX">Файлы обмена GPS</String>
+	<String ID="FileTypeDescriptionVHS">Записи полёта Falcon 4.0</String>
+	<String ID="FileTypeDescriptionCSV">CSV (Comma-separated values) files</String>
+	<String ID="FileTypeDescriptionKML">Запись в формате .kml</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">Журнал полёта в .xml</String>
 	<String ID="FileTypeDescriptionCSVFlightLog">Журнал полёта в UTF-8 (разделитель - запятая)</String>
 	<String ID="FileTypeDescriptionCSVTelemetry">Файл значений UTF-8 (разделитель - запятая)</String>
 	<String ID="FileTypeDescriptionObjectsMany">Статичные объекты и BMS DTC файлы Falcon 4.0</String>
-	<String ID="FileTypeDescriptionAll">Все файлы</String>
+	<String ID="FileTypeDescriptionAny">Все файлы</String>
 	<String ID="TypeColumn">Тип</String>
 	<String ID="TimeColumn">Время</String>
 	<String ID="EventColumn">Событие</String>

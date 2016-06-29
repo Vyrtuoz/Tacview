@@ -113,6 +113,8 @@
 	<String ID="OptionsImperialAircraftMIUnitsHelp">מהירות: [מייל/שעה] , מהירות אנכית: [רגל/דקה] , גובה: [רגל] , מרחק: [רגל]</String>
 	<String ID="OptionsImperialAircraftNMUnitsText">(nm) אימפריאל - מטוסים</String>
 	<String ID="OptionsImperialAircraftNMUnitsHelp">מהירות: [קשר] , מהירות אנכית: [רגל/דקה] , גובה: [רגל] , מרחק: [רגל]</String>
+	<String ID="OptionsDistanceAutoSwitchText">Switch distances to feet under 2 nm</String>
+	<String ID="OptionsDistanceAutoSwitchHelp">Switch distances to feet under 2 nm instead of 1 nm</String>
 
 	<String ID="OptionsPositionFormatText">.פורמט נ.צ</String>
 	<String ID="OptionsPositionFormatDDDHelp">DD°.dddddd</String>
@@ -287,8 +289,10 @@
 	<String ID="TRKText">(TRK) מסלול אמיתי</String>
 	<String ID="FlightPathAngleHelp">Aircraft true slope angle</String>
 	<String ID="FlightPathAngleText">Flight Path Angle</String>
-	<String ID="DistanceHelp">מרחק הטיסה</String>
-	<String ID="DistanceText">מרחק</String>
+	<String ID="DistanceAirHelp">Covered air distance</String>
+	<String ID="DistanceAirText">Distance (Air)</String>
+	<String ID="DistanceGroundHelp">Covered ground distance</String>
+	<String ID="DistanceGroundText">Distance (Ground)</String>
 	<String ID="ElevationProfileHelp">פרופיל גובה הטיסה הקרקעי מעליו המטוס טס</String>
 	<String ID="ElevationProfileText">פרופיל גובה טיסה קרקעי</String>
 
@@ -496,10 +500,8 @@
 	<String ID="FacebookLinkTooltip">פייסבוק</String>
 	<String ID="FlightSimHookTooltipTitle">Tacview ניתן לסגור כעת את</String>
 	<String ID="FlightSimHookTooltipMessage">כאשר האייקון מוצג, כל הטיסות מוקלטות אוטומטית ע"י סימולטור הטיסה שלך. ניתן לסגור את התוכנה בזמן הטיסה</String>
-	<String ID="FlightRecordingOptimizedNotification">ההקלטה גדולה פי {0} פעמים מהנדרש. שמור את הקובץ מחדש ע"מ להקטין את גודלו</String>
 	<String ID="FlightRecordingCorruptedNotification">קובץ ההקלטה הנבחר פגום. אנא בדוק תקינותו.</String>
 	<String ID="FlightRecordingEmptyNotification">קובץ ההקלטה הנבחר ריק</String>
-	<String ID="FlightRecordingMissingTimestamp">חישוב המהירות עלול להיות שגוי בשל חוסר בתגי זמן של חלק מהאובייקטים</String>
 	<String ID="LowEndOpenGL">מומלץ לשדרג את כרטיס המסך שלך</String>
 
 	<!-- Message Boxes -->
@@ -584,7 +586,8 @@
 	<String ID="UnitLabelVS">VS ({0})</String>
 	<String ID="UnitLabelHeading">Heading (°)</String>
 	<String ID="UnitLabelTrack">Track (°)</String>
-	<String ID="UnitLabelDistance">Distance ({0})</String>
+	<String ID="UnitLabelDistanceAir">Air Distance ({0})</String>
+	<String ID="UnitLabelDistanceGround">Ground Distance ({0})</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -612,20 +615,20 @@
 	<String ID="VHSFileDescription">Falcon 4.0 הקלטת</String>
 	<String ID="CustomProtocolDescription">Tacview קיצור דרך</String>
 	<String ID="NoRecentDocuments">(רשימת הקבצים האחרונים ריקה)</String>
-	<String ID="FileTypeDescriptionACMIMany">כל סוגי הקלטת טיסה</String>
-	<String ID="FileTypeDescriptionTacview">Tacview הקלטת</String>
+	<String ID="FileTypeDescriptionAnyTelemetryFile">Any Telemetry Data</String>
 	<String ID="FileTypeDescriptionTacviewText">Tacview Text Telemetry Data</String>
-	<String ID="FileTypeDescriptionTacviewMany">Tacview הקלטות</String>
+	<String ID="FileTypeDescriptionTacviewBinary">Tacview Binary Telemetry Data</String>
+	<String ID="FileTypeDescriptionGAEText">GAE Distributed Interactive Simulation Text Data</String>
 	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole Markup Language static objects</String>
-	<String ID="FileTypeDescriptionGPXMany">GPS eXchange קבצי</String>
-	<String ID="FileTypeDescriptionFalcon4Many">Falcon 4.0 הקלטות</String>
-	<String ID="FileTypeDescriptionCSVMany">CSV הקלטות בפורמט</String>
-	<String ID="FileTypeDescriptionKMLMany">KML הקלטות בפורמט</String>
+	<String ID="FileTypeDescriptionGPX">GPS eXchange קבצי</String>
+	<String ID="FileTypeDescriptionVHS">Falcon 4.0 הקלטות</String>
+	<String ID="FileTypeDescriptionCSV">CSV (Comma-separated values) files</String>
+	<String ID="FileTypeDescriptionKML">KML הקלטות בפורמט</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">XML יומן טיסות בפורמט</String>
 	<String ID="FileTypeDescriptionCSVFlightLog">(UTF-8 בתבנית) CSV יומן טיסה בפורמט</String>
 	<String ID="FileTypeDescriptionCSVTelemetry">(UTF-8 בתבנית) CSV קובץ בפורמט</String>
 	<String ID="FileTypeDescriptionObjectsMany">Falcon 4.0 BMS DTC אובייקטים קבועים וקבצי</String>
-	<String ID="FileTypeDescriptionAll">כל הקבצים</String>
+	<String ID="FileTypeDescriptionAny">כל הקבצים</String>
 	<String ID="TypeColumn">סוג</String>
 	<String ID="TimeColumn">זמן</String>
 	<String ID="EventColumn">ארוע</String>
