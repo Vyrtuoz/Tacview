@@ -376,19 +376,18 @@
 	<String ID="AddOnTitleChart1">Graphique 2</String>
 	<String ID="AddOnTitleChart2">Graphique 3</String>
 	<String ID="AddOnTitleChart3">Graphique 4</String>
+
+	<String ID="AddOnTelemetryName">Name</String>
 	<String ID="AddOnTelemetryData">Donnée</String>
+	<String ID="AddOnTelemetryRawData">Donnée Brute</String>
 	<String ID="AddOnTelemetryValue">Valeur</String>
 	<String ID="AddOnTelemetryUnit">Unité</String>
-	<String ID="AddOnTelemetryType">Type</String>
-	<String ID="AddOnTelemetryText">Texte</String>
-	<String ID="AddOnTelemetryNumeric">Nombre</String>
-	<String ID="AddOnTelemetryTime">Temps</String>
-	<String ID="AddOnTelemetryMetadata">Métadonnée</String>
-	<String ID="AddOnTelemetryTransform">Transformation</String>
-	<String ID="AddOnTelemetryGroupGlobal">Globales</String>
+
+	<String ID="AddOnTelemetryGroupContext">Contexte</String>
 	<String ID="AddOnTelemetryGroupMetadata">Métadonnées</String>
 	<String ID="AddOnTelemetryGroupTransform">Transformation</String>
-	<String ID="AddOnTelemetryGroupProperties">Propriétés</String>
+	<String ID="AddOnTelemetryGroupTextProperties">Propriétés Texte</String>
+	<String ID="AddOnTelemetryGroupNumericProperties">Propriétés Numérique </String>
 
 	<String ID="AddOnTitleDocumentProperties">Propriétés</String>
 	<String ID="TitleProperty">Titre</String>

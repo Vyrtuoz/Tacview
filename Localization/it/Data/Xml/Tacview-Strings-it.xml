@@ -377,19 +377,18 @@
 	<String ID="AddOnTitleChart1">Grafico 2</String>
 	<String ID="AddOnTitleChart2">Grafico 3</String>
 	<String ID="AddOnTitleChart3">Grafico 4</String>
+
+	<String ID="AddOnTelemetryName">Name</String>
 	<String ID="AddOnTelemetryData">Dati</String>
+	<String ID="AddOnTelemetryRawData">Raw Data</String>
 	<String ID="AddOnTelemetryValue">Valore</String>
 	<String ID="AddOnTelemetryUnit">Unità</String>
-	<String ID="AddOnTelemetryType">Type</String>
-	<String ID="AddOnTelemetryText">Text</String>
-	<String ID="AddOnTelemetryNumeric">Number</String>
-	<String ID="AddOnTelemetryTime">Time</String>
-	<String ID="AddOnTelemetryMetadata">Metadata</String>
-	<String ID="AddOnTelemetryTransform">Transform</String>
-	<String ID="AddOnTelemetryGroupGlobal">Globals</String>
+
+	<String ID="AddOnTelemetryGroupContext">Context</String>
 	<String ID="AddOnTelemetryGroupMetadata">Metadata</String>
 	<String ID="AddOnTelemetryGroupTransform">Transform</String>
-	<String ID="AddOnTelemetryGroupProperties">Properties</String>
+	<String ID="AddOnTelemetryGroupTextProperties">Text Properties</String>
+	<String ID="AddOnTelemetryGroupNumericProperties">Numeric Properties</String>
 
 	<String ID="AddOnTitleDocumentProperties">Proprietà</String>
 	<String ID="TitleProperty">Titolo</String>

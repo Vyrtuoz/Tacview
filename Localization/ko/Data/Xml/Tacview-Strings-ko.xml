@@ -385,19 +385,18 @@
 	<String ID="AddOnTitleChart1">챠트 2</String>
 	<String ID="AddOnTitleChart2">챠트 3</String>
 	<String ID="AddOnTitleChart3">챠트 4</String>
+
+	<String ID="AddOnTelemetryName">Name</String>
 	<String ID="AddOnTelemetryData">데이터</String>
+	<String ID="AddOnTelemetryRawData">Raw Data</String>
 	<String ID="AddOnTelemetryValue">값</String>
 	<String ID="AddOnTelemetryUnit">유닛</String>
-	<String ID="AddOnTelemetryType">Type</String>
-	<String ID="AddOnTelemetryText">Text</String>
-	<String ID="AddOnTelemetryNumeric">Number</String>
-	<String ID="AddOnTelemetryTime">Time</String>
-	<String ID="AddOnTelemetryMetadata">Metadata</String>
-	<String ID="AddOnTelemetryTransform">Transform</String>
-	<String ID="AddOnTelemetryGroupGlobal">Globals</String>
+
+	<String ID="AddOnTelemetryGroupContext">Context</String>
 	<String ID="AddOnTelemetryGroupMetadata">Metadata</String>
 	<String ID="AddOnTelemetryGroupTransform">Transform</String>
-	<String ID="AddOnTelemetryGroupProperties">Properties</String>
+	<String ID="AddOnTelemetryGroupTextProperties">Text Properties</String>
+	<String ID="AddOnTelemetryGroupNumericProperties">Numeric Properties</String>
 
 	<String ID="AddOnTitleDocumentProperties">속성</String>
 	<String ID="TitleProperty">제목</String>

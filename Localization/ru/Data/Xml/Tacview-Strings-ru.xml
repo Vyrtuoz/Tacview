@@ -377,19 +377,18 @@
 	<String ID="AddOnTitleChart1">Графики 2</String>
 	<String ID="AddOnTitleChart2">Графики 3</String>
 	<String ID="AddOnTitleChart3">Графики 4</String>
+
+	<String ID="AddOnTelemetryName">Name</String>
 	<String ID="AddOnTelemetryData">Данные</String>
+	<String ID="AddOnTelemetryRawData">Raw Data</String>
 	<String ID="AddOnTelemetryValue">Значение</String>
 	<String ID="AddOnTelemetryUnit">Единицы</String>
-	<String ID="AddOnTelemetryType">Тип</String>
-	<String ID="AddOnTelemetryText">Текст</String>
-	<String ID="AddOnTelemetryNumeric">Число</String>
-	<String ID="AddOnTelemetryTime">Время</String>
-	<String ID="AddOnTelemetryMetadata">Метаданные</String>
-	<String ID="AddOnTelemetryTransform">Преобразование</String>
-	<String ID="AddOnTelemetryGroupGlobal">Глобально</String>
+
+	<String ID="AddOnTelemetryGroupContext">Context</String>
 	<String ID="AddOnTelemetryGroupMetadata">Метаданные</String>
 	<String ID="AddOnTelemetryGroupTransform">Преобразование</String>
-	<String ID="AddOnTelemetryGroupProperties">Свойства</String>
+	<String ID="AddOnTelemetryGroupTextProperties">Text Properties</String>
+	<String ID="AddOnTelemetryGroupNumericProperties">Numeric Properties</String>
 
 	<String ID="AddOnTitleDocumentProperties">Свойства</String>
 	<String ID="TitleProperty">Название</String>

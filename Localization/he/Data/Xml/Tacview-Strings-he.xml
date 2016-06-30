@@ -377,19 +377,18 @@
 	<String ID="AddOnTitleChart1">גרף אובייקט 2</String>
 	<String ID="AddOnTitleChart2">גרף אובייקט 3</String>
 	<String ID="AddOnTitleChart3">גרף אובייקט 4</String>
+
+	<String ID="AddOnTelemetryName">Name</String>
 	<String ID="AddOnTelemetryData">נתון</String>
+	<String ID="AddOnTelemetryRawData">Raw Data</String>
 	<String ID="AddOnTelemetryValue">ערך</String>
 	<String ID="AddOnTelemetryUnit">יחידות</String>
-	<String ID="AddOnTelemetryType">סוג</String>
-	<String ID="AddOnTelemetryText">טקסט</String>
-	<String ID="AddOnTelemetryNumeric">מספר</String>
-	<String ID="AddOnTelemetryTime">זמן</String>
-	<String ID="AddOnTelemetryMetadata">Metadata</String>
-	<String ID="AddOnTelemetryTransform">Transform</String>
-	<String ID="AddOnTelemetryGroupGlobal">Globals</String>
+
+	<String ID="AddOnTelemetryGroupContext">Context</String>
 	<String ID="AddOnTelemetryGroupMetadata">Metadata</String>
 	<String ID="AddOnTelemetryGroupTransform">Transform</String>
-	<String ID="AddOnTelemetryGroupProperties">Properties</String>
+	<String ID="AddOnTelemetryGroupTextProperties">Text Properties</String>
+	<String ID="AddOnTelemetryGroupNumericProperties">Numeric Properties</String>
 
 	<String ID="AddOnTitleDocumentProperties">הגדרות</String>
 	<String ID="TitleProperty">כותרת</String>

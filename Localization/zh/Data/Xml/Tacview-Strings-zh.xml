@@ -385,19 +385,18 @@
 	<String ID="AddOnTitleChart1">图表2</String>
 	<String ID="AddOnTitleChart2">图表3</String>
 	<String ID="AddOnTitleChart3">图表4</String>
+
+	<String ID="AddOnTelemetryName">Name</String>
 	<String ID="AddOnTelemetryData">数据</String>
+	<String ID="AddOnTelemetryRawData">Raw Data</String>
 	<String ID="AddOnTelemetryValue">值</String>
 	<String ID="AddOnTelemetryUnit">单位</String>
-	<String ID="AddOnTelemetryType">Type</String>
-	<String ID="AddOnTelemetryText">Text</String>
-	<String ID="AddOnTelemetryNumeric">Number</String>
-	<String ID="AddOnTelemetryTime">Time</String>
-	<String ID="AddOnTelemetryMetadata">Metadata</String>
-	<String ID="AddOnTelemetryTransform">Transform</String>
-	<String ID="AddOnTelemetryGroupGlobal">Globals</String>
+
+	<String ID="AddOnTelemetryGroupContext">Context</String>
 	<String ID="AddOnTelemetryGroupMetadata">Metadata</String>
 	<String ID="AddOnTelemetryGroupTransform">Transform</String>
-	<String ID="AddOnTelemetryGroupProperties">Properties</String>
+	<String ID="AddOnTelemetryGroupTextProperties">Text Properties</String>
+	<String ID="AddOnTelemetryGroupNumericProperties">Numeric Properties</String>
 
 	<String ID="AddOnTitleDocumentProperties">属性</String>
 	<String ID="TitleProperty">标题</String>
