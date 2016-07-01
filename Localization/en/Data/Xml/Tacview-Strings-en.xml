@@ -381,6 +381,7 @@
 	<String ID="AddOnTelemetryData">Data</String>
 	<String ID="AddOnTelemetryRawData">Raw Data</String>
 	<String ID="AddOnTelemetryValue">Value</String>
+	<String ID="AddOnTelemetryInterpretedValue">Interpreted Value</String>
 	<String ID="AddOnTelemetryUnit">Unit</String>
 
 	<String ID="AddOnTelemetryGroupContext">Context</String>

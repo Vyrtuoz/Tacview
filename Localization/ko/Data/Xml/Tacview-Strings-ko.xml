@@ -390,6 +390,7 @@
 	<String ID="AddOnTelemetryData">데이터</String>
 	<String ID="AddOnTelemetryRawData">Raw Data</String>
 	<String ID="AddOnTelemetryValue">값</String>
+	<String ID="AddOnTelemetryInterpretedValue">Interpreted Value</String>
 	<String ID="AddOnTelemetryUnit">유닛</String>
 
 	<String ID="AddOnTelemetryGroupContext">Context</String>

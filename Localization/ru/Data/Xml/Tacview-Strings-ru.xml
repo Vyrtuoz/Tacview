@@ -382,6 +382,7 @@
 	<String ID="AddOnTelemetryData">Данные</String>
 	<String ID="AddOnTelemetryRawData">Raw Data</String>
 	<String ID="AddOnTelemetryValue">Значение</String>
+	<String ID="AddOnTelemetryInterpretedValue">Interpreted Value</String>
 	<String ID="AddOnTelemetryUnit">Единицы</String>
 
 	<String ID="AddOnTelemetryGroupContext">Context</String>

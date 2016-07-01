@@ -381,6 +381,7 @@
 	<String ID="AddOnTelemetryData">Donnée</String>
 	<String ID="AddOnTelemetryRawData">Donnée Brute</String>
 	<String ID="AddOnTelemetryValue">Valeur</String>
+	<String ID="AddOnTelemetryInterpretedValue">Valeur Interprétée</String>
 	<String ID="AddOnTelemetryUnit">Unité</String>
 
 	<String ID="AddOnTelemetryGroupContext">Contexte</String>
