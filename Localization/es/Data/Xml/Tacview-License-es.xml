@@ -1,50 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 
 <!-- Tacview Spanish License Text -->
-<!-- Translation by Revientor <revientor111@gmail.com> -->
+<!-- Translation by Revientor - www.escuadron111.com <revientor111@gmail.com> -->
 
 <Resources Language="es">
 
 	<!-- EULA -->
 	<String ID="LicenseText">
 		<br/>
-		<p align="center"><b>Tacview License Agreement</b></p>
-		<p align="center">Last Updated March 22, 2015</p>
-		<p><b>IMPORTANT NOTICE</b></p>
-		<p>Read this License Agreement carefully before using this Software.</p>
-		<p>BY USING THIS SOFTWARE IN ANY WAY YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREED TO THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THESE TERMS, DO NOT USE THIS SOFTWARE IN ANY WAY AND PROMPTLY RETURN IT AND DELETE ANY COPIES OF IT IN YOUR POSSESSION.</p>
-		<p><b>PERMISSIONS</b></p>
-		<p>All rights are exclusively owned by the author Frantz RAIA ("Stra&#160;Software"). All rights not expressly granted here are reserved by the author. Stra&#160;Software grants you a non-exclusive license to test and use this software ("Tacview") and any associated documentation as indicated herein.</p>
-		<p>You MAY do the following:</p>
+		<p align="center"><b>Acuerdo de licencia de Tacview</b></p>
+		<p align="center">Última actualización 22 de Marzo, 2015</p>
+		<p><b>NOTICIA IMPORTANTE</b></p>
+		<p>Lea cuidadosamente el acuerdo de licencia antes de usar el software.</p>
+		<p>POR EL USO DE ESTE SOFTWARE DE CUALQUIER MANERA, USTED RECONOCE HABER LEIDO, ENTENDIDO Y ESTAR DE ACUERDO CON LOS TERMINOS DE ESTE ACUERDO. IS USTED NO ESTA DEACUERDO CON LOS TERMINOS, NO USE ESTE SOFTWARE DE NINGUNA MANERA, DEVUELVA LO Y BORRE LAS COPIAS QUE TENGA EN SU POSESION.</p>
+		<p><b>PERMISOS</b></p>
+		<p>Todos los derechos están en posesión del autor Frant RAIA ("Stra&#160;Software"). Los derechos no expresados aquí están reservados para el autor. Stra&#160;Software le autoriza una licencia no exclusiva para la prueba de este software (“Tacview”) y cualquier documentación asociada como se indica en el presente documento.</p>
+		<p>Usted DEBE hacer los siguiente:</p>
 		<ul>
-			<li>Install and use Tacview as long as you comply with these terms</li>
-			<li>Freely redistribute the original Tacview installer</li>
+			<li>Instalar y usar Tacview siempre que se cumplan los términos de licencia</li>
+			<li>Distribuir libremente el instalador original del Tacview</li>
 		</ul>
-		<p><b>RESTRICTIONS</b></p>
-		<p>You MAY NOT do the following:</p>
+		<p><b>RESTRICCIONES</b></p>
+		<p>Usted NO DEBE hacer los siguiente:</p>
 		<ul>
-			<li>Sell Tacview</li>
-			<li>Rent or lease Tacview</li>
-			<li>Reverse engineer, disassemble, decompile, or alter Tacview</li>
-			<li>Remove any product identification, copyright notices, or other notices or proprietary restrictions from Tacview</li>
+			<li>Vender Tacview</li>
+			<li>Alquilar o arrendar Tacview</li>
+			<li>Hacer ingeniería inversa desensamblar, descompilar o alterar Tacview</li>
+			<li>Borrar cualquier identificación del producto, avisos de copyright, u otros avisos o las limitaciones de propiedad de Tacview</li>
 		</ul>
-		<p>Any such unauthorized use shall result in immediate and automatic termination of this license and may result in criminal and/or civil prosecution.</p>
-		<p><b>DISTRIBUTION</b></p>
-		<p>You are hereby licensed to make as many copies of Tacview as you wish and to redistribute it to anyone provided that all files are intact. You must redistribute Tacview installer, not the files resulting from an installation. You are not allowed to sell Tacview. Any form of media is authorized to redistribute it by any means (DVD, Cover Disc, web site) without preliminary permission from Stra&#160;Software.</p>
-		<p><b>COLLECTION OF ANONYMOUS DATA</b></p>
-		<p>Stra&#160;Software reserves the right to collect, store and use anonymous data about Tacview usage. This data will not be sold to a third party and will be exclusively used to improve the quality and stability of Tacview.</p>
-		<p><b>REGISTERED USERS</b></p>
-		<p>Following an evaluation period of 21 days, some advanced features of Tacview will be disabled. You must buy a Home or Professional license of Tacview if you wish to continue enjoying these features.</p>
-		<p>To register as a Home or Professional user, complete the online registration form and send it with the registration fee to one of the authorized registration sites. Go to http://tacview.strasoftware.com for the authorized sites list.</p>
-		<p>Once registered, the user is granted a non-exclusive license to use this program on as many computers as defined by the license purchased. The license key may not be redistributed, rented or leased, but it may be permanently transferred, in its entirety, if the person receiving it agrees to the terms of this license.</p>
-		<p><b>COPYRIGHT/OWNERSHIP</b></p>
-		<p>Tacview and its source code are proprietary products of Stra&#160;Software and are protected by copyright and other intellectual property laws.</p>
-		<p><b>TERM</b></p>
-		<p>If you fail to comply with any of the terms or conditions of this agreement, this license will be terminated. Upon such termination, you agree to stop using Tacview and destroy any copies you have made of it.</p>
-		<p><b>DISCLAIMER OF WARRANTIES</b></p>
-		<p>Tacview is supplied "AS IS". Stra&#160;Software disclaims all warranties, expressed or implied, including, without limitation, the warranties of merchantability and of fitness for any purpose. The user must assume the entire risk of using Tacview.</p>
-		<p><b>DISCLAIMER OF DAMAGES</b></p>
-		<p>Stra&#160;Software assumes no liability for damages, direct or consequential, which may result from the use of Tacview, even if Stra&#160;Software has been advised of the possibility of such damages.</p>
+		<p>Cualquier uso desautorizado resultara en la finalización inmediata del acuerdo pudiendo resultar en acciones criminales o enjuiciamiento civil.</p>
+		<p><b>DISTRIBUCION</b></p>
+		<p>Por la presente está autorizado hacer tantas copias de Tacview como se deseen y redistribuirlas a cualquiera mientras se den con los archivos intactos. Usted debe redistribuir el instalador, no los archivos resultantes de la intalacion. Usted no está autorizado a vender Tacview. Cualquier formado multimedia está autorizado con propósito de distribución (DVD, sitios web, Disck cover) sin un permiso preliminar de Stra&#160;Software.</p>
+		<p><b>RECOGIDA DE DATOS ANÓNIMOS</b></p>
+		<p>Stra&#160;Software se reserva los derechos de recogida, almacenamiento y uso de datos anónimos del uso de Tacview. Estos datos no serán vendidos a terceros y será de uso exclusivo para la mejora de calidad y estabilidad de Tacview.</p>
+		<p><b>REGISTRO DE USUARIOS</b></p>
+		<p>Siguiendo un proceso de evaluación de 21 días, algunas características avanzadas de Tacview se desactivaran. Usted debe pagar una licencia HOME o PROFESSIONAL de Tacview si desea continuar disfrutando de esas características.</p>
+		<p>Para registrarse como usuario HOME o PROFESSIONAL, complete el formulario de registro en línea y envíelo con la cuota de registro a uno de los sitios autorizados. Visite http://tacview.strasoftware.com para comprobar la lista de sitios autorizados.</p>
+		<p>Una vez registrado, se le concede al usuario una licencia no exclusiva  para el uso del programa en tantos ordenadores como sea definida en la licencia de compra. La key no debe ser redistribuida, alquilada, arrendar pero puede ser permanentemente transferida, enteramente, si la persona que lo recibe esta de acuerdo con los términos de la licencia.</p>
+		<p><b>AUTOR/PROPIEDAD</b></p>
+		<p>Tacview y su código fuente son productos y propiedad de Stra&#160;Software y están protegidos por las leyes de copiright y derechos de autor.</p>
+		<p><b>TERMINOS</b></p>
+		<p>Si usted no cumple con alguno de los términos o condiciones del acuerdo, esta licencia será finalizada.  Tras la rescisión, usted se compromete a dejar de usar Tacview y destruir todas las copias que tenga de él.</p>
+		<p><b>EXCLUSION DE GARANTIAS</b></p>
+		<p>Tacview se suministra “tal cual”. Stra&#160;Software rechaza cualquier garantía, expresa o implícita incluyendo sin limitación, las garantías mercantes y adecuadas para tal fin. El usuario debe asumir el riesgo entero del uso de Tacview.</p>
+		<p><b>EXCLUSION DE DAÑOS</b></p>
+		<p>Stra&#160;Software no asume ninguna responsabilidad por los daños directos o indirectos, de los cuales puedan surgir con el uso de Tacview incluso si  Stra&#160;Software ha sido advertido de la posibilidad de tales daños.</p>
 	</String>
 
 </Resources>
