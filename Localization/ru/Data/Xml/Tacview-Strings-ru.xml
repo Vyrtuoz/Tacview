@@ -249,9 +249,13 @@
 	<!-- Telemetry -->
 	<String ID="ATCHelp">ATC - подобная телеметрия: Высота/100, вертикальная скорость и наземная скорость/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
+	<String ID="BullseyeHelp">Position relative to the main object coalition bullseye</String>
+	<String ID="BullseyeText">Bullseye</String>
 
 	<String ID="TASHelp">Скорость ЛА относительно окружающей воздушной массы</String>
 	<String ID="TASText">Истинная воздушная скорость (TAS)</String>
+	<String ID="CASHelp">Calibrated airspeed</String>
+	<String ID="CASText">Speed (CAS)</String>
 	<String ID="IASHelp">Считывать показания скорости прямо с прибора</String>
 	<String ID="IASText">Приборная скорость (IAS)</String>
 	<String ID="MachHelp">Число Маха</String>
@@ -433,23 +437,14 @@
 	<String ID="CommandLineImportExport">Импорт/Экспорт</String>
 	<String ID="CommandLineBehavior">Общее поведение</String>
 	<String ID="CommandLineSpecial">Дополнительные опции</String>
-	<String ID="CmdOpen">/Open:"C:\Temp\Demo-BlackShark.acmi"</String>
 	<String ID="CmdOpenHelp">Открыть существующую запись.</String>
-	<String ID="CmdMerge">/Merge:"C:\Temp\Falcon-4.0-AF-Korea-20061213.vhs"</String>
 	<String ID="CmdMergeHelp">Объединить существующую запись со всеми текущими данными.</String>
-	<String ID="CmdSave">/Save[:"C:\Flight\TopGun2014.acmi"]</String>
 	<String ID="CmdSaveHelp">Сохранить запись в формате со сжатием.</String>
-	<String ID="CmdExportFlightLog">/ExportFlightLog:"C:\Reports\Mission Black Gold.csv"</String>
 	<String ID="CmdExportFlightLogHelp">Экспортировать журнал в виде .xml или .csv.</String>
-	<String ID="CmdFalcon4Theater">/Falcon4Theater:"Aegean"</String>
 	<String ID="CmdFalcon4TheaterHelp">Использовать ТВД из Falcon 4.0 для VHS файлов. (Aegean, Balkan, Israel, Korea...)</String>
-	<String ID="CmdQuiet">/Quiet</String>
 	<String ID="CmdQuietHelp">Tacview выполнит все указанные операции и закроется без дополнительных уведомлений.</String>
-	<String ID="CmdQuit">/Quit</String>
 	<String ID="CmdQuitHelp">Tacview закроется после того, как будут выполнены все указанные операции.</String>
-	<String ID="CmdVBOOff">/VBO:off</String>
 	<String ID="CmdVBOOffHelp">Отключить объекты буфера вершин, чтобы избежать падений программы на некторых конфигурациях ATI CrossFire.</String>
-	<String ID="CmdDebugMode">/Debug:on</String>
 	<String ID="CmdDebugModeHelp">Отображает информацию об отладке, помогающую устранять баги.</String>
 
 	<String ID="Selection">Выделение</String>
@@ -500,7 +495,6 @@
 	<String ID="FacebookLinkTooltip">Facebook</String>
 	<String ID="FlightSimHookTooltipTitle">Теперь можно закрыть Tacview</String>
 	<String ID="FlightSimHookTooltipMessage">Когда эта иконка видима, все полёты автоматически записываются симулятором.&#10;Запускать Tacview во время игры необязательно.</String>
-	<String ID="FlightRecordingCorruptedNotification">Данный файл может быть обрезан, поскольку исходный файл неверен, либо содержит ошибки.</String>
 	<String ID="FlightRecordingEmptyNotification">Эта запись полёта пуста.</String>
 	<String ID="LowEndOpenGL">Пожалуйста, обновите драйвера своей видеокарты.</String>
 

@@ -7,7 +7,7 @@
 
 	<!-- Status -->
 	<String ID="StatusSimConnectNotInstalled">SimConnect no detectado.&#10;Asegurese que Microsoft Flight&#160;Simulator&#160;X o Lockheed&#160;Martin Prepar3D esté instalado en su ordenador.</String>
-	<String ID="StatusWaitingForSimConnect">FSX2ACMI está listo!&#10;Puedes ejecutar Microsoft Flight&#160;Simulator&#160;X&#10;or Lockheed&#160;Martin Prepar3D.</String>
+	<String ID="StatusWaitingForSimConnect">FSX2ACMI está listo!&#10;Puedes ejecutar Microsoft Flight&#160;Simulator&#160;X&#10;o Lockheed&#160;Martin Prepar3D.</String>
 	<String ID="StatusWaitingForSimConnectFailed">Error al guardar el último vuelo...&#10;Antes de reiniciar el simulador, comprobar que hay espacio suficiente en el disco duro.</String>
 	<String ID="StatusWaitingForSimConnectSucceeded">¡El último vuelo se gravo satisfactoriamente!&#10;Ya se puede cerrar FSX2ACMI o reiniciar el simulador para gravar otro vuelo.</String>
 	<String ID="StatusConnectedToSimConnect">FSX2ACMI está conectado al simulador.&#10;Ya se puede comenzar el vuelo,&#10;sera automáticamente guardado.</String>

@@ -248,9 +248,13 @@
 	<!-- Telemetry -->
 	<String ID="ATCHelp">ATC like telemetry: altitude/100, vertical speed, and ground speed/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
+	<String ID="BullseyeHelp">Position relative to the main object coalition bullseye</String>
+	<String ID="BullseyeText">Bullseye</String>
 
 	<String ID="TASHelp">Speed of the aircraft relative to the airmass in which it is flying</String>
 	<String ID="TASText">Speed (TAS)</String>
+	<String ID="CASHelp">Calibrated airspeed</String>
+	<String ID="CASText">Speed (CAS)</String>
 	<String ID="IASHelp">Speed read directly from the airspeed indicator</String>
 	<String ID="IASText">Speed (IAS)</String>
 	<String ID="MachHelp">Mach number</String>
@@ -432,23 +436,14 @@
 	<String ID="CommandLineImportExport">Import/Export</String>
 	<String ID="CommandLineBehavior">General Behavior</String>
 	<String ID="CommandLineSpecial">Advanced Options</String>
-	<String ID="CmdOpen">/Open:"C:\Temp\Demo-BlackShark.acmi"</String>
 	<String ID="CmdOpenHelp">Open an existing flight recording.</String>
-	<String ID="CmdMerge">/Merge:"C:\Temp\Falcon-4.0-AF-Korea-20061213.vhs"</String>
 	<String ID="CmdMergeHelp">Merge an existing flight recording with all the data currently loaded.</String>
-	<String ID="CmdSave">/Save[:"C:\Flight\TopGun2014.acmi"]</String>
 	<String ID="CmdSaveHelp">Save flight recording in highly compressed format.</String>
-	<String ID="CmdExportFlightLog">/ExportFlightLog:"C:\Reports\Mission Black Gold.csv"</String>
 	<String ID="CmdExportFlightLogHelp">Export flight log as a XML or CSV File.</String>
-	<String ID="CmdFalcon4Theater">/Falcon4Theater:"Aegean"</String>
 	<String ID="CmdFalcon4TheaterHelp">Set Falcon 4.0 theater to use for VHS files. (Aegean, Balkan, Israel, Korea...)</String>
-	<String ID="CmdQuiet">/Quiet</String>
 	<String ID="CmdQuietHelp">Tacview will execute all specified operations then exit without displaying any window.</String>
-	<String ID="CmdQuit">/Quit</String>
 	<String ID="CmdQuitHelp">Tacview will be closed after all other specified operations have been completed.</String>
-	<String ID="CmdVBOOff">/VBO:off</String>
 	<String ID="CmdVBOOffHelp">Disable Vertex Buffer Objects to avoid crashes on some ATI CrossFire configurations.</String>
-	<String ID="CmdDebugMode">/Debug:on</String>
 	<String ID="CmdDebugModeHelp">Displays debug information to help fixing bugs.</String>
 
 	<String ID="Selection">Selection</String>
@@ -499,7 +494,6 @@
 	<String ID="FacebookLinkTooltip">Facebook</String>
 	<String ID="FlightSimHookTooltipTitle">You can now close Tacview</String>
 	<String ID="FlightSimHookTooltipMessage">When this icon is visible, all flights are automatically recorded by your flight simulator.&#10;It is not necessary to keep Tacview running while you are flying.</String>
-	<String ID="FlightRecordingCorruptedNotification">This flight recording may be truncated because it comes from an invalid or corrupted file.</String>
 	<String ID="FlightRecordingEmptyNotification">This flight recording is empty.</String>
 	<String ID="LowEndOpenGL">Please update your graphics card driver</String>
 

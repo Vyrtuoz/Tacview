@@ -249,9 +249,13 @@
 	<!-- Telemetry -->
 	<String ID="ATCHelp">ATC like telemetry: altitude/100, vertical speed, and ground speed/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
+	<String ID="BullseyeHelp">Position relative to the main object coalition bullseye</String>
+	<String ID="BullseyeText">Bullseye</String>
 
 	<String ID="TASHelp">מהירות המטוס ביחס לגוש האוויר בו הוא טס</String>
 	<String ID="TASText">(TAS) מהירות אמיתית</String>
+	<String ID="CASHelp">Calibrated airspeed</String>
+	<String ID="CASText">Speed (CAS)</String>
 	<String ID="IASHelp">מהירות המטוס ע"פ מכשירי המטוס</String>
 	<String ID="IASText">(IAS) מהירות מכשירית</String>
 	<String ID="MachHelp">מספר מאך</String>
@@ -433,23 +437,14 @@
 	<String ID="CommandLineImportExport">ייבא/ייצא</String>
 	<String ID="CommandLineBehavior">התנהגות רגילה</String>
 	<String ID="CommandLineSpecial">אפשרויות מתקדמות</String>
-	<String ID="CmdOpen">/Open:"C:\Temp\Demo-BlackShark.acmi"</String>
 	<String ID="CmdOpenHelp">פתח קובץ הקלטה קיים</String>
-	<String ID="CmdMerge">/Merge:"C:\Temp\Falcon-4.0-AF-Korea-20061213.vhs"</String>
 	<String ID="CmdMergeHelp">מזג קובץ הקלטה קיים עם הנתונים שנטענו</String>
-	<String ID="CmdSave">/Save[:"C:\Flight\TopGun2014.acmi"]</String>
 	<String ID="CmdSaveHelp">שמור קובץ טיסה שפורמט בגודל מוקטן</String>
-	<String ID="CmdExportFlightLog">/ExportFlightLog:"C:\Reports\Mission Black Gold.csv"</String>
 	<String ID="CmdExportFlightLogHelp">CSV או XML ייצא יומן טיסה לקובץ בפורמט</String>
-	<String ID="CmdFalcon4Theater">/Falcon4Theater:"Aegean"</String>
 	<String ID="CmdFalcon4TheaterHelp">(Aegean, Balkan, Israel, Korea...) VHS לשימוש בקבצי Falcon 4.0 הגדר זירת</String>
-	<String ID="CmdQuiet">/Quiet</String>
 	<String ID="CmdQuietHelp">ביצוע הפעולות הנדרשות ללא הצגת פלט כלשהו</String>
-	<String ID="CmdQuit">/Quit</String>
 	<String ID="CmdQuitHelp">סגירת התוכנה לאחר ביצוע הפעולות הנדרשות</String>
-	<String ID="CmdVBOOff">/VBO:off</String>
 	<String ID="CmdVBOOffHelp">ATI למניעת קריסה בחלק מכרטיסי VBO בטל</String>
-	<String ID="CmdDebugMode">/Debug:on</String>
 	<String ID="CmdDebugModeHelp">מציג נתוני תקלות לפתרון בעיות</String>
 
 	<String ID="Selection">בחירה</String>
@@ -500,7 +495,6 @@
 	<String ID="FacebookLinkTooltip">פייסבוק</String>
 	<String ID="FlightSimHookTooltipTitle">Tacview ניתן לסגור כעת את</String>
 	<String ID="FlightSimHookTooltipMessage">כאשר האייקון מוצג, כל הטיסות מוקלטות אוטומטית ע"י סימולטור הטיסה שלך. ניתן לסגור את התוכנה בזמן הטיסה</String>
-	<String ID="FlightRecordingCorruptedNotification">קובץ ההקלטה הנבחר פגום. אנא בדוק תקינותו.</String>
 	<String ID="FlightRecordingEmptyNotification">קובץ ההקלטה הנבחר ריק</String>
 	<String ID="LowEndOpenGL">מומלץ לשדרג את כרטיס המסך שלך</String>
 

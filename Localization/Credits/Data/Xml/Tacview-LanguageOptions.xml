@@ -18,7 +18,7 @@
 	<String ID="OptionsLanguageKoreanHelp">한국어로 변경 - 언어 변경이 완전히 적용되려면 택뷰를 재시작 해 주셔야 합니다. (ihopi &lt;ihopi73@gmail.com&gt;)</String>
 	<String ID="OptionsLanguageRussianText">&amp;Русский (Russian)</String>
 	<String ID="OptionsLanguageRussianHelp">Переключиться на Русский (переведено Scorzy &lt;vommieer.translations@gmail.com&gt;)</String>
-	<String ID="OptionsLanguageSpanishText">&amp;Spanish (Spanish)</String>
+	<String ID="OptionsLanguageSpanishText">&amp;Español (Spanish)</String>
 	<String ID="OptionsLanguageSpanishHelp">Switch to Spanish (Tacview must be restarted for the language change to fully take effect) (Translation by Revientor &lt;revientor111@gmail.com&gt;)</String>
 
 </Resources>

@@ -249,9 +249,13 @@
 	<!-- Telemetry -->
 	<String ID="ATCHelp">ATC风格遥测：高度/100、垂直速度和地速/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
+	<String ID="BullseyeHelp">Position relative to the main object coalition bullseye</String>
+	<String ID="BullseyeText">Bullseye</String>
 
 	<String ID="TASHelp">在标准大气条件下，航空器相对于空气团运动的真实速度</String>
 	<String ID="TASText">真空速 (TAS)</String>
+	<String ID="CASHelp">Calibrated airspeed</String>
+	<String ID="CASText">Speed (CAS)</String>
 	<String ID="IASHelp">直接从空速表上读取的速度</String>
 	<String ID="IASText">指示空速 (IAS)</String>
 	<String ID="MachHelp">马赫数</String>
@@ -441,23 +445,14 @@
 	<String ID="CommandLineImportExport">导入/导出</String>
 	<String ID="CommandLineBehavior">通用行为</String>
 	<String ID="CommandLineSpecial">高级选项</String>
-	<String ID="CmdOpen">/Open:"C:\Temp\Demo-BlackShark.acmi"</String>
 	<String ID="CmdOpenHelp">打开现存的飞行记录。</String>
-	<String ID="CmdMerge">/Merge:"C:\Temp\Falcon-4.0-AF-Korea-20061213.vhs"</String>
 	<String ID="CmdMergeHelp">合并现存飞行记录与当前所有载入数据。</String>
-	<String ID="CmdSave">/Save[:"C:\Flight\TopGun2014.acmi"]</String>
 	<String ID="CmdSaveHelp">保存飞行记录为高压缩格式。</String>
-	<String ID="CmdExportFlightLog">/ExportFlightLog:"C:\Reports\Mission Black Gold.csv"</String>
 	<String ID="CmdExportFlightLogHelp">导出飞行日志为XML或CSV文件。</String>
-	<String ID="CmdFalcon4Theater">/Falcon4Theater:"Aegean"</String>
 	<String ID="CmdFalcon4TheaterHelp">设置Falcon 4.0战区使用VHS文件。(Aegean, Balkan, Israel, Korea...)</String>
-	<String ID="CmdQuiet">/Quiet</String>
 	<String ID="CmdQuietHelp">Tacview将执行所有指定操作然后不显示任何窗口退出。</String>
-	<String ID="CmdQuit">/Quit</String>
 	<String ID="CmdQuitHelp">Tacview将在所有指定操作完成后关闭。</String>
-	<String ID="CmdVBOOff">/VBO:off</String>
 	<String ID="CmdVBOOffHelp">禁用顶点缓冲区物体以避免在一些ATI交火配置上崩溃。</String>
-	<String ID="CmdDebugMode">/Debug:on</String>
 	<String ID="CmdDebugModeHelp">显示调试信息以帮助修补错误。</String>
 
 	<String ID="Selection">选择</String>
@@ -508,7 +503,6 @@
 	<String ID="FacebookLinkTooltip">Facebook</String>
 	<String ID="FlightSimHookTooltipTitle">你现在可以关闭Tacview</String>
 	<String ID="FlightSimHookTooltipMessage">当此图标可见时，所有飞行记录将由模拟飞行软件自动生成。&#10;你在飞行时没有必要保持Tacview运行。</String>
-	<String ID="FlightRecordingCorruptedNotification">此飞行记录可能发生缺失，因为其来自无效或毁坏的文件。</String>
 	<String ID="FlightRecordingEmptyNotification">此飞行记录为空。</String>
 <!--
 	Chinese characters are not yet supported in the 3D view

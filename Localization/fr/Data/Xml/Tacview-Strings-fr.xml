@@ -248,9 +248,13 @@
 	<!-- Telemetry -->
 	<String ID="ATCHelp">Etiquette style trafic aérien: altitude/100, vitesse verticale et vitesse sol/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
+	<String ID="BullseyeHelp">Position relative to the main object coalition bullseye</String>
+	<String ID="BullseyeText">Bullseye</String>
 
 	<String ID="TASHelp">Vitesse vraie</String>
 	<String ID="TASText">Vitesse (TAS)</String>
+	<String ID="CASHelp">Vitesse conventionnelle</String>
+	<String ID="CASText">Vitesse (CAS)</String>
 	<String ID="IASHelp">Vitesse indiquée</String>
 	<String ID="IASText">Vitesse (IAS)</String>
 	<String ID="MachHelp">Vitesse en Mach</String>
@@ -432,23 +436,14 @@
 	<String ID="CommandLineImportExport">Import/Export</String>
 	<String ID="CommandLineBehavior">Comportement général</String>
 	<String ID="CommandLineSpecial">Options avancées</String>
-	<String ID="CmdOpen">/Open:"C:\Temp\Demo-BlackShark.acmi"</String>
 	<String ID="CmdOpenHelp">Ouvre un enregistrement de vol existant.</String>
-	<String ID="CmdMerge">/Merge:"C:\Temp\Falcon-4.0-AF-Korea-20061213.vhs"</String>
 	<String ID="CmdMergeHelp">Fusionne un enregistrement de vol existant avec les données présentes en mémoire.</String>
-	<String ID="CmdSave">/Save[:"C:\Flight\TopGun2014.acmi"]</String>
 	<String ID="CmdSaveHelp">Sauvegarde l'enregistrement de vol dans un format hautement compressé.</String>
-	<String ID="CmdExportFlightLog">/ExportFlightLog:"C:\Reports\Mission Black Gold.csv"</String>
 	<String ID="CmdExportFlightLogHelp">Exporte le journal de vol au format XML ou CSV.</String>
-	<String ID="CmdFalcon4Theater">/Falcon4Theater:"Aegean"</String>
 	<String ID="CmdFalcon4TheaterHelp">Sélectionne le théâtre d'opérations à utiliser pour les fichiers VHS de Falcon 4.0. (Aegean, Balkan, Israel, Korea...)</String>
-	<String ID="CmdQuiet">/Quiet</String>
 	<String ID="CmdQuietHelp">Tacview exécutera toutes les opérations spécifiées puis se fermera sans afficher de fenêtre.</String>
-	<String ID="CmdQuit">/Quit</String>
 	<String ID="CmdQuitHelp">Tacview se fermera après que toutes les autres opérations aient été exécutées.</String>
-	<String ID="CmdVBOOff">/VBO:off</String>
 	<String ID="CmdVBOOffHelp">Désactive les Vertex Buffer Objects pour éviter des plantages avec certaines configurations CrossFire d'ATI.</String>
-	<String ID="CmdDebugMode">/Debug:on</String>
 	<String ID="CmdDebugModeHelp">Affiche des informations de débogage pour aider à corriger des bugs.</String>
 
 	<String ID="Selection">Sélection</String>
@@ -499,7 +494,6 @@
 	<String ID="FacebookLinkTooltip">Facebook</String>
 	<String ID="FlightSimHookTooltipTitle">Vous pouvez maintenant fermer Tacview</String>
 	<String ID="FlightSimHookTooltipMessage">Lorsque cette icone est visible, tous les vols sont automatiquement enregistrés par votre simulateur de vol. Il n'est pas nécessaire de garder Tacview ouvert pendant que vous volez.</String>
-	<String ID="FlightRecordingCorruptedNotification">Cet enregistrement est peut être tronqué car il provient d'un fichier invalide ou corrompu.</String>
 	<String ID="FlightRecordingEmptyNotification">Cet enregistrement est vide.</String>
 	<String ID="LowEndOpenGL">Veuillez mettre à jour vos pilotes de carte graphique</String>
 
