@@ -17,7 +17,7 @@
 	<String ID="WelcomeInstructions">Нажмите "Установить", чтобы начать установку.&#10;Настройки доступны в разделе "Опции".</String>
 -->
 	<String ID="WelcomeInfoURL">Узнать больше {0}</String>
-	<String ID="OpenBetaWarningURL">ВАЖНО: Этой версии требуется лицензионный ключ</String>
+	<String ID="OpenBetaWarningURL">ВАЖНО: Этой версии требуется лицензионный ключ.</String>
 	<String ID="ClosedBetaWarning">ВАЖНО: Данная версия используется в рамках закрытого бета-теста. Пожалуйста, не распространяйте её вовне.</String>
 
 	<String ID="LicensePageTitle">Пользовательское Соглашение</String>
@@ -50,7 +50,7 @@
 
 	<!-- Success Page -->
 	<String ID="InstallSucceeded">Установка завершена</String>
-	<String ID="SuccessMessage">{0} успешно установлен на ПК</String>
+	<String ID="SuccessMessage">{0} успешно установлен на ваш ПК</String>
 	<String ID="OfficialWebSiteInfo">Документацию и свежие обновления можно найти здесь</String>
 
 	<!-- Buttons -->
