@@ -10,17 +10,17 @@
 
 	<!-- Dockable Windows -->
 	<String ID="DockableFloatingText">&amp;Перемещение</String>
-	<String ID="DockableFloatingHelp">Открепить это окно от основного</String>
+	<String ID="DockableFloatingHelp">Открепить окно от основного</String>
 	<String ID="DockableDockableText">&amp;Закреплено</String>
-	<String ID="DockableDockableHelp">Закрепить это окно в основном</String>
+	<String ID="DockableDockableHelp">Закрепить окно в основном</String>
 	<String ID="DockableAutoHideText">&amp;Скрывать автоматически</String>
-	<String ID="DockableAutoHideHelp">Закрепить окно и скрывать, если оно не на переднем плане</String>
+	<String ID="DockableAutoHideHelp">Закрепить окно и скрывать, если не на переднем плане</String>
 	<String ID="DockableTransparencyText">&amp;Прозрачность</String>
 	<String ID="DockableOpaqueText">&amp;Непрозрачность</String>
-	<String ID="DockableOpaqueHelp">Сделать это окно всегда непрозрачным</String>
+	<String ID="DockableOpaqueHelp">Сделать окно непрозрачным</String>
 	<String ID="DockableTransparentHelp">Сделать окно прозрачным, если не на переднем плане</String>
 	<String ID="DockableHideText">&amp;Скрыть</String>
-	<String ID="DockableHideHelp">Закрыть это окно</String>
+	<String ID="DockableHideHelp">Закрыть окно</String>
 	<String ID="DockableWindowCloseButtonTip">Скрыть</String>
 	<String ID="DockableWindowAutoHideButtonTip">Скрывать автоматически</String>
 
@@ -30,11 +30,9 @@
 	<String ID="RichEditRedoText">&amp;Повторить действие</String>
 	<String ID="RichEditRedoHelp">Повторить крайнее отменённое действие</String>
 	<String ID="RichEditCutText">Вырезать&amp;</String>
-	<String ID="RichEditCutHelp">Вырезать выделенное в буфер обмена</String>
 	<String ID="RichEditCopyText">&amp;Копировать</String>
-	<String ID="RichEditCopyHelp">Копировать выделенное в буфер обмена</String>
 	<String ID="RichEditPasteText">&amp;Вставить</String>
-	<String ID="RichEditPasteHelp">Вставка из буфера обмена</String>
+	<String ID="RichEditPasteHelp">Вставка из буфера</String>
 	<String ID="RichEditSelectAllText">Выбрать &amp;все</String>
 	<String ID="RichEditSelectAllHelp">Выделить весь текст</String>
 

@@ -6,7 +6,7 @@
 <Resources Language="ru">
 
 	<!-- Main Page -->
-	<String ID="WelcomeText">Tacview позволит записать любой полёт,&#10; и понять, что происходит на самом деле!</String>
+	<String ID="WelcomeText">Tacview позволит записать любой полёт,&#10; и выяснить, что происходит на самом деле!</String>
 	<String ID="ApplicationDescription">Анализируйте свои полёты, приобретайте знания и улучшайте навыки пилотирования с совершенно новым инструментом!</String>
 
 	<!-- Additional Shortcuts -->

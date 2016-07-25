@@ -1,4 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+﻿
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 
 <!-- FSX2ACMI Russian Text -->
 <!-- Translation by Scorzy <vommieer.translations@gmail.com> -->
@@ -9,7 +10,7 @@
 	<String ID="StatusSimConnectNotInstalled">SimConnect не обнаружен.&#10;Убедитесь, что у вас корректно установлен Microsoft Flight&#160;Simulator&#160; / Lockheed&#160;Martin Prepar3D.</String>
 	<String ID="StatusWaitingForSimConnect">FSX2ACMI готов к работе!&#10;Теперь можно запустить Microsoft Flight&#160;Simulator&#160;X&#10; / Lockheed&#160;Martin Prepar3D.</String>
 	<String ID="StatusWaitingForSimConnectFailed">Не удалось сохранить запись крайнего вылета...&#10;Перед перезапуском симулятора убедитесь, что на диске достаточно свободного места.</String>
-	<String ID="StatusWaitingForSimConnectSucceeded">Ваш крайний вылет был успешно сохранен!&#10;Теперь вы можете закрыть FSX2ACMI, либо перезапустить симулятор для записи нового полёта.</String>
+	<String ID="StatusWaitingForSimConnectSucceeded">Ваш крайний вылет был успешно сохранен!&#10;Можно закрыть FSX2ACMI, либо перезапустить симулятор для новой записи.</String>
 	<String ID="StatusConnectedToSimConnect">FSX2ACMI подключён к симулятору.&#10;Можно начинать вылет,&#10;запись будет начата автоматически.</String>
 	<String ID="StatusConnectedToSimConnectFailed">Не удалось сохранить запись крайнего вылета...&#10;Перед новой попыткой записи убедитесь, что на диске достаточно свободного места.</String>
 	<String ID="StatusConnectedToSimConnectSucceeded">Ваш крайний вылет был успешно сохранен!&#10;Вы можете начать новый полёт, либо закрыть FSX2ACMI.</String>
@@ -18,8 +19,8 @@
 	<String ID="StatusRecordingFlightSucceeded">Ваш крайний вылет был успешно сохранен!&#10;Запись текущего полёта будет продолжаться, пока не закроется FSX2ACMI, либо симулятор, или будет начат новый вылет.</String>
 
 	<!-- Controls -->
-	<String ID="ObjectsCountFormat">{0} objects</String>
-	<String ID="UpdateSpeedFormat">{0} ms</String>
+	<String ID="ObjectsCountFormat">{0} объектов</String>
+	<String ID="UpdateSpeedFormat">{0} мс</String>
 	<String ID="ACMIFilesFolder">Файлы ACMI Tacview</String>
 	<String ID="IntroductionText">Tacview для Microsoft Flight&#160;Simulator</String>
 
