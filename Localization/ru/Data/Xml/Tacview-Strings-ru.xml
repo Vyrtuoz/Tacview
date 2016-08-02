@@ -263,8 +263,8 @@
 	<String ID="ASLHelp">Высота над уровнем моря</String>
 	<String ID="ASLText">Высота (ASL)</String>
 
-	<String ID="AoAHelp">Угол атаки</String>
-	<String ID="AoAText">Угол атаки (AoA)</String>
+	<String ID="AOAHelp">Угол атаки</String>
+	<String ID="AOAText">Угол атаки (AOA)</String>
 	<String ID="GHelp">Ускорение свободного падения</String>
 	<String ID="GText">Перегрузка (G)</String>
 	<String ID="RollRateHelp">Скорость вращения</String>
@@ -567,8 +567,8 @@
 	<String ID="UnitLabelAbsoluteTime">Время</String>
 	<String ID="UnitLabelRelativeTime">Относительное Время</String>
 	<String ID="UnitLabelMachNumber">Мах</String>
-	<String ID="UnitLabelAbsoluteAoA">AoA (°)</String>
-	<String ID="UnitLabelIndicatedAoA">AoA (°)</String>
+	<String ID="UnitLabelAbsoluteAOA">AOA (°)</String>
+	<String ID="UnitLabelIndicatedAOA">AOA (°)</String>
 	<String ID="UnitLabelAbsoluteG">Перегрузка (G)</String>
 	<String ID="UnitLabelIndicatedG">Перегрузка (G)</String>
 	<String ID="UnitLabelRollRate">Угловая скорость крена (°/сек)</String>
@@ -623,6 +623,10 @@
 	<String ID="FileTypeDescriptionCSVTelemetry">Файл значений UTF-8 (разделитель - запятая)</String>
 	<String ID="FileTypeDescriptionObjectsMany">Статичные объекты и BMS DTC файлы Falcon 4.0</String>
 	<String ID="FileTypeDescriptionAny">Все файлы</String>
+	<String ID="FileTypeDescriptionTacviewZip">Zip compressed Tacview telemetry Data</String>
+	<String ID="FileTypeDescriptionTacview7z">7z compressed Tacview telemetry Data</String>
+	<String ID="FileTypeDescriptionZip">Telemetry Data in a ZIP archive</String>
+	<String ID="FileTypeDescription7z">Telemetry Data in a 7z archive</String>
 	<String ID="TypeColumn">Тип</String>
 	<String ID="TimeColumn">Время</String>
 	<String ID="EventColumn">Событие</String>

@@ -262,8 +262,8 @@
 	<String ID="ASLHelp">Altitude par rapport au niveau de la mer</String>
 	<String ID="ASLText">Altitude (ASL)</String>
 
-	<String ID="AoAHelp">Angle d'attaque</String>
-	<String ID="AoAText">Angle d'attaque (AoA)</String>
+	<String ID="AOAHelp">Angle d'attaque</String>
+	<String ID="AOAText">Angle d'attaque (AOA)</String>
 	<String ID="GHelp">Accélération par rapport à une chute libre</String>
 	<String ID="GText">G-Force (G)</String>
 	<String ID="RollRateHelp">Taux de roulis</String>
@@ -566,8 +566,8 @@
 	<String ID="UnitLabelAbsoluteTime">Temps</String>
 	<String ID="UnitLabelRelativeTime">Temps relatif</String>
 	<String ID="UnitLabelMachNumber">Mach</String>
-	<String ID="UnitLabelAbsoluteAoA">AoA (°)</String>
-	<String ID="UnitLabelIndicatedAoA">AoA (°)</String>
+	<String ID="UnitLabelAbsoluteAOA">AOA (°)</String>
+	<String ID="UnitLabelIndicatedAOA">AOA (°)</String>
 	<String ID="UnitLabelAbsoluteG">g-force (G)</String>
 	<String ID="UnitLabelIndicatedG">g-force (G)</String>
 	<String ID="UnitLabelRollRate">Taux de roulis (°/s)</String>
@@ -622,6 +622,10 @@
 	<String ID="FileTypeDescriptionCSVTelemetry">Fichier UTF-8 contenant des valeurs séparées par des virgules</String>
 	<String ID="FileTypeDescriptionObjectsMany">Objets statiques et fichiers DTC de Falcon 4.0 BMS</String>
 	<String ID="FileTypeDescriptionAny">Tout fichier</String>
+	<String ID="FileTypeDescriptionTacviewZip">Données de télémétrie de Tacview compressées en zip</String>
+	<String ID="FileTypeDescriptionTacview7z">Données de télémétrie de Tacview compressées en 7z</String>
+	<String ID="FileTypeDescriptionZip">Données télémétrie dans une archive ZIP</String>
+	<String ID="FileTypeDescription7z">Données télémétrie dans une archive 7z</String>
 	<String ID="TypeColumn">Type</String>
 	<String ID="TimeColumn">Heure</String>
 	<String ID="EventColumn">Evénement</String>

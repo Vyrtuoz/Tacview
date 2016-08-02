@@ -263,8 +263,8 @@
 	<String ID="ASLHelp">修正海平面气压高度</String>
 	<String ID="ASLText">海拔高度 (ASL)</String>
 
-	<String ID="AoAHelp">迎角</String>
-	<String ID="AoAText">迎角 (AoA)</String>
+	<String ID="AOAHelp">迎角</String>
+	<String ID="AOAText">迎角 (AOA)</String>
 	<String ID="GHelp">作用在航空器上的合力与航空器重力之比</String>
 	<String ID="GText">过载 (G)</String>
 	<String ID="RollRateHelp">单位时间滚转角度</String>
@@ -621,8 +621,8 @@
 	<String ID="UnitLabelAbsoluteTime">Time</String>
 	<String ID="UnitLabelRelativeTime">Relative Time</String>
 	<String ID="UnitLabelMachNumber">Mach</String>
-	<String ID="UnitLabelAbsoluteAoA">AoA (°)</String>
-	<String ID="UnitLabelIndicatedAoA">AoA (°)</String>
+	<String ID="UnitLabelAbsoluteAOA">AOA (°)</String>
+	<String ID="UnitLabelIndicatedAOA">AOA (°)</String>
 	<String ID="UnitLabelAbsoluteG">g-force (G)</String>
 	<String ID="UnitLabelIndicatedG">g-force (G)</String>
 	<String ID="UnitLabelRollRate">Roll Rate (°/s)</String>
@@ -677,6 +677,10 @@
 	<String ID="FileTypeDescriptionCSVTelemetry">UTF-8逗号分割文件</String>
 	<String ID="FileTypeDescriptionObjectsMany">静态物体和Falcon 4.0 BMS DTC文件</String>
 	<String ID="FileTypeDescriptionAny">所有文件</String>
+	<String ID="FileTypeDescriptionTacviewZip">Zip compressed Tacview telemetry Data</String>
+	<String ID="FileTypeDescriptionTacview7z">7z compressed Tacview telemetry Data</String>
+	<String ID="FileTypeDescriptionZip">Telemetry Data in a ZIP archive</String>
+	<String ID="FileTypeDescription7z">Telemetry Data in a 7z archive</String>
 	<String ID="TypeColumn">类型</String>
 	<String ID="TimeColumn">时间</String>
 	<String ID="EventColumn">事件</String>

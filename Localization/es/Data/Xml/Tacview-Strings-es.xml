@@ -263,8 +263,8 @@
 	<String ID="ASLHelp">Sobre la altitud del mar</String>
 	<String ID="ASLText">Altitud (ASL)</String>
 
-	<String ID="AoAHelp">Angulo de ataque</String>
-	<String ID="AoAText">Angulo de ataque (AoA)</String>
+	<String ID="AOAHelp">Angulo de ataque</String>
+	<String ID="AOAText">Angulo de ataque (AOA)</String>
 	<String ID="GHelp">Aceleración relativa a la caída libre</String>
 	<String ID="GText">Fuerzas G (G)</String>
 	<String ID="RollRateHelp">Ratio de alabeo</String>
@@ -567,8 +567,8 @@
 	<String ID="UnitLabelAbsoluteTime">Tiempo</String>
 	<String ID="UnitLabelRelativeTime">Tiempo relativo</String>
 	<String ID="UnitLabelMachNumber">Mach</String>
-	<String ID="UnitLabelAbsoluteAoA">AoA (°)</String>
-	<String ID="UnitLabelIndicatedAoA">AoA (°)</String>
+	<String ID="UnitLabelAbsoluteAOA">AOA (°)</String>
+	<String ID="UnitLabelIndicatedAOA">AOA (°)</String>
 	<String ID="UnitLabelAbsoluteG">g-force (G)</String>
 	<String ID="UnitLabelIndicatedG">g-force (G)</String>
 	<String ID="UnitLabelRollRate">Ratio de alaveo (°/s)</String>
@@ -623,6 +623,10 @@
 	<String ID="FileTypeDescriptionCSVTelemetry">Archivo de valores UTF-8 separados por coma</String>
 	<String ID="FileTypeDescriptionObjectsMany">Archivos de objetos estáticos y Falcon 4.0 BMS DTC</String>
 	<String ID="FileTypeDescriptionAny">Cualquier archivo</String>
+	<String ID="FileTypeDescriptionTacviewZip">Zip compressed Tacview telemetry Data</String>
+	<String ID="FileTypeDescriptionTacview7z">7z compressed Tacview telemetry Data</String>
+	<String ID="FileTypeDescriptionZip">Telemetry Data in a ZIP archive</String>
+	<String ID="FileTypeDescription7z">Telemetry Data in a 7z archive</String>
 	<String ID="TypeColumn">Tipo</String>
 	<String ID="TimeColumn">Tiempo</String>
 	<String ID="EventColumn">Evento</String>

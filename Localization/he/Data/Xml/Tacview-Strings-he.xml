@@ -263,8 +263,8 @@
 	<String ID="ASLHelp">גובה מעל פני הים</String>
 	<String ID="ASLText">(ASL) גובה מעפ"י</String>
 
-	<String ID="AoAHelp">זווית התקפה</String>
-	<String ID="AoAText">(AOA) זווית התקפה</String>
+	<String ID="AOAHelp">זווית התקפה</String>
+	<String ID="AOAText">(AOA) זווית התקפה</String>
 	<String ID="GHelp">תאוצה ביחס לכבידת כדור הארץ</String>
 	<String ID="GText">(G) תאוצת כבידה</String>
 	<String ID="RollRateHelp">קצב גלגול</String>
@@ -567,8 +567,8 @@
 	<String ID="UnitLabelAbsoluteTime">Time</String>
 	<String ID="UnitLabelRelativeTime">Relative Time</String>
 	<String ID="UnitLabelMachNumber">Mach</String>
-	<String ID="UnitLabelAbsoluteAoA">AoA (°)</String>
-	<String ID="UnitLabelIndicatedAoA">AoA (°)</String>
+	<String ID="UnitLabelAbsoluteAOA">AOA (°)</String>
+	<String ID="UnitLabelIndicatedAOA">AOA (°)</String>
 	<String ID="UnitLabelAbsoluteG">g-force (G)</String>
 	<String ID="UnitLabelIndicatedG">g-force (G)</String>
 	<String ID="UnitLabelRollRate">Roll Rate (°/s)</String>
@@ -623,6 +623,10 @@
 	<String ID="FileTypeDescriptionCSVTelemetry">(UTF-8 בתבנית) CSV קובץ בפורמט</String>
 	<String ID="FileTypeDescriptionObjectsMany">Falcon 4.0 BMS DTC אובייקטים קבועים וקבצי</String>
 	<String ID="FileTypeDescriptionAny">כל הקבצים</String>
+	<String ID="FileTypeDescriptionTacviewZip">Zip compressed Tacview telemetry Data</String>
+	<String ID="FileTypeDescriptionTacview7z">7z compressed Tacview telemetry Data</String>
+	<String ID="FileTypeDescriptionZip">Telemetry Data in a ZIP archive</String>
+	<String ID="FileTypeDescription7z">Telemetry Data in a 7z archive</String>
 	<String ID="TypeColumn">סוג</String>
 	<String ID="TimeColumn">זמן</String>
 	<String ID="EventColumn">ארוע</String>
