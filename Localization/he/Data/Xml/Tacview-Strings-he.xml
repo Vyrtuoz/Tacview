@@ -254,9 +254,9 @@
 
 	<String ID="TASHelp">מהירות המטוס ביחס לגוש האוויר בו הוא טס</String>
 	<String ID="TASText">(TAS) מהירות אמיתית</String>
-	<String ID="CASHelp">Calibrated airspeed</String>
-	<String ID="CASText">Speed (CAS)</String>
-	<String ID="IASHelp">מהירות המטוס ע"פ מכשירי המטוס</String>
+	<String ID="CASHelp">(CAS) מהירות מכשירית</String>
+	<String ID="CASText">מהירות המטוס ע"פ מכשירי המטוס כולל תיקון שגיאות מדיד ומיקום המדיד</String>
+	<String ID="IASHelp">מהירות המטוס ע"פ מכשירי המטוס לא כולל תיקון שגיאות מדיד ומיקום המדיד</String>
 	<String ID="IASText">(IAS) מהירות מכשירית</String>
 	<String ID="MachHelp">מספר מאך</String>
 	<String ID="MachText">(Mach) מספר מאך</String>
@@ -291,12 +291,12 @@
 	<String ID="HDGText">(HDG) כיוון אמיתי</String>
 	<String ID="TRKHelp">מסלול קרקעי של המטוס ביחס לצפון האמיתי</String>
 	<String ID="TRKText">(TRK) מסלול אמיתי</String>
-	<String ID="FlightPathAngleHelp">Aircraft true slope angle</String>
-	<String ID="FlightPathAngleText">Flight Path Angle</String>
-	<String ID="DistanceAirHelp">Covered air distance</String>
-	<String ID="DistanceAirText">Distance (Air)</String>
-	<String ID="DistanceGroundHelp">Covered ground distance</String>
-	<String ID="DistanceGroundText">Distance (Ground)</String>
+	<String ID="FlightPathAngleHelp">זוית נתיב הטיסה בהתאם לשיפוע המטוס</String>
+	<String ID="FlightPathAngleText">(FPA) זוית נתיב טיסה</String>
+	<String ID="DistanceAirHelp">מרחק אווירי מכוסה</String>
+	<String ID="DistanceAirText">מרחק אווירי</String>
+	<String ID="DistanceGroundHelp">מרחק קרקעי מכוסה</String>
+	<String ID="DistanceGroundText">מרחק קרקעי</String>
 	<String ID="ElevationProfileHelp">פרופיל גובה הטיסה הקרקעי מעליו המטוס טס</String>
 	<String ID="ElevationProfileText">פרופיל גובה טיסה קרקעי</String>
 
