@@ -684,7 +684,7 @@
 	<String ID="LoadingErrorInvalidFormat">Formato de archive no valido.¤ '{1}' no es una grabación de vuelo o no tiene un formato correcto.</String>
 	<String ID="LoadingErrorInvalidObject">Archivo no valido.¤'{1}' Parece que esta corrupto.</String>
 	<String ID="LoadingErrorOutOfMemory">Sin memoria.¤Pruebe cerrando algunas aplicaciones y reintente.¤(La grabación puede ser grande.)</String>
-	<String ID="LoadingErrorNotSupported">El formato del archivo '{1}' no es soportado.¤Compruebe &lt;a href="http://tacview.strasoftware.com/"&gt; el sitio oficial&lt;/a&gt; para saber si hay una nueva versión de Tacview.</String>
+	<String ID="LoadingErrorNotSupported">El formato del archivo '{1}' no es soportado.¤Compruebe &lt;a href="http://www.tacview.net/"&gt; el sitio oficial&lt;/a&gt; para saber si hay una nueva versión de Tacview.</String>
 	<String ID="LoadingErrorMissingParameter">Formato de archive invalido.¤Una parámetro requerido esta omitido.</String>
 	<String ID="LoadingErrorInvalidParameter">Formato de archive invalido.¤Algún parámetro no es válido.</String>
 	<String ID="LoadingErrorOutOfSpace">Formato no soportado.¤'{1}' puede haber sido creado por una versión más actual de Tacview.</String>

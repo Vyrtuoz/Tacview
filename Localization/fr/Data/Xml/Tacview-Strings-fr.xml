@@ -683,7 +683,7 @@
 	<String ID="LoadingErrorInvalidFormat">Format invalide.¤'{1}' est mal formaté ou n'est pas un enregistrement de vol.</String>
 	<String ID="LoadingErrorInvalidObject">Fichier invalide.¤'{1}' semble corrompu.</String>
 	<String ID="LoadingErrorOutOfMemory">Mémoire pleine.¤Fermez quelques applications puis réessayez.&#10;(Cet enregistrement de vol est peut être trop gros pour votre ordinateur.)</String>
-	<String ID="LoadingErrorNotSupported">Ce format de fichier de '{1}' n'est pas supporté.¤Vérifiez sur &lt;a href="http://tacview.strasoftware.com/"&gt;le site officiel&lt;/a&gt; s'il existe une nouvelle version de Tacview ou une autre édition qui serait capable de lire ce fichier.</String>
+	<String ID="LoadingErrorNotSupported">Ce format de fichier de '{1}' n'est pas supporté.¤Vérifiez sur &lt;a href="http://www.tacview.net/"&gt;le site officiel&lt;/a&gt; s'il existe une nouvelle version de Tacview ou une autre édition qui serait capable de lire ce fichier.</String>
 	<String ID="LoadingErrorMissingParameter">Format invalide.¤Un des paramètres est manquant.</String>
 	<String ID="LoadingErrorInvalidParameter">Format invalide.¤Un des paramètres est incorrect.</String>
 	<String ID="LoadingErrorOutOfSpace">Format de fichier non supporté.¤'{1}' vient peut être d'une nouvelle version de Tacview.</String>

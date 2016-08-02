@@ -746,7 +746,7 @@
 	<String ID="LoadingErrorInvalidFormat">올바르지 않은 파일 포맷입니다.¤'{1}'(은)는 포맷이 잘못되었거나 비행기록 파일이 아닙니다.</String>
 	<String ID="LoadingErrorInvalidObject">올바르지 않은 파일입니다.¤'{1}'(은)는 파일에 문제가 있는 듯 합니다.</String>
 	<String ID="LoadingErrorOutOfMemory">메모리가 부족합니다.¤다른 응용프로그램을 종료 후 다시 시도 해 주시기 바랍니다.¤(혹은 비행기록 파일이 너무 클 수도 있습니다.)</String>
-	<String ID="LoadingErrorNotSupported">파일포맷 '{1}' (은)는 지원되지 않습니다.¤공식 웹사이트인 &lt;a href="http://tacview.strasoftware.com/"&gt;를 방문하셔서 &lt;/a&gt; 새 버전이나 이 파일을 지원할 수 있는 다른 에디션이 있는지 확인 해 보시기 바랍니다.</String>
+	<String ID="LoadingErrorNotSupported">파일포맷 '{1}' (은)는 지원되지 않습니다.¤공식 웹사이트인 &lt;a href="http://www.tacview.net/"&gt;를 방문하셔서 &lt;/a&gt; 새 버전이나 이 파일을 지원할 수 있는 다른 에디션이 있는지 확인 해 보시기 바랍니다.</String>
 	<String ID="LoadingErrorMissingParameter">파일 포맷이 올바르지 않습니다.¤파라미터 중 하나가 없습니다.</String>
 	<String ID="LoadingErrorInvalidParameter">파일 포맷이 올바르지 않습니다.¤몇 개의 파라미터가 올바른 값이 아닙니다.</String>
 	<String ID="LoadingErrorOutOfSpace">지원되지 않는 파일 포맷입니다.¤'{1}'(은)는 새 버전의 택뷰에서 제작되었을 수 있습니다.</String>

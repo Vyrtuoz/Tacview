@@ -746,7 +746,7 @@
 	<String ID="LoadingErrorInvalidFormat">无效文件格式。¤'{1}'不是飞行记录或者格式不正确。</String>
 	<String ID="LoadingErrorInvalidObject">无效文件。¤'{1}'貌似已损坏。</String>
 	<String ID="LoadingErrorOutOfMemory">内存耗尽。¤请关闭一些应用程序然后重试。¤（此飞行记录可能过大。）</String>
-	<String ID="LoadingErrorNotSupported">不支持'{1}'的文件格式。¤检查&lt;a href="http://tacview.strasoftware.com/"&gt;官方网站&lt;/a&gt;以确认是否有更新版本的Tacview，或者其他可读取此文件的版本。</String>
+	<String ID="LoadingErrorNotSupported">不支持'{1}'的文件格式。¤检查&lt;a href="http://www.tacview.net/"&gt;官方网站&lt;/a&gt;以确认是否有更新版本的Tacview，或者其他可读取此文件的版本。</String>
 	<String ID="LoadingErrorMissingParameter">无效文件格式。¤丢失一个必须的参量。</String>
 	<String ID="LoadingErrorInvalidParameter">无效文件格式。¤一些参量无效。</String>
 	<String ID="LoadingErrorOutOfSpace">不支持的文件格式。¤'{1}'可能有更新版本的Tacview创建。</String>
