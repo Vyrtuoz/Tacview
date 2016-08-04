@@ -247,9 +247,9 @@
 	<String ID="AxisNoneText">בטל ציר משני</String>
 
 	<!-- Telemetry -->
-	<String ID="ATCHelp">ATC like telemetry: altitude/100, vertical speed, and ground speed/10</String>
-	<String ID="ATCText">ATC (ASL+VS+GS)</String>
-	<String ID="BullseyeHelp">Position relative to the main object coalition bullseye</String>
+	<String ID="ATCHelp">נתוני בקרה אווירית כגון גובה גובה לחץ, מהירות אווירית ומהירות קרקעית</String>
+	<String ID="ATCText">נתוני בקרה אווירית - ASL,VS,GS</String>
+	<String ID="BullseyeHelp">מיקום ביחס לאובייקט ה-Bullseye של המבנה</String>
 	<String ID="BullseyeText">Bullseye</String>
 
 	<String ID="TASHelp">מהירות המטוס ביחס לגוש האוויר בו הוא טס</String>
@@ -382,11 +382,11 @@
 	<String ID="AddOnTitleChart2">גרף אובייקט 3</String>
 	<String ID="AddOnTitleChart3">גרף אובייקט 4</String>
 
-	<String ID="AddOnTelemetryName">Name</String>
+	<String ID="AddOnTelemetryName">שם</String>
 	<String ID="AddOnTelemetryData">נתון</String>
-	<String ID="AddOnTelemetryRawData">Raw Data</String>
+	<String ID="AddOnTelemetryRawData">נתונים גולמיים</String>
 	<String ID="AddOnTelemetryValue">ערך</String>
-	<String ID="AddOnTelemetryInterpretedValue">Interpreted Value</String>
+	<String ID="AddOnTelemetryInterpretedValue">ערך מפוענח</String>
 	<String ID="AddOnTelemetryUnit">יחידות</String>
 
 	<String ID="AddOnTelemetryGroupContext">Context</String>
