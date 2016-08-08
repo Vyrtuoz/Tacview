@@ -6,11 +6,11 @@
 <Resources Language="es">
 
 	<!-- Main Page -->
-	<String ID="WelcomeText">Esta poderosa herramienta te permitirá gravar cualquier vuelo,&#10;para revisar, analizar y entender ¡que ocurrió en realidad!</String>
+	<String ID="WelcomeText">Esta poderosa herramienta te permitirá grabar cualquier vuelo,&#10;para revisar, analizar y entender ¡que ocurrió en realidad!</String>
 	<String ID="ApplicationDescription">¡Analiza cualquier vuelo, entiende y mejora tus habilidades como nunca antes!</String>
 
 	<!-- Additional Shortcuts -->
 	<String ID="FSX2ACMIShortcutName">FSX2ACMI</String>
-	<String ID="FSX2ACMIShortcutHelp">Microsoft Flight Simulator X grabador de vuelo para Tacview</String>
+	<String ID="FSX2ACMIShortcutHelp">Microsoft Flight Simulator X Recorder para Tacview</String>
 
 </Resources>
