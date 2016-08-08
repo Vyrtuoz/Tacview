@@ -205,7 +205,7 @@
 	<String ID="ChartDisplayObjet0Help">Mostrar datos del objeto principal</String>
 	<String ID="ChartDisplayObjet1Tooltip">Mostrar objeto secundario</String>
 	<String ID="ChartDisplayObjet1Help">Mostrar datos del objeto secundario</String>
-	<String ID="ChartDisplayObjet2Tooltip">Mostar objeto terciario</String>
+	<String ID="ChartDisplayObjet2Tooltip">Mostrar objeto terciario</String>
 	<String ID="ChartDisplayObjet2Help">Mostrar datos del objeto terciario</String>
 	<String ID="ChartDisplayObjet3Tooltip">Mostrar objeto cuarto</String>
 	<String ID="ChartDisplayObjet3Help">Mostrar datos del objeto cuarto</String>
@@ -250,7 +250,7 @@
 	<String ID="ATCHelp">Telemetría como ATC: Altitud/100, velocidad vertical y velocidad terrestre/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
 	<String ID="BullseyeHelp">Posicion relativa al objeto principal con respecto al bullseye</String>
-  <String ID="BullseyeText">Bullseye</String>
+	<String ID="BullseyeText">Bullseye</String>
 
 	<String ID="TASHelp">Velocidad del avión relativo a la masa de aire en la que se está moviendo</String>
 	<String ID="TASText">Velocidad (TAS)</String>
@@ -263,8 +263,8 @@
 	<String ID="ASLHelp">Sobre la altitud del mar</String>
 	<String ID="ASLText">Altitud (ASL)</String>
 
-	<String ID="AoAHelp">Angulo de ataque</String>
-	<String ID="AoAText">Angulo de ataque (AoA)</String>
+	<String ID="AOAHelp">Angulo de ataque</String>
+	<String ID="AOAText">Angulo de ataque (AOA)</String>
 	<String ID="GHelp">Aceleración relativa a la caída libre</String>
 	<String ID="GText">Fuerzas G (G)</String>
 	<String ID="RollRateHelp">Ratio de alabeo</String>
@@ -281,7 +281,7 @@
 	<String ID="EMHelp">Energía mecánica</String>
 	<String ID="EMText">Energía mecánica (Em=Ec+Ep)</String>
 
-	<String ID="GSHelp">SVelocidad del avión relativo al suelo</String>
+	<String ID="GSHelp">Velocidad del avión relativo al suelo</String>
 	<String ID="GSText">Velocidad terrestre (GS)</String>
 	<String ID="VSHelp">Velocidad vertical</String>
 	<String ID="VSText">Velocidad vertical (VS)</String>
@@ -381,30 +381,19 @@
 	<String ID="AddOnTitleChart1">Grafico 2</String>
 	<String ID="AddOnTitleChart2">Grafico 3</String>
 	<String ID="AddOnTitleChart3">Grafico 4</String>
-	
+
 	<String ID="AddOnTelemetryName">Nombre</String>
 	<String ID="AddOnTelemetryData">Datos</String>
 	<String ID="AddOnTelemetryRawData">Datos en bruto</String>
 	<String ID="AddOnTelemetryValue">Valores</String>
 	<String ID="AddOnTelemetryInterpretedValue">Valor interpretado</String>
 	<String ID="AddOnTelemetryUnit">Unidades</String>
-	
-	<String ID="AddOnTelemetryGroupContext">Contexto</String>
-	
-           	<String ID="AddOnTelemetryType">Tipo</String>
-           	<String ID="AddOnTelemetryText">Texto</String>
-            <String ID="AddOnTelemetryNumeric">Numero</String>
-	          <String ID="AddOnTelemetryTime">Tiempo</String>
-	
-	<String ID="AddOnTelemetryMetadata">Metadatos</String>
-	<String ID="AddOnTelemetryTransform">Transformar</String>
-	<String ID="AddOnTelemetryGroupTextProperties">Propiedades de texto</String>
-  <String ID="AddOnTelemetryGroupNumericProperties">Propiedades numéricas</String>
 
-	<String ID="AddOnTelemetryGroupGlobal">Globales</String>
+	<String ID="AddOnTelemetryGroupContext">Context</String>
 	<String ID="AddOnTelemetryGroupMetadata">Metadatos</String>
 	<String ID="AddOnTelemetryGroupTransform">Transformar</String>
-	<String ID="AddOnTelemetryGroupProperties">Propiedades</String>
+	<String ID="AddOnTelemetryGroupTextProperties">Text Properties</String>
+	<String ID="AddOnTelemetryGroupNumericProperties">Numeric Properties</String>
 
 	<String ID="AddOnTitleDocumentProperties">Propiedades</String>
 	<String ID="TitleProperty">Titulo</String>
@@ -448,23 +437,14 @@
 	<String ID="CommandLineImportExport">Importar/Exportar</String>
 	<String ID="CommandLineBehavior">Comportamiento general</String>
 	<String ID="CommandLineSpecial">Opciones avanzadas</String>
-	<String ID="CmdOpen">/Open:"C:\Temp\Demo-BlackShark.acmi"</String>
 	<String ID="CmdOpenHelp">Abrir un archive existente.</String>
-	<String ID="CmdMerge">/Merge:"C:\Temp\Falcon-4.0-AF-Korea-20061213.vhs"</String>
 	<String ID="CmdMergeHelp">Mezclar un archive existente con los datos actualmente cargados...</String>
-	<String ID="CmdSave">/Save[:"C:\Flight\TopGun2014.acmi"]</String>
 	<String ID="CmdSaveHelp">Guardar el vuelo en un formato de alta compresión.</String>
-	<String ID="CmdExportFlightLog">/ExportFlightLog:"C:\Reports\Mission Black Gold.csv"</String>
 	<String ID="CmdExportFlightLogHelp">Exportar el registro de vuelo como archive XML o CSV.</String>
-	<String ID="CmdFalcon4Theater">/Falcon4Theater:"Aegean"</String>
 	<String ID="CmdFalcon4TheaterHelp">Configurar el teatro de Falcon 4.0 para usar con los archivos VHS. (Aegean, Balkan, Israel, Korea...)</String>
-	<String ID="CmdQuiet">/Quiet</String>
 	<String ID="CmdQuietHelp">Tacview ejecutara los comandos especificados y después saldrá sin mostrar ninguna ventana.</String>
-	<String ID="CmdQuit">/Quit</String>
 	<String ID="CmdQuitHelp">Tacview se cerrara después de que se hayan completado las operaciones.</String>
-	<String ID="CmdVBOOff">/VBO:off</String>
 	<String ID="CmdVBOOffHelp">Deshabilita el buffer de los vértices de objetos para evitar CTDs en algunas ATI en configuración CrossFire.</String>
-	<String ID="CmdDebugMode">/Debug:on</String>
 	<String ID="CmdDebugModeHelp">Muestra la información de errores para ayudar a solucionar problemas.</String>
 
 	<String ID="Selection">Selección</String>
@@ -515,7 +495,6 @@
 	<String ID="FacebookLinkTooltip">Facebook</String>
 	<String ID="FlightSimHookTooltipTitle">Ya puede cerrar Tacview</String>
 	<String ID="FlightSimHookTooltipMessage">Cuando este icono es visible todos los vuelos son automáticamente grabados por tu simulador de vuelo.&#10; No es necesario tener Tacview en funcionamiento mientras estas volando.</String>
-	<String ID="FlightRecordingCorruptedNotification">Esta grabación de vuelo debe de estar truncada, porque viene desde un archive invalido o corrupto.</String>
 	<String ID="FlightRecordingEmptyNotification">Esta grabación de vuelo esta vacía.</String>
 	<String ID="LowEndOpenGL">Por favor actualice los drivers de su tarjeta grafica</String>
 
@@ -588,8 +567,8 @@
 	<String ID="UnitLabelAbsoluteTime">Tiempo</String>
 	<String ID="UnitLabelRelativeTime">Tiempo relativo</String>
 	<String ID="UnitLabelMachNumber">Mach</String>
-	<String ID="UnitLabelAbsoluteAoA">AoA (°)</String>
-	<String ID="UnitLabelIndicatedAoA">AoA (°)</String>
+	<String ID="UnitLabelAbsoluteAOA">AOA (°)</String>
+	<String ID="UnitLabelIndicatedAOA">AOA (°)</String>
 	<String ID="UnitLabelAbsoluteG">g-force (G)</String>
 	<String ID="UnitLabelIndicatedG">g-force (G)</String>
 	<String ID="UnitLabelRollRate">Ratio de alaveo (°/s)</String>
@@ -647,7 +626,7 @@
 	<String ID="FileTypeDescriptionTacviewZip">Datos de telemetria Tacview comprimidos formato Zip</String>
 	<String ID="FileTypeDescriptionTacview7z">Datos de telemetria Tacview comprimidos formato 7z</String>
 	<String ID="FileTypeDescriptionZip">Datos de telemetria en archivo ZIP</String>
-  <String ID="FileTypeDescription7z">Datos de telemetria en archivo 7z</String>
+	<String ID="FileTypeDescription7z">Datos de telemetria en archivo 7z</String>
 	<String ID="TypeColumn">Tipo</String>
 	<String ID="TimeColumn">Tiempo</String>
 	<String ID="EventColumn">Evento</String>
