@@ -164,7 +164,7 @@
 	<String ID="HelpTechnicalSupportHelp">Conectar con la web oficial de Tacview</String>
 	<String ID="HelpUserLicenseAgreementText">Acuerdo de licencia &amp;de usuario</String>
 	<String ID="HelpUserLicenseAgreementHelp">Mostrar el acuerdo de licencia</String>
-	<String ID="HelpCheckForUpdatesText">Comprobar para &amp;actualizaciones</String>
+	<String ID="HelpCheckForUpdatesText">Comprobar &amp;actualizaciones</String>
 	<String ID="HelpCheckForUpdatesHelp">Comprobar en línea de nueva versión de Tacview</String>
 	<String ID="HelpDebugLogText">Registro de depuración</String>
 	<String ID="HelpDebugLogHelp">Documento de depuración útil para entender los problemas</String>
