@@ -389,11 +389,11 @@
 	<String ID="AddOnTelemetryInterpretedValue">Valor interpretado</String>
 	<String ID="AddOnTelemetryUnit">Unidades</String>
 
-	<String ID="AddOnTelemetryGroupContext">Context</String>
+	<String ID="AddOnTelemetryGroupContext">Contexto</String>
 	<String ID="AddOnTelemetryGroupMetadata">Metadatos</String>
 	<String ID="AddOnTelemetryGroupTransform">Transformar</String>
-	<String ID="AddOnTelemetryGroupTextProperties">Text Properties</String>
-	<String ID="AddOnTelemetryGroupNumericProperties">Numeric Properties</String>
+	<String ID="AddOnTelemetryGroupTextProperties">Propiedades de Texto</String>
+	<String ID="AddOnTelemetryGroupNumericProperties">Propiedades Numericas</String>
 
 	<String ID="AddOnTitleDocumentProperties">Propiedades</String>
 	<String ID="TitleProperty">Titulo</String>
@@ -438,7 +438,7 @@
 	<String ID="CommandLineBehavior">Comportamiento general</String>
 	<String ID="CommandLineSpecial">Opciones avanzadas</String>
 	<String ID="CmdOpenHelp">Abrir un archive existente.</String>
-	<String ID="CmdMergeHelp">Mezclar un archive existente con los datos actualmente cargados...</String>
+	<String ID="CmdMergeHelp">Mezclar un archivo existente con los datos actualmente cargados...</String>
 	<String ID="CmdSaveHelp">Guardar el vuelo en un formato de alta compresión.</String>
 	<String ID="CmdExportFlightLogHelp">Exportar el registro de vuelo como archive XML o CSV.</String>
 	<String ID="CmdFalcon4TheaterHelp">Configurar el teatro de Falcon 4.0 para usar con los archivos VHS. (Aegean, Balkan, Israel, Korea...)</String>
@@ -512,7 +512,7 @@
 	<String ID="UpgradeTitle">Actualice a Tacview Professional</String>
 	<String ID="RegisterSubTitle">Introduzca su clave de producto</String>
 	<String ID="RegisterComment">Para registrar el producto y activar las características avanzadas, introduce el código de 25 caracteres que ha recibido por correo electrónico. Si no tiene uno aun, deberá comprar uno.</String>
-	<String ID="UpgradeComment">To upgrade your product and unlock advanced features, enter the 25-character Tacview Professional key you have received by email. If you do not have a professional product key yet, you can buy a new one.</String>
+	<String ID="UpgradeComment">Para actualizar su producto y desbloquear las características avanzadas, introduzca la key de 25 caracteres de Tacview Professional que debe haber recibido por correo electrónico. Si no tiene una key professional, puede comprar una.</String>
 	<String ID="RegisterExample">Ejemplo:</String>
 	<String ID="RegisterProductKey">Clave del producto:</String>
 	<String ID="RegisterBuyProductKey">Comprar nueva key del producto en línea</String>
