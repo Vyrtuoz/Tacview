@@ -18,7 +18,7 @@
 
 	<!-- Controls -->
 	<String ID="ObjectsCountFormat">{0} 목표</String>
-	<String ID="UpdateSpeedFormat">{0} ms</String>
+	<String ID="UpdateSpeedFormat">{0} ms // {1} ms</String>
 	<String ID="ACMIFilesFolder">택뷰 ACMI 파일</String>
 	<String ID="IntroductionText">택뷰용 마이크로소프트 플라이트&#160;시뮬레이터 플라이트 레코더</String>
 

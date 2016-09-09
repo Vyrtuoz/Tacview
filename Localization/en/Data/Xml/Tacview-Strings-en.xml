@@ -125,6 +125,13 @@
 	<String ID="AspectAngleRight">R</String>
 
 	<!-- Other Options -->
+	<String ID="OptionsAddObjectText">Add Object</String>
+	<String ID="OptionsAddObjectHelp">Create a new object and add it to the world</String>
+	<String ID="OptionsEditObjectText">Edit Selected Object</String>
+	<String ID="OptionsEditObjectHelp">Edit selected object property</String>
+	<String ID="OptionsRemoveObjectText">Remove Object</String>
+	<String ID="OptionsRemoveObjectHelp">Remove selected object from the world</String>
+
 	<String ID="OptionsAssociateFileTypesText">&amp;Associate Tacview with acmi files</String>
 	<String ID="OptionsAssociateFileTypesHelp">Enable you to open flight recordings with Tacview when you double-click them in Windows</String>
 	<String ID="OptionsTrackIRCmdText">TrackIR</String>
@@ -144,6 +151,8 @@
 	<String ID="AircraftsTelemetryText">Unselected Aircrafts Labels</String>
 	<String ID="LabelOnAllGroundObjectsText">Label All Ground Objects</String>
 	<String ID="LabelOnAllGroundObjectsHelp">Display labels on all ground objects in addition of anti-aircraft threats</String>
+	<String ID="ForceSelectedObjetsLabelsText">Force selected objects labels</String>
+	<String ID="ForceSelectedObjetsLabelsHelp">Always display select objects labels regardless of the global preference</String>
 
 	<String ID="LabelsScaleText">Labels Scale</String>
 	<String ID="ScaleAutoText">Auto</String>
@@ -180,8 +189,12 @@
 
 	<String ID="RegisterCmdTooltip">Register</String>
 	<String ID="RegisterCmdHelp">Register your copy of Tacview</String>
-	<String ID="UpgradeCmdTooltip">Upgrade to Professional</String>
-	<String ID="UpgradeCmdHelp">Upgrade your Home edition to the Professional edition</String>
+	<String ID="UpgradeToProfessionalCmdTooltip">Upgrade to Professional</String>
+	<String ID="UpgradeToProfessionalCmdHelp">Upgrade your Home edition to the Professional edition</String>
+	<String ID="UpgradeToCommercialCmdTooltip">Upgrade to Commercial</String>
+	<String ID="UpgradeToCommercialCmdHelp">Upgrade your Professional edition to the Commercial edition</String>
+	<String ID="UpdateCommercialCmdTooltip">Extend Commercial License</String>
+	<String ID="UpdateCommercialCmdHelp">Extend an expiring Commercial license</String>
 
 	<!-- Popup Menus -->
 	<String ID="ObjectsInfoCmdRateOfClosureText">Range / Rate of Closure</String>
@@ -248,6 +261,8 @@
 	<!-- Telemetry -->
 	<String ID="ATCHelp">ATC like telemetry: altitude/100, vertical speed, and ground speed/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
+	<String ID="RegistrationHelp">Aircraft registration (tail number)</String>
+	<String ID="RegistrationText">Registration number</String>
 	<String ID="BullseyeHelp">Position relative to the main object coalition bullseye</String>
 	<String ID="BullseyeText">Bullseye</String>
 
@@ -353,6 +368,27 @@
 	<String ID="OnlineDebriefingControlGivenTip">{0} is temporarily in charge of the debriefing</String>
 	<String ID="OnlineDebriefingControlReceivedTip">You are temporarily in charge of the debriefing</String>
 
+	<String ID="AddEditObjectAddTitle">Create New Object</String>
+	<String ID="AddEditObjectEditTitle">Edit Object Properties</String>
+	<String ID="AddEditObjectHelp">Objects and properties documentation</String>
+	<String ID="AddEditObjectId">ID</String>
+	<String ID="AddEditObjectTime">Time</String>
+	<String ID="AddEditObjectName">Name</String>
+	<String ID="AddEditObjectPilot">Pilot</String>
+	<String ID="AddEditObjectType">Type</String>
+	<String ID="AddEditObjectPosition">Position</String>
+	<String ID="AddEditObjectColor">Color</String>
+	<String ID="AddEditObjectCoalition">Coalition</String>
+	<String ID="AutoValue">(auto)</String>
+	<String ID="CurrentTimeValue">(now)</String>
+	<String ID="NoTypeValue">(none)</String>
+	<String ID="NoNameValue">(none)</String>
+	<String ID="NoColorValue">(none)</String>
+	<String ID="NoCoalitionValue">(none)</String>
+	<String ID="BullseyeValue">(Bullseye)</String>
+	<String ID="FixedWingValue">(Fixed Wing Aircraft)</String>
+	<String ID="TimelessValue">(timeless object)</String>
+
 	<!-- Profiler -->
 	<String ID="ProfilerProfileMainLoopTooltip">Profile Main Loop (F16)</String>
 	<String ID="ProfilerProfileMainLoopHelp">Profile the main loop (capture 1 frames)</String>
@@ -409,7 +445,7 @@
 	<String ID="AddOnTitleEventsLog">Flight Log</String>
 	<String ID="AddOnTitleControlsList">Controls List</String>
 	<String ID="AddOnTitleCommandLineOptionsList">Command Line Options</String>
-	<String ID="AddOnTitleUserLicenseAgreement">User License Agreement</String>
+	<String ID="AddOnTitleUserLicenseAgreement">License Agreement</String>
 	<String ID="AddOnTitleDebugLog">Debug Log</String>
 	<String ID="AddOnTitleEventsProfiler">Events Profiler</String>
 	<String ID="AddOnTitleFunctionsProfiler">Functions Profiler</String>
@@ -541,11 +577,13 @@
 	<String ID="FreeEditionShort"></String>
 	<String ID="HomeEditionShort">Home</String>
 	<String ID="ProfessionalEditionShort">Professional</String>
+	<String ID="CommercialEditionShort">Commercial ({0})</String>
 	<String ID="DemoEditionOneDay">{0} Demo, {1} day left</String>
 	<String ID="DemoEditionManyDays">{0} Demo, {1} days left</String>
 	<String ID="FreeEdition">{0} Free Edition</String>
 	<String ID="HomeEdition">{0} Home Edition</String>
 	<String ID="ProfessionalEdition">{0} Professional Edition</String>
+	<String ID="CommercialEdition">{0} Commercial Edition (will expire on {1})</String>
 	<String ID="32bitEdition">32-bit</String>
 	<String ID="64bitEdition">64-bit</String>
 	<String ID="ProfessionalToolDemoWarningOneDay">This tool is available in Tacview <a href="cmd:RegisterCmd">Professional Edition</a>. You can try it for {0} day.</String>
@@ -555,6 +593,7 @@
 	<String ID="HomeToolDemoWarningManyDays">This tool is available in Tacview <a href="cmd:RegisterCmd">Home Edition</a>. You can try it for {0} days.</String>
 	<String ID="HomeToolDemoExpired">You must <a href="cmd:RegisterCmd">upgrade your license</a> to the Home or Professional Edition to use this tool.</String>
 	<String ID="StrategicViewDemoWarning">This Strategic View is available in Tacview Professional.</String>
+	<String ID="ExpiredCommercialLicense">Your commercial license as expired on {0},&#10;DO NOT use this version in commercial and institutional environments.</String>
 
 	<!-- Units -->
 	<String ID="UnitLabelASL">ASL Altitude ({0})</String>
@@ -683,7 +722,7 @@
 	<String ID="LoadingErrorInvalidFormat">Invalid file format.¤'{1}' is not a flight recording or it is not well formated.</String>
 	<String ID="LoadingErrorInvalidObject">Invalid file.¤'{1}' seems to have been corrupted.</String>
 	<String ID="LoadingErrorOutOfMemory">Out of memory.¤Try to close some applications then retry.¤(This flight recording may also be too huge.)</String>
-	<String ID="LoadingErrorNotSupported">The file format of '{1}' is not supported.¤Check &lt;a href="http://www.tacview.net/"&gt;the official website&lt;/a&gt; to know if there is a newer version of Tacview or another edition which can read this file.</String>
+	<String ID="LoadingErrorNotSupported">The file format of '{1}' is not supported.¤Check &lt;a href="http://tacview.net"&gt;the official website&lt;/a&gt; to know if there is a newer version of Tacview or another edition which can read this file.</String>
 	<String ID="LoadingErrorMissingParameter">Invalid file format.¤One required parameter is missing.</String>
 	<String ID="LoadingErrorInvalidParameter">Invalid file format.¤Some parameters are invalid.</String>
 	<String ID="LoadingErrorOutOfSpace">Unsupported file format.¤'{1}' may be created with a newer version of Tacview.</String>

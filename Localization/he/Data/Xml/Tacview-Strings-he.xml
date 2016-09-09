@@ -126,6 +126,13 @@
 	<String ID="AspectAngleRight">R</String>
 
 	<!-- Other Options -->
+	<String ID="OptionsAddObjectText">Add Object</String>
+	<String ID="OptionsAddObjectHelp">Create a new object and add it to the world</String>
+	<String ID="OptionsEditObjectText">Edit Selected Object</String>
+	<String ID="OptionsEditObjectHelp">Edit selected object property</String>
+	<String ID="OptionsRemoveObjectText">Remove Object</String>
+	<String ID="OptionsRemoveObjectHelp">Remove selected object from the world</String>
+
 	<String ID="OptionsAssociateFileTypesText">Tacview באמצעות ACMI פתח קבצי</String>
 	<String ID="OptionsAssociateFileTypesHelp">באמצעות לחיצה כפולה על שם הקובץ Tacview בתוכנת ACMI אפשר פתיחת קבצי</String>
 	<String ID="OptionsTrackIRCmdText">TrackIR</String>
@@ -145,6 +152,8 @@
 	<String ID="AircraftsTelemetryText">תוויות אוביקט שלא נבחרו</String>
 	<String ID="LabelOnAllGroundObjectsText">הצג תוויות לכל האוביקטים הקרקעיים</String>
 	<String ID="LabelOnAllGroundObjectsHelp">הצג תוויות עבור כל האובייקטים הקרקעיים, בנוסף לאיומי המטוסים</String>
+	<String ID="ForceSelectedObjetsLabelsText">Force selected objects labels</String>
+	<String ID="ForceSelectedObjetsLabelsHelp">Always display select objects labels regardless of the global preference</String>
 
 	<String ID="LabelsScaleText">גודל תווית</String>
 	<String ID="ScaleAutoText">אוטומטי</String>
@@ -181,8 +190,12 @@
 
 	<String ID="RegisterCmdTooltip">הירשם</String>
 	<String ID="RegisterCmdHelp">רכוש עותק מלא של התוכנה</String>
-	<String ID="UpgradeCmdTooltip">שדרג</String>
-	<String ID="UpgradeCmdHelp">שדרג את הגרסה הביתית שלך לגרסה מקצועית</String>
+	<String ID="UpgradeToProfessionalCmdTooltip">שדרג</String>
+	<String ID="UpgradeToProfessionalCmdHelp">שדרג את הגרסה הביתית שלך לגרסה מקצועית</String>
+	<String ID="UpgradeToCommercialCmdTooltip">Upgrade to Commercial</String>
+	<String ID="UpgradeToCommercialCmdHelp">Upgrade your Professional edition to the Commercial edition</String>
+	<String ID="UpdateCommercialCmdTooltip">Extend Commercial License</String>
+	<String ID="UpdateCommercialCmdHelp">Extend an expiring Commercial license</String>
 
 	<!-- Popup Menus -->
 	<String ID="ObjectsInfoCmdRateOfClosureText">קצב סגירה / טווח</String>
@@ -249,6 +262,8 @@
 	<!-- Telemetry -->
 	<String ID="ATCHelp">נתוני בקרה אווירית כגון גובה גובה לחץ, מהירות אווירית ומהירות קרקעית</String>
 	<String ID="ATCText">נתוני בקרה אווירית - ASL,VS,GS</String>
+	<String ID="RegistrationHelp">Aircraft registration (tail number)</String>
+	<String ID="RegistrationText">Registration number</String>
 	<String ID="BullseyeHelp">מיקום ביחס לאובייקט ה-Bullseye של המבנה</String>
 	<String ID="BullseyeText">Bullseye</String>
 
@@ -353,6 +368,27 @@
 	<String ID="OnlineDebriefingClientTip">Press Alt+Enter to switch to fullscreen mode</String>
 	<String ID="OnlineDebriefingControlGivenTip">{0} is temporarily in charge of the debriefing</String>
 	<String ID="OnlineDebriefingControlReceivedTip">You are temporarily in charge of the debriefing</String>
+
+	<String ID="AddEditObjectAddTitle">Create New Object</String>
+	<String ID="AddEditObjectEditTitle">Edit Object Properties</String>
+	<String ID="AddEditObjectHelp">Objects and properties documentation</String>
+	<String ID="AddEditObjectId">ID</String>
+	<String ID="AddEditObjectTime">Time</String>
+	<String ID="AddEditObjectName">Name</String>
+	<String ID="AddEditObjectPilot">Pilot</String>
+	<String ID="AddEditObjectType">Type</String>
+	<String ID="AddEditObjectPosition">Position</String>
+	<String ID="AddEditObjectColor">Color</String>
+	<String ID="AddEditObjectCoalition">Coalition</String>
+	<String ID="AutoValue">(auto)</String>
+	<String ID="CurrentTimeValue">(now)</String>
+	<String ID="NoTypeValue">(none)</String>
+	<String ID="NoNameValue">(none)</String>
+	<String ID="NoColorValue">(none)</String>
+	<String ID="NoCoalitionValue">(none)</String>
+	<String ID="BullseyeValue">(Bullseye)</String>
+	<String ID="FixedWingValue">(Fixed Wing Aircraft)</String>
+	<String ID="TimelessValue">(timeless object)</String>
 
 	<!-- Profiler -->
 	<String ID="ProfilerProfileMainLoopTooltip">Profile Main Loop (F16)</String>
@@ -542,11 +578,13 @@
 	<String ID="FreeEditionShort"></String>
 	<String ID="HomeEditionShort">Home</String>
 	<String ID="ProfessionalEditionShort">Professional</String>
+	<String ID="CommercialEditionShort">Commercial ({0})</String>
 	<String ID="DemoEditionOneDay">{0} גרסת ניסיון, נותר יום {1} לשימוש</String>
 	<String ID="DemoEditionManyDays">{0} גרסת ניסיון, נותרו {1} ימים לשימוש</String>
 	<String ID="FreeEdition">{0} Free Edition</String>
 	<String ID="HomeEdition">{0} Home Edition</String>
 	<String ID="ProfessionalEdition">{0} Professional Edition</String>
+	<String ID="CommercialEdition">{0} Commercial Edition (will expire on {1})</String>
 	<String ID="32bitEdition">32-bit</String>
 	<String ID="64bitEdition">64-bit</String>
 	<String ID="ProfessionalToolDemoWarningOneDay">.הינך מוזמן לנסות אותו עוד יום {0} .Tacview כלי זה זמין בגרסה המקצועית של</String>
@@ -556,6 +594,7 @@
 	<String ID="HomeToolDemoWarningManyDays">.הינך מוזמן לנסות אותו עוד {0} ימים .Tacview כלי זה זמין בגרסה הביתית של</String>
 	<String ID="HomeToolDemoExpired">עליך לשדרג לגרסה ביתית או מקצועית של התוכנה, ע"מ להשתמש בכלי זה</String>
 	<String ID="StrategicViewDemoWarning">תצוגת עולם זמינה רק בגרסה המקצועית</String>
+	<String ID="ExpiredCommercialLicense">Your commercial license as expired on {0},&#10;DO NOT use this version in commercial and institutional environments.</String>
 
 	<!-- Units -->
 	<String ID="UnitLabelASL">ASL Altitude ({0})</String>

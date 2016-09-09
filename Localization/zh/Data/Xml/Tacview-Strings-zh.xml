@@ -126,6 +126,13 @@
 	<String ID="AspectAngleRight">R</String>
 
 	<!-- Other Options -->
+	<String ID="OptionsAddObjectText">Add Object</String>
+	<String ID="OptionsAddObjectHelp">Create a new object and add it to the world</String>
+	<String ID="OptionsEditObjectText">Edit Selected Object</String>
+	<String ID="OptionsEditObjectHelp">Edit selected object property</String>
+	<String ID="OptionsRemoveObjectText">Remove Object</String>
+	<String ID="OptionsRemoveObjectHelp">Remove selected object from the world</String>
+
 	<String ID="OptionsAssociateFileTypesText">&amp;关联acmi文件至Tacview</String>
 	<String ID="OptionsAssociateFileTypesHelp">在Windows里双击acmi飞行记录文件时用Tacview打开。</String>
 	<String ID="OptionsTrackIRCmdText">TrackIR</String>
@@ -145,6 +152,8 @@
 	<String ID="AircraftsTelemetryText">未选飞机标签</String>
 	<String ID="LabelOnAllGroundObjectsText">标签所有地面物体</String>
 	<String ID="LabelOnAllGroundObjectsHelp">在所有地面物体及防空威胁上显示标签</String>
+	<String ID="ForceSelectedObjetsLabelsText">Force selected objects labels</String>
+	<String ID="ForceSelectedObjetsLabelsHelp">Always display select objects labels regardless of the global preference</String>
 
 	<String ID="LabelsScaleText">标签大小</String>
 	<String ID="ScaleAutoText">自动</String>
@@ -181,8 +190,12 @@
 
 	<String ID="RegisterCmdTooltip">注册</String>
 	<String ID="RegisterCmdHelp">注册你的Tacview软件副本</String>
-	<String ID="UpgradeCmdTooltip">升级到专业版</String>
-	<String ID="UpgradeCmdHelp">升级你的家庭版到专业版</String>
+	<String ID="UpgradeToProfessionalCmdTooltip">升级到专业版</String>
+	<String ID="UpgradeToProfessionalCmdHelp">升级你的家庭版到专业版</String>
+	<String ID="UpgradeToCommercialCmdTooltip">Upgrade to Commercial</String>
+	<String ID="UpgradeToCommercialCmdHelp">Upgrade your Professional edition to the Commercial edition</String>
+	<String ID="UpdateCommercialCmdTooltip">Extend Commercial License</String>
+	<String ID="UpdateCommercialCmdHelp">Extend an expiring Commercial license</String>
 
 	<!-- Popup Menus -->
 	<String ID="ObjectsInfoCmdRateOfClosureText">距离/接近速度</String>
@@ -249,6 +262,8 @@
 	<!-- Telemetry -->
 	<String ID="ATCHelp">ATC风格遥测：高度/100、垂直速度和地速/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
+	<String ID="RegistrationHelp">Aircraft registration (tail number)</String>
+	<String ID="RegistrationText">Registration number</String>
 	<String ID="BullseyeHelp">相对于主对象阵营标靶的位置</String>
 	<String ID="BullseyeText">标靶</String>
 
@@ -361,6 +376,27 @@
 	<String ID="OnlineDebriefingClientTip">Press Alt+Enter to switch to fullscreen mode</String>
 	<String ID="OnlineDebriefingControlGivenTip">{0} is temporarily in charge of the debriefing</String>
 	<String ID="OnlineDebriefingControlReceivedTip">You are temporarily in charge of the debriefing</String>
+
+	<String ID="AddEditObjectAddTitle">Create New Object</String>
+	<String ID="AddEditObjectEditTitle">Edit Object Properties</String>
+	<String ID="AddEditObjectHelp">Objects and properties documentation</String>
+	<String ID="AddEditObjectId">ID</String>
+	<String ID="AddEditObjectTime">Time</String>
+	<String ID="AddEditObjectName">Name</String>
+	<String ID="AddEditObjectPilot">Pilot</String>
+	<String ID="AddEditObjectType">Type</String>
+	<String ID="AddEditObjectPosition">Position</String>
+	<String ID="AddEditObjectColor">Color</String>
+	<String ID="AddEditObjectCoalition">Coalition</String>
+	<String ID="AutoValue">(auto)</String>
+	<String ID="CurrentTimeValue">(now)</String>
+	<String ID="NoTypeValue">(none)</String>
+	<String ID="NoNameValue">(none)</String>
+	<String ID="NoColorValue">(none)</String>
+	<String ID="NoCoalitionValue">(none)</String>
+	<String ID="BullseyeValue">(Bullseye)</String>
+	<String ID="FixedWingValue">(Fixed Wing Aircraft)</String>
+	<String ID="TimelessValue">(timeless object)</String>
 
 	<!-- Profiler -->
 	<String ID="ProfilerProfileMainLoopTooltip">配置主循环 (F16)</String>
@@ -565,11 +601,13 @@
 	<String ID="FreeEditionShort"></String>
 	<String ID="HomeEditionShort">家庭版</String>
 	<String ID="ProfessionalEditionShort">专业版</String>
+	<String ID="CommercialEditionShort">Commercial ({0})</String>
 	<String ID="DemoEditionOneDay">{0}演示版, {1}天剩余</String>
 	<String ID="DemoEditionManyDays">{0}演示版, {1}天剩余</String>
 	<String ID="FreeEdition">{0}免费版</String>
 	<String ID="HomeEdition">{0}家庭版</String>
 	<String ID="ProfessionalEdition">{0}专业版</String>
+	<String ID="CommercialEdition">{0} Commercial Edition (will expire on {1})</String>
 	<String ID="32bitEdition">32位</String>
 	<String ID="64bitEdition">64位</String>
 	<String ID="ProfessionalToolDemoWarningOneDay">此工具仅可运行于Tacview <a href="cmd:RegisterCmd">专业版</a>。 你可以试用{0}天。</String>
@@ -581,8 +619,10 @@
 <!--
 	Chinese characters are not yet supported in the 3D view
 	<String ID="StrategicViewDemoWarning">战略视角可在专业版Tacview内使用。&#10;你可以试用{0}天。</String>
+	<String ID="ExpiredCommercialLicense">Your commercial license as expired on {0},&#10;DO NOT use this version in commercial and institutional environments.</String>
 -->
 	<String ID="StrategicViewDemoWarning">This Strategic View is available in Tacview Professional.</String>
+	<String ID="ExpiredCommercialLicense">Your commercial license as expired on {0},&#10;DO NOT use this version in commercial and institutional environments.</String>
 
 	<!-- Units -->
 <!--
@@ -746,7 +786,7 @@
 	<String ID="LoadingErrorInvalidFormat">无效文件格式。¤'{1}'不是飞行记录或者格式不正确。</String>
 	<String ID="LoadingErrorInvalidObject">无效文件。¤'{1}'貌似已损坏。</String>
 	<String ID="LoadingErrorOutOfMemory">内存耗尽。¤请关闭一些应用程序然后重试。¤（此飞行记录可能过大。）</String>
-	<String ID="LoadingErrorNotSupported">不支持'{1}'的文件格式。¤检查&lt;a href="http://www.tacview.net/"&gt;官方网站&lt;/a&gt;以确认是否有更新版本的Tacview，或者其他可读取此文件的版本。</String>
+	<String ID="LoadingErrorNotSupported">不支持'{1}'的文件格式。¤检查&lt;a href="http://tacview.net"&gt;官方网站&lt;/a&gt;以确认是否有更新版本的Tacview，或者其他可读取此文件的版本。</String>
 	<String ID="LoadingErrorMissingParameter">无效文件格式。¤丢失一个必须的参量。</String>
 	<String ID="LoadingErrorInvalidParameter">无效文件格式。¤一些参量无效。</String>
 	<String ID="LoadingErrorOutOfSpace">不支持的文件格式。¤'{1}'可能有更新版本的Tacview创建。</String>

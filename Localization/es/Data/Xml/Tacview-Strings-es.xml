@@ -126,6 +126,13 @@
 	<String ID="AspectAngleRight">Der</String>
 
 	<!-- Other Options -->
+	<String ID="OptionsAddObjectText">Add Object</String>
+	<String ID="OptionsAddObjectHelp">Create a new object and add it to the world</String>
+	<String ID="OptionsEditObjectText">Edit Selected Object</String>
+	<String ID="OptionsEditObjectHelp">Edit selected object property</String>
+	<String ID="OptionsRemoveObjectText">Remove Object</String>
+	<String ID="OptionsRemoveObjectHelp">Remove selected object from the world</String>
+
 	<String ID="OptionsAssociateFileTypesText">&amp;Asociar Tacview con los archivos acmi</String>
 	<String ID="OptionsAssociateFileTypesHelp">Habilitar que Tacview abra en windows los archivos de vuelo con doble click</String>
 	<String ID="OptionsTrackIRCmdText">TrackIR</String>
@@ -145,6 +152,8 @@
 	<String ID="AircraftsTelemetryText">Deseleccionar etiquetas de aviones</String>
 	<String ID="LabelOnAllGroundObjectsText">Etiquetar todos los objetos terrestres</String>
 	<String ID="LabelOnAllGroundObjectsHelp">Mostrar todas las etiquetas de los objetos terrestres en adición a las amenazas antiaéreas</String>
+	<String ID="ForceSelectedObjetsLabelsText">Force selected objects labels</String>
+	<String ID="ForceSelectedObjetsLabelsHelp">Always display select objects labels regardless of the global preference</String>
 
 	<String ID="LabelsScaleText">Escala de etiquetado</String>
 	<String ID="ScaleAutoText">Automático</String>
@@ -181,8 +190,12 @@
 
 	<String ID="RegisterCmdTooltip">Registrar</String>
 	<String ID="RegisterCmdHelp">Registra la copia de Tacview</String>
-	<String ID="UpgradeCmdTooltip">Actualizar a Professional</String>
-	<String ID="UpgradeCmdHelp">Ecualiza la versión Home edición a la Professional edición</String>
+	<String ID="UpgradeToProfessionalCmdTooltip">Actualizar a Professional</String>
+	<String ID="UpgradeToProfessionalCmdHelp">Ecualiza la versión Home edición a la Professional edición</String>
+	<String ID="UpgradeToCommercialCmdTooltip">Upgrade to Commercial</String>
+	<String ID="UpgradeToCommercialCmdHelp">Upgrade your Professional edition to the Commercial edition</String>
+	<String ID="UpdateCommercialCmdTooltip">Extend Commercial License</String>
+	<String ID="UpdateCommercialCmdHelp">Extend an expiring Commercial license</String>
 
 	<!-- Popup Menus -->
 	<String ID="ObjectsInfoCmdRateOfClosureText">Rango / Ratio de acercamiento</String>
@@ -249,6 +262,8 @@
 	<!-- Telemetry -->
 	<String ID="ATCHelp">Telemetría como ATC: Altitud/100, velocidad vertical y velocidad terrestre/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
+	<String ID="RegistrationHelp">Aircraft registration (tail number)</String>
+	<String ID="RegistrationText">Registration number</String>
 	<String ID="BullseyeHelp">Posicion relativa al objeto principal con respecto al bullseye</String>
 	<String ID="BullseyeText">Bullseye</String>
 
@@ -353,6 +368,27 @@
 	<String ID="OnlineDebriefingClientTip">Pulsa Alt+Enter para cambiar al modo pantalla completa</String>
 	<String ID="OnlineDebriefingControlGivenTip">{0} esta temporalmente a cargo del debriefing</String>
 	<String ID="OnlineDebriefingControlReceivedTip">Estas temporalmente al cargo del debriefing</String>
+
+	<String ID="AddEditObjectAddTitle">Create New Object</String>
+	<String ID="AddEditObjectEditTitle">Edit Object Properties</String>
+	<String ID="AddEditObjectHelp">Objects and properties documentation</String>
+	<String ID="AddEditObjectId">ID</String>
+	<String ID="AddEditObjectTime">Time</String>
+	<String ID="AddEditObjectName">Name</String>
+	<String ID="AddEditObjectPilot">Pilot</String>
+	<String ID="AddEditObjectType">Type</String>
+	<String ID="AddEditObjectPosition">Position</String>
+	<String ID="AddEditObjectColor">Color</String>
+	<String ID="AddEditObjectCoalition">Coalition</String>
+	<String ID="AutoValue">(auto)</String>
+	<String ID="CurrentTimeValue">(now)</String>
+	<String ID="NoTypeValue">(none)</String>
+	<String ID="NoNameValue">(none)</String>
+	<String ID="NoColorValue">(none)</String>
+	<String ID="NoCoalitionValue">(none)</String>
+	<String ID="BullseyeValue">(Bullseye)</String>
+	<String ID="FixedWingValue">(Fixed Wing Aircraft)</String>
+	<String ID="TimelessValue">(timeless object)</String>
 
 	<!-- Profiler -->
 	<String ID="ProfilerProfileMainLoopTooltip">Bucle del perfil principal (F16)</String>
@@ -542,11 +578,13 @@
 	<String ID="FreeEditionShort"></String>
 	<String ID="HomeEditionShort">Home</String>
 	<String ID="ProfessionalEditionShort">Professional</String>
+	<String ID="CommercialEditionShort">Commercial ({0})</String>
 	<String ID="DemoEditionOneDay">{0} Demo {1} día restante</String>
 	<String ID="DemoEditionManyDays">{0} Demo {1} días restantes</String>
 	<String ID="FreeEdition">{0} Edición gratuita</String>
 	<String ID="HomeEdition">{0} Edición Home </String>
 	<String ID="ProfessionalEdition">{0} Edición Professional</String>
+	<String ID="CommercialEdition">{0} Commercial Edition (will expire on {1})</String>
 	<String ID="32bitEdition">32-bit</String>
 	<String ID="64bitEdition">64-bit</String>
 	<String ID="ProfessionalToolDemoWarningOneDay">Esta herramienta está disponible en Tacview <a href="cmd:RegisterCmd">Professional Edition</a>. Puede probarla por {0} día.</String>
@@ -556,6 +594,7 @@
 	<String ID="HomeToolDemoWarningManyDays">Esta herramienta está disponible en Tacview <a href="cmd:RegisterCmd">Home Edition</a>. Puede probarla por {0} días.</String>
 	<String ID="HomeToolDemoExpired">Debe <a href="cmd:RegisterCmd">actualizar su licencia</a> a la edición Home o Professional para usar esta herramienta.</String>
 	<String ID="StrategicViewDemoWarning">La visión estratégica está disponible en Tacview Professional.</String>
+	<String ID="ExpiredCommercialLicense">Your commercial license as expired on {0},&#10;DO NOT use this version in commercial and institutional environments.</String>
 
 	<!-- Units -->
 	<String ID="UnitLabelASL">Altitud ASL ({0})</String>
@@ -684,7 +723,7 @@
 	<String ID="LoadingErrorInvalidFormat">Formato de archive no valido.¤ '{1}' no es una grabación de vuelo o no tiene un formato correcto.</String>
 	<String ID="LoadingErrorInvalidObject">Archivo no valido.¤'{1}' Parece que esta corrupto.</String>
 	<String ID="LoadingErrorOutOfMemory">Sin memoria.¤Pruebe cerrando algunas aplicaciones y reintente.¤(La grabación puede ser grande.)</String>
-	<String ID="LoadingErrorNotSupported">El formato del archivo '{1}' no es soportado.¤Compruebe &lt;a href="http://tacview.strasoftware.com/"&gt; el sitio oficial&lt;/a&gt; para saber si hay una nueva versión de Tacview.</String>
+	<String ID="LoadingErrorNotSupported">El formato del archivo '{1}' no es soportado.¤Compruebe &lt;a href="http://tacview.net"&gt; el sitio oficial&lt;/a&gt; para saber si hay una nueva versión de Tacview.</String>
 	<String ID="LoadingErrorMissingParameter">Formato de archive invalido.¤Una parámetro requerido esta omitido.</String>
 	<String ID="LoadingErrorInvalidParameter">Formato de archive invalido.¤Algún parámetro no es válido.</String>
 	<String ID="LoadingErrorOutOfSpace">Formato no soportado.¤'{1}' puede haber sido creado por una versión más actual de Tacview.</String>

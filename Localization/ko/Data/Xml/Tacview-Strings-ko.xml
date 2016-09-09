@@ -126,6 +126,13 @@
 	<String ID="AspectAngleRight">R</String>
 
 	<!-- Other Options -->
+	<String ID="OptionsAddObjectText">Add Object</String>
+	<String ID="OptionsAddObjectHelp">Create a new object and add it to the world</String>
+	<String ID="OptionsEditObjectText">Edit Selected Object</String>
+	<String ID="OptionsEditObjectHelp">Edit selected object property</String>
+	<String ID="OptionsRemoveObjectText">Remove Object</String>
+	<String ID="OptionsRemoveObjectHelp">Remove selected object from the world</String>
+
 	<String ID="OptionsAssociateFileTypesText">&amp;택뷰를 acmi 파일과 연동하기</String>
 	<String ID="OptionsAssociateFileTypesHelp">윈도우 내에서 비행기록 파일을 더블 클릭하였을 때, 택뷰에서 해당 파일을 열어준다.</String>
 	<String ID="OptionsTrackIRCmdText">트랙IR</String>
@@ -145,6 +152,8 @@
 	<String ID="AircraftsTelemetryText">선택되지 않은 기체의 라벨</String>
 	<String ID="LabelOnAllGroundObjectsText">지상 모든 물체에 라벨 켜기</String>
 	<String ID="LabelOnAllGroundObjectsHelp">대-기체용 위협을 포함한 모든 지상 물체들의 라벨 켜기</String>
+	<String ID="ForceSelectedObjetsLabelsText">Force selected objects labels</String>
+	<String ID="ForceSelectedObjetsLabelsHelp">Always display select objects labels regardless of the global preference</String>
 
 	<String ID="LabelsScaleText">라벨 확대 및 축소</String>
 	<String ID="ScaleAutoText">자동</String>
@@ -181,8 +190,12 @@
 
 	<String ID="RegisterCmdTooltip">등록</String>
 	<String ID="RegisterCmdHelp">택뷰 등록하기</String>
-	<String ID="UpgradeCmdTooltip">프로페셔널 에디션으로 업그레이드</String>
-	<String ID="UpgradeCmdHelp">홈 에디션을 프로페셔널 에디션으로 업그레이드 하기</String>
+	<String ID="UpgradeToProfessionalCmdTooltip">프로페셔널 에디션으로 업그레이드</String>
+	<String ID="UpgradeToProfessionalCmdHelp">홈 에디션을 프로페셔널 에디션으로 업그레이드 하기</String>
+	<String ID="UpgradeToCommercialCmdTooltip">Upgrade to Commercial</String>
+	<String ID="UpgradeToCommercialCmdHelp">Upgrade your Professional edition to the Commercial edition</String>
+	<String ID="UpdateCommercialCmdTooltip">Extend Commercial License</String>
+	<String ID="UpdateCommercialCmdHelp">Extend an expiring Commercial license</String>
 
 	<!-- Popup Menus -->
 	<String ID="ObjectsInfoCmdRateOfClosureText">거리 / 접근률</String>
@@ -249,6 +262,8 @@
 	<!-- Telemetry -->
 	<String ID="ATCHelp">텔레메트리같은 ATC: 고도/100, 수직속도, 그리고 지상속도/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
+	<String ID="RegistrationHelp">Aircraft registration (tail number)</String>
+	<String ID="RegistrationText">Registration number</String>
 	<String ID="BullseyeHelp">Position relative to the main object coalition bullseye</String>
 	<String ID="BullseyeText">Bullseye</String>
 
@@ -361,6 +376,27 @@
 	<String ID="OnlineDebriefingClientTip">Press Alt+Enter to switch to fullscreen mode</String>
 	<String ID="OnlineDebriefingControlGivenTip">{0} is temporarily in charge of the debriefing</String>
 	<String ID="OnlineDebriefingControlReceivedTip">You are temporarily in charge of the debriefing</String>
+
+	<String ID="AddEditObjectAddTitle">Create New Object</String>
+	<String ID="AddEditObjectEditTitle">Edit Object Properties</String>
+	<String ID="AddEditObjectHelp">Objects and properties documentation</String>
+	<String ID="AddEditObjectId">ID</String>
+	<String ID="AddEditObjectTime">Time</String>
+	<String ID="AddEditObjectName">Name</String>
+	<String ID="AddEditObjectPilot">Pilot</String>
+	<String ID="AddEditObjectType">Type</String>
+	<String ID="AddEditObjectPosition">Position</String>
+	<String ID="AddEditObjectColor">Color</String>
+	<String ID="AddEditObjectCoalition">Coalition</String>
+	<String ID="AutoValue">(auto)</String>
+	<String ID="CurrentTimeValue">(now)</String>
+	<String ID="NoTypeValue">(none)</String>
+	<String ID="NoNameValue">(none)</String>
+	<String ID="NoColorValue">(none)</String>
+	<String ID="NoCoalitionValue">(none)</String>
+	<String ID="BullseyeValue">(Bullseye)</String>
+	<String ID="FixedWingValue">(Fixed Wing Aircraft)</String>
+	<String ID="TimelessValue">(timeless object)</String>
 
 	<!-- Profiler -->
 	<String ID="ProfilerProfileMainLoopTooltip">메인 루프 프로파일 (F16)</String>
@@ -565,11 +601,13 @@
 	<String ID="FreeEditionShort"></String>
 	<String ID="HomeEditionShort">홈</String>
 	<String ID="ProfessionalEditionShort">프로페셔널</String>
+	<String ID="CommercialEditionShort">Commercial ({0})</String>
 	<String ID="DemoEditionOneDay">{0} 데모, {1} 일 남음</String>
 	<String ID="DemoEditionManyDays">{0} 데모, {1} 일 남음</String>
 	<String ID="FreeEdition">{0} 프리 에디션</String>
 	<String ID="HomeEdition">{0} 홈 에디션</String>
 	<String ID="ProfessionalEdition">{0} 프로페셔널 에디션</String>
+	<String ID="CommercialEdition">{0} Commercial Edition (will expire on {1})</String>
 	<String ID="32bitEdition">32-bit</String>
 	<String ID="64bitEdition">64-bit</String>
 	<String ID="ProfessionalToolDemoWarningOneDay">이 툴은 택뷰 프로페셔널 에디션에서 <a href="cmd:RegisterCmd">사용이 가능합니다.</a>. {0} 일간 더 사용해 보실 수 있습니다.</String>
@@ -581,8 +619,10 @@
 <!--
 	Korean characters are not yet supported in the 3D view
 	<String ID="StrategicViewDemoWarning">이 전술 뷰는 택뷰 프로페셔널에서 사용 가능합니다.</String>
+	<String ID="ExpiredCommercialLicense">Your commercial license as expired on {0},&#10;DO NOT use this version in commercial and institutional environments.</String>
 -->
 	<String ID="StrategicViewDemoWarning">This Strategic View is available in Tacview Professional.</String>
+	<String ID="ExpiredCommercialLicense">Your commercial license as expired on {0},&#10;DO NOT use this version in commercial and institutional environments.</String>
 
 	<!-- Units -->
 <!--
@@ -746,7 +786,7 @@
 	<String ID="LoadingErrorInvalidFormat">올바르지 않은 파일 포맷입니다.¤'{1}'(은)는 포맷이 잘못되었거나 비행기록 파일이 아닙니다.</String>
 	<String ID="LoadingErrorInvalidObject">올바르지 않은 파일입니다.¤'{1}'(은)는 파일에 문제가 있는 듯 합니다.</String>
 	<String ID="LoadingErrorOutOfMemory">메모리가 부족합니다.¤다른 응용프로그램을 종료 후 다시 시도 해 주시기 바랍니다.¤(혹은 비행기록 파일이 너무 클 수도 있습니다.)</String>
-	<String ID="LoadingErrorNotSupported">파일포맷 '{1}' (은)는 지원되지 않습니다.¤공식 웹사이트인 &lt;a href="http://www.tacview.net/"&gt;를 방문하셔서 &lt;/a&gt; 새 버전이나 이 파일을 지원할 수 있는 다른 에디션이 있는지 확인 해 보시기 바랍니다.</String>
+	<String ID="LoadingErrorNotSupported">파일포맷 '{1}' (은)는 지원되지 않습니다.¤공식 웹사이트인 &lt;a href="http://tacview.net"&gt;를 방문하셔서 &lt;/a&gt; 새 버전이나 이 파일을 지원할 수 있는 다른 에디션이 있는지 확인 해 보시기 바랍니다.</String>
 	<String ID="LoadingErrorMissingParameter">파일 포맷이 올바르지 않습니다.¤파라미터 중 하나가 없습니다.</String>
 	<String ID="LoadingErrorInvalidParameter">파일 포맷이 올바르지 않습니다.¤몇 개의 파라미터가 올바른 값이 아닙니다.</String>
 	<String ID="LoadingErrorOutOfSpace">지원되지 않는 파일 포맷입니다.¤'{1}'(은)는 새 버전의 택뷰에서 제작되었을 수 있습니다.</String>

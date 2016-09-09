@@ -19,7 +19,7 @@
 
 	<!-- Controls -->
 	<String ID="ObjectsCountFormat">{0} объектов</String>
-	<String ID="UpdateSpeedFormat">{0} мс</String>
+	<String ID="UpdateSpeedFormat">{0} мс // {1} мс</String>
 	<String ID="ACMIFilesFolder">Файлы ACMI Tacview</String>
 	<String ID="IntroductionText">Tacview для Microsoft Flight&#160;Simulator</String>
 

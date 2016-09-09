@@ -19,7 +19,7 @@
 
 	<!-- Controls -->
 	<String ID="ObjectsCountFormat">{0} 物体</String>
-	<String ID="UpdateSpeedFormat">{0} ms</String>
+	<String ID="UpdateSpeedFormat">{0} ms // {1} ms</String>
 	<String ID="ACMIFilesFolder">Tacview ACMI 文件</String>
 	<String ID="IntroductionText">用于Tacview的&#160;微软模拟飞行记录器</String>
 
