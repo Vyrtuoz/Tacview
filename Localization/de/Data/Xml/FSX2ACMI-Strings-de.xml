@@ -6,25 +6,25 @@
 <Resources Language="de">
 
 	<!-- Status -->
-	<String ID="StatusSimConnectNotInstalled">SimConnect not detected.&#10;Make sure either Microsoft Flight&#160;Simulator&#160;X or Lockheed&#160;Martin Prepar3D is properly installed on your computer.</String>
-	<String ID="StatusWaitingForSimConnect">FSX2ACMI is ready!&#10;You can now launch Microsoft Flight&#160;Simulator&#160;X&#10;or Lockheed&#160;Martin Prepar3D.</String>
-	<String ID="StatusWaitingForSimConnectFailed">Failed to record your last flight...&#10;Before restarting your simulator, make sure there is enough free space on your hard drive.</String>
-	<String ID="StatusWaitingForSimConnectSucceeded">Your last flight has been successfully recorded!&#10;You can now close FSX2ACMI or restart your simulator to record another flight.</String>
-	<String ID="StatusConnectedToSimConnect">FSX2ACMI is connected to your simulator.&#10;You can now start a flight,&#10;it will be automatically recorded.</String>
-	<String ID="StatusConnectedToSimConnectFailed">Failed to record your last flight...&#10;Before trying to record another flight, make sure there is enough free space on your hard drive.</String>
-	<String ID="StatusConnectedToSimConnectSucceeded">Your last flight has been successfully recorded!&#10;You can now start another flight or close FSX2ACMI.</String>
-	<String ID="StatusRecordingFlight">Your flight is now being recorded&#10;until you close FSX2ACMI,&#10;quit your simulator or start another flight.</String>
-	<String ID="StatusRecordingFlightFailed">Failed to record your last flight...&#10;FSX2ACMI is now trying to record your new flight. Make sure there is enough free space on your hard drive.</String>
-	<String ID="StatusRecordingFlightSucceeded">Your last flight has been successfully recorded!&#10;A new flight is now being recorded until you close FSX2ACMI, quit your simulator or start another flight.</String>
+	<String ID="StatusSimConnectNotInstalled">SimConnect wurde nicht erkannt.&#10;Vergewissern Sie sich, dass entweder Microsoft&#160;Flight&#160;Simulator&#160; X oder Lockheed&#160;Martin Prepar3D richtig auf Ihrem Computer installiert ist.</String>
+	<String ID="StatusWaitingForSimConnect">FSX2ACMI ist bereit!&#10;Sie können nun Microsoft Flight&#160;Simulator&#160;X&#10;oder Lockheed&#160;Martin Prepar3D starten.</String>
+	<String ID="StatusWaitingForSimConnectFailed">Aufnahme des letzten Fluges ist fehlgeschlagen...&#10;Bevor Sie ihren Simulator neu starten, vergewissern Sie sich, dass genug freier Festplattenplatz vorhanden ist!</String>
+	<String ID="StatusWaitingForSimConnectSucceeded">Ihr letzter Flug wurde erfolgreich aufgenommen!&#10;Sie können nun FSX2ACMI schließen oder Ihren Simulator neu starten um einen neuen Flug aufzunehmen.</String>
+	<String ID="StatusConnectedToSimConnect">FSX2ACMI ist mit Ihrem Simulator verbunden.&#10;Sie können nun einen Flug starten,&#10;er wird nun automatisch aufgenommen</String>
+	<String ID="StatusConnectedToSimConnectFailed">Aufnahme des letzten Fluges ist fehlgeschlagen...&#10;Bevor Sie versuchen einen neuen Flug aufzunehmen, vergewissern Sie sich, dass genug freier Festplattenplatz vorhanden ist!</String>
+	<String ID="StatusConnectedToSimConnectSucceeded">Ihr letzter Flug wurde erfolgreich aufgenommen!&#10;Sie können nun einen neuen Flug starten oder FSX2ACMI schließen.</String>
+	<String ID="StatusRecordingFlight">Ihr Flug wird jetzt aufgenommen&#10;bis Sie FSX2ACMI schließen,&#10;Ihren Simulator beenden oder erneut einen Flug starten.</String>
+	<String ID="StatusRecordingFlightFailed">Aufnahme des letzten Fluges ist fehlgeschlagen...&#10;FSX2ACMI versucht nun Ihren neuen Flug aufzunehmen. Vergewissern Sie sich, dass genug freier Festplattenplatz vorhanden ist!</String>
+	<String ID="StatusRecordingFlightSucceeded">Ihr letzter Flug wurde erfolgreich aufgenommen!&#10;Ein neuer Flug wird nun aufgenommen bis Sie FSX2ACMI schließen, Ihren Simulator beenden oder erneut einen Flug starten.</String>
 
 	<!-- Controls -->
-	<String ID="ObjectsCountFormat">{0} objects</String>
+	<String ID="ObjectsCountFormat">{0} Objekte</String>
 	<String ID="UpdateSpeedFormat">{0} ms // {1} ms</String>
-	<String ID="ACMIFilesFolder">Tacview ACMI Files</String>
-	<String ID="IntroductionText">Microsoft Flight&#160;Simulator flight recorder for Tacview</String>
+	<String ID="ACMIFilesFolder">Tacview ACMI Dateien</String>
+	<String ID="IntroductionText">Microsoft Flight&#160;Simulator Flugrecorder für Tacview</String>
 
 	<!-- Options -->
-	<String ID="AutoLaunchText">Auto &amp;Launch</String>
-	<String ID="AutoQuitText">Auto &amp;Quit</String>
+	<String ID="AutoLaunchText">Auto &amp;Start</String>
+	<String ID="AutoQuitText">Auto &amp;Ende</String>
 
 </Resources>
