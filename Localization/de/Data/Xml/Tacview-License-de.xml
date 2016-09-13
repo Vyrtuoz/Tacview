@@ -8,25 +8,25 @@
 	<!-- EULA -->
 	<String ID="LicenseText">
 		<br/>
-		<p align="center"><b>Tacview License Agreement</b></p>
-		<p align="center">Last Updated August 19, 2016</p>
-		<p><b>IMPORTANT NOTICE</b></p>
-		<p>Read this license agreement carefully before using this software.</p>
-		<p>BY USING THIS SOFTWARE IN ANY WAY YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREED TO THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THESE TERMS, DO NOT USE THIS SOFTWARE IN ANY WAY AND PROMPTLY RETURN IT AND DELETE ANY COPIES OF IT IN YOUR POSSESSION.</p>
+		<p align="center"><b>Tacview Lizenzbestimmung</b></p>
+		<p align="center">Zuletzt aktualisiert am 19 August 2016</p>
+		<p><b>WICHTIGER HINWEIS</b></p>
+		<p>Lesen Sie diese Lizenzvereinbarung sorgfältig durch, bevor Sie diese Software verwenden.</p>
+		<p>WENN SIE DIESE SOFTWARE IN IRGENDEINER WEISE BENUTZEN, BESTÄTIGEN SIE, DASS SIE DIE BEDINGUNGEN DIESER VEREINBARUNG GELESEN, VERSTANDEN UND ZUGESTIMMT HABEN. WENN SIE DIESEN BEDINGUNGEN NICHT ZUSTIMMEN, BENUTZEN SIE DIESE SOFTWARE IN KEINSTER WEISE UND GEBEN SIE DIESE UNVERZÜGLICH ZURÜCK UND LÖSCHEN sIE JEGLICHE KOPIEN, DIE SICH IN IHREM BESITZ BEFINDEN.</p>
 		<p><b>PERMISSIONS</b></p>
-		<p>All rights are exclusively owned by the author Frantz RAIA ("Stra&#160;Software"). All rights not expressly granted here are reserved by the author. Stra&#160;Software grants you a non-exclusive license to test and use this software ("Tacview") and any associated documentation as indicated herein.</p>
-		<p>You MAY do the following:</p>
+		<p>Alle Rechte sind ausschließlich im Besitz vom Autor Frantz RAIA ("Stra&#160;Software"). Alle Rechte, die nicht ausdrücklich hier gewährt werden, sind dem Autor vorbehalten. Stra&#160;Software gewährt Ihnen eine nicht-exklusive Lizenz zum Testen und um diese Software("Tacview"), und sämtliche dazugehörige Dokumentationen, wie sie hier angegeben sind, zu nutzen.</p>
+		<p>Folgendes DÜRFEN Sie tun:</p>
 		<ul>
-			<li>Install and use Tacview as long as you comply with these terms</li>
-			<li>Freely redistribute the original Tacview installer</li>
+			<li>Installieren und verwenden Sie Tacview so lange wie Sie mit diesen Bedingungen einverstanden sind</li>
+			<li>Original Tacview Installer frei weitergeben</li>
 		</ul>
-		<p><b>RESTRICTIONS</b></p>
-		<p>You MAY NOT do the following:</p>
+		<p><b>EINSCHRÄNKUNGEN</b></p>
+		<p>Foglendes dürfen Sie NICHT tun:</p>
 		<ul>
-			<li>Sell Tacview</li>
-			<li>Rent or lease Tacview</li>
-			<li>Reverse engineer, disassemble, decompile, or alter Tacview</li>
-			<li>Remove any product identification, copyright notices, or other notices or proprietary restrictions from Tacview</li>
+			<li>Tacview verkaufen</li>
+			<li>Tacview vermieten</li>
+			<li>Tacview rückentwickeln(reverse Engeneering), zerlegen , dekompilieren oder verändern</li>
+			<li>Entfernen von Produktidentifikation, Copyright-Hinweise oder andere Hinweise oder Eigentumsbeschränkungen von Tacview</li>
 		</ul>
 		<p>Any such unauthorized use shall result in immediate and automatic termination of this license and may result in criminal and/or civil prosecution.</p>
 		<p><b>DISTRIBUTION</b></p>
