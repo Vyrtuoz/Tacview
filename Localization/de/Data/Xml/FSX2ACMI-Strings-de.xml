@@ -21,7 +21,7 @@
 	<String ID="ObjectsCountFormat">{0} Objekte</String>
 	<String ID="UpdateSpeedFormat">{0} ms // {1} ms</String>
 	<String ID="ACMIFilesFolder">Tacview ACMI Dateien</String>
-	<String ID="IntroductionText">Microsoft Flight&#160;Simulator Flugrecorder für Tacview</String>
+	<String ID="IntroductionText">Microsoft Flight&#160;Simulator Flugrekorder für Tacview</String>
 
 	<!-- Options -->
 	<String ID="AutoLaunchText">Auto &amp;Start</String>
