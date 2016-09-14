@@ -6,13 +6,13 @@
 <Resources Language="de">
 
 	<!-- Main Menu -->
-	<String ID="FileMenuTooltip">File</String>
-	<String ID="FileMenuHelp">Import and export flight data</String>
-	<String ID="FileOpenCmdText">&amp;Open...&#9;Ctrl+O</String>
-	<String ID="FileOpenCmdHelp">Open an existing flight recording</String>
-	<String ID="FileOpenContainingFolderCmdText">Open Containing &amp;Folder</String>
-	<String ID="FileOpenContainingFolderCmdHelp">Open current flight recording containing folder in the File Explorer</String>
-	<String ID="FileMergeCmdText">&amp;Merge...</String>
+	<String ID="FileMenuTooltip">Datei</String>
+	<String ID="FileMenuHelp">Importieren und Exportieren von Flugdaten</String>
+	<String ID="FileOpenCmdText">&amp;Öffnen...&#9;Ctrl+O</String>
+	<String ID="FileOpenCmdHelp">Öffnen einer existierenden Flugaufzeichnung</String>
+	<String ID="FileOpenContainingFolderCmdText">Öffne beinhaltenden &amp;Ordner</String>
+	<String ID="FileOpenContainingFolderCmdHelp">Öffne aktuellen Flugdaten-Ordner im Datei-Explorer</String>
+	<String ID="FileMergeCmdText">&amp;Verbinde...</String>
 	<String ID="FileMergeCmdHelp">Merge an existing flight recording with all the data currently loaded</String>
 	<String ID="FileSaveCmdText">&amp;Save&#9;Ctrl+S</String>
 	<String ID="FileSaveCmdHelp">Save this flight recording</String>
