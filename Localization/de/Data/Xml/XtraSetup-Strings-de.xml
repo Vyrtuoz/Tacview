@@ -14,7 +14,7 @@
 	<String ID="WelcomeTitle">Willkommen zum {0} Installationsprogramm</String>
 	<String ID="WelcomeInstructions">Mit dem Installieren dieses Programmes stimmen Sie zu,&#10;dass Sie die Lizensbestimmung gelesen und akzeptiert haben.</String>
 <!--
-	<String ID="WelcomeInstructions">To begin the installation, click Install.&#10;To customize the installation, click the Options tab.</String>
+	<String ID="WelcomeInstructions">Um die Installation zu beginnen, klicke Installieren.&#10;Um die Installation zu personalisieren, klicke den Optionen Tab.</String>
 -->
 	<String ID="WelcomeInfoURL">Lernen Sie mehr über {0}</String>
 	<String ID="OpenBetaWarningURL">WARNUNG: Um diese Version zu nutzen, benötigen Sie einen Produktschlüssel</String>
@@ -31,7 +31,7 @@
 	<String ID="CreateDesktopShortcut">Erstelle ein &amp;Desktopicon</String>
 	<String ID="CreateQuickLaunchShortcut">Erstelle ein &amp;Quick Launch Icon</String>
 
-	<String ID="BrowseInstallFolderHelp">Wählen Sie den Instalationsordner aus:</String>
+	<String ID="BrowseInstallFolderHelp">Wählen Sie den Instalationsordner:</String>
 
 	<!-- File Transfer Page -->
 	<String ID="InstallInProgress">Installation wird durchgeführt...</String>
@@ -44,7 +44,7 @@
 	<String ID="CanceledMessage">Der Installationsprozess wurde erfolgreich abgebrochen</String>
 
 	<!-- Failure Page -->
-	<String ID="InstallFailed">Installation fehl geschlagen</String>
+	<String ID="InstallFailed">Installation fehlgeschlagen</String>
 	<String ID="FailureMessage">Bitte vergewissern Sie sich, dass Sie genügend Zugriffsrechte und freien Festplattenplatz&#10;haben, bevor Sie den Softwarehersteller kontaktieren.</String>
 	<String ID="TechnicalSupport">Technicher Support</String>
 
