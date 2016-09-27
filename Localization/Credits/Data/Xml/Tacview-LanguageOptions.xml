@@ -6,6 +6,8 @@
 
 	<String ID="OptionsLanguageChineseText">&amp;简体中文 (Simplified Chinese)</String>
 	<String ID="OptionsLanguageChineseHelp">切换至简体中文界面（必须重启Tacview才能使语言切换完全生效）翻译：张炯（Billeinstein）校对：姚尧（@6）</String>
+	<String ID="OptionsLanguageGermanText">&amp;German (German)</String>
+	<String ID="OptionsLanguageGermanHelp">Switch to German (Translation by Marcus Carra &lt;marcus@mcs-webdesign.com&gt;)</String>
 	<String ID="OptionsLanguageEnglishText">&amp;English (English)</String>
 	<String ID="OptionsLanguageEnglishHelp">Switch to English (Tacview must be restarted for the language change to fully take effect)</String>
 	<String ID="OptionsLanguageFrenchText">&amp;Français (French)</String>

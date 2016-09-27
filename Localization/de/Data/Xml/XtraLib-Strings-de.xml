@@ -18,7 +18,7 @@
 	<String ID="DockableTransparencyText">&amp;Transparent</String>
 	<String ID="DockableOpaqueText">&amp;Undurchsichtig</String>
 	<String ID="DockableOpaqueHelp">Machen Sie dieses Fenster immer undurchsichtig</String>
-	<String ID="DockableTransparentHelp">Machen Sie dieses Fenster transparent, wenn es nicht im Vordergrund ist./String>
+	<String ID="DockableTransparentHelp">Machen Sie dieses Fenster transparent, wenn es nicht im Vordergrund ist.</String>
 	<String ID="DockableHideText">&amp;Verstecken</String>
 	<String ID="DockableHideHelp">Dieses Fenster schließen</String>
 	<String ID="DockableWindowCloseButtonTip">Verstecken</String>

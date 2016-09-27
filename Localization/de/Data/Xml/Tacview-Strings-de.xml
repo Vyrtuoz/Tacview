@@ -234,7 +234,7 @@
 	<String ID="ChartResetZoomHelp">Zeige das ganze Diagramm auf dem Bildschirm</String>
 	<String ID="ChartZoomOutTooltip">Raus-Zoomen</String>
 	<String ID="ChartZoomOutHelp">Zeige mehr Daten</String>
-	<String ID="ChartZoomInTooltip">Rein-Zoomen/String>
+	<String ID="ChartZoomInTooltip">Rein-Zoomen</String>
 	<String ID="ChartZoomInHelp">Zeige mehr Einzelheiten</String>
 	<String ID="ChartExportTelemetryTooltip">Export</String>
 	<String ID="ChartExportTelemetryHelp">Export Telemetriedata in einer Datei lesbar von anderen Tools</String>
