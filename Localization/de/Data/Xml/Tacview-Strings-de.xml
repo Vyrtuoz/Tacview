@@ -718,50 +718,50 @@
 	<!-- Error Messages -->
 	<String ID="ErrorUnknown">Unbekannter Fehler 0x{0,08:X}</String>
 
-	<String ID="LoadingErrorObjectNotFound">Datei '{1}' nicht gefunden.¤Please ensure that the given flight recording is accessible and available.</String>
-	<String ID="LoadingErrorInvalidName">'{1}' is an invalid file name.¤Please retry with a well formated or a simplier file name.</String>
-	<String ID="LoadingErrorInvalidFormat">Invalid file format.¤'{1}' is not a flight recording or it is not well formated.</String>
-	<String ID="LoadingErrorInvalidObject">Invalid file.¤'{1}' seems to have been corrupted.</String>
-	<String ID="LoadingErrorOutOfMemory">Out of memory.¤Try to close some applications then retry.¤(This flight recording may also be too huge.)</String>
-	<String ID="LoadingErrorNotSupported">The file format of '{1}' is not supported.¤Check &lt;a href="http://tacview.net"&gt;the official website&lt;/a&gt; to know if there is a newer version of Tacview or another edition which can read this file.</String>
-	<String ID="LoadingErrorMissingParameter">Invalid file format.¤One required parameter is missing.</String>
-	<String ID="LoadingErrorInvalidParameter">Invalid file format.¤Some parameters are invalid.</String>
-	<String ID="LoadingErrorOutOfSpace">Unsupported file format.¤'{1}' may be created with a newer version of Tacview.</String>
-	<String ID="LoadingErrorInvalidID">Invalid file format.¤Invalid unit ID.</String>
-	<String ID="LoadingErrorUnexpectedCall">Invalid file format.¤One unit is still referenced after having left the area.</String>
-	<String ID="LoadingErrorEndOfFile">'{1}' is empty.¤Please ensure that the export script is properly installed and not disabled by the online server you are playing on.</String>
-	<String ID="LoadingErrorInvalidPath">Invalid path.¤Please ensure that the given flight recording is accessible and available.</String>
+	<String ID="LoadingErrorObjectNotFound">Datei '{1}' nicht gefunden.¤Vergewissern Sie sich, dass die angegebene Flugaufzeichnung vorhanden und verfügbar ist.</String>
+	<String ID="LoadingErrorInvalidName">'{1}' ist ein ungültiger Dateiname.¤Versuchen Sie bitte einen besser formatierten und einfacheren Dateinamen.</String>
+	<String ID="LoadingErrorInvalidFormat">Ungültiges Dateiformat.¤'{1}' ist keine Flugaufzeichnung oder nicht richtig Formatiert.</String>
+	<String ID="LoadingErrorInvalidObject">Ungültige Datei.¤'{1}' scheint beschädigt zu sein.</String>
+	<String ID="LoadingErrorOutOfMemory">Nicht genügend Arbeitsspeicher.¤Versuchen Sie einige Anwendungen zu schließen und versuchen Sie es erneut.¤(Diese Flugaufzeichnung könnte auch zu groß sein.)</String>
+	<String ID="LoadingErrorNotSupported">Das Dateiformat von '{1}' wird nicht unterstützt.¤Überprüfen Sie auch &lt;a href="http://tacview.net"&gt;the official website&lt;/a&gt; um zu erfahren, ob es eine neuere Version von Tacview oder eine andere Edition, welche dieses Datei lesen kann, vorhanden ist.</String>
+	<String ID="LoadingErrorMissingParameter">Ungültiges Dateiformat.¤Ein erforderlicher Parameter fehlt.</String>
+	<String ID="LoadingErrorInvalidParameter">Ungültiges Dateiformat.¤Einige Parameter sind ungültig.</String>
+	<String ID="LoadingErrorOutOfSpace">Nicht unterstütztes Dateiformat.¤'{1}' könnte mit einer neueren Version von Tacview erstellt worden sein.</String>
+	<String ID="LoadingErrorInvalidID">Ungültiges Dateiformat.¤Ungültige Einheiten-ID.</String>
+	<String ID="LoadingErrorUnexpectedCall">Ungültiges Dateiformat.¤Auf eine Einheit wird noch Bezug genommen nachdem sie das Gebiet verlassen hat.</String>
+	<String ID="LoadingErrorEndOfFile">'{1}' ist leer.¤Vergewissern Sie sich, dass das Exportskript richtig installiert und nicht durch den Online Server, auf dem Sie spielen, deaktiviert wurde.</String>
+	<String ID="LoadingErrorInvalidPath">Ungültiger Pfad.¤Vergewissern Sie sich, dass die angegebene Flugaufzeichnung vorhanden und verfügbar ist.</String>
 
-	<String ID="SavingErrorInvalidName">Invalid file name.¤Please retry with a well formated or a simplier file name.</String>
-	<String ID="SavingErrorInvalidPath">Invalid path.¤Please ensure that the target path is accessible and available.</String>
-	<String ID="SavingErrorOutOfMemory">Out of memory.¤Try to close some applications then retry.</String>
-	<String ID="SavingErrorOutOfSpace">Disk full.¤Remove some files then retry.</String>
-	<String ID="SavingErrorSharingViolation">Sharing Violation.¤Ensure that this file is not already in use by another application.</String>
+	<String ID="SavingErrorInvalidName">Ungültiger Dateiname.¤Versuchen Sie bitte einen besser formatierten und einfacheren Dateinamen.</String>
+	<String ID="SavingErrorInvalidPath">Ungültiger Pfad.¤Bitte vergewissern Sie sich, dass der Zielpfad erreichbar und verfügbar ist.</String>
+	<String ID="SavingErrorOutOfMemory">Nicht genügend Arbeitsspeicher.¤Versuchen Sie einige Anwendungen zu schließen und versuchen Sie es erneut.</String>
+	<String ID="SavingErrorOutOfSpace">Festplatte voll.¤Entfernen Sie einige Dateien und versuchen Sie es erneut.</String>
+	<String ID="SavingErrorSharingViolation">Nutzungsverletzung.¤Vergewissern Sie sich, dass die Datei nicht von einer anderen Anwendung benutzt wird.</String>
 
 	<!-- Misc Help Strings -->
-	<String ID="TTRewind">Return To The Beginning</String>
-	<String ID="TTSlower">Slower</String>
-	<String ID="TTPlayPause">Play / Pause</String>
-	<String ID="TTFaster">Faster</String>
-	<String ID="TTEnd">Go To End</String>
-	<String ID="TTOneFrame">Frame By Frame</String>
+	<String ID="TTRewind">Zurück zum Anfang</String>
+	<String ID="TTSlower">Langsamer</String>
+	<String ID="TTPlayPause">Start / Pause</String>
+	<String ID="TTFaster">Schneller</String>
+	<String ID="TTEnd">Gehe zum Ende</String>
+	<String ID="TTOneFrame">Bild für Bild</String>
 
-	<String ID="TTViewCockpit">Cockpit View (F5)</String>
-	<String ID="TTViewExternal">External View (F6)</String>
-	<String ID="TTViewSatellite">Satellite View (F7)</String>
-	<String ID="TTViewFree">Free Camera (F8)</String>
+	<String ID="TTViewCockpit">Cockpitansicht (F5)</String>
+	<String ID="TTViewExternal">Außenansicht (F6)</String>
+	<String ID="TTViewSatellite">Satelitenansicht (F7)</String>
+	<String ID="TTViewFree">Freie Kamera (F8)</String>
 
-	<String ID="TTDrawHeight">Display Objekte Height</String>
-	<String ID="TTDrawDirection">Display Selected Objekte Direction</String>
-	<String ID="TTDrawIDs">Display Objekte IDs</String>
-	<String ID="TTDrawThreats">Display SAM/AAA Lethal Range</String>
-	<String ID="TTDrawRadarLocks">Display Radar Locks (when available)</String>
-	<String ID="TTDrawAutoScaleUp">Scale-up automatically distant Objekte</String>
-	<String ID="TTShare">Share Shortcuts</String>
-	<String ID="TTTakeControl">Take Control (Online Debriefing)</String>
+	<String ID="TTDrawHeight">Zeige Objekthöhe</String>
+	<String ID="TTDrawDirection">Zeige ausgewählte Objektrichtung</String>
+	<String ID="TTDrawIDs">Zeige Objekte-IDs</String>
+	<String ID="TTDrawThreats">Zeige SAM/AAA Gefahrenreichweite</String>
+	<String ID="TTDrawRadarLocks">Zeige Radaraufschaltungen (falls verfügbar)</String>
+	<String ID="TTDrawAutoScaleUp">Vergrößere automatisch entferntere Objekte</String>
+	<String ID="TTShare">Teile Tastaturkürzel</String>
+	<String ID="TTTakeControl">Übernehme die Kontrolle (Online Nachbesprechung)</String>
 
-	<String ID="TTObjectsRange">Range and rate of closure between selected Objekte&#10;(Click to swap selected Objekte, Right-Click for options)</String>
-	<String ID="TTDogfightButton">Dogfight camera mode</String>
-	<String ID="TTTrailSize">Trails size</String>
+	<String ID="TTObjectsRange">Entfernung und Verhältnis des Abstandes zwischen den gewählten Objekten&#10;(Klicken um die gewählten Objekte zu tauschen, Rechts-Klick für Optionen)</String>
+	<String ID="TTDogfightButton">Dogfight Kamera Mode</String>
+	<String ID="TTTrailSize">Schweifgröße</String>
 
 </Resources>
