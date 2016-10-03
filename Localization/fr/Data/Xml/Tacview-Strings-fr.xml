@@ -627,7 +627,7 @@
 	<String ID="ScriptInstallFailedText">L'installation du script d'export a échoué¤Assurez-vous que '{0}' est correctement installé et que vous avez les droit d'accès en écriture à son dossier.</String>
 	<String ID="ScriptUninstallFailedText">La désinstallation du script d'export a échoué¤Assurez-vous d'avoir les droit d'accès en écriture au dossier de '{0}'.</String>
 	<String ID="InvalidCommandLineArgumentText">Argument de ligne de commande non supporté: [{0}]¤ Veuillez consulter la liste des commandes disponibles dans le menu d'aide et assurez-vous qu'il n'y ait pas d'erreur de frappe.</String>
-	<String ID="InvalidShortcutText">Impossible de trouver dans cette mission les objets et l'heure contenus dans ce raccourci. Assurez-vous d'avoir ouvert le bon fichier et d'avoir copié/collé l'intégralité du raccourcit.</String>
+	<String ID="InvalidShortcutText">Impossible de trouver dans cette mission les objets et l'heure contenus dans ce raccourci. Assurez-vous d'avoir ouvert le bon fichier et d'avoir copié/collé l'intégralité du raccourci.</String>
 
 	<String ID="AboutTitle">A propos de Tacview</String>
 	<String ID="AboutCopyright">Copyright © 2006-2016, Stra Software. Tous droits réservés.&#10;Ce logiciel est protégé par les lois internationales sur le copyright.&#10;Vous pouvez reproduire et distribuer librement toute version non modifiée de ce programme.</String>
