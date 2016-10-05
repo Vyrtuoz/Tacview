@@ -8,33 +8,33 @@
 	<!-- EULA -->
 	<String ID="LicenseText">
 		<br/>
-		<p align="center"><b>Tacview License Agreement</b></p>
-		<p align="center">Last Updated September 30th, 2016</p>
-		<p><b>IMPORTANT NOTICE</b></p>
-		<p>Read this license agreement carefully before using the Tacview software and any associated documentation (hereinafter "Tacview"). This is a legal agreement between you and RAIA&#160;SOFTWARE INC. (hereinafter "Raia&#160;Software").</p>
-		<p>The original Tacview software license agreement is written in English. Any translation in another language is provided as a courtesy by members of the Tacview community and shall be used for information purposes only. Only the English language original license agreement constitutes a binding agreement between Raia&#160;Software and users downloading or using Tacview. The English language license agreement may be found at http://tacview.net.</p>
-		<p>BY DOWLOADING OR USING TACVIEW IN ANY WAY YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREED TO THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THESE TERMS, DO NOT USE THIS SOFTWARE IN ANY WAY AND PROMPTLY RETURN IT AND DELETE ANY COPIES IN YOUR POSSESSION.</p>
-		<p><b>GRANT OF LICENSE</b></p>
-		<p>All rights, title and interest in and to Tacview are exclusively owned by Raia&#160;Software. All rights not expressly granted herein are reserved by Raia&#160;Software.</p>
-		<p>Raia&#160;Software grants you a non-exclusive license to test and use Tacview and the associated documentation in accordance with the terms of this license.</p>
-		<p>You MAY do the following:</p>
+		<p align="center"><b>Tacview Lizenzbestimmung</b></p>
+		<p align="center">Zuletzt aktualisiert am 30. September 2016</p>
+		<p><b>Wichtige Anmerkung</b></p>
+		<p>Lesen Sie diese Lizenzvereinbarung sorgfältig durch, bevor Sie die Tacview Software und alle zugehörigen Dokumentation(im Weiteren "Tacview") benutzen. Dies ist eine rechtskräftige Vereinbarung zwischen Ihnen und RAIA&#160;SOFTWARE INC. (im Weiteren "Raia&#160;Software").</p>
+		<p>Die Tacview Software Lizenzbestimmung ist im Original in Englischer Sprache geschrieben. Jede Übersetzung in eine andere Sprache ist Ehrenamtlich von den Mitgliedern der Tacview Gemeinschaft zur Verfügung gestellt worden und darf nur zu Informationszwecken verwendet werden. Nur der Original-Lizenzvertrag in englischer Sprache ist eine verbindliche Vereinbarung zwischen Raia&#160;Software und den Nutzern die Tacview herunterladen oder benutzen. Die englische Lizensvereinbarung kann unter http://tacview.net. aufgerufen werden</p>
+		<p>DURCH DAS HERUNTERLADEN ODER DIE BENUTZUNG VON TACVIEW IN IRGENDEINER WEISE ERKLÄREN SIE, DASS SIE DIE BEDINGUNGEN DIESER VEREINBARUNG GELESEN, VERSTANDEN UND ZUGESTIMMT HABEN. WENN SIE DIESEN BESTIMMUNGEN NICHT ZUSTIMMEN, BENUTZEN SIE DIESE SOFTWARE UNTER KEINEN UMSTÄNDEN, SONDERN GEBEN SIE SIE ZURÜCK UND LÖSCHEN SÄMTLICHE KOPIEN; DIE IN IHREM BESITZ SIND.</p>
+		<p><b>LIZENSGEWÄHRUNG</b></p>
+		<p>Alle Rechte, Titel und Anteile an Tacview gehören ausschließlich Raia&#160;Software. Alle Rechte, die nicht ausdrücklich gewährt werden, bleiben Raia&#160;Software vorbehalten.</p>
+		<p>Raia&#160;Software gewährt Ihnen eine nicht-exklusive Lizenz um Tacview und die zugehörige Dokumentation in Übereinstimmung mit den Bedingungen dieser Lizenz zu testen.</p>
+		<p>Folgendes DÜRFEN Sie tun:</p>
 		<ul>
-			<li>Install and use Tacview for non-commercial purposes as long as you comply with the terms of this license agreement;</li>
-			<li>Use Tacview in accordance with the specific conditions of a purchased license;</li>
+			<li>Installieren und verwenden Sie Tacview für nicht-kommerzielle Zwecke, solange Sie mit den Bedingungen dieser Lizenzvereinbarung einverstanden sind;</li>
+			<li>Verwenden Sie Tacview in Übereinstimmung mit den spezifischen Bedingungen einer erworbenen Lizenz;</li>
 		</ul>
-		<p>You MAY NOT do any of the following:</p>
+		<p>Folgendes dürfen Sie NICHT tun:</p>
 		<ul>
-			<li>Sell Tacview or distribute Tacview against payment;</li>
-			<li>Rent or lease Tacview;</li>
-			<li>Sublicense Tacview;</li>
-			<li>Reverse engineer, disassemble, decompile, or alter Tacview;</li>
-			<li>Remove any product identification, copyright notices, or other notices or proprietary restrictions from Tacview;</li>
-			<li>Use Tacview trademark or logo without Raia&#160;Software written authorization; or</li>
-			<li>Disable or circumvent Tacview’s trial period mechanism.</li>
+			<li>Verkaufen oder verteilen von Tacview gegen bezahlung;</li>
+			<li>Vermieten oder verpachten von Tacview;</li>
+			<li>Unterlizensieren von Tacview;</li>
+			<li>Reverse Engineering, zerlegen, dekompilieren oder verändern von Tacview;</li>
+			<li>Entfernen irgendwelcher Produktidentifikationen, Copyright-Hinweisen, Hinweise oder Eigentumsbeschränkungen von Tacview;</li>
+			<li>Nutzung der Tacview Handelsmarke oder dessen Logo ohne vorherige schriftliche authorisierung von Raia&#160;Software; oder</li>
+			<li>deaktivieren oder den Probezeit Mechanismus von Tacview zu umgehen.</li>
 		</ul>
-		<p>Any such unauthorized use shall result in immediate and automatic termination of this license and may result in criminal and/or civil prosecution.</p>
-		<p><b>COLLECTION OF ANONYMOUS DATA</b></p>
-		<p>Raia&#160;Software reserves the right to collect, store and use anonymous data about Tacview usage. This data will not be sold to a third party and will be exclusively used to improve the quality and stability of Tacview.</p>
+		<p>Eine solche unberechtigte Verwendung kann zur sofortigen und automatischen Beendigung dieser Lizenz und in straf- und / oder zivilrechtlichen Verfolgung führen.</p>
+		<p><b>SAMMELN ANONYMER DATEN</b></p>
+		<p>Raia&#160;Software behält sich das Recht vor, anonyme Daten der Tacview Nutzung zu sammeln, zu speichernn und auszuwerten. This data will not be sold to a third party and will be exclusively used to improve the quality and stability of Tacview.</p>
 		<p><b>TRIAL PERIOD</b></p>
 		<p>Following an evaluation period of 21 days, some advanced features of Tacview will be disabled. You must buy a Tacview Home or Commercial License if you wish to continue enjoying these features.</p>
 		<p><b>SPECIFIC CONDITIONS FOR FULL LICENSE USERS</b></p>
