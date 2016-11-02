@@ -264,7 +264,7 @@
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
 	<String ID="RegistrationHelp">기체 등록번호 (꼬리 번호)</String>
 	<String ID="RegistrationText">등록 번호</String>
-	<String ID="BullseyeHelp">Position relative to the main object coalition bullseye</String>
+	<String ID="BullseyeHelp">메인 오브젝트 진영 불스아이 대비 위치</String>
 	<String ID="BullseyeText">불스아이</String>
 
 	<String ID="TASHelp">비행중인 지역의 공기압에 연관된 비행기의 속도</String>
