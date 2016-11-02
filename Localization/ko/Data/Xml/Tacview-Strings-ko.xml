@@ -113,8 +113,8 @@
 	<String ID="OptionsImperialAircraftMIUnitsHelp">속도: mph - 수직 속도: ft/min - 고도: ft - 거리: mi &amp; ft</String>
 	<String ID="OptionsImperialAircraftNMUnitsText">임페리얼(야드법) - 비행기 (nm)</String>
 	<String ID="OptionsImperialAircraftNMUnitsHelp">속도: kts - 수직 속도: ft/min - 고도: ft - 거리: nm &amp; ft</String>
-	<String ID="OptionsDistanceAutoSwitchText">Switch distances to feet under 2 nm</String>
-	<String ID="OptionsDistanceAutoSwitchHelp">Switch distances to feet under 2 nm instead of 1 nm</String>
+	<String ID="OptionsDistanceAutoSwitchText">2 nm 이내에서는 거리를 피트 단위로 전환</String>
+	<String ID="OptionsDistanceAutoSwitchHelp">피트 전환 거리를 2 nm에서 1 nm으로 변경</String>
 
 	<String ID="OptionsPositionFormatText">좌표 포맷</String>
 	<String ID="OptionsPositionFormatDDDHelp">십진 방식, 십진수도</String>
@@ -126,12 +126,12 @@
 	<String ID="AspectAngleRight">R</String>
 
 	<!-- Other Options -->
-	<String ID="OptionsAddObjectText">Add Object</String>
-	<String ID="OptionsAddObjectHelp">Create a new object and add it to the world</String>
-	<String ID="OptionsEditObjectText">Edit Selected Object</String>
-	<String ID="OptionsEditObjectHelp">Edit selected object property</String>
-	<String ID="OptionsRemoveObjectText">Remove Object</String>
-	<String ID="OptionsRemoveObjectHelp">Remove selected object from the world</String>
+	<String ID="OptionsAddObjectText">오브젝트 추가하기</String>
+	<String ID="OptionsAddObjectHelp">새로운 오브젝트를 생성하고 월드에 추가하기</String>
+	<String ID="OptionsEditObjectText">선택된 오브젝트 편집하기</String>
+	<String ID="OptionsEditObjectHelp">선택 된 오브젝트 속성 편집하기</String>
+	<String ID="OptionsRemoveObjectText">오브젝트 삭제하기</String>
+	<String ID="OptionsRemoveObjectHelp">선택 된 오브젝트를 월드에서 삭제하기</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;택뷰를 acmi 파일과 연동하기</String>
 	<String ID="OptionsAssociateFileTypesHelp">윈도우 내에서 비행기록 파일을 더블 클릭하였을 때, 택뷰에서 해당 파일을 열어준다.</String>
@@ -262,17 +262,17 @@
 	<!-- Telemetry -->
 	<String ID="ATCHelp">텔레메트리같은 ATC: 고도/100, 수직속도, 그리고 지상속도/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
-	<String ID="RegistrationHelp">Aircraft registration (tail number)</String>
-	<String ID="RegistrationText">Registration number</String>
+	<String ID="RegistrationHelp">기체 등록번호 (꼬리 번호)</String>
+	<String ID="RegistrationText">등록 번호</String>
 	<String ID="BullseyeHelp">Position relative to the main object coalition bullseye</String>
-	<String ID="BullseyeText">Bullseye</String>
+	<String ID="BullseyeText">불스아이</String>
 
 	<String ID="TASHelp">비행중인 지역의 공기압에 연관된 비행기의 속도</String>
-	<String ID="TASText">속도 (TAS)</String>
-	<String ID="CASHelp">Calibrated airspeed</String>
-	<String ID="CASText">Speed (CAS)</String>
+	<String ID="TASText">진 대기속도 (TAS)</String>
+	<String ID="CASHelp">계산 된 속도Calibrated airspeed</String>
+	<String ID="CASText">속도 (CAS)</String>
 	<String ID="IASHelp">속도계에 나와있는 기체의 속도</String>
-	<String ID="IASText">속도 (IAS)</String>
+	<String ID="IASText">계기 속도 (IAS)</String>
 	<String ID="MachHelp">마하 넘버</String>
 	<String ID="MachText">속도 (Mach)</String>
 	<String ID="ASLHelp">해발 고도</String>
@@ -306,12 +306,12 @@
 	<String ID="HDGText">헤딩 (HDG)</String>
 	<String ID="TRKHelp">진북(true north)대비 기체가 움직이는 방향</String>
 	<String ID="TRKText">트랙 (TRK)</String>
-	<String ID="FlightPathAngleHelp">Aircraft true slope angle</String>
-	<String ID="FlightPathAngleText">Flight Path Angle</String>
-	<String ID="DistanceAirHelp">Covered air distance</String>
-	<String ID="DistanceAirText">Distance (Air)</String>
-	<String ID="DistanceGroundHelp">Covered ground distance</String>
-	<String ID="DistanceGroundText">Distance (Ground)</String>
+	<String ID="FlightPathAngleHelp">기체 트루 슬로프 각도</String>
+	<String ID="FlightPathAngleText">비행 경로 각도</String>
+	<String ID="DistanceAirHelp">커버 된 공역</String>
+	<String ID="DistanceAirText">거리 (공중)</String>
+	<String ID="DistanceGroundHelp">커버 된 지역 거리</String>
+	<String ID="DistanceGroundText">거리 (지상)</String>
 	<String ID="ElevationProfileHelp">기체 하부의 지상고도의 프로파일</String>
 	<String ID="ElevationProfileText">고도 프로파일</String>
 
@@ -372,22 +372,22 @@
 	<String ID="OnlineDebriefingStatusFailedToHost">⚠ 세션을 호스팅 하는데 실패하였습니다. 동일한 컴퓨터에서 여러 세션을 호스트 하기 위해서는 다른 포트를 사용하시기 바랍니다.</String>
 	<String ID="OnlineDebriefingStatusInvalidProtocol">⚠ 프로토콜이 지원되지 않습니다. 호스트용 택뷰 버전이 동일한지 확인 해 주시기 바랍니다.</String>
 	<String ID="OnlineDebriefingStatusInvalidPassword">⚠ 비밀번호가 틀렸습니다. 잘못 된 입력을 피하기 위해서 복사/붙이기를 시도 해 보시기 바랍니다.</String>
-	<String ID="OnlineDebriefingHostTip">Shift+Click an object to attract viewers' attention</String>
-	<String ID="OnlineDebriefingClientTip">Press Alt+Enter to switch to fullscreen mode</String>
-	<String ID="OnlineDebriefingControlGivenTip">{0} is temporarily in charge of the debriefing</String>
-	<String ID="OnlineDebriefingControlReceivedTip">You are temporarily in charge of the debriefing</String>
+	<String ID="OnlineDebriefingHostTip">관람자의 주의를 끌기 위해 오브젝트에 Shift+Click을 해 주세요.</String>
+	<String ID="OnlineDebriefingClientTip">전체화면 모드로 전환하기 위해 Alt+Enter를 눌러 주세요.</String>
+	<String ID="OnlineDebriefingControlGivenTip">{0} 사용자가 디브리핑을 일시적으로 담당하게 됩니다.</String>
+	<String ID="OnlineDebriefingControlReceivedTip">당신은 임시적으로 디브리핑을 담당하게 되었습니다.</String>
 
-	<String ID="AddEditObjectAddTitle">Create New Object</String>
-	<String ID="AddEditObjectEditTitle">Edit Object Properties</String>
-	<String ID="AddEditObjectHelp">Objects and properties documentation</String>
+	<String ID="AddEditObjectAddTitle">신규 오브젝트 생성</String>
+	<String ID="AddEditObjectEditTitle">오브젝트 속성 편집</String>
+	<String ID="AddEditObjectHelp">오브젝트와 속성 문서</String>
 	<String ID="AddEditObjectId">ID</String>
-	<String ID="AddEditObjectTime">Time</String>
-	<String ID="AddEditObjectName">Name</String>
-	<String ID="AddEditObjectPilot">Pilot</String>
-	<String ID="AddEditObjectType">Type</String>
-	<String ID="AddEditObjectPosition">Position</String>
-	<String ID="AddEditObjectColor">Color</String>
-	<String ID="AddEditObjectCoalition">Coalition</String>
+	<String ID="AddEditObjectTime">시간</String>
+	<String ID="AddEditObjectName">이름</String>
+	<String ID="AddEditObjectPilot">파일럿</String>
+	<String ID="AddEditObjectType">타입</String>
+	<String ID="AddEditObjectPosition">위치</String>
+	<String ID="AddEditObjectColor">색상</String>
+	<String ID="AddEditObjectCoalition">소속</String>
 	<String ID="AutoValue">(auto)</String>
 	<String ID="CurrentTimeValue">(now)</String>
 	<String ID="NoTypeValue">(none)</String>
@@ -419,16 +419,16 @@
 	<String ID="AddOnTitleTelemetry1">텔레메트리 2</String>
 	<String ID="AddOnTitleTelemetry2">텔레메트리 3</String>
 	<String ID="AddOnTitleTelemetry3">텔레메트리 4</String>
-	<String ID="AddOnTitleRawTelemetry0">Raw Telemetry 1</String>
-	<String ID="AddOnTitleRawTelemetry1">Raw Telemetry 2</String>
+	<String ID="AddOnTitleRawTelemetry0">Raw 텔레메트리 1</String>
+	<String ID="AddOnTitleRawTelemetry1">Raw 텔레메트리 2</String>
 	<String ID="AddOnTitleChart0">챠트 1</String>
 	<String ID="AddOnTitleChart1">챠트 2</String>
 	<String ID="AddOnTitleChart2">챠트 3</String>
 	<String ID="AddOnTitleChart3">챠트 4</String>
 
-	<String ID="AddOnTelemetryName">Name</String>
+	<String ID="AddOnTelemetryName">이름</String>
 	<String ID="AddOnTelemetryData">데이터</String>
-	<String ID="AddOnTelemetryRawData">Raw Data</String>
+	<String ID="AddOnTelemetryRawData">Raw 정보</String>
 	<String ID="AddOnTelemetryValue">값</String>
 	<String ID="AddOnTelemetryInterpretedValue">Interpreted Value</String>
 	<String ID="AddOnTelemetryUnit">유닛</String>
