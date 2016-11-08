@@ -149,7 +149,7 @@
 	<String ID="AttractAttentionHelp">Atraer la atención de los espectadores a un objeto específico</String>
 
 	<String ID="SelectedObjectsTelemetryText">Etiquetas de los objetos seleccionados</String>
-	<String ID="AircraftsTelemetryText">Deseleccionar etiquetas de aviones</String>
+	<String ID="AircraftsTelemetryText">Etiquetas de los objetos no seleccionados</String>
 	<String ID="LabelOnAllGroundObjectsText">Etiquetar todos los objetos terrestres</String>
 	<String ID="LabelOnAllGroundObjectsHelp">Mostrar todas las etiquetas de los objetos terrestres en adición a las amenazas antiaéreas</String>
 	<String ID="ForceSelectedObjetsLabelsText">Force selected objects labels</String>
