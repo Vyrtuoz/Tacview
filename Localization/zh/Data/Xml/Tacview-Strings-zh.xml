@@ -113,8 +113,12 @@
 	<String ID="OptionsImperialAircraftMIUnitsHelp">速度: mph - 垂直速度: ft/min - 高度: ft - 距离: mi &amp; ft</String>
 	<String ID="OptionsImperialAircraftNMUnitsText">英制 - 航空器 (nm)</String>
 	<String ID="OptionsImperialAircraftNMUnitsHelp">速度: kts - 垂直速度: ft/min - 高度: ft - 距离: nm &amp; ft</String>
-	<String ID="OptionsDistanceAutoSwitchText">2 nm内距离单位切换为英尺</String>
-	<String ID="OptionsDistanceAutoSwitchHelp">2 nm而不是1 nm内距离单位切换为英尺</String>
+	<String ID="OptionsDistanceAutoSwitch0Text">Do not switch distances to feet</String>
+	<String ID="OptionsDistanceAutoSwitch0Help">Do not switch to feet under a certain distance</String>
+	<String ID="OptionsDistanceAutoSwitch1Text">Switch distances to feet under 1 nm</String>
+	<String ID="OptionsDistanceAutoSwitch1Help">Switch distances to feet under 1 nm</String>
+	<String ID="OptionsDistanceAutoSwitch2Text">Switch distances to feet under 2 nm</String>
+	<String ID="OptionsDistanceAutoSwitch2Help">Switch distances to feet under 2 nm</String>
 
 	<String ID="OptionsPositionFormatText">地理坐标格式</String>
 	<String ID="OptionsPositionFormatDDDHelp">十进制显示度</String>

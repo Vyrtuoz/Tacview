@@ -113,8 +113,12 @@
 	<String ID="OptionsImperialAircraftMIUnitsHelp">Скорость: миль/час - Вертикальная Скорость: фут/мин - Высота: фут - Расстояние: миль &amp; фут</String>
 	<String ID="OptionsImperialAircraftNMUnitsText">Имперская - ЛА (морские мили)</String>
 	<String ID="OptionsImperialAircraftNMUnitsHelp">Скорость: узлы - Вертикальная Скорость: фут/мин - Высота: фут - Расстояние: м.миль &amp; фут</String>
-	<String ID="OptionsDistanceAutoSwitchText">Отображать расстояния в футах для дистанций менее 2 морских миль</String>
-	<String ID="OptionsDistanceAutoSwitchHelp">Отображать расстояния в футах для дистанций менее 2 морских миль, вместо 1 морской мили</String>
+	<String ID="OptionsDistanceAutoSwitch0Text">Do not switch distances to feet</String>
+	<String ID="OptionsDistanceAutoSwitch0Help">Do not switch to feet under a certain distance</String>
+	<String ID="OptionsDistanceAutoSwitch1Text">Switch distances to feet under 1 nm</String>
+	<String ID="OptionsDistanceAutoSwitch1Help">Switch distances to feet under 1 nm</String>
+	<String ID="OptionsDistanceAutoSwitch2Text">Switch distances to feet under 2 nm</String>
+	<String ID="OptionsDistanceAutoSwitch2Help">Switch distances to feet under 2 nm</String>
 
 	<String ID="OptionsPositionFormatText">Формат координат</String>
 	<String ID="OptionsPositionFormatDDDHelp">Десятичные градусы</String>

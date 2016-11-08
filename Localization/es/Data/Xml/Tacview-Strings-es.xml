@@ -113,8 +113,12 @@
 	<String ID="OptionsImperialAircraftMIUnitsHelp">Velocidad: mph – Velocidad Vertical: ft/min - Altitud: ft - Distancia: mi &amp; ft</String>
 	<String ID="OptionsImperialAircraftNMUnitsText">Imperial - Avión (nm)</String>
 	<String ID="OptionsImperialAircraftNMUnitsHelp">Velocidad: kts – Velocidad Vertical: ft/min - Altitud: ft - Distancia: nm &amp; ft</String>
-	<String ID="OptionsDistanceAutoSwitchText">Cambiar distancias a pies por debajo de 2 nm</String>
-	<String ID="OptionsDistanceAutoSwitchHelp">Cambiar distancias a pies por debajo de 2 nm en vez de 1nm</String>
+	<String ID="OptionsDistanceAutoSwitch0Text">Do not switch distances to feet</String>
+	<String ID="OptionsDistanceAutoSwitch0Help">Do not switch to feet under a certain distance</String>
+	<String ID="OptionsDistanceAutoSwitch1Text">Switch distances to feet under 1 nm</String>
+	<String ID="OptionsDistanceAutoSwitch1Help">Switch distances to feet under 1 nm</String>
+	<String ID="OptionsDistanceAutoSwitch2Text">Switch distances to feet under 2 nm</String>
+	<String ID="OptionsDistanceAutoSwitch2Help">Switch distances to feet under 2 nm</String>
 
 	<String ID="OptionsPositionFormatText">Formato de posición</String>
 	<String ID="OptionsPositionFormatDDDHelp">Grados decimales</String>

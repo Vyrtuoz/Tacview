@@ -113,8 +113,12 @@
 	<String ID="OptionsImperialAircraftMIUnitsHelp">속도: mph - 수직 속도: ft/min - 고도: ft - 거리: mi &amp; ft</String>
 	<String ID="OptionsImperialAircraftNMUnitsText">임페리얼(야드법) - 비행기 (nm)</String>
 	<String ID="OptionsImperialAircraftNMUnitsHelp">속도: kts - 수직 속도: ft/min - 고도: ft - 거리: nm &amp; ft</String>
-	<String ID="OptionsDistanceAutoSwitchText">2 nm 이내에서는 거리를 피트 단위로 전환</String>
-	<String ID="OptionsDistanceAutoSwitchHelp">피트 전환 거리를 2 nm에서 1 nm으로 변경</String>
+	<String ID="OptionsDistanceAutoSwitch0Text">Do not switch distances to feet</String>
+	<String ID="OptionsDistanceAutoSwitch0Help">Do not switch to feet under a certain distance</String>
+	<String ID="OptionsDistanceAutoSwitch1Text">Switch distances to feet under 1 nm</String>
+	<String ID="OptionsDistanceAutoSwitch1Help">Switch distances to feet under 1 nm</String>
+	<String ID="OptionsDistanceAutoSwitch2Text">Switch distances to feet under 2 nm</String>
+	<String ID="OptionsDistanceAutoSwitch2Help">Switch distances to feet under 2 nm</String>
 
 	<String ID="OptionsPositionFormatText">좌표 포맷</String>
 	<String ID="OptionsPositionFormatDDDHelp">십진 방식, 십진수도</String>

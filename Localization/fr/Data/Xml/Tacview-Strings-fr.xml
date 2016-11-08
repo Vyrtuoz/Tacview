@@ -112,8 +112,12 @@
 	<String ID="OptionsImperialAircraftMIUnitsHelp">Vitesse: mph - Vitesse verticale: ft/min - Altitude: ft - Distance: mi &amp; ft</String>
 	<String ID="OptionsImperialAircraftNMUnitsText">Impérial - Aéronef (nm)</String>
 	<String ID="OptionsImperialAircraftNMUnitsHelp">Vitesse: kts - Vitesse verticale: ft/min - Altitude: ft - Distance: nm &amp; ft</String>
-	<String ID="OptionsDistanceAutoSwitchText">Basculer les distances en pieds sous 2 nm</String>
-	<String ID="OptionsDistanceAutoSwitchHelp">Basculer les distances en pieds sous 2 nm au lieu de 1 nm</String>
+	<String ID="OptionsDistanceAutoSwitch0Text">Ne pas basculer les distances en pieds</String>
+	<String ID="OptionsDistanceAutoSwitch0Help">Ne pas basculer les distances en pieds sous une certaine distance</String>
+	<String ID="OptionsDistanceAutoSwitch1Text">Basculer les distances en pieds sous 1 nm</String>
+	<String ID="OptionsDistanceAutoSwitch1Help">Basculer les distances en pieds sous 1 nm</String>
+	<String ID="OptionsDistanceAutoSwitch2Text">Basculer les distances en pieds sous 2 nm</String>
+	<String ID="OptionsDistanceAutoSwitch2Help">Basculer les distances en pieds sous 2 nm</String>
 
 	<String ID="OptionsPositionFormatText">Format de la position</String>
 	<String ID="OptionsPositionFormatDDDHelp">Degrés décimaux</String>

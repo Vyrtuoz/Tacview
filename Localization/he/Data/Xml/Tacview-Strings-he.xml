@@ -113,8 +113,12 @@
 	<String ID="OptionsImperialAircraftMIUnitsHelp">מהירות: [מייל/שעה] , מהירות אנכית: [רגל/דקה] , גובה: [רגל] , מרחק: [רגל]</String>
 	<String ID="OptionsImperialAircraftNMUnitsText">(nm) אימפריאל - מטוסים</String>
 	<String ID="OptionsImperialAircraftNMUnitsHelp">מהירות: [קשר] , מהירות אנכית: [רגל/דקה] , גובה: [רגל] , מרחק: [רגל]</String>
-	<String ID="OptionsDistanceAutoSwitchText">Switch distances to feet under 2 nm</String>
-	<String ID="OptionsDistanceAutoSwitchHelp">Switch distances to feet under 2 nm instead of 1 nm</String>
+	<String ID="OptionsDistanceAutoSwitch0Text">Do not switch distances to feet</String>
+	<String ID="OptionsDistanceAutoSwitch0Help">Do not switch to feet under a certain distance</String>
+	<String ID="OptionsDistanceAutoSwitch1Text">Switch distances to feet under 1 nm</String>
+	<String ID="OptionsDistanceAutoSwitch1Help">Switch distances to feet under 1 nm</String>
+	<String ID="OptionsDistanceAutoSwitch2Text">Switch distances to feet under 2 nm</String>
+	<String ID="OptionsDistanceAutoSwitch2Help">Switch distances to feet under 2 nm</String>
 
 	<String ID="OptionsPositionFormatText">.פורמט נ.צ</String>
 	<String ID="OptionsPositionFormatDDDHelp">DD°.dddddd</String>
