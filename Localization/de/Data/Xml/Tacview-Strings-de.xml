@@ -177,7 +177,7 @@
 	<String ID="HelpTechnicalSupportHelp">Mit offizieller Tacview Webseite verbinden</String>
 	<String ID="HelpUserLicenseAgreementText">Benutzer &amp;Lizensvereinbarung</String>
 	<String ID="HelpUserLicenseAgreementHelp">Anzeigen der Endbenutzerlizensvereinbarung</String>
-	<String ID="HelpCheckForUpdatesText">Überprüfe &amp;nach Updates</String>
+	<String ID="HelpCheckForUpdatesText">Auf Updates &amp;überprüfen</String>
 	<String ID="HelpCheckForUpdatesHelp">Überprüfe online nach neuen Versionen von Tacview</String>
 	<String ID="HelpDebugLogText">Programmfehler Log</String>
 	<String ID="HelpDebugLogHelp">Programmfehlerausgabe, hilfreich um Sachverhalte zu verstehen</String>
@@ -539,8 +539,8 @@
 	<String ID="LowEndOpenGL">Bitte Grafikkartentreiber aktualisieren!</String>
 
 	<!-- Message Boxes -->
-	<String ID="SaveFileRequestText">Wilst Du Änderungen auf '{0}'&#160;speichern?</String>
-	<String ID="SaveButton">&amp;speichern</String>
+	<String ID="SaveFileRequestText">Willst Du Änderungen auf '{0}'&#160;speichern?</String>
+	<String ID="SaveButton">&amp;Speichern</String>
 	<String ID="DontSaveButton">&amp;Nicht speichern</String>
 
 	<!-- Dialogs Boxes Strings -->
@@ -557,14 +557,14 @@
 	<String ID="RegisterProductKey">Produktschlüssel:</String>
 	<String ID="RegisterBuyProductKey">Kaufe einen neuen Produktschlüssel Online.</String>
 	<String ID="RegisterInvalidProductKey">Dieser Produktschlüssel ist falsch. Bitte überprüfe den Schlüssel und gib ihn erneut ein.</String>
-	<String ID="RegistrationSucceededSubTitle">Kratulation!</String>
+	<String ID="RegistrationSucceededSubTitle">Gratulation!</String>
 	<String ID="RegistrationSucceededComment">Deine Kopie ist nun registriert. Bewahre den Produktschlüssel an einem sicheren Ort auf, falls du Tacview nochmals installieren mußt.&#10;&#10;Zusätzlich zu den vielen exklusiven Features hast du nun auch noch den Premium Technischen Support als priviligierten Zugang zu Updates und die Vorschau auf zukünftige Versionen von Tacview 2.x.</String>
 	<String ID="RegistrationSucceededURL">Lerne mehr über die Vorteile durch die Benutzung einer registrierten Version von Tacview</String>
 	<String ID="RequireHomeLicenseText">Um diese Version von Tacview zu benutzen, mußt du diese Kopie registrieren.</String>
 	<String ID="RequireProfessionalLicenseText">Um diese Version von Tacview zu benutzen, benötigst du die Professional Lizens.</String>
 
 	<!-- Additional Dialogs Strings -->
-	<String ID="BrowseDCSWorldFolderHelp">Bitee wähle den 'DCS World' Installationsordner aus</String>
+	<String ID="BrowseDCSWorldFolderHelp">Bitte wähle den 'DCS World' Installationsordner aus</String>
 	<String ID="BrowseExportPathFolderHelp">Bitte wähle aus, wo die .acmi Dateien für den aktuellen Benutzer gespeichert werden sollen.</String>
 	<String ID="Falcon4TheaterFilter">Falcon 4.0 Szenario:</String>
 
