@@ -26,6 +26,8 @@
 	<String ID="RecordingMenuHelp">비행 데이터 기록 설정하기</String>
 	<String ID="RecordingNetworkCmdText">&amp;원격 기록...</String>
 	<String ID="RecordingNetworkCmdHelp">비행을 네트워크를 통해 기록하기</String>
+	<String ID="RecordingRemoteControlCmdText">Remote Control</String>
+	<String ID="RecordingRemoteControlCmdHelp">Use the remote-control window to remotely control your favorite flight simulator</String>
 	<String ID="RecordingRecordDCSWorldCmdText">DCS 월드&amp;비행 기록하기</String>
 	<String ID="RecordingRecordDCSWorldCmdHelp">모든 'DCS 월드' 비행 기록하기</String>
 	<String ID="RecordingExportPathCmdText">ACMI 파일 &amp;기록 폴더...</String>
@@ -457,6 +459,7 @@
 
 	<String ID="AddOnTitleEventsLog">비행 로그</String>
 	<String ID="AddOnTitleControlsList">컨트롤 목록</String>
+	<String ID="AddOnTitleRemoteControl">Remote Control</String>
 	<String ID="AddOnTitleCommandLineOptionsList">명령줄 옵션</String>
 	<String ID="AddOnTitleUserLicenseAgreement">유저 라이센스 동의서</String>
 	<String ID="AddOnTitleDebugLog">디버그 로그</String>
@@ -714,6 +717,7 @@
 	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole Markup Language static objects</String>
 	<String ID="FileTypeDescriptionGPX">GPS 변환 파일</String>
 	<String ID="FileTypeDescriptionVHS">팰콘 4.0 비행 기록</String>
+	<String ID="FileTypeDescriptionMAVLink">MAVLink telemetry</String>
 	<String ID="FileTypeDescriptionCSV">CSV (Comma-separated values) files</String>
 	<String ID="FileTypeDescriptionKML">키홀 마크업 언어 (KML) 포맷의 비행 기록</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">XML 비행 로그</String>

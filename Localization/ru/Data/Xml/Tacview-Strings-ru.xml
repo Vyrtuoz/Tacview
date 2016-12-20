@@ -26,6 +26,8 @@
 	<String ID="RecordingMenuHelp">Задать свойства записи полёта</String>
 	<String ID="RecordingNetworkCmdText">&amp;Удалённая запись...</String>
 	<String ID="RecordingNetworkCmdHelp">Записать полёт через сеть</String>
+	<String ID="RecordingRemoteControlCmdText">Remote Control</String>
+	<String ID="RecordingRemoteControlCmdHelp">Use the remote-control window to remotely control your favorite flight simulator</String>
 	<String ID="RecordingRecordDCSWorldCmdText">Записывать полёты &amp;DCS World</String>
 	<String ID="RecordingRecordDCSWorldCmdHelp">Записывать все полёты DCS World</String>
 	<String ID="RecordingExportPathCmdText">Папка для сохранения &amp;записей .acmi...</String>
@@ -449,6 +451,7 @@
 
 	<String ID="AddOnTitleEventsLog">Журнал полёта</String>
 	<String ID="AddOnTitleControlsList">Управление</String>
+	<String ID="AddOnTitleRemoteControl">Remote Control</String>
 	<String ID="AddOnTitleCommandLineOptionsList">Опции командной строки</String>
 	<String ID="AddOnTitleUserLicenseAgreement">Пользовательское соглашение</String>
 	<String ID="AddOnTitleDebugLog">Журнал отладчика</String>
@@ -659,6 +662,7 @@
 	<String ID="FileTypeDescriptionKMLStaticObjects">Статические объекты KML</String>
 	<String ID="FileTypeDescriptionGPX">Файлы обмена GPS</String>
 	<String ID="FileTypeDescriptionVHS">Записи полёта Falcon 4.0</String>
+	<String ID="FileTypeDescriptionMAVLink">MAVLink telemetry</String>
 	<String ID="FileTypeDescriptionCSV">CSV файлы (разделитель - запятая)</String>
 	<String ID="FileTypeDescriptionKML">Запись в формате .kml</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">Журнал полёта в .xml</String>

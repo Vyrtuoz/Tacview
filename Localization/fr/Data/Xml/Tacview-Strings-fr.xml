@@ -25,6 +25,8 @@
 	<String ID="RecordingMenuHelp">Définir les paramètres d'enregistrement des vols</String>
 	<String ID="RecordingNetworkCmdText">Enregistrer à &amp;distance...</String>
 	<String ID="RecordingNetworkCmdHelp">Enregistrer un vol à travers le réseau</String>
+	<String ID="RecordingRemoteControlCmdText">Télécommande</String>
+	<String ID="RecordingRemoteControlCmdHelp">Utilisez la fenêtre de télécommande pour contrôler à distance votre simulateur de vol favori</String>
 	<String ID="RecordingRecordDCSWorldCmdText">Enregistrer les vols de DCS &amp;World</String>
 	<String ID="RecordingRecordDCSWorldCmdHelp">Enregistrer tous les vols de 'DCS World'</String>
 	<String ID="RecordingExportPathCmdText">Dossier d'enregistrement des &amp;fichiers ACMI...</String>
@@ -448,6 +450,7 @@
 
 	<String ID="AddOnTitleEventsLog">Journal de Vol</String>
 	<String ID="AddOnTitleControlsList">Liste des contrôles</String>
+	<String ID="AddOnTitleRemoteControl">Télécommande</String>
 	<String ID="AddOnTitleCommandLineOptionsList">Options de la ligne de commande</String>
 	<String ID="AddOnTitleUserLicenseAgreement">Contrat de licence utilisateur</String>
 	<String ID="AddOnTitleDebugLog">Journal d'évènements</String>
@@ -658,6 +661,7 @@
 	<String ID="FileTypeDescriptionKMLStaticObjects">Objets statiques au format KML (Keyhole Markup Language)</String>
 	<String ID="FileTypeDescriptionGPX">Enregistrements de coordonnées GPS</String>
 	<String ID="FileTypeDescriptionVHS">Enregistrements de Falcon 4.0</String>
+	<String ID="FileTypeDescriptionMAVLink">Télémétrie MAVLink</String>
 	<String ID="FileTypeDescriptionCSV">Fichiers CSV (comma-separated values)</String>
 	<String ID="FileTypeDescriptionKML">Vols enregistrés en KML (Keyhole Markup Language)</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">Journal de vol au format XML</String>

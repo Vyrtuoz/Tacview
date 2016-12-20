@@ -1,1 +1,774 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?><!-- Tacview English Text --><Resources Language="en">	<!-- Main Menu -->	<String ID="FileMenuTooltip">File</String>	<String ID="FileMenuHelp">Import and export flight data</String>	<String ID="FileOpenCmdText">&amp;Open...&#9;Ctrl+O</String>	<String ID="FileOpenCmdHelp">Open an existing flight recording</String>	<String ID="FileOpenContainingFolderCmdText">Open Containing &amp;Folder</String>	<String ID="FileOpenContainingFolderCmdHelp">Open current flight recording containing folder in the File Explorer</String>	<String ID="FileMergeCmdText">&amp;Merge...</String>	<String ID="FileMergeCmdHelp">Merge an existing flight recording with all the data currently loaded</String>	<String ID="FileSaveCmdText">&amp;Save&#9;Ctrl+S</String>	<String ID="FileSaveCmdHelp">Save this flight recording</String>	<String ID="FileSaveCmdAsText">Save &amp;As...</String>	<String ID="FileSaveAsCmdHelp">Save this flight recording under a new name</String>	<String ID="FileExportText">Export</String>	<String ID="FileExportFlightLogText">Export Flight &amp;Log...</String>	<String ID="FileExportFlightLogHelp">Export flight log as an XML or CSV File</String>	<String ID="RecordingMenuTooltip">Recording</String>	<String ID="RecordingMenuHelp">Set flight data recording settings</String>	<String ID="RecordingNetworkCmdText">&amp;Remote Recording...</String>	<String ID="RecordingNetworkCmdHelp">Record a flight through the network</String>	<String ID="RecordingRecordDCSWorldCmdText">Record DCS &amp;World Flights</String>	<String ID="RecordingRecordDCSWorldCmdHelp">Record all 'DCS World' flights</String>	<String ID="RecordingExportPathCmdText">ACMI Files &amp;Recording Folder...</String>	<String ID="RecordingExportPathCmdHelp">Choose where to record .acmi files for the current user</String>	<String ID="AnalysisMenuTooltip">Analysis</String>	<String ID="AnalysisMenuHelp">Analysis tools</String>	<String ID="AnalysisPropertiesText">&amp;Properties</String>	<String ID="AnalysisPropertiesHelp">Show or hide flight recording properties</String>	<String ID="AnalysisEventLogText">&amp;Flight Log</String>	<String ID="AnalysisEventLogHelp">Show or hide flight recording flight log</String>	<String ID="AnalysisDisplayTelemetry0Text">Telemetry &amp;1</String>	<String ID="AnalysisDisplayTelemetry0Help">Show or hide telemetry window #1</String>	<String ID="AnalysisDisplayTelemetry1Text">Telemetry &amp;2</String>	<String ID="AnalysisDisplayTelemetry1Help">Show or hide telemetry window #2</String>	<String ID="AnalysisDisplayTelemetry2Text">Telemetry &amp;3</String>	<String ID="AnalysisDisplayTelemetry2Help">Show or hide telemetry window #3</String>	<String ID="AnalysisDisplayTelemetry3Text">Telemetry &amp;4</String>	<String ID="AnalysisDisplayTelemetry3Help">Show or hide telemetry window #4</String>	<String ID="AnalysisDisplayRawTelemetry0Text">Raw Telemetry 1</String>	<String ID="AnalysisDisplayRawTelemetry0Help">Show or hide raw telemetry window #1</String>	<String ID="AnalysisDisplayRawTelemetry1Text">Raw Telemetry 2</String>	<String ID="AnalysisDisplayRawTelemetry1Help">Show or hide raw telemetry window #2</String>	<String ID="AnalysisDisplayChart1Text">Chart &amp;1</String>	<String ID="AnalysisDisplayChart1Help">Show or hide chart window #1</String>	<String ID="AnalysisDisplayChart2Text">Chart &amp;2</String>	<String ID="AnalysisDisplayChart2Help">Show or hide chart window #2</String>	<String ID="AnalysisDisplayChart3Text">Chart &amp;3</String>	<String ID="AnalysisDisplayChart3Help">Show or hide chart window #3</String>	<String ID="AnalysisDisplayChart4Text">Chart &amp;4</String>	<String ID="AnalysisDisplayChart4Help">Show or hide chart window #4</String>	<String ID="DebriefingMenuTooltip">Debriefing</String>	<String ID="DebriefingMenuHelp">Debriefing tools</String>	<String ID="DebriefingOnlineDebriefingText">&amp;Online Debriefing...</String>	<String ID="DebriefingOnlineDebriefingHelp">Join or host an online debriefing</String>	<String ID="OptionsMenuTooltip">Options</String>	<String ID="OptionsMenuHelp">Change program settings</String>	<String ID="OptionsDisplayCommentsText">Display &amp;Comments</String>	<String ID="OptionsDisplayCommentsHelp">Display flight comments as subtitles in the 3D view</String>	<String ID="OptionsTerrainDisplayModeText">Terrain Display Mode</String>	<String ID="OptionsTerrainDisplayMode3DText">&amp;3D</String>	<String ID="OptionsTerrainDisplayMode3DHelp">Display full 3D terrain</String>	<String ID="OptionsTerrainDisplayModeFlatText">&amp;Flat</String>	<String ID="OptionsTerrainDisplayModeFlatHelp">Flatten the terrain to improve readability</String>	<String ID="OptionsTerrainDisplayModeEmptyText">&amp;Empty</String>	<String ID="OptionsTerrainDisplayModeEmptyHelp">Display an empty terrain to improve further readability</String>	<String ID="OptionsTerrainText">Terrain</String>	<String ID="OptionsTerrainAutoText">(&amp;Auto)</String>	<String ID="OptionsTerrainAutoHelp">Automatically use the best terrain available</String>	<String ID="OptionsTerrainGenericHelp">Use terrain from '{0}'</String>	<String ID="OptionsTerrainTextRealWorld">Real Terrain</String>	<String ID="OptionsTerrainHelpRealWorld">Use real earth terrain from NASA Shuttle Radar Topography Mission</String>	<String ID="OptionsTerrainTextDCSWorld">DCS World</String>	<String ID="OptionsTerrainHelpDCSWorld">Use terrain from the latest version of DCS World</String>	<String ID="OptionsTerrainTextEECH">Enemy Engaged: Comanche vs Hokum</String>	<String ID="OptionsTerrainHelpEECH">Use terrain from EECH (Enemy Engaged: Comanche vs Hokum)</String>	<String ID="OptionsTerrainTextFalcon4">Falcon 4.0</String>	<String ID="OptionsTerrainHelpFalcon4">Use terrain from Falcon 4.0</String>	<String ID="OptionsLanguageText">Language</String>	<String ID="OptionsLanguageAutoText">(&amp;Auto)</String>	<String ID="OptionsLanguageAutoHelp">Automatically use the best language</String>	<!-- Units -->	<String ID="OptionsMeasurementSystemText">Units</String>	<String ID="OptionsAutoUnitsText">(&amp;Auto)</String>	<String ID="OptionsAutoUnitsHelp">Automatically use appropriate measurement system</String>	<String ID="OptionsMetricDataAnalysisUnitsText">Metric - Data Analysis</String>	<String ID="OptionsMetricDataAnalysisUnitsHelp">Speed: m/s - Vertical Speed: m/s - Altitude: m - Distance: m</String>	<String ID="OptionsMetricHelicopterUnitsText">Metric - Helicopter</String>	<String ID="OptionsMetricHelicopterUnitsHelp">Speed: km/h - Vertical Speed: m/s - Altitude: m - Distance: km</String>	<String ID="OptionsMetricAirplaneUnitsText">Metric - Airplane</String>	<String ID="OptionsMetricAirplaneUnitsHelp">Speed: km/h - Vertical Speed: m/min - Altitude: m - Distance: km</String>	<String ID="OptionsImperialDataAnalysisMIUnitsText">Imperial - Data Analysis (mi)</String>	<String ID="OptionsImperialDataAnalysisMIUnitsHelp">Speed: mph - Vertical Speed: ft/min - Altitude: ft - Distance: ft</String>	<String ID="OptionsImperialDataAnalysisNMUnitsText">Imperial - Data Analysis (nm)</String>	<String ID="OptionsImperialDataAnalysisNMUnitsHelp">Speed: kts - Vertical Speed: ft/min - Altitude: ft - Distance: ft</String>	<String ID="OptionsImperialAircraftMIUnitsText">Imperial - Aircraft (mi)</String>	<String ID="OptionsImperialAircraftMIUnitsHelp">Speed: mph - Vertical Speed: ft/min - Altitude: ft - Distance: mi &amp; ft</String>	<String ID="OptionsImperialAircraftNMUnitsText">Imperial - Aircraft (nm)</String>	<String ID="OptionsImperialAircraftNMUnitsHelp">Speed: kts - Vertical Speed: ft/min - Altitude: ft - Distance: nm &amp; ft</String>	<String ID="OptionsDistanceAutoSwitch0Text">Do not switch distances to feet</String>	<String ID="OptionsDistanceAutoSwitch0Help">Do not switch to feet under a certain distance</String>	<String ID="OptionsDistanceAutoSwitch1Text">Switch distances to feet under 1 nm</String>	<String ID="OptionsDistanceAutoSwitch1Help">Switch distances to feet under 1 nm</String>	<String ID="OptionsDistanceAutoSwitch2Text">Switch distances to feet under 2 nm</String>	<String ID="OptionsDistanceAutoSwitch2Help">Switch distances to feet under 2 nm</String>	<String ID="OptionsPositionFormatText">Position Format</String>	<String ID="OptionsPositionFormatDDDHelp">Decimal degrees</String>	<String ID="OptionsPositionFormatDMMHelp">Degrees, decimal minutes</String>	<String ID="OptionsPositionFormatDMSHelp">Degrees, minutes, seconds</String>	<String ID="OptionsPositionFormatMGRSHelp">Military grid reference system</String>	<String ID="AspectAngleLeft">L</String>	<String ID="AspectAngleRight">R</String>	<!-- Other Options -->	<String ID="OptionsAddObjectText">Add Object</String>	<String ID="OptionsAddObjectHelp">Create a new object and add it to the world</String>	<String ID="OptionsEditObjectText">Edit Selected Object</String>	<String ID="OptionsEditObjectHelp">Edit selected object property</String>	<String ID="OptionsRemoveObjectText">Remove Object</String>	<String ID="OptionsRemoveObjectHelp">Remove selected object from the world</String>	<String ID="OptionsAssociateFileTypesText">&amp;Associate Tacview with acmi files</String>	<String ID="OptionsAssociateFileTypesHelp">Enable you to open flight recordings with Tacview when you double-click them in Windows</String>	<String ID="OptionsTrackIRCmdText">TrackIR</String>	<String ID="OptionsTrackIRCmdHelp">Enable TrackIR in cockpit view</String>	<String ID="InsertBookmarkText">&amp;Insert Bookmark</String>	<String ID="InsertBookmarkHelp">Create and insert a bookmark in the events and timeline</String>	<String ID="RemoveBookmarkText">&amp;Remove Bookmark</String>	<String ID="RemoveBookmarkHelp">Delete this bookmark</String>	<String ID="ShareCopyShortcutText">&amp;Copy Shortcut&#9;(Ctrl+C)</String>	<String ID="ShareCopyShortcutHelp">Create a shortcut of the current view you can share with your friends</String>	<String ID="SharePasteShortcutText">&amp;Paste Shortcut&#9;(Ctrl+V)</String>	<String ID="SharePasteShortcutHelp">Restore a view from a shortcut shared by your friends</String>	<String ID="AttractAttentionHelp">Attract viewers' attention to a specific object</String>	<String ID="SelectedObjectsTelemetryText">Selected Objects Labels</String>	<String ID="AircraftsTelemetryText">Unselected Aircrafts Labels</String>	<String ID="LabelOnAllGroundObjectsText">Label All Ground Objects</String>	<String ID="LabelOnAllGroundObjectsHelp">Display labels on all ground objects in addition of anti-aircraft threats</String>	<String ID="ForceSelectedObjetsLabelsText">Force selected objects labels</String>	<String ID="ForceSelectedObjetsLabelsHelp">Always display select objects labels regardless of the global preference</String>	<String ID="LabelsScaleText">Labels Scale</String>	<String ID="ScaleAutoText">Auto</String>	<String ID="ScaleAutoHelp">Scale will change according to the viewport dimensions</String>	<String ID="Scale1Text">Small</String>	<String ID="Scale1Help">Default scale</String>	<String ID="Scale2Text">Large</String>	<String ID="Scale2Help">Twice larger than the default size</String>	<String ID="HelpMenuTooltip">Help</String>	<String ID="HelpMenuHelp">Display help and general information about this program</String>	<String ID="HelpDisplayControlsText">&amp;Controls List&#9;F1</String>	<String ID="HelpDisplayControlsHelp">Display 3D view controls list</String>	<String ID="HelpCommandLineOptionsText">Command Line &amp;Options</String>	<String ID="HelpCommandLineOptionsHelp">Display command-line options supported by Tacview</String>	<String ID="HelpTechnicalSupportText">Technical &amp;Support</String>	<String ID="HelpTechnicalSupportHelp">Connect to Tacview official website</String>	<String ID="HelpUserLicenseAgreementText">User &amp;License Agreement</String>	<String ID="HelpUserLicenseAgreementHelp">Display end user license agreement</String>	<String ID="HelpCheckForUpdatesText">Check for &amp;Updates</String>	<String ID="HelpCheckForUpdatesHelp">Check online for a new release of Tacview</String>	<String ID="HelpDebugLogText">Debug Log</String>	<String ID="HelpDebugLogHelp">Debug output useful to understand issues</String>	<String ID="HelpEventsProfilerText">Events Profiler</String>	<String ID="HelpEventsProfilerHelp">Display events profiling tools</String>	<String ID="HelpFunctionsProfilerText">Functions Profiler</String>	<String ID="HelpFunctionsProfilerHelp">Display functions profiling tools</String>	<String ID="HelpGraphicalProfilerText">Graphical &amp;Profiler</String>	<String ID="HelpGraphicalProfilerHelp">Display graphical profiling tools</String>	<String ID="HelpMemoryProfilerText">&amp;Memory Profiler</String>	<String ID="HelpMemoryProfilerHelp">Display memory profiling tools</String>	<String ID="HelpAboutText">&amp;About Tacview</String>	<String ID="HelpAboutHelp">Display copyright information</String>	<String ID="RegisterCmdTooltip">Register</String>	<String ID="RegisterCmdHelp">Register your copy of Tacview</String>	<String ID="UpgradeToProfessionalCmdTooltip">Upgrade to Professional</String>	<String ID="UpgradeToProfessionalCmdHelp">Upgrade your Home edition to the Professional edition</String>	<String ID="UpgradeToCommercialCmdTooltip">Upgrade to Commercial</String>	<String ID="UpgradeToCommercialCmdHelp">Upgrade your Professional edition to the Commercial edition</String>	<String ID="UpdateCommercialCmdTooltip">Extend Commercial License</String>	<String ID="UpdateCommercialCmdHelp">Extend an expiring Commercial license</String>	<!-- Popup Menus -->	<String ID="ObjectsInfoCmdRateOfClosureText">Range / Rate of Closure</String>	<String ID="ObjectsInfoCmdRateOfClosureHelp">Display range and rate of closure between selected objects</String>	<String ID="ObjectsInfoCmdAbsoluteBearingText">Range / Bearing</String>	<String ID="ObjectsInfoCmdAbsoluteBearingHelp">Display range and bearing between selected objects</String>	<String ID="ObjectsInfoCmdRelativeBearingNavText">Range / Relative Bearing (Navigation/2D)</String>	<String ID="ObjectsInfoCmdRelativeBearingNavHelp">Display range and relative 2D bearing between selected objects</String>	<String ID="ObjectsInfoCmdRelativeBearingCombatText">Range / Relative Bearing (Combat/3D)</String>	<String ID="ObjectsInfoCmdRelativeBearingCombatHelp">Display range and relative 3D bearing between selected objects</String>	<String ID="ObjectsInfoCmdAspectAngleText">Range / Aspect Angle</String>	<String ID="ObjectsInfoCmdAspectAngleHelp">Display number of degrees measured from the tail of a target to your aircraft</String>	<String ID="ObjectsInfoCmdDisplayObjectsInfoText">Display in 3D view</String>	<String ID="ObjectsInfoCmdDisplayObjectsInfoHelp">Display selected objects info in the 3D view</String>	<String ID="ObjectsInfoCmdLineOfSightRateText">Range / Line of Sight Rate</String>	<String ID="ObjectsInfoCmdLineOfSightRateHelp">Display range and line of sight rate between selected objects</String>	<!-- Charts -->	<String ID="ChartDisplayObjet0Tooltip">Display main object</String>	<String ID="ChartDisplayObjet0Help">Display main object data</String>	<String ID="ChartDisplayObjet1Tooltip">Display secondary object</String>	<String ID="ChartDisplayObjet1Help">Display secondary object data</String>	<String ID="ChartDisplayObjet2Tooltip">Display third object</String>	<String ID="ChartDisplayObjet2Help">Display third object data</String>	<String ID="ChartDisplayObjet3Tooltip">Display fourth object</String>	<String ID="ChartDisplayObjet3Help">Display fourth object data</String>	<String ID="ChartOneClickChartTooltip">Predefined charts</String>	<String ID="ChartOneClickChartMenuHelp">Choose a predefined chart</String>	<String ID="ChartPrimaryYAxisTooltip">Primary Y axis type</String>	<String ID="ChartPrimaryYAxisHelp">Select data displayed on primary Y axis</String>	<String ID="ChartXAxisTooltip">X axis type</String>	<String ID="ChartXAxisHelp">Select data displayed on X axis</String>	<String ID="ChartSecondaryYAxisTooltip">Secondary Y axis type</String>	<String ID="ChartSecondaryYAxisHelp">Select data displayed on secondary Y axis</String>	<String ID="ChartResetZoomTooltip">Reset zoom</String>	<String ID="ChartResetZoomHelp">Show the entire chart on screen</String>	<String ID="ChartZoomOutTooltip">Zoom out</String>	<String ID="ChartZoomOutHelp">Show more data</String>	<String ID="ChartZoomInTooltip">Zoom in</String>	<String ID="ChartZoomInHelp">Show more details</String>	<String ID="ChartExportTelemetryTooltip">Export</String>	<String ID="ChartExportTelemetryHelp">Export telemetry data in a file readable by other tools</String>	<String ID="ExportTelemetryText">Export Telemetry</String>	<String ID="ExportTelemetryHelp">Export chart in CSV file format</String>	<String ID="ExportTelemetryPositionText">Include Position</String>	<String ID="ExportTelemetryPositionHelp">Include aircraft position in exported data</String>	<String ID="ExportTelemetryRotationText">Include Rotation</String>	<String ID="ExportTelemetryRotationHelp">Include aircraft rotation in exported data</String>	<String ID="ChartAltitudeSpeedHelp">Standard altitude/speed chart</String>	<String ID="ChartAltitudeSpeedText">Altitude/Speed</String>	<String ID="ChartEnergyHelp">Energy level and consumption</String>	<String ID="ChartEnergyText">Energy</String>	<String ID="ChartEnergyTransferHelp">Transfer between kinetic and potential energy</String>	<String ID="ChartEnergyTransferText">Energy Transfer</String>	<String ID="ChartAccelerationHelp">Compare missiles performance</String>	<String ID="ChartAccelerationText">Acceleration</String>	<String ID="ChartPerformanceHelp">Analyze missiles performance</String>	<String ID="ChartPerformanceText">Performance</String>	<String ID="AxisNoneHelp">Hide secondary axis</String>	<String ID="AxisNoneText">Disabled</String>	<!-- Telemetry -->	<String ID="ATCHelp">ATC like telemetry: altitude/100, vertical speed, and ground speed/10</String>	<String ID="ATCText">ATC (ASL+VS+GS)</String>	<String ID="RegistrationHelp">Aircraft registration (tail number)</String>	<String ID="RegistrationText">Registration number</String>	<String ID="BullseyeHelp">Position relative to the main object coalition bullseye</String>	<String ID="BullseyeText">Bullseye</String>	<String ID="TASHelp">Speed of the aircraft relative to the airmass in which it is flying</String>	<String ID="TASText">Speed (TAS)</String>	<String ID="CASHelp">Calibrated airspeed</String>	<String ID="CASText">Speed (CAS)</String>	<String ID="IASHelp">Speed read directly from the airspeed indicator</String>	<String ID="IASText">Speed (IAS)</String>	<String ID="MachHelp">Mach number</String>	<String ID="MachText">Speed (Mach)</String>	<String ID="ASLHelp">Above mean sea level altitude</String>	<String ID="ASLText">Altitude (ASL)</String>	<String ID="AOAHelp">Angle of attack</String>	<String ID="AOAText">Angle of Attack (AOA)</String>	<String ID="GHelp">Acceleration relative to free-fall</String>	<String ID="GText">G-Force (G)</String>	<String ID="RollRateHelp">Roll rate</String>	<String ID="RollRateText">Roll Rate (RRT)</String>	<String ID="TurnRateHelp">Turn rate</String>	<String ID="TurnRateText">Turn Rate (TRT)</String>	<String ID="TurnRadiusHelp">Turn radius</String>	<String ID="TurnRadiusText">Turn Radius (TRD)</String>	<String ID="EKHelp">Kinetic energy</String>	<String ID="EKText">Kinetic energy (Ek)</String>	<String ID="EPHelp">Potential energy</String>	<String ID="EPText">Potential energy (Ep)</String>	<String ID="EMHelp">Mechanical energy</String>	<String ID="EMText">Mechanical energy (Em=Ek+Ep)</String>	<String ID="GSHelp">Speed of the aircraft relative to the ground</String>	<String ID="GSText">Ground Speed (GS)</String>	<String ID="VSHelp">Vertical speed</String>	<String ID="VSText">Vertical Speed (VS)</String>	<String ID="AGLHelp">Above ground level altitude</String>	<String ID="AGLText">Altitude (AGL)</String>	<String ID="HDGHelp">Direction that the aircraft's nose is pointing relative to true north</String>	<String ID="HDGText">Heading (HDG)</String>	<String ID="TRKHelp">Effective aircraft move direction relative to true north</String>	<String ID="TRKText">Track (TRK)</String>	<String ID="FlightPathAngleHelp">Aircraft true slope angle</String>	<String ID="FlightPathAngleText">Flight Path Angle</String>	<String ID="DistanceAirHelp">Covered air distance</String>	<String ID="DistanceAirText">Distance (Air)</String>	<String ID="DistanceGroundHelp">Covered ground distance</String>	<String ID="DistanceGroundText">Distance (Ground)</String>	<String ID="ElevationProfileHelp">Profile of the ground altitude under the aircraft</String>	<String ID="ElevationProfileText">Elevation Profile</String>	<String ID="AbsoluteTimeHelp">Absolute time</String>	<String ID="AbsoluteTimeText">Time</String>	<String ID="RelativeTimeHelp">Makes data comparison easier</String>	<String ID="RelativeTimeText">Relative Time</String>	<String ID="NoTelemetryHelp">No telemetry displayed</String>	<String ID="NoTelemetryText">Disabled</String>	<String ID="TelemetryMinValue">Min&#9;{0}</String>	<String ID="TelemetryMaxValue">Max&#9;{0}</String>	<String ID="TelemetryNoLimit">(no restriction)</String>	<String ID="AltitudeRestrictionsTitle">Altitude Restrictions</String>	<String ID="AltitudeRestrictionsIntro">Use this tool to detect when aircraft are beyond the specified limits.&#10;Enter zero (0) to remove a restriction.</String>	<String ID="MaxAltitudeLabel">Ceiling Altitude Restriction:</String>	<String ID="MaxAltitudeLabelShort">MAX</String>	<String ID="MinAltitudeLabel">Floor Altitude Restriction:</String>	<String ID="MinAltitudeLabelShort">MIN</String>	<String ID="BookmarkTitle">Insert a new bookmark</String>	<String ID="BookmarkIntro">You are about to create a bookmark containing the active selection and point of view.</String>	<String ID="BookmarkLabel">Bookmark Name:</String>	<String ID="OnlineDebriefingTitle">Online Debriefing</String>	<String ID="OnlineDebriefingIntro">Share a debriefing session with your squadron and friends!</String>	<String ID="OnlineDebriefingUsername">Username :</String>	<String ID="OnlineDebriefingUsernameHelp">Use at least 3 characters</String>	<String ID="OnlineDebriefingPassword">Password :</String>	<String ID="OnlineDebriefingPort">TCP Port :</String>	<String ID="OnlineDebriefingPortHelp">Don't forget to open this port on your router!</String>	<String ID="OnlineDebriefingSessionName">Session Name :</String>	<String ID="OnlineDebriefingPublicAddress">Public Address :</String>	<String ID="OnlineDebriefingHostButton">Host</String>	<String ID="OnlineDebriefingEndSessionButton">End Session</String>	<String ID="OnlineDebriefingSessionAddress">Host Address :</String>	<String ID="OnlineDebriefingSessionAddressHelp">You can connect to IPv4 and IPv6 addresses</String>	<String ID="OnlineDebriefingJoinButton">Join</String>	<String ID="OnlineDebriefingLeaveButton">Leave</String>	<String ID="OnlineDebriefingCancelButton">Cancel</String>	<String ID="OnlineDebriefingWarningHost">Only the professional version of Tacview can host an online debriefing session.</String>	<String ID="OnlineDebriefingWarningClient">Any registered version of Tacview can join an online debriefing session.</String>	<String ID="OnlineDebriefingHostInProgress">Hosting online debriefing session [{0}]</String>	<String ID="OnlineDebriefingClientInProgress">Connected to online debriefing session [{0}]</String>	<String ID="OnlineDebriefingDataMismatch">Some data is missing; did you load the right file for this debriefing?</String>	<String ID="OnlineDebriefingStatusConnecting">Looking for host, please wait...</String>	<String ID="OnlineDebriefingStatusFailedToJoin">⚠ Failed to connect, please check the address and port number.</String>	<String ID="OnlineDebriefingStatusFailedToHost">⚠ Failed to host session. Use a different port to host multiple sessions on the same computer.</String>	<String ID="OnlineDebriefingStatusInvalidProtocol">⚠ Protocol not supported. Are you using the same version of Tacview as the host?</String>	<String ID="OnlineDebriefingStatusInvalidPassword">⚠ Invalid password. Have you tried to copy/paste the password to avoid any misspelling?</String>	<String ID="OnlineDebriefingHostTip">Shift+Click an object to attract viewers' attention</String>	<String ID="OnlineDebriefingClientTip">Press Alt+Enter to switch to fullscreen mode</String>	<String ID="OnlineDebriefingControlGivenTip">{0} is temporarily in charge of the debriefing</String>	<String ID="OnlineDebriefingControlReceivedTip">You are temporarily in charge of the debriefing</String>	<String ID="AddEditObjectAddTitle">Create New Object</String>	<String ID="AddEditObjectEditTitle">Edit Object Properties</String>	<String ID="AddEditObjectHelp">Objects and properties documentation</String>	<String ID="AddEditObjectId">ID</String>	<String ID="AddEditObjectTime">Time</String>	<String ID="AddEditObjectName">Name</String>	<String ID="AddEditObjectPilot">Pilot</String>	<String ID="AddEditObjectType">Type</String>	<String ID="AddEditObjectPosition">Position</String>	<String ID="AddEditObjectColor">Color</String>	<String ID="AddEditObjectCoalition">Coalition</String>	<String ID="AutoValue">(auto)</String>	<String ID="CurrentTimeValue">(now)</String>	<String ID="NoTypeValue">(none)</String>	<String ID="NoNameValue">(none)</String>	<String ID="NoColorValue">(none)</String>	<String ID="NoCoalitionValue">(none)</String>	<String ID="BullseyeValue">(Bullseye)</String>	<String ID="FixedWingValue">(Fixed Wing Aircraft)</String>	<String ID="TimelessValue">(timeless object)</String>	<!-- Profiler -->	<String ID="ProfilerProfileMainLoopTooltip">Profile Main Loop (F16)</String>	<String ID="ProfilerProfileMainLoopHelp">Profile the main loop (capture 1 frames)</String>	<String ID="ProfilerProfileMainLoopFourTimesTooltip">Profile Main Loop x4 Times (F17)</String>	<String ID="ProfilerProfileMainLoopFourTimesHelp">Profile the main loop (capture 4 frames)</String>	<String ID="ProfilerProfileDataLoadingTooltip">Profile Data Loading</String>	<String ID="ProfilerProfileDataLoadingHelp">Profile next file loading</String>	<String ID="ProfilerProfileDataAnalysisTooltip">Profile Data Analysis</String>	<String ID="ProfilerProfileDataAnalysisHelp">Profile next file data analysis</String>	<String ID="ProfilerProfileDataSaveTooltip">Profile Data Save</String>	<String ID="ProfilerProfileDataSaveHelp">Profile next file save</String>	<String ID="ProfilerResetZoomTooltip">Reset zoom</String>	<String ID="ProfilerResetZoomHelp">Show the entire profile on screen</String>	<String ID="ProfilerProfileMemoryTooltip">Profile Memory (F18)</String>	<String ID="ProfilerProfileMemoryHelp">Profile current memory use</String>	<!-- Add On Strings -->	<String ID="AddOnTitleTelemetry0">Telemetry 1</String>	<String ID="AddOnTitleTelemetry1">Telemetry 2</String>	<String ID="AddOnTitleTelemetry2">Telemetry 3</String>	<String ID="AddOnTitleTelemetry3">Telemetry 4</String>	<String ID="AddOnTitleRawTelemetry0">Raw Telemetry 1</String>	<String ID="AddOnTitleRawTelemetry1">Raw Telemetry 2</String>	<String ID="AddOnTitleChart0">Chart 1</String>	<String ID="AddOnTitleChart1">Chart 2</String>	<String ID="AddOnTitleChart2">Chart 3</String>	<String ID="AddOnTitleChart3">Chart 4</String>	<String ID="AddOnTelemetryName">Name</String>	<String ID="AddOnTelemetryData">Data</String>	<String ID="AddOnTelemetryRawData">Raw Data</String>	<String ID="AddOnTelemetryValue">Value</String>	<String ID="AddOnTelemetryInterpretedValue">Interpreted Value</String>	<String ID="AddOnTelemetryUnit">Unit</String>	<String ID="AddOnTelemetryGroupContext">Context</String>	<String ID="AddOnTelemetryGroupMetadata">Metadata</String>	<String ID="AddOnTelemetryGroupTransform">Transform</String>	<String ID="AddOnTelemetryGroupTextProperties">Text Properties</String>	<String ID="AddOnTelemetryGroupNumericProperties">Numeric Properties</String>	<String ID="AddOnTitleDocumentProperties">Properties</String>	<String ID="TitleProperty">Title</String>	<String ID="AuthorProperty">Author</String>	<String ID="CategoryProperty">Category</String>	<String ID="SourceProperty">Source</String>	<String ID="RecorderProperty">Recording Device</String>	<String ID="RecordingTimeProperty">Recording Date</String>	<String ID="MissionTimeProperty">Mission Date</String>	<String ID="BriefingProperty">Briefing</String>	<String ID="DebriefingProperty">Debriefing</String>	<String ID="CommentsProperty">Comments</String>	<String ID="AddOnTitleEventsLog">Flight Log</String>	<String ID="AddOnTitleControlsList">Controls List</String>	<String ID="AddOnTitleCommandLineOptionsList">Command Line Options</String>	<String ID="AddOnTitleUserLicenseAgreement">License Agreement</String>	<String ID="AddOnTitleDebugLog">Debug Log</String>	<String ID="AddOnTitleEventsProfiler">Events Profiler</String>	<String ID="AddOnTitleFunctionsProfiler">Functions Profiler</String>	<String ID="AddOnTitleGraphicalProfiler">Graphical Profiler</String>	<String ID="AddOnTitleMemoryProfiler">Memory Profiler</String>	<String ID="DebugEventTime">Time</String>	<String ID="DebugEventLevel">Level</String>	<String ID="DebugEventModule">Module</String>	<String ID="DebugEventMessage">Message</String>	<String ID="EventsProfilerNames">Event</String>	<String ID="EventsProfilerOccurrences">Occurrences</String>	<String ID="FunctionsProfilerNames">Function</String>	<String ID="FunctionsProfilerSelfRatio">% Self</String>	<String ID="FunctionsProfilerSelfTime">Self Time</String>	<String ID="FunctionsProfilerTotalTime">Total Time</String>	<String ID="FunctionsProfilerOccurrences">Occurrences</String>	<String ID="MemoryProfilerFileName">File</String>	<String ID="MemoryProfilerCount">Allocations</String>	<String ID="MemoryProfilerTotal">Total Size</String>	<String ID="MemoryProfilerAverage">Average Size</String>	<String ID="CommandLineImportExport">Import/Export</String>	<String ID="CommandLineBehavior">General Behavior</String>	<String ID="CommandLineSpecial">Advanced Options</String>	<String ID="CmdOpenHelp">Open an existing flight recording.</String>	<String ID="CmdMergeHelp">Merge an existing flight recording with all the data currently loaded.</String>	<String ID="CmdSaveHelp">Save flight recording in highly compressed format.</String>	<String ID="CmdExportFlightLogHelp">Export flight log as a XML or CSV File.</String>	<String ID="CmdFalcon4TheaterHelp">Set Falcon 4.0 theater to use for VHS files. (Aegean, Balkan, Israel, Korea...)</String>	<String ID="CmdQuietHelp">Tacview will execute all specified operations then exit without displaying any window.</String>	<String ID="CmdQuitHelp">Tacview will be closed after all other specified operations have been completed.</String>	<String ID="CmdVBOOffHelp">Disable Vertex Buffer Objects to avoid crashes on some ATI CrossFire configurations.</String>	<String ID="CmdDebugModeHelp">Displays debug information to help fixing bugs.</String>	<String ID="Selection">Selection</String>	<String ID="TimeControl">Time Control</String>	<String ID="LookMove">Look/Move</String>	<String ID="Misc">Miscellaneous</String>	<String ID="3DView">3D View</String>	<String ID="FlightLog">Flight Log</String>	<String ID="ObjectsLists">Objects Lists</String>	<String ID="FreeCamera">Free Camera</String>	<String ID="ChartWindow">Chart Window</String>	<String ID="ControlsArrows">[W] [A] [S] [D] / [E] [C]</String>	<String ID="ControlsCtrlLeftClick">[Ctrl] + [Left Click]</String>	<String ID="ControlsCtrlRightClick">[Ctrl] + [Right Click]</String>	<String ID="ControlsDoubleClick">[Double Click]</String>	<String ID="ControlsLeftRight">[Left] / [Right]</String>	<String ID="ControlsMouseLeftDrag">[Mouse Left] + {Drag}</String>	<String ID="ControlsMouseRightDrag">[Mouse Right] + {Drag}</String>	<String ID="ControlsMouseWheel">[Mouse Wheel]</String>	<String ID="ControlsMouseLeftRightDrag">[Mouse Left] + [Mouse Right] + {Drag}</String>	<String ID="ControlsMouseWheelDrag">[Mouse Wheel] + {Drag}</String>	<String ID="ControlsShiftLeftClick">[Shift] + [Left Click]</String>	<String ID="ControlsShiftMove">[Shift] + {Move}</String>	<String ID="ControlsSpaceBar">[Space Bar]</String>	<String ID="ControlsAltReturn">[Alt] + [Return]</String>	<String ID="ControlsCtrlC">[Ctrl] + [C]</String>	<String ID="ControlsCtrlV">[Ctrl] + [V]</String>	<String ID="ControlsBackwardForward">Backward/Forward in time</String>	<String ID="ControlsSelectEvent">Go to event and select associated objects</String>	<String ID="ControlsMoveCamera">Move camera</String>	<String ID="ControlsMoveCameraFast">Move camera fast</String>	<String ID="ControlsMoveCameraFaster">Move camera faster</String>	<String ID="ControlsPlayPause">Play/Pause</String>	<String ID="ControlsRotate">Rotate around selected object(s) / Turn head</String>	<String ID="ControlsSelectObject">Select object and go to its creation time if required</String>	<String ID="ControlsSelectPrimaryObject">Select primary object from the 3D view</String>	<String ID="ControlsSelectSecondaryObject">Select secondary object from the 3D view</String>	<String ID="ControlsZoomInOut">Zoom In/Out</String>	<String ID="ControlsToggleFullScreen">Toggle Full Screen Mode</String>	<!-- Additional Tooltips -->	<String ID="UpdateAvailableTooltip">A new version of Tacview is available!</String>	<String ID="DCSWorldHookedSmallTooltip">'DCS World' flights recording is enabled</String>	<String ID="TwitterLinkTooltip">Twitter</String>	<String ID="FacebookLinkTooltip">Facebook</String>	<String ID="FlightSimHookTooltipTitle">You can now close Tacview</String>	<String ID="FlightSimHookTooltipMessage">When this icon is visible, all flights are automatically recorded by your flight simulator.&#10;It is not necessary to keep Tacview running while you are flying.</String>	<String ID="FlightRecordingEmptyNotification">This flight recording is empty.</String>	<String ID="LowEndOpenGL">Please update your graphics card driver</String>	<!-- Message Boxes -->	<String ID="SaveFileRequestText">Do you want to save changes to '{0}'&#160;?</String>	<String ID="SaveButton">&amp;Save</String>	<String ID="DontSaveButton">&amp;Don't Save</String>	<!-- Dialogs Boxes Strings -->	<String ID="LicenseTitle">Tacview License Agreement</String>	<String ID="LicenseHint">Please read the following license agreement carefully. You must scroll down to its end to continue.</String>	<String ID="LicenseAccept">&amp;Accept</String>	<String ID="LicenseDecline">&amp;Decline</String>	<String ID="RegisterTitle">Register your copy of Tacview</String>	<String ID="UpgradeTitle">Upgrade to Tacview Professional</String>	<String ID="RegisterSubTitle">Enter your product key</String>	<String ID="RegisterComment">To register your product and unlock advanced features, enter the 25-character key you have received by email. If you do not have a product key yet, you can buy a new one.</String>	<String ID="UpgradeComment">To upgrade your product and unlock advanced features, enter the 25-character Tacview Professional key you have received by email. If you do not have a professional product key yet, you can buy a new one.</String>	<String ID="RegisterExample">Example:</String>	<String ID="RegisterProductKey">Product Key:</String>	<String ID="RegisterBuyProductKey">Buy a new product key online</String>	<String ID="RegisterInvalidProductKey">This product key is not valid. Please check the key and try again.</String>	<String ID="RegistrationSucceededSubTitle">Congratulations!</String>	<String ID="RegistrationSucceededComment">Your copy is now registered. Keep your product key in a safe place in case you ever need to reinstall your Tacview.&#10;&#10;In addition to many exclusive advanced features, you now have priority technical support as well as privileged access to updates and previews of future versions of Tacview 2.x.</String>	<String ID="RegistrationSucceededURL">Learn more about the advantages of using a registered copy of Tacview</String>	<String ID="RequireHomeLicenseText">To use this version of Tacview you need to register your copy.</String>	<String ID="RequireProfessionalLicenseText">To use this version of Tacview you need a Professional license.</String>	<!-- Additional Dialogs Strings -->	<String ID="BrowseDCSWorldFolderHelp">Please select 'DCS World' install folder</String>	<String ID="BrowseExportPathFolderHelp">Please choose where to record .acmi files for the current user</String>	<String ID="Falcon4TheaterFilter">Falcon 4.0 Theater:</String>	<!-- Online Debriefing -->	<String ID="HostLabel">(host)</String>	<String ID="InstructorLabel">(instructor)</String>	<String ID="UnknownIPAddress">(unknown)</String>	<String ID="OnlineDebriefingHostTitle">Hosting &#2;{0}&#1; Debriefing</String>	<String ID="OnlineDebriefingClientJoiningTitle">Connecting to debriefing...</String>	<String ID="OnlineDebriefingClientTitle">Connected to &#2;{0}&#1; Debriefing</String>	<!-- Misc -->	<String ID="DemoEditionShortOneDay">Demo ({0} day left)</String>	<String ID="DemoEditionShortManyDays">Demo ({0} days left)</String>	<String ID="FreeEditionShort"></String>	<String ID="HomeEditionShort">Home</String>	<String ID="ProfessionalEditionShort">Professional</String>	<String ID="CommercialEditionShort">Commercial ({0})</String>	<String ID="DemoEditionOneDay">{0} Demo, {1} day left</String>	<String ID="DemoEditionManyDays">{0} Demo, {1} days left</String>	<String ID="FreeEdition">{0} Free Edition</String>	<String ID="HomeEdition">{0} Home Edition</String>	<String ID="ProfessionalEdition">{0} Professional Edition</String>	<String ID="CommercialEdition">{0} Commercial Edition (will expire on {1})</String>	<String ID="32bitEdition">32-bit</String>	<String ID="64bitEdition">64-bit</String>	<String ID="ProfessionalToolDemoWarningOneDay">This tool is available in Tacview <a href="cmd:RegisterCmd">Professional Edition</a>. You can try it for {0} day.</String>	<String ID="ProfessionalToolDemoWarningManyDays">This tool is available in Tacview <a href="cmd:RegisterCmd">Professional Edition</a>. You can try it for {0} days.</String>	<String ID="ProfessionalToolDemoExpired">You must <a href="cmd:RegisterCmd">upgrade your license</a> to the Professional Edition to use this tool.</String>	<String ID="HomeToolDemoWarningOneDay">This tool is available in Tacview <a href="cmd:RegisterCmd">Home Edition</a>. You can try it for {0} day.</String>	<String ID="HomeToolDemoWarningManyDays">This tool is available in Tacview <a href="cmd:RegisterCmd">Home Edition</a>. You can try it for {0} days.</String>	<String ID="HomeToolDemoExpired">You must <a href="cmd:RegisterCmd">upgrade your license</a> to the Home or Professional Edition to use this tool.</String>	<String ID="StrategicViewDemoWarning">This Strategic View is available in Tacview Professional.</String>	<String ID="ExpiredCommercialLicense">Your commercial license as expired on {0},&#10;DO NOT use this version in commercial and institutional environments.</String>	<!-- Units -->	<String ID="UnitLabelASL">ASL Altitude ({0})</String>	<String ID="UnitLabelAGL">AGL Altitude ({0})</String>	<String ID="UnitLabelElevationProfile">Ground Elevation ({0})</String>	<String ID="UnitLabelTAS">TAS ({0})</String>	<String ID="UnitLabelIAS">IAS ({0})</String>	<String ID="UnitLabelGS">Ground Speed ({0})</String>	<String ID="UnitLabelAbsoluteTime">Time</String>	<String ID="UnitLabelRelativeTime">Relative Time</String>	<String ID="UnitLabelMachNumber">Mach</String>	<String ID="UnitLabelAbsoluteAOA">AOA (°)</String>	<String ID="UnitLabelIndicatedAOA">AOA (°)</String>	<String ID="UnitLabelAbsoluteG">g-force (G)</String>	<String ID="UnitLabelIndicatedG">g-force (G)</String>	<String ID="UnitLabelRollRate">Roll Rate (°/s)</String>	<String ID="UnitLabelTurnRate">Turn Rate (°/s)</String>	<String ID="UnitLabelTurnRadius">Turn Radius ({0})</String>	<String ID="UnitLabelKineticEnergy">Kinetic Energy (Ek)</String>	<String ID="UnitLabelPotentialEnergy">Potential Energy (Ep)</String>	<String ID="UnitLabelMechanicalEnergy">Mechanical Energy (Em)</String>	<String ID="UnitLabelVS">VS ({0})</String>	<String ID="UnitLabelHeading">Heading (°)</String>	<String ID="UnitLabelTrack">Track (°)</String>	<String ID="UnitLabelDistanceAir">Air Distance ({0})</String>	<String ID="UnitLabelDistanceGround">Ground Distance ({0})</String>	<!-- **** Not certified below **** -->	<!-- Dialogs Strings -->	<String ID="ScriptInstallFailedText">Export script installation has failed¤Please ensure that '{0}' is properly installed and you have write access to its folder.</String>	<String ID="ScriptUninstallFailedText">Export script removing has failed¤Please ensure that you have write access to '{0}' folder.</String>	<String ID="InvalidCommandLineArgumentText">Unsupported command line argument: [{0}]¤Please consult the help menu for the list of available commands, and make sure that everything is properly spelt.</String>	<String ID="InvalidShortcutText">Cannot find in the current mission the objects and time referenced by this shortcut. Make sure you have opened the right file and copy/pasted the whole shortcut.</String>	<String ID="AboutTitle">About Tacview</String>	<String ID="AboutCopyright">Copyright © 2006-2016, Stra Software. All Rights Reserved.&#10;This computer program is protected by copyright law and international treaties.&#10;You can reproduce and distribute freely unmodified version of this program.</String>	<String ID="LoadingInProgressShort">Loading...</String>	<String ID="LoadingInProgress">Loading '{0}'</String>	<String ID="DataMergeInProgress">Merging '{0}'</String>	<String ID="DataAnalysisInProgress">Analysing data...</String>	<String ID="SavingInProgressShort">Saving...</String>	<String ID="SavingInProgress">Saving '{0}'</String>	<!-- Misc GUI Strings -->	<String ID="InvalidObjectName">(none)</String>	<String ID="GlobalObjectName">Global Properties</String>	<String ID="NotAvailable">N/A</String>	<String ID="ACMIFileDescription">Tacview ACMI - Flight recording</String>	<String ID="VHSFileDescription">Falcon 4.0 - Flight recording</String>	<String ID="CustomProtocolDescription">Tacview Shortcut</String>	<String ID="NoRecentDocuments">(No recent document)</String>	<String ID="FileTypeDescriptionAnyTelemetryFile">Any Telemetry Data</String>	<String ID="FileTypeDescriptionTacviewText">Tacview Text Telemetry Data</String>	<String ID="FileTypeDescriptionTacviewBinary">Tacview Binary Telemetry Data</String>	<String ID="FileTypeDescriptionGAEText">GAE Distributed Interactive Simulation Text Data</String>	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole Markup Language static objects</String>	<String ID="FileTypeDescriptionGPX">GPS Exchange Format</String>	<String ID="FileTypeDescriptionVHS">Falcon 4.0 Flight Recordings</String>	<String ID="FileTypeDescriptionCSV">Comma-separated values</String>	<String ID="FileTypeDescriptionKML">Keyhole Markup Language</String>	<String ID="FileTypeDescriptionXMLFlightLog">XML Flight Log</String>	<String ID="FileTypeDescriptionCSVFlightLog">UTF-8 comma-separated values Flight Log</String>	<String ID="FileTypeDescriptionCSVTelemetry">UTF-8 comma-separated values file</String>	<String ID="FileTypeDescriptionObjectsMany">Static Objects and Falcon 4.0 BMS DTC Files</String>	<String ID="FileTypeDescriptionAny">Any File</String>	<String ID="FileTypeDescriptionTacviewZip">Zip compressed Tacview telemetry Data</String>	<String ID="FileTypeDescriptionTacview7z">7z compressed Tacview telemetry Data</String>	<String ID="FileTypeDescriptionZip">Telemetry Data in a ZIP archive</String>	<String ID="FileTypeDescription7z">Telemetry Data in a 7z archive</String>	<String ID="TypeColumn">Type</String>	<String ID="TimeColumn">Time</String>	<String ID="EventColumn">Event</String>	<String ID="LogLevelDebug">DEBUG</String>	<String ID="LogLevelInfo">INFO</String>	<String ID="LogLevelWarning">WARNING</String>	<String ID="LogLevelError">ERROR</String>	<!-- Flight Recording Strings -->	<String ID="ObjectNameShrapnel">Shrapnel</String>	<String ID="ObjectNameShell">Shell</String>	<String ID="ObjectNameBullet">Bullet</String>	<String ID="ObjectNameChaff">Chaff</String>	<String ID="ObjectNameFlare">Flare</String>	<String ID="ObjectNameSmokeGrenade">Smoke Grenade</String>	<String ID="ObjectNameBuilding">Building</String>	<String ID="EventDecoyed">(decoyed)</String>	<String ID="EventDecoyedBy">(decoyed by {0})</String>	<String ID="EventHasDestroyed">(has destroyed {0})</String>	<String ID="EventHasHit">(has hit {0})</String>	<String ID="EventFlightRecordingStart">Begin of flight recording</String>	<String ID="EventFlightRecordingEnd">End of flight recording (duration: {0,02}:{1,02}:{2,02})</String>	<String ID="EventHasEnteredTheArea">{0} has entered the area</String>	<String ID="EventHasEnteredTheAreaCloseTo">{0} has entered the area close to {1}</String>	<String ID="EventHasEnteredTheAreaAt">{0} has entered the area at {1}</String>	<String ID="EventHasLanded">{0} has landed</String>	<String ID="EventHasLandedCloseTo">{0} has landed close to {1}</String>	<String ID="EventHasLandedAt">{0} has landed at {1}</String>	<String ID="EventHasLandedOn">{0} has landed on {1}</String>	<String ID="EventHasLeftTheArea">{0} has left the area</String>	<String ID="EventHasLeftTheAreaCloseTo">{0} has left the area (close to {1})</String>	<String ID="EventHasLeftTheAreaFrom">{0} has left the area (from {1})</String>	<String ID="EventHasTakeOff">{0} has taken off</String>	<String ID="EventHasTakeOffCloseTo">{0} has taken off close to {1}</String>	<String ID="EventHasTakeOffFrom">{0} has taken off from {1}</String>	<String ID="EventHasFiredSingle">{0} has fired {1}</String>	<String ID="EventHasFiredMultiple">{0} has fired {2}× {1}</String>	<String ID="EventHasBeenHitBySingle">{0} has been hit by {1}</String>	<String ID="EventHasBeenHitByMultiple">{0} has been hit {2} times by {1}</String>	<String ID="EventHasBeenDestroyed">{0} has been destroyed</String>	<String ID="EventHasBeenDestroyedBy">{0} has been destroyed by {1}</String>	<String ID="StatusPlay">PLAY</String>	<String ID="StatusPlayFast">PLAY &#2;×{0:g}</String>	<String ID="StatusRewind">REWIND</String>	<String ID="StatusRewindFast">REWIND &#2;×{0:g}</String>	<String ID="StatusPause">PAUSE</String>	<!-- Error Messages -->	<String ID="ErrorUnknown">Unknown error 0x{0,08:X}</String>	<String ID="LoadingErrorObjectNotFound">File '{1}' not found.¤Please ensure that the given flight recording is accessible and available.</String>	<String ID="LoadingErrorInvalidName">'{1}' is an invalid file name.¤Please retry with a well formatted or a simplier file name.</String>	<String ID="LoadingErrorInvalidFormat">Invalid file format.¤'{1}' is not a flight recording or it is not well formatted.</String>	<String ID="LoadingErrorInvalidObject">Invalid file.¤'{1}' seems to have been corrupted.</String>	<String ID="LoadingErrorOutOfMemory">Out of memory.¤Try to close some applications then retry.¤(This flight recording may also be too huge.)</String>	<String ID="LoadingErrorNotSupported">The file format of '{1}' is not supported.¤Check &lt;a href="http://tacview.net"&gt;the official website&lt;/a&gt; to know if there is a newer version of Tacview or another edition which can read this file.</String>	<String ID="LoadingErrorMissingParameter">Invalid file format.¤One required parameter is missing.</String>	<String ID="LoadingErrorInvalidParameter">Invalid file format.¤Some parameters are invalid.</String>	<String ID="LoadingErrorOutOfSpace">Unsupported file format.¤'{1}' may be created with a newer version of Tacview.</String>	<String ID="LoadingErrorInvalidID">Invalid file format.¤Invalid unit ID.</String>	<String ID="LoadingErrorUnexpectedCall">Invalid file format.¤One unit is still referenced after having left the area.</String>	<String ID="LoadingErrorEndOfFile">'{1}' is empty.¤Please ensure that the export script is properly installed and not disabled by the online server you are playing on.</String>	<String ID="LoadingErrorInvalidPath">Invalid path.¤Please ensure that the given flight recording is accessible and available.</String>	<String ID="SavingErrorInvalidName">Invalid file name.¤Please retry with a well formatted or a simplier file name.</String>	<String ID="SavingErrorInvalidPath">Invalid path.¤Please ensure that the target path is accessible and available.</String>	<String ID="SavingErrorOutOfMemory">Out of memory.¤Try to close some applications then retry.</String>	<String ID="SavingErrorOutOfSpace">Disk full.¤Remove some files then retry.</String>	<String ID="SavingErrorSharingViolation">Sharing Violation.¤Ensure that this file is not already in use by another application.</String>	<!-- Misc Help Strings -->	<String ID="TTRewind">Return To The Beginning</String>	<String ID="TTSlower">Slower</String>	<String ID="TTPlayPause">Play / Pause</String>	<String ID="TTFaster">Faster</String>	<String ID="TTEnd">Go To End</String>	<String ID="TTOneFrame">Frame By Frame</String>	<String ID="TTViewCockpit">Cockpit View (F5)</String>	<String ID="TTViewExternal">External View (F6)</String>	<String ID="TTViewSatellite">Satellite View (F7)</String>	<String ID="TTViewFree">Free Camera (F8)</String>	<String ID="TTDrawHeight">Display Objects Height</String>	<String ID="TTDrawDirection">Display Selected Objects Direction</String>	<String ID="TTDrawIDs">Display Objects IDs</String>	<String ID="TTDrawThreats">Display SAM/AAA Lethal Range</String>	<String ID="TTDrawRadarLocks">Display Radar Locks (when available)</String>	<String ID="TTDrawAutoScaleUp">Scale-up automatically distant objects</String>	<String ID="TTShare">Share Shortcuts</String>	<String ID="TTTakeControl">Take Control (Online Debriefing)</String>	<String ID="TTObjectsRange">Range and rate of closure between selected objects&#10;(Click to swap selected objects, Right-Click for options)</String>	<String ID="TTDogfightButton">Dogfight camera mode</String>	<String ID="TTTrailSize">Trails size</String></Resources>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- Tacview English Text -->
+
+<Resources Language="en">
+
+	<!-- Main Menu -->
+	<String ID="FileMenuTooltip">File</String>
+	<String ID="FileMenuHelp">Import and export flight data</String>
+	<String ID="FileOpenCmdText">&amp;Open...&#9;Ctrl+O</String>
+	<String ID="FileOpenCmdHelp">Open an existing flight recording</String>
+	<String ID="FileOpenContainingFolderCmdText">Open Containing &amp;Folder</String>
+	<String ID="FileOpenContainingFolderCmdHelp">Open current flight recording containing folder in the File Explorer</String>
+	<String ID="FileMergeCmdText">&amp;Merge...</String>
+	<String ID="FileMergeCmdHelp">Merge an existing flight recording with all the data currently loaded</String>
+	<String ID="FileSaveCmdText">&amp;Save&#9;Ctrl+S</String>
+	<String ID="FileSaveCmdHelp">Save this flight recording</String>
+	<String ID="FileSaveCmdAsText">Save &amp;As...</String>
+	<String ID="FileSaveAsCmdHelp">Save this flight recording under a new name</String>
+	<String ID="FileExportText">Export</String>
+	<String ID="FileExportFlightLogText">Export Flight &amp;Log...</String>
+	<String ID="FileExportFlightLogHelp">Export flight log as an XML or CSV File</String>
+
+	<String ID="RecordingMenuTooltip">Recording</String>
+	<String ID="RecordingMenuHelp">Set flight data recording settings</String>
+	<String ID="RecordingNetworkCmdText">&amp;Remote Recording...</String>
+	<String ID="RecordingNetworkCmdHelp">Record a flight through the network</String>
+	<String ID="RecordingRemoteControlCmdText">Remote Control</String>
+	<String ID="RecordingRemoteControlCmdHelp">Use the remote-control window to remotely control your favorite flight simulator</String>
+	<String ID="RecordingRecordDCSWorldCmdText">Record DCS &amp;World Flights</String>
+	<String ID="RecordingRecordDCSWorldCmdHelp">Record all 'DCS World' flights</String>
+	<String ID="RecordingExportPathCmdText">ACMI Files &amp;Recording Folder...</String>
+	<String ID="RecordingExportPathCmdHelp">Choose where to record .acmi files for the current user</String>
+
+	<String ID="AnalysisMenuTooltip">Analysis</String>
+	<String ID="AnalysisMenuHelp">Analysis tools</String>
+	<String ID="AnalysisPropertiesText">&amp;Properties</String>
+	<String ID="AnalysisPropertiesHelp">Show or hide flight recording properties</String>
+	<String ID="AnalysisEventLogText">&amp;Flight Log</String>
+	<String ID="AnalysisEventLogHelp">Show or hide flight recording flight log</String>
+	<String ID="AnalysisDisplayTelemetry0Text">Telemetry &amp;1</String>
+	<String ID="AnalysisDisplayTelemetry0Help">Show or hide telemetry window #1</String>
+	<String ID="AnalysisDisplayTelemetry1Text">Telemetry &amp;2</String>
+	<String ID="AnalysisDisplayTelemetry1Help">Show or hide telemetry window #2</String>
+	<String ID="AnalysisDisplayTelemetry2Text">Telemetry &amp;3</String>
+	<String ID="AnalysisDisplayTelemetry2Help">Show or hide telemetry window #3</String>
+	<String ID="AnalysisDisplayTelemetry3Text">Telemetry &amp;4</String>
+	<String ID="AnalysisDisplayTelemetry3Help">Show or hide telemetry window #4</String>
+	<String ID="AnalysisDisplayRawTelemetry0Text">Raw Telemetry 1</String>
+	<String ID="AnalysisDisplayRawTelemetry0Help">Show or hide raw telemetry window #1</String>
+	<String ID="AnalysisDisplayRawTelemetry1Text">Raw Telemetry 2</String>
+	<String ID="AnalysisDisplayRawTelemetry1Help">Show or hide raw telemetry window #2</String>
+	<String ID="AnalysisDisplayChart1Text">Chart &amp;1</String>
+	<String ID="AnalysisDisplayChart1Help">Show or hide chart window #1</String>
+	<String ID="AnalysisDisplayChart2Text">Chart &amp;2</String>
+	<String ID="AnalysisDisplayChart2Help">Show or hide chart window #2</String>
+	<String ID="AnalysisDisplayChart3Text">Chart &amp;3</String>
+	<String ID="AnalysisDisplayChart3Help">Show or hide chart window #3</String>
+	<String ID="AnalysisDisplayChart4Text">Chart &amp;4</String>
+	<String ID="AnalysisDisplayChart4Help">Show or hide chart window #4</String>
+
+	<String ID="DebriefingMenuTooltip">Debriefing</String>
+	<String ID="DebriefingMenuHelp">Debriefing tools</String>
+	<String ID="DebriefingOnlineDebriefingText">&amp;Online Debriefing...</String>
+	<String ID="DebriefingOnlineDebriefingHelp">Join or host an online debriefing</String>
+
+	<String ID="OptionsMenuTooltip">Options</String>
+	<String ID="OptionsMenuHelp">Change program settings</String>
+	<String ID="OptionsDisplayCommentsText">Display &amp;Comments</String>
+	<String ID="OptionsDisplayCommentsHelp">Display flight comments as subtitles in the 3D view</String>
+
+	<String ID="OptionsTerrainDisplayModeText">Terrain Display Mode</String>
+	<String ID="OptionsTerrainDisplayMode3DText">&amp;3D</String>
+	<String ID="OptionsTerrainDisplayMode3DHelp">Display full 3D terrain</String>
+	<String ID="OptionsTerrainDisplayModeFlatText">&amp;Flat</String>
+	<String ID="OptionsTerrainDisplayModeFlatHelp">Flatten the terrain to improve readability</String>
+	<String ID="OptionsTerrainDisplayModeEmptyText">&amp;Empty</String>
+	<String ID="OptionsTerrainDisplayModeEmptyHelp">Display an empty terrain to improve further readability</String>
+
+	<String ID="OptionsTerrainText">Terrain</String>
+	<String ID="OptionsTerrainAutoText">(&amp;Auto)</String>
+	<String ID="OptionsTerrainAutoHelp">Automatically use the best terrain available</String>
+	<String ID="OptionsTerrainGenericHelp">Use terrain from '{0}'</String>
+	<String ID="OptionsTerrainTextRealWorld">Real Terrain</String>
+	<String ID="OptionsTerrainHelpRealWorld">Use real earth terrain from NASA Shuttle Radar Topography Mission</String>
+	<String ID="OptionsTerrainTextDCSWorld">DCS World</String>
+	<String ID="OptionsTerrainHelpDCSWorld">Use terrain from the latest version of DCS World</String>
+	<String ID="OptionsTerrainTextEECH">Enemy Engaged: Comanche vs Hokum</String>
+	<String ID="OptionsTerrainHelpEECH">Use terrain from EECH (Enemy Engaged: Comanche vs Hokum)</String>
+	<String ID="OptionsTerrainTextFalcon4">Falcon 4.0</String>
+	<String ID="OptionsTerrainHelpFalcon4">Use terrain from Falcon 4.0</String>
+
+	<String ID="OptionsLanguageText">Language</String>
+	<String ID="OptionsLanguageAutoText">(&amp;Auto)</String>
+	<String ID="OptionsLanguageAutoHelp">Automatically use the best language</String>
+
+	<!-- Units -->
+	<String ID="OptionsMeasurementSystemText">Units</String>
+	<String ID="OptionsAutoUnitsText">(&amp;Auto)</String>
+	<String ID="OptionsAutoUnitsHelp">Automatically use appropriate measurement system</String>
+
+	<String ID="OptionsMetricDataAnalysisUnitsText">Metric - Data Analysis</String>
+	<String ID="OptionsMetricDataAnalysisUnitsHelp">Speed: m/s - Vertical Speed: m/s - Altitude: m - Distance: m</String>
+	<String ID="OptionsMetricHelicopterUnitsText">Metric - Helicopter</String>
+	<String ID="OptionsMetricHelicopterUnitsHelp">Speed: km/h - Vertical Speed: m/s - Altitude: m - Distance: km</String>
+	<String ID="OptionsMetricAirplaneUnitsText">Metric - Airplane</String>
+	<String ID="OptionsMetricAirplaneUnitsHelp">Speed: km/h - Vertical Speed: m/min - Altitude: m - Distance: km</String>
+
+	<String ID="OptionsImperialDataAnalysisMIUnitsText">Imperial - Data Analysis (mi)</String>
+	<String ID="OptionsImperialDataAnalysisMIUnitsHelp">Speed: mph - Vertical Speed: ft/min - Altitude: ft - Distance: ft</String>
+	<String ID="OptionsImperialDataAnalysisNMUnitsText">Imperial - Data Analysis (nm)</String>
+	<String ID="OptionsImperialDataAnalysisNMUnitsHelp">Speed: kts - Vertical Speed: ft/min - Altitude: ft - Distance: ft</String>
+	<String ID="OptionsImperialAircraftMIUnitsText">Imperial - Aircraft (mi)</String>
+	<String ID="OptionsImperialAircraftMIUnitsHelp">Speed: mph - Vertical Speed: ft/min - Altitude: ft - Distance: mi &amp; ft</String>
+	<String ID="OptionsImperialAircraftNMUnitsText">Imperial - Aircraft (nm)</String>
+	<String ID="OptionsImperialAircraftNMUnitsHelp">Speed: kts - Vertical Speed: ft/min - Altitude: ft - Distance: nm &amp; ft</String>
+	<String ID="OptionsDistanceAutoSwitch0Text">Do not switch distances to feet</String>
+	<String ID="OptionsDistanceAutoSwitch0Help">Do not switch to feet under a certain distance</String>
+	<String ID="OptionsDistanceAutoSwitch1Text">Switch distances to feet under 1 nm</String>
+	<String ID="OptionsDistanceAutoSwitch1Help">Switch distances to feet under 1 nm</String>
+	<String ID="OptionsDistanceAutoSwitch2Text">Switch distances to feet under 2 nm</String>
+	<String ID="OptionsDistanceAutoSwitch2Help">Switch distances to feet under 2 nm</String>
+
+	<String ID="OptionsPositionFormatText">Position Format</String>
+	<String ID="OptionsPositionFormatDDDHelp">Decimal degrees</String>
+	<String ID="OptionsPositionFormatDMMHelp">Degrees, decimal minutes</String>
+	<String ID="OptionsPositionFormatDMSHelp">Degrees, minutes, seconds</String>
+	<String ID="OptionsPositionFormatMGRSHelp">Military grid reference system</String>
+
+	<String ID="AspectAngleLeft">L</String>
+	<String ID="AspectAngleRight">R</String>
+
+	<!-- Other Options -->
+	<String ID="OptionsAddObjectText">Add Object</String>
+	<String ID="OptionsAddObjectHelp">Create a new object and add it to the world</String>
+	<String ID="OptionsEditObjectText">Edit Selected Object</String>
+	<String ID="OptionsEditObjectHelp">Edit selected object property</String>
+	<String ID="OptionsRemoveObjectText">Remove Object</String>
+	<String ID="OptionsRemoveObjectHelp">Remove selected object from the world</String>
+
+	<String ID="OptionsAssociateFileTypesText">&amp;Associate Tacview with acmi files</String>
+	<String ID="OptionsAssociateFileTypesHelp">Enable you to open flight recordings with Tacview when you double-click them in Windows</String>
+	<String ID="OptionsTrackIRCmdText">TrackIR</String>
+	<String ID="OptionsTrackIRCmdHelp">Enable TrackIR in cockpit view</String>
+
+	<String ID="InsertBookmarkText">&amp;Insert Bookmark</String>
+	<String ID="InsertBookmarkHelp">Create and insert a bookmark in the events and timeline</String>
+	<String ID="RemoveBookmarkText">&amp;Remove Bookmark</String>
+	<String ID="RemoveBookmarkHelp">Delete this bookmark</String>
+	<String ID="ShareCopyShortcutText">&amp;Copy Shortcut&#9;(Ctrl+C)</String>
+	<String ID="ShareCopyShortcutHelp">Create a shortcut of the current view you can share with your friends</String>
+	<String ID="SharePasteShortcutText">&amp;Paste Shortcut&#9;(Ctrl+V)</String>
+	<String ID="SharePasteShortcutHelp">Restore a view from a shortcut shared by your friends</String>
+	<String ID="AttractAttentionHelp">Attract viewers' attention to a specific object</String>
+
+	<String ID="SelectedObjectsTelemetryText">Selected Objects Labels</String>
+	<String ID="AircraftsTelemetryText">Unselected Aircrafts Labels</String>
+	<String ID="LabelOnAllGroundObjectsText">Label All Ground Objects</String>
+	<String ID="LabelOnAllGroundObjectsHelp">Display labels on all ground objects in addition of anti-aircraft threats</String>
+	<String ID="ForceSelectedObjetsLabelsText">Force selected objects labels</String>
+	<String ID="ForceSelectedObjetsLabelsHelp">Always display select objects labels regardless of the global preference</String>
+
+	<String ID="LabelsScaleText">Labels Scale</String>
+	<String ID="ScaleAutoText">Auto</String>
+	<String ID="ScaleAutoHelp">Scale will change according to the viewport dimensions</String>
+	<String ID="Scale1Text">Small</String>
+	<String ID="Scale1Help">Default scale</String>
+	<String ID="Scale2Text">Large</String>
+	<String ID="Scale2Help">Twice larger than the default size</String>
+
+	<String ID="HelpMenuTooltip">Help</String>
+	<String ID="HelpMenuHelp">Display help and general information about this program</String>
+	<String ID="HelpDisplayControlsText">&amp;Controls List&#9;F1</String>
+	<String ID="HelpDisplayControlsHelp">Display 3D view controls list</String>
+	<String ID="HelpCommandLineOptionsText">Command Line &amp;Options</String>
+	<String ID="HelpCommandLineOptionsHelp">Display command-line options supported by Tacview</String>
+	<String ID="HelpTechnicalSupportText">Technical &amp;Support</String>
+	<String ID="HelpTechnicalSupportHelp">Connect to Tacview official website</String>
+	<String ID="HelpUserLicenseAgreementText">User &amp;License Agreement</String>
+	<String ID="HelpUserLicenseAgreementHelp">Display end user license agreement</String>
+	<String ID="HelpCheckForUpdatesText">Check for &amp;Updates</String>
+	<String ID="HelpCheckForUpdatesHelp">Check online for a new release of Tacview</String>
+	<String ID="HelpDebugLogText">Debug Log</String>
+	<String ID="HelpDebugLogHelp">Debug output useful to understand issues</String>
+	<String ID="HelpEventsProfilerText">Events Profiler</String>
+	<String ID="HelpEventsProfilerHelp">Display events profiling tools</String>
+	<String ID="HelpFunctionsProfilerText">Functions Profiler</String>
+	<String ID="HelpFunctionsProfilerHelp">Display functions profiling tools</String>
+	<String ID="HelpGraphicalProfilerText">Graphical &amp;Profiler</String>
+	<String ID="HelpGraphicalProfilerHelp">Display graphical profiling tools</String>
+	<String ID="HelpMemoryProfilerText">&amp;Memory Profiler</String>
+	<String ID="HelpMemoryProfilerHelp">Display memory profiling tools</String>
+	<String ID="HelpAboutText">&amp;About Tacview</String>
+	<String ID="HelpAboutHelp">Display copyright information</String>
+
+	<String ID="RegisterCmdTooltip">Register</String>
+	<String ID="RegisterCmdHelp">Register your copy of Tacview</String>
+	<String ID="UpgradeToProfessionalCmdTooltip">Upgrade to Professional</String>
+	<String ID="UpgradeToProfessionalCmdHelp">Upgrade your Home edition to the Professional edition</String>
+	<String ID="UpgradeToCommercialCmdTooltip">Upgrade to Commercial</String>
+	<String ID="UpgradeToCommercialCmdHelp">Upgrade your Professional edition to the Commercial edition</String>
+	<String ID="UpdateCommercialCmdTooltip">Extend Commercial License</String>
+	<String ID="UpdateCommercialCmdHelp">Extend an expiring Commercial license</String>
+
+	<!-- Popup Menus -->
+	<String ID="ObjectsInfoCmdRateOfClosureText">Range / Rate of Closure</String>
+	<String ID="ObjectsInfoCmdRateOfClosureHelp">Display range and rate of closure between selected objects</String>
+	<String ID="ObjectsInfoCmdAbsoluteBearingText">Range / Bearing</String>
+	<String ID="ObjectsInfoCmdAbsoluteBearingHelp">Display range and bearing between selected objects</String>
+	<String ID="ObjectsInfoCmdRelativeBearingNavText">Range / Relative Bearing (Navigation/2D)</String>
+	<String ID="ObjectsInfoCmdRelativeBearingNavHelp">Display range and relative 2D bearing between selected objects</String>
+	<String ID="ObjectsInfoCmdRelativeBearingCombatText">Range / Relative Bearing (Combat/3D)</String>
+	<String ID="ObjectsInfoCmdRelativeBearingCombatHelp">Display range and relative 3D bearing between selected objects</String>
+	<String ID="ObjectsInfoCmdAspectAngleText">Range / Aspect Angle</String>
+	<String ID="ObjectsInfoCmdAspectAngleHelp">Display number of degrees measured from the tail of a target to your aircraft</String>
+	<String ID="ObjectsInfoCmdDisplayObjectsInfoText">Display in 3D view</String>
+	<String ID="ObjectsInfoCmdDisplayObjectsInfoHelp">Display selected objects info in the 3D view</String>
+	<String ID="ObjectsInfoCmdLineOfSightRateText">Range / Line of Sight Rate</String>
+	<String ID="ObjectsInfoCmdLineOfSightRateHelp">Display range and line of sight rate between selected objects</String>
+
+	<!-- Charts -->
+	<String ID="ChartDisplayObjet0Tooltip">Display main object</String>
+	<String ID="ChartDisplayObjet0Help">Display main object data</String>
+	<String ID="ChartDisplayObjet1Tooltip">Display secondary object</String>
+	<String ID="ChartDisplayObjet1Help">Display secondary object data</String>
+	<String ID="ChartDisplayObjet2Tooltip">Display third object</String>
+	<String ID="ChartDisplayObjet2Help">Display third object data</String>
+	<String ID="ChartDisplayObjet3Tooltip">Display fourth object</String>
+	<String ID="ChartDisplayObjet3Help">Display fourth object data</String>
+	<String ID="ChartOneClickChartTooltip">Predefined charts</String>
+	<String ID="ChartOneClickChartMenuHelp">Choose a predefined chart</String>
+	<String ID="ChartPrimaryYAxisTooltip">Primary Y axis type</String>
+	<String ID="ChartPrimaryYAxisHelp">Select data displayed on primary Y axis</String>
+	<String ID="ChartXAxisTooltip">X axis type</String>
+	<String ID="ChartXAxisHelp">Select data displayed on X axis</String>
+	<String ID="ChartSecondaryYAxisTooltip">Secondary Y axis type</String>
+	<String ID="ChartSecondaryYAxisHelp">Select data displayed on secondary Y axis</String>
+	<String ID="ChartResetZoomTooltip">Reset zoom</String>
+	<String ID="ChartResetZoomHelp">Show the entire chart on screen</String>
+	<String ID="ChartZoomOutTooltip">Zoom out</String>
+	<String ID="ChartZoomOutHelp">Show more data</String>
+	<String ID="ChartZoomInTooltip">Zoom in</String>
+	<String ID="ChartZoomInHelp">Show more details</String>
+	<String ID="ChartExportTelemetryTooltip">Export</String>
+	<String ID="ChartExportTelemetryHelp">Export telemetry data in a file readable by other tools</String>
+	<String ID="ExportTelemetryText">Export Telemetry</String>
+	<String ID="ExportTelemetryHelp">Export chart in CSV file format</String>
+	<String ID="ExportTelemetryPositionText">Include Position</String>
+	<String ID="ExportTelemetryPositionHelp">Include aircraft position in exported data</String>
+	<String ID="ExportTelemetryRotationText">Include Rotation</String>
+	<String ID="ExportTelemetryRotationHelp">Include aircraft rotation in exported data</String>
+
+	<String ID="ChartAltitudeSpeedHelp">Standard altitude/speed chart</String>
+	<String ID="ChartAltitudeSpeedText">Altitude/Speed</String>
+	<String ID="ChartEnergyHelp">Energy level and consumption</String>
+	<String ID="ChartEnergyText">Energy</String>
+	<String ID="ChartEnergyTransferHelp">Transfer between kinetic and potential energy</String>
+	<String ID="ChartEnergyTransferText">Energy Transfer</String>
+	<String ID="ChartAccelerationHelp">Compare missiles performance</String>
+	<String ID="ChartAccelerationText">Acceleration</String>
+	<String ID="ChartPerformanceHelp">Analyze missiles performance</String>
+	<String ID="ChartPerformanceText">Performance</String>
+
+	<String ID="AxisNoneHelp">Hide secondary axis</String>
+	<String ID="AxisNoneText">Disabled</String>
+
+	<!-- Telemetry -->
+	<String ID="ATCHelp">ATC like telemetry: altitude/100, vertical speed, and ground speed/10</String>
+	<String ID="ATCText">ATC (ASL+VS+GS)</String>
+	<String ID="RegistrationHelp">Aircraft registration (tail number)</String>
+	<String ID="RegistrationText">Registration number</String>
+	<String ID="BullseyeHelp">Position relative to the main object coalition bullseye</String>
+	<String ID="BullseyeText">Bullseye</String>
+
+	<String ID="TASHelp">Speed of the aircraft relative to the airmass in which it is flying</String>
+	<String ID="TASText">Speed (TAS)</String>
+	<String ID="CASHelp">Calibrated airspeed</String>
+	<String ID="CASText">Speed (CAS)</String>
+	<String ID="IASHelp">Speed read directly from the airspeed indicator</String>
+	<String ID="IASText">Speed (IAS)</String>
+	<String ID="MachHelp">Mach number</String>
+	<String ID="MachText">Speed (Mach)</String>
+	<String ID="ASLHelp">Above mean sea level altitude</String>
+	<String ID="ASLText">Altitude (ASL)</String>
+
+	<String ID="AOAHelp">Angle of attack</String>
+	<String ID="AOAText">Angle of Attack (AOA)</String>
+	<String ID="GHelp">Acceleration relative to free-fall</String>
+	<String ID="GText">G-Force (G)</String>
+	<String ID="RollRateHelp">Roll rate</String>
+	<String ID="RollRateText">Roll Rate (RRT)</String>
+	<String ID="TurnRateHelp">Turn rate</String>
+	<String ID="TurnRateText">Turn Rate (TRT)</String>
+	<String ID="TurnRadiusHelp">Turn radius</String>
+	<String ID="TurnRadiusText">Turn Radius (TRD)</String>
+
+	<String ID="EKHelp">Kinetic energy</String>
+	<String ID="EKText">Kinetic energy (Ek)</String>
+	<String ID="EPHelp">Potential energy</String>
+	<String ID="EPText">Potential energy (Ep)</String>
+	<String ID="EMHelp">Mechanical energy</String>
+	<String ID="EMText">Mechanical energy (Em=Ek+Ep)</String>
+
+	<String ID="GSHelp">Speed of the aircraft relative to the ground</String>
+	<String ID="GSText">Ground Speed (GS)</String>
+	<String ID="VSHelp">Vertical speed</String>
+	<String ID="VSText">Vertical Speed (VS)</String>
+	<String ID="AGLHelp">Above ground level altitude</String>
+	<String ID="AGLText">Altitude (AGL)</String>
+	<String ID="HDGHelp">Direction that the aircraft's nose is pointing relative to true north</String>
+	<String ID="HDGText">Heading (HDG)</String>
+	<String ID="TRKHelp">Effective aircraft move direction relative to true north</String>
+	<String ID="TRKText">Track (TRK)</String>
+	<String ID="FlightPathAngleHelp">Aircraft true slope angle</String>
+	<String ID="FlightPathAngleText">Flight Path Angle</String>
+	<String ID="DistanceAirHelp">Covered air distance</String>
+	<String ID="DistanceAirText">Distance (Air)</String>
+	<String ID="DistanceGroundHelp">Covered ground distance</String>
+	<String ID="DistanceGroundText">Distance (Ground)</String>
+	<String ID="ElevationProfileHelp">Profile of the ground altitude under the aircraft</String>
+	<String ID="ElevationProfileText">Elevation Profile</String>
+
+	<String ID="AbsoluteTimeHelp">Absolute time</String>
+	<String ID="AbsoluteTimeText">Time</String>
+	<String ID="RelativeTimeHelp">Makes data comparison easier</String>
+	<String ID="RelativeTimeText">Relative Time</String>
+
+	<String ID="NoTelemetryHelp">No telemetry displayed</String>
+	<String ID="NoTelemetryText">Disabled</String>
+
+	<String ID="TelemetryMinValue">Min&#9;{0}</String>
+	<String ID="TelemetryMaxValue">Max&#9;{0}</String>
+	<String ID="TelemetryNoLimit">(no restriction)</String>
+
+	<String ID="AltitudeRestrictionsTitle">Altitude Restrictions</String>
+	<String ID="AltitudeRestrictionsIntro">Use this tool to detect when aircraft are beyond the specified limits.&#10;Enter zero (0) to remove a restriction.</String>
+	<String ID="MaxAltitudeLabel">Ceiling Altitude Restriction:</String>
+	<String ID="MaxAltitudeLabelShort">MAX</String>
+	<String ID="MinAltitudeLabel">Floor Altitude Restriction:</String>
+	<String ID="MinAltitudeLabelShort">MIN</String>
+
+	<String ID="BookmarkTitle">Insert a new bookmark</String>
+	<String ID="BookmarkIntro">You are about to create a bookmark containing the active selection and point of view.</String>
+	<String ID="BookmarkLabel">Bookmark Name:</String>
+
+	<String ID="OnlineDebriefingTitle">Online Debriefing</String>
+	<String ID="OnlineDebriefingIntro">Share a debriefing session with your squadron and friends!</String>
+	<String ID="OnlineDebriefingUsername">Username :</String>
+	<String ID="OnlineDebriefingUsernameHelp">Use at least 3 characters</String>
+	<String ID="OnlineDebriefingPassword">Password :</String>
+	<String ID="OnlineDebriefingPort">TCP Port :</String>
+	<String ID="OnlineDebriefingPortHelp">Don't forget to open this port on your router!</String>
+	<String ID="OnlineDebriefingSessionName">Session Name :</String>
+	<String ID="OnlineDebriefingPublicAddress">Public Address :</String>
+	<String ID="OnlineDebriefingHostButton">Host</String>
+	<String ID="OnlineDebriefingEndSessionButton">End Session</String>
+	<String ID="OnlineDebriefingSessionAddress">Host Address :</String>
+	<String ID="OnlineDebriefingSessionAddressHelp">You can connect to IPv4 and IPv6 addresses</String>
+	<String ID="OnlineDebriefingJoinButton">Join</String>
+	<String ID="OnlineDebriefingLeaveButton">Leave</String>
+	<String ID="OnlineDebriefingCancelButton">Cancel</String>
+	<String ID="OnlineDebriefingWarningHost">Only the professional version of Tacview can host an online debriefing session.</String>
+	<String ID="OnlineDebriefingWarningClient">Any registered version of Tacview can join an online debriefing session.</String>
+	<String ID="OnlineDebriefingHostInProgress">Hosting online debriefing session [{0}]</String>
+	<String ID="OnlineDebriefingClientInProgress">Connected to online debriefing session [{0}]</String>
+	<String ID="OnlineDebriefingDataMismatch">Some data is missing; did you load the right file for this debriefing?</String>
+	<String ID="OnlineDebriefingStatusConnecting">Looking for host, please wait...</String>
+	<String ID="OnlineDebriefingStatusFailedToJoin">⚠ Failed to connect, please check the address and port number.</String>
+	<String ID="OnlineDebriefingStatusFailedToHost">⚠ Failed to host session. Use a different port to host multiple sessions on the same computer.</String>
+	<String ID="OnlineDebriefingStatusInvalidProtocol">⚠ Protocol not supported. Are you using the same version of Tacview as the host?</String>
+	<String ID="OnlineDebriefingStatusInvalidPassword">⚠ Invalid password. Have you tried to copy/paste the password to avoid any misspelling?</String>
+	<String ID="OnlineDebriefingHostTip">Shift+Click an object to attract viewers' attention</String>
+	<String ID="OnlineDebriefingClientTip">Press Alt+Enter to switch to fullscreen mode</String>
+	<String ID="OnlineDebriefingControlGivenTip">{0} is temporarily in charge of the debriefing</String>
+	<String ID="OnlineDebriefingControlReceivedTip">You are temporarily in charge of the debriefing</String>
+
+	<String ID="AddEditObjectAddTitle">Create New Object</String>
+	<String ID="AddEditObjectEditTitle">Edit Object Properties</String>
+	<String ID="AddEditObjectHelp">Objects and properties documentation</String>
+	<String ID="AddEditObjectId">ID</String>
+	<String ID="AddEditObjectTime">Time</String>
+	<String ID="AddEditObjectName">Name</String>
+	<String ID="AddEditObjectPilot">Pilot</String>
+	<String ID="AddEditObjectType">Type</String>
+	<String ID="AddEditObjectPosition">Position</String>
+	<String ID="AddEditObjectColor">Color</String>
+	<String ID="AddEditObjectCoalition">Coalition</String>
+	<String ID="AutoValue">(auto)</String>
+	<String ID="CurrentTimeValue">(now)</String>
+	<String ID="NoTypeValue">(none)</String>
+	<String ID="NoNameValue">(none)</String>
+	<String ID="NoColorValue">(none)</String>
+	<String ID="NoCoalitionValue">(none)</String>
+	<String ID="BullseyeValue">(Bullseye)</String>
+	<String ID="FixedWingValue">(Fixed Wing Aircraft)</String>
+	<String ID="TimelessValue">(timeless object)</String>
+
+	<!-- Profiler -->
+	<String ID="ProfilerProfileMainLoopTooltip">Profile Main Loop (F16)</String>
+	<String ID="ProfilerProfileMainLoopHelp">Profile the main loop (capture 1 frames)</String>
+	<String ID="ProfilerProfileMainLoopFourTimesTooltip">Profile Main Loop x4 Times (F17)</String>
+	<String ID="ProfilerProfileMainLoopFourTimesHelp">Profile the main loop (capture 4 frames)</String>
+	<String ID="ProfilerProfileDataLoadingTooltip">Profile Data Loading</String>
+	<String ID="ProfilerProfileDataLoadingHelp">Profile next file loading</String>
+	<String ID="ProfilerProfileDataAnalysisTooltip">Profile Data Analysis</String>
+	<String ID="ProfilerProfileDataAnalysisHelp">Profile next file data analysis</String>
+	<String ID="ProfilerProfileDataSaveTooltip">Profile Data Save</String>
+	<String ID="ProfilerProfileDataSaveHelp">Profile next file save</String>
+	<String ID="ProfilerResetZoomTooltip">Reset zoom</String>
+	<String ID="ProfilerResetZoomHelp">Show the entire profile on screen</String>
+	<String ID="ProfilerProfileMemoryTooltip">Profile Memory (F18)</String>
+	<String ID="ProfilerProfileMemoryHelp">Profile current memory use</String>
+
+	<!-- Add On Strings -->
+	<String ID="AddOnTitleTelemetry0">Telemetry 1</String>
+	<String ID="AddOnTitleTelemetry1">Telemetry 2</String>
+	<String ID="AddOnTitleTelemetry2">Telemetry 3</String>
+	<String ID="AddOnTitleTelemetry3">Telemetry 4</String>
+	<String ID="AddOnTitleRawTelemetry0">Raw Telemetry 1</String>
+	<String ID="AddOnTitleRawTelemetry1">Raw Telemetry 2</String>
+	<String ID="AddOnTitleChart0">Chart 1</String>
+	<String ID="AddOnTitleChart1">Chart 2</String>
+	<String ID="AddOnTitleChart2">Chart 3</String>
+	<String ID="AddOnTitleChart3">Chart 4</String>
+
+	<String ID="AddOnTelemetryName">Name</String>
+	<String ID="AddOnTelemetryData">Data</String>
+	<String ID="AddOnTelemetryRawData">Raw Data</String>
+	<String ID="AddOnTelemetryValue">Value</String>
+	<String ID="AddOnTelemetryInterpretedValue">Interpreted Value</String>
+	<String ID="AddOnTelemetryUnit">Unit</String>
+
+	<String ID="AddOnTelemetryGroupContext">Context</String>
+	<String ID="AddOnTelemetryGroupMetadata">Metadata</String>
+	<String ID="AddOnTelemetryGroupTransform">Transform</String>
+	<String ID="AddOnTelemetryGroupTextProperties">Text Properties</String>
+	<String ID="AddOnTelemetryGroupNumericProperties">Numeric Properties</String>
+
+	<String ID="AddOnTitleDocumentProperties">Properties</String>
+	<String ID="TitleProperty">Title</String>
+	<String ID="AuthorProperty">Author</String>
+	<String ID="CategoryProperty">Category</String>
+	<String ID="SourceProperty">Source</String>
+	<String ID="RecorderProperty">Recording Device</String>
+	<String ID="RecordingTimeProperty">Recording Date</String>
+	<String ID="MissionTimeProperty">Mission Date</String>
+	<String ID="BriefingProperty">Briefing</String>
+	<String ID="DebriefingProperty">Debriefing</String>
+	<String ID="CommentsProperty">Comments</String>
+
+	<String ID="AddOnTitleEventsLog">Flight Log</String>
+	<String ID="AddOnTitleControlsList">Controls List</String>
+	<String ID="AddOnTitleRemoteControl">Remote Control</String>
+	<String ID="AddOnTitleCommandLineOptionsList">Command Line Options</String>
+	<String ID="AddOnTitleUserLicenseAgreement">License Agreement</String>
+	<String ID="AddOnTitleDebugLog">Debug Log</String>
+	<String ID="AddOnTitleEventsProfiler">Events Profiler</String>
+	<String ID="AddOnTitleFunctionsProfiler">Functions Profiler</String>
+	<String ID="AddOnTitleGraphicalProfiler">Graphical Profiler</String>
+	<String ID="AddOnTitleMemoryProfiler">Memory Profiler</String>
+
+	<String ID="DebugEventTime">Time</String>
+	<String ID="DebugEventLevel">Level</String>
+	<String ID="DebugEventModule">Module</String>
+	<String ID="DebugEventMessage">Message</String>
+
+	<String ID="EventsProfilerNames">Event</String>
+	<String ID="EventsProfilerOccurrences">Occurrences</String>
+	<String ID="FunctionsProfilerNames">Function</String>
+	<String ID="FunctionsProfilerSelfRatio">% Self</String>
+	<String ID="FunctionsProfilerSelfTime">Self Time</String>
+	<String ID="FunctionsProfilerTotalTime">Total Time</String>
+	<String ID="FunctionsProfilerOccurrences">Occurrences</String>
+	<String ID="MemoryProfilerFileName">File</String>
+	<String ID="MemoryProfilerCount">Allocations</String>
+	<String ID="MemoryProfilerTotal">Total Size</String>
+	<String ID="MemoryProfilerAverage">Average Size</String>
+
+	<String ID="CommandLineImportExport">Import/Export</String>
+	<String ID="CommandLineBehavior">General Behavior</String>
+	<String ID="CommandLineSpecial">Advanced Options</String>
+	<String ID="CmdOpenHelp">Open an existing flight recording.</String>
+	<String ID="CmdMergeHelp">Merge an existing flight recording with all the data currently loaded.</String>
+	<String ID="CmdSaveHelp">Save flight recording in highly compressed format.</String>
+	<String ID="CmdExportFlightLogHelp">Export flight log as a XML or CSV File.</String>
+	<String ID="CmdFalcon4TheaterHelp">Set Falcon 4.0 theater to use for VHS files. (Aegean, Balkan, Israel, Korea...)</String>
+	<String ID="CmdQuietHelp">Tacview will execute all specified operations then exit without displaying any window.</String>
+	<String ID="CmdQuitHelp">Tacview will be closed after all other specified operations have been completed.</String>
+	<String ID="CmdVBOOffHelp">Disable Vertex Buffer Objects to avoid crashes on some ATI CrossFire configurations.</String>
+	<String ID="CmdDebugModeHelp">Displays debug information to help fixing bugs.</String>
+
+	<String ID="Selection">Selection</String>
+	<String ID="TimeControl">Time Control</String>
+	<String ID="LookMove">Look/Move</String>
+	<String ID="Misc">Miscellaneous</String>
+
+	<String ID="3DView">3D View</String>
+	<String ID="FlightLog">Flight Log</String>
+	<String ID="ObjectsLists">Objects Lists</String>
+	<String ID="FreeCamera">Free Camera</String>
+	<String ID="ChartWindow">Chart Window</String>
+
+	<String ID="ControlsArrows">[W] [A] [S] [D] / [E] [C]</String>
+	<String ID="ControlsCtrlLeftClick">[Ctrl] + [Left Click]</String>
+	<String ID="ControlsCtrlRightClick">[Ctrl] + [Right Click]</String>
+	<String ID="ControlsDoubleClick">[Double Click]</String>
+	<String ID="ControlsLeftRight">[Left] / [Right]</String>
+	<String ID="ControlsMouseLeftDrag">[Mouse Left] + {Drag}</String>
+	<String ID="ControlsMouseRightDrag">[Mouse Right] + {Drag}</String>
+	<String ID="ControlsMouseWheel">[Mouse Wheel]</String>
+	<String ID="ControlsMouseLeftRightDrag">[Mouse Left] + [Mouse Right] + {Drag}</String>
+	<String ID="ControlsMouseWheelDrag">[Mouse Wheel] + {Drag}</String>
+	<String ID="ControlsShiftLeftClick">[Shift] + [Left Click]</String>
+	<String ID="ControlsShiftMove">[Shift] + {Move}</String>
+	<String ID="ControlsSpaceBar">[Space Bar]</String>
+	<String ID="ControlsAltReturn">[Alt] + [Return]</String>
+	<String ID="ControlsCtrlC">[Ctrl] + [C]</String>
+	<String ID="ControlsCtrlV">[Ctrl] + [V]</String>
+
+	<String ID="ControlsBackwardForward">Backward/Forward in time</String>
+	<String ID="ControlsSelectEvent">Go to event and select associated objects</String>
+	<String ID="ControlsMoveCamera">Move camera</String>
+	<String ID="ControlsMoveCameraFast">Move camera fast</String>
+	<String ID="ControlsMoveCameraFaster">Move camera faster</String>
+	<String ID="ControlsPlayPause">Play/Pause</String>
+	<String ID="ControlsRotate">Rotate around selected object(s) / Turn head</String>
+	<String ID="ControlsSelectObject">Select object and go to its creation time if required</String>
+	<String ID="ControlsSelectPrimaryObject">Select primary object from the 3D view</String>
+	<String ID="ControlsSelectSecondaryObject">Select secondary object from the 3D view</String>
+	<String ID="ControlsZoomInOut">Zoom In/Out</String>
+	<String ID="ControlsToggleFullScreen">Toggle Full Screen Mode</String>
+
+	<!-- Additional Tooltips -->
+	<String ID="UpdateAvailableTooltip">A new version of Tacview is available!</String>
+	<String ID="DCSWorldHookedSmallTooltip">'DCS World' flights recording is enabled</String>
+	<String ID="TwitterLinkTooltip">Twitter</String>
+	<String ID="FacebookLinkTooltip">Facebook</String>
+	<String ID="FlightSimHookTooltipTitle">You can now close Tacview</String>
+	<String ID="FlightSimHookTooltipMessage">When this icon is visible, all flights are automatically recorded by your flight simulator.&#10;It is not necessary to keep Tacview running while you are flying.</String>
+	<String ID="FlightRecordingEmptyNotification">This flight recording is empty.</String>
+	<String ID="LowEndOpenGL">Please update your graphics card driver</String>
+
+	<!-- Message Boxes -->
+	<String ID="SaveFileRequestText">Do you want to save changes to '{0}'&#160;?</String>
+	<String ID="SaveButton">&amp;Save</String>
+	<String ID="DontSaveButton">&amp;Don't Save</String>
+
+	<!-- Dialogs Boxes Strings -->
+	<String ID="LicenseTitle">Tacview License Agreement</String>
+	<String ID="LicenseHint">Please read the following license agreement carefully. You must scroll down to its end to continue.</String>
+	<String ID="LicenseAccept">&amp;Accept</String>
+	<String ID="LicenseDecline">&amp;Decline</String>
+	<String ID="RegisterTitle">Register your copy of Tacview</String>
+	<String ID="UpgradeTitle">Upgrade to Tacview Professional</String>
+	<String ID="RegisterSubTitle">Enter your product key</String>
+	<String ID="RegisterComment">To register your product and unlock advanced features, enter the 25-character key you have received by email. If you do not have a product key yet, you can buy a new one.</String>
+	<String ID="UpgradeComment">To upgrade your product and unlock advanced features, enter the 25-character Tacview Professional key you have received by email. If you do not have a professional product key yet, you can buy a new one.</String>
+	<String ID="RegisterExample">Example:</String>
+	<String ID="RegisterProductKey">Product Key:</String>
+	<String ID="RegisterBuyProductKey">Buy a new product key online</String>
+	<String ID="RegisterInvalidProductKey">This product key is not valid. Please check the key and try again.</String>
+	<String ID="RegistrationSucceededSubTitle">Congratulations!</String>
+	<String ID="RegistrationSucceededComment">Your copy is now registered. Keep your product key in a safe place in case you ever need to reinstall your Tacview.&#10;&#10;In addition to many exclusive advanced features, you now have priority technical support as well as privileged access to updates and previews of future versions of Tacview 2.x.</String>
+	<String ID="RegistrationSucceededURL">Learn more about the advantages of using a registered copy of Tacview</String>
+	<String ID="RequireHomeLicenseText">To use this version of Tacview you need to register your copy.</String>
+	<String ID="RequireProfessionalLicenseText">To use this version of Tacview you need a Professional license.</String>
+
+	<!-- Additional Dialogs Strings -->
+	<String ID="BrowseDCSWorldFolderHelp">Please select 'DCS World' install folder</String>
+	<String ID="BrowseExportPathFolderHelp">Please choose where to record .acmi files for the current user</String>
+	<String ID="Falcon4TheaterFilter">Falcon 4.0 Theater:</String>
+
+	<!-- Online Debriefing -->
+	<String ID="HostLabel">(host)</String>
+	<String ID="InstructorLabel">(instructor)</String>
+	<String ID="UnknownIPAddress">(unknown)</String>
+	<String ID="OnlineDebriefingHostTitle">Hosting &#2;{0}&#1; Debriefing</String>
+	<String ID="OnlineDebriefingClientJoiningTitle">Connecting to debriefing...</String>
+	<String ID="OnlineDebriefingClientTitle">Connected to &#2;{0}&#1; Debriefing</String>
+
+	<!-- Misc -->
+	<String ID="DemoEditionShortOneDay">Demo ({0} day left)</String>
+	<String ID="DemoEditionShortManyDays">Demo ({0} days left)</String>
+	<String ID="FreeEditionShort"></String>
+	<String ID="HomeEditionShort">Home</String>
+	<String ID="ProfessionalEditionShort">Professional</String>
+	<String ID="CommercialEditionShort">Commercial ({0})</String>
+	<String ID="DemoEditionOneDay">{0} Demo, {1} day left</String>
+	<String ID="DemoEditionManyDays">{0} Demo, {1} days left</String>
+	<String ID="FreeEdition">{0} Free Edition</String>
+	<String ID="HomeEdition">{0} Home Edition</String>
+	<String ID="ProfessionalEdition">{0} Professional Edition</String>
+	<String ID="CommercialEdition">{0} Commercial Edition (will expire on {1})</String>
+	<String ID="32bitEdition">32-bit</String>
+	<String ID="64bitEdition">64-bit</String>
+	<String ID="ProfessionalToolDemoWarningOneDay">This tool is available in Tacview <a href="cmd:RegisterCmd">Professional Edition</a>. You can try it for {0} day.</String>
+	<String ID="ProfessionalToolDemoWarningManyDays">This tool is available in Tacview <a href="cmd:RegisterCmd">Professional Edition</a>. You can try it for {0} days.</String>
+	<String ID="ProfessionalToolDemoExpired">You must <a href="cmd:RegisterCmd">upgrade your license</a> to the Professional Edition to use this tool.</String>
+	<String ID="HomeToolDemoWarningOneDay">This tool is available in Tacview <a href="cmd:RegisterCmd">Home Edition</a>. You can try it for {0} day.</String>
+	<String ID="HomeToolDemoWarningManyDays">This tool is available in Tacview <a href="cmd:RegisterCmd">Home Edition</a>. You can try it for {0} days.</String>
+	<String ID="HomeToolDemoExpired">You must <a href="cmd:RegisterCmd">upgrade your license</a> to the Home or Professional Edition to use this tool.</String>
+	<String ID="StrategicViewDemoWarning">This Strategic View is available in Tacview Professional.</String>
+	<String ID="ExpiredCommercialLicense">Your commercial license as expired on {0},&#10;DO NOT use this version in commercial and institutional environments.</String>
+
+	<!-- Units -->
+	<String ID="UnitLabelASL">ASL Altitude ({0})</String>
+	<String ID="UnitLabelAGL">AGL Altitude ({0})</String>
+	<String ID="UnitLabelElevationProfile">Ground Elevation ({0})</String>
+	<String ID="UnitLabelTAS">TAS ({0})</String>
+	<String ID="UnitLabelIAS">IAS ({0})</String>
+	<String ID="UnitLabelGS">Ground Speed ({0})</String>
+	<String ID="UnitLabelAbsoluteTime">Time</String>
+	<String ID="UnitLabelRelativeTime">Relative Time</String>
+	<String ID="UnitLabelMachNumber">Mach</String>
+	<String ID="UnitLabelAbsoluteAOA">AOA (°)</String>
+	<String ID="UnitLabelIndicatedAOA">AOA (°)</String>
+	<String ID="UnitLabelAbsoluteG">g-force (G)</String>
+	<String ID="UnitLabelIndicatedG">g-force (G)</String>
+	<String ID="UnitLabelRollRate">Roll Rate (°/s)</String>
+	<String ID="UnitLabelTurnRate">Turn Rate (°/s)</String>
+	<String ID="UnitLabelTurnRadius">Turn Radius ({0})</String>
+	<String ID="UnitLabelKineticEnergy">Kinetic Energy (Ek)</String>
+	<String ID="UnitLabelPotentialEnergy">Potential Energy (Ep)</String>
+	<String ID="UnitLabelMechanicalEnergy">Mechanical Energy (Em)</String>
+	<String ID="UnitLabelVS">VS ({0})</String>
+	<String ID="UnitLabelHeading">Heading (°)</String>
+	<String ID="UnitLabelTrack">Track (°)</String>
+	<String ID="UnitLabelDistanceAir">Air Distance ({0})</String>
+	<String ID="UnitLabelDistanceGround">Ground Distance ({0})</String>
+
+	<!-- **** Not certified below **** -->
+
+	<!-- Dialogs Strings -->
+	<String ID="ScriptInstallFailedText">Export script installation has failed¤Please ensure that '{0}' is properly installed and you have write access to its folder.</String>
+	<String ID="ScriptUninstallFailedText">Export script removing has failed¤Please ensure that you have write access to '{0}' folder.</String>
+	<String ID="InvalidCommandLineArgumentText">Unsupported command line argument: [{0}]¤Please consult the help menu for the list of available commands, and make sure that everything is properly spelt.</String>
+	<String ID="InvalidShortcutText">Cannot find in the current mission the objects and time referenced by this shortcut. Make sure you have opened the right file and copy/pasted the whole shortcut.</String>
+
+	<String ID="AboutTitle">About Tacview</String>
+	<String ID="AboutCopyright">Copyright © 2006-2016, Stra Software. All Rights Reserved.&#10;This computer program is protected by copyright law and international treaties.&#10;You can reproduce and distribute freely unmodified version of this program.</String>
+
+	<String ID="LoadingInProgressShort">Loading...</String>
+	<String ID="LoadingInProgress">Loading '{0}'</String>
+	<String ID="DataMergeInProgress">Merging '{0}'</String>
+	<String ID="DataAnalysisInProgress">Analysing data...</String>
+	<String ID="SavingInProgressShort">Saving...</String>
+	<String ID="SavingInProgress">Saving '{0}'</String>
+
+	<!-- Misc GUI Strings -->
+	<String ID="InvalidObjectName">(none)</String>
+	<String ID="GlobalObjectName">Global Properties</String>
+	<String ID="NotAvailable">N/A</String>
+	<String ID="ACMIFileDescription">Tacview ACMI - Flight recording</String>
+	<String ID="VHSFileDescription">Falcon 4.0 - Flight recording</String>
+	<String ID="CustomProtocolDescription">Tacview Shortcut</String>
+	<String ID="NoRecentDocuments">(No recent document)</String>
+	<String ID="FileTypeDescriptionAnyTelemetryFile">Any Telemetry Data</String>
+	<String ID="FileTypeDescriptionTacviewText">Tacview Text Telemetry Data</String>
+	<String ID="FileTypeDescriptionTacviewBinary">Tacview Binary Telemetry Data</String>
+	<String ID="FileTypeDescriptionGAEText">GAE Distributed Interactive Simulation Text Data</String>
+	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole Markup Language static objects</String>
+	<String ID="FileTypeDescriptionGPX">GPS Exchange Format</String>
+	<String ID="FileTypeDescriptionVHS">Falcon 4.0 Flight Recordings</String>
+	<String ID="FileTypeDescriptionMAVLink">MAVLink telemetry</String>
+	<String ID="FileTypeDescriptionCSV">Comma-separated values</String>
+	<String ID="FileTypeDescriptionKML">Keyhole Markup Language</String>
+	<String ID="FileTypeDescriptionXMLFlightLog">XML Flight Log</String>
+	<String ID="FileTypeDescriptionCSVFlightLog">UTF-8 comma-separated values Flight Log</String>
+	<String ID="FileTypeDescriptionCSVTelemetry">UTF-8 comma-separated values file</String>
+	<String ID="FileTypeDescriptionObjectsMany">Static Objects and Falcon 4.0 BMS DTC Files</String>
+	<String ID="FileTypeDescriptionAny">Any File</String>
+	<String ID="FileTypeDescriptionTacviewZip">Zip compressed Tacview telemetry Data</String>
+	<String ID="FileTypeDescriptionTacview7z">7z compressed Tacview telemetry Data</String>
+	<String ID="FileTypeDescriptionZip">Telemetry Data in a ZIP archive</String>
+	<String ID="FileTypeDescription7z">Telemetry Data in a 7z archive</String>
+	<String ID="TypeColumn">Type</String>
+	<String ID="TimeColumn">Time</String>
+	<String ID="EventColumn">Event</String>
+	<String ID="LogLevelDebug">DEBUG</String>
+	<String ID="LogLevelInfo">INFO</String>
+	<String ID="LogLevelWarning">WARNING</String>
+	<String ID="LogLevelError">ERROR</String>
+
+	<!-- Flight Recording Strings -->
+	<String ID="ObjectNameShrapnel">Shrapnel</String>
+	<String ID="ObjectNameShell">Shell</String>
+	<String ID="ObjectNameBullet">Bullet</String>
+	<String ID="ObjectNameChaff">Chaff</String>
+	<String ID="ObjectNameFlare">Flare</String>
+	<String ID="ObjectNameSmokeGrenade">Smoke Grenade</String>
+	<String ID="ObjectNameBuilding">Building</String>
+
+	<String ID="EventDecoyed">(decoyed)</String>
+	<String ID="EventDecoyedBy">(decoyed by {0})</String>
+	<String ID="EventHasDestroyed">(has destroyed {0})</String>
+	<String ID="EventHasHit">(has hit {0})</String>
+	<String ID="EventFlightRecordingStart">Begin of flight recording</String>
+	<String ID="EventFlightRecordingEnd">End of flight recording (duration: {0,02}:{1,02}:{2,02})</String>
+	<String ID="EventHasEnteredTheArea">{0} has entered the area</String>
+	<String ID="EventHasEnteredTheAreaCloseTo">{0} has entered the area close to {1}</String>
+	<String ID="EventHasEnteredTheAreaAt">{0} has entered the area at {1}</String>
+	<String ID="EventHasLanded">{0} has landed</String>
+	<String ID="EventHasLandedCloseTo">{0} has landed close to {1}</String>
+	<String ID="EventHasLandedAt">{0} has landed at {1}</String>
+	<String ID="EventHasLandedOn">{0} has landed on {1}</String>
+	<String ID="EventHasLeftTheArea">{0} has left the area</String>
+	<String ID="EventHasLeftTheAreaCloseTo">{0} has left the area (close to {1})</String>
+	<String ID="EventHasLeftTheAreaFrom">{0} has left the area (from {1})</String>
+	<String ID="EventHasTakeOff">{0} has taken off</String>
+	<String ID="EventHasTakeOffCloseTo">{0} has taken off close to {1}</String>
+	<String ID="EventHasTakeOffFrom">{0} has taken off from {1}</String>
+	<String ID="EventHasFiredSingle">{0} has fired {1}</String>
+	<String ID="EventHasFiredMultiple">{0} has fired {2}× {1}</String>
+	<String ID="EventHasBeenHitBySingle">{0} has been hit by {1}</String>
+	<String ID="EventHasBeenHitByMultiple">{0} has been hit {2} times by {1}</String>
+	<String ID="EventHasBeenDestroyed">{0} has been destroyed</String>
+	<String ID="EventHasBeenDestroyedBy">{0} has been destroyed by {1}</String>
+
+	<String ID="StatusPlay">PLAY</String>
+	<String ID="StatusPlayFast">PLAY &#2;×{0:g}</String>
+	<String ID="StatusRewind">REWIND</String>
+	<String ID="StatusRewindFast">REWIND &#2;×{0:g}</String>
+	<String ID="StatusPause">PAUSE</String>
+
+	<!-- Error Messages -->
+	<String ID="ErrorUnknown">Unknown error 0x{0,08:X}</String>
+
+	<String ID="LoadingErrorObjectNotFound">File '{1}' not found.¤Please ensure that the given flight recording is accessible and available.</String>
+	<String ID="LoadingErrorInvalidName">'{1}' is an invalid file name.¤Please retry with a well formatted or a simplier file name.</String>
+	<String ID="LoadingErrorInvalidFormat">Invalid file format.¤'{1}' is not a flight recording or it is not well formatted.</String>
+	<String ID="LoadingErrorInvalidObject">Invalid file.¤'{1}' seems to have been corrupted.</String>
+	<String ID="LoadingErrorOutOfMemory">Out of memory.¤Try to close some applications then retry.¤(This flight recording may also be too huge.)</String>
+	<String ID="LoadingErrorNotSupported">The file format of '{1}' is not supported.¤Check &lt;a href="http://tacview.net"&gt;the official website&lt;/a&gt; to know if there is a newer version of Tacview or another edition which can read this file.</String>
+	<String ID="LoadingErrorMissingParameter">Invalid file format.¤One required parameter is missing.</String>
+	<String ID="LoadingErrorInvalidParameter">Invalid file format.¤Some parameters are invalid.</String>
+	<String ID="LoadingErrorOutOfSpace">Unsupported file format.¤'{1}' may be created with a newer version of Tacview.</String>
+	<String ID="LoadingErrorInvalidID">Invalid file format.¤Invalid unit ID.</String>
+	<String ID="LoadingErrorUnexpectedCall">Invalid file format.¤One unit is still referenced after having left the area.</String>
+	<String ID="LoadingErrorEndOfFile">'{1}' is empty.¤Please ensure that the export script is properly installed and not disabled by the online server you are playing on.</String>
+	<String ID="LoadingErrorInvalidPath">Invalid path.¤Please ensure that the given flight recording is accessible and available.</String>
+
+	<String ID="SavingErrorInvalidName">Invalid file name.¤Please retry with a well formatted or a simplier file name.</String>
+	<String ID="SavingErrorInvalidPath">Invalid path.¤Please ensure that the target path is accessible and available.</String>
+	<String ID="SavingErrorOutOfMemory">Out of memory.¤Try to close some applications then retry.</String>
+	<String ID="SavingErrorOutOfSpace">Disk full.¤Remove some files then retry.</String>
+	<String ID="SavingErrorSharingViolation">Sharing Violation.¤Ensure that this file is not already in use by another application.</String>
+
+	<!-- Misc Help Strings -->
+	<String ID="TTRewind">Return To The Beginning</String>
+	<String ID="TTSlower">Slower</String>
+	<String ID="TTPlayPause">Play / Pause</String>
+	<String ID="TTFaster">Faster</String>
+	<String ID="TTEnd">Go To End</String>
+	<String ID="TTOneFrame">Frame By Frame</String>
+
+	<String ID="TTViewCockpit">Cockpit View (F5)</String>
+	<String ID="TTViewExternal">External View (F6)</String>
+	<String ID="TTViewSatellite">Satellite View (F7)</String>
+	<String ID="TTViewFree">Free Camera (F8)</String>
+
+	<String ID="TTDrawHeight">Display Objects Height</String>
+	<String ID="TTDrawDirection">Display Selected Objects Direction</String>
+	<String ID="TTDrawIDs">Display Objects IDs</String>
+	<String ID="TTDrawThreats">Display SAM/AAA Lethal Range</String>
+	<String ID="TTDrawRadarLocks">Display Radar Locks (when available)</String>
+	<String ID="TTDrawAutoScaleUp">Scale-up automatically distant objects</String>
+	<String ID="TTShare">Share Shortcuts</String>
+	<String ID="TTTakeControl">Take Control (Online Debriefing)</String>
+
+	<String ID="TTObjectsRange">Range and rate of closure between selected objects&#10;(Click to swap selected objects, Right-Click for options)</String>
+	<String ID="TTDogfightButton">Dogfight camera mode</String>
+	<String ID="TTTrailSize">Trails size</String>
+
+</Resources>

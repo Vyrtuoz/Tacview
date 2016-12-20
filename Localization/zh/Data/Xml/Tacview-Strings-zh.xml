@@ -26,6 +26,8 @@
 	<String ID="RecordingMenuHelp">设置飞行数据记录</String>
 	<String ID="RecordingNetworkCmdText">&amp;远程记录...</String>
 	<String ID="RecordingNetworkCmdHelp">通过网络记录飞行</String>
+	<String ID="RecordingRemoteControlCmdText">Remote Control</String>
+	<String ID="RecordingRemoteControlCmdHelp">Use the remote-control window to remotely control your favorite flight simulator</String>
 	<String ID="RecordingRecordDCSWorldCmdText">记录DCS &amp;World</String>
 	<String ID="RecordingRecordDCSWorldCmdHelp">记录所有'DCS World'平台数据</String>
 	<String ID="RecordingExportPathCmdText">选择 ACMI 文件&amp;保存位置...</String>
@@ -457,6 +459,7 @@
 
 	<String ID="AddOnTitleEventsLog">飞行日志</String>
 	<String ID="AddOnTitleControlsList">控制列表</String>
+	<String ID="AddOnTitleRemoteControl">Remote Control</String>
 	<String ID="AddOnTitleCommandLineOptionsList">命令行选项</String>
 	<String ID="AddOnTitleUserLicenseAgreement">用户许可协议</String>
 	<String ID="AddOnTitleDebugLog">调试日志</String>
@@ -714,6 +717,7 @@
 	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole标记语言静态对象</String>
 	<String ID="FileTypeDescriptionGPX">GPS eXchange文件</String>
 	<String ID="FileTypeDescriptionVHS">Falcon 4.0飞行记录</String>
+	<String ID="FileTypeDescriptionMAVLink">MAVLink telemetry</String>
 	<String ID="FileTypeDescriptionCSV">CSV（逗号分隔值）文件</String>
 	<String ID="FileTypeDescriptionKML">Keyhole标记语言（KML）格式的飞行记录</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">XML任务报告</String>

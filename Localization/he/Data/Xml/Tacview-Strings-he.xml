@@ -26,6 +26,8 @@
 	<String ID="RecordingMenuHelp">בחר הגדרות הקלטת נתוני טיסה</String>
 	<String ID="RecordingNetworkCmdText">...הקלטת רשת</String>
 	<String ID="RecordingNetworkCmdHelp">הקלט נתוני טיסה באמצעות חיבור רשת</String>
+	<String ID="RecordingRemoteControlCmdText">Remote Control</String>
+	<String ID="RecordingRemoteControlCmdHelp">Use the remote-control window to remotely control your favorite flight simulator</String>
 	<String ID="RecordingRecordDCSWorldCmdText">...DCS World הקלטת</String>
 	<String ID="RecordingRecordDCSWorldCmdHelp">DCS World הקלט נתוני טיסה באמצעות</String>
 	<String ID="RecordingExportPathCmdText">...ACMI תיקיית קבצי</String>
@@ -449,6 +451,7 @@
 
 	<String ID="AddOnTitleEventsLog">יומן טיסות</String>
 	<String ID="AddOnTitleControlsList">רשימת מקשי קיצור</String>
+	<String ID="AddOnTitleRemoteControl">Remote Control</String>
 	<String ID="AddOnTitleCommandLineOptionsList">Command Line אפשרויות</String>
 	<String ID="AddOnTitleUserLicenseAgreement">הסכם התוכנה</String>
 	<String ID="AddOnTitleDebugLog">יומן תקלות</String>
@@ -659,6 +662,7 @@
 	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole Markup Language static objects</String>
 	<String ID="FileTypeDescriptionGPX">GPS eXchange קבצי</String>
 	<String ID="FileTypeDescriptionVHS">Falcon 4.0 הקלטות</String>
+	<String ID="FileTypeDescriptionMAVLink">MAVLink telemetry</String>
 	<String ID="FileTypeDescriptionCSV">CSV (Comma-separated values) files</String>
 	<String ID="FileTypeDescriptionKML">KML הקלטות בפורמט</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">XML יומן טיסות בפורמט</String>

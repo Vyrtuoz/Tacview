@@ -26,6 +26,8 @@
 	<String ID="RecordingMenuHelp">Einstellen der Flugdatenaufzeichnungseinstellungen</String>
 	<String ID="RecordingNetworkCmdText">&amp;Verngesteuertes Aufzeichnen...</String>
 	<String ID="RecordingNetworkCmdHelp">Flug über ein Netzwerk aufzeichnen</String>
+	<String ID="RecordingRemoteControlCmdText">Remote Control</String>
+	<String ID="RecordingRemoteControlCmdHelp">Use the remote-control window to remotely control your favorite flight simulator</String>
 	<String ID="RecordingRecordDCSWorldCmdText">DCS &amp;World Flüge aufzeichnen</String>
 	<String ID="RecordingRecordDCSWorldCmdHelp">Aufzeichnung aller 'DCS World' Flüge</String>
 	<String ID="RecordingExportPathCmdText">ACMI Datei &amp;Aufzeichnungs-Ordner...</String>
@@ -449,6 +451,7 @@
 
 	<String ID="AddOnTitleEventsLog">Fluglog</String>
 	<String ID="AddOnTitleControlsList">Kontrollen Liste</String>
+	<String ID="AddOnTitleRemoteControl">Remote Control</String>
 	<String ID="AddOnTitleCommandLineOptionsList">Kommandozeilen Optionen</String>
 	<String ID="AddOnTitleUserLicenseAgreement">Lizensvereinbarung</String>
 	<String ID="AddOnTitleDebugLog">Fehler Log</String>
@@ -659,6 +662,7 @@
 	<String ID="FileTypeDescriptionKMLStaticObjects">"Keyhole Markup" Sprache statische Objekte</String>
 	<String ID="FileTypeDescriptionGPX">GPS Austausch Format</String>
 	<String ID="FileTypeDescriptionVHS">Falcon 4.0 Flugaufzeichnung</String>
+	<String ID="FileTypeDescriptionMAVLink">MAVLink telemetry</String>
 	<String ID="FileTypeDescriptionCSV">Komma-separierte Werte</String>
 	<String ID="FileTypeDescriptionKML">"Keyhole Markup" Sprache</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">XML Flug Log</String>
