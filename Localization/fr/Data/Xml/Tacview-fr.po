@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.5.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-02 18:36+0400\n"
+"PO-Revision-Date: 2017-01-26 15:04-0500\n"
+"Last-Translator: Vyrtuoz\n"
+"Language-Team: Tacview <support@tacview.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: fr\n"
+"X-Generator: Poedit 1.8.11\n"
+
+msgid "Tacview - The Universal Flight Analysis Tool"
+msgstr "Tacview - l’outil d’analyse de vol universel"
+
+msgid "Tacview is a universal flight analysis tool which enables you to record, analyze, and understand any flight to improve your skills much faster than with conventional debriefings. From the novice pilot to the virtual squadron leader, it is an invaluable tool to understand what really happened and to improve piloting style and tactical skills."
+msgstr "Tacview est un outil d’analyse de vol universel qui vous permet d’enregistrer, analyser et comprendre tout vol afin d’améliorer vos compétences bien plus rapidement qu’à l’aide de débriefings conventionnels. Que ce soit pour le pilote prive ou le chef d'escadrille virtuelle, Tacview est un outil indispensable pour comprendre ce qui est réellement arrivé et pour améliorer aussi bien le style de pilotage que et les compétences tactiques."
+
+msgid "Record Flight Data"
+msgstr "Enregistrer les données de vol"
+
+msgid "Create one file for each network client"
+msgstr "Créer un fichier pour chaque client réseau"
+
+msgid "Records a separate acmi file for each client connected to your server,"
+msgstr "Enregistre un fichier acmi distinct pour chaque client connecté à votre serveur,"
+
+msgid "so each can be shared with your whole squadron later."
+msgstr "de façon à ce qu’ils puissent être partagés avec toute votre escadrille par la suite."
+
+msgid "Bookmark Shortcut"
+msgstr "Raccourcit signets"
+
+msgid "RAlt + B"
+msgstr "AltGr + B"
+
+msgid "Use this shortcut while flying to highlight a specific moment in Tacview log and timeline."
+msgstr "Utilisez ce raccourcit en vol pour souligner un moment spécifique dans la ligne de temps de Tacview."
+
+msgid "NOTE: Works only when the flight is recorded by the local computer."
+msgstr "NOTE : Fonctionne uniquement lorsque le vol est enregistré par l’ordinateur local."
+
+msgid "Playback Delay"
+msgstr "Retard de lecture"
+
+msgid "None (real-time)"
+msgstr "Aucun (temps réel)"
+
+msgid "1 minute"
+msgstr "1 minute"
+
+msgid "10 minutes"
+msgstr "10 minutes"
+
+msgid "20 minutes"
+msgstr "20 minutes"
+
+msgid "30 minutes"
+msgstr "30 minutes"
+
+msgid "As the host of an online session, you can prevent cheating by forcing a delay before"
+msgstr "En tant qu’hôte d’une session réseau, vous pouvez prévenir la triche en forçant un délai avant"
+
+msgid "clients can playback the flight they have recorded on their side."
+msgstr "que les clients ne puissent rejouer le vol qui a été enregistré de leur côté."
+
+msgid "NOTE: Flights recorded in single player mode or by the host are not protected."
+msgstr "NOTE : Les vols enregistrés en mode solo ou par l’hôte d’une session réseau ne sont pas protégés."
+
+msgid "Profiling period"
+msgstr "Période de profilage"
+
+msgid "Defines how often profiling data is output in the dcs.log file."
+msgstr "Définit la fréquence à laquelle les données de performance sont écrites dans le fichier dcs.log"
+
+msgid "Debug Mode"
+msgstr "Mode débogage"
+
+msgid "Records additional debug info for each object and event to help pinpoint specific issues."
+msgstr "Enregistre des infos additionnelles pour aider à corriger des problèmes particuliers."

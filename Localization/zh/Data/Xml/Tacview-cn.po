@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.5.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-02 18:36+0400\n"
+"PO-Revision-Date: 2017-01-26 14:41-0500\n"
+"Last-Translator: 张炯 'Billeinstein'\n"
+"Language-Team: ED Chinese Localization\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 1.8.11\n"
+
+msgid "Tacview - The Universal Flight Analysis Tool"
+msgstr "Tacview - 通用飞行分析工具"
+
+msgid "Tacview is a universal flight analysis tool which enables you to record, analyze, and understand any flight to improve your skills much faster than with conventional debriefings. From the novice pilot to the virtual squadron leader, it is an invaluable tool to understand what really happened and to improve piloting style and tactical skills."
+msgstr "Tacview是一个通用飞行分析工具，允许您记录、分析和理解任何飞行，相比常规报告更快的改进您的技能。从菜鸟飞行员到虚拟中队长，这是一个无价的工具，可以了解实际上发生了什么来改进驾驶风格和战术技巧。"
+
+msgid "Record Flight Data"
+msgstr "记录飞行数据"
+
+msgid "Create one file for each network client"
+msgstr "为每个客户端创建各自的文件"
+
+msgid "Records a separate acmi file for each client connected to your server,"
+msgstr "为每个连接到服务器的客户端记录单独的acmi文件。"
+
+msgid "so each can be shared with your whole squadron later."
+msgstr "那样各个文件之后可以与你的整个中队共享。"
+
+msgid "Bookmark Shortcut"
+msgstr "书签快捷键"
+
+msgid "RAlt + B"
+msgstr "右Alt+B"
+
+msgid "Use this shortcut while flying to highlight a specific moment in Tacview log and timeline."
+msgstr "飞行时使用这个快捷键，在Tacview日志和时间线里标出特定的时刻。"
+
+msgid "NOTE: Works only when the flight is recorded by the local computer."
+msgstr "注意：仅在飞行由本地计算机记录时有效。"
+
+msgid "Playback Delay"
+msgstr "回放延时"
+
+msgid "None (real-time)"
+msgstr "无（实时）"
+
+msgid "1 minute"
+msgstr "1分钟"
+
+msgid "10 minutes"
+msgstr "10分钟"
+
+msgid "20 minutes"
+msgstr "20分钟"
+
+msgid "30 minutes"
+msgstr "30分钟"
+
+msgid "As the host of an online session, you can prevent cheating by forcing a delay before"
+msgstr "作为联机活动的主机，你可以防止作弊"
+
+msgid "clients can playback the flight they have recorded on their side."
+msgstr "在客户端侧播放其录制的回放前强制延时。"
+
+msgid "NOTE: Flights recorded in single player mode or by the host are not protected."
+msgstr "注意：单机游戏模式或主机的飞行记录不受保护。"
+
+msgid "Profiling period"
+msgstr "分析周期"
+
+msgid "Defines how often profiling data is output in the dcs.log file."
+msgstr "指定分析数据输出到dcs.log文件里的频率。"
+
+msgid "Debug Mode"
+msgstr "调试模式"
+
+msgid "Records additional debug info for each object and event to help pinpoint specific issues."
+msgstr "为每个对象和事件录制附加的调试信息来帮助定位特定的问题。"
