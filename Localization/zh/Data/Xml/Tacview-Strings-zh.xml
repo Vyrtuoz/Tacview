@@ -495,6 +495,7 @@
 	<String ID="CmdFalcon4TheaterHelp">设置Falcon 4.0战区使用VHS文件。(Aegean, Balkan, Israel, Korea...)</String>
 	<String ID="CmdQuietHelp">Tacview将执行所有指定操作然后不显示任何窗口退出。</String>
 	<String ID="CmdQuitHelp">Tacview将在所有指定操作完成后关闭。</String>
+	<String ID="CmdDataCollectionHelp">Can be used to disable anonymous data collection.</String>
 	<String ID="CmdVBOOffHelp">禁用顶点缓冲区物体以避免在一些ATI交火配置上崩溃。</String>
 	<String ID="CmdDebugModeHelp">显示调试信息以帮助修补错误。</String>
 
@@ -693,7 +694,7 @@
 	<String ID="InvalidShortcutText">在当前任务里无法通过快捷方式找到物体和时间参考。请确认打开了正确的文件且复制/粘贴了整个快捷方式。</String>
 
 	<String ID="AboutTitle">关于Tacview</String>
-	<String ID="AboutCopyright">版权© 2006-2016, Stra Software. 保留所有权利。&#10;此计算机程序受到版权法和国际协约保护。&#10;你可以复制和分发此程序的未修改版本。</String>
+	<String ID="AboutCopyright">版权© 2006-2017, Stra Software. 保留所有权利。&#10;此计算机程序受到版权法和国际协约保护。&#10;你可以复制和分发此程序的未修改版本。</String>
 
 	<String ID="LoadingInProgressShort">载入...</String>
 	<String ID="LoadingInProgress">载入'{0}'</String>

@@ -311,7 +311,7 @@
 	<String ID="HDGHelp">Dirección en la que la nariz del avión está apuntando relativo al norte verdadero</String>
 	<String ID="HDGText">Rumbo (HDG)</String>
 	<String ID="TRKHelp">Dirección de movimiento efectivo del avión relativo al norte verdadero</String>
-	<String ID="TRKText">Seguimiento  (TRK)</String>
+	<String ID="TRKText">Seguimiento (TRK)</String>
 	<String ID="FlightPathAngleHelp">Angulo verdadero de pendiente</String>
 	<String ID="FlightPathAngleText">Angulo de director de vuelo</String>
 	<String ID="DistanceAirHelp">Distancia aérea recorrida</String>
@@ -487,6 +487,7 @@
 	<String ID="CmdFalcon4TheaterHelp">Configurar el teatro de Falcon 4.0 para usar con los archivos VHS. (Aegean, Balkan, Israel, Korea...)</String>
 	<String ID="CmdQuietHelp">Tacview ejecutara los comandos especificados y después saldrá sin mostrar ninguna ventana.</String>
 	<String ID="CmdQuitHelp">Tacview se cerrara después de que se hayan completado las operaciones.</String>
+	<String ID="CmdDataCollectionHelp">Can be used to disable anonymous data collection.</String>
 	<String ID="CmdVBOOffHelp">Deshabilita el buffer de los vértices de objetos para evitar CTDs en algunas ATI en configuración CrossFire.</String>
 	<String ID="CmdDebugModeHelp">Muestra la información de errores para ayudar a solucionar problemas.</String>
 
@@ -606,7 +607,7 @@
 	<!-- Units -->
 	<String ID="UnitLabelASL">Altitud ASL ({0})</String>
 	<String ID="UnitLabelAGL">Altitud AGL ({0})</String>
-	<String ID="UnitLabelElevationProfile">Elevación terrestre  ({0})</String>
+	<String ID="UnitLabelElevationProfile">Elevación terrestre ({0})</String>
 	<String ID="UnitLabelTAS">TAS ({0})</String>
 	<String ID="UnitLabelIAS">IAS ({0})</String>
 	<String ID="UnitLabelGS">Ground Speed ({0})</String>
@@ -638,11 +639,11 @@
 	<String ID="InvalidShortcutText">No es posible encontrar en la misión actual los objetos y tiempos de referencia del acceso directo. Asegúrese de haber abierto el archivo correcto y haber copiado/pegado el acceso directo entero.</String>
 
 	<String ID="AboutTitle">Sobre Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2016, Stra Software. Todos los derechos reservados.&#10;Este programa informático está protegido por las leyes de copyright y la ley internacional de tratados.&#10;Puede reproducir y distribuir libremente la versión sin modificar de este programa.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2017, Stra Software. Todos los derechos reservados.&#10;Este programa informático está protegido por las leyes de copyright y la ley internacional de tratados.&#10;Puede reproducir y distribuir libremente la versión sin modificar de este programa.</String>
 
 	<String ID="LoadingInProgressShort">Cargando...</String>
 	<String ID="LoadingInProgress">Cargando '{0}'</String>
-	<String ID="DataMergeInProgress">Mezclando  '{0}'</String>
+	<String ID="DataMergeInProgress">Mezclando '{0}'</String>
 	<String ID="DataAnalysisInProgress">Analizando datos...</String>
 	<String ID="SavingInProgressShort">Guardando...</String>
 	<String ID="SavingInProgress">Guardando '{0}'</String>

@@ -486,6 +486,7 @@
 	<String ID="CmdFalcon4TheaterHelp">Sélectionne le théâtre d'opérations à utiliser pour les fichiers VHS de Falcon 4.0. (Aegean, Balkan, Israel, Korea...)</String>
 	<String ID="CmdQuietHelp">Tacview exécutera toutes les opérations spécifiées puis se fermera sans afficher de fenêtre.</String>
 	<String ID="CmdQuitHelp">Tacview se fermera après que toutes les autres opérations aient été exécutées.</String>
+	<String ID="CmdDataCollectionHelp">Désactive la collecte de données anonyme.</String>
 	<String ID="CmdVBOOffHelp">Désactive les Vertex Buffer Objects pour éviter des plantages avec certaines configurations CrossFire d'ATI.</String>
 	<String ID="CmdDebugModeHelp">Affiche des informations de débogage pour aider à corriger des bugs.</String>
 
@@ -637,7 +638,7 @@
 	<String ID="InvalidShortcutText">Impossible de trouver dans cette mission les objets et l'heure contenus dans ce raccourci. Assurez-vous d'avoir ouvert le bon fichier et d'avoir copié/collé l'intégralité du raccourci.</String>
 
 	<String ID="AboutTitle">A propos de Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2016, Stra Software. Tous droits réservés.&#10;Ce logiciel est protégé par les lois internationales sur le copyright.&#10;Vous pouvez reproduire et distribuer librement toute version non modifiée de ce programme.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2017, Stra Software. Tous droits réservés.&#10;Ce logiciel est protégé par les lois internationales sur le copyright.&#10;Vous pouvez reproduire et distribuer librement toute version non modifiée de ce programme.</String>
 
 	<String ID="LoadingInProgressShort">Chargement...</String>
 	<String ID="LoadingInProgress">Chargement de '{0}'</String>

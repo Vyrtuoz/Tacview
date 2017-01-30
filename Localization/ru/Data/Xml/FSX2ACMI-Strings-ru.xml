@@ -6,7 +6,7 @@
 <Resources Language="ru">
 
 	<!-- Status -->
-	<String ID="StatusSimConnectNotInstalled">SimConnect не обнаружен.&#10;Убедитесь, что у вас корректно установлен Microsoft Flight&#160;Simulator&#160; / Lockheed&#160;Martin Prepar3D.</String>
+	<String ID="StatusSimConnectNotInstalled">SimConnect не обнаружен.&#10;Убедитесь, что у вас корректно установлен Microsoft Flight&#160;Simulator&#160;X / Lockheed&#160;Martin Prepar3D.</String>
 	<String ID="StatusWaitingForSimConnect">FSX2ACMI готов к работе!&#10;Теперь можно запустить Microsoft Flight&#160;Simulator&#160;X&#10; / Lockheed&#160;Martin Prepar3D.</String>
 	<String ID="StatusWaitingForSimConnectFailed">Не удалось сохранить запись крайнего вылета...&#10;Перед перезапуском симулятора убедитесь, что на диске достаточно свободного места.</String>
 	<String ID="StatusWaitingForSimConnectSucceeded">Ваш крайний вылет был успешно сохранен!&#10;Можно закрыть FSX2ACMI, либо перезапустить симулятор для новой записи.</String>

@@ -487,6 +487,7 @@
 	<String ID="CmdFalcon4TheaterHelp">(Aegean, Balkan, Israel, Korea...) VHS לשימוש בקבצי Falcon 4.0 הגדר זירת</String>
 	<String ID="CmdQuietHelp">ביצוע הפעולות הנדרשות ללא הצגת פלט כלשהו</String>
 	<String ID="CmdQuitHelp">סגירת התוכנה לאחר ביצוע הפעולות הנדרשות</String>
+	<String ID="CmdDataCollectionHelp">Can be used to disable anonymous data collection.</String>
 	<String ID="CmdVBOOffHelp">ATI למניעת קריסה בחלק מכרטיסי VBO בטל</String>
 	<String ID="CmdDebugModeHelp">מציג נתוני תקלות לפתרון בעיות</String>
 
@@ -638,7 +639,7 @@
 	<String ID="InvalidShortcutText">האובייקט ו/או הזמן המבוקש בקיצור הדרך לא נמצאו בקובץ. אנא וודא כי מדובר בקובץ הנכון וכי העתקת את קיצור הדרך כשורה</String>
 
 	<String ID="AboutTitle">Tacview אודות</String>
-	<String ID="AboutCopyright">Copyright © 2006-2016, Stra Software. All Rights Reserved.&#10;This computer program is protected by copyright law and international treaties.&#10;You can reproduce and distribute freely unmodified version of this program.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2017, Stra Software. All Rights Reserved.&#10;This computer program is protected by copyright law and international treaties.&#10;You can reproduce and distribute freely unmodified version of this program.</String>
 	
 	<String ID="LoadingInProgressShort">...טוען</String>
 	<String ID="LoadingInProgress">'{0}' טוען</String>

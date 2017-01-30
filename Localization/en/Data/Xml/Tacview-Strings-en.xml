@@ -486,6 +486,7 @@
 	<String ID="CmdFalcon4TheaterHelp">Set Falcon 4.0 theater to use for VHS files. (Aegean, Balkan, Israel, Korea...)</String>
 	<String ID="CmdQuietHelp">Tacview will execute all specified operations then exit without displaying any window.</String>
 	<String ID="CmdQuitHelp">Tacview will be closed after all other specified operations have been completed.</String>
+	<String ID="CmdDataCollectionHelp">Can be used to disable anonymous data collection.</String>
 	<String ID="CmdVBOOffHelp">Disable Vertex Buffer Objects to avoid crashes on some ATI CrossFire configurations.</String>
 	<String ID="CmdDebugModeHelp">Displays debug information to help fixing bugs.</String>
 
@@ -637,7 +638,7 @@
 	<String ID="InvalidShortcutText">Cannot find in the current mission the objects and time referenced by this shortcut. Make sure you have opened the right file and copy/pasted the whole shortcut.</String>
 
 	<String ID="AboutTitle">About Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2016, Stra Software. All Rights Reserved.&#10;This computer program is protected by copyright law and international treaties.&#10;You can reproduce and distribute freely unmodified version of this program.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2017, Stra Software. All Rights Reserved.&#10;This computer program is protected by copyright law and international treaties.&#10;You can reproduce and distribute freely unmodified version of this program.</String>
 
 	<String ID="LoadingInProgressShort">Loading...</String>
 	<String ID="LoadingInProgress">Loading '{0}'</String>

@@ -487,6 +487,7 @@
 	<String ID="CmdFalcon4TheaterHelp">Использовать ТВД из Falcon 4.0 для VHS файлов. (Aegean, Balkan, Israel, Korea...)</String>
 	<String ID="CmdQuietHelp">Tacview выполнит все указанные операции и закроется без дополнительных уведомлений.</String>
 	<String ID="CmdQuitHelp">Tacview закроется после того, как будут выполнены все указанные операции.</String>
+	<String ID="CmdDataCollectionHelp">Can be used to disable anonymous data collection.</String>
 	<String ID="CmdVBOOffHelp">Отключить объекты буфера вершин, чтобы избежать падений программы на некторых конфигурациях ATI CrossFire.</String>
 	<String ID="CmdDebugModeHelp">Отображает информацию об отладке, помогающую устранять баги.</String>
 
@@ -638,7 +639,7 @@
 	<String ID="InvalidShortcutText">Невозможно найти объекты и время, на которые ссылается данный ярлык. Убедитесь, что открыт требуемый файл и целиком скопирован / метка вставлена.</String>
 
 	<String ID="AboutTitle">О программе Tacview</String>
-	<String ID="AboutCopyright">© 2006-2016, Stra Software. Все права защищены.&#10;Данное ПО защищено авторским правом и международными соглашениями. Вы можете беспрепятственно копировать и распространять немодифицированные копии этой программы.</String>
+	<String ID="AboutCopyright">© 2006-2017, Stra Software. Все права защищены.&#10;Данное ПО защищено авторским правом и международными соглашениями. Вы можете беспрепятственно копировать и распространять немодифицированные копии этой программы.</String>
 
 	<String ID="LoadingInProgressShort">Загрузка...</String>
 	<String ID="LoadingInProgress">Загружаем '{0}'</String>

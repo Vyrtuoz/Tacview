@@ -103,9 +103,9 @@
 	<String ID="OptionsMetricDataAnalysisUnitsText">Metrische - Daten Analyse</String>
 	<String ID="OptionsMetricDataAnalysisUnitsHelp">Geschwindigkeit(GS): m/s - Vertikale GS: m/s - Höhe: m - Entfernung: m</String>
 	<String ID="OptionsMetricHelicopterUnitsText">Metrisch - Helikopter</String>
-	<String ID="OptionsMetricHelicopterUnitsHelp">Geschwindigkeit(GS): km/h - Vertikale GS: m/s - Höhe: m - Entfernung:  km</String>
+	<String ID="OptionsMetricHelicopterUnitsHelp">Geschwindigkeit(GS): km/h - Vertikale GS: m/s - Höhe: m - Entfernung: km</String>
 	<String ID="OptionsMetricAirplaneUnitsText">Metrisch - Luftfahrzeug</String>
-	<String ID="OptionsMetricAirplaneUnitsHelp">Geschwindigkeit(GS): km/h - Vertikale GS: m/min - Höhe: m - Entfernung:km</String>
+	<String ID="OptionsMetricAirplaneUnitsHelp">Geschwindigkeit(GS): km/h - Vertikale GS: m/min - Höhe: m - Entfernung: km</String>
 
 	<String ID="OptionsImperialDataAnalysisMIUnitsText">Impirische - Daten Analyse (mi)</String>
 	<String ID="OptionsImperialDataAnalysisMIUnitsHelp">Geschwindigkeit(GS): mph - Vertikale GS: ft/min - Höhe: ft - Entfernung: ft</String>
@@ -113,7 +113,7 @@
 	<String ID="OptionsImperialDataAnalysisNMUnitsHelp">Geschwindigkeit(GS): kts - Vertikale GS: ft/min - Höhe: ft - Entfernung: ft</String>
 	<String ID="OptionsImperialAircraftMIUnitsText">Impirisch - Luftfahrzeug (mi)</String>
 	<String ID="OptionsImperialAircraftMIUnitsHelp">Geschwindigkeit(GS): mph - Vertikale GS: ft/min - Höhe: ft - Entfernung: mi &amp; ft</String>
-	<String ID="OptionsImperialAircraftNMUnitsText">Impirisch - Luftfahrzeug  (nm)</String>
+	<String ID="OptionsImperialAircraftNMUnitsText">Impirisch - Luftfahrzeug (nm)</String>
 	<String ID="OptionsImperialAircraftNMUnitsHelp">Geschwindigkeit(GS): kts - Vertikale GS: ft/min - Höhe: ft - Entfernung: nm &amp; ft</String>
 	<String ID="OptionsDistanceAutoSwitch0Text">Entfernungen nicht auf Fuß umschalten</String>
 	<String ID="OptionsDistanceAutoSwitch0Help">Nicht auf Fuß umschalten unter einer bestimmten Entfernung</String>
@@ -487,6 +487,7 @@
 	<String ID="CmdFalcon4TheaterHelp">Wähle Falcon 4.0 Schauplatz für VHS Dateien. (Aegean, Balkan, Israel, Korea...)</String>
 	<String ID="CmdQuietHelp">Tacview wird alle genannten Operationen ausführen und dann ohne ein Fenster anzuzeigen sich schließen.</String>
 	<String ID="CmdQuitHelp">Tacview wird geschlossen, nachdem alle anderen gewählten Operationen fertig gestellt wurden.</String>
+	<String ID="CmdDataCollectionHelp">Can be used to disable anonymous data collection.</String>
 	<String ID="CmdVBOOffHelp">Schalte Vertex Buffer Objekte aus um Abstürze auf einigen ATI CrossFire konfigurationen zu vermeiden.</String>
 	<String ID="CmdDebugModeHelp">Zeigt Fehlerinformationen an um bei der Behebung von Bugs behilflich zu sein.</String>
 
@@ -638,7 +639,7 @@
 	<String ID="InvalidShortcutText">Kann in der aktuellen Mission die Objekte und Zeitreferenz nicht finden, auf die sich dieses Tastenkürzel bezieht. Vergewissern Sie sich, dass Sie die richtige Datei geöffnet und das komplette Tastaturkürzel kopiert und eingefügt haben.</String>
 
 	<String ID="AboutTitle">Über Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2016, Stra Software. All Rights Reserved.&#10;Diese Software ist durch Urheberrechte und internationale Verträge geschützt.&#10;Sie können kostenfrei nicht modifizierte Versionen dieses Programms vervielfältigen und verteilen.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2017, Stra Software. All Rights Reserved.&#10;Diese Software ist durch Urheberrechte und internationale Verträge geschützt.&#10;Sie können kostenfrei nicht modifizierte Versionen dieses Programms vervielfältigen und verteilen.</String>
 
 	<String ID="LoadingInProgressShort">Lade...</String>
 	<String ID="LoadingInProgress">Lade '{0}'</String>

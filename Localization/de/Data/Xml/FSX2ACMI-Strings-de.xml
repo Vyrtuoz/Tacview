@@ -6,7 +6,7 @@
 <Resources Language="de">
 
 	<!-- Status -->
-	<String ID="StatusSimConnectNotInstalled">SimConnect wurde nicht erkannt.&#10;Vergewissern Sie sich, dass entweder Microsoft&#160;Flight&#160;Simulator&#160; X oder Lockheed&#160;Martin Prepar3D richtig auf Ihrem Computer installiert ist.</String>
+	<String ID="StatusSimConnectNotInstalled">SimConnect wurde nicht erkannt.&#10;Vergewissern Sie sich, dass entweder Microsoft&#160;Flight&#160;Simulator&#160;X oder Lockheed&#160;Martin Prepar3D richtig auf Ihrem Computer installiert ist.</String>
 	<String ID="StatusWaitingForSimConnect">FSX2ACMI ist bereit!&#10;Sie können nun Microsoft Flight&#160;Simulator&#160;X&#10;oder Lockheed&#160;Martin Prepar3D starten.</String>
 	<String ID="StatusWaitingForSimConnectFailed">Aufnahme des letzten Fluges ist fehlgeschlagen...&#10;Bevor Sie ihren Simulator neu starten, vergewissern Sie sich, dass genug freier Festplattenplatz vorhanden ist!</String>
 	<String ID="StatusWaitingForSimConnectSucceeded">Ihr letzter Flug wurde erfolgreich aufgenommen!&#10;Sie können nun FSX2ACMI schließen oder Ihren Simulator neu starten um einen neuen Flug aufzunehmen.</String>
