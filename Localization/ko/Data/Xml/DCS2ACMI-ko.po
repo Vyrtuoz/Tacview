@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.5.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-02 18:36+0400\n"
+"PO-Revision-Date: 2017-01-30 12:15-0500\n"
+"Last-Translator: ???\n"
+"Language-Team: ???\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ko\n"
+"X-Generator: Poedit 1.8.11\n"
+
+msgid "Tacview - The Universal Flight Analysis Tool"
+msgstr ""
+
+msgid "Tacview is a universal flight analysis tool which enables you to record, analyze, and understand any flight to improve your skills much faster than with conventional debriefings. From the novice pilot to the virtual squadron leader, it is an invaluable tool to understand what really happened and to improve piloting style and tactical skills."
+msgstr ""
+
+msgid "Record Flight Data"
+msgstr ""
+
+msgid "Create one file for each network client"
+msgstr ""
+
+msgid "Records a separate acmi file for each client connected to your server,"
+msgstr ""
+
+msgid "so each can be shared with your whole squadron later."
+msgstr ""
+
+msgid "Bookmark Shortcut"
+msgstr ""
+
+msgid "RAlt + B"
+msgstr ""
+
+msgid "Use this shortcut while flying to highlight a specific moment in Tacview log and timeline."
+msgstr ""
+
+msgid "NOTE: Works only when the flight is recorded by the local computer."
+msgstr ""
+
+msgid "Playback Delay"
+msgstr ""
+
+msgid "None (real-time)"
+msgstr ""
+
+msgid "1 minute"
+msgstr ""
+
+msgid "10 minutes"
+msgstr ""
+
+msgid "20 minutes"
+msgstr ""
+
+msgid "30 minutes"
+msgstr ""
+
+msgid "As the host of an online session, you can prevent cheating by forcing a delay before"
+msgstr ""
+
+msgid "clients can playback the flight they have recorded on their side."
+msgstr ""
+
+msgid "NOTE: Flights recorded in single player mode or by the host are not protected."
+msgstr ""
+
+msgid "Profiling period"
+msgstr ""
+
+msgid "Defines how often profiling data is output in the dcs.log file."
+msgstr ""
+
+msgid "Debug Mode"
+msgstr ""
+
+msgid "Records additional debug info for each object and event to help pinpoint specific issues."
+msgstr ""
