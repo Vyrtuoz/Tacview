@@ -495,7 +495,7 @@
 	<String ID="CmdFalcon4TheaterHelp">设置Falcon 4.0战区使用VHS文件。(Aegean, Balkan, Israel, Korea...)</String>
 	<String ID="CmdQuietHelp">Tacview将执行所有指定操作然后不显示任何窗口退出。</String>
 	<String ID="CmdQuitHelp">Tacview将在所有指定操作完成后关闭。</String>
-	<String ID="CmdDataCollectionHelp">Can be used to disable anonymous data collection.</String>
+	<String ID="CmdDataCollectionHelp">可用于禁用匿名数据收集。</String>
 	<String ID="CmdVBOOffHelp">禁用顶点缓冲区物体以避免在一些ATI交火配置上崩溃。</String>
 	<String ID="CmdDebugModeHelp">显示调试信息以帮助修补错误。</String>
 
