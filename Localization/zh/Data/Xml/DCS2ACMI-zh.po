@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 1.5.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-02 18:36+0400\n"
-"PO-Revision-Date: 2017-01-30 12:16-0500\n"
+"PO-Revision-Date: 2017-02-17 10:00-0500\n"
 "Last-Translator: 张炯 'Billeinstein'\n"
 "Language-Team: ED Chinese Localization\n"
 "MIME-Version: 1.0\n"
@@ -52,6 +52,9 @@ msgstr "无（实时）"
 msgid "1 minute"
 msgstr "1分钟"
 
+msgid "5 minutes"
+msgstr "5分钟"
+
 msgid "10 minutes"
 msgstr "10分钟"
 
@@ -70,7 +73,19 @@ msgstr "在客户端侧播放其录制的回放前强制延时。"
 msgid "NOTE: Flights recorded in single player mode or by the host are not protected."
 msgstr "注意：单机游戏模式或主机的飞行记录不受保护。"
 
-msgid "Profiling period"
+msgid "Compression Level"
+msgstr ""
+
+msgid "You may want to disable compression if your simulator crashes often and you need to load"
+msgstr ""
+
+msgid "corrupted acmi files."
+msgstr ""
+
+msgid "not compressed"
+msgstr ""
+
+msgid "Profiling Period"
 msgstr "分析周期"
 
 msgid "Defines how often profiling data is output in the dcs.log file."

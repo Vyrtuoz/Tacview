@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 1.5.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-02 18:36+0400\n"
-"PO-Revision-Date: 2017-01-26 15:04-0500\n"
+"PO-Revision-Date: 2017-02-17 10:00-0500\n"
 "Last-Translator: Vyrtuoz\n"
 "Language-Team: Tacview <support@tacview.net>\n"
 "MIME-Version: 1.0\n"
@@ -52,6 +52,9 @@ msgstr "Aucun (temps réel)"
 msgid "1 minute"
 msgstr "1 minute"
 
+msgid "5 minutes"
+msgstr "5 minutes"
+
 msgid "10 minutes"
 msgstr "10 minutes"
 
@@ -70,7 +73,19 @@ msgstr "que les clients ne puissent rejouer le vol qui a été enregistré de le
 msgid "NOTE: Flights recorded in single player mode or by the host are not protected."
 msgstr "NOTE : Les vols enregistrés en mode solo ou par l’hôte d’une session réseau ne sont pas protégés."
 
-msgid "Profiling period"
+msgid "Compression Level"
+msgstr "Niveau de compression"
+
+msgid "You may want to disable compression if your simulator crashes often and you need to load"
+msgstr "Désactivez la compression si votre simulateur crashe fréquemment et que vous avez besoin"
+
+msgid "corrupted acmi files."
+msgstr "d’analyser des fichiers acmi corrompus."
+
+msgid "not compressed"
+msgstr "pas de compression"
+
+msgid "Profiling Period"
 msgstr "Période de profilage"
 
 msgid "Defines how often profiling data is output in the dcs.log file."

@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.5.4\n"
+"Project-Id-Version: 1.6.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-02 18:36+0400\n"
-"PO-Revision-Date: 2017-01-30 12:15-0500\n"
+"PO-Revision-Date: 2017-02-17 10:00-0500\n"
 "Last-Translator: ???\n"
 "Language-Team: ???\n"
 "MIME-Version: 1.0\n"
@@ -52,6 +52,9 @@ msgstr ""
 msgid "1 minute"
 msgstr ""
 
+msgid "5 minutes"
+msgstr ""
+
 msgid "10 minutes"
 msgstr ""
 
@@ -70,7 +73,19 @@ msgstr ""
 msgid "NOTE: Flights recorded in single player mode or by the host are not protected."
 msgstr ""
 
-msgid "Profiling period"
+msgid "Compression Level"
+msgstr ""
+
+msgid "You may want to disable compression if your simulator crashes often and you need to load"
+msgstr ""
+
+msgid "corrupted acmi files."
+msgstr ""
+
+msgid "not compressed"
+msgstr ""
+
+msgid "Profiling Period"
 msgstr ""
 
 msgid "Defines how often profiling data is output in the dcs.log file."
