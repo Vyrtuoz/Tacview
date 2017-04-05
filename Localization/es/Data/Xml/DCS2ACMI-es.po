@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.5.4\n"
+"Project-Id-Version: 1.6.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-02 18:36+0400\n"
-"PO-Revision-Date: 2017-01-30 12:16-0500\n"
+"PO-Revision-Date: 2017-03-31 15:36-0400\n"
 "Last-Translator: Revientor(2017-3-17)\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -13,71 +13,86 @@ msgstr ""
 "Language: es\n"
 "X-Generator: Poedit 1.8.11\n"
 
-msgid "Tacview - La herramienta de análisis universal"
-msgstr ""
+msgid "Tacview - The Universal Flight Analysis Tool"
+msgstr "Tacview - La herramienta de análisis universal"
 
-msgid "Tacview es una herramienta de vuelo que te permite guardar, analizar y entender cualquier vuelo, para mejorar tus habilidades mas rápidamente que con los debriefing convencionales. Desde el piloto novato hasta el líder del escuadrón virtual, es una herramienta inestimable para entender que ocurrió realmente y mejorar las técnicas y estilos de vuelo."
-msgstr ""
+msgid "Tacview is a universal flight analysis tool which enables you to record, analyze, and understand any flight to improve your skills much faster than with conventional debriefings. From the novice pilot to the virtual squadron leader, it is an invaluable tool to understand what really happened and to improve piloting style and tactical skills."
+msgstr "Tacview es una herramienta de vuelo que te permite guardar, analizar y entender cualquier vuelo, para mejorar tus habilidades mas rápidamente que con los debriefing convencionales. Desde el piloto novato hasta el líder del escuadrón virtual, es una herramienta inestimable para entender que ocurrió realmente y mejorar las técnicas y estilos de vuelo."
 
-msgid "Guardar Datos de Vuelo"
-msgstr ""
+msgid "Record Flight Data"
+msgstr "Guardar Datos de Vuelo"
 
-msgid "Crear un archivo para cada cliente de red"
-msgstr ""
+msgid "Create one file for each network client"
+msgstr "Crear un archivo para cada cliente de red"
 
-msgid "Gravar un ACMI individual para cada cliente conectado al servidor,"
-msgstr ""
+msgid "Records a separate acmi file for each client connected to your server,"
+msgstr "Gravar un ACMI individual para cada cliente conectado al servidor,"
 
-msgid "el cual podrá ser compartido con la situación completa mas tarde."
-msgstr ""
+msgid "so each can be shared with your whole squadron later."
+msgstr "el cual podrá ser compartido con la situación completa mas tarde."
 
-msgid "Acceso directo a favoritos"
-msgstr ""
+msgid "Bookmark Shortcut"
+msgstr "Acceso directo a favoritos"
 
 msgid "RAlt + B"
 msgstr ""
 
-msgid "Usa este acceso directo durante el vuelo para marcar un momento especifico en la linea de tiempo y el log de Tacview."
+msgid "Use this shortcut while flying to highlight a specific moment in Tacview log and timeline."
+msgstr "Usa este acceso directo durante el vuelo para marcar un momento especifico en la linea de tiempo y el log de Tacview."
+
+msgid "NOTE: Works only when the flight is recorded by the local computer."
+msgstr "NOTA: Solo funciona cuando el vuelo es grabado en un ordenador local."
+
+msgid "Playback Delay"
+msgstr "Retraso de reproducción"
+
+msgid "None (real-time)"
+msgstr "Ninguno (Tiempo Real)"
+
+msgid "1 minute"
+msgstr "1 minuto"
+
+msgid "5 minutes"
+msgstr "5 minutos"
+
+msgid "10 minutes"
+msgstr "10 minutos"
+
+msgid "20 minutes"
+msgstr "20 minutos"
+
+msgid "30 minutes"
+msgstr "30 minutos"
+
+msgid "As the host of an online session, you can prevent cheating by forcing a delay before"
+msgstr "Como HOST de la sesión online, puedes evitar las trampas forzando un retardo en la reproducción"
+
+msgid "clients can playback the flight they have recorded on their side."
+msgstr "los clientes pueden reproducir el vuelo que hayan gravado en su ordenador."
+
+msgid "NOTE: Flights recorded in single player mode or by the host are not protected."
+msgstr "NOTA: Los vuelos gravado en single player o por el HOST no están protegidos."
+
+msgid "Compression Level"
 msgstr ""
 
-msgid "NOTA: Solo funciona cuando el vuelo es grabado en un ordenador local."
+msgid "You may want to disable compression if your simulator crashes often and you need to load"
 msgstr ""
 
-msgid "Retraso de reproducción "
+msgid "corrupted acmi files."
 msgstr ""
 
-msgid "Ninguno (Tiempo Real)"
+msgid "not compressed"
 msgstr ""
 
-msgid "1 minuto"
-msgstr ""
+msgid "Profiling Period"
+msgstr "Periodo de perfiles"
 
-msgid "10 minutos"
-msgstr ""
+msgid "Defines how often profiling data is output in the dcs.log file."
+msgstr "Define la frecuencia con la que se generan los datos de perfiles en el archivo dcs.log."
 
-msgid "20 minutos"
-msgstr ""
+msgid "Debug Mode"
+msgstr "Modo de depuración"
 
-msgid "30 minutos"
-msgstr ""
-
-msgid "Como HOST de la sesión online, puedes evitar las trampas forzando un retardo en la reproducción"
-msgstr ""
-
-msgid "los clientes pueden reproducir el vuelo que hayan gravado en su ordenador."
-msgstr ""
-
-msgid "NOTA: Los vuelos gravado en single player o por el HOST no están protegidos."
-msgstr ""
-
-msgid "Periodo de perfiles"
-msgstr ""
-
-msgid "Define la frecuencia con la que se generan los datos de perfiles en el archivo dcs.log."
-msgstr ""
-
-msgid "Modo de depuración"
-msgstr ""
-
-msgid "Registra información de depuración adicional para cada objeto y evento para ayudar a identificar problemas específicos."
-msgstr ""
+msgid "Records additional debug info for each object and event to help pinpoint specific issues."
+msgstr "Registra información de depuración adicional para cada objeto y evento para ayudar a identificar problemas específicos."
