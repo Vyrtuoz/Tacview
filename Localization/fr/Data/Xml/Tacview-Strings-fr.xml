@@ -23,10 +23,13 @@
 
 	<String ID="RecordingMenuTooltip">Enregistrement</String>
 	<String ID="RecordingMenuHelp">Définir les paramètres d'enregistrement des vols</String>
-	<String ID="RecordingNetworkCmdText">Enregistrer à &amp;distance...</String>
-	<String ID="RecordingNetworkCmdHelp">Enregistrer un vol à travers le réseau</String>
-	<String ID="RecordingRemoteControlCmdText">Télécommande</String>
-	<String ID="RecordingRemoteControlCmdHelp">Utilisez la fenêtre de télécommande pour contrôler à distance votre simulateur de vol favori</String>
+	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Télémétrie en temps-réel...</String>
+	<String ID="RecordingRealTimeTelemetryCmdHelp">Enregistrer un vol actuellement en cours</String>
+	<String ID="RecordingRemoteControl0Text">Télécommande 1</String>
+	<String ID="RecordingRemoteControl1Text">Télécommande 2</String>
+	<String ID="RecordingRemoteControl2Text">Télécommande 3</String>
+	<String ID="RecordingRemoteControl3Text">Télécommande 4</String>
+	<String ID="RecordingRemoteControlHelp">Utilisez la fenêtre de télécommande pour contrôler à distance votre simulateur de vol favori</String>
 	<String ID="RecordingRecordDCSWorldCmdText">Enregistrer les vols de DCS &amp;World</String>
 	<String ID="RecordingRecordDCSWorldCmdHelp">Enregistrer tous les vols de 'DCS World'</String>
 	<String ID="RecordingExportPathCmdText">Dossier d'enregistrement des &amp;fichiers ACMI...</String>
@@ -165,8 +168,10 @@
 	<String ID="ScaleAutoHelp">La taille sera fonction de la dimension de la vue 3D</String>
 	<String ID="Scale1Text">Petit</String>
 	<String ID="Scale1Help">Taille par défaut</String>
-	<String ID="Scale2Text">Grand</String>
+	<String ID="Scale2Text">Moyen</String>
 	<String ID="Scale2Help">Deux fois plus grand que la taille par défaut</String>
+	<String ID="Scale3Text">Grand</String>
+	<String ID="Scale3Help">Quatre fois plus grand que la taille par défaut</String>
 
 	<String ID="HelpMenuTooltip">Aide</String>
 	<String ID="HelpMenuHelp">Aide et informations générales à propos de ce programme</String>
@@ -195,12 +200,12 @@
 
 	<String ID="RegisterCmdTooltip">Enregistrement</String>
 	<String ID="RegisterCmdHelp">Enregistrer votre copie de Tacview</String>
-	<String ID="UpgradeToProfessionalCmdTooltip">Passer à la version professionnelle</String>
-	<String ID="UpgradeToProfessionalCmdHelp">Mise à niveau vers la version professionnelle</String>
-	<String ID="UpgradeToCommercialCmdTooltip">Passer à la version commerciale</String>
-	<String ID="UpgradeToCommercialCmdHelp">Mise à niveau vers la version commerciale</String>
-	<String ID="UpdateCommercialCmdTooltip">Etendre licence commerciale</String>
-	<String ID="UpdateCommercialCmdHelp">Etendre une licence commerciale en train d’expirer</String>
+	<String ID="UpgradeToProfessionalCmdTooltip">Passer à Tacview Advanced</String>
+	<String ID="UpgradeToProfessionalCmdHelp">Mise à niveau vers Tacview Advanced</String>
+	<String ID="UpgradeToCommercialCmdTooltip">Passer à Tacview Enterprise</String>
+	<String ID="UpgradeToCommercialCmdHelp">Mise à niveau vers Tacview Enterprise</String>
+	<String ID="UpdateCommercialCmdTooltip">Etendre licence Tacview Enterprise</String>
+	<String ID="UpdateCommercialCmdHelp">Etendre une licence Tacview Enterprise en train d’expirer</String>
 
 	<!-- Popup Menus -->
 	<String ID="ObjectsInfoCmdRateOfClosureText">Distance / Vitesse de rapprochement</String>
@@ -260,6 +265,8 @@
 	<String ID="ChartAccelerationText">Accélération</String>
 	<String ID="ChartPerformanceHelp">Analyser les performances des missile</String>
 	<String ID="ChartPerformanceText">Performance</String>
+	<String ID="ChartAttitudeHelp">Analyse la stabilité de l’aéronef ainsi que les oscillations induites par le pilote</String>
+	<String ID="ChartAttitudeText">Assiette</String>
 
 	<String ID="AxisNoneHelp">Désactiver l'axe secondaire</String>
 	<String ID="AxisNoneText">Désactivé</String>
@@ -319,6 +326,10 @@
 	<String ID="DistanceGroundText">Distance (sol)</String>
 	<String ID="ElevationProfileHelp">Profile du sol sous l'aéronef</String>
 	<String ID="ElevationProfileText">Profile du Terrain</String>
+	<String ID="RollHelp">Inclinaison en roulis de l’aéronef</String>
+	<String ID="RollText">Roulis</String>
+	<String ID="PitchHelp">Inclinaison en tangage de l’aéronef</String>
+	<String ID="PitchText">Tangage</String>
 
 	<String ID="AbsoluteTimeHelp">Temps absolu</String>
 	<String ID="AbsoluteTimeText">Temps</String>
@@ -348,7 +359,7 @@
 	<String ID="OnlineDebriefingUsername">Utilisateur :</String>
 	<String ID="OnlineDebriefingUsernameHelp">Utilisez au moins 3 caractères</String>
 	<String ID="OnlineDebriefingPassword">Mot de passe :</String>
-	<String ID="OnlineDebriefingPort">Port TCP :</String>
+	<String ID="OnlineDebriefingPort">Port TCP Tacview :</String>
 	<String ID="OnlineDebriefingPortHelp">N'oubliez pas d'ouvrir ce port sur votre routeur !</String>
 	<String ID="OnlineDebriefingSessionName">Nom de la session :</String>
 	<String ID="OnlineDebriefingPublicAddress">Adresse publique :</String>
@@ -359,7 +370,7 @@
 	<String ID="OnlineDebriefingJoinButton">Rejoindre</String>
 	<String ID="OnlineDebriefingLeaveButton">Déconnecter</String>
 	<String ID="OnlineDebriefingCancelButton">Annuler</String>
-	<String ID="OnlineDebriefingWarningHost">Seule la version professionnelle de Tacview est capable d'héberger un débriefing en ligne.</String>
+	<String ID="OnlineDebriefingWarningHost">Seule Tacview Advanced est capable d'héberger un débriefing en ligne.</String>
 	<String ID="OnlineDebriefingWarningClient">Toutes les versions enregistrées de Tacview peuvent rejoindre un débriefing en ligne.</String>
 	<String ID="OnlineDebriefingHostInProgress">Hébergement du débriefing en ligne [{0}]</String>
 	<String ID="OnlineDebriefingClientInProgress">Connecté au débriefing en ligne [{0}]</String>
@@ -373,6 +384,41 @@
 	<String ID="OnlineDebriefingClientTip">Pressez Alt+Entrée pour passer au mode plein écran</String>
 	<String ID="OnlineDebriefingControlGivenTip">{0} est temporairement en charge du débriefing</String>
 	<String ID="OnlineDebriefingControlReceivedTip">Vous êtes temporairement en charge du débriefing</String>
+
+	<String ID="RemoteControlConnect">Connecter</String>
+	<String ID="RemoteControlDisconnect">Déconnecter</String>
+	<String ID="RemoteControlConnecteding">Connexion...</String>
+	<String ID="RemoteControlConnected">Connecté à {0}</String>
+	<String ID="RemoteControlDisconnected">Déconnecté</String>
+	<String ID="RemoteControlFailed">Echec de connexion au simulateur</String>
+	<String ID="RemoteControlInvalidPassword">Un mot de passe valide est requis pour la connexion</String>
+	<String ID="RemoteControlPort">Port TCP Télécommande :</String>
+	<String ID="RemoteControlHelp">Cliquez pour actionner. Double-cliquez pour redéfinir un contrôle.</String>
+	<String ID="RemoteControlPause">Pauser</String>
+	<String ID="RemoteControlResume">Reprendre</String>
+	<String ID="RemoteControlFlapsUp">Rentrer Volets</String>
+	<String ID="RemoteControlFlapsDown">Sortir Volets</String>
+	<String ID="RemoteControlLandingGearUp">Rentrer Train d’atterrissage</String>
+	<String ID="RemoteControlLandingGearDown">Sortir Train d’atterrissage</String>
+	<String ID="RemoteControlRoll">Roulis</String>
+	<String ID="RemoteControlPitch">Assiette</String>
+	<String ID="RemoteControlYaw">Tangage</String>
+
+	<String ID="RealTimeTelemetryTitle">Télémétrie temps-réel</String>
+	<String ID="RealTimeTelemetryIntro">Etablissez une connexion avec un enregistreur de vol pour examiner les données de télémétrie en temps réel !</String>
+	<String ID="RealTimeTelemetryUsername">Choisissez un nom d’utilisateur :</String>
+	<String ID="RealTimeTelemetryAddress">Addresse enregistreur de vol :</String>
+	<String ID="RealTimeTelemetryPort">Port enregistreur de vol :</String>
+	<String ID="RealTimeTelemetryWarningClient">Seule Tacview Advanced peut enregistrer des données de télémétrie en temps réel.</String>
+	<String ID="RealTimeTelemetryPasswordTip">Un mot de passe peut-être nécessaire pour accéder à une session privée</String>
+	<String ID="RealTimeTelemetryRecordingProgress">Enregistrement depuis {0} {1}</String>
+	<String ID="RealTimeTelemetryOperationCompleted">Enregistrement télémétrie temps réelle terminé.</String>
+	<String ID="RealTimeTelemetryOperationFailed">Echec de connexion télémétrie temps réelle à l’adresse hôte fournie.</String>
+	<String ID="RealTimeTelemetryUnsupportedOperation">La télémétrie temps réelle n’est pas compatible avec l’exporteur hôte.</String>
+	<String ID="RealTimeTelemetryInvalidParameters">Mot de passe télémétrie temps réelle invalide.</String>
+	<String ID="RealTimeTelemetryNotSynchronized">La lecture n’est actuellement pas synchronisée avec la télémétrie temps réelle.</String>
+	<String ID="RealTimeTelemetryConnect">Connecter</String>
+	<String ID="RealTimeTelemetryDisconnect">Déconnecter</String>
 
 	<String ID="AddEditObjectAddTitle">Créer un nouvel objet</String>
 	<String ID="AddEditObjectEditTitle">Editer les propriétés d’un objet</String>
@@ -450,7 +496,10 @@
 
 	<String ID="AddOnTitleEventsLog">Journal de Vol</String>
 	<String ID="AddOnTitleControlsList">Liste des contrôles</String>
-	<String ID="AddOnTitleRemoteControl">Télécommande</String>
+	<String ID="AddOnTitleRemoteControl0">Télécommande 1</String>
+	<String ID="AddOnTitleRemoteControl1">Télécommande 2</String>
+	<String ID="AddOnTitleRemoteControl2">Télécommande 3</String>
+	<String ID="AddOnTitleRemoteControl3">Télécommande 4</String>
 	<String ID="AddOnTitleCommandLineOptionsList">Options de la ligne de commande</String>
 	<String ID="AddOnTitleUserLicenseAgreement">Contrat de licence utilisateur</String>
 	<String ID="AddOnTitleDebugLog">Journal d'évènements</String>
@@ -552,10 +601,10 @@
 	<String ID="LicenseAccept">&amp;Accepter</String>
 	<String ID="LicenseDecline">&amp;Décliner</String>
 	<String ID="RegisterTitle">Enregistrer votre copie de Tacview</String>
-	<String ID="UpgradeTitle">Mise à niveau vers Tacview Professional</String>
+	<String ID="UpgradeTitle">Mise à niveau vers Tacview Advanced</String>
 	<String ID="RegisterSubTitle">Entrez votre clé de produit</String>
 	<String ID="RegisterComment">Pour enregistrer votre produit et débloquer les fonctionnalités avancées, entrez la clé de 25 caractères qui vous avez reçu par email. Si vous n'avez déjà pas une clé de produit, vous pouvez en commander une.</String>
-	<String ID="UpgradeComment">Pour enregistrer votre produit et débloquer les fonctionnalités avancées, entrez la clé de 25 caractères de Tacview Professional qui vous avez reçu par email. Si vous n'avez pas déjà une clé de produit Tacview Professional, vous pouvez en commander une.</String>
+	<String ID="UpgradeComment">Pour enregistrer votre produit et débloquer les fonctionnalités avancées, entrez la clé de 25 caractères de Tacview Advanced qui vous avez reçu par email. Si vous n'avez pas déjà une clé de produit Tacview Advanced, vous pouvez en commander une.</String>
 	<String ID="RegisterExample">Exemple&#160;:</String>
 	<String ID="RegisterProductKey">Clé de produit&#160;:</String>
 	<String ID="RegisterBuyProductKey">Acheter une clé de produit en ligne</String>
@@ -564,7 +613,7 @@
 	<String ID="RegistrationSucceededComment">Votre copie est maintenant enregistrée. Conservez votre clé de produit dans un endroit sur, elle pourrait vous être utile en cas de réinstallation.&#10;&#10;En plus de nombreuses fonctionnalités avancées exclusives, vous bénéficiez à présent d'un support technique prioritaire ainsi qu'un accès privilégié aux mises-à-jour et avant-premières des futures versions de Tacview 2.x.</String>
 	<String ID="RegistrationSucceededURL">Apprendre plus sur les avantages d'utiliser une copie enregistrée de Tacview</String>
 	<String ID="RequireHomeLicenseText">Pour utiliser cette version de Tacview vous devez enregistrer votre copie.</String>
-	<String ID="RequireProfessionalLicenseText">Pour utiliser cette version de Tacview, vous devez posséder une licence professionnelle.</String>
+	<String ID="RequireProfessionalLicenseText">Pour utiliser cette version de Tacview, vous devez posséder une Tacview Advanced.</String>
 
 	<!-- Additional Dialogs Strings -->
 	<String ID="BrowseDCSWorldFolderHelp">Veuillez sélectionner le dossier d'installation de 'DCS World'</String>
@@ -582,32 +631,31 @@
 	<!-- Misc -->
 	<String ID="DemoEditionShortOneDay">Demo ({0} jour restant)</String>
 	<String ID="DemoEditionShortManyDays">Demo ({0} jours restants)</String>
-	<String ID="FreeEditionShort"></String>
-	<String ID="HomeEditionShort">Home</String>
-	<String ID="ProfessionalEditionShort">Professional</String>
-	<String ID="CommercialEditionShort">Commercial ({0})</String>
 	<String ID="DemoEditionOneDay">Démo {0}, {1} jour restant</String>
 	<String ID="DemoEditionManyDays">Démo {0}, {1} jours restants</String>
-	<String ID="FreeEdition">Edition {0} Gratuite</String>
-	<String ID="HomeEdition">Édition Familiale {0}</String>
-	<String ID="ProfessionalEdition">Edition Professionnelle {0}</String>
-	<String ID="CommercialEdition">{0} Edition Commerciale (expire le {1})</String>
+	<String ID="FreeEdition">{0} Starter</String>
+	<String ID="HomeEdition">{0} Standard</String>
+	<String ID="ProfessionalEdition">{0} Advanced</String>
+	<String ID="CommercialEditionAnnual">{0} Enterprise (expire le {1})</String>
+	<String ID="CommercialEditionPerpetual">{0} Enterprise (fin du support le {1})</String>
 	<String ID="32bitEdition">32-bit</String>
 	<String ID="64bitEdition">64-bit</String>
-	<String ID="ProfessionalToolDemoWarningOneDay">Cet outil est disponible dans la <a href="cmd:RegisterCmd">version professionnelle de Tacview</a>. Vous pouvez l'essayer pendant encore {0} jour.</String>
-	<String ID="ProfessionalToolDemoWarningManyDays">Cet outil est disponible dans la <a href="cmd:RegisterCmd">version professionnelle de Tacview</a>. Vous pouvez l'essayer pendant encore {0} jours.</String>
-	<String ID="ProfessionalToolDemoExpired">Vous devez <a href="cmd:RegisterCmd">passer à la version professionnelle</a> de Tacview pour utiliser cet outil.</String>
-	<String ID="HomeToolDemoWarningOneDay">Cet outil est disponible dans la <a href="cmd:RegisterCmd">version familiale de Tacview</a>. Vous pouvez l'essayer pendant encore {0} jour.</String>
-	<String ID="HomeToolDemoWarningManyDays">Cet outil est disponible dans la <a href="cmd:RegisterCmd">version familiale de Tacview</a>. Vous pouvez l'essayer pendant encore {0} jours.</String>
-	<String ID="HomeToolDemoExpired">Vous devez <a href="cmd:RegisterCmd">passer à la version professionnelle</a> ou familiale de Tacview pour utiliser cet outil.</String>
-	<String ID="StrategicViewDemoWarning">Cette vue stratégique est disponible dans la version professionnelle de Tacview.</String>
-	<String ID="ExpiredCommercialLicense">Votre licence commerciale a expiré le {0}, vous ne pouvez&#10;PAS UTILISER cette version dans un environnement commercial ou institutionnel.</String>
+	<String ID="ProfessionalToolDemoWarningOneDay">Cet outil est disponible dans <a href="cmd:RegisterCmd">Tacview Advanced</a>. Vous pouvez l'essayer pendant encore {0} jour.</String>
+	<String ID="ProfessionalToolDemoWarningManyDays">Cet outil est disponible dans <a href="cmd:RegisterCmd">Tacview Advanced</a>. Vous pouvez l'essayer pendant encore {0} jours.</String>
+	<String ID="ProfessionalToolDemoExpired">Vous devez <a href="cmd:RegisterCmd">passer à Tacview Advanced</a> pour utiliser cet outil.</String>
+	<String ID="HomeToolDemoWarningOneDay">Cet outil est disponible dans <a href="cmd:RegisterCmd">Tacview Standard</a>. Vous pouvez l'essayer pendant encore {0} jour.</String>
+	<String ID="HomeToolDemoWarningManyDays">Cet outil est disponible dans <a href="cmd:RegisterCmd">Tacview Standard</a>. Vous pouvez l'essayer pendant encore {0} jours.</String>
+	<String ID="HomeToolDemoExpired">Vous devez <a href="cmd:RegisterCmd">passer Tacview Standard</a> ou supérieur pour utiliser cet outil.</String>
+	<String ID="StrategicViewDemoWarning">Cette vue stratégique est disponible dans Tacview Advanced.</String>
+	<String ID="ExpiredCommercialLicenseAnnual">Votre licence Tacview Enterprise a expiré le {0}, vous ne pouvez&#10;PAS UTILISER cette version dans un environnement commercial ou institutionnel.</String>
+	<String ID="ExpiredCommercialLicensePerpetual">Votre support de Tacview Enterprise a expiré le {0},&#10;Veuillez nous contacter si vous souhaites utiliser cette nouvelle version.</String>
 
 	<!-- Units -->
 	<String ID="UnitLabelASL">Altitude ASL ({0})</String>
 	<String ID="UnitLabelAGL">Altitude AGL ({0})</String>
 	<String ID="UnitLabelElevationProfile">Profil du terrain ({0})</String>
 	<String ID="UnitLabelTAS">TAS ({0})</String>
+	<String ID="UnitLabelCAS">CAS ({0})</String>
 	<String ID="UnitLabelIAS">IAS ({0})</String>
 	<String ID="UnitLabelGS">Vitesse sol ({0})</String>
 	<String ID="UnitLabelAbsoluteTime">Temps</String>
@@ -628,6 +676,8 @@
 	<String ID="UnitLabelTrack">Cap (°)</String>
 	<String ID="UnitLabelDistanceAir">Distance Air ({0})</String>
 	<String ID="UnitLabelDistanceGround">Distance Sol ({0})</String>
+	<String ID="UnitLabelRoll">Roulis ({0})</String>
+	<String ID="UnitLabelPitch">Tangage ({0})</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -638,7 +688,7 @@
 	<String ID="InvalidShortcutText">Impossible de trouver dans cette mission les objets et l'heure contenus dans ce raccourci. Assurez-vous d'avoir ouvert le bon fichier et d'avoir copié/collé l'intégralité du raccourci.</String>
 
 	<String ID="AboutTitle">A propos de Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2017, Stra Software. Tous droits réservés.&#10;Ce logiciel est protégé par les lois internationales sur le copyright.&#10;Vous pouvez reproduire et distribuer librement toute version non modifiée de ce programme.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2017, Raia Software. Tous droits réservés.&#10;Ce logiciel est protégé par les lois internationales sur le copyright.</String>
 
 	<String ID="LoadingInProgressShort">Chargement...</String>
 	<String ID="LoadingInProgress">Chargement de '{0}'</String>
@@ -771,5 +821,8 @@
 	<String ID="TTObjectsRange">Distance et vitesse de rapprochement des objets sélectionnés&#10;(Cliquez pour échanger les objets sélectionnés, Click-Droit pour voir les options)</String>
 	<String ID="TTDogfightButton">Mode caméra combat tournoyant</String>
 	<String ID="TTTrailSize">Taille des trainées</String>
+	<String ID="TTTrailSizeValueHMS">{0} h {1} m {2} s</String>
+	<String ID="TTTrailSizeValueMS">{0} m {1} s</String>
+	<String ID="TTTrailSizeValueS">{0} s</String>
 
 </Resources>

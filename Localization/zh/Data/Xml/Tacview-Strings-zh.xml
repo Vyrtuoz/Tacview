@@ -24,10 +24,13 @@
 
 	<String ID="RecordingMenuTooltip">记录</String>
 	<String ID="RecordingMenuHelp">设置飞行数据记录</String>
-	<String ID="RecordingNetworkCmdText">&amp;远程记录...</String>
-	<String ID="RecordingNetworkCmdHelp">通过网络记录飞行</String>
-	<String ID="RecordingRemoteControlCmdText">遥控</String>
-	<String ID="RecordingRemoteControlCmdHelp">使用遥控窗口来远程控制你最喜欢的飞行模拟器</String>
+	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Real-Time Telemetry...</String>
+	<String ID="RecordingRealTimeTelemetryCmdHelp">Record a flight currently in progress</String>
+	<String ID="RecordingRemoteControl0Text">遥控1</String>
+	<String ID="RecordingRemoteControl1Text">遥控2</String>
+	<String ID="RecordingRemoteControl2Text">遥控3</String>
+	<String ID="RecordingRemoteControl3Text">遥控4</String>
+	<String ID="RecordingRemoteControlHelp">使用遥控窗口来远程控制你最喜欢的飞行模拟器</String>
 	<String ID="RecordingRecordDCSWorldCmdText">记录DCS &amp;World</String>
 	<String ID="RecordingRecordDCSWorldCmdHelp">记录所有'DCS World'平台数据</String>
 	<String ID="RecordingExportPathCmdText">选择 ACMI 文件&amp;保存位置...</String>
@@ -166,8 +169,10 @@
 	<String ID="ScaleAutoHelp">大小会根据视口的尺寸变化</String>
 	<String ID="Scale1Text">小</String>
 	<String ID="Scale1Help">默认比例</String>
-	<String ID="Scale2Text">大</String>
+	<String ID="Scale2Text">Medium</String>
 	<String ID="Scale2Help">是默认尺寸的两倍</String>
+	<String ID="Scale3Text">大</String>
+	<String ID="Scale3Help">Four times larger than the default size</String>
 
 	<String ID="HelpMenuTooltip">帮助</String>
 	<String ID="HelpMenuHelp">显示关于此程序的帮助和通用信息</String>
@@ -261,6 +266,8 @@
 	<String ID="ChartAccelerationText">加速度</String>
 	<String ID="ChartPerformanceHelp">分析导弹性能</String>
 	<String ID="ChartPerformanceText">性能</String>
+	<String ID="ChartAttitudeHelp">Analyze aircraft stability and pilot induced oscillations</String>
+	<String ID="ChartAttitudeText">Attitude</String>
 
 	<String ID="AxisNoneHelp">隐藏次轴</String>
 	<String ID="AxisNoneText">禁用</String>
@@ -320,6 +327,10 @@
 	<String ID="DistanceGroundText">距离 (地面)</String>
 	<String ID="ElevationProfileHelp">航空器下方地面的高程剖面</String>
 	<String ID="ElevationProfileText">高程剖面</String>
+	<String ID="RollHelp">Aircraft roll attitude</String>
+	<String ID="RollText">Roll</String>
+	<String ID="PitchHelp">Aircraft pitch attitude</String>
+	<String ID="PitchText">Pitch</String>
 
 	<String ID="AbsoluteTimeHelp">绝对时间</String>
 	<String ID="AbsoluteTimeText">时间</String>
@@ -349,7 +360,7 @@
 	<String ID="OnlineDebriefingUsername">用户名：</String>
 	<String ID="OnlineDebriefingUsernameHelp">至少使用3个字符</String>
 	<String ID="OnlineDebriefingPassword">密码：</String>
-	<String ID="OnlineDebriefingPort">TCP端口：</String>
+	<String ID="OnlineDebriefingPort">Tacview TCP端口：</String>
 	<String ID="OnlineDebriefingPortHelp">别忘记在路由器里打开这个端口！</String>
 	<String ID="OnlineDebriefingSessionName">会议名称：</String>
 	<String ID="OnlineDebriefingPublicAddress">公网地址：</String>
@@ -382,6 +393,41 @@
 	<String ID="OnlineDebriefingClientTip">Press Alt+Enter to switch to fullscreen mode</String>
 	<String ID="OnlineDebriefingControlGivenTip">{0} is temporarily in charge of the debriefing</String>
 	<String ID="OnlineDebriefingControlReceivedTip">You are temporarily in charge of the debriefing</String>
+
+	<String ID="RemoteControlConnect">Connect</String>
+	<String ID="RemoteControlDisconnect">Disconnect</String>
+	<String ID="RemoteControlConnecteding">Connecting...</String>
+	<String ID="RemoteControlConnected">Connected to {0}</String>
+	<String ID="RemoteControlDisconnected">Disconnected</String>
+	<String ID="RemoteControlFailed">Failed to connect to simulator</String>
+	<String ID="RemoteControlInvalidPassword">A valid password is required for this connection</String>
+	<String ID="RemoteControlPort">Remote Control Port :</String>
+	<String ID="RemoteControlHelp">Click an action to activate. Double-click to customize a control.</String>
+	<String ID="RemoteControlPause">Pause</String>
+	<String ID="RemoteControlResume">Resume</String>
+	<String ID="RemoteControlFlapsUp">Flaps Up</String>
+	<String ID="RemoteControlFlapsDown">Flaps Down</String>
+	<String ID="RemoteControlLandingGearUp">Landing Gear Up</String>
+	<String ID="RemoteControlLandingGearDown">Landing Gear Down</String>
+	<String ID="RemoteControlRoll">Roll</String>
+	<String ID="RemoteControlPitch">Pitch</String>
+	<String ID="RemoteControlYaw">Yaw</String>
+
+	<String ID="RealTimeTelemetryTitle">Real-time Telemetry</String>
+	<String ID="RealTimeTelemetryIntro">Establish a connection with a data recorder to review telemetry data in real-time!</String>
+	<String ID="RealTimeTelemetryUsername">Choose a User Name :</String>
+	<String ID="RealTimeTelemetryAddress">Data Recorder Address :</String>
+	<String ID="RealTimeTelemetryPort">Data Recorder Port :</String>
+	<String ID="RealTimeTelemetryWarningClient">Only the professional version of Tacview can record real-time telemetry.</String>
+	<String ID="RealTimeTelemetryPasswordTip">A password may be required to join a private session</String>
+	<String ID="RealTimeTelemetryRecordingProgress">Recording from {0} {1}</String>
+	<String ID="RealTimeTelemetryOperationCompleted">Real-time telemetry recording complete.</String>
+	<String ID="RealTimeTelemetryOperationFailed">Failed to connect real-time telemetry to given host address.</String>
+	<String ID="RealTimeTelemetryUnsupportedOperation">Real-time telemetry not compatible with the host exporter.</String>
+	<String ID="RealTimeTelemetryInvalidParameters">Invalid real-time telemetry password.</String>
+	<String ID="RealTimeTelemetryNotSynchronized">Playback is currently not synchronized with real-time telemetry.</String>
+	<String ID="RealTimeTelemetryConnect">Connect</String>
+	<String ID="RealTimeTelemetryDisconnect">Disconnect</String>
 
 	<String ID="AddEditObjectAddTitle">创建一个新物体</String>
 	<String ID="AddEditObjectEditTitle">编辑物体属性</String>
@@ -459,7 +505,10 @@
 
 	<String ID="AddOnTitleEventsLog">飞行日志</String>
 	<String ID="AddOnTitleControlsList">控制列表</String>
-	<String ID="AddOnTitleRemoteControl">遥控</String>
+	<String ID="AddOnTitleRemoteControl0">遥控1</String>
+	<String ID="AddOnTitleRemoteControl1">遥控2</String>
+	<String ID="AddOnTitleRemoteControl2">遥控3</String>
+	<String ID="AddOnTitleRemoteControl3">遥控4</String>
 	<String ID="AddOnTitleCommandLineOptionsList">命令行选项</String>
 	<String ID="AddOnTitleUserLicenseAgreement">用户许可协议</String>
 	<String ID="AddOnTitleDebugLog">调试日志</String>
@@ -606,16 +655,13 @@
 	<!-- Misc -->
 	<String ID="DemoEditionShortOneDay">演示版（{0}天剩余）</String>
 	<String ID="DemoEditionShortManyDays">演示版（{0}天剩余）</String>
-	<String ID="FreeEditionShort"></String>
-	<String ID="HomeEditionShort">家庭版</String>
-	<String ID="ProfessionalEditionShort">专业版</String>
-	<String ID="CommercialEditionShort">商务版（{0}）</String>
 	<String ID="DemoEditionOneDay">{0}演示版, {1}天剩余</String>
 	<String ID="DemoEditionManyDays">{0}演示版, {1}天剩余</String>
-	<String ID="FreeEdition">{0}免费版</String>
-	<String ID="HomeEdition">{0}家庭版</String>
-	<String ID="ProfessionalEdition">{0}专业版</String>
-	<String ID="CommercialEdition">{0} 商务版（将到期于 {1}）</String>
+	<String ID="FreeEdition">{0} Starter</String>
+	<String ID="HomeEdition">{0} Standard</String>
+	<String ID="ProfessionalEdition">{0} Advanced</String>
+	<String ID="CommercialEditionAnnual">{0} Enterprise (expires on {1})</String>
+	<String ID="CommercialEditionPerpetual">{0} Enterprise (support ends on {1})</String>
 	<String ID="32bitEdition">32位</String>
 	<String ID="64bitEdition">64位</String>
 	<String ID="ProfessionalToolDemoWarningOneDay">此工具仅可运行于Tacview <a href="cmd:RegisterCmd">专业版</a>。 你可以试用{0}天。</String>
@@ -627,10 +673,12 @@
 <!--
 	Chinese characters are not yet supported in the 3D view
 	<String ID="StrategicViewDemoWarning">战略视角可在专业版Tacview内使用。&#10;你可以试用{0}天。</String>
-	<String ID="ExpiredCommercialLicense">你的商务版许可已于 {0} 过期，&#10;不要在商务和制度环境下使用此版本。</String>
+	<String ID="ExpiredCommercialLicenseAnnual">你的商务版许可已于 {0} 过期，&#10;不要在商务和制度环境下使用此版本。</String>
+	<String ID="ExpiredCommercialLicensePerpetual">Your Tacview Enterprise support has expired on {0},&#10;Please contact us if you want to use this new version.</String>
 -->
 	<String ID="StrategicViewDemoWarning">This Strategic View is available in Tacview Professional.</String>
-	<String ID="ExpiredCommercialLicense">Your commercial license as expired on {0},&#10;DO NOT use this version in commercial and institutional environments.</String>
+	<String ID="ExpiredCommercialLicenseAnnual">Your Tacview Enterprise has expired on {0},&#10;DO NOT use this version in commercial and institutional environment.</String>
+	<String ID="ExpiredCommercialLicensePerpetual">Your Tacview Enterprise support has expired on {0},&#10;Please contact us if you want to use this new version.</String>
 
 	<!-- Units -->
 <!--
@@ -639,6 +687,7 @@
 	<String ID="UnitLabelAGL">离地高度 ({0})</String>
 	<String ID="UnitLabelElevationProfile">地面高程({0})</String>
 	<String ID="UnitLabelTAS">真空速 ({0})</String>
+	<String ID="UnitLabelCAS">CAS ({0})</String>
 	<String ID="UnitLabelIAS">指示空速 ({0})</String>
 	<String ID="UnitLabelGS">地速 ({0})</String>
 	<String ID="UnitLabelAbsoluteTime">时间</String>
@@ -664,6 +713,7 @@
 	<String ID="UnitLabelAGL">AGL Altitude ({0})</String>
 	<String ID="UnitLabelElevationProfile">Ground Elevation ({0})</String>
 	<String ID="UnitLabelTAS">TAS ({0})</String>
+	<String ID="UnitLabelCAS">CAS ({0})</String>
 	<String ID="UnitLabelIAS">IAS ({0})</String>
 	<String ID="UnitLabelGS">Ground Speed ({0})</String>
 	<String ID="UnitLabelAbsoluteTime">Time</String>
@@ -684,6 +734,8 @@
 	<String ID="UnitLabelTrack">Track (°)</String>
 	<String ID="UnitLabelDistanceAir">Air Distance ({0})</String>
 	<String ID="UnitLabelDistanceGround">Ground Distance ({0})</String>
+	<String ID="UnitLabelRoll">Roll ({0})</String>
+	<String ID="UnitLabelPitch">Pitch ({0})</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -694,7 +746,7 @@
 	<String ID="InvalidShortcutText">在当前任务里无法通过快捷方式找到物体和时间参考。请确认打开了正确的文件且复制/粘贴了整个快捷方式。</String>
 
 	<String ID="AboutTitle">关于Tacview</String>
-	<String ID="AboutCopyright">版权© 2006-2017, Stra Software. 保留所有权利。&#10;此计算机程序受到版权法和国际协约保护。&#10;你可以复制和分发此程序的未修改版本。</String>
+	<String ID="AboutCopyright">版权© 2006-2017, Raia Software. 保留所有权利。&#10;此计算机程序受到版权法和国际协约保护。</String>
 
 	<String ID="LoadingInProgressShort">载入...</String>
 	<String ID="LoadingInProgress">载入'{0}'</String>
@@ -835,5 +887,8 @@
 	<String ID="TTObjectsRange">被选主次物体之间相对关系数据&#10;（鼠标左键点击切换被选物体，鼠标右键点击查看选项）</String>
 	<String ID="TTDogfightButton">格斗镜头模式</String>
 	<String ID="TTTrailSize">尾迹长度调整</String>
+	<String ID="TTTrailSizeValueHMS">{0} h {1} m {2} s</String>
+	<String ID="TTTrailSizeValueMS">{0} m {1} s</String>
+	<String ID="TTTrailSizeValueS">{0} s</String>
 
 </Resources>

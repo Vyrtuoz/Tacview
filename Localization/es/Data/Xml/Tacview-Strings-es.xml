@@ -24,10 +24,13 @@
 
 	<String ID="RecordingMenuTooltip">Grabando</String>
 	<String ID="RecordingMenuHelp">Configurar los datos de vuelo a grabar</String>
-	<String ID="RecordingNetworkCmdText">&amp;Grabación remota...</String>
-	<String ID="RecordingNetworkCmdHelp">Grabar un vuelo a través de la red</String>
-	<String ID="RecordingRemoteControlCmdText">Remote Control</String>
-	<String ID="RecordingRemoteControlCmdHelp">Use the remote-control window to remotely control your favorite flight simulator</String>
+	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Real-Time Telemetry...</String>
+	<String ID="RecordingRealTimeTelemetryCmdHelp">Record a flight currently in progress</String>
+	<String ID="RecordingRemoteControl0Text">Remote Control 1</String>
+	<String ID="RecordingRemoteControl1Text">Remote Control 2</String>
+	<String ID="RecordingRemoteControl2Text">Remote Control 3</String>
+	<String ID="RecordingRemoteControl3Text">Remote Control 4</String>
+	<String ID="RecordingRemoteControlHelp">Use the remote-control window to remotely control your favorite flight simulator</String>
 	<String ID="RecordingRecordDCSWorldCmdText">Grabar vuelos de DCS &amp;World</String>
 	<String ID="RecordingRecordDCSWorldCmdHelp">Grabar todos los vuelos de 'DCS World'</String>
 	<String ID="RecordingExportPathCmdText">Carpeta de Grabación &amp;de los archivos ACMI...</String>
@@ -166,8 +169,10 @@
 	<String ID="ScaleAutoHelp">La escala cambiara acorde las dimensiones del punto de visión</String>
 	<String ID="Scale1Text">Pequeño</String>
 	<String ID="Scale1Help">Tamaño por defecto</String>
-	<String ID="Scale2Text">Grande</String>
+	<String ID="Scale2Text">Medium</String>
 	<String ID="Scale2Help">El doble de grande que el tamaño por defecto</String>
+	<String ID="Scale3Text">Grande</String>
+	<String ID="Scale3Help">Four times larger than the default size</String>
 
 	<String ID="HelpMenuTooltip">Ayuda</String>
 	<String ID="HelpMenuHelp">Mostrar la ayuda e información general sobre el programa</String>
@@ -261,6 +266,8 @@
 	<String ID="ChartAccelerationText">Aceleración</String>
 	<String ID="ChartPerformanceHelp">Analizar rendimiento de misiles</String>
 	<String ID="ChartPerformanceText">Rendimiento</String>
+	<String ID="ChartAttitudeHelp">Analyze aircraft stability and pilot induced oscillations</String>
+	<String ID="ChartAttitudeText">Attitude</String>
 
 	<String ID="AxisNoneHelp">Ocultar eje secundario</String>
 	<String ID="AxisNoneText">Deshabilitar</String>
@@ -320,6 +327,10 @@
 	<String ID="DistanceGroundText">Distancia (Terrestre)</String>
 	<String ID="ElevationProfileHelp">Perfil del terreno bajo el avión</String>
 	<String ID="ElevationProfileText">Perfil de elevación</String>
+	<String ID="RollHelp">Aircraft roll attitude</String>
+	<String ID="RollText">Roll</String>
+	<String ID="PitchHelp">Aircraft pitch attitude</String>
+	<String ID="PitchText">Pitch</String>
 
 	<String ID="AbsoluteTimeHelp">Tiempo absoluto</String>
 	<String ID="AbsoluteTimeText">Tiempo</String>
@@ -349,7 +360,7 @@
 	<String ID="OnlineDebriefingUsername">Nombre de usuario :</String>
 	<String ID="OnlineDebriefingUsernameHelp">Use como mínimo 3 caracteres</String>
 	<String ID="OnlineDebriefingPassword">Contraseña :</String>
-	<String ID="OnlineDebriefingPort">Puerto TCP :</String>
+	<String ID="OnlineDebriefingPort">Tacview TCP Port :</String>
 	<String ID="OnlineDebriefingPortHelp">¡No olvide abrir el Puerto en el router!	</String>
 	<String ID="OnlineDebriefingSessionName">Nombre de sesión :</String>
 	<String ID="OnlineDebriefingPublicAddress">Dirección publica :</String>
@@ -374,6 +385,41 @@
 	<String ID="OnlineDebriefingClientTip">Pulsa Alt+Enter para cambiar al modo pantalla completa</String>
 	<String ID="OnlineDebriefingControlGivenTip">{0} esta temporalmente a cargo del debriefing</String>
 	<String ID="OnlineDebriefingControlReceivedTip">Estas temporalmente al cargo del debriefing</String>
+
+	<String ID="RemoteControlConnect">Connect</String>
+	<String ID="RemoteControlDisconnect">Disconnect</String>
+	<String ID="RemoteControlConnecteding">Connecting...</String>
+	<String ID="RemoteControlConnected">Connected to {0}</String>
+	<String ID="RemoteControlDisconnected">Disconnected</String>
+	<String ID="RemoteControlFailed">Failed to connect to simulator</String>
+	<String ID="RemoteControlInvalidPassword">A valid password is required for this connection</String>
+	<String ID="RemoteControlPort">Remote Control Port :</String>
+	<String ID="RemoteControlHelp">Click an action to activate. Double-click to customize a control.</String>
+	<String ID="RemoteControlPause">Pause</String>
+	<String ID="RemoteControlResume">Resume</String>
+	<String ID="RemoteControlFlapsUp">Flaps Up</String>
+	<String ID="RemoteControlFlapsDown">Flaps Down</String>
+	<String ID="RemoteControlLandingGearUp">Landing Gear Up</String>
+	<String ID="RemoteControlLandingGearDown">Landing Gear Down</String>
+	<String ID="RemoteControlRoll">Roll</String>
+	<String ID="RemoteControlPitch">Pitch</String>
+	<String ID="RemoteControlYaw">Yaw</String>
+
+	<String ID="RealTimeTelemetryTitle">Real-time Telemetry</String>
+	<String ID="RealTimeTelemetryIntro">Establish a connection with a data recorder to review telemetry data in real-time!</String>
+	<String ID="RealTimeTelemetryUsername">Choose a User Name :</String>
+	<String ID="RealTimeTelemetryAddress">Data Recorder Address :</String>
+	<String ID="RealTimeTelemetryPort">Data Recorder Port :</String>
+	<String ID="RealTimeTelemetryWarningClient">Only the professional version of Tacview can record real-time telemetry.</String>
+	<String ID="RealTimeTelemetryPasswordTip">A password may be required to join a private session</String>
+	<String ID="RealTimeTelemetryRecordingProgress">Recording from {0} {1}</String>
+	<String ID="RealTimeTelemetryOperationCompleted">Real-time telemetry recording complete.</String>
+	<String ID="RealTimeTelemetryOperationFailed">Failed to connect real-time telemetry to given host address.</String>
+	<String ID="RealTimeTelemetryUnsupportedOperation">Real-time telemetry not compatible with the host exporter.</String>
+	<String ID="RealTimeTelemetryInvalidParameters">Invalid real-time telemetry password.</String>
+	<String ID="RealTimeTelemetryNotSynchronized">Playback is currently not synchronized with real-time telemetry.</String>
+	<String ID="RealTimeTelemetryConnect">Connect</String>
+	<String ID="RealTimeTelemetryDisconnect">Disconnect</String>
 
 	<String ID="AddEditObjectAddTitle">Create New Object</String>
 	<String ID="AddEditObjectEditTitle">Edit Object Properties</String>
@@ -451,7 +497,10 @@
 
 	<String ID="AddOnTitleEventsLog">Registro de vuelo</String>
 	<String ID="AddOnTitleControlsList">Lista de control</String>
-	<String ID="AddOnTitleRemoteControl">Remote Control</String>
+	<String ID="AddOnTitleRemoteControl0">Remote Control 1</String>
+	<String ID="AddOnTitleRemoteControl1">Remote Control 2</String>
+	<String ID="AddOnTitleRemoteControl2">Remote Control 3</String>
+	<String ID="AddOnTitleRemoteControl3">Remote Control 4</String>
 	<String ID="AddOnTitleCommandLineOptionsList">Opciones de línea de comandos</String>
 	<String ID="AddOnTitleUserLicenseAgreement">Acuerdo de licencia de usuario</String>
 	<String ID="AddOnTitleDebugLog">Registro de errores</String>
@@ -583,32 +632,31 @@
 	<!-- Misc -->
 	<String ID="DemoEditionShortOneDay">Demo ({0} día restante)</String>
 	<String ID="DemoEditionShortManyDays">Demo ({0} días restantes)</String>
-	<String ID="FreeEditionShort"></String>
-	<String ID="HomeEditionShort">Home</String>
-	<String ID="ProfessionalEditionShort">Professional</String>
-	<String ID="CommercialEditionShort">Commercial ({0})</String>
 	<String ID="DemoEditionOneDay">{0} Demo {1} día restante</String>
 	<String ID="DemoEditionManyDays">{0} Demo {1} días restantes</String>
-	<String ID="FreeEdition">{0} Edición gratuita</String>
-	<String ID="HomeEdition">{0} Edición Home </String>
-	<String ID="ProfessionalEdition">{0} Edición Professional</String>
-	<String ID="CommercialEdition">{0} Commercial Edition (will expire on {1})</String>
+	<String ID="FreeEdition">{0} Starter</String>
+	<String ID="HomeEdition">{0} Standard</String>
+	<String ID="ProfessionalEdition">{0} Advanced</String>
+	<String ID="CommercialEditionAnnual">{0} Enterprise (expires on {1})</String>
+	<String ID="CommercialEditionPerpetual">{0} Enterprise (support ends on {1})</String>
 	<String ID="32bitEdition">32-bit</String>
 	<String ID="64bitEdition">64-bit</String>
-	<String ID="ProfessionalToolDemoWarningOneDay">Esta herramienta está disponible en Tacview <a href="cmd:RegisterCmd">Professional Edition</a>. Puede probarla por {0} día.</String>
-	<String ID="ProfessionalToolDemoWarningManyDays">Esta herramienta está disponible en Tacview <a href="cmd:RegisterCmd">Professional Edition</a>. Puede probarla por {0} días.</String>
-	<String ID="ProfessionalToolDemoExpired">Debe <a href="cmd:RegisterCmd">actualizar su licencia </a> a la edición Professional para usar esta herramienta.</String>
-	<String ID="HomeToolDemoWarningOneDay">Esta herramienta está disponible en Tacview <a href="cmd:RegisterCmd">Home Edition</a>. Puede probarla por {0} día.</String>
-	<String ID="HomeToolDemoWarningManyDays">Esta herramienta está disponible en Tacview <a href="cmd:RegisterCmd">Home Edition</a>. Puede probarla por {0} días.</String>
-	<String ID="HomeToolDemoExpired">Debe <a href="cmd:RegisterCmd">actualizar su licencia</a> a la edición Home o Professional para usar esta herramienta.</String>
-	<String ID="StrategicViewDemoWarning">La visión estratégica está disponible en Tacview Professional.</String>
-	<String ID="ExpiredCommercialLicense">Your commercial license as expired on {0},&#10;DO NOT use this version in commercial and institutional environments.</String>
+	<String ID="ProfessionalToolDemoWarningOneDay">Esta herramienta está disponible en <a href="cmd:RegisterCmd">Tacview Advanced</a>. Puede probarla por {0} día.</String>
+	<String ID="ProfessionalToolDemoWarningManyDays">Esta herramienta está disponible en <a href="cmd:RegisterCmd">Tacview Advanced</a>. Puede probarla por {0} días.</String>
+	<String ID="ProfessionalToolDemoExpired">Debe <a href="cmd:RegisterCmd">actualizar su licencia </a> a la edición Advanced para usar esta herramienta.</String>
+	<String ID="HomeToolDemoWarningOneDay">Esta herramienta está disponible en <a href="cmd:RegisterCmd">Tacview Standard</a>. Puede probarla por {0} día.</String>
+	<String ID="HomeToolDemoWarningManyDays">Esta herramienta está disponible en <a href="cmd:RegisterCmd">Tacview Standard</a>. Puede probarla por {0} días.</String>
+	<String ID="HomeToolDemoExpired">Debe <a href="cmd:RegisterCmd">actualizar su licencia</a> a la edición Standard o Advanced para usar esta herramienta.</String>
+	<String ID="StrategicViewDemoWarning">La visión estratégica está disponible en Tacview Advanced.</String>
+	<String ID="ExpiredCommercialLicenseAnnual">Your Tacview Enterprise has expired on {0},&#10;DO NOT use this version in commercial and institutional environment.</String>
+	<String ID="ExpiredCommercialLicensePerpetual">Your Tacview Enterprise support has expired on {0},&#10;Please contact us if you want to use this new version.</String>
 
 	<!-- Units -->
 	<String ID="UnitLabelASL">Altitud ASL ({0})</String>
 	<String ID="UnitLabelAGL">Altitud AGL ({0})</String>
 	<String ID="UnitLabelElevationProfile">Elevación terrestre ({0})</String>
 	<String ID="UnitLabelTAS">TAS ({0})</String>
+	<String ID="UnitLabelCAS">CAS ({0})</String>
 	<String ID="UnitLabelIAS">IAS ({0})</String>
 	<String ID="UnitLabelGS">Ground Speed ({0})</String>
 	<String ID="UnitLabelAbsoluteTime">Tiempo</String>
@@ -629,6 +677,8 @@
 	<String ID="UnitLabelTrack">Seguimiento (°)</String>
 	<String ID="UnitLabelDistanceAir">Distancia aérea ({0})</String>
 	<String ID="UnitLabelDistanceGround">Distancia terrestre ({0})</String>
+	<String ID="UnitLabelRoll">Roll ({0})</String>
+	<String ID="UnitLabelPitch">Pitch ({0})</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -639,7 +689,7 @@
 	<String ID="InvalidShortcutText">No es posible encontrar en la misión actual los objetos y tiempos de referencia del acceso directo. Asegúrese de haber abierto el archivo correcto y haber copiado/pegado el acceso directo entero.</String>
 
 	<String ID="AboutTitle">Sobre Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2017, Stra Software. Todos los derechos reservados.&#10;Este programa informático está protegido por las leyes de copyright y la ley internacional de tratados.&#10;Puede reproducir y distribuir libremente la versión sin modificar de este programa.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2017, Raia Software. Todos los derechos reservados.&#10;Este programa informático está protegido por las leyes de copyright y la ley internacional de tratados.</String>
 
 	<String ID="LoadingInProgressShort">Cargando...</String>
 	<String ID="LoadingInProgress">Cargando '{0}'</String>
@@ -772,5 +822,8 @@
 	<String ID="TTObjectsRange">Rango y velocidad de acercamiento entre los objetivos seleccionados&#10;(Click para intercambiar objetos, Click-Derecho para opciones)</String>
 	<String ID="TTDogfightButton">Modo de cámara Dogfight</String>
 	<String ID="TTTrailSize">Tamaño de estela</String>
+	<String ID="TTTrailSizeValueHMS">{0} h {1} m {2} s</String>
+	<String ID="TTTrailSizeValueMS">{0} m {1} s</String>
+	<String ID="TTTrailSizeValueS">{0} s</String>
 
 </Resources>

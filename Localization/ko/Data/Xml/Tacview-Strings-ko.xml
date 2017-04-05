@@ -24,10 +24,13 @@
 
 	<String ID="RecordingMenuTooltip">기록하기</String>
 	<String ID="RecordingMenuHelp">비행 데이터 기록 설정하기</String>
-	<String ID="RecordingNetworkCmdText">&amp;원격 기록...</String>
-	<String ID="RecordingNetworkCmdHelp">비행을 네트워크를 통해 기록하기</String>
-	<String ID="RecordingRemoteControlCmdText">원격 컨트롤</String>
-	<String ID="RecordingRemoteControlCmdHelp">원격-컨트롤 윈도우를 이용하여 선호하는 비행 시뮬레이터를 원격으로 조종하기</String>
+	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Real-Time Telemetry...</String>
+	<String ID="RecordingRealTimeTelemetryCmdHelp">Record a flight currently in progress</String>
+	<String ID="RecordingRemoteControl0Text">원격 컨트롤 1</String>
+	<String ID="RecordingRemoteControl1Text">원격 컨트롤 2</String>
+	<String ID="RecordingRemoteControl2Text">원격 컨트롤 3</String>
+	<String ID="RecordingRemoteControl3Text">원격 컨트롤 4</String>
+	<String ID="RecordingRemoteControlHelp">원격-컨트롤 윈도우를 이용하여 선호하는 비행 시뮬레이터를 원격으로 조종하기</String>
 	<String ID="RecordingRecordDCSWorldCmdText">DCS 월드&amp;비행 기록하기</String>
 	<String ID="RecordingRecordDCSWorldCmdHelp">모든 'DCS 월드' 비행 기록하기</String>
 	<String ID="RecordingExportPathCmdText">ACMI 파일 &amp;기록 폴더...</String>
@@ -166,8 +169,10 @@
 	<String ID="ScaleAutoHelp">뷰포트의 영역에 따라 자동적으로 스케일이 결정 됨</String>
 	<String ID="Scale1Text">작게</String>
 	<String ID="Scale1Help">기본 크기</String>
-	<String ID="Scale2Text">크게</String>
+	<String ID="Scale2Text">Medium</String>
 	<String ID="Scale2Help">기본 크기보다 두 배의 크기</String>
+	<String ID="Scale3Text">크게</String>
+	<String ID="Scale3Help">Four times larger than the default size</String>
 
 	<String ID="HelpMenuTooltip">도움말</String>
 	<String ID="HelpMenuHelp">이 프로그램에 대한 일반적인 정보와 도움말 켜기</String>
@@ -261,6 +266,8 @@
 	<String ID="ChartAccelerationText">가속</String>
 	<String ID="ChartPerformanceHelp">미사일 성능 분석</String>
 	<String ID="ChartPerformanceText">성능</String>
+	<String ID="ChartAttitudeHelp">Analyze aircraft stability and pilot induced oscillations</String>
+	<String ID="ChartAttitudeText">Attitude</String>
 
 	<String ID="AxisNoneHelp">두 번째 축 숨기기</String>
 	<String ID="AxisNoneText">사용안함</String>
@@ -320,6 +327,10 @@
 	<String ID="DistanceGroundText">거리 (지상)</String>
 	<String ID="ElevationProfileHelp">기체 하부의 지상고도의 프로파일</String>
 	<String ID="ElevationProfileText">고도 프로파일</String>
+	<String ID="RollHelp">Aircraft roll attitude</String>
+	<String ID="RollText">Roll</String>
+	<String ID="PitchHelp">Aircraft pitch attitude</String>
+	<String ID="PitchText">Pitch</String>
 
 	<String ID="AbsoluteTimeHelp">절대 시간</String>
 	<String ID="AbsoluteTimeText">시간</String>
@@ -349,7 +360,7 @@
 	<String ID="OnlineDebriefingUsername">유저 이름 :</String>
 	<String ID="OnlineDebriefingUsernameHelp">최소 3글자를 사용하세요.</String>
 	<String ID="OnlineDebriefingPassword">비밀번호 :</String>
-	<String ID="OnlineDebriefingPort">TCP 포트 :</String>
+	<String ID="OnlineDebriefingPort">Tacview TCP 포트 :</String>
 	<String ID="OnlineDebriefingPortHelp">라우터에서 포트를 열어두는 것을 잊지 마세요!</String>
 	<String ID="OnlineDebriefingSessionName">세션 이름 :</String>
 	<String ID="OnlineDebriefingPublicAddress">공용 주소 :</String>
@@ -382,6 +393,41 @@
 	<String ID="OnlineDebriefingClientTip">전체화면 모드로 전환하기 위해 Alt+Enter를 눌러 주세요.</String>
 	<String ID="OnlineDebriefingControlGivenTip">{0} 사용자가 디브리핑을 일시적으로 담당하게 됩니다.</String>
 	<String ID="OnlineDebriefingControlReceivedTip">당신은 임시적으로 디브리핑을 담당하게 되었습니다.</String>
+
+	<String ID="RemoteControlConnect">Connect</String>
+	<String ID="RemoteControlDisconnect">Disconnect</String>
+	<String ID="RemoteControlConnecteding">Connecting...</String>
+	<String ID="RemoteControlConnected">Connected to {0}</String>
+	<String ID="RemoteControlDisconnected">Disconnected</String>
+	<String ID="RemoteControlFailed">Failed to connect to simulator</String>
+	<String ID="RemoteControlInvalidPassword">A valid password is required for this connection</String>
+	<String ID="RemoteControlPort">Remote Control Port :</String>
+	<String ID="RemoteControlHelp">Click an action to activate. Double-click to customize a control.</String>
+	<String ID="RemoteControlPause">Pause</String>
+	<String ID="RemoteControlResume">Resume</String>
+	<String ID="RemoteControlFlapsUp">Flaps Up</String>
+	<String ID="RemoteControlFlapsDown">Flaps Down</String>
+	<String ID="RemoteControlLandingGearUp">Landing Gear Up</String>
+	<String ID="RemoteControlLandingGearDown">Landing Gear Down</String>
+	<String ID="RemoteControlRoll">Roll</String>
+	<String ID="RemoteControlPitch">Pitch</String>
+	<String ID="RemoteControlYaw">Yaw</String>
+
+	<String ID="RealTimeTelemetryTitle">Real-time Telemetry</String>
+	<String ID="RealTimeTelemetryIntro">Establish a connection with a data recorder to review telemetry data in real-time!</String>
+	<String ID="RealTimeTelemetryUsername">Choose a User Name :</String>
+	<String ID="RealTimeTelemetryAddress">Data Recorder Address :</String>
+	<String ID="RealTimeTelemetryPort">Data Recorder Port :</String>
+	<String ID="RealTimeTelemetryWarningClient">Only the professional version of Tacview can record real-time telemetry.</String>
+	<String ID="RealTimeTelemetryPasswordTip">A password may be required to join a private session</String>
+	<String ID="RealTimeTelemetryRecordingProgress">Recording from {0} {1}</String>
+	<String ID="RealTimeTelemetryOperationCompleted">Real-time telemetry recording complete.</String>
+	<String ID="RealTimeTelemetryOperationFailed">Failed to connect real-time telemetry to given host address.</String>
+	<String ID="RealTimeTelemetryUnsupportedOperation">Real-time telemetry not compatible with the host exporter.</String>
+	<String ID="RealTimeTelemetryInvalidParameters">Invalid real-time telemetry password.</String>
+	<String ID="RealTimeTelemetryNotSynchronized">Playback is currently not synchronized with real-time telemetry.</String>
+	<String ID="RealTimeTelemetryConnect">Connect</String>
+	<String ID="RealTimeTelemetryDisconnect">Disconnect</String>
 
 	<String ID="AddEditObjectAddTitle">신규 오브젝트 생성</String>
 	<String ID="AddEditObjectEditTitle">오브젝트 속성 편집</String>
@@ -459,7 +505,10 @@
 
 	<String ID="AddOnTitleEventsLog">비행 로그</String>
 	<String ID="AddOnTitleControlsList">컨트롤 목록</String>
-	<String ID="AddOnTitleRemoteControl">원격 컨트롤</String>
+	<String ID="AddOnTitleRemoteControl0">원격 컨트롤0</String>
+	<String ID="AddOnTitleRemoteControl1">원격 컨트롤1</String>
+	<String ID="AddOnTitleRemoteControl2">원격 컨트롤2</String>
+	<String ID="AddOnTitleRemoteControl3">원격 컨트롤3</String>
 	<String ID="AddOnTitleCommandLineOptionsList">명령줄 옵션</String>
 	<String ID="AddOnTitleUserLicenseAgreement">유저 라이센스 동의서</String>
 	<String ID="AddOnTitleDebugLog">디버그 로그</String>
@@ -606,31 +655,30 @@
 	<!-- Misc -->
 	<String ID="DemoEditionShortOneDay">데모 ({0} 일 남음)</String>
 	<String ID="DemoEditionShortManyDays">데모 ({0} 일 남음)</String>
-	<String ID="FreeEditionShort"></String>
-	<String ID="HomeEditionShort">홈</String>
-	<String ID="ProfessionalEditionShort">프로페셔널</String>
-	<String ID="CommercialEditionShort">Commercial ({0})</String>
 	<String ID="DemoEditionOneDay">{0} 데모, {1} 일 남음</String>
 	<String ID="DemoEditionManyDays">{0} 데모, {1} 일 남음</String>
-	<String ID="FreeEdition">{0} 프리 에디션</String>
-	<String ID="HomeEdition">{0} 홈 에디션</String>
-	<String ID="ProfessionalEdition">{0} 프로페셔널 에디션</String>
-	<String ID="CommercialEdition">{0} Commercial Edition (will expire on {1})</String>
+	<String ID="FreeEdition">{0} Starter</String>
+	<String ID="HomeEdition">{0} Standard</String>
+	<String ID="ProfessionalEdition">{0} Advanced</String>
+	<String ID="CommercialEditionAnnual">{0} Enterprise (expires on {1})</String>
+	<String ID="CommercialEditionPerpetual">{0} Enterprise (support ends on {1})</String>
 	<String ID="32bitEdition">32-bit</String>
 	<String ID="64bitEdition">64-bit</String>
 	<String ID="ProfessionalToolDemoWarningOneDay">이 툴은 택뷰 프로페셔널 에디션에서 <a href="cmd:RegisterCmd">사용이 가능합니다.</a>. {0} 일간 더 사용해 보실 수 있습니다.</String>
 	<String ID="ProfessionalToolDemoWarningManyDays">이 툴은 택뷰 프로페셔널 에디션에서 <a href="cmd:RegisterCmd">사용이 가능합니다.</a>. {0} 일간 더 사용해 보실 수 있습니다.</String>
 	<String ID="ProfessionalToolDemoExpired">이툴을 사용하시려면 프로페셔널 라이센스로 <a href="cmd:RegisterCmd">업그레이드</a> 하셔야 합니다.</String>
-	<String ID="HomeToolDemoWarningOneDay">This tool is available in Tacview <a href="cmd:RegisterCmd">Home Edition</a>. You can try it for {0} day.</String>
-	<String ID="HomeToolDemoWarningManyDays">This tool is available in Tacview <a href="cmd:RegisterCmd">Home Edition</a>. You can try it for {0} days.</String>
-	<String ID="HomeToolDemoExpired">You must <a href="cmd:RegisterCmd">upgrade your license</a> to the Home or Professional Edition to use this tool.</String>
+	<String ID="HomeToolDemoWarningOneDay">This tool is available in <a href="cmd:RegisterCmd">Tacview Standard</a>. You can try it for {0} day.</String>
+	<String ID="HomeToolDemoWarningManyDays">This tool is available in <a href="cmd:RegisterCmd">Tacview Standard</a>. You can try it for {0} days.</String>
+	<String ID="HomeToolDemoExpired">You must <a href="cmd:RegisterCmd">upgrade your license</a> to Tacview Standard or above to use this tool.</String>
 <!--
 	Korean characters are not yet supported in the 3D view
 	<String ID="StrategicViewDemoWarning">이 전술 뷰는 택뷰 프로페셔널에서 사용 가능합니다.</String>
-	<String ID="ExpiredCommercialLicense">Your commercial license as expired on {0},&#10;DO NOT use this version in commercial and institutional environments.</String>
+	<String ID="ExpiredCommercialLicenseAnnual">Your commercial license as expired on {0},&#10;DO NOT use this version in commercial and institutional environments.</String>
+	<String ID="ExpiredCommercialLicensePerpetual">Your Tacview Enterprise support has expired on {0},&#10;Please contact us if you want to use this new version.</String>
 -->
 	<String ID="StrategicViewDemoWarning">This Strategic View is available in Tacview Professional.</String>
-	<String ID="ExpiredCommercialLicense">Your commercial license as expired on {0},&#10;DO NOT use this version in commercial and institutional environments.</String>
+	<String ID="ExpiredCommercialLicenseAnnual">Your Tacview Enterprise has expired on {0},&#10;DO NOT use this version in commercial and institutional environment.</String>
+	<String ID="ExpiredCommercialLicensePerpetual">Your Tacview Enterprise support has expired on {0},&#10;Please contact us if you want to use this new version.</String>
 
 	<!-- Units -->
 <!--
@@ -639,6 +687,7 @@
 	<String ID="UnitLabelAGL">지상 고도 ({0})</String>
 	<String ID="UnitLabelElevationProfile">지상 높이 ({0})</String>
 	<String ID="UnitLabelTAS">TAS ({0})</String>
+	<String ID="UnitLabelCAS">CAS ({0})</String>
 	<String ID="UnitLabelIAS">IAS ({0})</String>
 	<String ID="UnitLabelGS">대지 속도 ({0})</String>
 	<String ID="UnitLabelAbsoluteTime">시간</String>
@@ -664,6 +713,7 @@
 	<String ID="UnitLabelAGL">AGL Altitude ({0})</String>
 	<String ID="UnitLabelElevationProfile">Ground Elevation ({0})</String>
 	<String ID="UnitLabelTAS">TAS ({0})</String>
+	<String ID="UnitLabelCAS">CAS ({0})</String>
 	<String ID="UnitLabelIAS">IAS ({0})</String>
 	<String ID="UnitLabelGS">Ground Speed ({0})</String>
 	<String ID="UnitLabelAbsoluteTime">Time</String>
@@ -684,6 +734,8 @@
 	<String ID="UnitLabelTrack">Track (°)</String>
 	<String ID="UnitLabelDistanceAir">Air Distance ({0})</String>
 	<String ID="UnitLabelDistanceGround">Ground Distance ({0})</String>
+	<String ID="UnitLabelRoll">Roll ({0})</String>
+	<String ID="UnitLabelPitch">Pitch ({0})</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -694,7 +746,7 @@
 	<String ID="InvalidShortcutText">미션 내에 현재의 단축키가 지정 된 오브젝트나 시간을 찾을 수 없습니다. 정상적인 파일을 열었는지, 그리고 단축키가 정상적으로 복사/붙이기 되었는지 확인하시기 바랍니다.</String>
 
 	<String ID="AboutTitle">택뷰에 대하여</String>
-	<String ID="AboutCopyright">Copyright © 2006-2017, Stra Software. All Rights Reserved.&#10;이 컴퓨터 프로그램은 국제규약의 저작권 법에 의해 보호받고 있습니다.&#10;변경되지 않은 버전의 설치본을 자유롭게 배포하실 수 있습니다.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2017, Raia Software. All Rights Reserved.&#10;이 컴퓨터 프로그램은 국제규약의 저작권 법에 의해 보호받고 있습니다.</String>
 
 	<String ID="LoadingInProgressShort">로딩...</String>
 	<String ID="LoadingInProgress">로딩 '{0}'</String>
@@ -835,5 +887,8 @@
 	<String ID="TTObjectsRange">선택된 오브젝트들의 거리와 근접률&#10;(오브젝트 스왑은 클릭, 옵션은 우클릭)</String>
 	<String ID="TTDogfightButton">독파이팅 카메라 모드</String>
 	<String ID="TTTrailSize">트레일 크기</String>
+	<String ID="TTTrailSizeValueHMS">{0} h {1} m {2} s</String>
+	<String ID="TTTrailSizeValueMS">{0} m {1} s</String>
+	<String ID="TTTrailSizeValueS">{0} s</String>
 
 </Resources>
