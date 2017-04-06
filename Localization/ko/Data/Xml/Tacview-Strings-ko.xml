@@ -161,8 +161,8 @@
 	<String ID="AircraftsTelemetryText">선택되지 않은 기체의 라벨</String>
 	<String ID="LabelOnAllGroundObjectsText">지상 모든 물체에 라벨 켜기</String>
 	<String ID="LabelOnAllGroundObjectsHelp">대-기체용 위협을 포함한 모든 지상 물체들의 라벨 켜기</String>
-	<String ID="ForceSelectedObjetsLabelsText">Force selected objects labels</String>
-	<String ID="ForceSelectedObjetsLabelsHelp">Always display select objects labels regardless of the global preference</String>
+	<String ID="ForceSelectedObjetsLabelsText">선택 오브젝트의 라벨을 강제로 켜기</String>
+	<String ID="ForceSelectedObjetsLabelsHelp">전역 설정에 상관없이 항상 선택된 오브젝트의 라벨을 켜줌</String>
 
 	<String ID="LabelsScaleText">라벨 확대 및 축소</String>
 	<String ID="ScaleAutoText">자동</String>
