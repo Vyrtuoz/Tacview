@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 
 <!-- Tacview Korean Text -->
-<!-- Translation by 번역 - ihopi [NAVER JTWF SQUADRON] ihopi73@gmail.com -->
+<!-- 번역 - ihopi [ihopi73@gmail.com] -->
 
 <Resources Language="ko">
 
@@ -24,8 +24,8 @@
 
 	<String ID="RecordingMenuTooltip">기록하기</String>
 	<String ID="RecordingMenuHelp">비행 데이터 기록 설정하기</String>
-	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Real-Time Telemetry...</String>
-	<String ID="RecordingRealTimeTelemetryCmdHelp">Record a flight currently in progress</String>
+	<String ID="RecordingRealTimeTelemetryCmdText">&amp;실시간 텔레메트리...</String>
+	<String ID="RecordingRealTimeTelemetryCmdHelp">현재 진행중인 비행을 녹화하기</String>
 	<String ID="RecordingRemoteControl0Text">원격 컨트롤 1</String>
 	<String ID="RecordingRemoteControl1Text">원격 컨트롤 2</String>
 	<String ID="RecordingRemoteControl2Text">원격 컨트롤 3</String>
@@ -50,10 +50,10 @@
 	<String ID="AnalysisDisplayTelemetry2Help">텔레메트리 윈도우 #3을 보이거나 숨기기</String>
 	<String ID="AnalysisDisplayTelemetry3Text">텔레메트리 &amp;4</String>
 	<String ID="AnalysisDisplayTelemetry3Help">텔레메트리 윈도우 #4를 보이거나 숨기기</String>
-	<String ID="AnalysisDisplayRawTelemetry0Text">Raw Telemetry 1</String>
-	<String ID="AnalysisDisplayRawTelemetry0Help">Show or hide raw telemetry window #1</String>
-	<String ID="AnalysisDisplayRawTelemetry1Text">Raw Telemetry 2</String>
-	<String ID="AnalysisDisplayRawTelemetry1Help">Show or hide raw telemetry window #2</String>
+	<String ID="AnalysisDisplayRawTelemetry0Text">가공되지 않은 텔레메트리 1</String>
+	<String ID="AnalysisDisplayRawTelemetry0Help">가공되지 않은 텔레메트리 윈도우 #1 보이거나 숨기기</String>
+	<String ID="AnalysisDisplayRawTelemetry1Text">가공되지 않은 텔레메트리 2</String>
+	<String ID="AnalysisDisplayRawTelemetry1Help">가공되지 않은 텔레메트리 윈도우 #2 보이거나 숨기기</String>
 	<String ID="AnalysisDisplayChart1Text">챠트 &amp;1</String>
 	<String ID="AnalysisDisplayChart1Help">챠트 윈도우 #1을 보이거나 숨기기</String>
 	<String ID="AnalysisDisplayChart2Text">챠트 &amp;2</String>
@@ -169,10 +169,10 @@
 	<String ID="ScaleAutoHelp">뷰포트의 영역에 따라 자동적으로 스케일이 결정 됨</String>
 	<String ID="Scale1Text">작게</String>
 	<String ID="Scale1Help">기본 크기</String>
-	<String ID="Scale2Text">Medium</String>
+	<String ID="Scale2Text">중간</String>
 	<String ID="Scale2Help">기본 크기보다 두 배의 크기</String>
 	<String ID="Scale3Text">크게</String>
-	<String ID="Scale3Help">Four times larger than the default size</String>
+	<String ID="Scale3Help">기본 크기보다 네 배의 크기</String>
 
 	<String ID="HelpMenuTooltip">도움말</String>
 	<String ID="HelpMenuHelp">이 프로그램에 대한 일반적인 정보와 도움말 켜기</String>
@@ -181,7 +181,7 @@
 	<String ID="HelpCommandLineOptionsText">커맨드 라인 &amp;옵션</String>
 	<String ID="HelpCommandLineOptionsHelp">택뷰에서 지원하는 커맨드라인 옵션 보여주기</String>
 	<String ID="HelpTechnicalSupportText">기술 &amp;지원</String>
-	<String ID="HelpTechnicalSupportHelp">택뷰 공식 웹사이트로 연결Connect to Tacview official website</String>
+	<String ID="HelpTechnicalSupportHelp">택뷰 공식 웹사이트로 연결</String>
 	<String ID="HelpUserLicenseAgreementText">사용자 &amp;라이센스 동의서</String>
 	<String ID="HelpUserLicenseAgreementHelp">사용자 최종 라이센스 동의서 보여주기</String>
 	<String ID="HelpCheckForUpdatesText">업데이트 &amp;확인하기</String>
@@ -203,10 +203,10 @@
 	<String ID="RegisterCmdHelp">택뷰 등록하기</String>
 	<String ID="UpgradeToProfessionalCmdTooltip">프로페셔널 에디션으로 업그레이드</String>
 	<String ID="UpgradeToProfessionalCmdHelp">홈 에디션을 프로페셔널 에디션으로 업그레이드 하기</String>
-	<String ID="UpgradeToCommercialCmdTooltip">Upgrade to Commercial</String>
-	<String ID="UpgradeToCommercialCmdHelp">Upgrade your Professional edition to the Commercial edition</String>
-	<String ID="UpdateCommercialCmdTooltip">Extend Commercial License</String>
-	<String ID="UpdateCommercialCmdHelp">Extend an expiring Commercial license</String>
+	<String ID="UpgradeToCommercialCmdTooltip">상업용 제품으로 업그레이드 하기</String>
+	<String ID="UpgradeToCommercialCmdHelp">프로페셔널 에디션을 상업용 에디션으로 업그레이드 하기</String>
+	<String ID="UpdateCommercialCmdTooltip">상업용 라이센스 기한 연장하기</String>
+	<String ID="UpdateCommercialCmdHelp">만료 된 상업용 라이센스 기한을 연장하기</String>
 
 	<!-- Popup Menus -->
 	<String ID="ObjectsInfoCmdRateOfClosureText">거리 / 접근률</String>
@@ -266,8 +266,8 @@
 	<String ID="ChartAccelerationText">가속</String>
 	<String ID="ChartPerformanceHelp">미사일 성능 분석</String>
 	<String ID="ChartPerformanceText">성능</String>
-	<String ID="ChartAttitudeHelp">Analyze aircraft stability and pilot induced oscillations</String>
-	<String ID="ChartAttitudeText">Attitude</String>
+	<String ID="ChartAttitudeHelp">기체의 안정성과 파일럿의 유도진동 분석</String>
+	<String ID="ChartAttitudeText">자세</String>
 
 	<String ID="AxisNoneHelp">두 번째 축 숨기기</String>
 	<String ID="AxisNoneText">사용안함</String>
@@ -327,10 +327,10 @@
 	<String ID="DistanceGroundText">거리 (지상)</String>
 	<String ID="ElevationProfileHelp">기체 하부의 지상고도의 프로파일</String>
 	<String ID="ElevationProfileText">고도 프로파일</String>
-	<String ID="RollHelp">Aircraft roll attitude</String>
-	<String ID="RollText">Roll</String>
-	<String ID="PitchHelp">Aircraft pitch attitude</String>
-	<String ID="PitchText">Pitch</String>
+	<String ID="RollHelp">기체 롤 상태</String>
+	<String ID="RollText">롤</String>
+	<String ID="PitchHelp">기체 피치 상태</String>
+	<String ID="PitchText">피치</String>
 
 	<String ID="AbsoluteTimeHelp">절대 시간</String>
 	<String ID="AbsoluteTimeText">시간</String>
@@ -360,7 +360,7 @@
 	<String ID="OnlineDebriefingUsername">유저 이름 :</String>
 	<String ID="OnlineDebriefingUsernameHelp">최소 3글자를 사용하세요.</String>
 	<String ID="OnlineDebriefingPassword">비밀번호 :</String>
-	<String ID="OnlineDebriefingPort">Tacview TCP 포트 :</String>
+	<String ID="OnlineDebriefingPort">택뷰 TCP 포트 :</String>
 	<String ID="OnlineDebriefingPortHelp">라우터에서 포트를 열어두는 것을 잊지 마세요!</String>
 	<String ID="OnlineDebriefingSessionName">세션 이름 :</String>
 	<String ID="OnlineDebriefingPublicAddress">공용 주소 :</String>
@@ -394,40 +394,40 @@
 	<String ID="OnlineDebriefingControlGivenTip">{0} 사용자가 디브리핑을 일시적으로 담당하게 됩니다.</String>
 	<String ID="OnlineDebriefingControlReceivedTip">당신은 임시적으로 디브리핑을 담당하게 되었습니다.</String>
 
-	<String ID="RemoteControlConnect">Connect</String>
-	<String ID="RemoteControlDisconnect">Disconnect</String>
-	<String ID="RemoteControlConnecteding">Connecting...</String>
-	<String ID="RemoteControlConnected">Connected to {0}</String>
-	<String ID="RemoteControlDisconnected">Disconnected</String>
-	<String ID="RemoteControlFailed">Failed to connect to simulator</String>
-	<String ID="RemoteControlInvalidPassword">A valid password is required for this connection</String>
-	<String ID="RemoteControlPort">Remote Control Port :</String>
-	<String ID="RemoteControlHelp">Click an action to activate. Double-click to customize a control.</String>
-	<String ID="RemoteControlPause">Pause</String>
-	<String ID="RemoteControlResume">Resume</String>
-	<String ID="RemoteControlFlapsUp">Flaps Up</String>
-	<String ID="RemoteControlFlapsDown">Flaps Down</String>
-	<String ID="RemoteControlLandingGearUp">Landing Gear Up</String>
-	<String ID="RemoteControlLandingGearDown">Landing Gear Down</String>
-	<String ID="RemoteControlRoll">Roll</String>
-	<String ID="RemoteControlPitch">Pitch</String>
-	<String ID="RemoteControlYaw">Yaw</String>
+	<String ID="RemoteControlConnect">연결하기</String>
+	<String ID="RemoteControlDisconnect">접속끊기</String>
+	<String ID="RemoteControlConnecteding">연결중...</String>
+	<String ID="RemoteControlConnected">{0} 으로 연결됨</String>
+	<String ID="RemoteControlDisconnected">연결 끊김</String>
+	<String ID="RemoteControlFailed">시뮬레이터 연결 실패</String>
+	<String ID="RemoteControlInvalidPassword">이곳에 접속하기 위해 올바른 비밀번호가 필요합니다.</String>
+	<String ID="RemoteControlPort">원격 조종 포트 :</String>
+	<String ID="RemoteControlHelp">액션을 클릭해서 활성화 할 수 있습니다. 더블클릭을 하면 컨트롤을 커스터마이즈 할 수 있습니다.</String>
+	<String ID="RemoteControlPause">일시중지</String>
+	<String ID="RemoteControlResume">다시진행</String>
+	<String ID="RemoteControlFlapsUp">플랩 올리기</String>
+	<String ID="RemoteControlFlapsDown">플랩 내리기</String>
+	<String ID="RemoteControlLandingGearUp">랜딩기어 올리기</String>
+	<String ID="RemoteControlLandingGearDown">랜딩기어 내리기</String>
+	<String ID="RemoteControlRoll">롤</String>
+	<String ID="RemoteControlPitch">피치</String>
+	<String ID="RemoteControlYaw">요</String>
 
-	<String ID="RealTimeTelemetryTitle">Real-time Telemetry</String>
-	<String ID="RealTimeTelemetryIntro">Establish a connection with a data recorder to review telemetry data in real-time!</String>
-	<String ID="RealTimeTelemetryUsername">Choose a User Name :</String>
-	<String ID="RealTimeTelemetryAddress">Data Recorder Address :</String>
-	<String ID="RealTimeTelemetryPort">Data Recorder Port :</String>
-	<String ID="RealTimeTelemetryWarningClient">Only the professional version of Tacview can record real-time telemetry.</String>
-	<String ID="RealTimeTelemetryPasswordTip">A password may be required to join a private session</String>
-	<String ID="RealTimeTelemetryRecordingProgress">Recording from {0} {1}</String>
-	<String ID="RealTimeTelemetryOperationCompleted">Real-time telemetry recording complete.</String>
-	<String ID="RealTimeTelemetryOperationFailed">Failed to connect real-time telemetry to given host address.</String>
-	<String ID="RealTimeTelemetryUnsupportedOperation">Real-time telemetry not compatible with the host exporter.</String>
-	<String ID="RealTimeTelemetryInvalidParameters">Invalid real-time telemetry password.</String>
-	<String ID="RealTimeTelemetryNotSynchronized">Playback is currently not synchronized with real-time telemetry.</String>
-	<String ID="RealTimeTelemetryConnect">Connect</String>
-	<String ID="RealTimeTelemetryDisconnect">Disconnect</String>
+	<String ID="RealTimeTelemetryTitle">실시간 텔레메트리</String>
+	<String ID="RealTimeTelemetryIntro">데이터 레코더를 실시간 데이터에 연결하여 텔레메트리를 볼 수 있습니다!</String>
+	<String ID="RealTimeTelemetryUsername">유저 이름 정하기 :</String>
+	<String ID="RealTimeTelemetryAddress">데이터 레코더 주소 :</String>
+	<String ID="RealTimeTelemetryPort">데이터 레코더 포트 :</String>
+	<String ID="RealTimeTelemetryWarningClient">실시간 텔레메트리 녹화는 택뷰 프로페셔널 버전에서만 가능합니다.</String>
+	<String ID="RealTimeTelemetryPasswordTip">사설 세션은 비밀번호가 필요할 수도 있습니다.</String>
+	<String ID="RealTimeTelemetryRecordingProgress">다음으로부터 녹화 됨 {0} {1}</String>
+	<String ID="RealTimeTelemetryOperationCompleted">실시간 텔레메트리 녹화 완료.</String>
+	<String ID="RealTimeTelemetryOperationFailed">지정한 호스트 주소로 부터 실시간 텔레메트리 연결에 실패하였습니다.</String>
+	<String ID="RealTimeTelemetryUnsupportedOperation">실시간 텔레메트리가 호스트 추출버전과 호환되지 않습니다.</String>
+	<String ID="RealTimeTelemetryInvalidParameters">실시간 텔레메트리 비밀번호가 올바르지 않습니다.</String>
+	<String ID="RealTimeTelemetryNotSynchronized">재생이 현재 실시간 텔레메트리와 동기화 되지 않습니다.</String>
+	<String ID="RealTimeTelemetryConnect">연결</String>
+	<String ID="RealTimeTelemetryDisconnect">접속해제</String>
 
 	<String ID="AddEditObjectAddTitle">신규 오브젝트 생성</String>
 	<String ID="AddEditObjectEditTitle">오브젝트 속성 편집</String>
@@ -459,8 +459,8 @@
 	<String ID="ProfilerProfileDataLoadingHelp">다음 파일 로딩 프로파일</String>
 	<String ID="ProfilerProfileDataAnalysisTooltip">데이터 분석 프로파일</String>
 	<String ID="ProfilerProfileDataAnalysisHelp">다음 파일의 데이터 분석 프로파일</String>
-	<String ID="ProfilerProfileDataSaveTooltip">Profile Data Save</String>
-	<String ID="ProfilerProfileDataSaveHelp">Profile next file save</String>
+	<String ID="ProfilerProfileDataSaveTooltip">프로파일 데이터 저장</String>
+	<String ID="ProfilerProfileDataSaveHelp">프로파일 다음 파일 저장</String>
 	<String ID="ProfilerResetZoomTooltip">줌 리셋</String>
 	<String ID="ProfilerResetZoomHelp">스크린에 전체 프로파일 보여주기</String>
 	<String ID="ProfilerProfileMemoryTooltip">메모리 프로파일 (F18)</String>
@@ -482,14 +482,14 @@
 	<String ID="AddOnTelemetryData">데이터</String>
 	<String ID="AddOnTelemetryRawData">Raw 정보</String>
 	<String ID="AddOnTelemetryValue">값</String>
-	<String ID="AddOnTelemetryInterpretedValue">Interpreted Value</String>
+	<String ID="AddOnTelemetryInterpretedValue">계산된 값</String>
 	<String ID="AddOnTelemetryUnit">유닛</String>
 
-	<String ID="AddOnTelemetryGroupContext">Context</String>
-	<String ID="AddOnTelemetryGroupMetadata">Metadata</String>
-	<String ID="AddOnTelemetryGroupTransform">Transform</String>
-	<String ID="AddOnTelemetryGroupTextProperties">Text Properties</String>
-	<String ID="AddOnTelemetryGroupNumericProperties">Numeric Properties</String>
+	<String ID="AddOnTelemetryGroupContext">컨텍스트</String>
+	<String ID="AddOnTelemetryGroupMetadata">메타데이타</String>
+	<String ID="AddOnTelemetryGroupTransform">트랜스폼</String>
+	<String ID="AddOnTelemetryGroupTextProperties">텍스트 속성</String>
+	<String ID="AddOnTelemetryGroupNumericProperties">숫자 속성</String>
 
 	<String ID="AddOnTitleDocumentProperties">속성</String>
 	<String ID="TitleProperty">제목</String>
@@ -535,7 +535,7 @@
 	<String ID="MemoryProfilerAverage">평균 크기</String>
 
 	<String ID="CommandLineImportExport">임포트/익스포트</String>
-	<String ID="CommandLineBehavior">General Behavior</String>
+	<String ID="CommandLineBehavior">일반 설정</String>
 	<String ID="CommandLineSpecial">고급 옵션</String>
 	<String ID="CmdOpenHelp">비행기록 파일 열기.</String>
 	<String ID="CmdMergeHelp">현재 열려진 데이터에 기존 비행기록을 병합시킵니다.</String>
@@ -664,12 +664,12 @@
 	<String ID="CommercialEditionPerpetual">{0} Enterprise (support ends on {1})</String>
 	<String ID="32bitEdition">32-bit</String>
 	<String ID="64bitEdition">64-bit</String>
-	<String ID="ProfessionalToolDemoWarningOneDay">이 툴은 택뷰 프로페셔널 에디션에서 <a href="cmd:RegisterCmd">사용이 가능합니다.</a>. {0} 일간 더 사용해 보실 수 있습니다.</String>
-	<String ID="ProfessionalToolDemoWarningManyDays">이 툴은 택뷰 프로페셔널 에디션에서 <a href="cmd:RegisterCmd">사용이 가능합니다.</a>. {0} 일간 더 사용해 보실 수 있습니다.</String>
+	<String ID="ProfessionalToolDemoWarningOneDay">이 툴은 <a href="cmd:RegisterCmd">택뷰 프로페셔널 에디션</a>에서 사용이 가능합니다. {0} 일간 더 사용해 보실 수 있습니다.</String>
+	<String ID="ProfessionalToolDemoWarningManyDays">이 툴은 <a href="cmd:RegisterCmd">택뷰 프로페셔널 에디션</a>에서 사용이 가능합니다. 향후 {0} 일간 더 사용해 보실 수 있습니다.</String>
 	<String ID="ProfessionalToolDemoExpired">이툴을 사용하시려면 프로페셔널 라이센스로 <a href="cmd:RegisterCmd">업그레이드</a> 하셔야 합니다.</String>
-	<String ID="HomeToolDemoWarningOneDay">This tool is available in <a href="cmd:RegisterCmd">Tacview Standard</a>. You can try it for {0} day.</String>
-	<String ID="HomeToolDemoWarningManyDays">This tool is available in <a href="cmd:RegisterCmd">Tacview Standard</a>. You can try it for {0} days.</String>
-	<String ID="HomeToolDemoExpired">You must <a href="cmd:RegisterCmd">upgrade your license</a> to Tacview Standard or above to use this tool.</String>
+	<String ID="HomeToolDemoWarningOneDay">이 툴은<a href="cmd:RegisterCmd">택뷰 스탠다드</a> 에서 사용이 가능합니다. 향후 {0} 일 동안 사용해 보실 수 있습니다.</String>
+	<String ID="HomeToolDemoWarningManyDays">이 툴은 <a href="cmd:RegisterCmd">택뷰 스탠다드</a> 에서 사용이 가능합니다. 향후 {0} 일 동안 사용해 보실 수 있습니다.</String>
+	<String ID="HomeToolDemoExpired">이 툴을 사용하기 위해서 택뷰의 라이센스를 스탠다드나 그 이상으로 <a href="cmd:RegisterCmd">업그레이드</a> 해 주셔야 합니다.</String>
 <!--
 	Korean characters are not yet supported in the 3D view
 	<String ID="StrategicViewDemoWarning">이 전술 뷰는 택뷰 프로페셔널에서 사용 가능합니다.</String>
@@ -752,36 +752,36 @@
 	<String ID="LoadingInProgress">로딩 '{0}'</String>
 	<String ID="DataMergeInProgress">합치기 '{0}'</String>
 	<String ID="DataAnalysisInProgress">데이터 분석...</String>
-	<String ID="SavingInProgressShort">저장...</String>
+	<String ID="SavingInProgressShort">저장중...</String>
 	<String ID="SavingInProgress">저장 '{0}'</String>
 
 	<!-- Misc GUI Strings -->
 	<String ID="InvalidObjectName">(없음)</String>
-	<String ID="GlobalObjectName">Global Properties</String>
+	<String ID="GlobalObjectName">일반 속성</String>
 	<String ID="NotAvailable">N/A</String>
 	<String ID="ACMIFileDescription">택뷰 ACMI - 비행 기록</String>
 	<String ID="VHSFileDescription">팰콘 4.0 - 비행 기록</String>
 	<String ID="CustomProtocolDescription">택뷰 단축키</String>
 	<String ID="NoRecentDocuments">(최근 문서 없음)</String>
-	<String ID="FileTypeDescriptionAnyTelemetryFile">Any Telemetry Data</String>
-	<String ID="FileTypeDescriptionTacviewText">Tacview Text Telemetry Data</String>
-	<String ID="FileTypeDescriptionTacviewBinary">Tacview Binary Telemetry Data</String>
-	<String ID="FileTypeDescriptionGAEText">GAE Distributed Interactive Simulation Text Data</String>
-	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole Markup Language static objects</String>
+	<String ID="FileTypeDescriptionAnyTelemetryFile">텔레메트리 데이터</String>
+	<String ID="FileTypeDescriptionTacviewText">택뷰 텍스트 텔레메트리 데이터</String>
+	<String ID="FileTypeDescriptionTacviewBinary">택뷰 바이너리 텔레메트리 데이터</String>
+	<String ID="FileTypeDescriptionGAEText">GAE 배포 인터렉티브 시뮬레이션 텍스트 데이터</String>
+	<String ID="FileTypeDescriptionKMLStaticObjects">키홀 마크업 언어 스태틱 오브젝트</String>
 	<String ID="FileTypeDescriptionGPX">GPS 변환 파일</String>
 	<String ID="FileTypeDescriptionVHS">팰콘 4.0 비행 기록</String>
 	<String ID="FileTypeDescriptionMAVLink">MAVLink 텔레메트리</String>
-	<String ID="FileTypeDescriptionCSV">CSV (Comma-separated values) files</String>
+	<String ID="FileTypeDescriptionCSV">CSV (콤마로 구분된 값) 파일</String>
 	<String ID="FileTypeDescriptionKML">키홀 마크업 언어 (KML) 포맷의 비행 기록</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">XML 비행 로그</String>
 	<String ID="FileTypeDescriptionCSVFlightLog">UTF-8 쉼표 구분값 비행 로그</String>
 	<String ID="FileTypeDescriptionCSVTelemetry">UTF-8 쉼표 구분값 파일comma-separated values file</String>
 	<String ID="FileTypeDescriptionObjectsMany">고정 오브젝트와 팰콘 4.0 BMS DTC 파일</String>
 	<String ID="FileTypeDescriptionAny">모든 파일</String>
-	<String ID="FileTypeDescriptionTacviewZip">Zip compressed Tacview telemetry Data</String>
-	<String ID="FileTypeDescriptionTacview7z">7z compressed Tacview telemetry Data</String>
-	<String ID="FileTypeDescriptionZip">Telemetry Data in a ZIP archive</String>
-	<String ID="FileTypeDescription7z">Telemetry Data in a 7z archive</String>
+	<String ID="FileTypeDescriptionTacviewZip">택뷰 텔레메트리 데이터를 Zip 형태로 압축</String>
+	<String ID="FileTypeDescriptionTacview7z">택뷰 텔레메트리 데이터를 7z 형태로 압축</String>
+	<String ID="FileTypeDescriptionZip">ZIP 아카이브로 압축 된 텔레메트리 데이터</String>
+	<String ID="FileTypeDescription7z">7z 아카이브로 압축 된 텔레메트리 데이터</String>
 	<String ID="TypeColumn">타입</String>
 	<String ID="TimeColumn">시간</String>
 	<String ID="EventColumn">이벤트</String>
