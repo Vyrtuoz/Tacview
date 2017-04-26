@@ -20,20 +20,20 @@
 	<String ID="FileSaveAsCmdHelp">Guardar el vuelo con un Nuevo nombre</String>
 	<String ID="FileExportText">Exportar</String>
 	<String ID="FileExportFlightLogText">Exportar registro &amp;de vuelo...</String>
-	<String ID="FileExportFlightLogHelp">Exportar los datos de vuelo como archive XML o CSV</String>
+	<String ID="FileExportFlightLogHelp">Exportar los datos de vuelo como archivo XML o CSV</String>
 
 	<String ID="RecordingMenuTooltip">Grabando</String>
 	<String ID="RecordingMenuHelp">Configurar los datos de vuelo a grabar</String>
-	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Real-Time Telemetry...</String>
-	<String ID="RecordingRealTimeTelemetryCmdHelp">Record a flight currently in progress</String>
-	<String ID="RecordingRemoteControl0Text">Remote Control 1</String>
-	<String ID="RecordingRemoteControl1Text">Remote Control 2</String>
-	<String ID="RecordingRemoteControl2Text">Remote Control 3</String>
-	<String ID="RecordingRemoteControl3Text">Remote Control 4</String>
-	<String ID="RecordingRemoteControlHelp">Use the remote-control window to remotely control your favorite flight simulator</String>
+	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Telemetría en tiempo real...</String>
+	<String ID="RecordingRealTimeTelemetryCmdHelp">Grabar un vuelo actualmente en proceso</String>
+	<String ID="RecordingRemoteControl0Text">Control remoto 1</String>
+	<String ID="RecordingRemoteControl1Text">Control remoto 2</String>
+	<String ID="RecordingRemoteControl2Text">Control remoto 3</String>
+	<String ID="RecordingRemoteControl3Text">Control remoto 4</String>
+	<String ID="RecordingRemoteControlHelp">Usar la ventana de control remoto para controlar tu simulador de vuelo favorito</String>
 	<String ID="RecordingRecordDCSWorldCmdText">Grabar vuelos de DCS &amp;World</String>
 	<String ID="RecordingRecordDCSWorldCmdHelp">Grabar todos los vuelos de 'DCS World'</String>
-	<String ID="RecordingExportPathCmdText">Carpeta de Grabación &amp;de los archivos ACMI...</String>
+	<String ID="RecordingExportPathCmdText">Carpeta de grabación &amp;de los archivos ACMI...</String>
 	<String ID="RecordingExportPathCmdHelp">Elija donde guardar los archivos .acmi para el usuario actual</String>
 
 	<String ID="AnalysisMenuTooltip">Análisis</String>
@@ -96,7 +96,7 @@
 
 	<String ID="OptionsLanguageText">Lenguaje</String>
 	<String ID="OptionsLanguageAutoText">(&amp;Automático)</String>
-	<String ID="OptionsLanguageAutoHelp">Automáticamente seleccionar el mejor lenguaje</String>
+	<String ID="OptionsLanguageAutoHelp">Sleccionar automáticamente el mejor lenguaje</String>
 
 	<!-- Units -->
 	<String ID="OptionsMeasurementSystemText">Unidades</String>
@@ -118,12 +118,12 @@
 	<String ID="OptionsImperialAircraftMIUnitsHelp">Velocidad: mph – Velocidad Vertical: ft/min - Altitud: ft - Distancia: mi &amp; ft</String>
 	<String ID="OptionsImperialAircraftNMUnitsText">Imperial - Avión (nm)</String>
 	<String ID="OptionsImperialAircraftNMUnitsHelp">Velocidad: kts – Velocidad Vertical: ft/min - Altitud: ft - Distancia: nm &amp; ft</String>
-	<String ID="OptionsDistanceAutoSwitch0Text">Do not switch distances to feet</String>
-	<String ID="OptionsDistanceAutoSwitch0Help">Do not switch to feet under a certain distance</String>
-	<String ID="OptionsDistanceAutoSwitch1Text">Switch distances to feet under 1 nm</String>
-	<String ID="OptionsDistanceAutoSwitch1Help">Switch distances to feet under 1 nm</String>
-	<String ID="OptionsDistanceAutoSwitch2Text">Switch distances to feet under 2 nm</String>
-	<String ID="OptionsDistanceAutoSwitch2Help">Switch distances to feet under 2 nm</String>
+	<String ID="OptionsDistanceAutoSwitch0Text">No cambiar distancias a pies</String>
+	<String ID="OptionsDistanceAutoSwitch0Help">No cambiar a pies por debajo de cierta distancia</String>
+	<String ID="OptionsDistanceAutoSwitch1Text">Cambiar distancias a pien por debajo de 1 nm</String>
+	<String ID="OptionsDistanceAutoSwitch1Help">Cambiar distancias a pien por debajo de 1 nm</String>
+	<String ID="OptionsDistanceAutoSwitch2Text">Cambiar distancias a pien por debajo de 2 nm</String>
+	<String ID="OptionsDistanceAutoSwitch2Help">Cambiar distancias a pien por debajo de 2 nm</String>
 
 	<String ID="OptionsPositionFormatText">Formato de posición</String>
 	<String ID="OptionsPositionFormatDDDHelp">Grados decimales</String>
@@ -135,27 +135,27 @@
 	<String ID="AspectAngleRight">Der</String>
 
 	<!-- Other Options -->
-	<String ID="OptionsAddObjectText">Add Object</String>
-	<String ID="OptionsAddObjectHelp">Create a new object and add it to the world</String>
-	<String ID="OptionsEditObjectText">Edit Selected Object</String>
-	<String ID="OptionsEditObjectHelp">Edit selected object property</String>
-	<String ID="OptionsRemoveObjectText">Remove Object</String>
-	<String ID="OptionsRemoveObjectHelp">Remove selected object from the world</String>
+	<String ID="OptionsAddObjectText">Añadir objeto</String>
+	<String ID="OptionsAddObjectHelp">Crea un nuevo objeto y lo añade al mundo</String>
+	<String ID="OptionsEditObjectText">Editar objeto seleccionado</String>
+	<String ID="OptionsEditObjectHelp">Edita las propiedades del objeto seleccionado</String>
+	<String ID="OptionsRemoveObjectText">Borrar objeto</String>
+	<String ID="OptionsRemoveObjectHelp">Borra el objeto del mundo</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Asociar Tacview con los archivos acmi</String>
-	<String ID="OptionsAssociateFileTypesHelp">Habilitar que Tacview abra en windows los archivos de vuelo con doble click</String>
+	<String ID="OptionsAssociateFileTypesHelp">Habilita que Tacview abra en windows los archivos de vuelo con doble click</String>
 	<String ID="OptionsTrackIRCmdText">TrackIR</String>
-	<String ID="OptionsTrackIRCmdHelp">Habilitar el TrackIR en vista de cabina</String>
+	<String ID="OptionsTrackIRCmdHelp">Habilita el TrackIR en vista de cabina</String>
 
 	<String ID="InsertBookmarkText">&amp;Insertar marca</String>
-	<String ID="InsertBookmarkHelp">Crear e insertar marca en eventos y línea de tiempo</String>
+	<String ID="InsertBookmarkHelp">Crea e inserta una marca en eventos y línea de tiempo</String>
 	<String ID="RemoveBookmarkText">&amp;Borrar marca</String>
-	<String ID="RemoveBookmarkHelp">Borrar esta marca</String>
+	<String ID="RemoveBookmarkHelp">Borra una marca</String>
 	<String ID="ShareCopyShortcutText">&amp;Copiar acceso directo&#9;(Ctrl+C)</String>
-	<String ID="ShareCopyShortcutHelp">Crear acceso directo a la vista actual para compartir con tus amigos</String>
+	<String ID="ShareCopyShortcutHelp">Crea un acceso directo a la vista actual para compartir con tus amigos</String>
 	<String ID="SharePasteShortcutText">&amp;Pegar acceso directo&#9;(Ctrl+V)</String>
-	<String ID="SharePasteShortcutHelp">Restaurar una vista desde el acceso directo compartido</String>
-	<String ID="AttractAttentionHelp">Atraer la atención de los espectadores a un objeto específico</String>
+	<String ID="SharePasteShortcutHelp">Restaura una vista desde el acceso directo compartido</String>
+	<String ID="AttractAttentionHelp">Atrae la atención de los espectadores a un objeto específico</String>
 
 	<String ID="SelectedObjectsTelemetryText">Etiquetas de los objetos seleccionados</String>
 	<String ID="AircraftsTelemetryText">Etiquetas de los objetos no seleccionados</String>
@@ -169,23 +169,23 @@
 	<String ID="ScaleAutoHelp">La escala cambiara acorde las dimensiones del punto de visión</String>
 	<String ID="Scale1Text">Pequeño</String>
 	<String ID="Scale1Help">Tamaño por defecto</String>
-	<String ID="Scale2Text">Medium</String>
+	<String ID="Scale2Text">Medio</String>
 	<String ID="Scale2Help">El doble de grande que el tamaño por defecto</String>
 	<String ID="Scale3Text">Grande</String>
 	<String ID="Scale3Help">Four times larger than the default size</String>
 
 	<String ID="HelpMenuTooltip">Ayuda</String>
-	<String ID="HelpMenuHelp">Mostrar la ayuda e información general sobre el programa</String>
+	<String ID="HelpMenuHelp">Muestra la ayuda e información general sobre el programa</String>
 	<String ID="HelpDisplayControlsText">&amp;Lista de controles&#9;F1</String>
-	<String ID="HelpDisplayControlsHelp">Mostrar los controles de vista 3D</String>
+	<String ID="HelpDisplayControlsHelp">Muestra los controles de vista 3D</String>
 	<String ID="HelpCommandLineOptionsText">Línea de comandos &amp;Opciones</String>
-	<String ID="HelpCommandLineOptionsHelp">Mostrar las opciones de línea de comandos soportados por Tacview</String>
+	<String ID="HelpCommandLineOptionsHelp">Muestra las opciones de línea de comandos soportados por Tacview</String>
 	<String ID="HelpTechnicalSupportText">Soporte Tecnico &amp;</String>
 	<String ID="HelpTechnicalSupportHelp">Conectar con la web oficial de Tacview</String>
 	<String ID="HelpUserLicenseAgreementText">Acuerdo de licencia &amp;de usuario</String>
 	<String ID="HelpUserLicenseAgreementHelp">Mostrar el acuerdo de licencia</String>
 	<String ID="HelpCheckForUpdatesText">Comprobar &amp;actualizaciones</String>
-	<String ID="HelpCheckForUpdatesHelp">Comprobar en línea de nueva versión de Tacview</String>
+	<String ID="HelpCheckForUpdatesHelp">Comprueba en línea de nueva versión de Tacview</String>
 	<String ID="HelpDebugLogText">Registro de depuración</String>
 	<String ID="HelpDebugLogHelp">Documento de depuración útil para entender los problemas</String>
 	<String ID="HelpEventsProfilerText">Perfil de eventos</String>
@@ -202,11 +202,11 @@
 	<String ID="RegisterCmdTooltip">Registrar</String>
 	<String ID="RegisterCmdHelp">Registra la copia de Tacview</String>
 	<String ID="UpgradeToProfessionalCmdTooltip">Actualizar a Professional</String>
-	<String ID="UpgradeToProfessionalCmdHelp">Ecualiza la versión Home edición a la Professional edición</String>
-	<String ID="UpgradeToCommercialCmdTooltip">Upgrade to Commercial</String>
-	<String ID="UpgradeToCommercialCmdHelp">Upgrade your Professional edition to the Commercial edition</String>
-	<String ID="UpdateCommercialCmdTooltip">Extend Commercial License</String>
-	<String ID="UpdateCommercialCmdHelp">Extend an expiring Commercial license</String>
+	<String ID="UpgradeToProfessionalCmdHelp">Actualiza la versión Home edición a la Professional edición</String>
+	<String ID="UpgradeToCommercialCmdTooltip">Mejorar a Commercial</String>
+	<String ID="UpgradeToCommercialCmdHelp">Mejora tu licencia de Professional edition a Commercial edition</String>
+	<String ID="UpdateCommercialCmdTooltip">Extender Commercial License</String>
+	<String ID="UpdateCommercialCmdHelp">Extiende una licencia comercial expirada</String>
 
 	<!-- Popup Menus -->
 	<String ID="ObjectsInfoCmdRateOfClosureText">Rango / Ratio de acercamiento</String>
@@ -262,12 +262,12 @@
 	<String ID="ChartEnergyText">Energía</String>
 	<String ID="ChartEnergyTransferHelp">Transferencia entre la energía cinética y potencial</String>
 	<String ID="ChartEnergyTransferText">Transferencia de energía</String>
-	<String ID="ChartAccelerationHelp">Comparar rendimiento de misiles</String>
+	<String ID="ChartAccelerationHelp">Compara el rendimiento de misiles</String>
 	<String ID="ChartAccelerationText">Aceleración</String>
-	<String ID="ChartPerformanceHelp">Analizar rendimiento de misiles</String>
+	<String ID="ChartPerformanceHelp">Analiza el rendimiento de misiles</String>
 	<String ID="ChartPerformanceText">Rendimiento</String>
-	<String ID="ChartAttitudeHelp">Analyze aircraft stability and pilot induced oscillations</String>
-	<String ID="ChartAttitudeText">Attitude</String>
+	<String ID="ChartAttitudeHelp">Analiza la estabilidad del avión y las oscilaciones producidas por el piloto</String>
+	<String ID="ChartAttitudeText">Actitud</String>
 
 	<String ID="AxisNoneHelp">Ocultar eje secundario</String>
 	<String ID="AxisNoneText">Deshabilitar</String>
@@ -275,8 +275,8 @@
 	<!-- Telemetry -->
 	<String ID="ATCHelp">Telemetría como ATC: Altitud/100, velocidad vertical y velocidad terrestre/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
-	<String ID="RegistrationHelp">Aircraft registration (tail number)</String>
-	<String ID="RegistrationText">Registration number</String>
+	<String ID="RegistrationHelp">Muestra el numero de registro</String>
+	<String ID="RegistrationText">Registro del avion (numero de cola)</String>
 	<String ID="BullseyeHelp">Posicion relativa al objeto principal con respecto al bullseye</String>
 	<String ID="BullseyeText">Bullseye</String>
 
@@ -327,10 +327,10 @@
 	<String ID="DistanceGroundText">Distancia (Terrestre)</String>
 	<String ID="ElevationProfileHelp">Perfil del terreno bajo el avión</String>
 	<String ID="ElevationProfileText">Perfil de elevación</String>
-	<String ID="RollHelp">Aircraft roll attitude</String>
-	<String ID="RollText">Roll</String>
-	<String ID="PitchHelp">Aircraft pitch attitude</String>
-	<String ID="PitchText">Pitch</String>
+	<String ID="RollHelp">Actitud de alaveo del avion</String>
+	<String ID="RollText">Alabeo</String>
+	<String ID="PitchHelp">Actitud de cabezeo del avion</String>
+	<String ID="PitchText">Cabeceo</String>
 
 	<String ID="AbsoluteTimeHelp">Tiempo absoluto</String>
 	<String ID="AbsoluteTimeText">Tiempo</String>
@@ -361,7 +361,7 @@
 	<String ID="OnlineDebriefingUsernameHelp">Use como mínimo 3 caracteres</String>
 	<String ID="OnlineDebriefingPassword">Contraseña :</String>
 	<String ID="OnlineDebriefingPort">Tacview TCP Port :</String>
-	<String ID="OnlineDebriefingPortHelp">¡No olvide abrir el Puerto en el router!	</String>
+	<String ID="OnlineDebriefingPortHelp">¡No olvide abrir el puerto en el router!	</String>
 	<String ID="OnlineDebriefingSessionName">Nombre de sesión :</String>
 	<String ID="OnlineDebriefingPublicAddress">Dirección publica :</String>
 	<String ID="OnlineDebriefingHostButton">Anfitrión</String>
@@ -386,61 +386,61 @@
 	<String ID="OnlineDebriefingControlGivenTip">{0} esta temporalmente a cargo del debriefing</String>
 	<String ID="OnlineDebriefingControlReceivedTip">Estas temporalmente al cargo del debriefing</String>
 
-	<String ID="RemoteControlConnect">Connect</String>
-	<String ID="RemoteControlDisconnect">Disconnect</String>
-	<String ID="RemoteControlConnecteding">Connecting...</String>
-	<String ID="RemoteControlConnected">Connected to {0}</String>
-	<String ID="RemoteControlDisconnected">Disconnected</String>
-	<String ID="RemoteControlFailed">Failed to connect to simulator</String>
-	<String ID="RemoteControlInvalidPassword">A valid password is required for this connection</String>
-	<String ID="RemoteControlPort">Remote Control Port :</String>
-	<String ID="RemoteControlHelp">Click an action to activate. Double-click to customize a control.</String>
-	<String ID="RemoteControlPause">Pause</String>
-	<String ID="RemoteControlResume">Resume</String>
-	<String ID="RemoteControlFlapsUp">Flaps Up</String>
-	<String ID="RemoteControlFlapsDown">Flaps Down</String>
-	<String ID="RemoteControlLandingGearUp">Landing Gear Up</String>
-	<String ID="RemoteControlLandingGearDown">Landing Gear Down</String>
-	<String ID="RemoteControlRoll">Roll</String>
-	<String ID="RemoteControlPitch">Pitch</String>
-	<String ID="RemoteControlYaw">Yaw</String>
+	<String ID="RemoteControlConnect">Conectar</String>
+	<String ID="RemoteControlDisconnect">Desconectar</String>
+	<String ID="RemoteControlConnecteding">Conectando...</String>
+	<String ID="RemoteControlConnected">Conectado a {0}</String>
+	<String ID="RemoteControlDisconnected">Desconectado</String>
+	<String ID="RemoteControlFailed">Fallo al conectar con el simulador</String>
+	<String ID="RemoteControlInvalidPassword">Se necesita una contraseña valida para esta conexión</String>
+	<String ID="RemoteControlPort">Puerto de control remoto :</String>
+	<String ID="RemoteControlHelp">Click para activar una acción. Doble click para personalizar un control.</String>
+	<String ID="RemoteControlPause">Pausa</String>
+	<String ID="RemoteControlResume">Reanudar</String>
+	<String ID="RemoteControlFlapsUp">Flaps Arriba</String>
+	<String ID="RemoteControlFlapsDown">Flaps Abajo</String>
+	<String ID="RemoteControlLandingGearUp">Landing Gear Arriba</String>
+	<String ID="RemoteControlLandingGearDown">Landing Gear Abajo</String>
+	<String ID="RemoteControlRoll">Roll/Alabeo</String>
+	<String ID="RemoteControlPitch">Pitch/Cabeceo</String>
+	<String ID="RemoteControlYaw">Yaw/Guiñada</String>
 
-	<String ID="RealTimeTelemetryTitle">Real-time Telemetry</String>
-	<String ID="RealTimeTelemetryIntro">Establish a connection with a data recorder to review telemetry data in real-time!</String>
-	<String ID="RealTimeTelemetryUsername">Choose a User Name :</String>
-	<String ID="RealTimeTelemetryAddress">Data Recorder Address :</String>
-	<String ID="RealTimeTelemetryPort">Data Recorder Port :</String>
-	<String ID="RealTimeTelemetryWarningClient">Only the professional version of Tacview can record real-time telemetry.</String>
-	<String ID="RealTimeTelemetryPasswordTip">A password may be required to join a private session</String>
-	<String ID="RealTimeTelemetryRecordingProgress">Recording from {0} {1}</String>
-	<String ID="RealTimeTelemetryOperationCompleted">Real-time telemetry recording complete.</String>
-	<String ID="RealTimeTelemetryOperationFailed">Failed to connect real-time telemetry to given host address.</String>
-	<String ID="RealTimeTelemetryUnsupportedOperation">Real-time telemetry not compatible with the host exporter.</String>
-	<String ID="RealTimeTelemetryInvalidParameters">Invalid real-time telemetry password.</String>
-	<String ID="RealTimeTelemetryNotSynchronized">Playback is currently not synchronized with real-time telemetry.</String>
-	<String ID="RealTimeTelemetryConnect">Connect</String>
-	<String ID="RealTimeTelemetryDisconnect">Disconnect</String>
+	<String ID="RealTimeTelemetryTitle">Telemetría en tiempo real </String>
+	<String ID="RealTimeTelemetryIntro">¡Establece una conexion con el grabador para visualizar la telemetria en tiempo real!</String>
+	<String ID="RealTimeTelemetryUsername">Elige un nombre :</String>
+	<String ID="RealTimeTelemetryAddress">Direccion del grabador :</String>
+	<String ID="RealTimeTelemetryPort">Puerto del grabador :</String>
+	<String ID="RealTimeTelemetryWarningClient">Solo la versión profesional de Tacview puede grabar telemetría en tiempo real.</String>
+	<String ID="RealTimeTelemetryPasswordTip">Se requiere una contraseña para unirse a la sesion</String>
+	<String ID="RealTimeTelemetryRecordingProgress">Grabando desde {0} {1}</String>
+	<String ID="RealTimeTelemetryOperationCompleted">Grabacion de telemetria en tiempo real completada.</String>
+	<String ID="RealTimeTelemetryOperationFailed">Fallo al conectar con la direccion del host/anfitrion de telemetria en tiempo real.</String>
+	<String ID="RealTimeTelemetryUnsupportedOperation">Telemetria en tiempo real no compatible con el exportador host/anfitrion.</String>
+	<String ID="RealTimeTelemetryInvalidParameters">Contraseña de telemetría en tiempo real no valida.</String>
+	<String ID="RealTimeTelemetryNotSynchronized">La reproducción no esta sincronizada con la telemetria en tiempo real.</String>
+	<String ID="RealTimeTelemetryConnect">Conectar</String>
+	<String ID="RealTimeTelemetryDisconnect">Desconectar</String>
 
-	<String ID="AddEditObjectAddTitle">Create New Object</String>
-	<String ID="AddEditObjectEditTitle">Edit Object Properties</String>
-	<String ID="AddEditObjectHelp">Objects and properties documentation</String>
+	<String ID="AddEditObjectAddTitle">Crear nuevo objeto</String>
+	<String ID="AddEditObjectEditTitle">Editar propiedades del objeto</String>
+	<String ID="AddEditObjectHelp">Documentación de objetos y propiedades</String>
 	<String ID="AddEditObjectId">ID</String>
-	<String ID="AddEditObjectTime">Time</String>
-	<String ID="AddEditObjectName">Name</String>
-	<String ID="AddEditObjectPilot">Pilot</String>
-	<String ID="AddEditObjectType">Type</String>
-	<String ID="AddEditObjectPosition">Position</String>
+	<String ID="AddEditObjectTime">Tiempo</String>
+	<String ID="AddEditObjectName">Nombre</String>
+	<String ID="AddEditObjectPilot">Piloto</String>
+	<String ID="AddEditObjectType">Tipo</String>
+	<String ID="AddEditObjectPosition">Posición</String>
 	<String ID="AddEditObjectColor">Color</String>
-	<String ID="AddEditObjectCoalition">Coalition</String>
+	<String ID="AddEditObjectCoalition">Coalición</String>
 	<String ID="AutoValue">(auto)</String>
-	<String ID="CurrentTimeValue">(now)</String>
-	<String ID="NoTypeValue">(none)</String>
-	<String ID="NoNameValue">(none)</String>
-	<String ID="NoColorValue">(none)</String>
-	<String ID="NoCoalitionValue">(none)</String>
+	<String ID="CurrentTimeValue">(ahora)</String>
+	<String ID="NoTypeValue">(ninguno)</String>
+	<String ID="NoNameValue">(ninguno)</String>
+	<String ID="NoColorValue">(ninguno)</String>
+	<String ID="NoCoalitionValue">(ninguno)</String>
 	<String ID="BullseyeValue">(Bullseye)</String>
-	<String ID="FixedWingValue">(Fixed Wing Aircraft)</String>
-	<String ID="TimelessValue">(timeless object)</String>
+	<String ID="FixedWingValue">(Aeronave de ala fija)</String>
+	<String ID="TimelessValue">(Objeto atemporal)</String>
 
 	<!-- Profiler -->
 	<String ID="ProfilerProfileMainLoopTooltip">Bucle del perfil principal (F16)</String>
@@ -497,10 +497,10 @@
 
 	<String ID="AddOnTitleEventsLog">Registro de vuelo</String>
 	<String ID="AddOnTitleControlsList">Lista de control</String>
-	<String ID="AddOnTitleRemoteControl0">Remote Control 1</String>
-	<String ID="AddOnTitleRemoteControl1">Remote Control 2</String>
-	<String ID="AddOnTitleRemoteControl2">Remote Control 3</String>
-	<String ID="AddOnTitleRemoteControl3">Remote Control 4</String>
+	<String ID="AddOnTitleRemoteControl0">Control remoto 1</String>
+	<String ID="AddOnTitleRemoteControl1">Control remoto 2</String>
+	<String ID="AddOnTitleRemoteControl2">Control remoto 3</String>
+	<String ID="AddOnTitleRemoteControl3">Control remoto 4</String>
 	<String ID="AddOnTitleCommandLineOptionsList">Opciones de línea de comandos</String>
 	<String ID="AddOnTitleUserLicenseAgreement">Acuerdo de licencia de usuario</String>
 	<String ID="AddOnTitleDebugLog">Registro de errores</String>
