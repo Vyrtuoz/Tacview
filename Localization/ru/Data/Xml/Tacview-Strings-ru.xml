@@ -24,13 +24,13 @@
 
 	<String ID="RecordingMenuTooltip">Ведётся запись</String>
 	<String ID="RecordingMenuHelp">Задать свойства записи полёта</String>
-	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Real-Time Telemetry...</String>
-	<String ID="RecordingRealTimeTelemetryCmdHelp">Record a flight currently in progress</String>
-	<String ID="RecordingRemoteControl0Text">Remote Control 1</String>
-	<String ID="RecordingRemoteControl1Text">Remote Control 2</String>
-	<String ID="RecordingRemoteControl2Text">Remote Control 3</String>
-	<String ID="RecordingRemoteControl3Text">Remote Control 4</String>
-	<String ID="RecordingRemoteControlHelp">Use the remote-control window to remotely control your favorite flight simulator</String>
+	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Телеметрия в реальном времени...</String>
+	<String ID="RecordingRealTimeTelemetryCmdHelp">Записать текущий полет</String>
+	<String ID="RecordingRemoteControl0Text">Удаленное управление 1</String>
+	<String ID="RecordingRemoteControl1Text">Удаленное управление 2</String>
+	<String ID="RecordingRemoteControl2Text">Удаленное управление 3</String>
+	<String ID="RecordingRemoteControl3Text">Удаленное управление 4</String>
+	<String ID="RecordingRemoteControlHelp">Используйте удаленное управление, чтобы дистанционно управлять симулятором</String>
 	<String ID="RecordingRecordDCSWorldCmdText">Записывать полёты &amp;DCS World</String>
 	<String ID="RecordingRecordDCSWorldCmdHelp">Записывать все полёты DCS World</String>
 	<String ID="RecordingExportPathCmdText">Папка для сохранения &amp;записей .acmi...</String>
@@ -118,12 +118,12 @@
 	<String ID="OptionsImperialAircraftMIUnitsHelp">Скорость: миль/час - Вертикальная Скорость: фут/мин - Высота: фут - Расстояние: миль &amp; фут</String>
 	<String ID="OptionsImperialAircraftNMUnitsText">Имперская - ЛА (морские мили)</String>
 	<String ID="OptionsImperialAircraftNMUnitsHelp">Скорость: узлы - Вертикальная Скорость: фут/мин - Высота: фут - Расстояние: м.миль &amp; фут</String>
-	<String ID="OptionsDistanceAutoSwitch0Text">Do not switch distances to feet</String>
-	<String ID="OptionsDistanceAutoSwitch0Help">Do not switch to feet under a certain distance</String>
-	<String ID="OptionsDistanceAutoSwitch1Text">Switch distances to feet under 1 nm</String>
-	<String ID="OptionsDistanceAutoSwitch1Help">Switch distances to feet under 1 nm</String>
-	<String ID="OptionsDistanceAutoSwitch2Text">Switch distances to feet under 2 nm</String>
-	<String ID="OptionsDistanceAutoSwitch2Help">Switch distances to feet under 2 nm</String>
+	<String ID="OptionsDistanceAutoSwitch0Text">Не переключать расстояния в футы</String>
+	<String ID="OptionsDistanceAutoSwitch0Help">Не переключать расстояния в футы до определенной дистанции</String>
+	<String ID="OptionsDistanceAutoSwitch1Text">Переключаться в футы для расстояний менее 1 м.мили</String>
+	<String ID="OptionsDistanceAutoSwitch1Help">Переключаться в футы для расстояний менее 2 м.миль</String>
+	<String ID="OptionsDistanceAutoSwitch2Text">Переключаться в футы для расстояний менее 2 м.миль</String>
+	<String ID="OptionsDistanceAutoSwitch2Help">Переключаться в футы для расстояний менее 2 м.миль</String>
 
 	<String ID="OptionsPositionFormatText">Формат координат</String>
 	<String ID="OptionsPositionFormatDDDHelp">Десятичные градусы</String>
@@ -135,12 +135,12 @@
 	<String ID="AspectAngleRight">П</String>
 
 	<!-- Other Options -->
-	<String ID="OptionsAddObjectText">Add Object</String>
-	<String ID="OptionsAddObjectHelp">Create a new object and add it to the world</String>
-	<String ID="OptionsEditObjectText">Edit Selected Object</String>
-	<String ID="OptionsEditObjectHelp">Edit selected object property</String>
-	<String ID="OptionsRemoveObjectText">Remove Object</String>
-	<String ID="OptionsRemoveObjectHelp">Remove selected object from the world</String>
+	<String ID="OptionsAddObjectText">Добавить объект</String>
+	<String ID="OptionsAddObjectHelp">Создать новый объект и добавить его на карту</String>
+	<String ID="OptionsEditObjectText">Редактировать выбранный объект</String>
+	<String ID="OptionsEditObjectHelp">Редактировать свойства выбранного объекта</String>
+	<String ID="OptionsRemoveObjectText">Удалить объект</String>
+	<String ID="OptionsRemoveObjectHelp">Удалить выбранный объект с карты</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Ассоциировать .acmi файлы с Tacview</String>
 	<String ID="OptionsAssociateFileTypesHelp">Позволяет открывать .acmi файлы в программе Tacview по двойному щелчку мыши (Windows OS)</String>
@@ -161,18 +161,18 @@
 	<String ID="AircraftsTelemetryText">Метки невыбранных самолётов</String>
 	<String ID="LabelOnAllGroundObjectsText">Отметить все наземные объекты</String>
 	<String ID="LabelOnAllGroundObjectsHelp">Отображать метки на всех наземных объектах, включая ПВО</String>
-	<String ID="ForceSelectedObjetsLabelsText">Force selected objects labels</String>
-	<String ID="ForceSelectedObjetsLabelsHelp">Always display select objects labels regardless of the global preference</String>
+	<String ID="ForceSelectedObjetsLabelsText">Принудительно отображать метки выбранных объектов</String>
+	<String ID="ForceSelectedObjetsLabelsHelp">Всегда отображать метки выбранных объектов, независимо от глобальных настроек</String>
 
 	<String ID="LabelsScaleText">Размер меток</String>
 	<String ID="ScaleAutoText">Авто</String>
 	<String ID="ScaleAutoHelp">Масштаб изменится сообразно размеру окна просмотра</String>
 	<String ID="Scale1Text">Маленький</String>
 	<String ID="Scale1Help">По умолчанию</String>
-	<String ID="Scale2Text">Medium</String>
+	<String ID="Scale2Text">Средний</String>
 	<String ID="Scale2Help">Вдвое больше</String>
 	<String ID="Scale3Text">Большой</String>
-	<String ID="Scale3Help">Four times larger than the default size</String>
+	<String ID="Scale3Help">Вчетверо больше исходного размера</String>
 
 	<String ID="HelpMenuTooltip">Помощь</String>
 	<String ID="HelpMenuHelp">Отображать подсказки и общую информацию о программе</String>
@@ -203,10 +203,10 @@
 	<String ID="RegisterCmdHelp">Зарегистрировать свою копию Tacview</String>
 	<String ID="UpgradeToProfessionalCmdTooltip">Обновиться до версии Professional</String>
 	<String ID="UpgradeToProfessionalCmdHelp">Обновить "Home" версию продукта до "Professional"</String>
-	<String ID="UpgradeToCommercialCmdTooltip">Upgrade to Commercial</String>
-	<String ID="UpgradeToCommercialCmdHelp">Upgrade your Professional edition to the Commercial edition</String>
-	<String ID="UpdateCommercialCmdTooltip">Extend Commercial License</String>
-	<String ID="UpdateCommercialCmdHelp">Extend an expiring Commercial license</String>
+	<String ID="UpgradeToCommercialCmdTooltip">Обновиться до коммерческой версии</String>
+	<String ID="UpgradeToCommercialCmdHelp">Обновить версию Professional до Commercial</String>
+	<String ID="UpdateCommercialCmdTooltip">Продлить коммерческую версию</String>
+	<String ID="UpdateCommercialCmdHelp">Продлить истекающую версию Commercial</String>
 
 	<!-- Popup Menus -->
 	<String ID="ObjectsInfoCmdRateOfClosureText">Расстояние / Скорость сближения</String>
@@ -266,8 +266,8 @@
 	<String ID="ChartAccelerationText">Ускорение</String>
 	<String ID="ChartPerformanceHelp">Анализировать динамические характеристики ракет</String>
 	<String ID="ChartPerformanceText">Характеристики</String>
-	<String ID="ChartAttitudeHelp">Analyze aircraft stability and pilot induced oscillations</String>
-	<String ID="ChartAttitudeText">Attitude</String>
+	<String ID="ChartAttitudeHelp">Анализировать стабильность положения ЛА и колебания, вызванные управлением</String>
+	<String ID="ChartAttitudeText">Позиция</String>
 
 	<String ID="AxisNoneHelp">Скрыть второстепенные оси</String>
 	<String ID="AxisNoneText">Отключено</String>
@@ -275,8 +275,8 @@
 	<!-- Telemetry -->
 	<String ID="ATCHelp">ATC - подобная телеметрия: высота/100, вертикальная скорость и наземная скорость/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
-	<String ID="RegistrationHelp">Aircraft registration (tail number)</String>
-	<String ID="RegistrationText">Registration number</String>
+	<String ID="RegistrationHelp">Хвостовой номер</String>
+	<String ID="RegistrationText">Регистрационный номер</String>
 	<String ID="BullseyeHelp">Положение относительно основного условного ориентира коалиции</String>
 	<String ID="BullseyeText">Условный ориентир</String>
 
@@ -327,10 +327,10 @@
 	<String ID="DistanceGroundText">Расстояние (ист.)</String>
 	<String ID="ElevationProfileHelp">Профиль высот земной поверхности под ЛА</String>
 	<String ID="ElevationProfileText">Профиль превышения</String>
-	<String ID="RollHelp">Aircraft roll attitude</String>
-	<String ID="RollText">Roll</String>
-	<String ID="PitchHelp">Aircraft pitch attitude</String>
-	<String ID="PitchText">Pitch</String>
+	<String ID="RollHelp">Положение ЛА по крену</String>
+	<String ID="RollText">Крен</String>
+	<String ID="PitchHelp">Положение ЛА по тангажу</String>
+	<String ID="PitchText">Тангаж</String>
 
 	<String ID="AbsoluteTimeHelp">Абсолютное время</String>
 	<String ID="AbsoluteTimeText">Время</String>
@@ -360,7 +360,7 @@
 	<String ID="OnlineDebriefingUsername">Имя:</String>
 	<String ID="OnlineDebriefingUsernameHelp">Введите минимум 3 символа</String>
 	<String ID="OnlineDebriefingPassword">Пароль:</String>
-	<String ID="OnlineDebriefingPort">Tacview TCP Port :</String>
+	<String ID="OnlineDebriefingPort">Tacview TCP порт :</String>
 	<String ID="OnlineDebriefingPortHelp">Не забудьте открыть этот порт в своем роутере!</String>
 	<String ID="OnlineDebriefingSessionName">Имя сессии:</String>
 	<String ID="OnlineDebriefingPublicAddress">Публичный адрес:</String>
@@ -386,61 +386,61 @@
 	<String ID="OnlineDebriefingControlGivenTip">{0} временно назначен ответственным по дебрифингу</String>
 	<String ID="OnlineDebriefingControlReceivedTip">Вы временно назначены ответственным по дебрифингу</String>
 
-	<String ID="RemoteControlConnect">Connect</String>
-	<String ID="RemoteControlDisconnect">Disconnect</String>
-	<String ID="RemoteControlConnecteding">Connecting...</String>
-	<String ID="RemoteControlConnected">Connected to {0}</String>
-	<String ID="RemoteControlDisconnected">Disconnected</String>
-	<String ID="RemoteControlFailed">Failed to connect to simulator</String>
-	<String ID="RemoteControlInvalidPassword">A valid password is required for this connection</String>
-	<String ID="RemoteControlPort">Remote Control Port :</String>
-	<String ID="RemoteControlHelp">Click an action to activate. Double-click to customize a control.</String>
-	<String ID="RemoteControlPause">Pause</String>
-	<String ID="RemoteControlResume">Resume</String>
-	<String ID="RemoteControlFlapsUp">Flaps Up</String>
-	<String ID="RemoteControlFlapsDown">Flaps Down</String>
-	<String ID="RemoteControlLandingGearUp">Landing Gear Up</String>
-	<String ID="RemoteControlLandingGearDown">Landing Gear Down</String>
-	<String ID="RemoteControlRoll">Roll</String>
-	<String ID="RemoteControlPitch">Pitch</String>
-	<String ID="RemoteControlYaw">Yaw</String>
+	<String ID="RemoteControlConnect">Присоединиться</String>
+	<String ID="RemoteControlDisconnect">Отсоединиться</String>
+	<String ID="RemoteControlConnecteding">Подключаемся...</String>
+	<String ID="RemoteControlConnected">Подключен к {0}</String>
+	<String ID="RemoteControlDisconnected">Отключен</String>
+	<String ID="RemoteControlFailed">Подключение к симулятору не удалось</String>
+	<String ID="RemoteControlInvalidPassword">Данному подключению требуется рабочий пароль</String>
+	<String ID="RemoteControlPort">Порт удаленного управления :</String>
+	<String ID="RemoteControlHelp">Нажмите на действие, которое надо активировать. Двойной клик для настройки управления.</String>
+	<String ID="RemoteControlPause">Пауза</String>
+	<String ID="RemoteControlResume">Продолжить</String>
+	<String ID="RemoteControlFlapsUp">Убрать закрылки</String>
+	<String ID="RemoteControlFlapsDown">Выпустить закрылки</String>
+	<String ID="RemoteControlLandingGearUp">Поднять шасси</String>
+	<String ID="RemoteControlLandingGearDown">Выпустить шасси</String>
+	<String ID="RemoteControlRoll">Крен</String>
+	<String ID="RemoteControlPitch">Тангаж</String>
+	<String ID="RemoteControlYaw">Рыскание</String>
 
-	<String ID="RealTimeTelemetryTitle">Real-time Telemetry</String>
-	<String ID="RealTimeTelemetryIntro">Establish a connection with a data recorder to review telemetry data in real-time!</String>
-	<String ID="RealTimeTelemetryUsername">Choose a User Name :</String>
-	<String ID="RealTimeTelemetryAddress">Data Recorder Address :</String>
-	<String ID="RealTimeTelemetryPort">Data Recorder Port :</String>
-	<String ID="RealTimeTelemetryWarningClient">Only the professional version of Tacview can record real-time telemetry.</String>
-	<String ID="RealTimeTelemetryPasswordTip">A password may be required to join a private session</String>
-	<String ID="RealTimeTelemetryRecordingProgress">Recording from {0} {1}</String>
-	<String ID="RealTimeTelemetryOperationCompleted">Real-time telemetry recording complete.</String>
-	<String ID="RealTimeTelemetryOperationFailed">Failed to connect real-time telemetry to given host address.</String>
-	<String ID="RealTimeTelemetryUnsupportedOperation">Real-time telemetry not compatible with the host exporter.</String>
-	<String ID="RealTimeTelemetryInvalidParameters">Invalid real-time telemetry password.</String>
-	<String ID="RealTimeTelemetryNotSynchronized">Playback is currently not synchronized with real-time telemetry.</String>
-	<String ID="RealTimeTelemetryConnect">Connect</String>
-	<String ID="RealTimeTelemetryDisconnect">Disconnect</String>
+	<String ID="RealTimeTelemetryTitle">Телеметрия в реальном времени</String>
+	<String ID="RealTimeTelemetryIntro">Установить соединение с самописцем, чтобы проанализировать телеметрию в реальном времени!</String>
+	<String ID="RealTimeTelemetryUsername">Выбрать имя пользователя:</String>
+	<String ID="RealTimeTelemetryAddress">Адрес самописца :</String>
+	<String ID="RealTimeTelemetryPort">Порт самописца :</String>
+	<String ID="RealTimeTelemetryWarningClient">Опция записи телеметрии в реальном времени доступна только для версии Professional.</String>
+	<String ID="RealTimeTelemetryPasswordTip">Для присоединения к приватному каналу может потребоваться пароль</String>
+	<String ID="RealTimeTelemetryRecordingProgress">Ведется запись из {0} {1}</String>
+	<String ID="RealTimeTelemetryOperationCompleted">Запись телеметрии реального времени завершена.</String>
+	<String ID="RealTimeTelemetryOperationFailed">Не удалось подключить телеметрию реального времени к заданному хост-адресу.</String>
+	<String ID="RealTimeTelemetryUnsupportedOperation">Телоеметрия реального времени несовместима с хост-экспортером.</String>
+	<String ID="RealTimeTelemetryInvalidParameters">Неверный пароль телеметрии реального времени.</String>
+	<String ID="RealTimeTelemetryNotSynchronized">Воспроизведение на данный момент не синхронизировано с телеметрией реального времени.</String>
+	<String ID="RealTimeTelemetryConnect">Подключиться</String>
+	<String ID="RealTimeTelemetryDisconnect">Отключиться</String>
 
-	<String ID="AddEditObjectAddTitle">Create New Object</String>
-	<String ID="AddEditObjectEditTitle">Edit Object Properties</String>
-	<String ID="AddEditObjectHelp">Objects and properties documentation</String>
+	<String ID="AddEditObjectAddTitle">Создать новый объект</String>
+	<String ID="AddEditObjectEditTitle">Редактировать свойства объекта</String>
+	<String ID="AddEditObjectHelp">Документация по объектам и их параметрам</String>
 	<String ID="AddEditObjectId">ID</String>
-	<String ID="AddEditObjectTime">Time</String>
-	<String ID="AddEditObjectName">Name</String>
-	<String ID="AddEditObjectPilot">Pilot</String>
-	<String ID="AddEditObjectType">Type</String>
-	<String ID="AddEditObjectPosition">Position</String>
-	<String ID="AddEditObjectColor">Color</String>
-	<String ID="AddEditObjectCoalition">Coalition</String>
-	<String ID="AutoValue">(auto)</String>
-	<String ID="CurrentTimeValue">(now)</String>
-	<String ID="NoTypeValue">(none)</String>
-	<String ID="NoNameValue">(none)</String>
-	<String ID="NoColorValue">(none)</String>
-	<String ID="NoCoalitionValue">(none)</String>
-	<String ID="BullseyeValue">(Bullseye)</String>
-	<String ID="FixedWingValue">(Fixed Wing Aircraft)</String>
-	<String ID="TimelessValue">(timeless object)</String>
+	<String ID="AddEditObjectTime">Время</String>
+	<String ID="AddEditObjectName">Имя</String>
+	<String ID="AddEditObjectPilot">Пилот</String>
+	<String ID="AddEditObjectType">Тип</String>
+	<String ID="AddEditObjectPosition">Позиция</String>
+	<String ID="AddEditObjectColor">Цвет</String>
+	<String ID="AddEditObjectCoalition">Коалиция</String>
+	<String ID="AutoValue">(авто)</String>
+	<String ID="CurrentTimeValue">(сейчас)</String>
+	<String ID="NoTypeValue">(пусто)</String>
+	<String ID="NoNameValue">(пусто)</String>
+	<String ID="NoColorValue">(пусто)</String>
+	<String ID="NoCoalitionValue">(пусто)</String>
+	<String ID="BullseyeValue">(условный ориентир)</String>
+	<String ID="FixedWingValue">(ЛА с фиксированным крылом)</String>
+	<String ID="TimelessValue">(безвременной объект)</String>
 
 	<!-- Profiler -->
 	<String ID="ProfilerProfileMainLoopTooltip">Настройка основного цикла (F16)</String>
@@ -497,10 +497,10 @@
 
 	<String ID="AddOnTitleEventsLog">Журнал полёта</String>
 	<String ID="AddOnTitleControlsList">Управление</String>
-	<String ID="AddOnTitleRemoteControl0">Remote Control 1</String>
-	<String ID="AddOnTitleRemoteControl1">Remote Control 2</String>
-	<String ID="AddOnTitleRemoteControl2">Remote Control 3</String>
-	<String ID="AddOnTitleRemoteControl3">Remote Control 4</String>
+	<String ID="AddOnTitleRemoteControl0">Удаленное управление 1</String>
+	<String ID="AddOnTitleRemoteControl1">Удаленное управление 2</String>
+	<String ID="AddOnTitleRemoteControl2">Удаленное управление 3</String>
+	<String ID="AddOnTitleRemoteControl3">Удаленное управление 4</String>
 	<String ID="AddOnTitleCommandLineOptionsList">Опции командной строки</String>
 	<String ID="AddOnTitleUserLicenseAgreement">Пользовательское соглашение</String>
 	<String ID="AddOnTitleDebugLog">Журнал отладчика</String>
@@ -536,7 +536,7 @@
 	<String ID="CmdFalcon4TheaterHelp">Использовать ТВД из Falcon 4.0 для VHS файлов. (Aegean, Balkan, Israel, Korea...)</String>
 	<String ID="CmdQuietHelp">Tacview выполнит все указанные операции и закроется без дополнительных уведомлений.</String>
 	<String ID="CmdQuitHelp">Tacview закроется после того, как будут выполнены все указанные операции.</String>
-	<String ID="CmdDataCollectionHelp">Can be used to disable anonymous data collection.</String>
+	<String ID="CmdDataCollectionHelp">Может использоваться для отключения анонимного сбора телеметрии.</String>
 	<String ID="CmdVBOOffHelp">Отключить объекты буфера вершин, чтобы избежать падений программы на некторых конфигурациях ATI CrossFire.</String>
 	<String ID="CmdDebugModeHelp">Отображает информацию об отладке, помогающую устранять баги.</String>
 
@@ -634,11 +634,11 @@
 	<String ID="DemoEditionShortManyDays">Демо-версия (осталось {0} дней)</String>
 	<String ID="DemoEditionOneDay">{0} Демо-версия, остался {1} день</String>
 	<String ID="DemoEditionManyDays">{0} Демо-версия, осталось {1} дней</String>
-	<String ID="FreeEdition">{0} Starter</String>
-	<String ID="HomeEdition">{0} Standard</String>
-	<String ID="ProfessionalEdition">{0} Advanced</String>
-	<String ID="CommercialEditionAnnual">{0} Enterprise (expires on {1})</String>
-	<String ID="CommercialEditionPerpetual">{0} Enterprise (support ends on {1})</String>
+	<String ID="FreeEdition">{0} Базовая</String>
+	<String ID="HomeEdition">{0} Стандартная</String>
+	<String ID="ProfessionalEdition">{0} Улучшенная</String>
+	<String ID="CommercialEditionAnnual">{0} Enterprise (истекает через {1})</String>
+	<String ID="CommercialEditionPerpetual">{0} Enterprise (поддержка заканчивается {1})</String>
 	<String ID="32bitEdition">32-бит</String>
 	<String ID="64bitEdition">64-бит</String>
 	<String ID="ProfessionalToolDemoWarningOneDay">Данный инструмент доступен в Tacview <a href="cmd:RegisterCmd">Professional</a>, Вы можете использовать его {0} день.</String>
@@ -648,8 +648,8 @@
 	<String ID="HomeToolDemoWarningManyDays">Этот инструмент доступен в <a href="cmd:RegisterCmd">Home версии</a> программы Tacview, Вы можете использовать его {0} дней.</String>
 	<String ID="HomeToolDemoExpired">Для использования этого инструмента необходимо<a href="cmd:RegisterCmd">обновить лицензию</a> до версии Home или Professional.</String>
 	<String ID="StrategicViewDemoWarning">Стратегический обзор доступен в Professional версии программы Tacview.</String>
-	<String ID="ExpiredCommercialLicenseAnnual">Your Tacview Enterprise has expired on {0},&#10;DO NOT use this version in commercial and institutional environment.</String>
-	<String ID="ExpiredCommercialLicensePerpetual">Your Tacview Enterprise support has expired on {0},&#10;Please contact us if you want to use this new version.</String>
+	<String ID="ExpiredCommercialLicenseAnnual">Ваша Enterprise версия программы Tacview истекла {0},&#10;НЕ ИСПОЛЬЗУЙТЕ эту версию в коммерческих или ведомственных целях.</String>
+	<String ID="ExpiredCommercialLicensePerpetual">Поддержка Вашей Enterprise версии истекла {0},&#10;Пожалуйста, свжяитесь с нами, если хотите в дальнейшем использовать данную версию.</String>
 
 	<!-- Units -->
 	<String ID="UnitLabelASL">ASL Высота ({0})</String>
@@ -677,8 +677,8 @@
 	<String ID="UnitLabelTrack">Курс (°)</String>
 	<String ID="UnitLabelDistanceAir">Расстояние (возд.) ({0})</String>
 	<String ID="UnitLabelDistanceGround">Расстояние (ист.) ({0})</String>
-	<String ID="UnitLabelRoll">Roll ({0})</String>
-	<String ID="UnitLabelPitch">Pitch ({0})</String>
+	<String ID="UnitLabelRoll">Крен ({0})</String>
+	<String ID="UnitLabelPitch">Тангаж ({0})</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -713,7 +713,7 @@
 	<String ID="FileTypeDescriptionKMLStaticObjects">Статические объекты KML</String>
 	<String ID="FileTypeDescriptionGPX">Файлы обмена GPS</String>
 	<String ID="FileTypeDescriptionVHS">Записи полёта Falcon 4.0</String>
-	<String ID="FileTypeDescriptionMAVLink">MAVLink telemetry</String>
+	<String ID="FileTypeDescriptionMAVLink">Телеметрия MAVLink</String>
 	<String ID="FileTypeDescriptionCSV">CSV файлы (разделитель - запятая)</String>
 	<String ID="FileTypeDescriptionKML">Запись в формате .kml</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">Журнал полёта в .xml</String>
@@ -721,10 +721,10 @@
 	<String ID="FileTypeDescriptionCSVTelemetry">Файл значений UTF-8 (разделитель - запятая)</String>
 	<String ID="FileTypeDescriptionObjectsMany">Статичные объекты и BMS DTC файлы Falcon 4.0</String>
 	<String ID="FileTypeDescriptionAny">Все файлы</String>
-	<String ID="FileTypeDescriptionTacviewZip">Zip compressed Tacview telemetry Data</String>
-	<String ID="FileTypeDescriptionTacview7z">7z compressed Tacview telemetry Data</String>
-	<String ID="FileTypeDescriptionZip">Telemetry Data in a ZIP archive</String>
-	<String ID="FileTypeDescription7z">Telemetry Data in a 7z archive</String>
+	<String ID="FileTypeDescriptionTacviewZip">Телеметрия Tacview (Zip архив)</String>
+	<String ID="FileTypeDescriptionTacview7z"> Телеметрия Tacview (7z архив)</String>
+	<String ID="FileTypeDescriptionZip">Данные телеметрии в ZIP архиве</String>
+	<String ID="FileTypeDescription7z">Данные телеметрии в 7z архиве</String>
 	<String ID="TypeColumn">Тип</String>
 	<String ID="TimeColumn">Время</String>
 	<String ID="EventColumn">Событие</String>
