@@ -74,12 +74,16 @@
 	<String ID="OptionsDisplayCommentsHelp">Mostrar comentarios como subtítulos en vista 3D</String>
 
 	<String ID="OptionsTerrainDisplayModeText">Modo de Terreno</String>
+	<String ID="OptionsTerrainDisplayModeFull3DText">3D &amp;&amp; &amp;Underwater</String>
+	<String ID="OptionsTerrainDisplayModeFull3DHelp">Display full 3D terrain including underwater</String>
 	<String ID="OptionsTerrainDisplayMode3DText">&amp;3D</String>
 	<String ID="OptionsTerrainDisplayMode3DHelp">Mostrar el terreno en 3D</String>
 	<String ID="OptionsTerrainDisplayModeFlatText">&amp;Plano</String>
 	<String ID="OptionsTerrainDisplayModeFlatHelp">Aplanar terreno para mejorar la visibilidad</String>
 	<String ID="OptionsTerrainDisplayModeEmptyText">&amp;Vacío</String>
 	<String ID="OptionsTerrainDisplayModeEmptyHelp">Mostrar terreno vacío para mejorar aún más la visibilidad</String>
+	<String ID="OptionsTerrainDisplayModeHighContrastText">High-Contrast</String>
+	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Display the terrain with a high contrast color scheme</String>
 
 	<String ID="OptionsTerrainText">Terreno</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Automático)</String>
@@ -308,6 +312,10 @@
 	<String ID="EPText">Energía potencial (Ep)</String>
 	<String ID="EMHelp">Energía mecánica</String>
 	<String ID="EMText">Energía mecánica (Em=Ec+Ep)</String>
+	<String ID="FuelWeightText">Fuel (weight)</String>
+	<String ID="FuelVolumeText">Fuel (volume)</String>
+	<String ID="FuelFlowWeightText">Fuel Flow (weight)</String>
+	<String ID="FuelFlowVolumeText">Fuel Flow (volume)</String>
 
 	<String ID="GSHelp">Velocidad del avión relativo al suelo</String>
 	<String ID="GSText">Velocidad terrestre (GS)</String>
@@ -321,6 +329,8 @@
 	<String ID="TRKText">Seguimiento (TRK)</String>
 	<String ID="FlightPathAngleHelp">Angulo verdadero de pendiente</String>
 	<String ID="FlightPathAngleText">Angulo de director de vuelo</String>
+	<String ID="FuelFlowWeightText">Fuel flow (weight)</String>
+	<String ID="FuelFlowVolumeText">Fuel flow (volume)</String>
 	<String ID="DistanceAirHelp">Distancia aérea recorrida</String>
 	<String ID="DistanceAirText">Distancia (Aérea)</String>
 	<String ID="DistanceGroundHelp">Distancia terrestre recorrida</String>
@@ -361,7 +371,7 @@
 	<String ID="OnlineDebriefingUsernameHelp">Use como mínimo 3 caracteres</String>
 	<String ID="OnlineDebriefingPassword">Contraseña :</String>
 	<String ID="OnlineDebriefingPort">Tacview TCP Port :</String>
-	<String ID="OnlineDebriefingPortHelp">¡No olvide abrir el puerto en el router!	</String>
+	<String ID="OnlineDebriefingPortHelp">¡No olvide abrir el puerto en el router!</String>
 	<String ID="OnlineDebriefingSessionName">Nombre de sesión :</String>
 	<String ID="OnlineDebriefingPublicAddress">Dirección publica :</String>
 	<String ID="OnlineDebriefingHostButton">Anfitrión</String>
@@ -412,6 +422,7 @@
 	<String ID="RealTimeTelemetryPort">Puerto del grabador :</String>
 	<String ID="RealTimeTelemetryWarningClient">Solo la versión profesional de Tacview puede grabar telemetría en tiempo real.</String>
 	<String ID="RealTimeTelemetryPasswordTip">Se requiere una contraseña para unirse a la sesion</String>
+	<String ID="RealTimeTelemetryRecordingConnecting">Waiting for {0} {1}</String>
 	<String ID="RealTimeTelemetryRecordingProgress">Grabando desde {0} {1}</String>
 	<String ID="RealTimeTelemetryOperationCompleted">Grabacion de telemetria en tiempo real completada.</String>
 	<String ID="RealTimeTelemetryOperationFailed">Fallo al conectar con la direccion del host/anfitrion de telemetria en tiempo real.</String>
@@ -420,6 +431,8 @@
 	<String ID="RealTimeTelemetryNotSynchronized">La reproducción no esta sincronizada con la telemetria en tiempo real.</String>
 	<String ID="RealTimeTelemetryConnect">Conectar</String>
 	<String ID="RealTimeTelemetryDisconnect">Desconectar</String>
+	<String ID="RealTimeTelemetryDisconnect">Disconnect</String>
+	<String ID="RealTimeTelemetryAutoReconnect">Auto Reconnect</String>
 
 	<String ID="AddEditObjectAddTitle">Crear nuevo objeto</String>
 	<String ID="AddEditObjectEditTitle">Editar propiedades del objeto</String>
@@ -679,6 +692,8 @@
 	<String ID="UnitLabelDistanceGround">Distancia terrestre ({0})</String>
 	<String ID="UnitLabelRoll">Roll ({0})</String>
 	<String ID="UnitLabelPitch">Pitch ({0})</String>
+	<String ID="UnitLabelFuel">Fuel ({0})</String>
+	<String ID="UnitLabelFuelFlow">Fuel Flow ({0})</String>
 
 	<!-- **** Not certified below **** -->
 

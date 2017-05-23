@@ -74,12 +74,16 @@
 	<String ID="OptionsDisplayCommentsHelp">在3D模式中显示飞行注释为字幕</String>
 
 	<String ID="OptionsTerrainDisplayModeText">地形显示模式</String>
+	<String ID="OptionsTerrainDisplayModeFull3DText">3D &amp;&amp; &amp;Underwater</String>
+	<String ID="OptionsTerrainDisplayModeFull3DHelp">Display full 3D terrain including underwater</String>
 	<String ID="OptionsTerrainDisplayMode3DText">&amp;3D</String>
 	<String ID="OptionsTerrainDisplayMode3DHelp">显示完全3D地形</String>
 	<String ID="OptionsTerrainDisplayModeFlatText">&amp;平坦</String>
 	<String ID="OptionsTerrainDisplayModeFlatHelp">平坦地形显示以增进执行效率</String>
 	<String ID="OptionsTerrainDisplayModeEmptyText">&amp;空白</String>
 	<String ID="OptionsTerrainDisplayModeEmptyHelp">显示空白地形以进一步增进执行效率</String>
+	<String ID="OptionsTerrainDisplayModeHighContrastText">High-Contrast</String>
+	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Display the terrain with a high contrast color scheme</String>
 
 	<String ID="OptionsTerrainText">地形</String>
 	<String ID="OptionsTerrainAutoText">（&amp;自动）</String>
@@ -308,6 +312,10 @@
 	<String ID="EPText">势能 (Ep)</String>
 	<String ID="EMHelp">机械能</String>
 	<String ID="EMText">机械能 (Em=Ek+Ep)</String>
+	<String ID="FuelWeightText">Fuel (weight)</String>
+	<String ID="FuelVolumeText">Fuel (volume)</String>
+	<String ID="FuelFlowWeightText">Fuel Flow (weight)</String>
+	<String ID="FuelFlowVolumeText">Fuel Flow (volume)</String>
 
 	<String ID="GSHelp">航空器相对于地面的运动速度</String>
 	<String ID="GSText">地速 (GS)</String>
@@ -321,6 +329,8 @@
 	<String ID="TRKText">航迹 (TRK)</String>
 	<String ID="FlightPathAngleHelp">航空器真坡角</String>
 	<String ID="FlightPathAngleText">飞行路径角</String>
+	<String ID="FuelFlowWeightText">Fuel flow (weight)</String>
+	<String ID="FuelFlowVolumeText">Fuel flow (volume)</String>
 	<String ID="DistanceAirHelp">覆盖的空中距离</String>
 	<String ID="DistanceAirText">距离 (空中)</String>
 	<String ID="DistanceGroundHelp">覆盖的地面距离</String>
@@ -420,14 +430,24 @@
 	<String ID="RealTimeTelemetryPort">数据记录器端口：</String>
 	<String ID="RealTimeTelemetryWarningClient">仅有高级版Tacview可以记录实时遥测。</String>
 	<String ID="RealTimeTelemetryPasswordTip">可能需要密码来加入私有会话</String>
+	<String ID="RealTimeTelemetryRecordingConnecting">Waiting for {0} {1}</String>
 	<String ID="RealTimeTelemetryRecordingProgress">记录自 {0} {1}</String>
+	<String ID="RealTimeTelemetryOperationCompleted">Real-time telemetry recording complete.</String>
+	<String ID="RealTimeTelemetryOperationFailed">Failed to connect real-time telemetry to given host address.</String>
+	<String ID="RealTimeTelemetryUnsupportedOperation">Real-time telemetry not compatible with the host exporter.</String>
+	<String ID="RealTimeTelemetryInvalidParameters">Invalid real-time telemetry password.</String>
+<!--
+	Chinese characters are not yet supported in the 3D view
 	<String ID="RealTimeTelemetryOperationCompleted">实时遥测记录完毕。</String>
 	<String ID="RealTimeTelemetryOperationFailed">无法连接实时遥测到给定主机地址。</String>
 	<String ID="RealTimeTelemetryUnsupportedOperation">实时遥测与主机输出器不兼容。</String>
 	<String ID="RealTimeTelemetryInvalidParameters">无效实时遥测密码。</String>
+-->
 	<String ID="RealTimeTelemetryNotSynchronized">当前回放与实时遥测不同步。</String>
 	<String ID="RealTimeTelemetryConnect">连接</String>
 	<String ID="RealTimeTelemetryDisconnect">断开连接</String>
+	<String ID="RealTimeTelemetryDisconnect">Disconnect</String>
+	<String ID="RealTimeTelemetryAutoReconnect">Auto Reconnect</String>
 
 	<String ID="AddEditObjectAddTitle">创建一个新物体</String>
 	<String ID="AddEditObjectEditTitle">编辑物体属性</String>
@@ -736,6 +756,8 @@
 	<String ID="UnitLabelDistanceGround">Ground Distance ({0})</String>
 	<String ID="UnitLabelRoll">Roll ({0})</String>
 	<String ID="UnitLabelPitch">Pitch ({0})</String>
+	<String ID="UnitLabelFuel">Fuel ({0})</String>
+	<String ID="UnitLabelFuelFlow">Fuel Flow ({0})</String>
 
 	<!-- **** Not certified below **** -->
 

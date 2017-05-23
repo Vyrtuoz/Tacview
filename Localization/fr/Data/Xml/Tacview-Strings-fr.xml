@@ -73,12 +73,16 @@
 	<String ID="OptionsDisplayCommentsHelp">Afficher les commantaires dans la vue 3D sous forme de sous-titres</String>
 
 	<String ID="OptionsTerrainDisplayModeText">Mode d'affichage du terrain</String>
+	<String ID="OptionsTerrainDisplayModeFull3DText">3D &amp;&amp; sous l’eau</String>
+	<String ID="OptionsTerrainDisplayModeFull3DHelp">Affiche le terrain en relief incluant sous l’eau</String>
 	<String ID="OptionsTerrainDisplayMode3DText">&amp;3D</String>
 	<String ID="OptionsTerrainDisplayMode3DHelp">Affiche le terrain en relief</String>
 	<String ID="OptionsTerrainDisplayModeFlatText">Terrain &amp;plat</String>
 	<String ID="OptionsTerrainDisplayModeFlatHelp">Aplatir le terrain afin d'améliorer la lisibilité</String>
 	<String ID="OptionsTerrainDisplayModeEmptyText">&amp;Vide</String>
 	<String ID="OptionsTerrainDisplayModeEmptyHelp">Affiche un terrain complément vide afin d'améliorer encore plus la lisibilité des combats</String>
+	<String ID="OptionsTerrainDisplayModeHighContrastText">Fort contraste</String>
+	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Affiche le terrain avec un thème de couleur a fort contraste</String>
 
 	<String ID="OptionsTerrainText">Terrain</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Auto)</String>
@@ -307,6 +311,10 @@
 	<String ID="EPText">Energie potentielle (Ep)</String>
 	<String ID="EMHelp">Energie mécanique</String>
 	<String ID="EMText">Energie mécanique (Em=Ec+Ep)</String>
+	<String ID="FuelWeightText">Carburant (poids)</String>
+	<String ID="FuelVolumeText">Carburant (volume)</String>
+	<String ID="FuelFlowWeightText">Débit de carburant (poids)</String>
+	<String ID="FuelFlowVolumeText">Débit de carburant (volume)</String>
 
 	<String ID="GSHelp">Vitesse de l'appareil relativement au sol</String>
 	<String ID="GSText">Vitesse sol (GS)</String>
@@ -318,8 +326,10 @@
 	<String ID="HDGText">Orientation (HDG)</String>
 	<String ID="TRKHelp">Cap vers lequel se déplace réellement l'aéronef (relatif au vrai nord)</String>
 	<String ID="TRKText">Cap (TRK)</String>
-	<String ID="FlightPathAngleHelp">Aircraft true slope angle</String>
-	<String ID="FlightPathAngleText">Flight Path Angle</String>
+	<String ID="FlightPathAngleHelp">Angle de la pente suivie par l’avion</String>
+	<String ID="FlightPathAngleText">Angle trajectoire de vol</String>
+	<String ID="FuelFlowWeightText">Débit de carburant (poids)</String>
+	<String ID="FuelFlowVolumeText">Débit de carburant (volume)</String>
 	<String ID="DistanceAirHelp">Distance parcourue (air)</String>
 	<String ID="DistanceAirText">Distance (air)</String>
 	<String ID="DistanceGroundHelp">Distance parcourue (sol)</String>
@@ -411,6 +421,7 @@
 	<String ID="RealTimeTelemetryPort">Port enregistreur de vol :</String>
 	<String ID="RealTimeTelemetryWarningClient">Seule Tacview Advanced peut enregistrer des données de télémétrie en temps réel.</String>
 	<String ID="RealTimeTelemetryPasswordTip">Un mot de passe peut-être nécessaire pour accéder à une session privée</String>
+	<String ID="RealTimeTelemetryRecordingConnecting">En attente de {0} {1}</String>
 	<String ID="RealTimeTelemetryRecordingProgress">Enregistrement depuis {0} {1}</String>
 	<String ID="RealTimeTelemetryOperationCompleted">Enregistrement télémétrie temps réelle terminé.</String>
 	<String ID="RealTimeTelemetryOperationFailed">Echec de connexion télémétrie temps réelle à l’adresse hôte fournie.</String>
@@ -419,6 +430,7 @@
 	<String ID="RealTimeTelemetryNotSynchronized">La lecture n’est actuellement pas synchronisée avec la télémétrie temps réelle.</String>
 	<String ID="RealTimeTelemetryConnect">Connecter</String>
 	<String ID="RealTimeTelemetryDisconnect">Déconnecter</String>
+	<String ID="RealTimeTelemetryAutoReconnect">Reconnexion automatique</String>
 
 	<String ID="AddEditObjectAddTitle">Créer un nouvel objet</String>
 	<String ID="AddEditObjectEditTitle">Editer les propriétés d’un objet</String>
@@ -678,6 +690,8 @@
 	<String ID="UnitLabelDistanceGround">Distance Sol ({0})</String>
 	<String ID="UnitLabelRoll">Roulis ({0})</String>
 	<String ID="UnitLabelPitch">Tangage ({0})</String>
+	<String ID="UnitLabelFuel">Carburant ({0})</String>
+	<String ID="UnitLabelFuelFlow">Débit de carburant ({0})</String>
 
 	<!-- **** Not certified below **** -->
 

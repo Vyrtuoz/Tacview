@@ -74,12 +74,16 @@
 	<String ID="OptionsDisplayCommentsHelp">Отображать комментарии субтитрами поверх 3D</String>
 
 	<String ID="OptionsTerrainDisplayModeText">Режим отображения ландшафта</String>
+	<String ID="OptionsTerrainDisplayModeFull3DText">3D &amp;&amp; &amp;Underwater</String>
+	<String ID="OptionsTerrainDisplayModeFull3DHelp">Display full 3D terrain including underwater</String>
 	<String ID="OptionsTerrainDisplayMode3DText">&amp;3D</String>
 	<String ID="OptionsTerrainDisplayMode3DHelp">Полностью в 3D</String>
 	<String ID="OptionsTerrainDisplayModeFlatText">&amp;Плоский</String>
 	<String ID="OptionsTerrainDisplayModeFlatHelp">Уменьшить неровности для лучшего восприятия</String>
 	<String ID="OptionsTerrainDisplayModeEmptyText">&amp;Пустой</String>
 	<String ID="OptionsTerrainDisplayModeEmptyHelp">Отображать пустой ландшафт для лучшего восприятия</String>
+	<String ID="OptionsTerrainDisplayModeHighContrastText">High-Contrast</String>
+	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Display the terrain with a high contrast color scheme</String>
 
 	<String ID="OptionsTerrainText">Ландшафт</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Авто)</String>
@@ -121,7 +125,7 @@
 	<String ID="OptionsDistanceAutoSwitch0Text">Не переключать расстояния в футы</String>
 	<String ID="OptionsDistanceAutoSwitch0Help">Не переключать расстояния в футы до определенной дистанции</String>
 	<String ID="OptionsDistanceAutoSwitch1Text">Переключаться в футы для расстояний менее 1 м.мили</String>
-	<String ID="OptionsDistanceAutoSwitch1Help">Переключаться в футы для расстояний менее 2 м.миль</String>
+	<String ID="OptionsDistanceAutoSwitch1Help">Переключаться в футы для расстояний менее 1 м.миль</String>
 	<String ID="OptionsDistanceAutoSwitch2Text">Переключаться в футы для расстояний менее 2 м.миль</String>
 	<String ID="OptionsDistanceAutoSwitch2Help">Переключаться в футы для расстояний менее 2 м.миль</String>
 
@@ -308,6 +312,10 @@
 	<String ID="EPText">Потенциальная энергия (Ep)</String>
 	<String ID="EMHelp">Полная механическая энергия</String>
 	<String ID="EMText">Полная механическая энергия (Em=Ek+Ep)</String>
+	<String ID="FuelWeightText">Fuel (weight)</String>
+	<String ID="FuelVolumeText">Fuel (volume)</String>
+	<String ID="FuelFlowWeightText">Fuel Flow (weight)</String>
+	<String ID="FuelFlowVolumeText">Fuel Flow (volume)</String>
 
 	<String ID="GSHelp">Путевая скорость ЛА</String>
 	<String ID="GSText">Путевая скорость (GS)</String>
@@ -321,6 +329,8 @@
 	<String ID="TRKText">Запись (TRK)</String>
 	<String ID="FlightPathAngleHelp">Истинный угол наклона ЛА</String>
 	<String ID="FlightPathAngleText">Путевой угол траектории</String>
+	<String ID="FuelFlowWeightText">Fuel flow (weight)</String>
+	<String ID="FuelFlowVolumeText">Fuel flow (volume)</String>
 	<String ID="DistanceAirHelp">Пройденное воздушное расстояние</String>
 	<String ID="DistanceAirText">Расстояние (возд.)</String>
 	<String ID="DistanceGroundHelp">Пройденное истинное расстояние</String>
@@ -412,6 +422,7 @@
 	<String ID="RealTimeTelemetryPort">Порт самописца :</String>
 	<String ID="RealTimeTelemetryWarningClient">Опция записи телеметрии в реальном времени доступна только для версии Professional.</String>
 	<String ID="RealTimeTelemetryPasswordTip">Для присоединения к приватному каналу может потребоваться пароль</String>
+	<String ID="RealTimeTelemetryRecordingConnecting">Waiting for {0} {1}</String>
 	<String ID="RealTimeTelemetryRecordingProgress">Ведется запись из {0} {1}</String>
 	<String ID="RealTimeTelemetryOperationCompleted">Запись телеметрии реального времени завершена.</String>
 	<String ID="RealTimeTelemetryOperationFailed">Не удалось подключить телеметрию реального времени к заданному хост-адресу.</String>
@@ -420,6 +431,7 @@
 	<String ID="RealTimeTelemetryNotSynchronized">Воспроизведение на данный момент не синхронизировано с телеметрией реального времени.</String>
 	<String ID="RealTimeTelemetryConnect">Подключиться</String>
 	<String ID="RealTimeTelemetryDisconnect">Отключиться</String>
+	<String ID="RealTimeTelemetryAutoReconnect">Auto Reconnect</String>
 
 	<String ID="AddEditObjectAddTitle">Создать новый объект</String>
 	<String ID="AddEditObjectEditTitle">Редактировать свойства объекта</String>
@@ -679,6 +691,8 @@
 	<String ID="UnitLabelDistanceGround">Расстояние (ист.) ({0})</String>
 	<String ID="UnitLabelRoll">Крен ({0})</String>
 	<String ID="UnitLabelPitch">Тангаж ({0})</String>
+	<String ID="UnitLabelFuel">Fuel ({0})</String>
+	<String ID="UnitLabelFuelFlow">Fuel Flow ({0})</String>
 
 	<!-- **** Not certified below **** -->
 
