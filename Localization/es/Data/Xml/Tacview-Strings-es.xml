@@ -74,8 +74,8 @@
 	<String ID="OptionsDisplayCommentsHelp">Mostrar comentarios como subtítulos en vista 3D</String>
 
 	<String ID="OptionsTerrainDisplayModeText">Modo de Terreno</String>
-	<String ID="OptionsTerrainDisplayModeFull3DText">3D &amp;&amp; &amp;Underwater</String>
-	<String ID="OptionsTerrainDisplayModeFull3DHelp">Display full 3D terrain including underwater</String>
+	<String ID="OptionsTerrainDisplayModeFull3DText">3D &amp;&amp; &amp;Bajo el agua</String>
+	<String ID="OptionsTerrainDisplayModeFull3DHelp">Mostrar todo el terreno 3D incluido bajo el agua</String>
 	<String ID="OptionsTerrainDisplayMode3DText">&amp;3D</String>
 	<String ID="OptionsTerrainDisplayMode3DHelp">Mostrar el terreno en 3D</String>
 	<String ID="OptionsTerrainDisplayModeFlatText">&amp;Plano</String>
