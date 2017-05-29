@@ -82,8 +82,8 @@
 	<String ID="OptionsTerrainDisplayModeFlatHelp">Aplanar terreno para mejorar la visibilidad</String>
 	<String ID="OptionsTerrainDisplayModeEmptyText">&amp;Vacío</String>
 	<String ID="OptionsTerrainDisplayModeEmptyHelp">Mostrar terreno vacío para mejorar aún más la visibilidad</String>
-	<String ID="OptionsTerrainDisplayModeHighContrastText">High-Contrast</String>
-	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Display the terrain with a high contrast color scheme</String>
+	<String ID="OptionsTerrainDisplayModeHighContrastText">Alto Contraste</String>
+	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Mostrar el terreno con un esquema de colores de alto contraste</String>
 
 	<String ID="OptionsTerrainText">Terreno</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Automático)</String>
@@ -165,8 +165,8 @@
 	<String ID="AircraftsTelemetryText">Etiquetas de los objetos no seleccionados</String>
 	<String ID="LabelOnAllGroundObjectsText">Etiquetar todos los objetos terrestres</String>
 	<String ID="LabelOnAllGroundObjectsHelp">Mostrar todas las etiquetas de los objetos terrestres en adición a las amenazas antiaéreas</String>
-	<String ID="ForceSelectedObjetsLabelsText">Force selected objects labels</String>
-	<String ID="ForceSelectedObjetsLabelsHelp">Always display select objects labels regardless of the global preference</String>
+	<String ID="ForceSelectedObjetsLabelsText">Forzar etiquetas de objetos seleccionados</String>
+	<String ID="ForceSelectedObjetsLabelsHelp">Mostrar siempre etiquetas de objetos de selección independientemente de la preferencia global</String>
 
 	<String ID="LabelsScaleText">Escala de etiquetado</String>
 	<String ID="ScaleAutoText">Automático</String>
@@ -176,7 +176,7 @@
 	<String ID="Scale2Text">Medio</String>
 	<String ID="Scale2Help">El doble de grande que el tamaño por defecto</String>
 	<String ID="Scale3Text">Grande</String>
-	<String ID="Scale3Help">Four times larger than the default size</String>
+	<String ID="Scale3Help">Cuatro veces mayor que el tamaño predeterminado</String>
 
 	<String ID="HelpMenuTooltip">Ayuda</String>
 	<String ID="HelpMenuHelp">Muestra la ayuda e información general sobre el programa</String>
@@ -312,10 +312,10 @@
 	<String ID="EPText">Energía potencial (Ep)</String>
 	<String ID="EMHelp">Energía mecánica</String>
 	<String ID="EMText">Energía mecánica (Em=Ec+Ep)</String>
-	<String ID="FuelWeightText">Fuel (weight)</String>
-	<String ID="FuelVolumeText">Fuel (volume)</String>
-	<String ID="FuelFlowWeightText">Fuel Flow (weight)</String>
-	<String ID="FuelFlowVolumeText">Fuel Flow (volume)</String>
+	<String ID="FuelWeightText">Combustible (Peso)</String>
+	<String ID="FuelVolumeText">Combustible (volumen)</String>
+	<String ID="FuelFlowWeightText">Flujo de combustible (peso)</String>
+	<String ID="FuelFlowVolumeText">Flujo de combustible (volumen)</String>
 
 	<String ID="GSHelp">Velocidad del avión relativo al suelo</String>
 	<String ID="GSText">Velocidad terrestre (GS)</String>
@@ -329,8 +329,8 @@
 	<String ID="TRKText">Seguimiento (TRK)</String>
 	<String ID="FlightPathAngleHelp">Angulo verdadero de pendiente</String>
 	<String ID="FlightPathAngleText">Angulo de director de vuelo</String>
-	<String ID="FuelFlowWeightText">Fuel flow (weight)</String>
-	<String ID="FuelFlowVolumeText">Fuel flow (volume)</String>
+	<String ID="FuelFlowWeightText">Flujo de combustible (peso)</String>
+	<String ID="FuelFlowVolumeText">Flujo de combustible (volumen)</String>
 	<String ID="DistanceAirHelp">Distancia aérea recorrida</String>
 	<String ID="DistanceAirText">Distancia (Aérea)</String>
 	<String ID="DistanceGroundHelp">Distancia terrestre recorrida</String>
@@ -422,7 +422,7 @@
 	<String ID="RealTimeTelemetryPort">Puerto del grabador :</String>
 	<String ID="RealTimeTelemetryWarningClient">Solo la versión profesional de Tacview puede grabar telemetría en tiempo real.</String>
 	<String ID="RealTimeTelemetryPasswordTip">Se requiere una contraseña para unirse a la sesion</String>
-	<String ID="RealTimeTelemetryRecordingConnecting">Waiting for {0} {1}</String>
+	<String ID="RealTimeTelemetryRecordingConnecting">Esperando por {0} {1}</String>
 	<String ID="RealTimeTelemetryRecordingProgress">Grabando desde {0} {1}</String>
 	<String ID="RealTimeTelemetryOperationCompleted">Grabacion de telemetria en tiempo real completada.</String>
 	<String ID="RealTimeTelemetryOperationFailed">Fallo al conectar con la direccion del host/anfitrion de telemetria en tiempo real.</String>
@@ -432,7 +432,7 @@
 	<String ID="RealTimeTelemetryConnect">Conectar</String>
 	<String ID="RealTimeTelemetryDisconnect">Desconectar</String>
 	<String ID="RealTimeTelemetryDisconnect">Disconnect</String>
-	<String ID="RealTimeTelemetryAutoReconnect">Auto Reconnect</String>
+	<String ID="RealTimeTelemetryAutoReconnect">Auto Reconectar</String>
 
 	<String ID="AddEditObjectAddTitle">Crear nuevo objeto</String>
 	<String ID="AddEditObjectEditTitle">Editar propiedades del objeto</String>
@@ -549,7 +549,7 @@
 	<String ID="CmdFalcon4TheaterHelp">Configurar el teatro de Falcon 4.0 para usar con los archivos VHS. (Aegean, Balkan, Israel, Korea...)</String>
 	<String ID="CmdQuietHelp">Tacview ejecutara los comandos especificados y después saldrá sin mostrar ninguna ventana.</String>
 	<String ID="CmdQuitHelp">Tacview se cerrara después de que se hayan completado las operaciones.</String>
-	<String ID="CmdDataCollectionHelp">Can be used to disable anonymous data collection.</String>
+	<String ID="CmdDataCollectionHelp">Se puede usar para deshabilitar la recopilación de datos anónima.</String>
 	<String ID="CmdVBOOffHelp">Deshabilita el buffer de los vértices de objetos para evitar CTDs en algunas ATI en configuración CrossFire.</String>
 	<String ID="CmdDebugModeHelp">Muestra la información de errores para ayudar a solucionar problemas.</String>
 
