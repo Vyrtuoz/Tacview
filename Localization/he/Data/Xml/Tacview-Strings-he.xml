@@ -160,6 +160,8 @@
 	<String ID="SharePasteShortcutText">(Ctrl+V)&#9;הדבק קיצור דרך</String>
 	<String ID="SharePasteShortcutHelp">שחזר תצוגה באמצעות קיצור דרך ששותף ע"י חברים</String>
 	<String ID="AttractAttentionHelp">הפנה תשומת לב המשתתפים לעבר אובייקט מסויים</String>
+	<String ID="DefineControlText">Assign Input</String>
+	<String ID="DefineControlHelp">Assign custom joystick or keyboard input to this command</String>
 
 	<String ID="SelectedObjectsTelemetryText">תוויות אובייקט שנבחרו</String>
 	<String ID="AircraftsTelemetryText">תוויות אוביקט שלא נבחרו</String>
@@ -404,16 +406,28 @@
 	<String ID="RemoteControlFailed">Failed to connect to simulator</String>
 	<String ID="RemoteControlInvalidPassword">A valid password is required for this connection</String>
 	<String ID="RemoteControlPort">Remote Control Port :</String>
-	<String ID="RemoteControlHelp">Click an action to activate. Double-click to customize a control.</String>
 	<String ID="RemoteControlPause">Pause</String>
 	<String ID="RemoteControlResume">Resume</String>
 	<String ID="RemoteControlFlapsUp">Flaps Up</String>
 	<String ID="RemoteControlFlapsDown">Flaps Down</String>
 	<String ID="RemoteControlLandingGearUp">Landing Gear Up</String>
 	<String ID="RemoteControlLandingGearDown">Landing Gear Down</String>
+	<String ID="RemoteControlSmoke">Smoke</String>
+	<String ID="RemoteControlRespawn">Respawn / Reset</String>
+	<String ID="RemoteControlEject">Eject</String>
 	<String ID="RemoteControlRoll">Roll</String>
 	<String ID="RemoteControlPitch">Pitch</String>
 	<String ID="RemoteControlYaw">Yaw</String>
+	<String ID="RemoteControlThrottle">Throttle</String>
+	<String ID="RemoteControlSimulation">Simulation</String>
+	<String ID="RemoteControlFlightControl">Flight Control</String>
+	<String ID="RemoteControlSystems">Systems</String>
+	<String ID="RemoteControlAxisCommands">Axis Commands</String>
+	<String ID="RemoteControlCustomCommands">Custom Commands</String>
+	<String ID="RemoteControlCustomCommand1">Command #1 / Flag 1001</String>
+	<String ID="RemoteControlCustomCommand2">Command #2 / Flag 1002</String>
+	<String ID="RemoteControlCustomCommand3">Command #3 / Flag 1003</String>
+	<String ID="RemoteControlCustomCommand4">Command #4 / Flag 1004</String>
 
 	<String ID="RealTimeTelemetryTitle">Real-time Telemetry</String>
 	<String ID="RealTimeTelemetryIntro">Establish a connection with a data recorder to review telemetry data in real-time!</String>
@@ -453,6 +467,17 @@
 	<String ID="BullseyeValue">(Bullseye)</String>
 	<String ID="FixedWingValue">(Fixed Wing Aircraft)</String>
 	<String ID="TimelessValue">(timeless object)</String>
+
+	<String ID="ButtonHelp">Press the control you want to use for this command.</String>
+	<String ID="AxeHelp">Activate the joystick axe you want to use for this command.</String>
+	<String ID="CommandName">Command</String>
+	<String ID="InputModifier">Modifier</String>
+	<String ID="NoModifier">(none)</String>
+	<String ID="DeviceLabel">Device</String>
+	<String ID="InputLabel">Input</String>
+	<String ID="AxisValue">Axis</String>
+	<String ID="InvertedInput">Inverted</String>
+	<String ID="ClearButton">Clear</String>
 
 	<!-- Profiler -->
 	<String ID="ProfilerProfileMainLoopTooltip">Profile Main Loop (F16)</String>
@@ -547,10 +572,13 @@
 	<String ID="CmdExportFlightLogHelp">CSV או XML ייצא יומן טיסה לקובץ בפורמט</String>
 	<String ID="CmdFalcon4TheaterHelp">(Aegean, Balkan, Israel, Korea...) VHS לשימוש בקבצי Falcon 4.0 הגדר זירת</String>
 	<String ID="CmdQuietHelp">ביצוע הפעולות הנדרשות ללא הצגת פלט כלשהו</String>
+	<String ID="CmdConnectRealTimeTelemetryHelp">Connect real-time telemetry using the last known parameters.</String>
+	<String ID="CmdConnectRemoteControlHelp">Connect specified remote control using the last known parameters.</String>
 	<String ID="CmdQuitHelp">סגירת התוכנה לאחר ביצוע הפעולות הנדרשות</String>
-	<String ID="CmdDataCollectionHelp">Can be used to disable anonymous data collection.</String>
+	<String ID="CmdDataCollectionHelp">Disables anonymous data collection.</String>
 	<String ID="CmdVBOOffHelp">ATI למניעת קריסה בחלק מכרטיסי VBO בטל</String>
 	<String ID="CmdDebugModeHelp">מציג נתוני תקלות לפתרון בעיות</String>
+	<String ID="CmdConfigSetHelp">Stores user preferences in a specific set for each instance of Tacview.</String>
 
 	<String ID="Selection">בחירה</String>
 	<String ID="TimeControl">שליטת זמן</String>
@@ -602,11 +630,15 @@
 	<String ID="FlightSimHookTooltipMessage">כאשר האייקון מוצג, כל הטיסות מוקלטות אוטומטית ע"י סימולטור הטיסה שלך. ניתן לסגור את התוכנה בזמן הטיסה</String>
 	<String ID="FlightRecordingEmptyNotification">קובץ ההקלטה הנבחר ריק</String>
 	<String ID="LowEndOpenGL">מומלץ לשדרג את כרטיס המסך שלך</String>
+	<String ID="AntiCheatCannotPlayback">Playback of this file has been delayed by {0} minutes by the host. There is not enough time recorded to playback any data.</String>
+	<String ID="AntiCheatIncompletePlayback">Playback of this file has been delayed by {0} minutes by the host. The last {1} minute(s) cannot be reviewed.</String>
 
 	<!-- Message Boxes -->
 	<String ID="SaveFileRequestText">? האם ברצונך לשמור שינויים ל-{0}</String>
 	<String ID="SaveButton">שמור</String>
 	<String ID="DontSaveButton">התעלם</String>
+	<String ID="IL2SturmovikIsRunningText">To ensure fair play and to prevent cheating, please close IL-2 Sturmovik before using Tacview.</String>
+	<String ID="OK">&amp;OK</String>
 
 	<!-- Dialogs Boxes Strings -->
 	<String ID="LicenseTitle">Tacview הסכם תוכנת</String>
@@ -824,6 +856,7 @@
 	<String ID="TTViewSatellite">(F7) מבט לוויני</String>
 	<String ID="TTViewFree">(F8) מצלמה חופשית</String>
 
+	<String ID="TTDisplayCockpitInstruments">Display cockpit instruments</String>
 	<String ID="TTDrawHeight">הצג גבהי אובייקט</String>
 	<String ID="TTDrawDirection">הצג כיווני האובייקטים הנבחרים</String>
 	<String ID="TTDrawIDs">של האובייקטים ID הצג</String>

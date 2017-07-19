@@ -160,6 +160,8 @@
 	<String ID="SharePasteShortcutText">&amp;Einfügen Tastaturkürzel&#9;(Ctrl+V)</String>
 	<String ID="SharePasteShortcutHelp">Wiederherstellen einer Ansicht eines Tastaturkürzels das von Freunden geteilt wurde</String>
 	<String ID="AttractAttentionHelp">Zieht die Aufmerksamkeit der Zuschauer auf ein bestimmtes Objekt</String>
+	<String ID="DefineControlText">Assign Input</String>
+	<String ID="DefineControlHelp">Assign custom joystick or keyboard input to this command</String>
 
 	<String ID="SelectedObjectsTelemetryText">Bezeichnungen selektierter Objekte</String>
 	<String ID="AircraftsTelemetryText">Bezeichnungen nicht ausgewählter Flugzeuge</String>
@@ -404,16 +406,28 @@
 	<String ID="RemoteControlFailed">Failed to connect to simulator</String>
 	<String ID="RemoteControlInvalidPassword">A valid password is required for this connection</String>
 	<String ID="RemoteControlPort">Remote Control Port :</String>
-	<String ID="RemoteControlHelp">Click an action to activate. Double-click to customize a control.</String>
 	<String ID="RemoteControlPause">Pause</String>
 	<String ID="RemoteControlResume">Resume</String>
 	<String ID="RemoteControlFlapsUp">Flaps Up</String>
 	<String ID="RemoteControlFlapsDown">Flaps Down</String>
 	<String ID="RemoteControlLandingGearUp">Landing Gear Up</String>
 	<String ID="RemoteControlLandingGearDown">Landing Gear Down</String>
+	<String ID="RemoteControlSmoke">Smoke</String>
+	<String ID="RemoteControlRespawn">Respawn / Reset</String>
+	<String ID="RemoteControlEject">Eject</String>
 	<String ID="RemoteControlRoll">Roll</String>
 	<String ID="RemoteControlPitch">Pitch</String>
 	<String ID="RemoteControlYaw">Yaw</String>
+	<String ID="RemoteControlThrottle">Throttle</String>
+	<String ID="RemoteControlSimulation">Simulation</String>
+	<String ID="RemoteControlFlightControl">Flight Control</String>
+	<String ID="RemoteControlSystems">Systems</String>
+	<String ID="RemoteControlAxisCommands">Axis Commands</String>
+	<String ID="RemoteControlCustomCommands">Custom Commands</String>
+	<String ID="RemoteControlCustomCommand1">Command #1 / Flag 1001</String>
+	<String ID="RemoteControlCustomCommand2">Command #2 / Flag 1002</String>
+	<String ID="RemoteControlCustomCommand3">Command #3 / Flag 1003</String>
+	<String ID="RemoteControlCustomCommand4">Command #4 / Flag 1004</String>
 
 	<String ID="RealTimeTelemetryTitle">Real-time Telemetry</String>
 	<String ID="RealTimeTelemetryIntro">Establish a connection with a data recorder to review telemetry data in real-time!</String>
@@ -453,6 +467,17 @@
 	<String ID="BullseyeValue">(Bullseye)</String>
 	<String ID="FixedWingValue">(Starrflügler)</String>
 	<String ID="TimelessValue">(Zeitloses Objekt)</String>
+
+	<String ID="ButtonHelp">Press the control you want to use for this command.</String>
+	<String ID="AxeHelp">Activate the joystick axe you want to use for this command.</String>
+	<String ID="CommandName">Command</String>
+	<String ID="InputModifier">Modifier</String>
+	<String ID="NoModifier">(none)</String>
+	<String ID="DeviceLabel">Device</String>
+	<String ID="InputLabel">Input</String>
+	<String ID="AxisValue">Axis</String>
+	<String ID="InvertedInput">Inverted</String>
+	<String ID="ClearButton">Clear</String>
 
 	<!-- Profiler -->
 	<String ID="ProfilerProfileMainLoopTooltip">Hauptschleifenprofil (F16)</String>
@@ -547,10 +572,13 @@
 	<String ID="CmdExportFlightLogHelp">Exportiere das Fluglog als eine XML oder CSV Datei.</String>
 	<String ID="CmdFalcon4TheaterHelp">Wähle Falcon 4.0 Schauplatz für VHS Dateien. (Aegean, Balkan, Israel, Korea...)</String>
 	<String ID="CmdQuietHelp">Tacview wird alle genannten Operationen ausführen und dann ohne ein Fenster anzuzeigen sich schließen.</String>
+	<String ID="CmdConnectRealTimeTelemetryHelp">Connect real-time telemetry using the last known parameters.</String>
+	<String ID="CmdConnectRemoteControlHelp">Connect specified remote control using the last known parameters.</String>
 	<String ID="CmdQuitHelp">Tacview wird geschlossen, nachdem alle anderen gewählten Operationen fertig gestellt wurden.</String>
-	<String ID="CmdDataCollectionHelp">Can be used to disable anonymous data collection.</String>
+	<String ID="CmdDataCollectionHelp">Disables anonymous data collection.</String>
 	<String ID="CmdVBOOffHelp">Schalte Vertex Buffer Objekte aus um Abstürze auf einigen ATI CrossFire konfigurationen zu vermeiden.</String>
 	<String ID="CmdDebugModeHelp">Zeigt Fehlerinformationen an um bei der Behebung von Bugs behilflich zu sein.</String>
+	<String ID="CmdConfigSetHelp">Stores user preferences in a specific set for each instance of Tacview.</String>
 
 	<String ID="Selection">Selektion</String>
 	<String ID="TimeControl">Zeitkontrolle</String>
@@ -602,11 +630,15 @@
 	<String ID="FlightSimHookTooltipMessage">Wenn dieses Icon sichtbar ist, werden alle Flüge deines Simulators automatisch aufgezeichnet.&#10;Es ist nicht notwendig, Tacview während des Fliegens laufen zu lassen.</String>
 	<String ID="FlightRecordingEmptyNotification">Diese Flugaufnahme ist leer.</String>
 	<String ID="LowEndOpenGL">Bitte Grafikkartentreiber aktualisieren!</String>
+	<String ID="AntiCheatCannotPlayback">Playback of this file has been delayed by {0} minutes by the host. There is not enough time recorded to playback any data.</String>
+	<String ID="AntiCheatIncompletePlayback">Playback of this file has been delayed by {0} minutes by the host. The last {1} minute(s) cannot be reviewed.</String>
 
 	<!-- Message Boxes -->
 	<String ID="SaveFileRequestText">Willst Du Änderungen auf '{0}'&#160;speichern?</String>
 	<String ID="SaveButton">&amp;Speichern</String>
 	<String ID="DontSaveButton">&amp;Nicht speichern</String>
+	<String ID="IL2SturmovikIsRunningText">To ensure fair play and to prevent cheating, please close IL-2 Sturmovik before using Tacview.</String>
+	<String ID="OK">&amp;OK</String>
 
 	<!-- Dialogs Boxes Strings -->
 	<String ID="LicenseTitle">Tacview Lizensvereinbarung</String>
@@ -824,6 +856,7 @@
 	<String ID="TTViewSatellite">Satelitenansicht (F7)</String>
 	<String ID="TTViewFree">Freie Kamera (F8)</String>
 
+	<String ID="TTDisplayCockpitInstruments">Display cockpit instruments</String>
 	<String ID="TTDrawHeight">Zeige Objekthöhe</String>
 	<String ID="TTDrawDirection">Zeige ausgewählte Objektrichtung</String>
 	<String ID="TTDrawIDs">Zeige Objekte-IDs</String>

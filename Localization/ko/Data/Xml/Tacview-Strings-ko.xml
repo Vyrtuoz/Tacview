@@ -160,6 +160,8 @@
 	<String ID="SharePasteShortcutText">&amp;붙이기 단축키&#9;(Ctrl+V)</String>
 	<String ID="SharePasteShortcutHelp">상대방이 공유 한 뷰를 화면에 보여줄 수 있음.</String>
 	<String ID="AttractAttentionHelp">특정 물체에 관람자의 관심을 끌도록 유도함</String>
+	<String ID="DefineControlText">Assign Input</String>
+	<String ID="DefineControlHelp">Assign custom joystick or keyboard input to this command</String>
 
 	<String ID="SelectedObjectsTelemetryText">선택 된 오브젝트의 라벨</String>
 	<String ID="AircraftsTelemetryText">선택되지 않은 기체의 라벨</String>
@@ -412,16 +414,28 @@
 	<String ID="RemoteControlFailed">시뮬레이터 연결 실패</String>
 	<String ID="RemoteControlInvalidPassword">이곳에 접속하기 위해 올바른 비밀번호가 필요합니다.</String>
 	<String ID="RemoteControlPort">원격 조종 포트 :</String>
-	<String ID="RemoteControlHelp">액션을 클릭해서 활성화 할 수 있습니다. 더블클릭을 하면 컨트롤을 커스터마이즈 할 수 있습니다.</String>
 	<String ID="RemoteControlPause">일시중지</String>
 	<String ID="RemoteControlResume">다시진행</String>
 	<String ID="RemoteControlFlapsUp">플랩 올리기</String>
 	<String ID="RemoteControlFlapsDown">플랩 내리기</String>
 	<String ID="RemoteControlLandingGearUp">랜딩기어 올리기</String>
 	<String ID="RemoteControlLandingGearDown">랜딩기어 내리기</String>
+	<String ID="RemoteControlSmoke">Smoke</String>
+	<String ID="RemoteControlRespawn">Respawn / Reset</String>
+	<String ID="RemoteControlEject">Eject</String>
 	<String ID="RemoteControlRoll">롤</String>
 	<String ID="RemoteControlPitch">피치</String>
 	<String ID="RemoteControlYaw">요</String>
+	<String ID="RemoteControlThrottle">Throttle</String>
+	<String ID="RemoteControlSimulation">Simulation</String>
+	<String ID="RemoteControlFlightControl">Flight Control</String>
+	<String ID="RemoteControlSystems">Systems</String>
+	<String ID="RemoteControlAxisCommands">Axis Commands</String>
+	<String ID="RemoteControlCustomCommands">Custom Commands</String>
+	<String ID="RemoteControlCustomCommand1">Command #1 / Flag 1001</String>
+	<String ID="RemoteControlCustomCommand2">Command #2 / Flag 1002</String>
+	<String ID="RemoteControlCustomCommand3">Command #3 / Flag 1003</String>
+	<String ID="RemoteControlCustomCommand4">Command #4 / Flag 1004</String>
 
 	<String ID="RealTimeTelemetryTitle">실시간 텔레메트리</String>
 	<String ID="RealTimeTelemetryIntro">데이터 레코더를 실시간 데이터에 연결하여 텔레메트리를 볼 수 있습니다!</String>
@@ -431,13 +445,14 @@
 	<String ID="RealTimeTelemetryWarningClient">실시간 텔레메트리 녹화는 택뷰 프로페셔널 버전에서만 가능합니다.</String>
 	<String ID="RealTimeTelemetryPasswordTip">사설 세션은 비밀번호가 필요할 수도 있습니다.</String>
 	<String ID="RealTimeTelemetryRecordingConnecting">Waiting for {0} {1}</String>
-	<String ID="RealTimeTelemetryRecordingProgress">다음으로부터 녹화 됨 {0} {1}</String>
+	<String ID="RealTimeTelemetryRecordingProgress">Recording from {0} {1}</String>
 	<String ID="RealTimeTelemetryOperationCompleted">Real-time telemetry recording complete.</String>
 	<String ID="RealTimeTelemetryOperationFailed">Failed to connect real-time telemetry to given host address.</String>
 	<String ID="RealTimeTelemetryUnsupportedOperation">Real-time telemetry not compatible with the host exporter.</String>
 	<String ID="RealTimeTelemetryInvalidParameters">Invalid real-time telemetry password.</String>
 <!--
 	Korean characters are not yet supported in the 3D view
+	<String ID="RealTimeTelemetryRecordingProgress">다음으로부터 녹화 됨 {0} {1}</String>
 	<String ID="RealTimeTelemetryOperationCompleted">실시간 텔레메트리 녹화 완료.</String>
 	<String ID="RealTimeTelemetryOperationFailed">지정한 호스트 주소로 부터 실시간 텔레메트리 연결에 실패하였습니다.</String>
 	<String ID="RealTimeTelemetryUnsupportedOperation">실시간 텔레메트리가 호스트 추출버전과 호환되지 않습니다.</String>
@@ -469,6 +484,17 @@
 	<String ID="BullseyeValue">(Bullseye)</String>
 	<String ID="FixedWingValue">(Fixed Wing Aircraft)</String>
 	<String ID="TimelessValue">(timeless object)</String>
+
+	<String ID="ButtonHelp">Press the control you want to use for this command.</String>
+	<String ID="AxeHelp">Activate the joystick axe you want to use for this command.</String>
+	<String ID="CommandName">Command</String>
+	<String ID="InputModifier">Modifier</String>
+	<String ID="NoModifier">(none)</String>
+	<String ID="DeviceLabel">Device</String>
+	<String ID="InputLabel">Input</String>
+	<String ID="AxisValue">Axis</String>
+	<String ID="InvertedInput">Inverted</String>
+	<String ID="ClearButton">Clear</String>
 
 	<!-- Profiler -->
 	<String ID="ProfilerProfileMainLoopTooltip">메인 루프 프로파일 (F16)</String>
@@ -563,10 +589,13 @@
 	<String ID="CmdExportFlightLogHelp">비행로그를 XML이나 CSV 파일로 익스포트 합니다.</String>
 	<String ID="CmdFalcon4TheaterHelp">VHS 파일용 팰콘 4.0 전장 셋 (에게해, 발칸, 이스라엘, 코리아...)</String>
 	<String ID="CmdQuietHelp">택뷰가 지정된 작업을 모두 수행 한 후 다른 윈도우를 표시하지 않은 채 종료됩니다.</String>
+	<String ID="CmdConnectRealTimeTelemetryHelp">Connect real-time telemetry using the last known parameters.</String>
+	<String ID="CmdConnectRemoteControlHelp">Connect specified remote control using the last known parameters.</String>
 	<String ID="CmdQuitHelp">택뷰가 지정된 작업이 모두 완료 된 뒤 자동으로 종료됩니다.</String>
-	<String ID="CmdDataCollectionHelp">Can be used to disable anonymous data collection.</String>
+	<String ID="CmdDataCollectionHelp">Disables anonymous data collection.</String>
 	<String ID="CmdVBOOffHelp">몇몇 ATI 크로스파이어 설정으로 인해 크래쉬 되는 버텍스 버퍼 오브젝트 기능을 사용안함으로 합니다.</String>
 	<String ID="CmdDebugModeHelp">버그를 수정하기 위해 디버그 정보를 표시합니다.</String>
+	<String ID="CmdConfigSetHelp">Stores user preferences in a specific set for each instance of Tacview.</String>
 
 	<String ID="Selection">선택항목</String>
 	<String ID="TimeControl">시간 컨트롤</String>
@@ -622,11 +651,15 @@
 	<String ID="LowEndOpenGL">그래픽 카드 드라이버를 업데이트 해 주세요.</String>
 -->
 	<String ID="LowEndOpenGL">Please update your graphics card driver</String>
+	<String ID="AntiCheatCannotPlayback">Playback of this file has been delayed by {0} minutes by the host. There is not enough time recorded to playback any data.</String>
+	<String ID="AntiCheatIncompletePlayback">Playback of this file has been delayed by {0} minutes by the host. The last {1} minute(s) cannot be reviewed.</String>
 
 	<!-- Message Boxes -->
 	<String ID="SaveFileRequestText">변경 내용을 '{0}' 에 저장하시겠습니까&#160;?</String>
 	<String ID="SaveButton">&amp;저장</String>
 	<String ID="DontSaveButton">&amp;저장하지 않음</String>
+	<String ID="IL2SturmovikIsRunningText">To ensure fair play and to prevent cheating, please close IL-2 Sturmovik before using Tacview.</String>
+	<String ID="OK">&amp;OK</String>
 
 	<!-- Dialogs Boxes Strings -->
 	<String ID="LicenseTitle">택뷰 라이센스 합의서</String>
@@ -897,6 +930,7 @@
 	<String ID="TTViewSatellite">위성 시점 (F7)</String>
 	<String ID="TTViewFree">프리 카메라 (F8)</String>
 
+	<String ID="TTDisplayCockpitInstruments">Display cockpit instruments</String>
 	<String ID="TTDrawHeight">오브젝트의 높이 보여주기</String>
 	<String ID="TTDrawDirection">선택된 오브젝트의 방향 보여주기</String>
 	<String ID="TTDrawIDs">오브젝트 ID 보여주기</String>
