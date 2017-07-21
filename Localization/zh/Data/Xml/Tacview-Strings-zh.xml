@@ -160,8 +160,8 @@
 	<String ID="SharePasteShortcutText">&amp;粘贴快捷方式&#9;(Ctrl+V)</String>
 	<String ID="SharePasteShortcutHelp">从朋友共享的快捷方式还原视角</String>
 	<String ID="AttractAttentionHelp">吸引观察者注意力到特定物体</String>
-	<String ID="DefineControlText">Assign Input</String>
-	<String ID="DefineControlHelp">Assign custom joystick or keyboard input to this command</String>
+	<String ID="DefineControlText">分配输入</String>
+	<String ID="DefineControlHelp">为此命令分配自定义摇杆或键盘输入</String>
 
 	<String ID="SelectedObjectsTelemetryText">已选物体标签</String>
 	<String ID="AircraftsTelemetryText">未选飞机标签</String>
@@ -420,22 +420,22 @@
 	<String ID="RemoteControlFlapsDown">襟翼放下</String>
 	<String ID="RemoteControlLandingGearUp">起落架收起</String>
 	<String ID="RemoteControlLandingGearDown">起落架放下</String>
-	<String ID="RemoteControlSmoke">Smoke</String>
-	<String ID="RemoteControlRespawn">Respawn / Reset</String>
-	<String ID="RemoteControlEject">Eject</String>
+	<String ID="RemoteControlSmoke">拉烟</String>
+	<String ID="RemoteControlRespawn">重生/复位</String>
+	<String ID="RemoteControlEject">弹射</String>
 	<String ID="RemoteControlRoll">滚转</String>
 	<String ID="RemoteControlPitch">俯仰</String>
 	<String ID="RemoteControlYaw">偏航</String>
-	<String ID="RemoteControlThrottle">Throttle</String>
-	<String ID="RemoteControlSimulation">Simulation</String>
-	<String ID="RemoteControlFlightControl">Flight Control</String>
-	<String ID="RemoteControlSystems">Systems</String>
-	<String ID="RemoteControlAxisCommands">Axis Commands</String>
-	<String ID="RemoteControlCustomCommands">Custom Commands</String>
-	<String ID="RemoteControlCustomCommand1">Command #1 / Flag 1001</String>
-	<String ID="RemoteControlCustomCommand2">Command #2 / Flag 1002</String>
-	<String ID="RemoteControlCustomCommand3">Command #3 / Flag 1003</String>
-	<String ID="RemoteControlCustomCommand4">Command #4 / Flag 1004</String>
+	<String ID="RemoteControlThrottle">油门</String>
+	<String ID="RemoteControlSimulation">模拟</String>
+	<String ID="RemoteControlFlightControl">飞行控制</String>
+	<String ID="RemoteControlSystems">系统</String>
+	<String ID="RemoteControlAxisCommands">轴命令</String>
+	<String ID="RemoteControlCustomCommands">自定义命令</String>
+	<String ID="RemoteControlCustomCommand1">命令#1 / 旗标 1001</String>
+	<String ID="RemoteControlCustomCommand2">命令#2 / 旗标 1002</String>
+	<String ID="RemoteControlCustomCommand3">命令#3 / 旗标 1003</String>
+	<String ID="RemoteControlCustomCommand4">命令#4 / 旗标 1004</String>
 
 	<String ID="RealTimeTelemetryTitle">实时遥测</String>
 	<String ID="RealTimeTelemetryIntro">与数据记录器建立连接以实时地检查遥测数据！</String>
@@ -486,16 +486,16 @@
 	<String ID="FixedWingValue">(固定翼航空器)</String>
 	<String ID="TimelessValue">(永久物体)</String>
 
-	<String ID="ButtonHelp">Press the control you want to use for this command.</String>
-	<String ID="AxeHelp">Activate the joystick axe you want to use for this command.</String>
-	<String ID="CommandName">Command</String>
-	<String ID="InputModifier">Modifier</String>
-	<String ID="NoModifier">(none)</String>
-	<String ID="DeviceLabel">Device</String>
-	<String ID="InputLabel">Input</String>
-	<String ID="AxisValue">Axis</String>
-	<String ID="InvertedInput">Inverted</String>
-	<String ID="ClearButton">Clear</String>
+	<String ID="ButtonHelp">按下想用的控制设备来使用此命令。</String>
+	<String ID="AxeHelp">激活想用的摇杆轴来使用此命令。</String>
+	<String ID="CommandName">命令</String>
+	<String ID="InputModifier">修饰键</String>
+	<String ID="NoModifier">（无）</String>
+	<String ID="DeviceLabel">设备</String>
+	<String ID="InputLabel">输入</String>
+	<String ID="AxisValue">轴</String>
+	<String ID="InvertedInput">反转</String>
+	<String ID="ClearButton">清除</String>
 
 	<!-- Profiler -->
 	<String ID="ProfilerProfileMainLoopTooltip">配置主循环 (F16)</String>
@@ -590,13 +590,13 @@
 	<String ID="CmdExportFlightLogHelp">导出飞行日志为XML或CSV文件。</String>
 	<String ID="CmdFalcon4TheaterHelp">设置Falcon 4.0战区使用VHS文件。(Aegean, Balkan, Israel, Korea...)</String>
 	<String ID="CmdQuietHelp">Tacview将执行所有指定操作然后不显示任何窗口退出。</String>
-	<String ID="CmdConnectRealTimeTelemetryHelp">Connect real-time telemetry using the last known parameters.</String>
-	<String ID="CmdConnectRemoteControlHelp">Connect specified remote control using the last known parameters.</String>
+	<String ID="CmdConnectRealTimeTelemetryHelp">使用最后已知的参数连接实时遥测。</String>
+	<String ID="CmdConnectRemoteControlHelp">使用最后已知的参数连接特定遥控。</String>
 	<String ID="CmdQuitHelp">Tacview将在所有指定操作完成后关闭。</String>
 	<String ID="CmdDataCollectionHelp">可用于禁用匿名数据收集。</String>
 	<String ID="CmdVBOOffHelp">禁用顶点缓冲区物体以避免在一些ATI交火配置上崩溃。</String>
 	<String ID="CmdDebugModeHelp">显示调试信息以帮助修补错误。</String>
-	<String ID="CmdConfigSetHelp">Stores user preferences in a specific set for each instance of Tacview.</String>
+	<String ID="CmdConfigSetHelp">为每个Tacview实例以特定组合存储用户偏好设置。</String>
 
 	<String ID="Selection">选择</String>
 	<String ID="TimeControl">时间控制</String>
@@ -652,15 +652,15 @@
 	<String ID="LowEndOpenGL">请升级你的显卡驱动</String>
 -->
 	<String ID="LowEndOpenGL">Please update your graphics card driver</String>
-	<String ID="AntiCheatCannotPlayback">Playback of this file has been delayed by {0} minutes by the host. There is not enough time recorded to playback any data.</String>
-	<String ID="AntiCheatIncompletePlayback">Playback of this file has been delayed by {0} minutes by the host. The last {1} minute(s) cannot be reviewed.</String>
+	<String ID="AntiCheatCannotPlayback">主机已延迟设置此文件的回放延迟 {0} 分钟。没有足够时间的纪录来回放任何数据。</String>
+	<String ID="AntiCheatIncompletePlayback">主机已延迟设置此文件的回放延迟 {0} 分钟。最后 {1} 分钟无法重看。</String>
 
 	<!-- Message Boxes -->
 	<String ID="SaveFileRequestText">是否将更改保存到'{0}'&#160;？</String>
 	<String ID="SaveButton">&amp;保存</String>
 	<String ID="DontSaveButton">&amp;不保存</String>
-	<String ID="IL2SturmovikIsRunningText">To ensure fair play and to prevent cheating, please close IL-2 Sturmovik before using Tacview.</String>
-	<String ID="OK">&amp;OK</String>
+	<String ID="IL2SturmovikIsRunningText">为了确保公平游戏避免作弊，请在使用Tacview前关闭IL-2 Sturmovik。</String>
+	<String ID="OK">&amp;确定</String>
 
 	<!-- Dialogs Boxes Strings -->
 	<String ID="LicenseTitle">Tacview许可协议</String>
@@ -931,7 +931,7 @@
 	<String ID="TTViewSatellite">卫星视野 (F7)</String>
 	<String ID="TTViewFree">自由镜头 (F8)</String>
 
-	<String ID="TTDisplayCockpitInstruments">Display cockpit instruments</String>
+	<String ID="TTDisplayCockpitInstruments">显示驾驶舱仪表</String>
 	<String ID="TTDrawHeight">显示物体离地高度</String>
 	<String ID="TTDrawDirection">显示被选物体正前方指向</String>
 	<String ID="TTDrawIDs">显示物体图标</String>
