@@ -97,6 +97,8 @@
 	<String ID="OptionsTerrainHelpEECH">Usare il terreno da EECH (Enemy Engaged: Comanche vs Hokum)</String>
 	<String ID="OptionsTerrainTextFalcon4">Falcon 4.0</String>
 	<String ID="OptionsTerrainHelpFalcon4">Usare il terreno da Falcon 4.0</String>
+	<String ID="OptionsTerrainTextIL2">IL-2 Sturmovik</String>
+	<String ID="OptionsTerrainHelpIL2">Displays terrain from IL-2 Sturmovik</String>
 
 	<String ID="OptionsLanguageText">Lingua</String>
 	<String ID="OptionsLanguageAutoText">(&amp;Auto)</String>
@@ -428,6 +430,13 @@
 	<String ID="RemoteControlCustomCommand2">Command #2 / Flag 1002</String>
 	<String ID="RemoteControlCustomCommand3">Command #3 / Flag 1003</String>
 	<String ID="RemoteControlCustomCommand4">Command #4 / Flag 1004</String>
+	<String ID="RemoteControlCustomCommand5">Command #5 / Flag 1005</String>
+	<String ID="RemoteControlCustomCommand6">Command #6 / Flag 1006</String>
+	<String ID="RemoteControlCustomCommand7">Command #7 / Flag 1007</String>
+	<String ID="RemoteControlCustomCommand8">Command #8 / Flag 1008</String>
+	<String ID="RemoteControl">Remote Control</String>
+	<String ID="RemoteControlToggleFocus">Toggle Focus</String>
+	<String ID="RemoteControlExclusiveFocus">Exclusive Focus</String>
 
 	<String ID="RealTimeTelemetryTitle">Real-time Telemetry</String>
 	<String ID="RealTimeTelemetryIntro">Establish a connection with a data recorder to review telemetry data in real-time!</String>
@@ -469,7 +478,7 @@
 	<String ID="TimelessValue">(timeless object)</String>
 
 	<String ID="ButtonHelp">Press the control you want to use for this command.</String>
-	<String ID="AxeHelp">Activate the joystick axe you want to use for this command.</String>
+	<String ID="AxeHelp">Activate the joystick axis you want to use for this command.</String>
 	<String ID="CommandName">Command</String>
 	<String ID="InputModifier">Modifier</String>
 	<String ID="NoModifier">(none)</String>

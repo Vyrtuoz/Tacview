@@ -97,6 +97,8 @@
 	<String ID="OptionsTerrainHelpEECH">使用EECH(Enemy Engaged: Comanche vs Hokum)地形</String>
 	<String ID="OptionsTerrainTextFalcon4">Falcon 4.0</String>
 	<String ID="OptionsTerrainHelpFalcon4">使用Falcon 4.0地形</String>
+	<String ID="OptionsTerrainTextIL2">IL-2 Sturmovik</String>
+	<String ID="OptionsTerrainHelpIL2">Displays terrain from IL-2 Sturmovik</String>
 
 	<String ID="OptionsLanguageText">语言选择</String>
 	<String ID="OptionsLanguageAutoText">（&amp;自动）</String>
@@ -436,6 +438,13 @@
 	<String ID="RemoteControlCustomCommand2">命令#2 / 旗标 1002</String>
 	<String ID="RemoteControlCustomCommand3">命令#3 / 旗标 1003</String>
 	<String ID="RemoteControlCustomCommand4">命令#4 / 旗标 1004</String>
+	<String ID="RemoteControlCustomCommand5">命令#5 / 旗标 1005</String>
+	<String ID="RemoteControlCustomCommand6">命令#6 / 旗标 1006</String>
+	<String ID="RemoteControlCustomCommand7">命令#7 / 旗标 1007</String>
+	<String ID="RemoteControlCustomCommand8">命令#8 / 旗标 1008</String>
+	<String ID="RemoteControl">Remote Control</String>
+	<String ID="RemoteControlToggleFocus">Toggle Focus</String>
+	<String ID="RemoteControlExclusiveFocus">Exclusive Focus</String>
 
 	<String ID="RealTimeTelemetryTitle">实时遥测</String>
 	<String ID="RealTimeTelemetryIntro">与数据记录器建立连接以实时地检查遥测数据！</String>
@@ -650,10 +659,12 @@
 <!--
 	Chinese characters are not yet supported in the 3D view
 	<String ID="LowEndOpenGL">请升级你的显卡驱动</String>
--->
-	<String ID="LowEndOpenGL">Please update your graphics card driver</String>
 	<String ID="AntiCheatCannotPlayback">主机已延迟设置此文件的回放延迟 {0} 分钟。没有足够时间的纪录来回放任何数据。</String>
 	<String ID="AntiCheatIncompletePlayback">主机已延迟设置此文件的回放延迟 {0} 分钟。最后 {1} 分钟无法重看。</String>
+-->
+	<String ID="LowEndOpenGL">Please update your graphics card driver</String>
+	<String ID="AntiCheatCannotPlayback">Playback of this file has been delayed by {0} minutes by the host. There is not enough time recorded to playback any data.</String>
+	<String ID="AntiCheatIncompletePlayback">Playback of this file has been delayed by {0} minutes by the host. The last {1} minute(s) cannot be reviewed.</String>
 
 	<!-- Message Boxes -->
 	<String ID="SaveFileRequestText">是否将更改保存到'{0}'&#160;？</String>

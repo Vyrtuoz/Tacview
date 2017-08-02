@@ -96,6 +96,8 @@
 	<String ID="OptionsTerrainHelpEECH">Utiliser le terrain de EECH (Enemy Engaged: Comanche vs Hokum)</String>
 	<String ID="OptionsTerrainTextFalcon4">Falcon 4.0</String>
 	<String ID="OptionsTerrainHelpFalcon4">Utiliser le terrain de Falcon 4.0</String>
+	<String ID="OptionsTerrainTextIL2">IL-2 Sturmovik</String>
+	<String ID="OptionsTerrainHelpIL2">Affiche le terrain d'IL-2 Sturmovik</String>
 
 	<String ID="OptionsLanguageText">Langue</String>
 	<String ID="OptionsLanguageAutoText">(&amp;Auto)</String>
@@ -415,8 +417,8 @@
 	<String ID="RemoteControlRespawn">Réapparaître / Réinitialiser</String>
 	<String ID="RemoteControlEject">Ejection</String>
 	<String ID="RemoteControlRoll">Roulis</String>
-	<String ID="RemoteControlPitch">Assiette</String>
-	<String ID="RemoteControlYaw">Tangage</String>
+	<String ID="RemoteControlPitch">Tangage</String>
+	<String ID="RemoteControlYaw">Lacet</String>
 	<String ID="RemoteControlThrottle">Manettes des gaz</String>
 	<String ID="RemoteControlSimulation">Simulation</String>
 	<String ID="RemoteControlFlightControl">Commandes de vol</String>
@@ -427,6 +429,13 @@
 	<String ID="RemoteControlCustomCommand2">Commande 2 / Flag 1002</String>
 	<String ID="RemoteControlCustomCommand3">Commande 3 / Flag 1003</String>
 	<String ID="RemoteControlCustomCommand4">Commande 4 / Flag 1004</String>
+	<String ID="RemoteControlCustomCommand5">Commande 5 / Flag 1005</String>
+	<String ID="RemoteControlCustomCommand6">Commande 6 / Flag 1006</String>
+	<String ID="RemoteControlCustomCommand7">Commande 7 / Flag 1007</String>
+	<String ID="RemoteControlCustomCommand8">Commande 8 / Flag 1008</String>
+	<String ID="RemoteControl">Télécommande</String>
+	<String ID="RemoteControlToggleFocus">Activer/Désactiver Télécommande</String>
+	<String ID="RemoteControlExclusiveFocus">Activer (exclusif)</String>
 
 	<String ID="RealTimeTelemetryTitle">Télémétrie temps-réel</String>
 	<String ID="RealTimeTelemetryIntro">Etablissez une connexion avec un enregistreur de vol pour examiner les données de télémétrie en temps réel !</String>
