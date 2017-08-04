@@ -98,7 +98,7 @@
 	<String ID="OptionsTerrainTextFalcon4">Falcon 4.0</String>
 	<String ID="OptionsTerrainHelpFalcon4">使用Falcon 4.0地形</String>
 	<String ID="OptionsTerrainTextIL2">IL-2 Sturmovik</String>
-	<String ID="OptionsTerrainHelpIL2">Displays terrain from IL-2 Sturmovik</String>
+	<String ID="OptionsTerrainHelpIL2">显示IL-2 Sturmovik地形</String>
 
 	<String ID="OptionsLanguageText">语言选择</String>
 	<String ID="OptionsLanguageAutoText">（&amp;自动）</String>
@@ -442,9 +442,9 @@
 	<String ID="RemoteControlCustomCommand6">命令#6 / 旗标 1006</String>
 	<String ID="RemoteControlCustomCommand7">命令#7 / 旗标 1007</String>
 	<String ID="RemoteControlCustomCommand8">命令#8 / 旗标 1008</String>
-	<String ID="RemoteControl">Remote Control</String>
-	<String ID="RemoteControlToggleFocus">Toggle Focus</String>
-	<String ID="RemoteControlExclusiveFocus">Exclusive Focus</String>
+	<String ID="RemoteControl">遥控</String>
+	<String ID="RemoteControlToggleFocus">开关焦点</String>
+	<String ID="RemoteControlExclusiveFocus">专用焦点</String>
 
 	<String ID="RealTimeTelemetryTitle">实时遥测</String>
 	<String ID="RealTimeTelemetryIntro">与数据记录器建立连接以实时地检查遥测数据！</String>
