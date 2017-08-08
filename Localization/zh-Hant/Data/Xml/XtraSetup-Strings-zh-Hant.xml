@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!-- XtraSetup Traditional Chinese Text -->
+
+<Resources Language="zh-Hant">
+
+	<!-- Misc -->
+	<String ID="InstallTitle">{0} Installation</String>
+	<String ID="InstallLabel">{0} Installation</String>
+
+	<!-- Main Page -->
+	<String ID="WelcomePageTitle">Welcome</String>
+	<String ID="WelcomeTitle">Welcome to {0} installation program</String>
+	<String ID="WelcomeInstructions">By installing this application,&#10;you agree you have read and accepted the License Agreement.</String>
+<!--
+	<String ID="WelcomeInstructions">To begin the installation, click Install.&#10;To customize the installation, click the Options tab.</String>
+-->
+	<String ID="WelcomeInfoURL">Learn more about {0}</String>
+	<String ID="OpenBetaWarningURL">WARNING: To use this version you need a product key.</String>
+	<String ID="ClosedBetaWarning">WARNING: This is a closed beta test. Do not distribute this version.</String>
+
+	<String ID="LicensePageTitle">License</String>
+
+	<String ID="OptionsPageTitle">Options</String>
+	<String ID="InstallFolders">Folders</String>
+	<String ID="InstallFolderLabel">{0} will be installed in the following folder:</String>
+	<String ID="SpaceRequired">Space required: {0,.0} MB</String>
+	<String ID="ProgramGroupLabel">Program icons will be added into the following group:</String>
+	<String ID="ShortcutsGroup">Additional Shortcuts</String>
+	<String ID="CreateDesktopShortcut">Create a &amp;Desktop icon</String>
+	<String ID="CreateQuickLaunchShortcut">Create a &amp;Quick Launch icon</String>
+
+	<String ID="BrowseInstallFolderHelp">Select Installation Folder</String>
+
+	<!-- File Transfer Page -->
+	<String ID="InstallInProgress">Install in progress...</String>
+	<String ID="ProgressionText">Writing files: {0,.0}% Completed</String>
+	<String ID="TimeRemaining">Time Remaining:</String>
+	<String ID="CancelConfirmation">Are you sure you want to abort {0} installation?</String>
+
+	<!-- Canceled Page -->
+	<String ID="InstallCanceled">Install Canceled</String>
+	<String ID="CanceledMessage">The installation process was successfully cancelled.</String>
+
+	<!-- Failure Page -->
+	<String ID="InstallFailed">Install Failed</String>
+	<String ID="FailureMessage">Please ensure that you have enough access rights and free disk space&#10;before contacting the software manufacturer for assistance.</String>
+	<String ID="TechnicalSupport">Technical support</String>
+
+	<!-- Success Page -->
+	<String ID="InstallSucceeded">Installation Successful</String>
+	<String ID="SuccessMessage">{0} was successfully installed.</String>
+	<String ID="OfficialWebSiteInfo">Find detailed documentation and latest updates on the official website.</String>
+
+	<!-- Buttons -->
+	<String ID="InstallButton">&amp;Install</String>
+	<String ID="RunButton">&amp;Launch {0}</String>
+
+</Resources>
