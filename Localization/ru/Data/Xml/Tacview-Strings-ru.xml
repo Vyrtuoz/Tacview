@@ -766,6 +766,7 @@
 	<String ID="FileTypeDescriptionTacviewBinary">Бинарные данные телеметрии Tacview</String>
 	<String ID="FileTypeDescriptionGAEText">Текстовые данные распределенного интерактивного моделирования (GAE)</String>
 	<String ID="FileTypeDescriptionKMLStaticObjects">Статические объекты KML</String>
+	<String ID="FileTypeDescriptionNMEA0183">GPS NMEA 0183 log files</String>
 	<String ID="FileTypeDescriptionGPX">Файлы обмена GPS</String>
 	<String ID="FileTypeDescriptionVHS">Записи полёта Falcon 4.0</String>
 	<String ID="FileTypeDescriptionMAVLink">Телеметрия MAVLink</String>

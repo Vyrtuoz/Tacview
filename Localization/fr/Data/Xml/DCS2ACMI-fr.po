@@ -96,3 +96,15 @@ msgstr "Mode débogage"
 
 msgid "Records additional debug info for each object and event to help pinpoint specific issues."
 msgstr "Enregistre des infos additionnelles pour aider à corriger des problèmes particuliers."
+
+msgid "Real-Time Telemetry TCP Port (42674)"
+msgstr "Port TCP Télémétrie temps-réel (42674)"
+
+msgid "Remote Control TCP Port (42675)"
+msgstr "Port TCP Télécommande (42675)"
+
+msgid "Customize TCP ports when running several DCS World instances"
+msgstr "Personnalisez les ports TCP lorsque plusieurs instances de"
+
+msgid "at the same time."
+msgstr "DCS World sont exécutées en même temps."

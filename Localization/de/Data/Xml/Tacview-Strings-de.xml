@@ -766,6 +766,7 @@
 	<String ID="FileTypeDescriptionTacviewBinary">Tacview Binär Telemetrie Daten</String>
 	<String ID="FileTypeDescriptionGAEText">GAE Vertriebene interaktive Simulation Text Daten</String>
 	<String ID="FileTypeDescriptionKMLStaticObjects">"Keyhole Markup" Sprache statische Objekte</String>
+	<String ID="FileTypeDescriptionNMEA0183">GPS NMEA 0183 log files</String>
 	<String ID="FileTypeDescriptionGPX">GPS Austausch Format</String>
 	<String ID="FileTypeDescriptionVHS">Falcon 4.0 Flugaufzeichnung</String>
 	<String ID="FileTypeDescriptionMAVLink">MAVLink telemetry</String>

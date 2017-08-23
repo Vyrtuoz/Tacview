@@ -832,6 +832,7 @@
 	<String ID="FileTypeDescriptionTacviewBinary">택뷰 바이너리 텔레메트리 데이터</String>
 	<String ID="FileTypeDescriptionGAEText">GAE 배포 인터렉티브 시뮬레이션 텍스트 데이터</String>
 	<String ID="FileTypeDescriptionKMLStaticObjects">키홀 마크업 언어 스태틱 오브젝트</String>
+	<String ID="FileTypeDescriptionNMEA0183">GPS NMEA 0183 log files</String>
 	<String ID="FileTypeDescriptionGPX">GPS 변환 파일</String>
 	<String ID="FileTypeDescriptionVHS">팰콘 4.0 비행 기록</String>
 	<String ID="FileTypeDescriptionMAVLink">MAVLink 텔레메트리</String>

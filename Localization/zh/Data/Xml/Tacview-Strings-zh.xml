@@ -835,6 +835,7 @@
 	<String ID="FileTypeDescriptionTacviewBinary">Tacview二进制遥测数据</String>
 	<String ID="FileTypeDescriptionGAEText">GAE分布式交互仿真文本数据</String>
 	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole标记语言静态对象</String>
+	<String ID="FileTypeDescriptionNMEA0183">GPS NMEA 0183 log files</String>
 	<String ID="FileTypeDescriptionGPX">GPS eXchange文件</String>
 	<String ID="FileTypeDescriptionVHS">Falcon 4.0飞行记录</String>
 	<String ID="FileTypeDescriptionMAVLink">MAVLink遥测</String>

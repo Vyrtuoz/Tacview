@@ -96,3 +96,15 @@ msgstr "디버그 모드"
 
 msgid "Records additional debug info for each object and event to help pinpoint specific issues."
 msgstr "각각의 오브젝트나 이벤트에 대한 추가적인 디버그 정보를 녹화하여 특정 이슈에 도움을 줄 수 있습니다."
+
+msgid "Real-Time Telemetry TCP Port (42674)"
+msgstr ""
+
+msgid "Remote Control TCP Port (42675)"
+msgstr ""
+
+msgid "Customize TCP ports when running several DCS World instances"
+msgstr ""
+
+msgid "at the same time."
+msgstr ""

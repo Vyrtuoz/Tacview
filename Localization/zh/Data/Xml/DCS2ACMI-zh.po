@@ -96,3 +96,15 @@ msgstr "调试模式"
 
 msgid "Records additional debug info for each object and event to help pinpoint specific issues."
 msgstr "为每个对象和事件录制附加的调试信息来帮助定位特定的问题。"
+
+msgid "Real-Time Telemetry TCP Port (42674)"
+msgstr ""
+
+msgid "Remote Control TCP Port (42675)"
+msgstr ""
+
+msgid "Customize TCP ports when running several DCS World instances"
+msgstr ""
+
+msgid "at the same time."
+msgstr ""
