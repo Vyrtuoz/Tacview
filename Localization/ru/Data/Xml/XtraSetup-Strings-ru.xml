@@ -12,11 +12,11 @@
 	<!-- Main Page -->
 	<String ID="WelcomePageTitle">Добро пожаловать!</String>
 	<String ID="WelcomeTitle">Вас приветствует установщик программы {0}</String>
-	<String ID="WelcomeInstructions">Устанавливая программу,&#10; Вы подтверждаете, что прочитали и приняли условия Пользовательского Соглашения.</String>
+	<String ID="WelcomeInstructions">Устанавливая программу,&#10; вы подтверждаете, что прочитали и приняли условия Пользовательского Соглашения.</String>
 <!--
 	<String ID="WelcomeInstructions">Нажмите "Установить", чтобы начать установку.&#10;Настройки доступны в разделе "Опции".</String>
 -->
-	<String ID="WelcomeInfoURL">Узнать больше о {0}</String>
+	<String ID="WelcomeInfoURL">Узнать больше {0}</String>
 	<String ID="OpenBetaWarningURL">ВАЖНО: Этой версии требуется лицензионный ключ</String>
 	<String ID="ClosedBetaWarning">ВАЖНО: Данная версия используется в рамках закрытого бета-теста. Пожалуйста, не распространяйте её вовне.</String>
 
