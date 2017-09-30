@@ -98,13 +98,13 @@ msgid "Records additional debug info for each object and event to help pinpoint 
 msgstr "Registra información de depuración adicional para cada objeto y evento para ayudar a identificar problemas específicos."
 
 msgid "Real-Time Telemetry TCP Port (42674)"
-msgstr ""
+msgstr "Puerto TCP de telemetría en tiempo real (42674)"
 
 msgid "Remote Control TCP Port (42675)"
-msgstr ""
+msgstr "Puerto TCP de control remoto (42675)"
 
 msgid "Customize TCP ports when running several DCS World instances"
-msgstr ""
+msgstr "Puertos TCP personalizados cuando se ejecuten varias instancias de DCS World"
 
 msgid "at the same time."
-msgstr ""
+msgstr "al mismo tiempo."
