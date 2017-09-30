@@ -374,7 +374,7 @@
 	<String ID="OnlineDebriefingUsername">Nombre de usuario :</String>
 	<String ID="OnlineDebriefingUsernameHelp">Use como mínimo 3 caracteres</String>
 	<String ID="OnlineDebriefingPassword">Contraseña :</String>
-	<String ID="OnlineDebriefingPort">Tacview TCP Port :</String>
+	<String ID="OnlineDebriefingPort">Puerto TCP Tacview :</String>
 	<String ID="OnlineDebriefingPortHelp">¡No olvide abrir el puerto en el router!</String>
 	<String ID="OnlineDebriefingSessionName">Nombre de sesión :</String>
 	<String ID="OnlineDebriefingPublicAddress">Dirección publica :</String>
@@ -640,8 +640,8 @@
 	<String ID="FlightSimHookTooltipMessage">Cuando este icono es visible todos los vuelos son automáticamente grabados por tu simulador de vuelo.&#10; No es necesario tener Tacview en funcionamiento mientras estas volando.</String>
 	<String ID="FlightRecordingEmptyNotification">Esta grabación de vuelo esta vacía.</String>
 	<String ID="LowEndOpenGL">Por favor actualice los drivers de su tarjeta grafica</String>
-	<String ID="AntiCheatCannotPlayback">Playback of this file has been delayed by {0} minutes by the host. There is not enough time recorded to playback any data.</String>
-	<String ID="AntiCheatIncompletePlayback">Playback of this file has been delayed by {0} minutes by the host. The last {1} minute(s) cannot be reviewed.</String>
+	<String ID="AntiCheatCannotPlayback">La reproducción del archivo ha sido retrasada {0} minutos por el host. No hay suficiente tiempo grabado para reproducir ningún dato.</String>
+	<String ID="AntiCheatIncompletePlayback">La reproducción del archivo ha sido retrasada {0} minutos por el host. El último {1} minuto(s) no puede(n) ser revisado(s).</String>
 
 	<!-- Message Boxes -->
 	<String ID="SaveFileRequestText">¿Quiere guardar cambios de '{0}'&#160;?</String>
@@ -766,8 +766,8 @@
 	<String ID="FileTypeDescriptionTacviewText">Texto de datos de telemetría de Tacview</String>
 	<String ID="FileTypeDescriptionTacviewBinary">Datos binarios de telemetría de Tacview</String>
 	<String ID="FileTypeDescriptionGAEText">Texto de datos interactivos de distribución GAE</String>
-	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole Markup Language static objects</String>
-	<String ID="FileTypeDescriptionNMEA0183">GPS NMEA 0183 log files</String>
+	<String ID="FileTypeDescriptionKMLStaticObjects">Objetos estáticos del lenguaje de marcado</String>
+	<String ID="FileTypeDescriptionNMEA0183">GPS NMEA 0183 archivos de registro</String>
 	<String ID="FileTypeDescriptionGPX">Formato GPS Excange</String>
 	<String ID="FileTypeDescriptionVHS">Falcon 4.0 Grabación de vuelo</String>
 	<String ID="FileTypeDescriptionMAVLink">MAVLink telemetría</String>
