@@ -62,6 +62,14 @@
 	<String ID="AnalysisDisplayChart3Help">显示或隐藏图表窗口#3</String>
 	<String ID="AnalysisDisplayChart4Text">图表&amp;4</String>
 	<String ID="AnalysisDisplayChart4Help">显示或隐藏图表窗口#4</String>
+	<String ID="AnalysisDisplayMedia1Text">Media &amp;1</String>
+	<String ID="AnalysisDisplayMedia1Help">Show or hide audio/video window #1</String>
+	<String ID="AnalysisDisplayMedia2Text">Media &amp;2</String>
+	<String ID="AnalysisDisplayMedia2Help">Show or hide audio/video window #2</String>
+	<String ID="AnalysisDisplayMedia3Text">Media &amp;3</String>
+	<String ID="AnalysisDisplayMedia3Help">Show or hide audio/video window #3</String>
+	<String ID="AnalysisDisplayMedia4Text">Media &amp;4</String>
+	<String ID="AnalysisDisplayMedia4Help">Show or hide audio/video window #4</String>
 
 	<String ID="DebriefingMenuTooltip">任务报告</String>
 	<String ID="DebriefingMenuHelp">任务报告工具</String>
@@ -152,6 +160,11 @@
 	<String ID="OptionsAssociateFileTypesHelp">在Windows里双击acmi飞行记录文件时用Tacview打开。</String>
 	<String ID="OptionsTrackIRCmdText">TrackIR</String>
 	<String ID="OptionsTrackIRCmdHelp">在驾驶舱视野里启用TrackIR</String>
+
+	<String ID="DogfightModeCenteredText">Centered</String>
+	<String ID="DogfightModeCenteredHelp">Center the camera between selected objects</String>
+	<String ID="DogfightModeLookAtText">Look at Target</String>
+	<String ID="DogfightModeLookAtHelp">The camera will keep looking at the secondary object</String>
 
 	<String ID="InsertBookmarkText">&amp;插入书签</String>
 	<String ID="InsertBookmarkHelp">在事件和时间线里创建并插入书签</String>
@@ -491,8 +504,17 @@
 	<String ID="NoNameValue">(无)</String>
 	<String ID="NoColorValue">(无)</String>
 	<String ID="NoCoalitionValue">(无)</String>
-	<String ID="BullseyeValue">(靶眼)</String>
-	<String ID="FixedWingValue">(固定翼航空器)</String>
+	<String ID="BullseyeType">(靶眼)</String>
+	<String ID="FixedWingType">(固定翼航空器)</String>
+	<String ID="RotorcraftType">(Rotorcraft)</String>
+	<String ID="MissileType">(Missile)</String>
+	<String ID="BombType">(Bomb)</String>
+	<String ID="AntiAircraftType">(Anti-Aircraft: AAA/SAM)</String>
+	<String ID="TankType">(Tank)</String>
+	<String ID="WarshipType">(Warship)</String>
+	<String ID="SubmarineType">(Submarine)</String>
+	<String ID="InfantryType">(Infantry)</String>
+	<String ID="BuildingType">(Building)</String>
 	<String ID="TimelessValue">(永久物体)</String>
 
 	<String ID="ButtonHelp">按下想用的控制设备来使用此命令。</String>
@@ -533,6 +555,12 @@
 	<String ID="AddOnTitleChart1">图表2</String>
 	<String ID="AddOnTitleChart2">图表3</String>
 	<String ID="AddOnTitleChart3">图表4</String>
+	<String ID="AddOnTitleMedia1">Media 1</String>
+	<String ID="AddOnTitleMedia2">Media 2</String>
+	<String ID="AddOnTitleMedia3">Media 3</String>
+	<String ID="AddOnTitleMedia4">Media 4</String>
+	<String ID="UnsupportedMediaNotification">Unsupported media file.</String>
+	<String ID="UnsupportedMediaLink">Try to install a codec pack.</String>
 
 	<String ID="AddOnTelemetryName">名称</String>
 	<String ID="AddOnTelemetryData">数据</String>
@@ -665,6 +693,8 @@
 	<String ID="LowEndOpenGL">Please update your graphics card driver</String>
 	<String ID="AntiCheatCannotPlayback">Playback of this file has been delayed by {0} minutes by the host. There is not enough time recorded to playback any data.</String>
 	<String ID="AntiCheatIncompletePlayback">Playback of this file has been delayed by {0} minutes by the host. The last {1} minute(s) cannot be reviewed.</String>
+	<String ID="AuthenticationComplete">This file is authentic, it has not been altered since its recording.</String>
+	<String ID="AuthenticationIncomplete">This file is authentic, except for the last {0} seconds which cannot be validated.</String>
 
 	<!-- Message Boxes -->
 	<String ID="SaveFileRequestText">是否将更改保存到'{0}'&#160;？</String>
@@ -850,6 +880,7 @@
 	<String ID="FileTypeDescriptionTacview7z">7z压缩Tacview遥测数据</String>
 	<String ID="FileTypeDescriptionZip">遥测数据ZIP存档</String>
 	<String ID="FileTypeDescription7z">遥测数据7z存档</String>
+	<String ID="FileTypeDescriptionMediaMany">Media Files</String>
 	<String ID="TypeColumn">类型</String>
 	<String ID="TimeColumn">时间</String>
 	<String ID="EventColumn">事件</String>

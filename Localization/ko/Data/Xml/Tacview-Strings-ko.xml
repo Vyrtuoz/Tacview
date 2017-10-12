@@ -62,6 +62,14 @@
 	<String ID="AnalysisDisplayChart3Help">챠트 윈도우 #3을 보이거나 숨기기</String>
 	<String ID="AnalysisDisplayChart4Text">챠트 &amp;4</String>
 	<String ID="AnalysisDisplayChart4Help">챠트 윈도우 #4를 보이거나 숨기기</String>
+	<String ID="AnalysisDisplayMedia1Text">Media &amp;1</String>
+	<String ID="AnalysisDisplayMedia1Help">Show or hide audio/video window #1</String>
+	<String ID="AnalysisDisplayMedia2Text">Media &amp;2</String>
+	<String ID="AnalysisDisplayMedia2Help">Show or hide audio/video window #2</String>
+	<String ID="AnalysisDisplayMedia3Text">Media &amp;3</String>
+	<String ID="AnalysisDisplayMedia3Help">Show or hide audio/video window #3</String>
+	<String ID="AnalysisDisplayMedia4Text">Media &amp;4</String>
+	<String ID="AnalysisDisplayMedia4Help">Show or hide audio/video window #4</String>
 
 	<String ID="DebriefingMenuTooltip">디브리핑</String>
 	<String ID="DebriefingMenuHelp">디브리핑 도구</String>
@@ -152,6 +160,11 @@
 	<String ID="OptionsAssociateFileTypesHelp">윈도우 내에서 비행기록 파일을 더블 클릭하였을 때, 택뷰에서 해당 파일을 열어준다.</String>
 	<String ID="OptionsTrackIRCmdText">트랙IR</String>
 	<String ID="OptionsTrackIRCmdHelp">조종석 시점에서 트랙IR을 활성화 시켜준다.</String>
+
+	<String ID="DogfightModeCenteredText">Centered</String>
+	<String ID="DogfightModeCenteredHelp">Center the camera between selected objects</String>
+	<String ID="DogfightModeLookAtText">Look at Target</String>
+	<String ID="DogfightModeLookAtHelp">The camera will keep looking at the secondary object</String>
 
 	<String ID="InsertBookmarkText">&amp;북마크 삽입하기</String>
 	<String ID="InsertBookmarkHelp">북마크를 이벤트와 타임라인에 생성하거나 삽입하도록 해 준다.</String>
@@ -490,8 +503,17 @@
 	<String ID="NoNameValue">(none)</String>
 	<String ID="NoColorValue">(none)</String>
 	<String ID="NoCoalitionValue">(none)</String>
-	<String ID="BullseyeValue">(Bullseye)</String>
-	<String ID="FixedWingValue">(Fixed Wing Aircraft)</String>
+	<String ID="BullseyeType">(Bullseye)</String>
+	<String ID="FixedWingType">(Fixed Wing Aircraft)</String>
+	<String ID="RotorcraftType">(Rotorcraft)</String>
+	<String ID="MissileType">(Missile)</String>
+	<String ID="BombType">(Bomb)</String>
+	<String ID="AntiAircraftType">(Anti-Aircraft: AAA/SAM)</String>
+	<String ID="TankType">(Tank)</String>
+	<String ID="WarshipType">(Warship)</String>
+	<String ID="SubmarineType">(Submarine)</String>
+	<String ID="InfantryType">(Infantry)</String>
+	<String ID="BuildingType">(Building)</String>
 	<String ID="TimelessValue">(timeless object)</String>
 
 	<String ID="ButtonHelp">Press the control you want to use for this command.</String>
@@ -532,6 +554,12 @@
 	<String ID="AddOnTitleChart1">챠트 2</String>
 	<String ID="AddOnTitleChart2">챠트 3</String>
 	<String ID="AddOnTitleChart3">챠트 4</String>
+	<String ID="AddOnTitleMedia1">Media 1</String>
+	<String ID="AddOnTitleMedia2">Media 2</String>
+	<String ID="AddOnTitleMedia3">Media 3</String>
+	<String ID="AddOnTitleMedia4">Media 4</String>
+	<String ID="UnsupportedMediaNotification">Unsupported media file.</String>
+	<String ID="UnsupportedMediaLink">Try to install a codec pack.</String>
 
 	<String ID="AddOnTelemetryName">이름</String>
 	<String ID="AddOnTelemetryData">데이터</String>
@@ -662,6 +690,8 @@
 	<String ID="LowEndOpenGL">Please update your graphics card driver</String>
 	<String ID="AntiCheatCannotPlayback">Playback of this file has been delayed by {0} minutes by the host. There is not enough time recorded to playback any data.</String>
 	<String ID="AntiCheatIncompletePlayback">Playback of this file has been delayed by {0} minutes by the host. The last {1} minute(s) cannot be reviewed.</String>
+	<String ID="AuthenticationComplete">This file is authentic, it has not been altered since its recording.</String>
+	<String ID="AuthenticationIncomplete">This file is authentic, except for the last {0} seconds which cannot be validated.</String>
 
 	<!-- Message Boxes -->
 	<String ID="SaveFileRequestText">변경 내용을 '{0}' 에 저장하시겠습니까&#160;?</String>
@@ -847,6 +877,7 @@
 	<String ID="FileTypeDescriptionTacview7z">택뷰 텔레메트리 데이터를 7z 형태로 압축</String>
 	<String ID="FileTypeDescriptionZip">ZIP 아카이브로 압축 된 텔레메트리 데이터</String>
 	<String ID="FileTypeDescription7z">7z 아카이브로 압축 된 텔레메트리 데이터</String>
+	<String ID="FileTypeDescriptionMediaMany">Media Files</String>
 	<String ID="TypeColumn">타입</String>
 	<String ID="TimeColumn">시간</String>
 	<String ID="EventColumn">이벤트</String>

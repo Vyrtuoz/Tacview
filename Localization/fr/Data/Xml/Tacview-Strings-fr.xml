@@ -61,6 +61,14 @@
 	<String ID="AnalysisDisplayChart3Help">Afficher ou masquer la fenêtre du graphique nº3</String>
 	<String ID="AnalysisDisplayChart4Text">Graphique &amp;4</String>
 	<String ID="AnalysisDisplayChart4Help">Afficher ou masquer la fenêtre du graphique nº4</String>
+	<String ID="AnalysisDisplayMedia1Text">Média &amp;1</String>
+	<String ID="AnalysisDisplayMedia1Help">Afficher ou masquer la fenêtre audio/vidéo nº1</String>
+	<String ID="AnalysisDisplayMedia2Text">Média &amp;2</String>
+	<String ID="AnalysisDisplayMedia2Help">Afficher ou masquer la fenêtre audio/vidéo nº2</String>
+	<String ID="AnalysisDisplayMedia3Text">Média &amp;3</String>
+	<String ID="AnalysisDisplayMedia3Help">Afficher ou masquer la fenêtre audio/vidéo nº3</String>
+	<String ID="AnalysisDisplayMedia4Text">Média &amp;4</String>
+	<String ID="AnalysisDisplayMedia4Help">Afficher ou masquer la fenêtre audio/vidéo nº4</String>
 
 	<String ID="DebriefingMenuTooltip">Débriefing</String>
 	<String ID="DebriefingMenuHelp">Outils de débriefing</String>
@@ -151,6 +159,11 @@
 	<String ID="OptionsAssociateFileTypesHelp">Permet d'ouvrir les enregistrements de vol avec Tacview lorsque l'on clique dessus depuis Windows</String>
 	<String ID="OptionsTrackIRCmdText">TrackIR</String>
 	<String ID="OptionsTrackIRCmdHelp">Active le TrackIR en vue cockpit</String>
+
+	<String ID="DogfightModeCenteredText">Centrer</String>
+	<String ID="DogfightModeCenteredHelp">Centre la caméra entre les objets sélectionnés</String>
+	<String ID="DogfightModeLookAtText">Regarder cible</String>
+	<String ID="DogfightModeLookAtHelp">Pointer la caméra en direction de l’objet secondaire</String>
 
 	<String ID="InsertBookmarkText">&amp;Insérer signet</String>
 	<String ID="InsertBookmarkHelp">Crée et insère un signet dans la liste d'évènements et la barre de temps</String>
@@ -472,8 +485,17 @@
 	<String ID="NoNameValue">(aucun)</String>
 	<String ID="NoColorValue">(aucune)</String>
 	<String ID="NoCoalitionValue">(aucune)</String>
-	<String ID="BullseyeValue">(Bullseye)</String>
-	<String ID="FixedWingValue">(Aéroplane)</String>
+	<String ID="BullseyeType">(Bullseye)</String>
+	<String ID="FixedWingType">(Aéroplane)</String>
+	<String ID="RotorcraftType">(Voilure tournante)</String>
+	<String ID="MissileType">(Missile)</String>
+	<String ID="BombType">(Bombe)</String>
+	<String ID="AntiAircraftType">(Défense antiaérienne: AAA/SAM)</String>
+	<String ID="TankType">(Tank)</String>
+	<String ID="WarshipType">(Navire militaire)</String>
+	<String ID="SubmarineType">(Sous-marin)</String>
+	<String ID="InfantryType">(Infanterie)</String>
+	<String ID="BuildingType">(Batiment)</String>
 	<String ID="TimelessValue">(object intemporel)</String>
 
 	<String ID="ButtonHelp">Appuyez sur le contrôle que vous souhaitez utiliser pour cette commande.</String>
@@ -514,6 +536,12 @@
 	<String ID="AddOnTitleChart1">Graphique 2</String>
 	<String ID="AddOnTitleChart2">Graphique 3</String>
 	<String ID="AddOnTitleChart3">Graphique 4</String>
+	<String ID="AddOnTitleMedia1">Média 1</String>
+	<String ID="AddOnTitleMedia2">Média 2</String>
+	<String ID="AddOnTitleMedia3">Média 3</String>
+	<String ID="AddOnTitleMedia4">Média 4</String>
+	<String ID="UnsupportedMediaNotification">Fichier multimédia non supporté.</String>
+	<String ID="UnsupportedMediaLink">Essayez d’installer un pack de codecs.</String>
 
 	<String ID="AddOnTelemetryName">Name</String>
 	<String ID="AddOnTelemetryData">Donnée</String>
@@ -640,6 +668,8 @@
 	<String ID="LowEndOpenGL">Veuillez mettre à jour vos pilotes de carte graphique</String>
 	<String ID="AntiCheatCannotPlayback">L’analyse de ce fichier a été retardée de {0} minutes par l’hôte. Il n’y a pas suffisamment de temps enregistre pour revoir des données.</String>
 	<String ID="AntiCheatIncompletePlayback">L’analyse de ce fichier a été retardée de {0} minutes par l’hôte. Les dernières {1} minute(s) ne peuvent pas être revues.</String>
+	<String ID="AuthenticationComplete">Ce fichier est authentique, il n’a pas été modifié depuis son enregistrement.</String>
+	<String ID="AuthenticationIncomplete">Ce fichier est authentique, excepté les dernières {0} secondes qui ne peuvent être validées.</String>
 
 	<!-- Message Boxes -->
 	<String ID="SaveFileRequestText">Souhaitez-vous enregistrer les modifications apportées à '{0}'&#160;?</String>
@@ -780,6 +810,7 @@
 	<String ID="FileTypeDescriptionTacview7z">Données de télémétrie de Tacview compressées en 7z</String>
 	<String ID="FileTypeDescriptionZip">Données télémétrie dans une archive ZIP</String>
 	<String ID="FileTypeDescription7z">Données télémétrie dans une archive 7z</String>
+	<String ID="FileTypeDescriptionMediaMany">Fichiers multimédia</String>
 	<String ID="TypeColumn">Type</String>
 	<String ID="TimeColumn">Heure</String>
 	<String ID="EventColumn">Evénement</String>

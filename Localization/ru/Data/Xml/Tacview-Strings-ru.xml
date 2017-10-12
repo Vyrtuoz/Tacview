@@ -62,6 +62,14 @@
 	<String ID="AnalysisDisplayChart3Help">Показать / скрыть окно с графиком #3</String>
 	<String ID="AnalysisDisplayChart4Text">Графики &amp;4</String>
 	<String ID="AnalysisDisplayChart4Help">Показать / скрыть окно с графиком #4</String>
+	<String ID="AnalysisDisplayMedia1Text">Media &amp;1</String>
+	<String ID="AnalysisDisplayMedia1Help">Show or hide audio/video window #1</String>
+	<String ID="AnalysisDisplayMedia2Text">Media &amp;2</String>
+	<String ID="AnalysisDisplayMedia2Help">Show or hide audio/video window #2</String>
+	<String ID="AnalysisDisplayMedia3Text">Media &amp;3</String>
+	<String ID="AnalysisDisplayMedia3Help">Show or hide audio/video window #3</String>
+	<String ID="AnalysisDisplayMedia4Text">Media &amp;4</String>
+	<String ID="AnalysisDisplayMedia4Help">Show or hide audio/video window #4</String>
 
 	<String ID="DebriefingMenuTooltip">Разбор полётов</String>
 	<String ID="DebriefingMenuHelp">Инструменты</String>
@@ -152,6 +160,11 @@
 	<String ID="OptionsAssociateFileTypesHelp">Позволяет открывать .acmi файлы в программе Tacview по двойному щелчку мыши (Windows OS)</String>
 	<String ID="OptionsTrackIRCmdText">TrackIR</String>
 	<String ID="OptionsTrackIRCmdHelp">Включить поддержку TrackIR для вида из кабины</String>
+
+	<String ID="DogfightModeCenteredText">Centered</String>
+	<String ID="DogfightModeCenteredHelp">Center the camera between selected objects</String>
+	<String ID="DogfightModeLookAtText">Look at Target</String>
+	<String ID="DogfightModeLookAtHelp">The camera will keep looking at the secondary object</String>
 
 	<String ID="InsertBookmarkText">&amp;Добавить метку</String>
 	<String ID="InsertBookmarkHelp">Создать и добавить метку в события на шкале времени</String>
@@ -473,8 +486,17 @@
 	<String ID="NoNameValue">(пусто)</String>
 	<String ID="NoColorValue">(пусто)</String>
 	<String ID="NoCoalitionValue">(пусто)</String>
-	<String ID="BullseyeValue">(условный ориентир)</String>
-	<String ID="FixedWingValue">(ЛА с фиксированным крылом)</String>
+	<String ID="BullseyeType">(условный ориентир)</String>
+	<String ID="FixedWingType">(ЛА с фиксированным крылом)</String>
+	<String ID="RotorcraftType">(Rotorcraft)</String>
+	<String ID="MissileType">(Missile)</String>
+	<String ID="BombType">(Bomb)</String>
+	<String ID="AntiAircraftType">(Anti-Aircraft: AAA/SAM)</String>
+	<String ID="TankType">(Tank)</String>
+	<String ID="WarshipType">(Warship)</String>
+	<String ID="SubmarineType">(Submarine)</String>
+	<String ID="InfantryType">(Infantry)</String>
+	<String ID="BuildingType">(Building)</String>
 	<String ID="TimelessValue">(безвременной объект)</String>
 
 	<String ID="ButtonHelp">Нажмите на кнопку, которую хотите назначить команде.</String>
@@ -515,6 +537,12 @@
 	<String ID="AddOnTitleChart1">Графики 2</String>
 	<String ID="AddOnTitleChart2">Графики 3</String>
 	<String ID="AddOnTitleChart3">Графики 4</String>
+	<String ID="AddOnTitleMedia1">Media 1</String>
+	<String ID="AddOnTitleMedia2">Media 2</String>
+	<String ID="AddOnTitleMedia3">Media 3</String>
+	<String ID="AddOnTitleMedia4">Media 4</String>
+	<String ID="UnsupportedMediaNotification">Unsupported media file.</String>
+	<String ID="UnsupportedMediaLink">Try to install a codec pack.</String>
 
 	<String ID="AddOnTelemetryName">Название</String>
 	<String ID="AddOnTelemetryData">Данные</String>
@@ -641,6 +669,8 @@
 	<String ID="LowEndOpenGL">Пожалуйста, обновите драйвера своей видеокарты.</String>
 	<String ID="AntiCheatCannotPlayback">Воспроизведение файла было отложено на {0} минут хостом. Длительность записи слишком коротка, чтобы ее проиграть.</String>
 	<String ID="AntiCheatIncompletePlayback">Воспроизведение файла было отложено на {0} минут хостом. Крайнее время - {1} минут(ы) не может быть проанализировано.</String>
+	<String ID="AuthenticationComplete">This file is authentic, it has not been altered since its recording.</String>
+	<String ID="AuthenticationIncomplete">This file is authentic, except for the last {0} seconds which cannot be validated.</String>
 
 	<!-- Message Boxes -->
 	<String ID="SaveFileRequestText">Сохранить изменения для '{0}'&#160;?</String>
@@ -781,6 +811,7 @@
 	<String ID="FileTypeDescriptionTacview7z"> Телеметрия Tacview (7z архив)</String>
 	<String ID="FileTypeDescriptionZip">Данные телеметрии в ZIP архиве</String>
 	<String ID="FileTypeDescription7z">Данные телеметрии в 7z архиве</String>
+	<String ID="FileTypeDescriptionMediaMany">Media Files</String>
 	<String ID="TypeColumn">Тип</String>
 	<String ID="TimeColumn">Время</String>
 	<String ID="EventColumn">Событие</String>

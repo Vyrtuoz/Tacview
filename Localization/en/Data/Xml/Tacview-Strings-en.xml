@@ -61,6 +61,14 @@
 	<String ID="AnalysisDisplayChart3Help">Show or hide chart window #3</String>
 	<String ID="AnalysisDisplayChart4Text">Chart &amp;4</String>
 	<String ID="AnalysisDisplayChart4Help">Show or hide chart window #4</String>
+	<String ID="AnalysisDisplayMedia1Text">Media &amp;1</String>
+	<String ID="AnalysisDisplayMedia1Help">Show or hide audio/video window #1</String>
+	<String ID="AnalysisDisplayMedia2Text">Media &amp;2</String>
+	<String ID="AnalysisDisplayMedia2Help">Show or hide audio/video window #2</String>
+	<String ID="AnalysisDisplayMedia3Text">Media &amp;3</String>
+	<String ID="AnalysisDisplayMedia3Help">Show or hide audio/video window #3</String>
+	<String ID="AnalysisDisplayMedia4Text">Media &amp;4</String>
+	<String ID="AnalysisDisplayMedia4Help">Show or hide audio/video window #4</String>
 
 	<String ID="DebriefingMenuTooltip">Debriefing</String>
 	<String ID="DebriefingMenuHelp">Debriefing tools</String>
@@ -151,6 +159,11 @@
 	<String ID="OptionsAssociateFileTypesHelp">Enable you to open flight recordings with Tacview when you double-click them in Windows</String>
 	<String ID="OptionsTrackIRCmdText">TrackIR</String>
 	<String ID="OptionsTrackIRCmdHelp">Enable TrackIR in cockpit view</String>
+
+	<String ID="DogfightModeCenteredText">Centered</String>
+	<String ID="DogfightModeCenteredHelp">Center the camera between selected objects</String>
+	<String ID="DogfightModeLookAtText">Look at Target</String>
+	<String ID="DogfightModeLookAtHelp">The camera will keep looking at the secondary object</String>
 
 	<String ID="InsertBookmarkText">&amp;Insert Bookmark</String>
 	<String ID="InsertBookmarkHelp">Create and insert a bookmark in the events and timeline</String>
@@ -472,8 +485,17 @@
 	<String ID="NoNameValue">(none)</String>
 	<String ID="NoColorValue">(none)</String>
 	<String ID="NoCoalitionValue">(none)</String>
-	<String ID="BullseyeValue">(Bullseye)</String>
-	<String ID="FixedWingValue">(Fixed Wing Aircraft)</String>
+	<String ID="BullseyeType">(Bullseye)</String>
+	<String ID="FixedWingType">(Fixed Wing Aircraft)</String>
+	<String ID="RotorcraftType">(Rotorcraft)</String>
+	<String ID="MissileType">(Missile)</String>
+	<String ID="BombType">(Bomb)</String>
+	<String ID="AntiAircraftType">(Anti-Aircraft: AAA/SAM)</String>
+	<String ID="TankType">(Tank)</String>
+	<String ID="WarshipType">(Warship)</String>
+	<String ID="SubmarineType">(Submarine)</String>
+	<String ID="InfantryType">(Infantry)</String>
+	<String ID="BuildingType">(Building)</String>
 	<String ID="TimelessValue">(timeless object)</String>
 
 	<String ID="ButtonHelp">Press the control you want to use for this command.</String>
@@ -514,6 +536,12 @@
 	<String ID="AddOnTitleChart1">Chart 2</String>
 	<String ID="AddOnTitleChart2">Chart 3</String>
 	<String ID="AddOnTitleChart3">Chart 4</String>
+	<String ID="AddOnTitleMedia1">Media 1</String>
+	<String ID="AddOnTitleMedia2">Media 2</String>
+	<String ID="AddOnTitleMedia3">Media 3</String>
+	<String ID="AddOnTitleMedia4">Media 4</String>
+	<String ID="UnsupportedMediaNotification">Unsupported media file.</String>
+	<String ID="UnsupportedMediaLink">Try to install a codec pack.</String>
 
 	<String ID="AddOnTelemetryName">Name</String>
 	<String ID="AddOnTelemetryData">Data</String>
@@ -640,6 +668,8 @@
 	<String ID="LowEndOpenGL">Please update your graphics card driver</String>
 	<String ID="AntiCheatCannotPlayback">Playback of this file has been delayed by {0} minutes by the host. There is not enough time recorded to playback any data.</String>
 	<String ID="AntiCheatIncompletePlayback">Playback of this file has been delayed by {0} minutes by the host. The last {1} minute(s) cannot be reviewed.</String>
+	<String ID="AuthenticationComplete">This file is authentic, it has not been altered since its recording.</String>
+	<String ID="AuthenticationIncomplete">This file is authentic, except for the last {0} seconds which cannot be validated.</String>
 
 	<!-- Message Boxes -->
 	<String ID="SaveFileRequestText">Do you want to save changes to '{0}'&#160;?</String>
@@ -780,6 +810,7 @@
 	<String ID="FileTypeDescriptionTacview7z">7z compressed Tacview telemetry Data</String>
 	<String ID="FileTypeDescriptionZip">Telemetry Data in a ZIP archive</String>
 	<String ID="FileTypeDescription7z">Telemetry Data in a 7z archive</String>
+	<String ID="FileTypeDescriptionMediaMany">Media Files</String>
 	<String ID="TypeColumn">Type</String>
 	<String ID="TimeColumn">Time</String>
 	<String ID="EventColumn">Event</String>
