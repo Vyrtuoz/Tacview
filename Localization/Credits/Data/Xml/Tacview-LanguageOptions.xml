@@ -21,6 +21,6 @@
 	<String ID="OptionsLanguageRussianText">&amp;Русский (Russian)</String>
 	<String ID="OptionsLanguageRussianHelp">Переключиться на Русский (переведено Scorzy &lt;vommieer.translations@gmail.com&gt;)</String>
 	<String ID="OptionsLanguageSpanishText">&amp;Español (Spanish)</String>
-	<String ID="OptionsLanguageSpanishHelp">Switch to Spanish (Tacview must be restarted for the language change to fully take effect) (Translation by Revientor &lt;revientor111@gmail.com&gt;)</String>
+	<String ID="OptionsLanguageSpanishHelp">Cambiar a Español (Se debe reiniciar Tacview para que el cambio de idioma tenga efecto) (Traducido por Revientor &lt;revientor111@gmail.com&gt;)</String>
 
 </Resources>
