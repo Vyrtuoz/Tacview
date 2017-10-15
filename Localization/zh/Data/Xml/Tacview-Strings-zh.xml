@@ -62,14 +62,14 @@
 	<String ID="AnalysisDisplayChart3Help">显示或隐藏图表窗口#3</String>
 	<String ID="AnalysisDisplayChart4Text">图表&amp;4</String>
 	<String ID="AnalysisDisplayChart4Help">显示或隐藏图表窗口#4</String>
-	<String ID="AnalysisDisplayMedia1Text">Media &amp;1</String>
-	<String ID="AnalysisDisplayMedia1Help">Show or hide audio/video window #1</String>
-	<String ID="AnalysisDisplayMedia2Text">Media &amp;2</String>
-	<String ID="AnalysisDisplayMedia2Help">Show or hide audio/video window #2</String>
-	<String ID="AnalysisDisplayMedia3Text">Media &amp;3</String>
-	<String ID="AnalysisDisplayMedia3Help">Show or hide audio/video window #3</String>
-	<String ID="AnalysisDisplayMedia4Text">Media &amp;4</String>
-	<String ID="AnalysisDisplayMedia4Help">Show or hide audio/video window #4</String>
+	<String ID="AnalysisDisplayMedia1Text">媒体 &amp;1</String>
+	<String ID="AnalysisDisplayMedia1Help">显示或隐藏音频/视频窗口 #1</String>
+	<String ID="AnalysisDisplayMedia2Text">媒体 &amp;2</String>
+	<String ID="AnalysisDisplayMedia2Help">显示或隐藏音频/视频窗口 #2</String>
+	<String ID="AnalysisDisplayMedia3Text">媒体 &amp;3</String>
+	<String ID="AnalysisDisplayMedia3Help">显示或隐藏音频/视频窗口 #3</String>
+	<String ID="AnalysisDisplayMedia4Text">媒体 &amp;4</String>
+	<String ID="AnalysisDisplayMedia4Help">显示或隐藏音频/视频窗口 #4</String>
 
 	<String ID="DebriefingMenuTooltip">任务报告</String>
 	<String ID="DebriefingMenuHelp">任务报告工具</String>
@@ -161,10 +161,10 @@
 	<String ID="OptionsTrackIRCmdText">TrackIR</String>
 	<String ID="OptionsTrackIRCmdHelp">在驾驶舱视野里启用TrackIR</String>
 
-	<String ID="DogfightModeCenteredText">Centered</String>
-	<String ID="DogfightModeCenteredHelp">Center the camera between selected objects</String>
-	<String ID="DogfightModeLookAtText">Look at Target</String>
-	<String ID="DogfightModeLookAtHelp">The camera will keep looking at the secondary object</String>
+	<String ID="DogfightModeCenteredText">居中</String>
+	<String ID="DogfightModeCenteredHelp">把摄像机剧中到已选物体中间</String>
+	<String ID="DogfightModeLookAtText">注视目标</String>
+	<String ID="DogfightModeLookAtHelp">摄像机会保持注视次要目标</String>
 
 	<String ID="InsertBookmarkText">&amp;插入书签</String>
 	<String ID="InsertBookmarkHelp">在事件和时间线里创建并插入书签</String>
@@ -506,15 +506,15 @@
 	<String ID="NoCoalitionValue">(无)</String>
 	<String ID="BullseyeType">(靶眼)</String>
 	<String ID="FixedWingType">(固定翼航空器)</String>
-	<String ID="RotorcraftType">(Rotorcraft)</String>
-	<String ID="MissileType">(Missile)</String>
-	<String ID="BombType">(Bomb)</String>
-	<String ID="AntiAircraftType">(Anti-Aircraft: AAA/SAM)</String>
-	<String ID="TankType">(Tank)</String>
-	<String ID="WarshipType">(Warship)</String>
-	<String ID="SubmarineType">(Submarine)</String>
-	<String ID="InfantryType">(Infantry)</String>
-	<String ID="BuildingType">(Building)</String>
+	<String ID="RotorcraftType">(旋翼机)</String>
+	<String ID="MissileType">(导弹)</String>
+	<String ID="BombType">(炸弹)</String>
+	<String ID="AntiAircraftType">(防空: AAA/SAM)</String>
+	<String ID="TankType">(坦克)</String>
+	<String ID="WarshipType">(军舰)</String>
+	<String ID="SubmarineType">(潜艇)</String>
+	<String ID="InfantryType">(步兵)</String>
+	<String ID="BuildingType">(建筑)</String>
 	<String ID="TimelessValue">(永久物体)</String>
 
 	<String ID="ButtonHelp">按下想用的控制设备来使用此命令。</String>
@@ -555,12 +555,12 @@
 	<String ID="AddOnTitleChart1">图表2</String>
 	<String ID="AddOnTitleChart2">图表3</String>
 	<String ID="AddOnTitleChart3">图表4</String>
-	<String ID="AddOnTitleMedia1">Media 1</String>
-	<String ID="AddOnTitleMedia2">Media 2</String>
-	<String ID="AddOnTitleMedia3">Media 3</String>
-	<String ID="AddOnTitleMedia4">Media 4</String>
-	<String ID="UnsupportedMediaNotification">Unsupported media file.</String>
-	<String ID="UnsupportedMediaLink">Try to install a codec pack.</String>
+	<String ID="AddOnTitleMedia1">媒体 1</String>
+	<String ID="AddOnTitleMedia2">媒体 2</String>
+	<String ID="AddOnTitleMedia3">媒体 3</String>
+	<String ID="AddOnTitleMedia4">媒体 4</String>
+	<String ID="UnsupportedMediaNotification">不支持的媒体文件。</String>
+	<String ID="UnsupportedMediaLink">尝试安装解码包。</String>
 
 	<String ID="AddOnTelemetryName">名称</String>
 	<String ID="AddOnTelemetryData">数据</String>
@@ -880,7 +880,7 @@
 	<String ID="FileTypeDescriptionTacview7z">7z压缩Tacview遥测数据</String>
 	<String ID="FileTypeDescriptionZip">遥测数据ZIP存档</String>
 	<String ID="FileTypeDescription7z">遥测数据7z存档</String>
-	<String ID="FileTypeDescriptionMediaMany">Media Files</String>
+	<String ID="FileTypeDescriptionMediaMany">媒体文件</String>
 	<String ID="TypeColumn">类型</String>
 	<String ID="TimeColumn">时间</String>
 	<String ID="EventColumn">事件</String>
