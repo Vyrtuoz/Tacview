@@ -298,6 +298,8 @@
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
 	<String ID="RegistrationHelp">Muestra el numero de registro</String>
 	<String ID="RegistrationText">Registro del avion (numero de cola)</String>
+	<String ID="SquawkHelp">Transponder code</String>
+	<String ID="SquawkText">Squawk</String>
 	<String ID="BullseyeHelp">Posicion relativa al objeto principal con respecto al bullseye</String>
 	<String ID="BullseyeText">Bullseye</String>
 
@@ -451,7 +453,7 @@
 	<String ID="RemoteControlToggleFocus">Alternar Enfoque</String>
 	<String ID="RemoteControlExclusiveFocus">Enfoque Exclusivo</String>
 
-	<String ID="RealTimeTelemetryTitle">Telemetría en tiempo real </String>
+	<String ID="RealTimeTelemetryTitle">Telemetría en tiempo real</String>
 	<String ID="RealTimeTelemetryIntro">¡Establece una conexion con el grabador para visualizar la telemetria en tiempo real!</String>
 	<String ID="RealTimeTelemetryUsername">Elige un nombre :</String>
 	<String ID="RealTimeTelemetryAddress">Direccion del grabador :</String>

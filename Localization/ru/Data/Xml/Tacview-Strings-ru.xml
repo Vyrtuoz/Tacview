@@ -298,6 +298,8 @@
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
 	<String ID="RegistrationHelp">Хвостовой номер</String>
 	<String ID="RegistrationText">Регистрационный номер</String>
+	<String ID="SquawkHelp">Transponder code</String>
+	<String ID="SquawkText">Squawk</String>
 	<String ID="BullseyeHelp">Положение относительно основного условного ориентира коалиции</String>
 	<String ID="BullseyeText">Условный ориентир</String>
 

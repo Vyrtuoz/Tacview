@@ -298,6 +298,8 @@
 	<String ID="ATCText">נתוני בקרה אווירית - ASL,VS,GS</String>
 	<String ID="RegistrationHelp">Aircraft registration (tail number)</String>
 	<String ID="RegistrationText">Registration number</String>
+	<String ID="SquawkHelp">Transponder code</String>
+	<String ID="SquawkText">Squawk</String>
 	<String ID="BullseyeHelp">מיקום ביחס לאובייקט ה-Bullseye של המבנה</String>
 	<String ID="BullseyeText">Bullseye</String>
 
@@ -862,7 +864,7 @@
 	<String ID="StatusPause">PAUSE</String>
 
 	<!-- Error Messages -->
-	<String ID="ErrorUnknown">0x{0,08:X} תקלה לא ידועה - </String>
+	<String ID="ErrorUnknown">0x{0,08:X} תקלה לא ידועה -</String>
 
 	<String ID="LoadingErrorObjectNotFound">קובץ '{1}' אינו זמין. אנא וודא קיום הקובץ ותקינותו.</String>
 	<String ID="LoadingErrorInvalidName">השם '{1} אינו תקין. אנא בחר שם קובץ תקין.</String>
@@ -881,7 +883,7 @@
 	<String ID="SavingErrorInvalidName">שם הקובץ שגוי. אנא וודא תקינות שם הקובץ.</String>
 	<String ID="SavingErrorInvalidPath">נתיב הקובץ שגוי. אנא וודא תקינות התיקייה.</String>
 	<String ID="SavingErrorOutOfMemory">חסר זיכרון מערכת. אנא וודא תקינות התיקייהץ.</String>
-	<String ID="SavingErrorOutOfSpace">הכונן הקשיח מלא. אנא פנה משטח דיסק ונסה בשנית. </String>
+	<String ID="SavingErrorOutOfSpace">הכונן הקשיח מלא. אנא פנה משטח דיסק ונסה בשנית.</String>
 	<String ID="SavingErrorSharingViolation">התנגשות בפתיחת הקובץ. אנא וודא שהקובץ לא פתוח בתוכנה אחרת.</String>
 
 	<!-- Misc Help Strings -->

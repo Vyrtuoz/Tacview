@@ -298,6 +298,8 @@
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
 	<String ID="RegistrationHelp">기체 등록번호 (꼬리 번호)</String>
 	<String ID="RegistrationText">등록 번호</String>
+	<String ID="SquawkHelp">Transponder code</String>
+	<String ID="SquawkText">Squawk</String>
 	<String ID="BullseyeHelp">메인 오브젝트 진영 불스아이 대비 위치</String>
 	<String ID="BullseyeText">불스아이</String>
 
@@ -911,7 +913,7 @@
 	<String ID="EventHasLeftTheArea">{0} (이)가 지역을 벗어났습니다.</String>
 	<String ID="EventHasLeftTheAreaCloseTo">{0} (이)가 지역을 벗어났습니다. ({1} 근처임)</String>
 	<String ID="EventHasLeftTheAreaFrom">{0} (이)가 지역을 벗어났습니다. ({1}에서 부터)</String>
-	<String ID="EventHasTakeOff">{0} (이)가 이륙하였습니다. </String>
+	<String ID="EventHasTakeOff">{0} (이)가 이륙하였습니다.</String>
 	<String ID="EventHasTakeOffCloseTo">{0} (이)가 {1} 근처에서 이륙하였습니다.</String>
 	<String ID="EventHasTakeOffFrom">{0} (이)가 {1} 에서 이륙하였습니다.</String>
 	<String ID="EventHasFiredSingle">{0} (이)가 {1}(을)를 발사하였습니다.</String>

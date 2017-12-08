@@ -297,6 +297,8 @@
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
 	<String ID="RegistrationHelp">Aircraft registration (tail number)</String>
 	<String ID="RegistrationText">Registration number</String>
+	<String ID="SquawkHelp">Transponder code</String>
+	<String ID="SquawkText">Squawk</String>
 	<String ID="BullseyeHelp">Position relative to the main object coalition bullseye</String>
 	<String ID="BullseyeText">Bullseye</String>
 

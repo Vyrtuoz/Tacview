@@ -296,7 +296,9 @@
 	<String ID="ATCHelp">Etiquette style trafic aérien: altitude/100, vitesse verticale et vitesse sol/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
 	<String ID="RegistrationHelp">Immatriculation de l'avion</String>
-	<String ID="RegistrationText">Immatriculation </String>
+	<String ID="RegistrationText">Immatriculation</String>
+	<String ID="SquawkHelp">Code transpondeur</String>
+	<String ID="SquawkText">Squawk</String>
 	<String ID="BullseyeHelp">Position relative to the main object coalition bullseye</String>
 	<String ID="BullseyeText">Bullseye</String>
 
@@ -554,7 +556,7 @@
 	<String ID="AddOnTelemetryGroupMetadata">Métadonnées</String>
 	<String ID="AddOnTelemetryGroupTransform">Transformation</String>
 	<String ID="AddOnTelemetryGroupTextProperties">Propriétés Texte</String>
-	<String ID="AddOnTelemetryGroupNumericProperties">Propriétés Numérique </String>
+	<String ID="AddOnTelemetryGroupNumericProperties">Propriétés Numérique</String>
 
 	<String ID="AddOnTitleDocumentProperties">Propriétés</String>
 	<String ID="TitleProperty">Titre</String>

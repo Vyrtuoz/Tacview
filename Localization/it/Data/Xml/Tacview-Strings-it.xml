@@ -247,7 +247,7 @@
 
 	<!-- Charts -->
 	<String ID="ChartDisplayObjet0Tooltip">Visualizza oggetto principale</String>
-	<String ID="ChartDisplayObjet0Help">Visualizza i dati dell'oggetto principale </String>
+	<String ID="ChartDisplayObjet0Help">Visualizza i dati dell'oggetto principale</String>
 	<String ID="ChartDisplayObjet1Tooltip">Visualizza Oggetto Secondario</String>
 	<String ID="ChartDisplayObjet1Help">Visualizza i dati dell' Oggetto Secondario</String>
 	<String ID="ChartDisplayObjet2Tooltip">Visualizza il Terzo Oggetto</String>
@@ -298,6 +298,8 @@
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
 	<String ID="RegistrationHelp">Aircraft registration (tail number)</String>
 	<String ID="RegistrationText">Registration number</String>
+	<String ID="SquawkHelp">Transponder code</String>
+	<String ID="SquawkText">Squawk</String>
 	<String ID="BullseyeHelp">Position relative to the main object coalition bullseye</String>
 	<String ID="BullseyeText">Bullseye</String>
 
