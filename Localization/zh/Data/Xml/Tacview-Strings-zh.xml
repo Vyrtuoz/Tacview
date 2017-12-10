@@ -298,8 +298,8 @@
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
 	<String ID="RegistrationHelp">航空器注册编号（机尾编号）</String>
 	<String ID="RegistrationText">注册编号</String>
-	<String ID="SquawkHelp">Transponder code</String>
-	<String ID="SquawkText">Squawk</String>
+	<String ID="SquawkHelp">应答器编码</String>
+	<String ID="SquawkText">应答机</String>
 	<String ID="BullseyeHelp">相对于主对象阵营标靶的位置</String>
 	<String ID="BullseyeText">标靶</String>
 
