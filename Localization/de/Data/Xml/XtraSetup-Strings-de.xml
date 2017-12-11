@@ -12,7 +12,7 @@
 	<!-- Main Page -->
 	<String ID="WelcomePageTitle">Willkommen</String>
 	<String ID="WelcomeTitle">Willkommen zum {0} Installationsprogramm</String>
-	<String ID="WelcomeInstructions">Mit dem Installieren dieses Programmes stimmen Sie zu,&#10;dass Sie die Lizensbestimmung gelesen und akzeptiert haben.</String>
+	<String ID="WelcomeInstructions">Mit dem Installieren dieses Programmes stimmen Sie zu,&#10;dass Sie die Lizenzbestimmung gelesen und akzeptiert haben.</String>
 <!--
 	<String ID="WelcomeInstructions">Um die Installation zu beginnen, klicke Installieren.&#10;Um die Installation zu personalisieren, klicke den Optionen Tab.</String>
 -->
@@ -20,7 +20,7 @@
 	<String ID="OpenBetaWarningURL">WARNUNG: Um diese Version zu nutzen, benötigen Sie einen Produktschlüssel</String>
 	<String ID="ClosedBetaWarning">WARNUNG: Dies ist ein interner Beta Test. Verbreiten Sie diese Version nicht!</String>
 
-	<String ID="LicensePageTitle">Lizens</String>
+	<String ID="LicensePageTitle">Lizenz</String>
 
 	<String ID="OptionsPageTitle">Optionen</String>
 	<String ID="InstallFolders">Ordner</String>
