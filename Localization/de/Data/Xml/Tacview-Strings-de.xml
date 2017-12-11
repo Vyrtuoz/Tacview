@@ -12,7 +12,7 @@
 	<String ID="FileOpenCmdHelp">Öffnen einer existierenden Flugaufzeichnung</String>
 	<String ID="FileOpenContainingFolderCmdText">Öffne beinhaltenden &amp;Ordner</String>
 	<String ID="FileOpenContainingFolderCmdHelp">Öffne aktuellen Flugdaten-Ordner im Datei-Explorer</String>
-	<String ID="FileMergeCmdText">&amp;Verbinde...</String>
+	<String ID="FileMergeCmdText">&amp;Zusammenführen...</String>
 	<String ID="FileMergeCmdHelp">Füge eine bestehende Flugaufzeichnung mit allen aktuell geladenen Daten zusammen</String>
 	<String ID="FileSaveCmdText">&amp;Speichern&#9;Ctrl+S</String>
 	<String ID="FileSaveCmdHelp">Speichern der Flugaufzeichnung</String>
@@ -20,17 +20,17 @@
 	<String ID="FileSaveAsCmdHelp">Speichern dieser Flugaufzeichnung unter einem anderen Namen</String>
 	<String ID="FileExportText">Exportieren</String>
 	<String ID="FileExportFlightLogText">Exportiere Flight &amp;Log...</String>
-	<String ID="FileExportFlightLogHelp">Exportiere flight log als eine XML oder CSV Datei</String>
+	<String ID="FileExportFlightLogHelp">Exportiere Flight Log als eine XML oder CSV Datei</String>
 
 	<String ID="RecordingMenuTooltip">Aufzeichnen</String>
 	<String ID="RecordingMenuHelp">Einstellen der Flugdatenaufzeichnungseinstellungen</String>
-	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Real-Time Telemetry...</String>
-	<String ID="RecordingRealTimeTelemetryCmdHelp">Record a flight currently in progress</String>
-	<String ID="RecordingRemoteControl0Text">Remote Control 1</String>
-	<String ID="RecordingRemoteControl1Text">Remote Control 2</String>
-	<String ID="RecordingRemoteControl2Text">Remote Control 3</String>
-	<String ID="RecordingRemoteControl3Text">Remote Control 4</String>
-	<String ID="RecordingRemoteControlHelp">Use the remote-control window to remotely control your favorite flight simulator</String>
+	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Echtzeit-Telemetrie...</String>
+	<String ID="RecordingRealTimeTelemetryCmdHelp">Aufnahme eines gerade stattfindenden Fluges</String>
+	<String ID="RecordingRemoteControl0Text">Fernsteuerung 1</String>
+	<String ID="RecordingRemoteControl1Text">Fernsteuerung 2</String>
+	<String ID="RecordingRemoteControl2Text">Fernsteuerung 3</String>
+	<String ID="RecordingRemoteControl3Text">Fernsteuerung 4</String>
+	<String ID="RecordingRemoteControlHelp">Benutze das Fernsteuerungsfenster um deinen lieblings Flugsimulator fern zu steuern</String>
 	<String ID="RecordingRecordDCSWorldCmdText">DCS &amp;World Flüge aufzeichnen</String>
 	<String ID="RecordingRecordDCSWorldCmdHelp">Aufzeichnung aller 'DCS World' Flüge</String>
 	<String ID="RecordingExportPathCmdText">ACMI Datei &amp;Aufzeichnungs-Ordner...</String>
@@ -62,14 +62,14 @@
 	<String ID="AnalysisDisplayChart3Help">Anzeigen oder verbergen des Diagrammfensters #3</String>
 	<String ID="AnalysisDisplayChart4Text">Diagramm &amp;4</String>
 	<String ID="AnalysisDisplayChart4Help">Anzeigen oder verbergen des Diagrammfensters #4</String>
-	<String ID="AnalysisDisplayMedia1Text">Media &amp;1</String>
-	<String ID="AnalysisDisplayMedia1Help">Show or hide audio/video window #1</String>
-	<String ID="AnalysisDisplayMedia2Text">Media &amp;2</String>
-	<String ID="AnalysisDisplayMedia2Help">Show or hide audio/video window #2</String>
-	<String ID="AnalysisDisplayMedia3Text">Media &amp;3</String>
-	<String ID="AnalysisDisplayMedia3Help">Show or hide audio/video window #3</String>
-	<String ID="AnalysisDisplayMedia4Text">Media &amp;4</String>
-	<String ID="AnalysisDisplayMedia4Help">Show or hide audio/video window #4</String>
+	<String ID="AnalysisDisplayMedia1Text">Medium &amp;1</String>
+	<String ID="AnalysisDisplayMedia1Help">Zeige oder verberge das Audio/Video-Fenster #1</String>
+	<String ID="AnalysisDisplayMedia2Text">Medium &amp;2</String>
+	<String ID="AnalysisDisplayMedia2Help">Zeige oder verberge das Audio/Video-Fenster #2</String>
+	<String ID="AnalysisDisplayMedia3Text">MEdium &amp;3</String>
+	<String ID="AnalysisDisplayMedia3Help">Zeige oder verberge das Audio/Video-Fenster #3</String>
+	<String ID="AnalysisDisplayMedia4Text">Medium &amp;4</String>
+	<String ID="AnalysisDisplayMedia4Help">Zeige oder verberge das Audio/Video-Fenster #4</String>
 
 	<String ID="DebriefingMenuTooltip">Nachbesprechung</String>
 	<String ID="DebriefingMenuHelp">Nachbesprechung Tools</String>
@@ -82,16 +82,16 @@
 	<String ID="OptionsDisplayCommentsHelp">Flugkommentare als Untertitel in der 3D-Ansicht anzeigen</String>
 
 	<String ID="OptionsTerrainDisplayModeText">Geländeanzeigemodus</String>
-	<String ID="OptionsTerrainDisplayModeFull3DText">3D &amp;&amp; &amp;Underwater</String>
-	<String ID="OptionsTerrainDisplayModeFull3DHelp">Display full 3D terrain including underwater</String>
+	<String ID="OptionsTerrainDisplayModeFull3DText">3D &amp;&amp; &amp;Unterwasser</String>
+	<String ID="OptionsTerrainDisplayModeFull3DHelp">Zeige volles 3D-Gelände, Unterwasser inklusive, an</String>
 	<String ID="OptionsTerrainDisplayMode3DText">&amp;3D</String>
 	<String ID="OptionsTerrainDisplayMode3DHelp">Volles 3D Gelände</String>
 	<String ID="OptionsTerrainDisplayModeFlatText">&amp;Flach</String>
 	<String ID="OptionsTerrainDisplayModeFlatHelp">Gelände flach darstellen(erhöht die Lesbarkeit)</String>
 	<String ID="OptionsTerrainDisplayModeEmptyText">&amp;Leer</String>
 	<String ID="OptionsTerrainDisplayModeEmptyHelp">Anzeigen eines leeren Geländes um Lesbarkeit weiter zu erhöhen</String>
-	<String ID="OptionsTerrainDisplayModeHighContrastText">High-Contrast</String>
-	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Display the terrain with a high contrast color scheme</String>
+	<String ID="OptionsTerrainDisplayModeHighContrastText">Hoher Kontrast</String>
+	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Zeige das Gelände mit einem hohen Kontrastfarbschema an</String>
 
 	<String ID="OptionsTerrainText">Gelände</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Auto)</String>
@@ -106,7 +106,7 @@
 	<String ID="OptionsTerrainTextFalcon4">Falcon 4.0</String>
 	<String ID="OptionsTerrainHelpFalcon4">Benutze Gelände von Falcon 4.0</String>
 	<String ID="OptionsTerrainTextIL2">IL-2 Sturmovik</String>
-	<String ID="OptionsTerrainHelpIL2">Displays terrain from IL-2 Sturmovik</String>
+	<String ID="OptionsTerrainHelpIL2">Zeigt das Gelände von IL-2 Sturmovik an</String>
 
 	<String ID="OptionsLanguageText">Sprache</String>
 	<String ID="OptionsLanguageAutoText">(&amp;Auto)</String>
@@ -161,10 +161,10 @@
 	<String ID="OptionsTrackIRCmdText">TrackIR</String>
 	<String ID="OptionsTrackIRCmdHelp">Aktiviere TrackIR in der Cockpit Ansicht</String>
 
-	<String ID="DogfightModeCenteredText">Centered</String>
-	<String ID="DogfightModeCenteredHelp">Center the camera between selected objects</String>
-	<String ID="DogfightModeLookAtText">Look at Target</String>
-	<String ID="DogfightModeLookAtHelp">The camera will keep looking at the secondary object</String>
+	<String ID="DogfightModeCenteredText">Zentriert</String>
+	<String ID="DogfightModeCenteredHelp">Zentriere die Kamera zwischen den ausgewählten Objekten</String>
+	<String ID="DogfightModeLookAtText">Blick auf's Ziel</String>
+	<String ID="DogfightModeLookAtHelp">Die Kamera bleibt auf dem zweiten Objekt ausgerichtet</String>
 
 	<String ID="InsertBookmarkText">&amp;Lesezeichen einfügen</String>
 	<String ID="InsertBookmarkHelp">Erstelle und füge ein Leseszeichen in Ereignisse und der Zeitlinie ein</String>
@@ -175,8 +175,8 @@
 	<String ID="SharePasteShortcutText">&amp;Einfügen Tastaturkürzel&#9;(Ctrl+V)</String>
 	<String ID="SharePasteShortcutHelp">Wiederherstellen einer Ansicht eines Tastaturkürzels das von Freunden geteilt wurde</String>
 	<String ID="AttractAttentionHelp">Zieht die Aufmerksamkeit der Zuschauer auf ein bestimmtes Objekt</String>
-	<String ID="DefineControlText">Assign Input</String>
-	<String ID="DefineControlHelp">Assign custom joystick or keyboard input to this command</String>
+	<String ID="DefineControlText">Eingabe zuordnen</String>
+	<String ID="DefineControlHelp">Joystick oder Tastatur Eingabe diesem Kommando zuordnen</String>
 
 	<String ID="SelectedObjectsTelemetryText">Bezeichnungen selektierter Objekte</String>
 	<String ID="AircraftsTelemetryText">Bezeichnungen nicht ausgewählter Flugzeuge</String>
@@ -287,8 +287,8 @@
 	<String ID="ChartAccelerationText">Beschleunigung</String>
 	<String ID="ChartPerformanceHelp">Analysiere Raketenleistung</String>
 	<String ID="ChartPerformanceText">Leistung</String>
-	<String ID="ChartAttitudeHelp">Analyze aircraft stability and pilot induced oscillations</String>
-	<String ID="ChartAttitudeText">Attitude</String>
+	<String ID="ChartAttitudeHelp">Analysiere Flugzeugstabilität und piloteninduzierte Oszilation</String>
+	<String ID="ChartAttitudeText">Verhalten</String>
 
 	<String ID="AxisNoneHelp">Verberge nebensächliche Achsen</String>
 	<String ID="AxisNoneText">ausgeschaltet</String>
@@ -298,7 +298,7 @@
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
 	<String ID="RegistrationHelp">Luftfahrzeugregistrierung (Hecknummer)</String>
 	<String ID="RegistrationText">Registriernummer</String>
-	<String ID="SquawkHelp">Transponder code</String>
+	<String ID="SquawkHelp">Transpondercode</String>
 	<String ID="SquawkText">Squawk</String>
 	<String ID="BullseyeHelp">Relative Position zum Hauptobjekt Koalitions Bullseye</String>
 	<String ID="BullseyeText">Bullseye</String>
@@ -331,10 +331,10 @@
 	<String ID="EPText">Lageenergie (Ep)</String>
 	<String ID="EMHelp">Mechanische Energie</String>
 	<String ID="EMText">Mechanische Energie (Em=Ek+Ep)</String>
-	<String ID="FuelWeightText">Fuel (weight)</String>
-	<String ID="FuelVolumeText">Fuel (volume)</String>
-	<String ID="FuelFlowWeightText">Fuel Flow (weight)</String>
-	<String ID="FuelFlowVolumeText">Fuel Flow (volume)</String>
+	<String ID="FuelWeightText">Treibstoff (Gewicht)</String>
+	<String ID="FuelVolumeText">Treibstoff (Größe)</String>
+	<String ID="FuelFlowWeightText">Treibstofffluß (Gewicht)</String>
+	<String ID="FuelFlowVolumeText">Treibstofffluß (Größe)</String>
 
 	<String ID="GSHelp">Geschwindigkeit des Luftfahrzeuges relativ zum Boden</String>
 	<String ID="GSText">Geschwindigkeit über Boden (GS)</String>
@@ -348,18 +348,18 @@
 	<String ID="TRKText">Spur (TRK)</String>
 	<String ID="FlightPathAngleHelp">Wahrer Luftfahrzeugsneigungswinkel</String>
 	<String ID="FlightPathAngleText">Flugpfadwinkel</String>
-	<String ID="FuelFlowWeightText">Fuel flow (weight)</String>
-	<String ID="FuelFlowVolumeText">Fuel flow (volume)</String>
+	<String ID="FuelFlowWeightText">Treibstofffluß (Gewicht)</String>
+	<String ID="FuelFlowVolumeText">Treibstofffluß (Größe)</String>
 	<String ID="DistanceAirHelp">Abgedeckte Luftstrecke</String>
 	<String ID="DistanceAirText">Strecke (Luft)</String>
 	<String ID="DistanceGroundHelp">Abgedeckte Bodenstrecke</String>
 	<String ID="DistanceGroundText">Strecke (Boden)</String>
 	<String ID="ElevationProfileHelp">Profil der Bodenhöhe unter dem Luftfahrzeug</String>
 	<String ID="ElevationProfileText">Höhenprofil</String>
-	<String ID="RollHelp">Aircraft roll attitude</String>
-	<String ID="RollText">Roll</String>
-	<String ID="PitchHelp">Aircraft pitch attitude</String>
-	<String ID="PitchText">Pitch</String>
+	<String ID="RollHelp">Flugzeug Rollverhalten</String>
+	<String ID="RollText">Rollen</String>
+	<String ID="PitchHelp">Flugzeug Steigverhalten</String>
+	<String ID="PitchText">Steigung</String>
 
 	<String ID="AbsoluteTimeHelp">Absolute Zeit</String>
 	<String ID="AbsoluteTimeText">Zeit</String>
@@ -374,7 +374,7 @@
 	<String ID="TelemetryNoLimit">(keine Einschränkungen)</String>
 
 	<String ID="AltitudeRestrictionsTitle">Höhenbeschränkungen</String>
-	<String ID="AltitudeRestrictionsIntro">Benutze dieses Tool um zu erfahren wenn das Luftfahrzeug über den festgelegten Limitierungen ist.&#10;Gebe Null (0) an, um die Einschränkung zu entfernen.</String>
+	<String ID="AltitudeRestrictionsIntro">Benutze dieses Tool um zu erfahren, wenn das Luftfahrzeug über den festgelegten Limitierungen ist.&#10;Gebe Null (0) an, um die Einschränkung zu entfernen.</String>
 	<String ID="MaxAltitudeLabel">Wolkenhöhe Einschränkung:</String>
 	<String ID="MaxAltitudeLabelShort">MAX</String>
 	<String ID="MinAltitudeLabel">Bodenhöhe Einschränkung:</String>
@@ -407,69 +407,69 @@
 	<String ID="OnlineDebriefingDataMismatch">Einige Daten fehlen; hast du die richtige Datei für diese NAchbesprechung geladen?</String>
 	<String ID="OnlineDebriefingStatusConnecting">Suche nach Host, bitte warten...</String>
 	<String ID="OnlineDebriefingStatusFailedToJoin">⚠ Konnte nicht verbinden, bitte überprüfe die Adresse und die Portnummer.</String>
-	<String ID="OnlineDebriefingStatusFailedToHost">⚠ Konnte keine Sitzung bereitstellen. Benütze einen anderen Port um mehrere Sitzungen auf dem gleichen Computer bereitzustellen.</String>
-	<String ID="OnlineDebriefingStatusInvalidProtocol">⚠ Protokol nicht unterstützt. Benützt du die selbe Version von Tacview wie der Host?</String>
+	<String ID="OnlineDebriefingStatusFailedToHost">⚠ Konnte keine Sitzung bereitstellen. Benutze einen anderen Port um mehrere Sitzungen auf dem gleichen Computer bereitzustellen.</String>
+	<String ID="OnlineDebriefingStatusInvalidProtocol">⚠ Protokol nicht unterstützt. Benutzt du die selbe Version von Tacview wie der Host?</String>
 	<String ID="OnlineDebriefingStatusInvalidPassword">⚠ Ungültiges Passwort. Hast du kopieren/einfügen versucht, um Schreibfehler zu vermeiden?</String>
 	<String ID="OnlineDebriefingHostTip">Shift+Klick ein Objekt, um die Aufmerksamkeit des Zuschauers auf dich zu lenken</String>
 	<String ID="OnlineDebriefingClientTip">Drücke Alt+Enter um in den Vollbildschirmmodus zu wechseln</String>
 	<String ID="OnlineDebriefingControlGivenTip">{0} ist momentan verantwortlich für die Nachbesprechung</String>
 	<String ID="OnlineDebriefingControlReceivedTip">Du bist momentan verantwortlich für die Nachbesprechung</String>
 
-	<String ID="RemoteControlConnect">Connect</String>
-	<String ID="RemoteControlDisconnect">Disconnect</String>
-	<String ID="RemoteControlConnecteding">Connecting...</String>
-	<String ID="RemoteControlConnected">Connected to {0}</String>
-	<String ID="RemoteControlDisconnected">Disconnected</String>
-	<String ID="RemoteControlFailed">Failed to connect to simulator</String>
-	<String ID="RemoteControlInvalidPassword">A valid password is required for this connection</String>
-	<String ID="RemoteControlPort">Remote Control Port :</String>
+	<String ID="RemoteControlConnect">Verbinden</String>
+	<String ID="RemoteControlDisconnect">Verbindung trennen</String>
+	<String ID="RemoteControlConnecteding">Verbinde...</String>
+	<String ID="RemoteControlConnected">Verbunden an {0}</String>
+	<String ID="RemoteControlDisconnected">Verbindung getrennt</String>
+	<String ID="RemoteControlFailed">Verbindung zum Simulator fehlgeschlagen</String>
+	<String ID="RemoteControlInvalidPassword">Ein gültiges Passwort ist für diese Verbindung notwendig</String>
+	<String ID="RemoteControlPort">Fernsteuerungs Port :</String>
 	<String ID="RemoteControlPause">Pause</String>
-	<String ID="RemoteControlResume">Resume</String>
-	<String ID="RemoteControlFlapsUp">Flaps Up</String>
-	<String ID="RemoteControlFlapsDown">Flaps Down</String>
-	<String ID="RemoteControlLandingGearUp">Landing Gear Up</String>
-	<String ID="RemoteControlLandingGearDown">Landing Gear Down</String>
-	<String ID="RemoteControlSmoke">Smoke</String>
-	<String ID="RemoteControlRespawn">Respawn / Reset</String>
-	<String ID="RemoteControlEject">Eject</String>
-	<String ID="RemoteControlRoll">Roll</String>
-	<String ID="RemoteControlPitch">Pitch</String>
-	<String ID="RemoteControlYaw">Yaw</String>
-	<String ID="RemoteControlThrottle">Throttle</String>
+	<String ID="RemoteControlResume">Fortfahren</String>
+	<String ID="RemoteControlFlapsUp">Landeklappen eingefahren</String>
+	<String ID="RemoteControlFlapsDown">Landeklappen ausgefahren</String>
+	<String ID="RemoteControlLandingGearUp">Fahrwerk eingefahren</String>
+	<String ID="RemoteControlLandingGearDown">Fahrwerk ausgefahren</String>
+	<String ID="RemoteControlSmoke">Rauch</String>
+	<String ID="RemoteControlRespawn">Wiedereintritt / Reset</String>
+	<String ID="RemoteControlEject">Schleudersitz</String>
+	<String ID="RemoteControlRoll">Rollen</String>
+	<String ID="RemoteControlPitch">Steigung</String>
+	<String ID="RemoteControlYaw">Gieren</String>
+	<String ID="RemoteControlThrottle">Schub</String>
 	<String ID="RemoteControlSimulation">Simulation</String>
-	<String ID="RemoteControlFlightControl">Flight Control</String>
-	<String ID="RemoteControlSystems">Systems</String>
-	<String ID="RemoteControlAxisCommands">Axis Commands</String>
-	<String ID="RemoteControlCustomCommands">Custom Commands</String>
-	<String ID="RemoteControlCustomCommand1">Command #1 / Flag 1001</String>
-	<String ID="RemoteControlCustomCommand2">Command #2 / Flag 1002</String>
-	<String ID="RemoteControlCustomCommand3">Command #3 / Flag 1003</String>
-	<String ID="RemoteControlCustomCommand4">Command #4 / Flag 1004</String>
-	<String ID="RemoteControlCustomCommand5">Command #5 / Flag 1005</String>
-	<String ID="RemoteControlCustomCommand6">Command #6 / Flag 1006</String>
-	<String ID="RemoteControlCustomCommand7">Command #7 / Flag 1007</String>
-	<String ID="RemoteControlCustomCommand8">Command #8 / Flag 1008</String>
-	<String ID="RemoteControl">Remote Control</String>
-	<String ID="RemoteControlToggleFocus">Toggle Focus</String>
-	<String ID="RemoteControlExclusiveFocus">Exclusive Focus</String>
+	<String ID="RemoteControlFlightControl">Flugkontrolle</String>
+	<String ID="RemoteControlSystems">Systeme</String>
+	<String ID="RemoteControlAxisCommands">Axen Kommandos</String>
+	<String ID="RemoteControlCustomCommands">Benutzerdefinierte Kommandos</String>
+	<String ID="RemoteControlCustomCommand1">Kommando #1 / Flag 1001</String>
+	<String ID="RemoteControlCustomCommand2">Kommando #2 / Flag 1002</String>
+	<String ID="RemoteControlCustomCommand3">Kommando #3 / Flag 1003</String>
+	<String ID="RemoteControlCustomCommand4">Kommando #4 / Flag 1004</String>
+	<String ID="RemoteControlCustomCommand5">Kommando #5 / Flag 1005</String>
+	<String ID="RemoteControlCustomCommand6">Kommando #6 / Flag 1006</String>
+	<String ID="RemoteControlCustomCommand7">Kommando #7 / Flag 1007</String>
+	<String ID="RemoteControlCustomCommand8">Kommando #8 / Flag 1008</String>
+	<String ID="RemoteControl">Fernsteuerung</String>
+	<String ID="RemoteControlToggleFocus">Fokus umschalten</String>
+	<String ID="RemoteControlExclusiveFocus">Exklusiver Fokus</String>
 
-	<String ID="RealTimeTelemetryTitle">Real-time Telemetry</String>
-	<String ID="RealTimeTelemetryIntro">Establish a connection with a data recorder to review telemetry data in real-time!</String>
-	<String ID="RealTimeTelemetryUsername">Choose a User Name :</String>
-	<String ID="RealTimeTelemetryAddress">Data Recorder Address :</String>
-	<String ID="RealTimeTelemetryPort">Data Recorder Port :</String>
-	<String ID="RealTimeTelemetryWarningClient">Only the professional version of Tacview can record real-time telemetry.</String>
-	<String ID="RealTimeTelemetryPasswordTip">A password may be required to join a private session</String>
-	<String ID="RealTimeTelemetryRecordingConnecting">Waiting for {0} {1}</String>
-	<String ID="RealTimeTelemetryRecordingProgress">Recording from {0} {1}</String>
-	<String ID="RealTimeTelemetryOperationCompleted">Real-time telemetry recording complete.</String>
-	<String ID="RealTimeTelemetryOperationFailed">Failed to connect real-time telemetry to given host address.</String>
-	<String ID="RealTimeTelemetryUnsupportedOperation">Real-time telemetry not compatible with the host exporter.</String>
-	<String ID="RealTimeTelemetryInvalidParameters">Invalid real-time telemetry password.</String>
-	<String ID="RealTimeTelemetryNotSynchronized">Playback is currently not synchronized with real-time telemetry.</String>
-	<String ID="RealTimeTelemetryConnect">Connect</String>
-	<String ID="RealTimeTelemetryDisconnect">Disconnect</String>
-	<String ID="RealTimeTelemetryAutoReconnect">Auto Reconnect</String>
+	<String ID="RealTimeTelemetryTitle">Echtzeit-Telemetrie</String>
+	<String ID="RealTimeTelemetryIntro">Baue eine Verbindung mit einem Datenrekorder auf, um die Telemetriedaten in Echtzeit zu sehen!</String>
+	<String ID="RealTimeTelemetryUsername">Wähle einen Benutzernamen :</String>
+	<String ID="RealTimeTelemetryAddress">Datenrekorder Adresse :</String>
+	<String ID="RealTimeTelemetryPort">Datenrekorder Port :</String>
+	<String ID="RealTimeTelemetryWarningClient">Nur die "professional" Version von Tacview kann Echtzeit-Telemetrie aufnehmen.</String>
+	<String ID="RealTimeTelemetryPasswordTip">Ein Passwort könnte nötig sein, um einer privaten Sitzung beizutreten</String>
+	<String ID="RealTimeTelemetryRecordingConnecting">Warte auf {0} {1}</String>
+	<String ID="RealTimeTelemetryRecordingProgress">Aufnahme von {0} {1}</String>
+	<String ID="RealTimeTelemetryOperationCompleted">Echtzeit-Telemetrieaufnahme abgeschlossen.</String>
+	<String ID="RealTimeTelemetryOperationFailed">Konnte Echtzeit-Telemetrie nicht mit angegebener Hostadresse verbinden.</String>
+	<String ID="RealTimeTelemetryUnsupportedOperation">Echtzeit-Telemetrie nicht mit Host-Exporter kompatibel.</String>
+	<String ID="RealTimeTelemetryInvalidParameters">Ungültiges Echtzeit-Telemetrie Passwort.</String>
+	<String ID="RealTimeTelemetryNotSynchronized">Wiedergabe ist derzeit nicht mit der Echtzeit-Telemetrie synchronisiert.</String>
+	<String ID="RealTimeTelemetryConnect">Verbinde</String>
+	<String ID="RealTimeTelemetryDisconnect">Verbindung trennen</String>
+	<String ID="RealTimeTelemetryAutoReconnect">Automatisches Wiederverbinden</String>
 
 	<String ID="AddEditObjectAddTitle">Neues Objekt erstellen</String>
 	<String ID="AddEditObjectEditTitle">Objekteigenschaften ändern</String>
@@ -490,27 +490,27 @@
 	<String ID="NoCoalitionValue">(keine)</String>
 	<String ID="BullseyeType">(Bullseye)</String>
 	<String ID="FixedWingType">(Starrflügler)</String>
-	<String ID="RotorcraftType">(Rotorcraft)</String>
-	<String ID="MissileType">(Missile)</String>
-	<String ID="BombType">(Bomb)</String>
-	<String ID="AntiAircraftType">(Anti-Aircraft: AAA/SAM)</String>
-	<String ID="TankType">(Tank)</String>
-	<String ID="WarshipType">(Warship)</String>
-	<String ID="SubmarineType">(Submarine)</String>
-	<String ID="InfantryType">(Infantry)</String>
-	<String ID="BuildingType">(Building)</String>
+	<String ID="RotorcraftType">(Drehflügler)</String>
+	<String ID="MissileType">(Rakete)</String>
+	<String ID="BombType">(Bombe)</String>
+	<String ID="AntiAircraftType">(Anti-Flugzeug: AAA/SAM)</String>
+	<String ID="TankType">(Panzer)</String>
+	<String ID="WarshipType">(Kriegsschiff)</String>
+	<String ID="SubmarineType">(U-Boot)</String>
+	<String ID="InfantryType">(Infantrie)</String>
+	<String ID="BuildingType">(Gebäude)</String>
 	<String ID="TimelessValue">(Zeitloses Objekt)</String>
 
-	<String ID="ButtonHelp">Press the control you want to use for this command.</String>
-	<String ID="AxeHelp">Activate the joystick axis you want to use for this command.</String>
-	<String ID="CommandName">Command</String>
-	<String ID="InputModifier">Modifier</String>
-	<String ID="NoModifier">(none)</String>
-	<String ID="DeviceLabel">Device</String>
-	<String ID="InputLabel">Input</String>
-	<String ID="AxisValue">Axis</String>
-	<String ID="InvertedInput">Inverted</String>
-	<String ID="ClearButton">Clear</String>
+	<String ID="ButtonHelp">Dücke die Steuerung, die du für dieses Kommando benutzen möchtest.</String>
+	<String ID="AxeHelp">Aktiviere die Joystickachse, die du für dieses Kommando benutzen möchtest.</String>
+	<String ID="CommandName">Kommando</String>
+	<String ID="InputModifier">Modifizierer</String>
+	<String ID="NoModifier">(keinen)</String>
+	<String ID="DeviceLabel">Gerät</String>
+	<String ID="InputLabel">Eingabe</String>
+	<String ID="AxisValue">Achse</String>
+	<String ID="InvertedInput">Umgekehrt</String>
+	<String ID="ClearButton">Löschen</String>
 
 	<!-- Profiler -->
 	<String ID="ProfilerProfileMainLoopTooltip">Hauptschleifenprofil (F16)</String>
@@ -543,8 +543,8 @@
 	<String ID="AddOnTitleMedia2">Media 2</String>
 	<String ID="AddOnTitleMedia3">Media 3</String>
 	<String ID="AddOnTitleMedia4">Media 4</String>
-	<String ID="UnsupportedMediaNotification">Unsupported media file.</String>
-	<String ID="UnsupportedMediaLink">Try to install a codec pack.</String>
+	<String ID="UnsupportedMediaNotification">Nicht unterstützte Mediendatei.</String>
+	<String ID="UnsupportedMediaLink">Versuche einen Codecpack zu installieren.</String>
 
 	<String ID="AddOnTelemetryName">Name</String>
 	<String ID="AddOnTelemetryData">Daten</String>
@@ -573,13 +573,13 @@
 
 	<String ID="AddOnTitleEventsLog">Fluglog</String>
 	<String ID="AddOnTitleControlsList">Kontrollen Liste</String>
-	<String ID="AddOnTitleRemoteControl0">Remote Control 1</String>
-	<String ID="AddOnTitleRemoteControl1">Remote Control 2</String>
-	<String ID="AddOnTitleRemoteControl2">Remote Control 3</String>
-	<String ID="AddOnTitleRemoteControl3">Remote Control 4</String>
+	<String ID="AddOnTitleRemoteControl0">Fernsteuerung 1</String>
+	<String ID="AddOnTitleRemoteControl1">Fernsteuerung 2</String>
+	<String ID="AddOnTitleRemoteControl2">Fernsteuerung 3</String>
+	<String ID="AddOnTitleRemoteControl3">Fernsteuerung 4</String>
 	<String ID="AddOnTitleCommandLineOptionsList">Kommandozeilen Optionen</String>
 	<String ID="AddOnTitleUserLicenseAgreement">Lizensvereinbarung</String>
-	<String ID="AddOnTitleDebugLog">Fehler Log</String>
+	<String ID="AddOnTitleDebugLog">Fehlerlog</String>
 	<String ID="AddOnTitleEventsProfiler">Ereignisprofiler</String>
 	<String ID="AddOnTitleFunctionsProfiler">Funktions Profiler</String>
 	<String ID="AddOnTitleGraphicalProfiler">Grafischer Profiler</String>
@@ -617,7 +617,7 @@
 	<String ID="CmdDataCollectionHelp">Disables anonymous data collection.</String>
 	<String ID="CmdVBOOffHelp">Schalte Vertex Buffer Objekte aus um Abstürze auf einigen ATI CrossFire konfigurationen zu vermeiden.</String>
 	<String ID="CmdDebugModeHelp">Zeigt Fehlerinformationen an um bei der Behebung von Bugs behilflich zu sein.</String>
-	<String ID="CmdConfigSetHelp">Stores user preferences in a specific set for each instance of Tacview.</String>
+	<String ID="CmdConfigSetHelp">Speichert Benutzereinstellungen in einem spezifischen Set für jede Instanz von Tacview.</String>
 
 	<String ID="Selection">Selektion</String>
 	<String ID="TimeControl">Zeitkontrolle</String>
@@ -669,10 +669,10 @@
 	<String ID="FlightSimHookTooltipMessage">Wenn dieses Icon sichtbar ist, werden alle Flüge deines Simulators automatisch aufgezeichnet.&#10;Es ist nicht notwendig, Tacview während des Fliegens laufen zu lassen.</String>
 	<String ID="FlightRecordingEmptyNotification">Diese Flugaufnahme ist leer.</String>
 	<String ID="LowEndOpenGL">Bitte Grafikkartentreiber aktualisieren!</String>
-	<String ID="AntiCheatCannotPlayback">Playback of this file has been delayed by {0} minutes by the host. There is not enough time recorded to playback any data.</String>
-	<String ID="AntiCheatIncompletePlayback">Playback of this file has been delayed by {0} minutes by the host. The last {1} minute(s) cannot be reviewed.</String>
-	<String ID="AuthenticationComplete">This file is authentic, it has not been altered since its recording.</String>
-	<String ID="AuthenticationIncomplete">This file is authentic, except for the last {0} seconds which cannot be validated.</String>
+	<String ID="AntiCheatCannotPlayback">Wiedergabe dieser Datei wurde vom Host um {0} Minuten verzögert. Es wurde nicht lange genug aufgezeichnet um irgend welche Daten wiederzugeben.</String>
+	<String ID="AntiCheatIncompletePlayback">Wiedergabe dieser Datei wurde vom Host um {0} Minuten verzögert. Die letzten {1} Minute(n) können nicht angesehen werden.</String>
+	<String ID="AuthenticationComplete">Diese Datei ist authentisch und wurde seit der Aufnahme nicht verändert.</String>
+	<String ID="AuthenticationIncomplete">Diese Datei ist authentisch, außer die letzten {0} Sekunden die nicht validiert werden können.</String>
 
 	<!-- Message Boxes -->
 	<String ID="SaveFileRequestText">Willst Du Änderungen auf '{0}'&#160;speichern?</String>
@@ -707,7 +707,7 @@
 	<String ID="Falcon4TheaterFilter">Falcon 4.0 Szenario:</String>
 
 	<!-- Online Debriefing -->
-	<String ID="HostLabel">(host)</String>
+	<String ID="HostLabel">(Host)</String>
 	<String ID="InstructorLabel">(Instruktor)</String>
 	<String ID="UnknownIPAddress">(Unbekannt)</String>
 	<String ID="OnlineDebriefingHostTitle">Hosting &#2;{0}&#1; Nachbesprechung</String>
@@ -721,9 +721,9 @@
 	<String ID="DemoEditionManyDays">{0} Demo, {1} Tage übrig</String>
 	<String ID="FreeEdition">{0} Starter</String>
 	<String ID="HomeEdition">{0} Standard</String>
-	<String ID="ProfessionalEdition">{0} Advanced</String>
-	<String ID="CommercialEditionAnnual">{0} Enterprise (läuft aus am {1})</String>
-	<String ID="CommercialEditionPerpetual">{0} Enterprise (support ends on {1})</String>
+	<String ID="ProfessionalEdition">{0} Fortgeschritten</String>
+	<String ID="CommercialEditionAnnual">{0} Unternehmen (läuft aus am {1})</String>
+	<String ID="CommercialEditionPerpetual">{0} Unternehmen (Support endet am {1})</String>
 	<String ID="32bitEdition">32-bit</String>
 	<String ID="64bitEdition">64-bit</String>
 	<String ID="ProfessionalToolDemoWarningOneDay">Dieses Tool ist verfügbar in <a href="cmd:RegisterCmd">Tacview Advanced</a>. Du kanst es für {0} Tage testen.</String>
@@ -734,7 +734,7 @@
 	<String ID="HomeToolDemoExpired">Du musst <a href="cmd:RegisterCmd">deine Lizens upgraden</a> auf die Tacview Standard oder Tacview Advanced um dieses Tool zu nutzen.</String>
 	<String ID="StrategicViewDemoWarning">Diese strategische Ansicht is in Tacview Advanced verfügbar.</String>
 	<String ID="ExpiredCommercialLicenseAnnual">Deine Kommerzielle Lizens lief am {0} aus,&#10;benutze diese Version NICHT in kommerziellen oder institutionellen Umgebungen.</String>
-	<String ID="ExpiredCommercialLicensePerpetual">Your Tacview Enterprise support has expired on {0},&#10;Please contact us if you want to use this new version.</String>
+	<String ID="ExpiredCommercialLicensePerpetual">Ihr Tacview Unternehmens Support ist am {0} ausgelaufen,&#10;Bitte kontaktieren Sie uns, wenn Sie eine neue Version benutzen wollen.</String>
 
 	<!-- Units -->
 	<String ID="UnitLabelASL">ASL Höhe ({0})</String>
@@ -762,10 +762,10 @@
 	<String ID="UnitLabelTrack">Kurs (°)</String>
 	<String ID="UnitLabelDistanceAir">Luftdistanz ({0})</String>
 	<String ID="UnitLabelDistanceGround">Bodendistanz ({0})</String>
-	<String ID="UnitLabelRoll">Roll ({0})</String>
-	<String ID="UnitLabelPitch">Pitch ({0})</String>
-	<String ID="UnitLabelFuel">Fuel ({0})</String>
-	<String ID="UnitLabelFuelFlow">Fuel Flow ({0})</String>
+	<String ID="UnitLabelRoll">Rollen ({0})</String>
+	<String ID="UnitLabelPitch">Steugen ({0})</String>
+	<String ID="UnitLabelFuel">Treibstoff ({0})</String>
+	<String ID="UnitLabelFuelFlow">Treibstofffluß ({0})</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -801,7 +801,7 @@
 	<String ID="FileTypeDescriptionNMEA0183">GPS NMEA 0183 log files</String>
 	<String ID="FileTypeDescriptionGPX">GPS Austausch Format</String>
 	<String ID="FileTypeDescriptionVHS">Falcon 4.0 Flugaufzeichnung</String>
-	<String ID="FileTypeDescriptionMAVLink">MAVLink telemetry</String>
+	<String ID="FileTypeDescriptionMAVLink">MAVLink Telemetrie</String>
 	<String ID="FileTypeDescriptionCSV">Komma-separierte Werte</String>
 	<String ID="FileTypeDescriptionKML">"Keyhole Markup" Sprache</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">XML Flug Log</String>
@@ -838,7 +838,7 @@
 	<String ID="EventFlightRecordingStart">Anfang der Flugaufzeichnung</String>
 	<String ID="EventFlightRecordingEnd">Ende der Flugaufzeichnung (Dauer: {0,02}:{1,02}:{2,02})</String>
 	<String ID="EventHasEnteredTheArea">{0} trat dem Gebiet bei.</String>
-	<String ID="EventHasEnteredTheAreaCloseTo">{0} trat dem Gebiet nahe bei {1} zu.</String>
+	<String ID="EventHasEnteredTheAreaCloseTo">{0} trat dem Gebiet nahe bei {1} bei.</String>
 	<String ID="EventHasEnteredTheAreaAt">{0} trat dem Gebiet bei an {1}</String>
 	<String ID="EventHasLanded">{0} landete</String>
 	<String ID="EventHasLandedCloseTo">{0} landete nahe bei {1}</String>
