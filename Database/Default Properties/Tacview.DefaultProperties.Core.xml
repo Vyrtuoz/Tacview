@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.0">
+
+	<!--
+
+		Metadata (XML attributes)
+
+			Id (MANDATORY)
+
+				Mandatory free text which must be composed of at least one non-space character.
+				Must be unique and will be used for inheritance and properties override.
+				*NOT* used to match objects and properties.
+
+			Base (OPTIONAL)
+
+				Id of another declaration which will serve as a base for this declaration.
+
+		Data (XML nodes)
+
+			Criteria (OPTIONAL)
+
+				Criteria used to find the best match between an object and default properties.
+				If no criterion is provided, the corresponding properties will never be matched.
+				This is useful to declare base properties which are referenced by another more complex declaration.
+
+				Type (OPTIONAL)
+
+					When provided, all the tags declared must be in the object tags to be a potential match.
+					Type can be used to make the distinction between conflicting delcarations with the same names (like SA-16 for a launcher and its missile).
+					Only one type can be provided. The last type declared will prevail.
+
+				Name (OPTIONAL/MANY)
+
+					When provided, all significative characters must be found in the object name to be a potential match.
+					Some characters like - ( ) are considered as not important and will just increase the matching score without preventing a match from being validated.
+					The best match will be the declaration with the most number of characters.
+					You can provide as many potential names (aliases) as required.
+					The special name [*] must be used to objects empty names.
+
+			Properties
+
+				You can provide as many default values for the object properties as you want.
+				Only the last declaration of each will prevail.
+				Everytime an object lacks a property, the default property value declared here will be used by Tacview.
+
+				AdditionalType (OPTIONAL)
+
+					Any tag provided in AdditionalType will be merged to the Type provided by the object telemetry.
+					This is useful to provide additional information about what the object is supposed to be (e.g. to flag a generic boat as an aircraft carrier)
+
+		Reference
+
+			ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx
+			NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name
+	-->
+
+	<!-- Generic Classes -->
+
+	<!--
+		WARNING: The default object must not provide a shape,
+		so special objects like flares and bullets can be properly displayed.
+	-->
+
+	<DefaultProperties Id="Core.Default">
+		<Criteria>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<Color>Blue</Color>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Core.Air" Base="Core.Default">
+		<Criteria>
+			<Type>Air</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Air</AdditionalType>
+			<Shape>Core.FixedWing.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Core.Sea" Base="Core.Default">
+		<Criteria>
+			<Type>Sea</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Sea</AdditionalType>
+			<Shape>Core.Watercraft.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Core.Weapon" Base="Core.Default">
+		<Criteria>
+			<Type>Weapon</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Weapon</AdditionalType>
+			<Shape>Core.Weapon.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Basic Types -->
+
+	<DefaultProperties Id="Core.FixedWing" Base="Core.Air">
+		<Criteria>
+			<Type>FixedWing</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Air+FixedWing</AdditionalType>
+			<Shape>Core.FixedWing.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Core.Rotorcraft" Base="Core.Air">
+		<Criteria>
+			<Type>Rotorcraft</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Air+Rotorcraft</AdditionalType>
+			<Shape>Core.Rotorcraft.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Core.Armor" Base="Core.Vehicle">
+		<Criteria>
+			<Type>Armor</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Vehicle+Armor</AdditionalType>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Core.AntiAircraft" Base="Core.Vehicle">
+		<Criteria>
+			<Type>AntiAircraft</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>AntiAircraft</AdditionalType>
+			<Shape>AntiAircraft.AAA.ZSU-23-4.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Core.Vehicle" Base="Core.Default">
+		<Criteria>
+			<Type>Vehicle</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Vehicle</AdditionalType>
+			<Shape>Core.Vehicle.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Core.Watercraft" Base="Core.Default">
+		<Criteria>
+			<Type>Watercraft</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Watercraft</AdditionalType>
+			<Shape>Core.Watercraft.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Core.Human" Base="Core.Default">
+		<Criteria>
+			<Type>Human</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Human</AdditionalType>
+			<Shape>Core.Human.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Core.Missile" Base="Core.Weapon">
+		<Criteria>
+			<Type>Missile</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Missile</AdditionalType>
+			<Shape>Core.Missile.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Core.Rocket" Base="Core.Weapon">
+		<Criteria>
+			<Type>Rocket</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Weapon+Rocket</AdditionalType>
+			<Shape>Core.Missile.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Core.Bomb" Base="Core.Weapon">
+		<Criteria>
+			<Type>Bomb</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Weapon+Bomb</AdditionalType>
+			<Shape>Core.Bomb.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Core.Bullseye" Base="Core.Default">
+		<Criteria>
+			<Type>Bullseye</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Bullseye</AdditionalType>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Specific Types -->
+
+	<DefaultProperties Id="Core.Submarine" Base="Core.Watercraft">
+		<Criteria>
+			<Type>Submarine</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Sea+Watercraft+Submarine</AdditionalType>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Composite Types -->
+
+</DefaultPropertiesCollection>

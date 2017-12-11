@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.1">
+
+	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
+	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+
+	<!-- Watercraft base declarations -->
+
+	<DefaultProperties Id="Watercraft.Military" Base="Core.Watercraft">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.AircraftCarrier" Base="Watercraft.Military">
+		<Properties>
+			<Shape>Watercraft.AircraftCarrier.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Frigate" Base="Watercraft.Military">
+	</DefaultProperties>
+
+	<!-- Civilan Watercraft -->
+
+	<!-- Military Watercraft -->
+
+	<DefaultProperties Id="Watercraft.FFG-7" Base="Watercraft.Frigate">
+		<Criteria>
+			<Name>FFG-7</Name>
+			<Name>Oliver Hazard Perry</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>FFG-7</ShortName>
+			<LongName>Oliver Hazard Perry (FFG-7)</LongName>
+<!--		<Shape>Watercraft.FFG-7.obj</Shape>	-->
+			<EngagementRange>45000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.FFG-7.Aliases" Base="Watercraft.FFG-7">
+		<Criteria>
+			<Type>Watercraft</Type>
+			<Name>Perry</Name>
+		</Criteria>
+	</DefaultProperties>
+
+	<!-- Aircraft Carrier -->
+
+	<DefaultProperties Id="Watercraft.CVN70" Base="Watercraft.AircraftCarrier">
+		<Criteria>
+			<Name>CVN70</Name>
+			<Name>USS Carl Vinson</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CVN70</ShortName>
+			<LongName>USS Carl Vinson (CVN-70)</LongName>
+			<EngagementRange>13000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.CVN70.Aliases" Base="Watercraft.CVN70">
+		<Criteria>
+			<Type>Watercraft</Type>
+			<Name>Vinson</Name>
+		</Criteria>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.AdmiralKuznetsov" Base="Watercraft.AircraftCarrier">
+		<Criteria>
+			<Name>Admiral Kuznetsov</Name>
+		</Criteria>
+		<Properties>
+			<LongName>Admiral Kuznetsov</LongName>
+			<Shape>Watercraft.Admiral Kuznetsov.obj</Shape>
+			<EngagementRange>11000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.AdmiralKuznetsov.Aliases" Base="Watercraft.AdmiralKuznetsov">
+		<Criteria>
+			<Type>Watercraft</Type>
+			<Name>Kuznetsov</Name>
+			<Name>KUZNECOW</Name>	<!-- DCS !.5 -->
+		</Criteria>
+	</DefaultProperties>
+
+</DefaultPropertiesCollection>

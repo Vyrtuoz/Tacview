@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.1">
+
+	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
+	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+
+	<!-- Surface-to-air Missiles -->
+
+	<DefaultProperties Id="Missile.SAM" Base="Core.Missile">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.SAM.9M39" Base="Missile.SAM">
+		<Criteria>
+			<Name>9M39</Name>
+			<Name>9M39 Igla</Name>
+			<Name>9M39 Igla (SA-16 Gimlet)</Name>	<!-- Black Shark typo (9M39 is not a SA-16) -->
+		</Criteria>
+		<Properties>
+			<ShortName>9M39</ShortName>
+			<LongName>9M39 Igla (SA-18 Grouse)</LongName>
+		</Properties>
+	</DefaultProperties>
+
+</DefaultPropertiesCollection>

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.1">
+
+	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
+	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+
+	<!-- Fixed-wing aircraft base declarations -->
+
+	<DefaultProperties Id="FixedWing.JetTrainer" Base="Core.FixedWing">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Fighter" Base="Core.FixedWing">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.GroundAttack" Base="Core.FixedWing">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Transport" Base="Core.FixedWing">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Tanker" Base="FixedWing.Transport">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Drone" Base="Core.FixedWing">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.GA" Base="Core.FixedWing">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.GA.OneEngine.LowWing.Tricycle" Base="FixedWing.GA">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.GA.OneEngine.LowWing.Taildragger" Base="FixedWing.GA">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.GA.OneEngine.HighWing.Tricycle" Base="FixedWing.GA">
+		<Properties>
+			<Shape>FixedWing.C172.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.GA.OneEngine.HighWing.Taildragger" Base="FixedWing.GA">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.GA.TwinEngine.LowWing.Tricycle" Base="FixedWing.GA">
+	</DefaultProperties>
+
+	<!-- Civilan Fixed-wing aircraft -->
+
+	<DefaultProperties Id="FixedWing.DR400" Base="FixedWing.GA.OneEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>DR400</Name>
+			<Name>Robin DR400</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>DR400</ShortName>
+			<LongName>Robin DR400</LongName>
+			<Shape>FixedWing.DR400.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C172" Base="FixedWing.GA.OneEngine.HighWing.Tricycle">
+		<Criteria>
+			<Name>C172</Name>
+			<Name>Cessna 172</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C172</ShortName>
+			<LongName>Cessna 172 Skyhawk</LongName>
+			<Shape>FixedWing.C172.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C172S" Base="FixedWing.C172">
+		<Criteria>
+			<Name>C172S</Name>
+			<Name>C172SP</Name>
+			<Name>Cessna 172S</Name>
+			<Name>Cessna 172SP</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C172S</ShortName>		<!-- SP is the marketing name, S is the real name -->
+			<LongName>Cessna 172S Skyhawk</LongName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C195" Base="FixedWing.GA.OneEngine.HighWing.Taildragger">
+		<Criteria>
+			<Name>C195</Name>
+			<Name>Cessna 195</Name>
+			<Name>Alabeo_C195</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C195</ShortName>
+			<LongName>Cessna 195 Businessliner</LongName>
+			<Shape>FixedWing.C195.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.PA31" Base="FixedWing.GA.TwinEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>PA-31</Name>
+			<Name>PA-31 Navajo</Name>
+			<Name>Piper PA-31 Navajo</Name>
+			<Name>Car_PA31</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PA-31</ShortName>
+			<LongName>Piper PA-31 Navajo</LongName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Drones -->
+
+	<DefaultProperties Id="FixedWing.MQ9" Base="FixedWing.Drone">
+		<Criteria>
+			<Name>MQ-9</Name>
+			<Name>MQ-9 Reaper</Name>
+			<Name>MQ-9 Predator</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MQ-9</ShortName>
+			<LongName>General Atomics MQ-9 Reaper</LongName>
+			<Shape>FixedWing.MQ-9.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Western Military Tankers -->
+
+	<DefaultProperties Id="FixedWing.A10" Base="FixedWing.GroundAttack">
+		<Criteria>
+			<Name>A-10</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A-10</ShortName>
+			<LongName>Fairchild Republic A-10 Thunderbolt II</LongName>
+			<Shape>FixedWing.A10.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.A10A" Base="FixedWing.A10">
+		<Criteria>
+			<Name>A-10A</Name>
+			<Name>A-10A Thunderbolt</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A-10A</ShortName>
+			<LongName>Fairchild Republic A-10A Thunderbolt II</LongName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.A10C" Base="FixedWing.A10A">
+		<Criteria>
+			<Name>A-10C</Name>
+			<Name>A-10C Thunderbolt</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A-10C</ShortName>
+			<LongName>Fairchild Republic A-10C Thunderbolt II</LongName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C135F" Base="FixedWing.KC135A">
+		<Criteria>
+			<Name>C-135F</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C-135F</ShortName>
+			<LongName>Boeing C-135F Stratotanker</LongName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C135FR" Base="FixedWing.C135F">
+		<Criteria>
+			<Name>C-135FR</Name>
+			<Name>717-165</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C-135FR</ShortName>
+			<LongName>Boeing C-135FR Stratotanker</LongName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.KC135" Base="FixedWing.Tanker">
+		<Criteria>
+			<Name>KC-135</Name>
+			<Name>Boeing KC-135</Name>
+			<Name>Boeing KC-135 Stratotanker</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>KC-135</ShortName>
+			<LongName>Boeing KC-135 Stratotanker</LongName>
+			<Shape>FixedWing.KC-135C.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.KC135A" Base="FixedWing.KC135">
+		<Criteria>
+			<Name>KC-135A</Name>
+			<Name>Boeing KC-135A</Name>
+			<Name>Boeing KC-135A Stratotanker</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>KC-135A</ShortName>
+			<LongName>Boeing KC-135A Stratotanker</LongName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Western Military Transport Fixed-wing aircraft -->
+
+	<DefaultProperties Id="FixedWing.C135" Base="FixedWing.Transport">
+		<Criteria>
+			<Name>C-135</Name>
+			<Name>Boeing C-135</Name>
+			<Name>Boeing C-135 Stratolifter</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C-135</ShortName>
+			<LongName>Boeing C-135 Stratolifter</LongName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C160" Base="FixedWing.Transport">
+		<Criteria>
+			<Name>C-160</Name>
+			<Name>C.160</Name>
+			<Name>Transall</Name>
+			<Name>Transall C-160</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C-160</ShortName>
+			<LongName>Transall C-160</LongName>
+			<Shape>FixedWing.C-160.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Western Military Fixed-wing aircraft -->
+
+	<DefaultProperties Id="FixedWing.AlphaJet" Base="FixedWing.JetTrainer">
+		<Criteria>
+			<Name>Alpha Jet</Name>
+			<Name>Dornier Alpha Jet</Name>
+			<Name>Dassault Alpha Jet</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Alpha Jet</ShortName>
+			<LongName>Dassault/Dornier Alpha Jet</LongName>
+			<Shape>FixedWing.Alpha Jet.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Mirage2000" Base="FixedWing.Fighter">
+		<Criteria>
+			<Name>M2000</Name>
+			<Name>Mirage 2000</Name>
+			<Name>Dassault Mirage 2000</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M2000</ShortName>
+			<LongName>Dassault Mirage 2000</LongName>
+			<Shape>FixedWing.Mirage 2000-5.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Mirage2000N" Base="FixedWing.Mirage2000">
+		<Criteria>
+			<Name>M2000N</Name>
+			<Name>Mirage 2000N</Name>
+			<Name>Dassault Mirage 2000N</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M2000N</ShortName>
+			<LongName>Dassault Mirage 2000N</LongName>
+			<Shape>FixedWing.Mirage 2000N.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Mirage2000D" Base="FixedWing.Mirage2000N">
+		<Criteria>
+			<Name>M2000D</Name>
+			<Name>Mirage 2000D</Name>
+			<Name>Dassault Mirage 2000D</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M2000D</ShortName>
+			<LongName>Dassault Mirage 2000D</LongName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Rafale" Base="FixedWing.Fighter">
+		<Criteria>
+			<Name>Rafale</Name>
+			<Name>Dassault Rafale</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Rafale</ShortName>
+			<LongName>Dassault Rafale</LongName>
+			<Shape>FixedWing.Rafale.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Eastern Military Fixed-wing aircraft -->
+
+	<DefaultProperties Id="FixedWing.MiG25" Base="FixedWing.Fighter">
+		<Criteria>
+			<Name>MiG-25</Name>
+			<Name>MiG-25 Foxbat</Name>
+			<Name>Mikoyan MiG-25</Name>
+			<Name>Mikoyan MiG-25 Foxbat</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MiG-25</ShortName>
+			<LongName>Mikoyan MiG-25 Foxbat</LongName>
+			<Shape>FixedWing.MiG-25.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.MiG25P" Base="FixedWing.MiG25">
+		<Criteria>
+			<Name>MiG-25P</Name>
+			<Name>MiG-25P Foxbat</Name>
+			<Name>Mikoyan MiG-25P</Name>
+			<Name>Mikoyan MiG-25P Foxbat</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MiG-25P</ShortName>
+			<LongName>Mikoyan MiG-25P Foxbat</LongName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.MiG25PD" Base="FixedWing.MiG25P">
+		<Criteria>
+			<Name>MiG-25PD</Name>
+			<Name>MiG-25PD Foxbat</Name>
+			<Name>Mikoyan MiG-25PD</Name>
+			<Name>Mikoyan MiG-25PD Foxbat</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MiG-25PD</ShortName>
+			<LongName>Mikoyan MiG-25PD Foxbat</LongName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Firefox" Base="FixedWing.MiG25">
+		<Criteria>
+			<Name>Firefox</Name>
+			<Name>MiG-31 Firefox</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Firefox</ShortName>
+			<LongName>Firefox</LongName>
+			<Shape>FixedWing.Firefox.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.MiG29" Base="FixedWing.Fighter">
+		<Criteria>
+			<Name>MiG-29</Name>
+			<Name>MiG-29 Fulcrum</Name>
+			<Name>Mikoyan MiG-29</Name>
+			<Name>Mikoyan MiG-29 Fulcrum</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MiG-29</ShortName>
+			<LongName>Mikoyan MiG-29 Fulcrum</LongName>
+			<Shape>FixedWing.MiG-29.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.MiG29A" Base="FixedWing.MiG29">
+		<Criteria>
+			<Name>MiG-29A</Name>
+			<Name>MiG-29A Fulcrum</Name>
+			<Name>Mikoyan MiG-29A</Name>
+			<Name>Mikoyan MiG-29A Fulcrum</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MiG-29A</ShortName>
+			<LongName>Mikoyan MiG-29A Fulcrum</LongName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Su24" Base="FixedWing.Fighter">
+		<Criteria>
+			<Name>Su-24</Name>
+			<Name>Su-24 Fencer</Name>
+			<Name>Sukhoi Su-24</Name>
+			<Name>Sukhoi Su-24 Fencer</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Su-24</ShortName>
+			<LongName>Sukhoi Su-24 Fencer</LongName>
+			<Shape>FixedWing.Su-24.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Su27" Base="FixedWing.Fighter">
+		<Criteria>
+			<Name>Su-27</Name>
+			<Name>Su-27 Flanker</Name>
+			<Name>Sukhoi Su-27</Name>
+			<Name>Sukhoi Su-27 Flanker</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Su-27</ShortName>
+			<LongName>Sukhoi Su-27 Flanker</LongName>
+			<Shape>FixedWing.Su-27.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Su27.Aliases" Base="FixedWing.Su27">
+		<Criteria>
+			<Type>FixedWing</Type>
+			<Name>Flanker</Name>
+		</Criteria>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Su30" Base="FixedWing.Su27">
+		<Criteria>
+			<Name>Su-30</Name>
+			<Name>Sukhoi Su-30</Name>
+			<Name>Sukhoi Su-30 Flanker-C</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Su-30</ShortName>
+			<LongName>Sukhoi Su-30 Flanker-C</LongName>
+			<Shape>FixedWing.Su-30.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Su33" Base="FixedWing.Su27">
+		<Criteria>
+			<Name>Su-33</Name>
+			<Name>Sukhoi Su-33</Name>
+			<Name>Sukhoi Su-33 Flanker-D</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Su-33</ShortName>
+			<LongName>Sukhoi Su-33 Flanker-D</LongName>
+			<Shape>FixedWing.Su-33.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Su33.Aliases" Base="FixedWing.Su33">
+		<Criteria>
+			<Type>FixedWing</Type>
+			<Name>Flanker-D</Name>
+		</Criteria>
+	</DefaultProperties>
+
+</DefaultPropertiesCollection>

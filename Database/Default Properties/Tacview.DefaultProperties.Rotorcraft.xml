@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.1">
+
+	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
+	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+
+	<!-- Rotorcraft base declarations -->
+
+	<DefaultProperties Id="Rotorcraft.Transport" Base="Core.Rotorcraft">
+		<Properties>
+			<Shape>Rotorcraft.Bell 206.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.Attack" Base="Core.Rotorcraft">
+		<Properties>
+			<Shape>Rotorcraft.AH-64.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Civilan Helicopters -->
+
+	<DefaultProperties Id="Rotorcraft.Bell206" Base="Rotorcraft.Transport">
+		<Criteria>
+			<Name>JetRanger</Name>
+			<Name>Bell 206</Name>
+			<Name>Bell 206 JetRanger</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B206</ShortName>
+			<LongName>Bell 206 JetRanger</LongName>
+			<Shape>Rotorcraft.Bell 206.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.Bell222" Base="Rotorcraft.Transport">
+		<Criteria>
+			<Name>Bell 222</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B222</ShortName>
+			<LongName>Bell 222</LongName>
+			<Shape>Rotorcraft.Bell 222.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.SA341" Base="Rotorcraft.Transport">
+		<Criteria>
+			<Name>SA 341</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA341</ShortName>
+			<LongName>Aérospatiale SA 341 Gazelle</LongName>
+			<Shape>Rotorcraft.SA341G.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.SA341G" Base="Rotorcraft.SA341">
+		<Criteria>
+			<Name>SA 341G</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA341G</ShortName>
+			<LongName>Aérospatiale SA 341G Gazelle</LongName>
+			<Shape>Rotorcraft.SA341G.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Western Military Helicopters -->
+
+	<DefaultProperties Id="Rotorcraft.BellUH1" Base="Rotorcraft.Transport">
+		<Criteria>
+			<Name>Iroquois</Name>
+			<Name>Huey</Name>
+			<Name>UH-1</Name>
+			<Name>Bell UH-1</Name>
+			<Name>Bell UH-1 Iroquois</Name>
+			<Name>Bell UH-1 Huey</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>UH-1</ShortName>
+			<LongName>Bell UH-1 Huey</LongName>
+			<Shape>Rotorcraft.Bell UH1.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.BellUH1H" Base="Rotorcraft.BellUH1">
+		<Criteria>
+			<Name>UH-1H</Name>
+			<Name>Bell UH-1H</Name>
+			<Name>Bell UH-1H Iroquois</Name>
+			<Name>Bell UH-1H Huey</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>UH-1H</ShortName>
+			<LongName>Bell UH-1H Huey</LongName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.Airwolf" Base="Rotorcraft.Bell222">
+		<Criteria>
+			<Name>Airwolf</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Airwolf</ShortName>
+			<LongName>Airwolf</LongName>
+			<Shape>Rotorcraft.Airwolf.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.SA342" Base="Rotorcraft.SA341">
+		<Criteria>
+			<Name>SA 342</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA342</ShortName>
+			<LongName>Aérospatiale SA 342 Gazelle</LongName>
+			<Shape>Rotorcraft.SA342M.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.SA342L" Base="Rotorcraft.SA342">
+		<Criteria>
+			<Name>SA 342L</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA342L</ShortName>
+			<LongName>Aérospatiale SA 342L Gazelle</LongName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.BlueThunder" Base="Rotorcraft.SA341G">
+		<Criteria>
+			<Name>Blue Thunder</Name>
+			<Name>Tonnerre de feu</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Blue Thunder</ShortName>
+			<LongName>Blue Thunder</LongName>
+			<Shape>Rotorcraft.Blue Thunder.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.Tiger" Base="Rotorcraft.Attack">
+		<Criteria>
+			<Name>Tiger</Name>
+			<Name>Eurocopter Tiger</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Tiger</ShortName>
+			<LongName>Eurocopter Tiger</LongName>
+			<Shape>Rotorcraft.Tiger.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Eastern Military Helicopters -->
+
+	<DefaultProperties Id="Rotorcraft.Ka-50" Base="Rotorcraft.Attack">
+		<Criteria>
+			<Name>Black Shark</Name>
+			<Name>Ka-50</Name>
+			<Name>Ka-50 Black Shark</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Ka-50</ShortName>
+			<LongName>Ka-50 Black Shark</LongName>
+			<Shape>Rotorcraft.Ka-50.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.Mi-24" Base="Rotorcraft.Attack">
+		<Criteria>
+			<Name>Hind</Name>
+			<Name>Mi-24</Name>
+			<Name>Mi-24 Hind</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mi-24</ShortName>
+			<LongName>Mi-24 Hind</LongName>
+			<Shape>Rotorcraft.Mi-24.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.Mi-24V" Base="Rotorcraft.Mi-24">
+		<Criteria>
+			<Name>Hind-E</Name>
+			<Name>Mi-24V</Name>
+			<Name>Mi-24W</Name>	<!-- Polish designation -->
+		</Criteria>
+		<Properties>
+			<ShortName>Mi-24V</ShortName>
+			<LongName>Mi-24V Hind-E</LongName>
+		</Properties>
+	</DefaultProperties>
+
+</DefaultPropertiesCollection>

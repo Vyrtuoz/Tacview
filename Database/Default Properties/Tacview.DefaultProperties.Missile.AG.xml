@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.1">
+
+	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
+	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+
+	<!-- Air to Ground Missiles -->
+
+	<DefaultProperties Id="Missile.AG" Base="Core.Missile">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.AT6" Base="Missile.AG">
+		<Criteria>
+			<Name>9M114</Name>
+			<Name>9M114 Shturm</Name>
+			<Name>AT-6</Name>
+			<Name>AT-6 Spiral</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AT-6</ShortName>
+			<LongName>AT-6 Spiral</LongName>
+		</Properties>
+	</DefaultProperties>
+
+</DefaultPropertiesCollection>

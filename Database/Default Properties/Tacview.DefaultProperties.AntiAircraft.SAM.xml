@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.1">
+
+	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
+	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+
+	<!--
+		<DetectionRange> could be supported in a future update.
+	-->
+
+	<!-- SAM / AAA combined -->
+
+	<DefaultProperties Id="AntiAircraft.SAM" Base="Core.AntiAircraft">
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.Manpad" Base="AntiAircraft.SAM">
+		<Properties>
+			<Shape>AntiAircraft.SAM.Manpad.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-16" Base="AntiAircraft.SAM.Manpad">
+		<Criteria>
+			<Name>Gimlet</Name>
+			<Name>SA-16</Name>
+			<Name>SA-16 Gimlet</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-16</ShortName>
+			<LongName>SA-16 Gimlet</LongName>
+			<EngagementRange>3000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-18" Base="AntiAircraft.SAM.SA-16">
+		<Criteria>
+			<Name>Grouse</Name>
+			<Name>SA-18</Name>
+			<Name>SA-18 Grouse</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-18</ShortName>
+			<LongName>SA-18 Grouse</LongName>
+			<EngagementRange>3000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-24" Base="AntiAircraft.SAM.SA-18">
+		<Criteria>
+			<Name>Grinch</Name>
+			<Name>SA-24</Name>
+			<Name>SA-24 Grinch</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-24</ShortName>
+			<LongName>SA-24 Grinch</LongName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- DCS World Specific Aliases -->
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-18.Support" Base="Vehicle.Infantry">
+		<Criteria>
+			<Name>SA18 comm</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Infantry</ShortName>
+			<LongName>SA-18 Support</LongName>
+		</Properties>
+	</DefaultProperties>
+
+</DefaultPropertiesCollection>

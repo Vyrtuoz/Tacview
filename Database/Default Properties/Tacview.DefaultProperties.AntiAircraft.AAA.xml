@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.1">
+
+	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
+	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+
+	<!--
+		<DetectionRange> could be supported in a future update.
+	-->
+
+	<!-- Anti-Aircraft Artillery -->
+
+	<DefaultProperties Id="AntiAircraft.AAA" Base="Core.AntiAircraft">
+		<Properties>
+			<Shape>AntiAircraft.AAA.ZSU-23-4.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.ZU-23" Base="AntiAircraft.AAA">
+		<Criteria>
+			<Name>ZU23</Name>
+		</Criteria>
+		<Properties>
+			<EngagementRange>2500</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.ZU-23-2" Base="AntiAircraft.ZU-23">
+		<Criteria>
+			<Name>ZU-23-2</Name>
+			<Name>ZU-23 Emplacement Closed</Name>	<!-- Black Shark -->
+		</Criteria>
+		<Properties>
+			<ShortName>ZU-23-2</ShortName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.ZSU-23-4" Base="AntiAircraft.ZU-23">
+		<Criteria>
+			<Name>Shilka</Name>
+			<Name>ZSU-23-4</Name>
+			<Name>ZSU-23-4 Shilka</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ZSU-23-4</ShortName>
+			<LongName>ZSU-23-4 Shilka</LongName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.Ural-375.ZU-23" Base="AntiAircraft.ZU-23">
+		<Criteria>
+			<Name>Ural ZU-23</Name>
+			<Name>Ural ZU-23-2</Name>
+			<Name>Ural-375 ZU-23</Name>
+			<Name>Ural-375 ZU-23-2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ZU-23-2</ShortName>
+			<LongName>Ural-375 ZU-23-2</LongName>
+		</Properties>
+	</DefaultProperties>
+
+</DefaultPropertiesCollection>
