@@ -899,7 +899,7 @@
 	<String ID="TTViewSatellite">Satelitenansicht (F7)</String>
 	<String ID="TTViewFree">Freie Kamera (F8)</String>
 
-	<String ID="TTDisplayCockpitInstruments">Display cockpit instruments</String>
+	<String ID="TTDisplayCockpitInstruments">Zeige Cockpitinstrumente an</String>
 	<String ID="TTDrawHeight">Zeige Objekthöhe</String>
 	<String ID="TTDrawDirection">Zeige ausgewählte Objektrichtung</String>
 	<String ID="TTDrawIDs">Zeige Objekte-IDs</String>
