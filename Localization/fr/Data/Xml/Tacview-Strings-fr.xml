@@ -477,6 +477,7 @@
 	<String ID="AddEditObjectTime">Heure</String>
 	<String ID="AddEditObjectName">Nom</String>
 	<String ID="AddEditObjectPilot">Pilote</String>
+	<String ID="AddEditObjectGroup">Groupe</String>
 	<String ID="AddEditObjectType">Type</String>
 	<String ID="AddEditObjectPosition">Position</String>
 	<String ID="AddEditObjectColor">Couleur</String>
@@ -617,6 +618,7 @@
 	<String ID="CmdVBOOffHelp">Désactive les Vertex Buffer Objects pour éviter des plantages avec certaines configurations CrossFire d'ATI.</String>
 	<String ID="CmdDebugModeHelp">Affiche des informations de débogage pour aider à corriger des bugs.</String>
 	<String ID="CmdConfigSetHelp">Stokes les préférences utilisateur dans un ensemble spécifique à chaque instance de Tacview.</String>
+	<String ID="CmdAuthenticateHelp">Retourne -1 a l’appelant si tous les fichiers ouverts sont authentiques.</String>
 
 	<String ID="Selection">Sélection</String>
 	<String ID="TimeControl">Contrôle du temps</String>
@@ -775,7 +777,7 @@
 	<String ID="InvalidShortcutText">Impossible de trouver dans cette mission les objets et l'heure contenus dans ce raccourci. Assurez-vous d'avoir ouvert le bon fichier et d'avoir copié/collé l'intégralité du raccourci.</String>
 
 	<String ID="AboutTitle">A propos de Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2017, Raia Software. Tous droits réservés.&#10;Ce logiciel est protégé par les lois internationales sur le copyright.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2018, Raia Software. Tous droits réservés.&#10;Ce logiciel est protégé par les lois internationales sur le copyright.</String>
 
 	<String ID="LoadingInProgressShort">Chargement...</String>
 	<String ID="LoadingInProgress">Chargement de '{0}'</String>

@@ -479,6 +479,7 @@
 	<String ID="AddEditObjectTime">Tiempo</String>
 	<String ID="AddEditObjectName">Nombre</String>
 	<String ID="AddEditObjectPilot">Piloto</String>
+	<String ID="AddEditObjectGroup">Group</String>
 	<String ID="AddEditObjectType">Tipo</String>
 	<String ID="AddEditObjectPosition">Posición</String>
 	<String ID="AddEditObjectColor">Color</String>
@@ -619,6 +620,7 @@
 	<String ID="CmdVBOOffHelp">Deshabilita el buffer de los vértices de objetos para evitar CTDs en algunas ATI en configuración CrossFire.</String>
 	<String ID="CmdDebugModeHelp">Muestra la información de errores para ayudar a solucionar problemas.</String>
 	<String ID="CmdConfigSetHelp">Almacena las preferencias del usuario en un conjunto específico para cada instancia de Tacview.</String>
+	<String ID="CmdAuthenticateHelp">Returns -1 to the caller if all of the opened files are authentic.</String>
 
 	<String ID="Selection">Selección</String>
 	<String ID="TimeControl">Control de tiempo</String>
@@ -777,7 +779,7 @@
 	<String ID="InvalidShortcutText">No es posible encontrar en la misión actual los objetos y tiempos de referencia del acceso directo. Asegúrese de haber abierto el archivo correcto y haber copiado/pegado el acceso directo entero.</String>
 
 	<String ID="AboutTitle">Sobre Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2017, Raia Software. Todos los derechos reservados.&#10;Este programa informático está protegido por las leyes de copyright y la ley internacional de tratados.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2018, Raia Software. Todos los derechos reservados.&#10;Este programa informático está protegido por las leyes de copyright y la ley internacional de tratados.</String>
 
 	<String ID="LoadingInProgressShort">Cargando...</String>
 	<String ID="LoadingInProgress">Cargando '{0}'</String>

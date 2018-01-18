@@ -478,6 +478,7 @@
 	<String ID="AddEditObjectTime">Time</String>
 	<String ID="AddEditObjectName">Name</String>
 	<String ID="AddEditObjectPilot">Pilot</String>
+	<String ID="AddEditObjectGroup">Group</String>
 	<String ID="AddEditObjectType">Type</String>
 	<String ID="AddEditObjectPosition">Position</String>
 	<String ID="AddEditObjectColor">Color</String>
@@ -618,6 +619,7 @@
 	<String ID="CmdVBOOffHelp">ATI למניעת קריסה בחלק מכרטיסי VBO בטל</String>
 	<String ID="CmdDebugModeHelp">מציג נתוני תקלות לפתרון בעיות</String>
 	<String ID="CmdConfigSetHelp">Stores user preferences in a specific set for each instance of Tacview.</String>
+	<String ID="CmdAuthenticateHelp">Returns -1 to the caller if all of the opened files are authentic.</String>
 
 	<String ID="Selection">בחירה</String>
 	<String ID="TimeControl">שליטת זמן</String>
@@ -776,7 +778,7 @@
 	<String ID="InvalidShortcutText">האובייקט ו/או הזמן המבוקש בקיצור הדרך לא נמצאו בקובץ. אנא וודא כי מדובר בקובץ הנכון וכי העתקת את קיצור הדרך כשורה</String>
 
 	<String ID="AboutTitle">Tacview אודות</String>
-	<String ID="AboutCopyright">Copyright © 2006-2017, Raia Software. All Rights Reserved.&#10;This computer program is protected by copyright law and international treaties.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2018, Raia Software. All Rights Reserved.&#10;This computer program is protected by copyright law and international treaties.</String>
 	
 	<String ID="LoadingInProgressShort">...טוען</String>
 	<String ID="LoadingInProgress">'{0}' טוען</String>

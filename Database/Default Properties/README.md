@@ -1,4 +1,4 @@
-# Tacview public repository
+# Tacview objects database (default properties)
 
 You can find here Tacview database. It contains metadata and default declaration for most of the objects (aircrafts and any other ground unit) which can be found in missions debriefed with Tacview.
 

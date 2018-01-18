@@ -495,6 +495,7 @@
 	<String ID="AddEditObjectTime">시간</String>
 	<String ID="AddEditObjectName">이름</String>
 	<String ID="AddEditObjectPilot">파일럿</String>
+	<String ID="AddEditObjectGroup">Group</String>
 	<String ID="AddEditObjectType">타입</String>
 	<String ID="AddEditObjectPosition">위치</String>
 	<String ID="AddEditObjectColor">색상</String>
@@ -635,6 +636,7 @@
 	<String ID="CmdVBOOffHelp">몇몇 ATI 크로스파이어 설정으로 인해 크래쉬 되는 버텍스 버퍼 오브젝트 기능을 사용안함으로 합니다.</String>
 	<String ID="CmdDebugModeHelp">버그를 수정하기 위해 디버그 정보를 표시합니다.</String>
 	<String ID="CmdConfigSetHelp">Stores user preferences in a specific set for each instance of Tacview.</String>
+	<String ID="CmdAuthenticateHelp">Returns -1 to the caller if all of the opened files are authentic.</String>
 
 	<String ID="Selection">선택항목</String>
 	<String ID="TimeControl">시간 컨트롤</String>
@@ -842,7 +844,7 @@
 	<String ID="InvalidShortcutText">미션 내에 현재의 단축키가 지정 된 오브젝트나 시간을 찾을 수 없습니다. 정상적인 파일을 열었는지, 그리고 단축키가 정상적으로 복사/붙이기 되었는지 확인하시기 바랍니다.</String>
 
 	<String ID="AboutTitle">택뷰에 대하여</String>
-	<String ID="AboutCopyright">Copyright © 2006-2017, Raia Software. All Rights Reserved.&#10;이 컴퓨터 프로그램은 국제규약의 저작권 법에 의해 보호받고 있습니다.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2018, Raia Software. All Rights Reserved.&#10;이 컴퓨터 프로그램은 국제규약의 저작권 법에 의해 보호받고 있습니다.</String>
 
 	<String ID="LoadingInProgressShort">로딩...</String>
 	<String ID="LoadingInProgress">로딩 '{0}'</String>

@@ -478,6 +478,7 @@
 	<String ID="AddEditObjectTime">Zeit</String>
 	<String ID="AddEditObjectName">Name</String>
 	<String ID="AddEditObjectPilot">Pilot</String>
+	<String ID="AddEditObjectGroup">Group</String>
 	<String ID="AddEditObjectType">Typ</String>
 	<String ID="AddEditObjectPosition">Position</String>
 	<String ID="AddEditObjectColor">Farbe</String>
@@ -618,6 +619,7 @@
 	<String ID="CmdVBOOffHelp">Schalte Vertex Buffer Objekte aus um Abstürze auf einigen ATI CrossFire konfigurationen zu vermeiden.</String>
 	<String ID="CmdDebugModeHelp">Zeigt Fehlerinformationen an um bei der Behebung von Bugs behilflich zu sein.</String>
 	<String ID="CmdConfigSetHelp">Speichert Benutzereinstellungen in einem spezifischen Set für jede Instanz von Tacview.</String>
+	<String ID="CmdAuthenticateHelp">Returns -1 to the caller if all of the opened files are authentic.</String>
 
 	<String ID="Selection">Selektion</String>
 	<String ID="TimeControl">Zeitkontrolle</String>
@@ -776,7 +778,7 @@
 	<String ID="InvalidShortcutText">Kann in der aktuellen Mission die Objekte und Zeitreferenz nicht finden, auf die sich dieses Tastenkürzel bezieht. Vergewissern Sie sich, dass Sie die richtige Datei geöffnet und das komplette Tastaturkürzel kopiert und eingefügt haben.</String>
 
 	<String ID="AboutTitle">Über Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2017, Raia Software. All Rights Reserved.&#10;Diese Software ist durch Urheberrechte und internationale Verträge geschützt.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2018, Raia Software. All Rights Reserved.&#10;Diese Software ist durch Urheberrechte und internationale Verträge geschützt.</String>
 
 	<String ID="LoadingInProgressShort">Lade...</String>
 	<String ID="LoadingInProgress">Lade '{0}'</String>

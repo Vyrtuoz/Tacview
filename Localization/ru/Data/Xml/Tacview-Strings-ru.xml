@@ -478,6 +478,7 @@
 	<String ID="AddEditObjectTime">Время</String>
 	<String ID="AddEditObjectName">Имя</String>
 	<String ID="AddEditObjectPilot">Пилот</String>
+	<String ID="AddEditObjectGroup">Group</String>
 	<String ID="AddEditObjectType">Тип</String>
 	<String ID="AddEditObjectPosition">Позиция</String>
 	<String ID="AddEditObjectColor">Цвет</String>
@@ -618,6 +619,7 @@
 	<String ID="CmdVBOOffHelp">Отключить объекты буфера вершин, чтобы избежать падений программы на некторых конфигурациях ATI CrossFire.</String>
 	<String ID="CmdDebugModeHelp">Отображает информацию об отладке, помогающую устранять баги.</String>
 	<String ID="CmdConfigSetHelp">Сохранить пользовательские настройки отдельно для каждой программы Tacview.</String>
+	<String ID="CmdAuthenticateHelp">Returns -1 to the caller if all of the opened files are authentic.</String>
 
 	<String ID="Selection">Выделение</String>
 	<String ID="TimeControl">Управление временем</String>
@@ -776,7 +778,7 @@
 	<String ID="InvalidShortcutText">Невозможно найти объекты и время, на которые ссылается данный ярлык. Убедитесь, что открыт требуемый файл и целиком скопирован / метка вставлена.</String>
 
 	<String ID="AboutTitle">О программе Tacview</String>
-	<String ID="AboutCopyright">© 2006-2017, Raia Software. Все права защищены.&#10;Данное ПО защищено авторским правом и международными соглашениями.</String>
+	<String ID="AboutCopyright">© 2006-2018, Raia Software. Все права защищены.&#10;Данное ПО защищено авторским правом и международными соглашениями.</String>
 
 	<String ID="LoadingInProgressShort">Загрузка...</String>
 	<String ID="LoadingInProgress">Загружаем '{0}'</String>
