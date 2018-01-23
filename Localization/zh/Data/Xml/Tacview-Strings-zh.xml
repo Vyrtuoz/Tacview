@@ -496,7 +496,7 @@
 	<String ID="AddEditObjectTime">时间</String>
 	<String ID="AddEditObjectName">名称</String>
 	<String ID="AddEditObjectPilot">驾驶员</String>
-	<String ID="AddEditObjectGroup">Group</String>
+	<String ID="AddEditObjectGroup">群组</String>
 	<String ID="AddEditObjectType">类型</String>
 	<String ID="AddEditObjectPosition">位置</String>
 	<String ID="AddEditObjectColor">颜色</String>
@@ -637,7 +637,7 @@
 	<String ID="CmdVBOOffHelp">禁用顶点缓冲区物体以避免在一些ATI交火配置上崩溃。</String>
 	<String ID="CmdDebugModeHelp">显示调试信息以帮助修补错误。</String>
 	<String ID="CmdConfigSetHelp">为每个Tacview实例以特定组合存储用户偏好设置。</String>
-	<String ID="CmdAuthenticateHelp">Returns -1 to the caller if all of the opened files are authentic.</String>
+	<String ID="CmdAuthenticateHelp">如果所有打开的文件都是认证的，返回询问-1。</String>
 
 	<String ID="Selection">选择</String>
 	<String ID="TimeControl">时间控制</String>
