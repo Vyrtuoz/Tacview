@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.1">
+
+	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
+	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+
+	<!-- Core Declarations -->
+
+	<DefaultProperties Id="FixedWing.GA" Base="Core.FixedWing">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.GA.OneEngine.LowWing.Tricycle" Base="FixedWing.GA">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.GA.OneEngine.LowWing.Taildragger" Base="FixedWing.GA">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.GA.OneEngine.HighWing.Tricycle" Base="FixedWing.GA">
+		<Properties>
+			<Shape>FixedWing.C172.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.GA.OneEngine.HighWing.Taildragger" Base="FixedWing.GA">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.GA.TwinEngine.LowWing.Tricycle" Base="FixedWing.GA">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.GA.Jet" Base="FixedWing.GA">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.GA.TwinJet.Tail" Base="FixedWing.GA.Jet">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Heavy" Base="Core.FixedWing">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Heavy.Jet" Base="FixedWing.Heavy">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Heavy.Jet.ThreeEngines" Base="FixedWing.Heavy.Jet">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Heavy.Jet.FourEngines" Base="FixedWing.Heavy.Jet">
+	</DefaultProperties>
+
+	<!-- US Civilian GA aircraft -->
+
+	<DefaultProperties Id="FixedWing.C172" Base="FixedWing.GA.OneEngine.HighWing.Tricycle">
+		<Criteria>
+			<Name>C172</Name>
+			<Name>Cessna 172</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C172</ShortName>
+			<LongName>C172 Skyhawk</LongName>
+			<FullName>Cessna 172</FullName>
+			<Shape>FixedWing.C172.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C172S" Base="FixedWing.C172">
+		<Criteria>
+			<Name>C172S</Name>
+			<Name>C172SP</Name>
+			<Name>Cessna 172S</Name>
+			<Name>Cessna 172SP</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C172S</ShortName>		<!-- SP is the marketing name, S is the real name -->
+			<LongName>C172S Skyhawk</LongName>
+			<FullName>Cessna 172S Skyhawk</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C190" Base="FixedWing.GA.OneEngine.HighWing.Taildragger">
+		<Criteria>
+			<Name>C190</Name>
+			<Name>Cessna 190</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C190</ShortName>
+			<LongName>C190 Businessliner</LongName>
+			<FullName>Cessna 190 Businessliner</FullName>
+			<Shape>FixedWing.C195.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C195" Base="FixedWing.C190">
+		<Criteria>
+			<Name>C195</Name>
+			<Name>Cessna 195</Name>
+			<Name>Alabeo_C195</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C195</ShortName>
+			<LongName>C195 Businessliner</LongName>
+			<FullName>Cessna 195 Businessliner</FullName>
+			<Shape>FixedWing.C195.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.DA20" Base="FixedWing.GA.OneEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>DA20</Name>
+			<Name>DA20 Katana</Name>
+			<Name>Diamond DA20</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>DA20</ShortName>
+			<LongName>DA20 Katana</LongName>
+			<FullName>Diamond DA20 Katana</FullName>
+			<Shape>FixedWing.DA20.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.G550" Base="FixedWing.GA.TwinJet.Tail">
+		<Criteria>
+			<Name>G550</Name>
+			<Name>Gulfstream G550</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>G550</ShortName>
+			<LongName>Gulfstream G550</LongName>
+			<FullName>Gulfstream G550</FullName>
+			<Shape>FixedWing.G550.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.PA-28" Base="FixedWing.GA.OneEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>PA-28</Name>
+			<Name>PA-28 Cherokee</Name>
+			<Name>Piper PA-28</Name>
+			<Name>Cherokee</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PA-28</ShortName>
+			<LongName>PA-28 Cherokee</LongName>
+			<FullName>Piper PA-28 Cherokee</FullName>
+			<Shape>FixedWing.PA-28-180.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.PA-28-140" Base="FixedWing.PA-28">
+		<Criteria>
+			<Name>PA-28-140</Name>
+			<Name>PA-28-140 Cherokee</Name>
+			<Name>Piper PA-28-140</Name>
+			<Name>Cherokee 140</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PA-28</ShortName>
+			<LongName>PA-28-140 Cherokee</LongName>
+			<FullName>Piper PA-28-140 Cherokee</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.PA-28-180" Base="FixedWing.PA-28">
+		<Criteria>
+			<Name>PA-28-180</Name>
+			<Name>PA-28-180 Cherokee</Name>
+			<Name>Piper PA-28-180</Name>
+			<Name>Cherokee 180</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PA-28</ShortName>
+			<LongName>PA-28-180 Cherokee</LongName>
+			<FullName>Piper PA-28-180 Cherokee</FullName>
+			<Shape>FixedWing.PA-28-180.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.PA-31" Base="FixedWing.GA.TwinEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>PA-31</Name>
+			<Name>PA-31 Navajo</Name>
+			<Name>Piper PA-31</Name>
+			<Name>Car_PA31</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PA-31</ShortName>
+			<LongName>PA-31 Navajo</LongName>
+			<FullName>Piper PA-31 Navajo</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.RV-6" Base="FixedWing.GA.OneEngine.LowWing.Taildragger">
+		<Criteria>
+			<Name>RV-6</Name>
+			<Name>Van's RV-6</Name>
+			</Criteria>
+		<Properties>
+			<ShortName>RV-6</ShortName>
+			<LongName>Van's RV-6</LongName>
+			<FullName>Van's RV-6</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.RV-6A" Base="FixedWing.RV-6">
+		<Criteria>
+			<Name>RV-6A</Name>
+			<Name>Van's RV-6A</Name>
+			</Criteria>
+		<Properties>
+			<ShortName>RV-6A</ShortName>
+			<LongName>Van's RV-6A</LongName>
+			<FullName>Van's RV-6A</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.RV-7" Base="FixedWing.RV-6">
+		<Criteria>
+			<Name>RV-7</Name>
+			<Name>Van's RV-7</Name>
+			</Criteria>
+		<Properties>
+			<ShortName>RV-7</ShortName>
+			<LongName>Van's RV-7</LongName>
+			<FullName>Van's RV-7</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.RV-7A" Base="FixedWing.RV-6A">
+		<Criteria>
+			<Name>RV-7A</Name>
+			<Name>Van's RV-7A</Name>
+			</Criteria>
+		<Properties>
+			<ShortName>RV-7A</ShortName>
+			<LongName>Van's RV-7A</LongName>
+			<FullName>Van's RV-7A</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.V35" Base="FixedWing.GA.OneEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>V35</Name>
+			<Name>Bonanza V35</Name>
+			</Criteria>
+		<Properties>
+			<ShortName>V35</ShortName>
+			<LongName>Bonanza V35</LongName>
+			<FullName>Beechcraft Bonanza V35</FullName>
+			<Shape>FixedWing.V35.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.V35B" Base="FixedWing.V35">
+		<Criteria>
+			<Name>V35B</Name>
+			<Name>Bonanza V35B</Name>
+			<Name>Car_Bonanza</Name>
+			</Criteria>
+		<Properties>
+			<ShortName>V35B</ShortName>
+			<LongName>Bonanza V35B</LongName>
+			<FullName>Beechcraft Bonanza V35B</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- EU Civilian fixed-wing aircraft -->
+
+	<DefaultProperties Id="FixedWing.DR400" Base="FixedWing.GA.OneEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>DR400</Name>
+			<Name>Robin DR400</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>DR400</ShortName>
+			<LongName>Robin DR400</LongName>
+			<FullName>Robin DR400</FullName>
+			<Shape>FixedWing.DR400.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Ju 52" Base="FixedWing.GA.TwinEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>Ju 52</Name>
+			<Name>Junkers Ju 52</Name>
+			<Name>Tante Ju</Name>
+			<Name>Aunt Ju</Name>
+			<Name>Iron Annie</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Ju 52</ShortName>
+			<LongName>Ju 52/3m</LongName>
+			<FullName>Junkers Ju 52/3m Tante Ju</FullName>
+			<Shape>FixedWing.Ju 52.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- US Civilian Heavy aircraft -->
+
+	<DefaultProperties Id="FixedWing.DC-10" Base="FixedWing.Heavy.Jet.ThreeEngines">
+		<Criteria>
+			<Name>DC-10</Name>
+			<Name>McDonnell Douglas DC-1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>DC-10</ShortName>
+			<LongName>DC-10</LongName>
+			<FullName>McDonnell Douglas DC-10</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B707" Base="FixedWing.Heavy.Jet.FourEngines">
+		<Criteria>
+			<Name>B707</Name>
+			<Name>Boeing 707</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B707</ShortName>
+			<LongName>Boeing 707</LongName>
+			<FullName>Boeing 707</FullName>
+			<Shape>FixedWing.B707-300B.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B707-300" Base="FixedWing.B707">
+		<Criteria>
+			<Name>B707-300</Name>
+			<Name>B707-320</Name>
+			<Name>Boeing 707-300</Name>
+			<Name>Boeing 707-320</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B707-300</ShortName>
+			<LongName>Boeing 707-300</LongName>
+			<FullName>Boeing 707-300</FullName>
+			<Shape>FixedWing.B707-300B.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B707-300B" Base="FixedWing.B707-300">
+		<Criteria>
+			<Name>B707-300B</Name>
+			<Name>B707-320B</Name>
+			<Name>Boeing 707-300B</Name>
+			<Name>Boeing 707-320B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B707-300B</ShortName>
+			<LongName>Boeing 707-300B</LongName>
+			<FullName>Boeing 707-300B</FullName>
+			<Shape>FixedWing.B707-300B.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+</DefaultPropertiesCollection>

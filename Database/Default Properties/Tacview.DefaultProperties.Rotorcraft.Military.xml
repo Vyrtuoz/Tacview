@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.1">
+
+	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
+	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+
+	<!-- Core Declarations -->
+
+	<DefaultProperties Id="Rotorcraft.Attack" Base="Core.Rotorcraft">
+		<Properties>
+			<Shape>Rotorcraft.AH-64.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- US Military Helicopters -->
+
+	<DefaultProperties Id="Rotorcraft.AH-64" Base="Rotorcraft.Attack">
+		<Criteria>
+			<Name>Apache</Name>
+			<Name>AH-64</Name>
+			<Name>AH-64 Apache</Name>
+			<Name>Boeing AH-64</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AH-64</ShortName>
+			<LongName>AH-64 Apache</LongName>
+			<FullName>Boeing AH-64 Apache</FullName>
+			<Shape>Rotorcraft.AH-64.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.AH-64A" Base="Rotorcraft.AH-64">
+		<Criteria>
+			<Name>AH-64A</Name>
+			<Name>AH-64A Apache</Name>
+			<Name>Boeing AH-64A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AH-64A</ShortName>
+			<LongName>AH-64A Apache</LongName>
+			<FullName>Boeing AH-64A Apache</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.AH-64D" Base="Rotorcraft.AH-64A">
+		<Criteria>
+			<Name>Apache Longbow</Name>
+			<Name>AH-64D</Name>
+			<Name>AH-64D Apache Longbow</Name>
+			<Name>Boeing AH-64D</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AH-64D</ShortName>
+			<LongName>AH-64D Apache Longbow</LongName>
+			<FullName>Boeing AH-64D Apache Longbow</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.Airwolf" Base="Rotorcraft.Bell 222">
+		<Criteria>
+			<Name>Airwolf</Name>
+			<Type>Air</Type>		<!-- Sometimes exported as FixedWing -->
+		</Criteria>
+		<Properties>
+			<ShortName>Airwolf</ShortName>
+			<LongName>Airwolf</LongName>
+			<FullName>Airwolf</FullName>
+			<Shape>Rotorcraft.Airwolf.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.UH-1" Base="Rotorcraft.Transport">
+		<Criteria>
+			<Name>Iroquois</Name>
+			<Name>Huey</Name>
+			<Name>UH-1</Name>
+			<Name>Bell UH-1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>UH-1</ShortName>
+			<LongName>UH-1 Huey</LongName>
+			<FullName>Bell UH-1 Huey</FullName>
+			<Shape>Rotorcraft.UH-1.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.UH-1H" Base="Rotorcraft.UH-1">
+		<Criteria>
+			<Name>UH-1H</Name>
+			<Name>Bell UH-1H</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>UH-1H</ShortName>
+			<LongName>UH-1H Huey</LongName>
+			<FullName>Bell UH-1H Huey</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.UH-60" Base="Rotorcraft.Transport">
+		<Criteria>
+			<Name>UH-60</Name>
+			<Name>UH-60 Black Hawk</Name>
+			<Name>Sikorsky UH-60</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>UH-60</ShortName>
+			<LongName>UH-60 Black Hawk</LongName>
+			<FullName>Sikorsky UH-60 Black Hawk</FullName>
+			<Shape>Rotorcraft.UH-60.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.UH-60A" Base="Rotorcraft.UH-60">
+		<Criteria>
+			<Name>UH-60A</Name>
+			<Name>UH-60A Black Hawk</Name>
+			<Name>Sikorsky UH-60A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>UH-60A</ShortName>
+			<LongName>UH-60A Black Hawk</LongName>
+			<FullName>Sikorsky UH-60A Black Hawk</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.UH-60L" Base="Rotorcraft.UH-60A">
+		<Criteria>
+			<Name>UH-60L</Name>
+			<Name>UH-60L Black Hawk</Name>
+			<Name>Sikorsky UH-60L</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>UH-60L</ShortName>
+			<LongName>UH-60L Black Hawk</LongName>
+			<FullName>Sikorsky UH-60L Black Hawk</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.Blue Thunder" Base="Rotorcraft.SA341G">
+		<Criteria>
+			<Name>Blue Thunder</Name>
+			<Name>Tonnerre de feu</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Blue Thunder</ShortName>
+			<LongName>Blue Thunder</LongName>
+			<FullName>Blue Thunder</FullName>
+			<Shape>Rotorcraft.Blue Thunder.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.OH-58" Base="Rotorcraft.Bell 206">
+		<Criteria>
+			<Name>Kiowa</Name>
+			<Name>OH-58</Name>
+			<Name>Bell OH-58</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>OH-58</ShortName>
+			<LongName>OH-58 Kiowa</LongName>
+			<FullName>Bell OH-58 Kiowa</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.OH-58D" Base="Rotorcraft.OH-58">
+		<Criteria>
+			<Name>OH-58D</Name>
+			<Name>Bell OH-58D</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>OH-58D</ShortName>
+			<LongName>OH-58D Kiowa</LongName>
+			<FullName>Bell OH-58 KiowaD</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.SH-60" Base="Rotorcraft.UH-60">
+		<Criteria>
+			<Name>SH-60</Name>
+			<Name>SH-60 Seahawk</Name>
+			<Name>Sikorsky SH-60</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SH-60</ShortName>
+			<LongName>SH-60 Seahawk</LongName>
+			<FullName>Sikorsky SH-60 Seahawk</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.SH-60B" Base="Rotorcraft.SH-60">
+		<Criteria>
+			<Name>SH-60B</Name>
+			<Name>SH-60B Seahawk</Name>
+			<Name>Sikorsky SH-60B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SH-60B</ShortName>
+			<LongName>SH-60B Seahawk</LongName>
+			<FullName>Sikorsky SH-60B Seahawk</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- EU Military Helicopters -->
+
+	<DefaultProperties Id="Rotorcraft.SA342" Base="Rotorcraft.SA341">
+		<Criteria>
+			<Name>SA 342</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA342</ShortName>
+			<LongName>SA 342 Gazelle</LongName>
+			<FullName>Aérospatiale SA 342 Gazelle</FullName>
+			<Shape>Rotorcraft.SA 342M.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.SA342M" Base="Rotorcraft.SA342">
+		<Criteria>
+			<Name>SA 342M</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA342M</ShortName>
+			<LongName>SA 342M Gazelle</LongName>
+			<FullName>Aérospatiale SA 342M Gazelle</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.SA342L" Base="Rotorcraft.SA342">
+		<Criteria>
+			<Name>SA 342L</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA342L</ShortName>
+			<LongName>SA 342L Gazelle</LongName>
+			<FullName>Aérospatiale SA 342L Gazelle</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.Tiger" Base="Rotorcraft.Attack">
+		<Criteria>
+			<Name>Tiger</Name>
+			<Name>Eurocopter Tiger</Name>
+			<Name>Tigre</Name>
+			<Name>Eurocopter Tigre</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Tiger</ShortName>
+			<LongName>Eurocopter Tiger</LongName>
+			<FullName>Eurocopter Tiger</FullName>
+			<Shape>Rotorcraft.Tiger.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Eastern Military Helicopters -->
+
+	<DefaultProperties Id="Rotorcraft.Ka-50" Base="Rotorcraft.Attack">
+		<Criteria>
+			<Name>Ka-50</Name>
+			<Name>Ka-50 Black Shark</Name>
+			<Name>Black Shark</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Ka-50</ShortName>
+			<LongName>Ka-50 Black Shark</LongName>
+			<FullName>Kamov Ka-50 Black Shark</FullName>
+			<Shape>Rotorcraft.Ka-50.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.Mi-8" Base="Rotorcraft.Transport">
+		<Criteria>
+			<Name>Mi-8</Name>
+			<Name>Mil Mi-8</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mi-8</ShortName>
+			<LongName>Mi-8 Hip</LongName>
+			<FullName>Mil Mi-8 Hip</FullName>
+			<Shape>Rotorcraft.Mi-8.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.Mi-8MT" Base="Rotorcraft.Mi-8">
+		<Criteria>
+			<Name>Mi-8MT</Name>
+			<Name>Mil Mi-8MT</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mi-8MT</ShortName>
+			<LongName>Mi-8MT Hip</LongName>
+			<FullName>Mil Mi-8MT Hip</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.Mi-24" Base="Rotorcraft.Attack">
+		<Criteria>
+			<Name>Mi-24</Name>
+			<Name>Mi-24 Hind</Name>
+			<Name>Hind</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mi-24</ShortName>
+			<LongName>Mi-24 Hind</LongName>
+			<FullName>Mil Mi-24 Hind</FullName>
+			<Shape>Rotorcraft.Mi-24.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.Mi-24V" Base="Rotorcraft.Mi-24">
+		<Criteria>
+			<Name>Mi-24V Hind-E</Name>
+			<Name>Mi-24V</Name>
+			<Name>Mi-24W</Name>	<!-- Polish designation -->
+			<Name>Hind-E</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mi-24V</ShortName>
+			<LongName>Mi-24V Hind-E</LongName>
+			<FullName>Mil Mi-24V Hind-E</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.Mi-24P" Base="Rotorcraft.Mi-24">
+		<Criteria>
+			<Name>Mi-24P</Name>
+			<Name>Mi-24P Hind</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mi-24P</ShortName>
+			<LongName>Mi-24P Hind-F</LongName>
+			<FullName>Mil Mi-24P Hind-F</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.Mi-28" Base="Rotorcraft.Attack">
+		<Criteria>
+			<Name>Mi-28</Name>
+			<Name>Mil Mi-28</Name>
+			<Name>Havoc</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mi-28</ShortName>
+			<LongName>Mi-28 Havoc</LongName>
+			<FullName>Mil Mi-28 Havoc</FullName>
+			<Shape>Rotorcraft.Mi-28.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.Mi-28N" Base="Rotorcraft.Mi-28">
+		<Criteria>
+			<Name>Mi-28N</Name>
+			<Name>Mil Mi-28N</Name>
+			<Name>Havoc</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mi-28N</ShortName>
+			<LongName>Mi-28N Havoc</LongName>
+			<FullName>Mil Mi-28N Havoc</FullName>
+		</Properties>
+	</DefaultProperties>
+
+</DefaultPropertiesCollection>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.1">
+
+	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
+	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+
+	<!-- Core Declarations -->
+
+	<DefaultProperties Id="Other.Infantry" Base="Core.Infantry">
+		<Criteria>
+			<Name>Infantry</Name>
+		</Criteria>
+	</DefaultProperties>
+
+	<!-- Military Infantry -->
+
+	<DefaultProperties Id="Other.Parachutist.WithoutName" Base="Core.Infantry">
+		<Criteria>
+			<Name>*</Name>
+			<Type>Parachutist</Type>
+		</Criteria>
+		<Properties>
+			<Shape>Other.Parachutist.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Other.Parachutist" Base="Other.Parachutist.WithoutName">
+		<Criteria>
+			<Name>Parachutist</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Parachutist</ShortName>
+			<LongName>Parachutist</LongName>
+			<FullName>Parachutist</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- US Infantry -->
+
+	<DefaultProperties Id="Other.M-16" Base="Core.Infantry">
+		<Criteria>
+			<Name>M16</Name>
+			<Name>M-16</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M-16</ShortName>
+			<LongName>M-16 Infantry</LongName>
+			<FullName>M-16 Infantry</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Other.M47" Base="Core.Infantry">
+		<Criteria>
+			<Name>M47 Dragon</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M47</ShortName>
+			<LongName>M47 Dragon</LongName>
+			<FullName>M47 Dragon</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Other.Lt.Mtr" Base="Core.Infantry">
+		<Criteria>
+			<Name>Lt. Mtr</Name>	<!-- BMS Israel -->
+		</Criteria>
+		<Properties>
+			<ShortName>Infantry</ShortName>
+			<LongName>Lt. Mtr</LongName>
+			<FullName>Lieutenant Master</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Eastern Infantry -->
+
+	<DefaultProperties Id="Other.AK-47" Base="Core.Infantry">
+		<Criteria>
+			<Name>AK47</Name>
+			<Name>AK-47</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AK-47</ShortName>
+			<LongName>AK-47 Infantry</LongName>
+			<FullName>AK-47 Infantry</FullName>
+		</Properties>
+	</DefaultProperties>
+
+</DefaultPropertiesCollection>

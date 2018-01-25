@@ -3,12 +3,28 @@
 
 	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
 	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+	<!-- BMS Threats https://www.scribd.com/doc/136594996/FALCON-4-0-Quick-Threat-Guide -->
 
 	<!--
 		<DetectionRange> could be supported in a future update.
 	-->
 
-	<!-- SAM / AAA combined -->
+	<!-- Core Declarations -->
+
+	<DefaultProperties Id="AntiAircraft.Infantry" Base="Core.AntiAircraft">
+		<Properties>
+			<Shape>AntiAircraft.SAM.Manpad.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.Support.Infantry" Base="AntiAircraft.Infantry">
+		<Properties>
+			<Shape>Core.Infantry.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.Support.Truck" Base="Vehicle.Military.Truck">
+	</DefaultProperties>
 
 	<DefaultProperties Id="AntiAircraft.SAM" Base="Core.AntiAircraft">
 	</DefaultProperties>
@@ -16,6 +32,618 @@
 	<DefaultProperties Id="AntiAircraft.SAM.Manpad" Base="AntiAircraft.SAM">
 		<Properties>
 			<Shape>AntiAircraft.SAM.Manpad.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.AAA" Base="AntiAircraft.SAM">
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.Control" Base="AntiAircraft.SAM">
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.Control.Truck" Base="Vehicle.Military.Truck">
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SearchRadar" Base="AntiAircraft.SAM">
+		<Properties>
+			<Shape>AntiAircraft.SAM.SA-10.76N6.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SearchRadar.Truck" Base="Vehicle.Military.Truck">
+		<Properties>
+			<Shape>AntiAircraft.SAM.SA-10.76N6.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.TrackingRadar" Base="AntiAircraft.SAM">
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SearchAndTrackingRadar" Base="AntiAircraft.SAM">
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.Launcher" Base="AntiAircraft.SAM">
+	</DefaultProperties>
+
+	<!-- US SAM -->
+
+	<DefaultProperties Id="AntiAircraft.SAM.AN/TWQ-1" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>M1097 Avenger</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AN/TWQ-1</ShortName>
+			<LongName>AN/TWQ-1 Avenger</LongName>
+			<FullName>AN/TWQ-1 Avenger</FullName>
+			<EngagementRange>7000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.M6" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>M6 BL</Name>			<!-- BMS Israel (Typo?) -->
+			<Name>M6 Linebacker</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M6</ShortName>
+			<LongName>M6 Linebacker</LongName>
+			<FullName>M6 Linebacker</FullName>
+			<EngagementRange>4250</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.MIM-72" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>M48 Chaparral</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MIM-72</ShortName>
+			<LongName>MIM-72 Chaparral</LongName>
+			<FullName>MIM-72 Chaparral</FullName>
+			<EngagementRange>4250</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.FIM-92.Launcher" Base="AntiAircraft.SAM.Manpad">
+		<Criteria>
+			<Name>Soldier stinger</Name>	<!-- DCS World 2.2 -->
+			<Name>Stinger Sqd</Name>		<!-- BMS -->
+			<Name>FIM-92</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>FIM-92</ShortName>
+			<LongName>FIM-92 Stinger</LongName>
+			<FullName>FIM-92 Stinger</FullName>
+			<EngagementRange>3800</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.FIM-92.Launcher.Infantry" Base="AntiAircraft.SAM.FIM-92.Launcher">
+		<Criteria>
+			<Name>Stinger Sqd</Name>		<!-- BMS -->
+			<Type>Infantry</Type>
+		</Criteria>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.FIM-92.Support" Base="AntiAircraft.Infantry">
+		<Criteria>
+			<Name>Stinger comm</Name>		<!-- DCS World 2.2 -->
+		</Criteria>
+		<Properties>
+			<ShortName>Infantry</ShortName>
+			<LongName>FIM-92 Support</LongName>
+			<FullName>FIM-92 Support</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.MIM-104.AN/MPQ-53" Base="AntiAircraft.SAM.SearchAndTrackingRadar">
+		<Criteria>
+			<Name>Patriot str</Name>		<!-- DCS World 2.2 -->
+			<Name>AN/MPQ-53</Name>			<!-- BMS -->
+		</Criteria>
+		<Properties>
+			<ShortName>MIM-104 Patriot</ShortName>
+			<LongName>MIM-104 Patriot (AN/MPQ-53 STR)</LongName>
+			<FullName>MIM-104 Patriot (AN/MPQ-53 Search &amp; Tracking Radar)</FullName>
+			<EngagementRange>90000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.MIM-104.AN/MSQ-104" Base="AntiAircraft.SAM.Control.Truck">
+		<Criteria>
+			<Name>Patriot cp</Name>		<!-- DCS World 2.2 -->
+		</Criteria>
+		<Properties>
+			<ShortName>MIM-104 Patriot</ShortName>
+			<LongName>MIM-104 Patriot (AN/MSQ-104)</LongName>
+			<FullName>MIM-104 Patriot (AN/MSQ-104 Control)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.MIM-104.EPP" Base="AntiAircraft.Support.Truck">
+		<Criteria>
+			<Name>Patriot EPP</Name>		<!-- DCS World 2.2 -->
+		</Criteria>
+		<Properties>
+			<ShortName>MIM-104 Patriot</ShortName>
+			<LongName>MIM-104 Patriot (EPP)</LongName>
+			<FullName>MIM-104 Patriot (EPP Control)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.MIM-104.ECS" Base="AntiAircraft.SAM.Control">
+		<Criteria>
+			<Name>Patriot ECS</Name>	<!-- DCS World 2.2 -->
+		</Criteria>
+		<Properties>
+			<ShortName>MIM-104 Patriot</ShortName>
+			<LongName>MIM-104 Patriot (ECS)</LongName>
+			<FullName>MIM-104 Patriot (ECS Control)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.MIM-104.M901" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>M901</Name>
+			<Name>Patriot ln</Name>		<!-- DCS World 2.2 -->
+			<Name>Patriot ADS</Name>	<!-- BMS Israel -->
+		</Criteria>
+		<Properties>
+			<ShortName>MIM-104 Patriot</ShortName>
+			<LongName>MIM-104 Patriot (M901 LN)</LongName>
+			<FullName>MIM-104 Patriot (M901 Launcher)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.MIM-104.AMG" Base="AntiAircraft.SAM.SearchRadar.Truck">
+		<Criteria>
+			<Name>Patriot AMG</Name>	<!-- DCS World 2.2 -->
+		</Criteria>
+		<Properties>
+			<ShortName>MIM-104 Patriot</ShortName>
+			<LongName>MIM-104 Patriot (AMG SR)</LongName>
+			<FullName>MIM-104 Patriot (AMG Search Radar)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.MIM-23.AN/MPQ-46" Base="AntiAircraft.SAM.TrackingRadar">
+		<Criteria>
+			<Name>Hawk tr</Name>		<!-- DCS World 2.2 -->
+		</Criteria>
+		<Properties>
+			<ShortName>MIM-23 Hawk</ShortName>
+			<LongName>MIM-23 Hawk (AN/MPQ-46 TR)</LongName>
+			<FullName>MIM-23 Hawk (AN/MPQ-46 Tracking Radar)</FullName>
+			<EngagementRange>45000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.MIM-23.M192" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>Hawk ln</Name>		<!-- DCS World 2.2 -->
+		</Criteria>
+		<Properties>
+			<ShortName>MIM-23 Hawk</ShortName>
+			<LongName>MIM-23 Hawk (M192 LN)</LongName>
+			<FullName>MIM-23 Hawk (M192 Launcher)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.MIM-23.AN/MPQ-50" Base="AntiAircraft.SAM.SearchRadar">
+		<Criteria>
+			<Name>Hawk sr</Name>		<!-- DCS World 2.2 -->
+		</Criteria>
+		<Properties>
+			<ShortName>MIM-23 Hawk</ShortName>
+			<LongName>MIM-23 Hawk (AN/MPQ-50 SR)</LongName>
+			<FullName>MIM-23 Hawk (AN/MPQ-50 Search Radar)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.MIM-23.CWAR" Base="AntiAircraft.SAM.SearchRadar">
+		<Criteria>
+			<Name>Hawk cwar</Name>		<!-- DCS World 2.2 -->
+		</Criteria>
+		<Properties>
+			<ShortName>MIM-23 Hawk</ShortName>
+			<LongName>MIM-23 Hawk (CWAR SR)</LongName>
+			<FullName>MIM-23 Hawk (CWAR Search Radar)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.MIM-23.PCP" Base="AntiAircraft.SAM.Control">
+		<Criteria>
+			<Name>Hawk pcp</Name>		<!-- DCS World 2.2 -->
+		</Criteria>
+		<Properties>
+			<ShortName>MIM-23 Hawk</ShortName>
+			<LongName>MIM-23 Hawk (PCP CT)</LongName>
+			<FullName>MIM-23 Hawk (PCP Control)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- European SAM -->
+
+	<DefaultProperties Id="AntiAircraft.SAM.Mistral.Launcher" Base="AntiAircraft.SAM.Manpad">
+		<Criteria>
+			<Name>Mistral-V</Name>			<!-- BMS Israel -->
+		</Criteria>
+		<Properties>
+			<ShortName>Mistral-V</ShortName>
+			<LongName>Mistral-V</LongName>
+			<FullName>Mistral-V</FullName>
+			<EngagementRange>4000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.Mistral.BMS" Base="AntiAircraft.SAM.Mistral.Launcher">
+		<Criteria>
+			<Name>Mistral-V</Name>			<!-- BMS Israel -->
+			<Type>Ground+Infantry</Type>
+		</Criteria>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.Roland ADS" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>Roland ADS</Name>		<!-- DCS World -->
+		</Criteria>
+		<Properties>
+			<ShortName>Roland ADS</ShortName>
+			<LongName>Roland ADS</LongName>
+			<FullName>Roland ADS</FullName>
+			<EngagementRange>5500</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.Roland Radar" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>Roland Radar</Name>		<!-- DCS World -->
+		</Criteria>
+		<Properties>
+			<ShortName>Roland Radar</ShortName>
+			<LongName>Roland Radar</LongName>
+			<FullName>Roland Radar</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Eastern SAM -->
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-2.SR" Base="AntiAircraft.SAM.SearchRadar">
+		<Criteria>
+			<Name>Spoon Rest</Name>		<!-- BMS -->
+		</Criteria>
+		<Properties>
+			<ShortName>SA-2</ShortName>
+			<LongName>SA-2 Guideline (SR)</LongName>
+			<FullName>SA-2 Guideline (S-75 P-12 Spoon Rest Search Radar)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-2.LN" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>SA-2</Name>		<!-- BMS -->
+		</Criteria>
+		<Properties>
+			<ShortName>SA-2</ShortName>
+			<LongName>SA-2 Guideline (LN)</LongName>
+			<FullName>SA-2 Guideline (S-75 Launcher)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-2.TR" Base="AntiAircraft.SAM.TrackingRadar">
+		<Criteria>
+			<Name>SNR-75</Name>
+			<Name>Fan Song E</Name>		<!-- BMS -->
+		</Criteria>
+		<Properties>
+			<ShortName>SA-2</ShortName>
+			<LongName>SA-2 Guideline (Fan Song E TR)</LongName>
+			<FullName>SA-2 Guideline (SNR-75 Fan Song E Tracking Radar)</FullName>
+			<EngagementRange>22000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-3.P-19" Base="AntiAircraft.SAM.SearchRadar">
+		<Criteria>
+			<Name>P-19 s-125 sr</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-3</ShortName>
+			<LongName>SA-3 Goa (SR)</LongName>
+			<FullName>SA-3 Goa (S-125 P-19 Search Radar)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-3.5P73" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>SA-3</Name>		<!-- BMS -->
+			<Name>5P73</Name>
+			<Name>5p73 s-125 ln</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-3</ShortName>
+			<LongName>SA-3 Goa (LN)</LongName>
+			<FullName>SA-3 Goa (S-125 5P73 Launcher)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-3.TR" Base="AntiAircraft.SAM.TrackingRadar">
+		<Criteria>
+			<Name>snr s-125 tr</Name>
+			<Name>Low Blow</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-3</ShortName>
+			<LongName>SA-3 Goa (TR Low Blow)</LongName>
+			<FullName>SA-3 Goa (S-125 Low Blow Tracking Radar)</FullName>
+			<EngagementRange>14000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-5.P-37" Base="AntiAircraft.SAM.SearchRadar">
+		<Criteria>
+			<Name>Bar Lock B</Name>
+			<Name>Barlock-B</Name>			<!-- BMS Israel -->
+		</Criteria>
+		<Properties>
+			<ShortName>SA-5</ShortName>
+			<LongName>SA-5 Gammon (SR)</LongName>
+			<FullName>SA-5 Gammon (P-37 Bar Lock B Search Radar)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-5.Launcher" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>SA-5</Name>				<!-- BMS Israel -->
+		</Criteria>
+		<Properties>
+			<ShortName>SA-5</ShortName>
+			<LongName>SA-5 Gammon (LN)</LongName>
+			<FullName>SA-5 Gammon (Launcher)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-5.5N62" Base="AntiAircraft.SAM.TrackingRadar">
+		<Criteria>
+			<Name>Square Pair</Name>		<!-- BMS Israel -->
+			<Name>5N62</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-5</ShortName>
+			<LongName>SA-5 Gammon (TR)</LongName>
+			<FullName>SA-5 Gammon (5N62 Square Pair Tracking Radar)</FullName>
+			<EngagementRange>180000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-6.1S91" Base="AntiAircraft.SAM.SearchAndTrackingRadar">
+		<Criteria>
+			<Name>Straight Flush</Name>		<!-- BMS Israel -->
+			<Name>1S91</Name>
+			<Name>Kub 1S91 str</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-6</ShortName>
+			<LongName>SA-6 Gainful (STR)</LongName>
+			<FullName>SA-6 Gainful (1S91 Straight Flush Search &amp; Tracking Radar)</FullName>
+			<EngagementRange>35000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-6.2P25" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>SA-6</Name>				<!-- BMS Israel -->
+			<Name>2P25</Name>
+			<Name>Kub 2P25 ln</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-6</ShortName>
+			<LongName>SA-6 Gainful (LN)</LongName>
+			<FullName>SA-6 Gainful (2P25 Launcher)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-7.9K32" Base="AntiAircraft.SAM.Manpad">
+		<Criteria>
+			<Name>SA-7</Name>
+			<Name>9K32</Name>
+			<Name>Strela-2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-7</ShortName>
+			<LongName>SA-7 Grail</LongName>
+			<FullName>SA-7 Grail (9K32 Strela-2)</FullName>
+			<EngagementRange>4200</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-7.BMS" Base="AntiAircraft.SAM.SA-7.9K32">
+		<Criteria>
+			<Name>SA-7</Name>
+			<Type>Ground+Infantry</Type>
+		</Criteria>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-8.9K33" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>SA-8</Name>
+			<Name>SA-8 Gecko</Name>
+			<Name>Osa 9A33</Name>		<!-- DCS World 2.2 -->
+		</Criteria>
+		<Properties>
+			<ShortName>SA-8</ShortName>
+			<LongName>SA-8 Gecko</LongName>
+			<FullName>SA-8 Gecko (9K33 Osa)</FullName>
+			<EngagementRange>16000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-9.9K31" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>9P31</Name>
+			<Name>Strela-1 9P31</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-9</ShortName>
+			<LongName>SA-9 Gaskin</LongName>
+			<FullName>SA-9 Gaskin (9K31 Strela-1)</FullName>
+			<EngagementRange>4200</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-10.54K6" Base="AntiAircraft.SAM.Control">
+		<Criteria>
+			<Name>S-300PS 54K6 cp</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-10</ShortName>
+			<LongName>SA-10 Grumble (CP)</LongName>
+			<FullName>SA-10 Grumble (S-300PS 54K6 Control)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-10.40B6MD" Base="AntiAircraft.SAM.SearchRadar">
+		<Criteria>
+			<Name>S-300PS 40B6MD sr</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-10</ShortName>
+			<LongName>SA-10 Grumble (SR)</LongName>
+			<FullName>SA-10 Grumble (S-300PS 40B6MD Search Radar)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-10.64H6E" Base="AntiAircraft.SAM.SearchRadar">
+		<Criteria>
+			<Name>S-300PS 64H6E sr</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-10</ShortName>
+			<LongName>SA-10 Grumble (SR)</LongName>
+			<FullName>SA-10 Grumble (S-300PS 64H6E Search Radar)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-10.5P85C" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>S-300PS 5P85C ln</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-10</ShortName>
+			<LongName>SA-10 Grumble (LN)</LongName>
+			<FullName>SA-10 Grumble (S-300PS 5P85C Launcher)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-10.5P85D" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>S-300PS 5P85D ln</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-10</ShortName>
+			<LongName>SA-10 Grumble (LN)</LongName>
+			<FullName>SA-10 Grumble (S-300PS 5P85D Launcher)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-10.40B6M" Base="AntiAircraft.SAM.TrackingRadar">
+		<Criteria>
+			<Name>S-300PS 40B6M tr</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-10</ShortName>
+			<LongName>SA-10 Grumble (TR)</LongName>
+			<FullName>SA-10 Grumble (S-300PS 40B6M Tracking Radar)</FullName>
+			<EngagementRange>50000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-11.9S18M1" Base="AntiAircraft.SAM.SearchRadar">
+		<Criteria>
+			<Name>SA-11 Buk SR 9S18M1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-11</ShortName>
+			<LongName>SA-11 Gadfly (SR)</LongName>
+			<FullName>SA-11 Gadfly (9S18M1 Search Radar)</FullName>
+			<EngagementRange>50000</EngagementRange>		<!-- Must validate which vehicle is the tracking radar for SA-11 -->
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-11.9S470M1" Base="AntiAircraft.SAM.SearchRadar">
+		<Criteria>
+			<Name>SA-11 Buk CC 9S470M1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-11</ShortName>
+			<LongName>SA-11 Gadfly (CC)</LongName>
+			<FullName>SA-11 Gadfly (9S470M1 CC)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-11.9A310M1" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>SA-11 Buk LN 9A310M1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-11</ShortName>
+			<LongName>SA-11 Gadfly (LN)</LongName>
+			<FullName>SA-11 Gadfly (9A310M1 Launcher)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-13.9K35" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>Strela-10M3</Name>		<!-- DCS World 2.2 -->
+		</Criteria>
+		<Properties>
+			<ShortName>SA-13</ShortName>
+			<LongName>SA-13 Gopher</LongName>
+			<FullName>SA-13 Gopher (9K35 Strela-10)</FullName>
+			<EngagementRange>4200</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-14.Launcher" Base="AntiAircraft.SAM.Manpad">
+		<Criteria>
+			<Name>SA-14</Name>
+			<Name>9K34</Name>
+			<Name>Strela-3</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-14</ShortName>
+			<LongName>SA-14 Gremlin</LongName>
+			<FullName>SA-14 Gremlin (9K34 Strela-3)</FullName>
+			<EngagementRange>5500</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-14.BMS" Base="AntiAircraft.SAM.SA-14.Launcher">
+		<Criteria>
+			<Name>SA-14</Name>
+			<Type>Ground+Infantry</Type>
+		</Criteria>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-15.9K330" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>Tor 9A331</Name>		<!-- DCS World 2.2 -->
+		</Criteria>
+		<Properties>
+			<ShortName>SA-15</ShortName>
+			<LongName>SA-15 Gauntlet</LongName>
+			<FullName>SA-15 Gauntlet (9K330 Tor)</FullName>
+			<EngagementRange>17000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-16.Infantry" Base="AntiAircraft.SAM.SA-16">
+		<Criteria>
+			<Name>SA-16</Name>			<!-- BMS -->
+			<Type>Infantry</Type>
+		</Criteria>
+		<Properties>
+			<AdditionalType>AntiAircraft</AdditionalType>
 		</Properties>
 	</DefaultProperties>
 
@@ -28,7 +656,20 @@
 		<Properties>
 			<ShortName>SA-16</ShortName>
 			<LongName>SA-16 Gimlet</LongName>
+			<FullName>SA-16 Gimlet</FullName>
 			<EngagementRange>3000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-17" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>SA-17</Name>		<!-- BMS Israel -->
+		</Criteria>
+		<Properties>
+			<ShortName>SA-17</ShortName>
+			<LongName>SA-17 Grizzly</LongName>
+			<FullName>SA-17 Grizzly (Buk)</FullName>
+			<EngagementRange>32000</EngagementRange>
 		</Properties>
 	</DefaultProperties>
 
@@ -41,7 +682,35 @@
 		<Properties>
 			<ShortName>SA-18</ShortName>
 			<LongName>SA-18 Grouse</LongName>
+			<FullName>SA-18 Grouse</FullName>
 			<EngagementRange>3000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-18.Support" Base="AntiAircraft.Infantry">
+		<Criteria>
+			<Name>SA18 comm</Name>		<!-- DCS World -->
+		</Criteria>
+		<Properties>
+			<ShortName>Infantry</ShortName>
+			<LongName>SA-18 Support</LongName>
+			<FullName>SA-18 Support</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-19" Base="AntiAircraft.SAM.AAA">
+		<Criteria>
+			<Name>SA-19</Name>
+			<Name>SA-19 Grison</Name>
+			<Name>2S6 Tunguska</Name>		<!-- DCS World 2.2 -->
+			<Name>2K22 Tunguska</Name>
+			<Name>Tunguska</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-19</ShortName>
+			<LongName>SA-19 Grison</LongName>
+			<FullName>SA-19 Grison (2S6 Tunguska)</FullName>
+			<EngagementRange>7000</EngagementRange>
 		</Properties>
 	</DefaultProperties>
 
@@ -54,18 +723,7 @@
 		<Properties>
 			<ShortName>SA-24</ShortName>
 			<LongName>SA-24 Grinch</LongName>
-		</Properties>
-	</DefaultProperties>
-
-	<!-- DCS World Specific Aliases -->
-
-	<DefaultProperties Id="AntiAircraft.SAM.SA-18.Support" Base="Vehicle.Infantry">
-		<Criteria>
-			<Name>SA18 comm</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>Infantry</ShortName>
-			<LongName>SA-18 Support</LongName>
+			<FullName>SA-24 Grinch</FullName>
 		</Properties>
 	</DefaultProperties>
 

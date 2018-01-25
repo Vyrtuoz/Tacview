@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.1">
+
+	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
+	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+
+	<!--
+		<DetectionRange> could be supported in a future update.
+	-->
+
+	<!-- Core Declarations -->
+
+	<DefaultProperties Id="AntiAircraft.Radar" Base="Core.AntiAircraft">
+	</DefaultProperties>
+
+	<!-- Eastern Radar -->
+
+	<DefaultProperties Id="AntiAircraft.1L13" Base="AntiAircraft.Radar">
+		<Criteria>
+			<Name>1L13</Name>
+			<Name>1L13 EWR</Name>
+		</Criteria>
+		<Properties>
+			<Name>1L13</Name>
+			<LongName>1L13 Nebo</LongName>
+			<FullName>1L13 Nebo</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.55G6" Base="AntiAircraft.Radar">
+		<Criteria>
+			<Name>55G6</Name>
+			<Name>55G6 EWR</Name>
+		</Criteria>
+		<Properties>
+			<Name>55G6</Name>
+			<LongName>55G6 Nebo</LongName>
+			<FullName>55G6 Nebo</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.DogEar" Base="AntiAircraft.Radar">
+		<Criteria>
+			<Name>Dog Ear radar</Name>
+		</Criteria>
+		<Properties>
+			<Name>Dog Ear</Name>
+			<LongName>Dog Ear Radar</LongName>
+			<FullName>Dog Ear Radar</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.P-15" Base="AntiAircraft.Radar">
+		<Criteria>
+			<Name>Flat Face</Name>		<!-- BMS Israel -->
+		</Criteria>
+		<Properties>
+			<Name>P-15</Name>
+			<LongName>P-15 Flat Face</LongName>
+			<FullName>P-15 Flat Face (1RL13)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+</DefaultPropertiesCollection>

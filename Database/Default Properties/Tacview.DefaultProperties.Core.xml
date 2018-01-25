@@ -23,13 +23,14 @@
 				If no criterion is provided, the corresponding properties will never be matched.
 				This is useful to declare base properties which are referenced by another more complex declaration.
 
-				Type (OPTIONAL)
+				Type (OPTIONAL / SINGLE / INHERITED)
 
-					When provided, all the tags declared must be in the object tags to be a potential match.
+					When provided or inherited, all the tags declared must be in the object tags to be a potential match.
 					Type can be used to make the distinction between conflicting delcarations with the same names (like SA-16 for a launcher and its missile).
-					Only one type can be provided. The last type declared will prevail.
+					Only one type can be provided (The last type declared in the XML file will prevail).
+					To cancel an inherited type, use an empty node <Type/>. However, I do not know yet one we should do that.
 
-				Name (OPTIONAL/MANY)
+				Name (OPTIONAL / MANY)
 
 					When provided, all significative characters must be found in the object name to be a potential match.
 					Some characters like - ( ) are considered as not important and will just increase the matching score without preventing a match from being validated.
@@ -37,11 +38,11 @@
 					You can provide as many potential names (aliases) as required.
 					The special name [*] must be used to objects empty names.
 
-			Properties
+			Properties (INHERITED)
 
 				You can provide as many default values for the object properties as you want.
-				Only the last declaration of each will prevail.
-				Everytime an object lacks a property, the default property value declared here will be used by Tacview.
+				Only the last declaration of each kind will prevail.
+				When a specific property is not declared, the value from the base declaration will be used (and so on).
 
 				AdditionalType (OPTIONAL)
 
@@ -116,6 +117,16 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Core.Plane" Base="Core.FixedWing">
+		<Criteria>
+			<Name>Plane</Name>		<!-- Alias for GPS files -->
+		</Criteria>
+		<Properties>
+			<AdditionalType>Air+FixedWing</AdditionalType>
+			<Shape>Core.FixedWing.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Core.Rotorcraft" Base="Core.Air">
 		<Criteria>
 			<Type>Rotorcraft</Type>
@@ -165,7 +176,7 @@
 			<Name>*</Name>
 		</Criteria>
 		<Properties>
-			<AdditionalType>Watercraft</AdditionalType>
+			<AdditionalType>Sea+Watercraft</AdditionalType>
 			<Shape>Core.Watercraft.obj</Shape>
 		</Properties>
 	</DefaultProperties>
@@ -187,7 +198,7 @@
 			<Name>*</Name>
 		</Criteria>
 		<Properties>
-			<AdditionalType>Missile</AdditionalType>
+			<AdditionalType>Weapon+Missile</AdditionalType>
 			<Shape>Core.Missile.obj</Shape>
 		</Properties>
 	</DefaultProperties>
@@ -199,7 +210,7 @@
 		</Criteria>
 		<Properties>
 			<AdditionalType>Weapon+Rocket</AdditionalType>
-			<Shape>Core.Missile.obj</Shape>
+			<Shape>Rocket.Hydra 70.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -224,7 +235,29 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Core.Building" Base="Core.Default">
+		<Criteria>
+			<Type>Building</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Ground+Static+Building</AdditionalType>
+			<Color>White</Color>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- Specific Types -->
+
+	<DefaultProperties Id="Core.Infantry" Base="Core.Default">
+		<Criteria>
+			<Type>Infantry</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Infantry</AdditionalType>
+			<Shape>Core.Infantry.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="Core.Submarine" Base="Core.Watercraft">
 		<Criteria>
@@ -233,6 +266,18 @@
 		</Criteria>
 		<Properties>
 			<AdditionalType>Sea+Watercraft+Submarine</AdditionalType>
+			<Shape>Watercraft.Ohio.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Core.Shrapnel" Base="Core.Default">
+		<Criteria>
+			<Type>Shrapnel</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Misc+Shrapnel</AdditionalType>
+			<Color>White</Color>
 		</Properties>
 	</DefaultProperties>
 

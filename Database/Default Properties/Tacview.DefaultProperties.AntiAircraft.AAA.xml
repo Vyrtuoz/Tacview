@@ -8,7 +8,7 @@
 		<DetectionRange> could be supported in a future update.
 	-->
 
-	<!-- Anti-Aircraft Artillery -->
+	<!-- Core Declarations -->
 
 	<DefaultProperties Id="AntiAircraft.AAA" Base="Core.AntiAircraft">
 		<Properties>
@@ -16,9 +16,79 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="AntiAircraft.AAA.Radar" Base="Core.AntiAircraft">
+		<Properties>
+			<Shape>AntiAircraft.SAM.SA-10.76N6.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- US Anti-Aircraft Artillery -->
+
+	<DefaultProperties Id="AntiAircraft.M163" Base="AntiAircraft.AAA">
+		<Criteria>
+			<Name>M163</Name>
+			<Name>Vulcan</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Vulcan</ShortName>
+			<LongName>M163 Vulcan</LongName>
+			<FullName>M163 Vulcan Air Defense System</FullName>
+			<EngagementRange>2600</EngagementRange>
+			<Shape>Vehicle.APC.M113.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.K200.AD" Base="AntiAircraft.M163">
+		<Criteria>
+			<Name>K200-AD</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>K200-AD</ShortName>
+			<LongName>K200-AD</LongName>
+			<FullName>K200-AD</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- European Anti-Aircraft Artillery -->
+
+	<DefaultProperties Id="AntiAircraft.Bofors.40" Base="AntiAircraft.AAA">
+		<Criteria>
+			<Name>Bofors 40</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Bofors 40</ShortName>
+			<LongName>Bofors 40</LongName>
+			<FullName>Bofors 40</FullName>
+			<EngagementRange>7160</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.Gepard" Base="AntiAircraft.AAA">
+		<Criteria>
+			<Name>Gepard</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Gepard</ShortName>
+			<LongName>Gepard</LongName>
+			<FullName>Flugabwehrkanonenpanzer Gepard</FullName>
+			<EngagementRange>3000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Eastern Anti-Aircraft Artillery -->
+
+	<DefaultProperties Id="AntiAircraft.ZPU-2" Base="AntiAircraft.AAA">
+		<Criteria>
+			<Name>ZPU-2</Name>
+		</Criteria>
+		<Properties>
+			<EngagementRange>1400</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="AntiAircraft.ZU-23" Base="AntiAircraft.AAA">
 		<Criteria>
-			<Name>ZU23</Name>
+			<Name>ZU-23</Name>
 		</Criteria>
 		<Properties>
 			<EngagementRange>2500</EngagementRange>
@@ -32,6 +102,9 @@
 		</Criteria>
 		<Properties>
 			<ShortName>ZU-23-2</ShortName>
+			<LongName>ZU-23-2</LongName>
+			<FullName>ZU-23-2</FullName>
+			<Shape>AntiAircraft.AAA.ZSU-23-2.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -44,6 +117,7 @@
 		<Properties>
 			<ShortName>ZSU-23-4</ShortName>
 			<LongName>ZSU-23-4 Shilka</LongName>
+			<FullName>ZSU-23-4 Shilka</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -56,7 +130,70 @@
 		</Criteria>
 		<Properties>
 			<ShortName>ZU-23-2</ShortName>
-			<LongName>Ural-375 ZU-23-2</LongName>
+			<LongName>ZU-23-2 (Ural-375)</LongName>
+			<FullName>Ural-375 ZU-23-2</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SON-9" Base="AntiAircraft.AAA.Radar">	<!-- Used by KS-19 -->
+		<Criteria>
+			<Name>SON-9</Name>
+			<Name>Fire Can</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SON-9</ShortName>
+			<LongName>SON-9 Fire Can</LongName>
+			<FullName>SON-9 Fire Can</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.KS-12" Base="AntiAircraft.AAA">
+		<Criteria>
+			<Name>KS-12</Name>
+			<Name>Type-72</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>KS-12</ShortName>
+			<LongName>KS-12</LongName>
+			<FullName>KS-12</FullName>
+			<EngagementRange>4000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.KS-19" Base="AntiAircraft.KS-12">
+		<Criteria>
+			<Name>KS-19</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>KS-19</ShortName>
+			<LongName>KS-19</LongName>
+			<FullName>KS-19</FullName>
+			<EngagementRange>4000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.S-60" Base="AntiAircraft.AAA">
+		<Criteria>
+			<Name>S-60</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>S-60</ShortName>
+			<LongName>S-60</LongName>
+			<FullName>S-60</FullName>
+			<EngagementRange>4000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.M1939" Base="AntiAircraft.AAA">
+		<Criteria>
+			<Name>M1939</Name>
+			<Name>M-1939</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M1939</ShortName>
+			<LongName>M1939</LongName>
+			<FullName>M1939</FullName>
+			<EngagementRange>2500</EngagementRange>
 		</Properties>
 	</DefaultProperties>
 

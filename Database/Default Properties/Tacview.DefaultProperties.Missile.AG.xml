@@ -4,12 +4,17 @@
 	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
 	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
 
-	<!-- Air to Ground Missiles -->
+	<!-- Core Declarations -->
 
 	<DefaultProperties Id="Missile.AG" Base="Core.Missile">
 	</DefaultProperties>
 
-	<DefaultProperties Id="Missile.AG.AT6" Base="Missile.AG">
+	<DefaultProperties Id="Missile.AG.Radio" Base="Missile.AG">
+	</DefaultProperties>
+
+	<!-- Eastern Air to Ground Missiles -->
+
+	<DefaultProperties Id="Missile.AG.AT-6" Base="Missile.AG.Radio">
 		<Criteria>
 			<Name>9M114</Name>
 			<Name>9M114 Shturm</Name>
@@ -18,7 +23,21 @@
 		</Criteria>
 		<Properties>
 			<ShortName>AT-6</ShortName>
-			<LongName>AT-6 Spiral</LongName>
+			<LongName>AT-6 Spiral (9K114)</LongName>
+			<FullName>AT-6 Spiral (9K114 Shturm)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.Kh-23" Base="Missile.AG.Radio">
+		<Criteria>
+			<Name>Kh-23</Name>
+			<Name>Kh-23 Grom</Name>
+			<Name>AS-7</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Kh-23</ShortName>
+			<LongName>Kh-23 Grom (AS-7)</LongName>
+			<FullName>Kh-23 Grom (AS-7 Kerry)</FullName>
 		</Properties>
 	</DefaultProperties>
 

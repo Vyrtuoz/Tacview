@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.1">
+
+	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
+	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+
+	<!-- Core Declarations -->
+
+	<DefaultProperties Id="Missile.AA" Base="Core.Missile">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.Radar" Base="Missile.AA">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.IR" Base="Missile.AA">
+	</DefaultProperties>
+
+	<!-- US AA Missiles -->
+
+	<DefaultProperties Id="Missile.AA.AIM-9" Base="Missile.AA.IR">
+		<Criteria>
+			<Name>AIM-9</Name>
+			<Name>AIM-9 Sidewinder</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-9</ShortName>
+			<LongName>AIM-9 Sidewinder</LongName>
+			<FullName>AIM-9 Sidewinder</FullName>
+			<Shape>Missile.AIM-9M.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-9A" Base="Missile.AA.AIM-9">
+		<Criteria>
+			<Name>AIM-9A</Name>
+			<Name>AIM-9A Sidewinder</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-9A</ShortName>
+			<LongName>AIM-9A Sidewinder</LongName>
+			<FullName>AIM-9A Sidewinder</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-9B" Base="Missile.AA.AIM-9A">
+		<Criteria>
+			<Name>AIM-9B</Name>
+			<Name>AIM-9B Sidewinder</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-9B</ShortName>
+			<LongName>AIM-9B Sidewinder</LongName>
+			<FullName>AIM-9B Sidewinder</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-9D" Base="Missile.AA.AIM-9B">
+		<Criteria>
+			<Name>AIM-9D</Name>
+			<Name>AIM-9D Sidewinder</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-9D</ShortName>
+			<LongName>AIM-9D Sidewinder</LongName>
+			<FullName>AIM-9D Sidewinder</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-9G" Base="Missile.AA.AIM-9D">
+		<Criteria>
+			<Name>AIM-9G</Name>
+			<Name>AIM-9G Sidewinder</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-9G</ShortName>
+			<LongName>AIM-9G Sidewinder</LongName>
+			<FullName>AIM-9G Sidewinder</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-9H" Base="Missile.AA.AIM-9G">
+		<Criteria>
+			<Name>AIM-9H</Name>
+			<Name>AIM-9H Sidewinder</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-9H</ShortName>
+			<LongName>AIM-9H Sidewinder</LongName>
+			<FullName>AIM-9H Sidewinder</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-9L" Base="Missile.AA.AIM-9H">
+		<Criteria>
+			<Name>AIM-9L</Name>
+			<Name>AIM-9L Sidewinder</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-9L</ShortName>
+			<LongName>AIM-9L Sidewinder</LongName>
+			<FullName>AIM-9L Sidewinder</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-9M" Base="Missile.AA.AIM-9L">
+		<Criteria>
+			<Name>AIM-9M</Name>
+			<Name>AIM-9M Sidewinder</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-9M</ShortName>
+			<LongName>AIM-9M Sidewinder</LongName>
+			<FullName>AIM-9M Sidewinder</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-9X" Base="Missile.AA.AIM-9M">
+		<Criteria>
+			<Name>AIM-9X</Name>
+			<Name>AIM-9X Sidewinder</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-9X</ShortName>
+			<LongName>AIM-9X Sidewinder</LongName>
+			<FullName>AIM-9X Sidewinder</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-120" Base="Missile.AA.Radar">
+		<Criteria>
+			<Name>AIM-120</Name>
+			<Name>AIM-120 AMRAAM</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-120</ShortName>
+			<LongName>AIM-120 AMRAAM</LongName>
+			<FullName>AIM-120 AMRAAM</FullName>
+			<Shape>Missile.AIM-120C.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-120A" Base="Missile.AA.AIM-120">
+		<Criteria>
+			<Name>AIM-120A</Name>
+			<Name>AIM-120A AMRAAM</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-120A</ShortName>
+			<LongName>AIM-120A AMRAAM</LongName>
+			<FullName>AIM-120A AMRAAM</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-120B" Base="Missile.AA.AIM-120A">
+		<Criteria>
+			<Name>AIM-120B</Name>
+			<Name>AIM-120B AMRAAM</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-120B</ShortName>
+			<LongName>AIM-120B AMRAAM</LongName>
+			<FullName>AIM-120B AMRAAM</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-120C" Base="Missile.AA.AIM-120B">
+		<Criteria>
+			<Name>AIM-120C</Name>
+			<Name>AIM-120C AMRAAM</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-120C</ShortName>
+			<LongName>AIM-120C AMRAAM</LongName>
+			<FullName>AIM-120C AMRAAM</FullName>
+			<Shape>Missile.AIM-120C.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-120D" Base="Missile.AA.AIM-120C">
+		<Criteria>
+			<Name>AIM-120D</Name>
+			<Name>AIM-120D AMRAAM</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-120D</ShortName>
+			<LongName>AIM-120D AMRAAM</LongName>
+			<FullName>AIM-120D AMRAAM</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Eastern AA Missiles -->
+
+	<DefaultProperties Id="Missile.AA.R-27" Base="Missile.AA">
+		<Criteria>
+			<Name>R-27</Name>
+			<Name>AA-10</Name>
+			<Name>AA-10 Alamo</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-27</ShortName>
+			<LongName>R-27 (AA-10 Alamo)</LongName>
+			<FullName>Vympel R-27 (AA-10 Alamo)</FullName>
+			<Shape>Missile.R-27.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-27R" Base="Missile.AA.R-27">
+		<Criteria>
+			<Name>R-27R</Name>
+			<Name>AA-10A</Name>
+			<Name>AA-10 Alamo-A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-27R</ShortName>
+			<LongName>R-27R (AA-10 Alamo-A)</LongName>
+			<FullName>Vympel R-27R (AA-10 Alamo-A)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-27T" Base="Missile.AA.R-27">
+		<Criteria>
+			<Name>R-27T</Name>
+			<Name>AA-10B</Name>
+			<Name>AA-10 Alamo-B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-27T</ShortName>
+			<LongName>R-27T (AA-10 Alamo-B)</LongName>
+			<FullName>Vympel R-27T (AA-10 Alamo-B)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-27ER" Base="Missile.AA.R-27R">
+		<Criteria>
+			<Name>R-27ER</Name>
+			<Name>AA-10C</Name>
+			<Name>AA-10 Alamo-C</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-27ER</ShortName>
+			<LongName>R-27ER (AA-10 Alamo-C)</LongName>
+			<FullName>Vympel R-27ER (AA-10 Alamo-C)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-27ET" Base="Missile.AA.R-27T">
+		<Criteria>
+			<Name>R-27ET</Name>
+			<Name>AA-10D</Name>
+			<Name>AA-10 Alamo-D</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-27ET</ShortName>
+			<LongName>R-27ET (AA-10 Alamo-D)</LongName>
+			<FullName>Vympel R-27ET (AA-10 Alamo-D)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-60" Base="Missile.AA.IR">
+		<Criteria>
+			<Name>R-60</Name>
+			<Name>AA-8</Name>
+			<Name>AA-8 Aphid</Name>
+			<Name>AA-8 Aphid-A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-60</ShortName>
+			<LongName>R-60 (AA-8 Aphid-A)</LongName>
+			<FullName>Molniya R-60 (AA-8 Aphid-A)</FullName>
+			<Shape>Missile.R-60.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-60M" Base="Missile.AA.R-60">
+		<Criteria>
+			<Name>R-60M</Name>
+			<Name>AA-8 Aphid-B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-60M</ShortName>
+			<LongName>R-60M (AA-8 Aphid-B)</LongName>
+			<FullName>Molniya R-60M (AA-8 Aphid-B)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-73" Base="Missile.AA.IR">
+		<Criteria>
+			<Name>R-73</Name>
+			<Name>AA-11</Name>
+			<Name>AA-11 Archer</Name>
+			<Name>AA-11 Archer R-73</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-73</ShortName>
+			<LongName>R-73 (AA-11 Archer)</LongName>
+			<FullName>Vympel R-73 (AA-11 Archer)</FullName>
+			<Shape>Missile.R-73.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-73M" Base="Missile.AA.R-73">
+		<Criteria>
+			<Name>R-73M</Name>
+			<Name>AA-11 Archer R-73M</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-73M</ShortName>
+			<LongName>R-73M (AA-11 Archer)</LongName>
+			<FullName>Vympel R-73M (AA-11 Archer)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-77" Base="Missile.AA.Radar">
+		<Criteria>
+			<Name>R-77</Name>
+			<Name>AA-12</Name>
+			<Name>AA-12 Adder</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-77</ShortName>
+			<LongName>R-77 (AA-12 Adder)</LongName>
+			<FullName>Vympel NPO R-77 (AA-12 Adder)</FullName>
+			<Shape>Missile.R-77.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-77-1" Base="Missile.AA.R-77">
+		<Criteria>
+			<Name>R-77-1</Name>
+			<Name>RVV-SD</Name>
+			<Name>AA-12 Adder-B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-77-1</ShortName>
+			<LongName>R-77-1 (AA-12 Adder-B)</LongName>
+			<FullName>Vympel NPO R-77-1 (AA-12 Adder-B)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Other AA Missiles -->
+
+	<DefaultProperties Id="Missile.AA.Shafrir-1" Base="Missile.AA.IR">
+		<Criteria>
+			<Name>Shafrir-1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Shafrir-1</ShortName>
+			<LongName>Shafrir-1</LongName>
+			<FullName>Shafrir-1</FullName>
+			<Shape>Missile.AIM-9M.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.Shafrir-2" Base="Missile.AA.Shafrir-1">
+		<Criteria>
+			<Name>Shafrir-2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Shafrir-2</ShortName>
+			<LongName>Shafrir-2</LongName>
+			<FullName>Shafrir-2</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.Python-3" Base="Missile.AA.Shafrir-2">
+		<Criteria>
+			<Name>Python-3</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Python-3</ShortName>
+			<LongName>Python-3</LongName>
+			<FullName>Python-3</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.Python-4" Base="Missile.AA.Python-3">
+		<Criteria>
+			<Name>Python-4</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Python-4</ShortName>
+			<LongName>Python-4</LongName>
+			<FullName>Python-4</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.Python-5" Base="Missile.AA.Python-4">
+		<Criteria>
+			<Name>Python-5</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Python-5</ShortName>
+			<LongName>Python-5</LongName>
+			<FullName>Python-5</FullName>
+		</Properties>
+	</DefaultProperties>
+
+</DefaultPropertiesCollection>

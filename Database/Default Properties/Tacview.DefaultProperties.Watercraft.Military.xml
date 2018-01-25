@@ -4,82 +4,68 @@
 	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
 	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
 
-	<!-- Watercraft base declarations -->
+	<!-- Core Declarations -->
 
 	<DefaultProperties Id="Watercraft.Military" Base="Core.Watercraft">
-	</DefaultProperties>
-
-	<DefaultProperties Id="Watercraft.AircraftCarrier" Base="Watercraft.Military">
-		<Properties>
-			<Shape>Watercraft.AircraftCarrier.obj</Shape>
-		</Properties>
 	</DefaultProperties>
 
 	<DefaultProperties Id="Watercraft.Frigate" Base="Watercraft.Military">
 	</DefaultProperties>
 
-	<!-- Civilan Watercraft -->
+	<DefaultProperties Id="Watercraft.AircraftCarrier" Base="Watercraft.Military">
+		<Properties>
+			<Shape>Core.AircraftCarrier.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 
-	<!-- Military Watercraft -->
+	<!-- US Frigates -->
 
 	<DefaultProperties Id="Watercraft.FFG-7" Base="Watercraft.Frigate">
 		<Criteria>
 			<Name>FFG-7</Name>
 			<Name>Oliver Hazard Perry</Name>
+			<Name>Perry</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>FFG-7</ShortName>
-			<LongName>Oliver Hazard Perry (FFG-7)</LongName>
+			<LongName>FFG-7 Oliver Hazard Perry</LongName>
+			<FullName>Oliver Hazard Perry (FFG-7)</FullName>
 <!--		<Shape>Watercraft.FFG-7.obj</Shape>	-->
 			<EngagementRange>45000</EngagementRange>
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Watercraft.FFG-7.Aliases" Base="Watercraft.FFG-7">
-		<Criteria>
-			<Type>Watercraft</Type>
-			<Name>Perry</Name>
-		</Criteria>
-	</DefaultProperties>
-
-	<!-- Aircraft Carrier -->
+	<!-- US Aircraft Carriers -->
 
 	<DefaultProperties Id="Watercraft.CVN70" Base="Watercraft.AircraftCarrier">
 		<Criteria>
 			<Name>CVN70</Name>
 			<Name>USS Carl Vinson</Name>
+			<Name>Vinson</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>CVN70</ShortName>
-			<LongName>USS Carl Vinson (CVN-70)</LongName>
+			<ShortName>CVN-70</ShortName>
+			<LongName>CVN-70 Carl Vinson</LongName>
+			<FullName>USS Carl Vinson (CVN-70)</FullName>
 			<EngagementRange>13000</EngagementRange>
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Watercraft.CVN70.Aliases" Base="Watercraft.CVN70">
-		<Criteria>
-			<Type>Watercraft</Type>
-			<Name>Vinson</Name>
-		</Criteria>
-	</DefaultProperties>
+	<!-- Eastern Aircraft Carriers -->
 
 	<DefaultProperties Id="Watercraft.AdmiralKuznetsov" Base="Watercraft.AircraftCarrier">
 		<Criteria>
 			<Name>Admiral Kuznetsov</Name>
+			<Name>Kuznetsov</Name>
+			<Name>KUZNECOW</Name>	<!-- DCS World 1.5 -->
 		</Criteria>
 		<Properties>
+			<ShortName>Admiral Kuznetsov</ShortName>
 			<LongName>Admiral Kuznetsov</LongName>
+			<FullName>Admiral Kuznetsov</FullName>
 			<Shape>Watercraft.Admiral Kuznetsov.obj</Shape>
 			<EngagementRange>11000</EngagementRange>
 		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="Watercraft.AdmiralKuznetsov.Aliases" Base="Watercraft.AdmiralKuznetsov">
-		<Criteria>
-			<Type>Watercraft</Type>
-			<Name>Kuznetsov</Name>
-			<Name>KUZNECOW</Name>	<!-- DCS !.5 -->
-		</Criteria>
 	</DefaultProperties>
 
 </DefaultPropertiesCollection>

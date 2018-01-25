@@ -4,12 +4,17 @@
 	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
 	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
 
-	<!-- Surface-to-air Missiles -->
+	<!-- Core Declarations -->
 
 	<DefaultProperties Id="Missile.SAM" Base="Core.Missile">
 	</DefaultProperties>
 
-	<DefaultProperties Id="Missile.SAM.9M39" Base="Missile.SAM">
+	<DefaultProperties Id="Missile.SAM.IR" Base="Missile.SAM">
+	</DefaultProperties>
+
+	<!-- Eastern Surface-to-air Missiles -->
+
+	<DefaultProperties Id="Missile.SAM.9M39" Base="Missile.SAM.IR">
 		<Criteria>
 			<Name>9M39</Name>
 			<Name>9M39 Igla</Name>
@@ -17,7 +22,8 @@
 		</Criteria>
 		<Properties>
 			<ShortName>9M39</ShortName>
-			<LongName>9M39 Igla (SA-18 Grouse)</LongName>
+			<LongName>9M39 Igla (SA-18)</LongName>
+			<FullName>9M39 Igla (SA-18 Grouse)</FullName>
 		</Properties>
 	</DefaultProperties>
 

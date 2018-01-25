@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.1">
+
+	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
+	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+
+	<!--
+		<DetectionRange> could be supported in a future update.
+	-->
+
+	<!-- Core Declarations -->
+
+	<DefaultProperties Id="AntiAircraft.Flak" Base="Core.AntiAircraft">
+		<Properties>
+			<Shape>AntiAircraft.Flak.Flak 18.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- EU Anti-Aircraft Artillery -->
+
+	<DefaultProperties Id="AntiAircraft.Flak.Kdo.​Ger.40" Base="AntiAircraft.Support.Infantry">
+		<Criteria>
+			<Name>Kommandogerät 40</Name>
+			<Name>Kdo.​Ger.40</Name>
+			<Name>KDO_Mod40</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Kdo.​Ger.40</ShortName>
+			<LongName>Kdo.​Ger.40</LongName>
+			<FullName>Kommandogerät 40</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.Flak.Flak 18" Base="AntiAircraft.Flak">
+		<Criteria>
+			<Name>Flak 18</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Flak 18</ShortName>
+			<LongName>Flak 18</LongName>
+			<FullName>Flak 18</FullName>
+			<Shape>AntiAircraft.Flak.Flak 18.obj</Shape>
+		</Properties>
+		<Properties>
+			<EngagementRange>14700</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.Flak.Flak 30" Base="AntiAircraft.Flak">
+		<Criteria>
+			<Name>Flak 30</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Flak 30</ShortName>
+			<LongName>Flak 30</LongName>
+			<FullName>Flak 30</FullName>
+		</Properties>
+		<Properties>
+			<EngagementRange>2000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.Flak.Flak 36" Base="AntiAircraft.Flak">
+		<Criteria>
+			<Name>Flak 36</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Flak 36</ShortName>
+			<LongName>Flak 36</LongName>
+			<FullName>Flak 36</FullName>
+		</Properties>
+		<Properties>
+			<EngagementRange>14700</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.Flak.Flak 37" Base="AntiAircraft.Flak">
+		<Criteria>
+			<Name>Flak 37</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Flak 37</ShortName>
+			<LongName>Flak 37</LongName>
+			<FullName>Flak 37</FullName>
+		</Properties>
+		<Properties>
+			<EngagementRange>14000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.Flak.Flak 38" Base="AntiAircraft.Flak">
+		<Criteria>
+			<Name>Flak 38</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Flak 38</ShortName>
+			<LongName>Flak 38</LongName>
+			<FullName>Flak 38</FullName>
+		</Properties>
+		<Properties>
+			<EngagementRange>2000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.Flak.Flakvierling 38" Base="AntiAircraft.Flak.Flak 38">
+		<Criteria>
+			<Name>Flakvierling 38</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Flak 38</ShortName>
+			<LongName>Flakvierling 38</LongName>
+			<FullName>Flakvierling 38</FullName>
+		</Properties>
+		<Properties>
+			<EngagementRange>2000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Russian Flak/AAA -->
+
+</DefaultPropertiesCollection>

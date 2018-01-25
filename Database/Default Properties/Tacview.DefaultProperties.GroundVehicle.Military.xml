@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.1">
+
+	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
+	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+
+	<!-- Core Declarations -->
+
+	<DefaultProperties Id="Vehicle.Military" Base="Core.Vehicle">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Military.Car" Base="Vehicle.Military">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Military.Truck" Base="Vehicle.Military">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Military.Tanker" Base="Vehicle.Military">
+		<Properties>
+			<Shape>Vehicle.Truck.Tanker.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Military.APC" Base="Vehicle.Military">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Military.Tank" Base="Vehicle.Military">
+	</DefaultProperties>
+
+	<!-- US Military Cars -->
+
+	<DefaultProperties Id="Vehicle.Car.Jeep" Base="Vehicle.Military.Car">
+		<Criteria>
+			<Name>Jeep</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Jeep</ShortName>
+			<LongName>Jeep</LongName>
+			<FullName>Jeep</FullName>
+			<Shape>Vehicle.Car.Jeep.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Car.Humvee" Base="Vehicle.Military.Car">
+		<Criteria>
+			<Name>Humvee</Name>
+			<Name>HMMWV</Name>
+			<Name>Hummer</Name>		<!-- DCS World 2.2 -->
+		</Criteria>
+		<Properties>
+			<ShortName>Humvee</ShortName>
+			<LongName>Humvee</LongName>
+			<FullName>Humvee</FullName>
+			<Shape>Vehicle.Car.Humvee.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- US Military APC -->
+
+	<DefaultProperties Id="Vehicle.APC.M113" Base="Vehicle.Military.APC">
+		<Criteria>
+			<Name>M113</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M113</ShortName>
+			<LongName>M113</LongName>
+			<FullName>M113</FullName>
+			<Shape>Vehicle.APC.M113.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.APC.M106" Base="Vehicle.APC.M113">
+		<Criteria>
+			<Name>M106</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M106</ShortName>
+			<LongName>M106</LongName>
+			<FullName>M106</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.APC.M1064" Base="Vehicle.APC.M106">
+		<Criteria>
+			<Name>M1064</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M1064</ShortName>
+			<LongName>M1064</LongName>
+			<FullName>M1064</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Eastern Military Cars -->
+
+	<DefaultProperties Id="Vehicle.Car.UAZ-469" Base="Vehicle.Military.Car">
+		<Criteria>
+			<Name>UAZ-469</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>UAZ-469</ShortName>
+			<LongName>UAZ-469</LongName>
+			<FullName>UAZ-469</FullName>
+			<Shape>Vehicle.Car.UAZ-469.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Eastern Military Trucks -->
+
+	<DefaultProperties Id="Vehicle.Truck.ATZ-10" Base="Vehicle.Military.Tanker">
+		<Criteria>
+			<Name>ATZ-10</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ATZ-10</ShortName>
+			<LongName>ATZ-10</LongName>
+			<FullName>ATZ-10</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Truck.ATMZ-5" Base="Vehicle.Military.Tanker">
+		<Criteria>
+			<Name>ATMZ-5</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ATMZ-5</ShortName>
+			<LongName>ATMZ-5</LongName>
+			<FullName>ATMZ-5</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Truck.BM-21" Base="Vehicle.Military.Truck">
+		<Criteria>
+			<Name>BM-21</Name>
+			<Name>БМ-21</Name>
+			<Name>BM-21 Grad</Name>
+			<Name>БМ-21 Град</Name>
+			<Name>grad-ural</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BM-21</ShortName>
+			<LongName>BM-21 Grad</LongName>
+			<FullName>BM-21 Grad</FullName>
+			<Shape>Vehicle.Truck.BM-21.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Truck.Ural" Base="Vehicle.Military.Truck">
+		<Properties>
+			<Shape>Vehicle.Truck.Ural.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Truck.ZIL-131" Base="Vehicle.Truck.Ural">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Truck.ZIL-131KUNG" Base="Vehicle.Truck.ZIL-131">
+		<Criteria>
+			<Name>ZIL-131 KUNG</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ZIL-131</ShortName>
+			<LongName>ZIL-131 KUNG</LongName>
+			<FullName>ZIL-131 KUNG</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Truck.Ural-375" Base="Vehicle.Truck.Ural">
+		<Criteria>
+			<Name>Ural-375</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Ural-375</ShortName>
+			<LongName>Ural-375</LongName>
+			<FullName>Ural-375</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Eastern Military Armoured personnel carrier (APC) -->
+
+	<DefaultProperties Id="Vehicle.APC.BA-64" Base="Vehicle.Military.APC">
+		<Criteria>
+			<Name>BA-64</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BA-64</ShortName>
+			<LongName>BA-64</LongName>
+			<FullName>BA-64</FullName>
+			<Shape>Vehicle.APC.BA-64.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.APC.BTR-60" Base="Vehicle.Military.APC">
+		<Criteria>
+			<Name>BTR-60</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BTR-60</ShortName>
+			<LongName>BTR-60</LongName>
+			<FullName>BTR-60</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.APC.BTR-70" Base="Vehicle.APC.BTR-60">
+		<Criteria>
+			<Name>BTR-70</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BTR-70</ShortName>
+			<LongName>BTR-70</LongName>
+			<FullName>BTR-70</FullName>
+			<Shape>Vehicle.APC.BTR-70.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.APC.BTR-80" Base="Vehicle.APC.BTR-70">
+		<Criteria>
+			<Name>BTR-80</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BTR-80</ShortName>
+			<LongName>BTR-80</LongName>
+			<FullName>BTR-80</FullName>
+			<Shape>Vehicle.APC.BTR-80.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.APC.BMP-1" Base="Vehicle.Military.APC">
+		<Criteria>
+			<Name>BMP-1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BMP-1</ShortName>
+			<LongName>BMP-1</LongName>
+			<FullName>BMP-1</FullName>
+			<Shape>Vehicle.APC.BMP-2.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.APC.BMP-2" Base="Vehicle.APC.BMP-1">
+		<Criteria>
+			<Name>BMP-2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BMP-2</ShortName>
+			<LongName>BMP-2</LongName>
+			<FullName>BMP-2</FullName>
+			<Shape>Vehicle.APC.BMP-2.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.APC.BMP-3" Base="Vehicle.APC.BMP-2">
+		<Criteria>
+			<Name>BMP-3</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BMP-3</ShortName>
+			<LongName>BMP-3</LongName>
+			<FullName>BMP-3</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- US Tanks -->
+
+	<DefaultProperties Id="Vehicle.Tank.M4" Base="Vehicle.Military.Tank">
+		<Criteria>
+			<Name>M4 Sherman</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M4</ShortName>
+			<LongName>M4 Sherman</LongName>
+			<FullName>M4 Sherman</FullName>
+			<Shape>Vehicle.Tank.M4A3.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.M4A3" Base="Vehicle.Tank.M4">
+		<Criteria>
+			<Name>M4A3</Name>
+			<Name>M4A3 Sherman</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M4A3</ShortName>
+			<LongName>M4A3 Sherman</LongName>
+			<FullName>M4A3 Sherman</FullName>
+			<Shape>Vehicle.Tank.M4A3.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.M4A4" Base="Vehicle.Tank.M4A3">
+		<Criteria>
+			<Name>M4A4</Name>
+			<Name>M4A4 Sherman</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M4A4</ShortName>
+			<LongName>M4A4 Sherman</LongName>
+			<FullName>M4A4 Sherman</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Eastern Tanks -->
+
+	<DefaultProperties Id="Vehicle.Tank.T-62" Base="Vehicle.Military.Tank">
+		<Criteria>
+			<Name>T-62</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>T-62</ShortName>
+			<LongName>T-62</LongName>
+			<FullName>T-62</FullName>
+			<Shape>Vehicle.Tank.T-62A.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.T-62A" Base="Vehicle.Tank.T-62">
+		<Criteria>
+			<Name>T-62A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>T-62A</ShortName>
+			<LongName>T-62A</LongName>
+			<FullName>T-62A</FullName>
+			<Shape>Vehicle.Tank.T-62A.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+</DefaultPropertiesCollection>

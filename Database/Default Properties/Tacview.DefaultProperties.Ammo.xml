@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.1">
+
+	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
+	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+
+	<!-- Artillery Shells -->
+
+	<DefaultProperties Id="Shell.M185.155" Base="Core.ArtilleryShell">
+		<Criteria>
+			<Name>Shell M185 155</Name>
+		</Criteria>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Shell.M101" Base="Core.ArtilleryShell">
+		<Criteria>
+			<Name>Shell M101</Name>
+		</Criteria>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Shell.RM.15" Base="Core.ArtilleryShell">
+		<Criteria>
+			<Name>Shell RM 15</Name>
+		</Criteria>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Shell.RM.15.HE" Base="Shell.RM.15">
+		<Criteria>
+			<Name>Shell RM 15 HE</Name>
+		</Criteria>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Shell.2A18.122" Base="Core.ArtilleryShell">
+		<Criteria>
+			<Name>Shell 2A18 122</Name>
+		</Criteria>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Shell.2A33.152" Base="Core.ArtilleryShell">
+		<Criteria>
+			<Name>Shell 2A33 152</Name>
+		</Criteria>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Shell.2A60.120" Base="Core.ArtilleryShell">
+		<Criteria>
+			<Name>Shell 2A60 120</Name>
+		</Criteria>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Shell.2A64.152" Base="Core.ArtilleryShell">
+		<Criteria>
+			<Name>Shell 2A64 152</Name>
+		</Criteria>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Shell.I GR 33" Base="Core.ArtilleryShell">
+		<Criteria>
+			<Name>Shell I GR 33</Name>
+		</Criteria>
+	</DefaultProperties>
+
+</DefaultPropertiesCollection>

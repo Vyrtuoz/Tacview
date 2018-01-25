@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.1">
+
+	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
+	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+
+	<!-- Core Declarations -->
+
+	<DefaultProperties Id="Bomb.WWII" Base="Core.Bomb">
+		<Properties>
+			<Shape>Bomb.AN-M59.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.Unguided" Base="Core.Bomb">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.Practice" Base="Core.Bomb">
+	</DefaultProperties>
+
+	<!-- US Bombs -->
+
+	<DefaultProperties Id="Bomb.AN-M59" Base="Bomb.WWII">
+		<Criteria>
+			<Name>AN-M59</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AN-M59</ShortName>
+			<LongName>AN-M59</LongName>
+			<FullName>AN-M59</FullName>
+		</Properties>
+		<Properties>
+			<Shape>Bomb.AN-M59.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.AN-M59A1" Base="Bomb.AN-M59">
+		<Criteria>
+			<Name>AN-M59A1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AN-M59A1</ShortName>
+			<LongName>AN-M59A1</LongName>
+			<FullName>AN-M59A1</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.AN-M64" Base="Bomb.WWII">
+		<Criteria>
+			<Name>AN-M64</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AN-M64</ShortName>
+			<LongName>AN-M64</LongName>
+			<FullName>AN-M64</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.AN-M64A1" Base="Bomb.AN-M64">
+		<Criteria>
+			<Name>AN-M64A1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AN-M64A1</ShortName>
+			<LongName>AN-M64A1</LongName>
+			<FullName>AN-M64A1</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.BDU-33" Base="Bomb.Practice">
+		<Criteria>
+			<Name>BDU-33</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BDU-33</ShortName>
+			<LongName>BDU-33</LongName>
+			<FullName>BDU-33</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.BDU-33D/B" Base="Bomb.BDU-33">
+		<Criteria>
+			<Name>BDU-33D/B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BDU-33D/B</ShortName>
+			<LongName>BDU-33D/B</LongName>
+			<FullName>BDU-33D/B</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.Mk82" Base="Bomb.Unguided">
+		<Criteria>
+			<Name>Mk 82</Name>
+			<Name>Mark 82</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mk 82</ShortName>
+			<LongName>Mark 82</LongName>
+			<FullName>Mark 82</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.Mk82.LDGP" Base="Bomb.Mk82">
+		<Criteria>
+			<Name>Mk 82 LDGP</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mk 82 LDGP</ShortName>
+			<LongName>Mark 82 LDGP</LongName>
+			<FullName>Mark 82 LDGP</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.Mk84" Base="Bomb.Unguided">
+		<Criteria>
+			<Name>Mk 84</Name>
+			<Name>BLU-117</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mk 84</ShortName>
+			<LongName>Mark 84</LongName>
+			<FullName>Mark 84</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.Mk84.LDGP" Base="Bomb.Mk84">
+		<Criteria>
+			<Name>Mk 84 LDGP</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mk 84 LDGP</ShortName>
+			<LongName>Mark 84 LDGP</LongName>
+			<FullName>Mark 84 LDGP</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Eastern Bombs -->
+
+	<!-- EU Bombs -->
+
+</DefaultPropertiesCollection>

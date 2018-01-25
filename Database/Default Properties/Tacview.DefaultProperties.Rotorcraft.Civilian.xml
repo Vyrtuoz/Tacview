@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.1">
+
+	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
+	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+
+	<!-- Core Declarations -->
+
+	<DefaultProperties Id="Rotorcraft.Transport" Base="Core.Rotorcraft">
+		<Properties>
+			<Shape>Rotorcraft.Bell 206.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- US Helicopters -->
+
+	<DefaultProperties Id="Rotorcraft.Bell 206" Base="Rotorcraft.Transport">
+		<Criteria>
+			<Name>JetRanger</Name>
+			<Name>B206</Name>
+			<Name>Bell 206</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B206</ShortName>
+			<LongName>B206 JetRanger</LongName>
+			<FullName>Bell 206 JetRanger</FullName>
+			<Shape>Rotorcraft.Bell 206.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.Bell 206A" Base="Rotorcraft.Bell 206">
+		<Criteria>
+			<Name>B206A</Name>
+			<Name>Bell 206A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B206A</ShortName>
+			<LongName>B206A JetRanger</LongName>
+			<FullName>Bell 206A JetRanger</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.Bell 222" Base="Rotorcraft.Transport">
+		<Criteria>
+			<Name>Bell 222</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B222</ShortName>
+			<LongName>B222</LongName>
+			<FullName>Bell 222</FullName>
+			<Shape>Rotorcraft.Bell 222.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- EU Helicopters -->
+
+	<DefaultProperties Id="Rotorcraft.SA341" Base="Rotorcraft.Transport">
+		<Criteria>
+			<Name>SA 341</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA341</ShortName>
+			<LongName>SA 341 Gazelle</LongName>
+			<FullName>Aérospatiale SA 341 Gazelle</FullName>
+			<Shape>Rotorcraft.SA 341G.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.SA341G" Base="Rotorcraft.SA341">
+		<Criteria>
+			<Name>SA 341G</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA341G</ShortName>
+			<LongName>SA 341G Gazelle</LongName>
+			<FullName>Aérospatiale SA 341G Gazelle</FullName>
+			<Shape>Rotorcraft.SA 341G.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+</DefaultPropertiesCollection>

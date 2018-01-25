@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.1">
+
+	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
+	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+
+	<!-- Core Declarations -->
+
+	<DefaultProperties Id="Vehicle.Civilian" Base="Core.Vehicle">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Civilian.Car" Base="Vehicle.Civilian">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Civilian.Truck" Base="Vehicle.Civilian">
+		<Properties>
+			<Shape>Vehicle.Truck.Ural.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Civilian.Tanker" Base="Vehicle.Civilian">
+		<Properties>
+			<Shape>Vehicle.Truck.Tanker.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Eastern Civilian Trucks -->
+
+	<DefaultProperties Id="Vehicle.Truck.GAZ-66" Base="Vehicle.Civilian.Truck">
+		<Criteria>
+			<Name>Gaz-66</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>GAZ-66</ShortName>
+			<LongName>GAZ-66</LongName>
+			<FullName>GAZ-66</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Truck.Tanker" Base="Vehicle.Civilian.Tanker">
+		<Criteria>
+			<Name>Fuel Truck</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Fuel Truck</ShortName>
+			<LongName>Fuel Truck</LongName>
+			<FullName>Fuel Truck</FullName>
+		</Properties>
+	</DefaultProperties>
+
+</DefaultPropertiesCollection>
