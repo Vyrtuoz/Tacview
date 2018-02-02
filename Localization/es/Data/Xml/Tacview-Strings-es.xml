@@ -106,7 +106,7 @@
 	<String ID="OptionsTerrainTextFalcon4">Falcon 4.0</String>
 	<String ID="OptionsTerrainHelpFalcon4">Usar terreno de Falcon 4.0</String>
 	<String ID="OptionsTerrainTextIL2">IL-2 Sturmovik</String>
-	<String ID="OptionsTerrainHelpIL2">Displays terrain from IL-2 Sturmovik</String>
+	<String ID="OptionsTerrainHelpIL2">Mostrar terreno desde IL-2 Sturmovik</String>
 
 	<String ID="OptionsLanguageText">Lenguaje</String>
 	<String ID="OptionsLanguageAutoText">(&amp;Automático)</String>
@@ -298,7 +298,7 @@
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
 	<String ID="RegistrationHelp">Muestra el numero de registro</String>
 	<String ID="RegistrationText">Registro del avion (numero de cola)</String>
-	<String ID="SquawkHelp">Transponder code</String>
+	<String ID="SquawkHelp">Codigo del Traspondedore</String>
 	<String ID="SquawkText">Squawk</String>
 	<String ID="BullseyeHelp">Posicion relativa al objeto principal con respecto al bullseye</String>
 	<String ID="BullseyeText">Bullseye</String>
@@ -479,7 +479,7 @@
 	<String ID="AddEditObjectTime">Tiempo</String>
 	<String ID="AddEditObjectName">Nombre</String>
 	<String ID="AddEditObjectPilot">Piloto</String>
-	<String ID="AddEditObjectGroup">Group</String>
+	<String ID="AddEditObjectGroup">Grupo</String>
 	<String ID="AddEditObjectType">Tipo</String>
 	<String ID="AddEditObjectPosition">Posición</String>
 	<String ID="AddEditObjectColor">Color</String>
@@ -492,7 +492,7 @@
 	<String ID="NoCoalitionValue">(ninguno)</String>
 	<String ID="BullseyeType">(Bullseye)</String>
 	<String ID="FixedWingType">(Aeronave de ala fija)</String>
-	<String ID="RotorcraftType">(Rotorcraft)</String>
+	<String ID="RotorcraftType">(Helicoptero)</String>
 	<String ID="MissileType">(Misil)</String>
 	<String ID="BombType">(Bomba)</String>
 	<String ID="AntiAircraftType">(Anti-Aircraft: AAA/SAM)</String>
