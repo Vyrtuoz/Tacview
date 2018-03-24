@@ -108,3 +108,24 @@ msgstr "Personnalisez les ports TCP lorsque plusieurs instances de"
 
 msgid "at the same time."
 msgstr "DCS World sont exécutées en même temps."
+
+msgid "Host Telemetry Password"
+msgstr "Mot de passe télémétrie hôte"
+
+msgid "As the host of an online session, you can authorize privileged clients to review"
+msgstr "En tant qu’hôte d’une session en ligne, vous pouvez autoriser certains clients à analyser"
+
+msgid "right away any telemetry recorded from your server."
+msgstr "sur le champ toute télémétrie enregistrée depuis votre partie."
+
+msgid "Client Telemetry Password"
+msgstr "Mot de passe télémétrie client"
+
+msgid "Enter the Host Telemetry Password provided by the host of your online flight,"
+msgstr "Entrez ici le mot de passe télémétrie l’hôte fournis par l’hôte de votre vol en ligne,"
+
+msgid "to get immediate access to any available telemetry data."
+msgstr "afin d’obtenir un accès immédiat à toute la télémétrie disponible."
+
+msgid "Local Remote Control Password"
+msgstr "Mot de passe télécommandes"

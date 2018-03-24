@@ -108,3 +108,24 @@ msgstr "Puertos TCP personalizados cuando se ejecuten varias instancias de DCS W
 
 msgid "at the same time."
 msgstr "al mismo tiempo."
+
+msgid "Host Telemetry Password"
+msgstr ""
+
+msgid "As the host of an online session, you can authorize privileged clients to review"
+msgstr ""
+
+msgid "right away any telemetry recorded from your server."
+msgstr ""
+
+msgid "Client Telemetry Password"
+msgstr ""
+
+msgid "Enter the Host Telemetry Password provided by the host of your online flight,"
+msgstr ""
+
+msgid "to get immediate access to any available telemetry data."
+msgstr ""
+
+msgid "Local Remote Control Password"
+msgstr ""

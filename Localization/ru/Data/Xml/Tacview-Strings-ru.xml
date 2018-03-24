@@ -155,6 +155,8 @@
 	<String ID="OptionsEditObjectHelp">Редактировать свойства выбранного объекта</String>
 	<String ID="OptionsRemoveObjectText">Удалить объект</String>
 	<String ID="OptionsRemoveObjectHelp">Удалить выбранный объект с карты</String>
+	<String ID="TimeShiftObjectText">Time Shift...</String>
+	<String ID="TimeShiftObjectHelp">Correct selected object telemetry time</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Ассоциировать .acmi файлы с Tacview</String>
 	<String ID="OptionsAssociateFileTypesHelp">Позволяет открывать .acmi файлы в программе Tacview по двойному щелчку мыши (Windows OS)</String>
@@ -219,6 +221,11 @@
 	<String ID="HelpMemoryProfilerHelp">Отображать инструменты профилировщика памяти</String>
 	<String ID="HelpAboutText">&amp;О программе Tacview</String>
 	<String ID="HelpAboutHelp">Отображать информацию об авторских правах</String>
+	<String ID="AddOnsMenuTooltip">Add-ons</String>
+	<String ID="AddOnsMenuHelp">Tools to manage and interact with Add-ons</String>
+	<String ID="ActiveAddOnsListText">Enable/Disable Add-ons</String>
+	<String ID="ReloadLuaScriptsText">Reload Lua Scripts</String>
+	<String ID="ReloadLuaScriptsHelp">Reload all add-ons written in Lua script</String>
 
 	<String ID="RegisterCmdTooltip">Зарегистрироваться</String>
 	<String ID="RegisterCmdHelp">Зарегистрировать свою копию Tacview</String>
@@ -502,6 +509,13 @@
 	<String ID="BuildingType">(Building)</String>
 	<String ID="TimelessValue">(безвременной объект)</String>
 
+	<String ID="TimeShiftTitle">Time shift</String>
+	<String ID="TimeShiftSubTitle">Fix selected object telemetry time, or create a ghost mode to compare performances.</String>
+	<String ID="TimeShiftFirstSampleTime">First sample time: {0}</String>
+	<String ID="TimeShiftOffsetInHours">Offset in hours</String>
+	<String ID="TimeShiftOffsetInSeconds">Offset in seconds</String>
+	<String ID="TimeShiftDragToShift">Click and drag here for a smooth time-shift</String>
+
 	<String ID="ButtonHelp">Нажмите на кнопку, которую хотите назначить команде.</String>
 	<String ID="AxeHelp">Передвиньте ось, которую хотите назначить команде.</String>
 	<String ID="CommandName">Команда</String>
@@ -620,6 +634,8 @@
 	<String ID="CmdDebugModeHelp">Отображает информацию об отладке, помогающую устранять баги.</String>
 	<String ID="CmdConfigSetHelp">Сохранить пользовательские настройки отдельно для каждой программы Tacview.</String>
 	<String ID="CmdAuthenticateHelp">Returns -1 to the caller if all of the opened files are authentic.</String>
+	<String ID="CmdRegisterUserProductKeyHelp">Activate Tacview for the current user with the provided key.</String>
+	<String ID="CmdRegisterSystemProductKeyHelp">Activate Tacview for the entire system with the provided key.</String>
 
 	<String ID="Selection">Выделение</String>
 	<String ID="TimeControl">Управление временем</String>
@@ -702,6 +718,8 @@
 	<String ID="RegistrationSucceededURL">Узнать больше о преимуществах регистрации Tacview (English)</String>
 	<String ID="RequireHomeLicenseText">Данная версия Tacview требует регистрации.</String>
 	<String ID="RequireProfessionalLicenseText">Эта программа требует ключа версии Professional.</String>
+	<String ID="RegisterUserProductKey">Register User</String>
+	<String ID="RegisterSystemProductKey">Register System</String>
 
 	<!-- Additional Dialogs Strings -->
 	<String ID="BrowseDCSWorldFolderHelp">Пожалуйста, укажите путь к игре 'DCS World'</String>

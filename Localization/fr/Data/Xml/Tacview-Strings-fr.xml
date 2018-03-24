@@ -154,6 +154,8 @@
 	<String ID="OptionsEditObjectHelp">Modifier les propriétés de l’objet sélectionné</String>
 	<String ID="OptionsRemoveObjectText">Supprimer objet</String>
 	<String ID="OptionsRemoveObjectHelp">Retirer du monde l’objet sélectionné</String>
+	<String ID="TimeShiftObjectText">Décalage temporel...</String>
+	<String ID="TimeShiftObjectHelp">Corrige l’heure de la télémétrie de l’objet sélectionné</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Associer Tacview aux fichiers acmi</String>
 	<String ID="OptionsAssociateFileTypesHelp">Permet d'ouvrir les enregistrements de vol avec Tacview lorsque l'on clique dessus depuis Windows</String>
@@ -218,6 +220,11 @@
 	<String ID="HelpMemoryProfilerHelp">Afficher les outils de profilage mémoire</String>
 	<String ID="HelpAboutText">&amp;A propos de Tacview</String>
 	<String ID="HelpAboutHelp">Affiche des informations sur la version et la license</String>
+	<String ID="AddOnsMenuTooltip">Add-ons</String>
+	<String ID="AddOnsMenuHelp">Outils pour gérer et interagir avec les add-ons</String>
+	<String ID="ActiveAddOnsListText">Activer/Désactiver des Add-ons</String>
+	<String ID="ReloadLuaScriptsText">Recharger les scripts Lua</String>
+	<String ID="ReloadLuaScriptsHelp">Recharge tout les add-ons écrits en lua</String>
 
 	<String ID="RegisterCmdTooltip">Enregistrement</String>
 	<String ID="RegisterCmdHelp">Enregistrer votre copie de Tacview</String>
@@ -501,6 +508,13 @@
 	<String ID="BuildingType">(Batiment)</String>
 	<String ID="TimelessValue">(object intemporel)</String>
 
+	<String ID="TimeShiftTitle">Décalage temporel</String>
+	<String ID="TimeShiftSubTitle">Corrigez l’heure de la télémétrie de l’objet sélectionné, ou créez un ghost mode pour comparer des performances.</String>
+	<String ID="TimeShiftFirstSampleTime">Temps du premier échantillon : {0}</String>
+	<String ID="TimeShiftOffsetInHours">Décalage en heures</String>
+	<String ID="TimeShiftOffsetInSeconds">Décalage en secondes</String>
+	<String ID="TimeShiftDragToShift">Cliquez et glissez ici pour un décalage temporel fluide</String>
+
 	<String ID="ButtonHelp">Appuyez sur le contrôle que vous souhaitez utiliser pour cette commande.</String>
 	<String ID="AxeHelp">Actionnez l’axe de joystick que vous souhaitez utiliser pour cette commande.</String>
 	<String ID="CommandName">Commande</String>
@@ -619,6 +633,8 @@
 	<String ID="CmdDebugModeHelp">Affiche des informations de débogage pour aider à corriger des bugs.</String>
 	<String ID="CmdConfigSetHelp">Stokes les préférences utilisateur dans un ensemble spécifique à chaque instance de Tacview.</String>
 	<String ID="CmdAuthenticateHelp">Retourne -1 a l’appelant si tous les fichiers ouverts sont authentiques.</String>
+	<String ID="CmdRegisterUserProductKeyHelp">Active Tacview pour l’utilisateur courant avec la clé de produit fournie.</String>
+	<String ID="CmdRegisterSystemProductKeyHelp">Active Tacview pour tout le système avec la clé de produit fournie.</String>
 
 	<String ID="Selection">Sélection</String>
 	<String ID="TimeControl">Contrôle du temps</String>
@@ -701,6 +717,8 @@
 	<String ID="RegistrationSucceededURL">Apprendre plus sur les avantages d'utiliser une copie enregistrée de Tacview</String>
 	<String ID="RequireHomeLicenseText">Pour utiliser cette version de Tacview vous devez enregistrer votre copie.</String>
 	<String ID="RequireProfessionalLicenseText">Pour utiliser cette version de Tacview, vous devez posséder une Tacview Advanced.</String>
+	<String ID="RegisterUserProductKey">Enregistrer utilisateur</String>
+	<String ID="RegisterSystemProductKey">Enregistrer système</String>
 
 	<!-- Additional Dialogs Strings -->
 	<String ID="BrowseDCSWorldFolderHelp">Veuillez sélectionner le dossier d'installation de 'DCS World'</String>
