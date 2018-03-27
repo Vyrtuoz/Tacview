@@ -12,7 +12,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<!-- US Helicopters -->
+	<!-- North American Helicopters -->
 
 	<DefaultProperties Id="Rotorcraft.Bell 206" Base="Rotorcraft.Transport">
 		<Criteria>
@@ -40,6 +40,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Rotorcraft.Bell 206L-4" Base="Rotorcraft.Bell 206">
+		<Criteria>
+			<Name>B206L-4</Name>
+			<Name>Bell 206L-4</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B206L-4</ShortName>
+			<LongName>B206L-4 LongRanger IV</LongName>
+			<FullName>Bell 206L-4 LongRanger IV</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Rotorcraft.Bell 222" Base="Rotorcraft.Transport">
 		<Criteria>
 			<Name>Bell 222</Name>
@@ -49,6 +61,19 @@
 			<LongName>B222</LongName>
 			<FullName>Bell 222</FullName>
 			<Shape>Rotorcraft.Bell 222.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.Bell 407" Base="Rotorcraft.Bell 206L-4">
+		<Criteria>
+			<Name>B407</Name>
+			<Name>Bell 407</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B407</ShortName>
+			<LongName>B407</LongName>
+			<FullName>Bell 407</FullName>
+			<Shape>Rotorcraft.Bell 407.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

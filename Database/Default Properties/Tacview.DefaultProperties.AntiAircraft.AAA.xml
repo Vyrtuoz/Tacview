@@ -22,7 +22,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<!-- US Anti-Aircraft Artillery -->
+	<!-- North American Anti-Aircraft Artillery -->
 
 	<DefaultProperties Id="AntiAircraft.M163" Base="AntiAircraft.AAA">
 		<Criteria>
@@ -32,7 +32,7 @@
 		<Properties>
 			<ShortName>Vulcan</ShortName>
 			<LongName>M163 Vulcan</LongName>
-			<FullName>M163 Vulcan Air Defense System</FullName>
+			<FullName>M163 Vulcan Air Defense System (VADS)</FullName>
 			<EngagementRange>2600</EngagementRange>
 			<Shape>Vehicle.APC.M113.obj</Shape>
 		</Properties>

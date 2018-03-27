@@ -18,7 +18,7 @@
 	<DefaultProperties Id="Bomb.Practice" Base="Core.Bomb">
 	</DefaultProperties>
 
-	<!-- US Bombs -->
+	<!-- North American Bombs -->
 
 	<DefaultProperties Id="Bomb.AN-M59" Base="Bomb.WWII">
 		<Criteria>

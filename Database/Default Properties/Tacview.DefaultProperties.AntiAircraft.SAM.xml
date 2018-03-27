@@ -65,7 +65,7 @@
 	<DefaultProperties Id="AntiAircraft.SAM.Launcher" Base="AntiAircraft.SAM">
 	</DefaultProperties>
 
-	<!-- US SAM -->
+	<!-- North American SAM -->
 
 	<DefaultProperties Id="AntiAircraft.SAM.AN/TWQ-1" Base="AntiAircraft.SAM.Launcher">
 		<Criteria>
@@ -339,7 +339,7 @@
 			<ShortName>SA-2</ShortName>
 			<LongName>SA-2 Guideline (Fan Song E TR)</LongName>
 			<FullName>SA-2 Guideline (SNR-75 Fan Song E Tracking Radar)</FullName>
-			<EngagementRange>22000</EngagementRange>
+			<EngagementRange>33000</EngagementRange>
 		</Properties>
 	</DefaultProperties>
 

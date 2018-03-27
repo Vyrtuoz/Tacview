@@ -48,7 +48,33 @@
 	<DefaultProperties Id="FixedWing.GroundAttack" Base="Core.FixedWing">
 	</DefaultProperties>
 
-	<!-- US Military Transport Fixed-wing aircraft -->
+	<!-- North American Military Transport Fixed-wing aircraft -->
+
+	<DefaultProperties Id="FixedWing.L-5" Base="FixedWing.Military.Transport">
+		<Criteria>
+			<Name>L5</Name>
+			<Name>L-5</Name>
+			<Name>L-5 Sentinel</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>L-5</ShortName>
+			<LongName>L-5 Sentinel</LongName>
+			<FullName>Stinson L-5 Sentinel</FullName>
+			<Shape>FixedWing.L-5.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.L-5G" Base="FixedWing.L-5">
+		<Criteria>
+			<Name>L5G</Name>
+			<Name>L-5G</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>L-5G</ShortName>
+			<LongName>L-5G Sentinel</LongName>
+			<FullName>Stinson L-5G Sentinel</FullName>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.C-17" Base="FixedWing.Military.Transport">
 		<Criteria>
@@ -116,6 +142,22 @@
 			<LongName>Transall C-160</LongName>
 			<FullName>Transall C-160</FullName>
 			<Shape>FixedWing.C-160.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- EU Military Transports -->
+
+	<DefaultProperties Id="FixedWing.A400M" Base="FixedWing.Military.Transport">
+		<Criteria>
+			<Name>A400M</Name>
+			<Name>A400M Atlas</Name>
+			<Name>Airbus A400M</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A400M</ShortName>
+			<LongName>A400M Atlas</LongName>
+			<FullName>Airbus A400M Atlas</FullName>
+			<Shape>FixedWing.A400M.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -202,7 +244,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<!-- US Military Tankers -->
+	<!-- North American Military Tankers -->
 
 	<DefaultProperties Id="FixedWing.KC-10" Base="FixedWing.DC-10">
 		<Criteria>
@@ -307,7 +349,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<!-- US AWACS -->
+	<!-- North American AWACS -->
 
 	<DefaultProperties Id="FixedWing.E-3" Base="FixedWing.B707">
 		<Criteria>
@@ -352,7 +394,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<!-- US Drones -->
+	<!-- North American Drones -->
 
 	<DefaultProperties Id="FixedWing.MQ-9" Base="FixedWing.Military.Drone">
 		<Criteria>
@@ -368,7 +410,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<!-- US Recon -->
+	<!-- North American Recon -->
 
 	<DefaultProperties Id="FixedWing.SR-71" Base="FixedWing.Military.Recon">
 		<Criteria>
@@ -385,7 +427,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<!-- US Military Fixed-wing aircraft -->
+	<!-- North American Military Fixed-wing aircraft -->
 
 	<DefaultProperties Id="FixedWing.A-4" Base="FixedWing.GroundAttack">
 		<Criteria>
@@ -458,6 +500,41 @@
 			<ShortName>A-10C</ShortName>
 			<LongName>A-10C Thunderbolt II</LongName>
 			<FullName>Fairchild Republic A-10C Thunderbolt II</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Harrier" Base="FixedWing.GroundAttack">
+		<Criteria>
+			<Name>Harrier</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Harrier</ShortName>
+			<LongName>Harrier</LongName>
+			<FullName>Harrier</FullName>
+			<Shape>FixedWing.AV-8B.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.AV-8B" Base="FixedWing.Harrier">
+		<Criteria>
+			<Name>AV-8B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AV-8B</ShortName>
+			<LongName>AV-8B Harrier II</LongName>
+			<FullName>McDonnell Douglas AV-8B Harrier II</FullName>
+			<Shape>FixedWing.AV-8B.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.AV-8B.NA" Base="FixedWing.Harrier">
+		<Criteria>
+			<Name>AV-8BNA</Name>		<!-- DCS World 2.5 -->
+		</Criteria>
+		<Properties>
+			<ShortName>AV-8B</ShortName>
+			<LongName>AV-8B Harrier II NA</LongName>
+			<FullName>McDonnell Douglas AV-8B Harrier II Night Attack</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -887,6 +964,7 @@
 			<Name>F/A-18E</Name>
 			<Name>F/A-18E Hornet</Name>
 			<Name>Boeing F/A-18E</Name>
+			<Name>Flight Test Aircraft E1</Name>	<!-- FSX Superbug -->
 		</Criteria>
 		<Properties>
 			<ShortName>F/A-18E</ShortName>

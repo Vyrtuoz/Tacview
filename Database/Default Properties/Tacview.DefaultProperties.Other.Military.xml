@@ -35,7 +35,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<!-- US Infantry -->
+	<!-- North American Infantry -->
 
 	<DefaultProperties Id="Other.M-16" Base="Core.Infantry">
 		<Criteria>

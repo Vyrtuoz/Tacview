@@ -15,7 +15,7 @@
 	<DefaultProperties Id="Missile.AA.IR" Base="Missile.AA">
 	</DefaultProperties>
 
-	<!-- US AA Missiles -->
+	<!-- North American AA Missiles -->
 
 	<DefaultProperties Id="Missile.AA.AIM-9" Base="Missile.AA.IR">
 		<Criteria>

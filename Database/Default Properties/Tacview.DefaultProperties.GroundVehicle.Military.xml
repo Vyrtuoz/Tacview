@@ -25,9 +25,22 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="Vehicle.Military.Tank" Base="Vehicle.Military">
+		<Properties>
+			<Shape>Vehicle.Tank.T-62A.obj</Shape>
+		</Properties>
 	</DefaultProperties>
 
-	<!-- US Military Cars -->
+	<DefaultProperties Id="Vehicle.Military.Tank.Unknown" Base="Vehicle.Military.Tank">
+		<Criteria>
+			<Name>*</Name>
+			<Type>Tank</Type>
+		</Criteria>
+		<Properties>
+			<Shape>Vehicle.Tank.T-62A.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- North American Military Cars -->
 
 	<DefaultProperties Id="Vehicle.Car.Jeep" Base="Vehicle.Military.Car">
 		<Criteria>
@@ -55,7 +68,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<!-- US Military APC -->
+	<!-- North American Military APC -->
 
 	<DefaultProperties Id="Vehicle.APC.M113" Base="Vehicle.Military.APC">
 		<Criteria>
@@ -260,7 +273,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<!-- US Tanks -->
+	<!-- North American Tanks -->
 
 	<DefaultProperties Id="Vehicle.Tank.M4" Base="Vehicle.Military.Tank">
 		<Criteria>
@@ -299,6 +312,41 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Vehicle.Tank.M1" Base="Vehicle.Military.Tank">
+		<Criteria>
+			<Name>M1 Abrams</Name>
+			<Name>Abrams</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M1</ShortName>
+			<LongName>M1 Abrams</LongName>
+			<FullName>M1 Abrams</FullName>
+			<Shape>Vehicle.Tank.M1.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.M1A1" Base="Vehicle.Tank.M1">
+		<Criteria>
+			<Name>M1A1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M1A1</ShortName>
+			<LongName>M1A1 Abrams</LongName>
+			<FullName>M1A1 Abrams</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.M1A2" Base="Vehicle.Tank.M1A1">
+		<Criteria>
+			<Name>M1A2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M1A2</ShortName>
+			<LongName>M1A2 Abrams</LongName>
+			<FullName>M1A2 Abrams</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- Eastern Tanks -->
 
 	<DefaultProperties Id="Vehicle.Tank.T-62" Base="Vehicle.Military.Tank">
@@ -322,6 +370,30 @@
 			<LongName>T-62A</LongName>
 			<FullName>T-62A</FullName>
 			<Shape>Vehicle.Tank.T-62A.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.T-80" Base="Vehicle.Military.Tank">
+		<Criteria>
+			<Name>T-80</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>T-80</ShortName>
+			<LongName>T-80</LongName>
+			<FullName>T-80</FullName>
+			<Shape>Vehicle.Tank.T-80U.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.T-80U" Base="Vehicle.Tank.T-80">
+		<Criteria>
+			<Name>T-80U</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>T-80U</ShortName>
+			<LongName>T-80U</LongName>
+			<FullName>T-80U</FullName>
+			<Shape>Vehicle.Tank.T-80U.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

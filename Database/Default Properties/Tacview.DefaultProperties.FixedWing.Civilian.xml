@@ -36,7 +36,19 @@
 	<DefaultProperties Id="FixedWing.Heavy" Base="Core.FixedWing">
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.Heavy.Prop" Base="FixedWing.Heavy">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Heavy.TwinProp" Base="FixedWing.Heavy.Prop">
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.Heavy.Jet" Base="FixedWing.Heavy">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Heavy.Jet.Tail" Base="FixedWing.Heavy.Jet">
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Heavy.Jet.TwinEngines" Base="FixedWing.Heavy.Jet">
 	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.Heavy.Jet.ThreeEngines" Base="FixedWing.Heavy.Jet">
@@ -45,7 +57,59 @@
 	<DefaultProperties Id="FixedWing.Heavy.Jet.FourEngines" Base="FixedWing.Heavy.Jet">
 	</DefaultProperties>
 
-	<!-- US Civilian GA aircraft -->
+	<!-- North American Civilian GA aircraft -->
+
+	<DefaultProperties Id="FixedWing.BE58" Base="FixedWing.GA.TwinEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>BE58</Name>
+			<Name>Baron 58</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BE58</ShortName>
+			<LongName>Baron 58</LongName>
+			<FullName>Beechcraft Baron 58</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.BE20" Base="FixedWing.GA.TwinEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>BE20</Name>
+			<Name>Beechcraft BE20</Name>
+			<Name>King Air 200</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BE20</ShortName>
+			<LongName>Super King Air 200</LongName>
+			<FullName>Beechcraft Super King Air 200</FullName>
+			<Shape>FixedWing.BE20.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B350" Base="FixedWing.BE20">
+		<Criteria>
+			<Name>B350</Name>
+			<Name>Beechcraft B350</Name>
+			<Name>King Air 350</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B350</ShortName>
+			<LongName>Super King Air 350</LongName>
+			<FullName>Beechcraft Super King Air 350</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C152" Base="FixedWing.GA.OneEngine.HighWing.Tricycle">
+		<Criteria>
+			<Name>C152</Name>
+			<Name>Cessna 152</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C152</ShortName>
+			<LongName>C152</LongName>
+			<FullName>Cessna 152</FullName>
+			<Shape>FixedWing.C152.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.C172" Base="FixedWing.GA.OneEngine.HighWing.Tricycle">
 		<Criteria>
@@ -55,7 +119,7 @@
 		<Properties>
 			<ShortName>C172</ShortName>
 			<LongName>C172 Skyhawk</LongName>
-			<FullName>Cessna 172</FullName>
+			<FullName>Cessna 172 Skyhawk</FullName>
 			<Shape>FixedWing.C172.obj</Shape>
 		</Properties>
 	</DefaultProperties>
@@ -71,6 +135,31 @@
 			<ShortName>C172S</ShortName>		<!-- SP is the marketing name, S is the real name -->
 			<LongName>C172S Skyhawk</LongName>
 			<FullName>Cessna 172S Skyhawk</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C182" Base="FixedWing.C172">
+		<Criteria>
+			<Name>C182</Name>
+			<Name>Cessna 182</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C182</ShortName>
+			<LongName>C182 Skylane</LongName>
+			<FullName>Cessna 182 Skylane</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C182D" Base="FixedWing.C182">
+		<Criteria>
+			<Name>C182D</Name>
+			<Name>C182_D</Name>			<!-- A2A FSX Skylane -->
+			<Name>Cessna 182D</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C182D</ShortName>
+			<LongName>C182D Skylane</LongName>
+			<FullName>Cessna 182D Skylane</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -115,6 +204,40 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.DA40" Base="FixedWing.DA20">
+		<Criteria>
+			<Name>DA40</Name>
+			<Name>DA40 Star</Name>
+			<Name>Diamond DA40</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>DA40</ShortName>
+			<LongName>DA40 Star</LongName>
+			<FullName>Diamond DA40 Star</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Edge 540" Base="FixedWing.GA.OneEngine.LowWing.Taildragger">
+		<Criteria>
+			<Name>Edge 540</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Edge</ShortName>
+			<LongName>Edge 540</LongName>
+			<FullName>Zivko Edge 540</FullName>
+			<Shape>FixedWing.Edge 540.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.BoltonEdge" Base="FixedWing.Edge 540">
+		<Criteria>
+			<Name>Bolton Edge</Name>
+		</Criteria>
+		<Properties>
+			<Pilot>Cristian Bolton</Pilot>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.G550" Base="FixedWing.GA.TwinJet.Tail">
 		<Criteria>
 			<Name>G550</Name>
@@ -125,6 +248,19 @@
 			<LongName>Gulfstream G550</LongName>
 			<FullName>Gulfstream G550</FullName>
 			<Shape>FixedWing.G550.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.LJ45" Base="FixedWing.GA.TwinJet.Tail">
+		<Criteria>
+			<Name>LJ45</Name>
+			<Name>Learjet 45</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>LJ45</ShortName>
+			<LongName>Learjet 45</LongName>
+			<FullName>Learjet 45</FullName>
+			<Shape>FixedWing.LJ45.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -190,7 +326,7 @@
 		<Criteria>
 			<Name>RV-6</Name>
 			<Name>Van's RV-6</Name>
-			</Criteria>
+		</Criteria>
 		<Properties>
 			<ShortName>RV-6</ShortName>
 			<LongName>Van's RV-6</LongName>
@@ -291,7 +427,22 @@
 		</Properties>
 	</DefaultProperties>
 
-	<!-- US Civilian Heavy aircraft -->
+	<!-- Russian Civilian GA aircraft -->
+
+	<DefaultProperties Id="FixedWing.Yak-52" Base="FixedWing.GA.OneEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>Yak-52</Name>
+			<Name>Iak-52</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Yak-52</ShortName>
+			<LongName>Yak-52</LongName>
+			<FullName>Yakovlev Yak-52</FullName>
+			<Shape>FixedWing.Yak-52.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- North American Civilian Heavy aircraft -->
 
 	<DefaultProperties Id="FixedWing.DC-10" Base="FixedWing.Heavy.Jet.ThreeEngines">
 		<Criteria>
@@ -345,6 +496,143 @@
 			<LongName>Boeing 707-300B</LongName>
 			<FullName>Boeing 707-300B</FullName>
 			<Shape>FixedWing.B707-300B.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B737" Base="FixedWing.Heavy.Jet.TwinEngines">
+		<Criteria>
+			<Name>B737</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B737</ShortName>
+			<LongName>Boeing 737</LongName>
+			<FullName>Boeing 737</FullName>
+			<Shape>FixedWing.B737-MAX-8.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B738" Base="FixedWing.B737">
+		<Criteria>
+			<Name>B738</Name>
+			<Name>737-800</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B738</ShortName>
+			<LongName>Boeing 737-800</LongName>
+			<FullName>Boeing 737-800</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B38M" Base="FixedWing.B737">
+		<Criteria>
+			<Name>B38M</Name>
+			<Name>B737 MAX 8</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B38M</ShortName>
+			<LongName>Boeing 737 MAX 8</LongName>
+			<FullName>Boeing 737 MAX 8</FullName>
+			<Shape>FixedWing.B737-MAX-8.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.CRJ700" Base="FixedWing.Heavy.Jet.Tail">
+		<Criteria>
+			<Name>CRJ 700</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CRJ700</ShortName>
+			<LongName>Bombardier CRJ700</LongName>
+			<FullName>Bombardier CRJ700</FullName>
+			<Shape>FixedWing.CRJ700.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.DHC-8-100" Base="FixedWing.Heavy.TwinProp">
+		<Criteria>
+			<Name>DHC-8-100</Name>
+			<Name>Dash 8-100</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>DHC-8-100</ShortName>
+			<LongName>Bombardier Dash 8-100</LongName>
+			<FullName>Bombardier Dash 8-100</FullName>
+			<Shape>FixedWing.DHC-8-Q300.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.DHC-8-200" Base="FixedWing.DHC-8-100">
+		<Criteria>
+			<Name>DHC-8-200</Name>
+			<Name>Dash 8-200</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>DHC-8-200</ShortName>
+			<LongName>Bombardier Dash 8-200</LongName>
+			<FullName>Bombardier Dash 8-200</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.DHC-8-300" Base="FixedWing.DHC-8-200">
+		<Criteria>
+			<Name>DHC-8-300</Name>
+			<Name>Dash 8-300</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>DHC-8-300</ShortName>
+			<LongName>Bombardier Dash 8-300</LongName>
+			<FullName>Bombardier Dash 8-300</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.DHC-8-Q300" Base="FixedWing.DHC-8-300">
+		<Criteria>
+			<Name>DHC-8-Q300</Name>
+			<Name>Dash 8-Q300</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>DHC-8-Q300</ShortName>
+			<LongName>Bombardier Q300</LongName>
+			<FullName>Bombardier Dash 8-Q300</FullName>
+			<Shape>FixedWing.DHC-8-Q300.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.MD-80" Base="FixedWing.Heavy.Jet.Tail">
+		<Criteria>
+			<Name>MD80</Name>
+			<Name>MD-80</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MD-80</ShortName>
+			<LongName>MD-80</LongName>
+			<FullName>McDonnell Douglas MD-80</FullName>
+			<Shape>FixedWing.MD-80.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- EU Heavy Planes -->
+
+	<DefaultProperties Id="FixedWing.A320" Base="FixedWing.Heavy.Jet.TwinEngines">
+		<Criteria>
+			<Name>A320</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A320</ShortName>
+			<LongName>A320</LongName>
+			<FullName>Airbus A320</FullName>
+			<Shape>FixedWing.A320.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.A321" Base="FixedWing.A320">
+		<Criteria>
+			<Name>A321</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A321</ShortName>
+			<LongName>A321</LongName>
+			<FullName>Airbus A321</FullName>
 		</Properties>
 	</DefaultProperties>
 

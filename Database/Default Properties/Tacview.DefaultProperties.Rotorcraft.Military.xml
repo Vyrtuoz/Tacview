@@ -12,7 +12,37 @@
 		</Properties>
 	</DefaultProperties>
 
-	<!-- US Military Helicopters -->
+	<!-- North American Military Helicopters -->
+
+	<DefaultProperties Id="Rotorcraft.AH-1" Base="Rotorcraft.Attack">
+		<Criteria>
+			<Name>Cobra</Name>
+			<Name>AH-1</Name>
+			<Name>AH-1 Cobra</Name>
+			<Name>Bell AH-1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AH-1</ShortName>
+			<LongName>AH-1 Cobra</LongName>
+			<FullName>Bell AH-1 Cobra</FullName>
+			<Shape>Rotorcraft.AH-1W.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.AH-1W" Base="Rotorcraft.AH-1">
+		<Criteria>
+			<Name>SuperCobra</Name>
+			<Name>AH-1W</Name>
+			<Name>AH-1W SuperCobra</Name>
+			<Name>Boeing AH-1W</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AH-1W</ShortName>
+			<LongName>AH-1W SuperCobra</LongName>
+			<FullName>Boeing AH-1W SuperCobra</FullName>
+			<Shape>Rotorcraft.AH-1W.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="Rotorcraft.AH-64" Base="Rotorcraft.Attack">
 		<Criteria>
@@ -59,7 +89,7 @@
 	<DefaultProperties Id="Rotorcraft.Airwolf" Base="Rotorcraft.Bell 222">
 		<Criteria>
 			<Name>Airwolf</Name>
-			<Type>Air</Type>		<!-- Sometimes exported as FixedWing -->
+			<Type>Air</Type>		<!-- Sometimes exported as FixedWing instead of Rotocraft -->
 		</Criteria>
 		<Properties>
 			<ShortName>Airwolf</ShortName>
