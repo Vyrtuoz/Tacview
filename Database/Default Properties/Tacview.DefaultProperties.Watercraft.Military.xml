@@ -12,6 +12,9 @@
 	<DefaultProperties Id="Watercraft.Frigate" Base="Watercraft.Military">
 	</DefaultProperties>
 
+	<DefaultProperties Id="Watercraft.Cruiser" Base="Watercraft.Frigate">
+	</DefaultProperties>
+
 	<DefaultProperties Id="Watercraft.AircraftCarrier" Base="Watercraft.Military">
 		<Properties>
 			<Shape>Core.AircraftCarrier.obj</Shape>
@@ -35,6 +38,23 @@
 			<FullName>Oliver Hazard Perry (FFG-7)</FullName>
 <!--		<Shape>Watercraft.FFG-7.obj</Shape>	-->
 			<EngagementRange>45000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- North American Cruisers -->
+
+	<DefaultProperties Id="Watercraft.CG-47" Base="Watercraft.Cruiser">
+		<Criteria>
+			<Name>CG-47</Name>
+			<Name>Ticonderoga</Name>
+			<Name>TICONDEROG</Name>		<!-- DCS World 2.5 -->
+		</Criteria>
+		<Properties>
+			<ShortName>CG-47</ShortName>
+			<LongName>CG-47 Ticonderoga</LongName>
+			<FullName>USS Ticonderoga (CG-47)</FullName>
+			<Shape>Watercraft.CG-47.obj</Shape>
+			<EngagementRange>52000</EngagementRange>
 		</Properties>
 	</DefaultProperties>
 

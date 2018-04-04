@@ -232,6 +232,30 @@
 
 	<!-- EU Military Helicopters -->
 
+	<DefaultProperties Id="Rotorcraft.AS550" Base="Rotorcraft.AS350">
+		<Criteria>
+			<Name>AS550</Name>
+			<Name>Fennec</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AS550</ShortName>
+			<LongName>AS550 Fennec</LongName>
+			<FullName>Aérospatiale AS550 Fennec</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.AS555" Base="Rotorcraft.AS355">
+		<Criteria>
+			<Name>AS555</Name>
+			<Name>Fennec 2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AS555</ShortName>
+			<LongName>AS555 Fennec 2</LongName>
+			<FullName>Aérospatiale AS555 Fennec 2</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Rotorcraft.SA342" Base="Rotorcraft.SA341">
 		<Criteria>
 			<Name>SA 342</Name>

@@ -2644,4 +2644,17 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.Yak-52" Base="FixedWing.Fighter.Prop">
+		<Criteria>
+			<Name>Yak-52</Name>
+			<Name>Yakovlev Yak-52</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Yak-52</ShortName>
+			<LongName>Yak-52</LongName>
+			<FullName>Yakovlev Yak-52</FullName>
+			<Shape>FixedWing.Yak-52.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 </DefaultPropertiesCollection>

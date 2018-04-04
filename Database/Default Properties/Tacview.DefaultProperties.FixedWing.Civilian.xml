@@ -308,6 +308,46 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.PA-28-180 Archer" Base="FixedWing.PA-28-180">
+		<Criteria>
+			<Name>PA-28-180 Archer</Name>
+			<Name>Archer</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PA-28</ShortName>
+			<LongName>PA-28-180 Archer</LongName>
+			<FullName>Piper PA-28-180 Archer</FullName>
+			<Shape>FixedWing.PA-28-180.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.PA-28-180 Archer II" Base="FixedWing.PA-28-180 Archer">
+		<Criteria>
+			<Name>PA-28-181</Name>
+			<Name>PA-28-181 Archer II</Name>
+			<Name>Archer II</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PA-28</ShortName>
+			<LongName>PA-28-181 Archer II</LongName>
+			<FullName>Piper PA-28-181 Archer II</FullName>
+			<Shape>FixedWing.PA-28-180.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.PA-28-180 Archer III" Base="FixedWing.PA-28-180 Archer II">
+		<Criteria>
+			<Name>PA-28-181 Archer III</Name>
+			<Name>Archer III</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PA-28</ShortName>
+			<LongName>PA-28-181 Archer III</LongName>
+			<FullName>Piper PA-28-181 Archer III</FullName>
+			<Shape>FixedWing.PA-28-180.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.PA-31" Base="FixedWing.GA.TwinEngine.LowWing.Tricycle">
 		<Criteria>
 			<Name>PA-31</Name>

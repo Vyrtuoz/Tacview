@@ -79,6 +79,46 @@
 
 	<!-- EU Helicopters -->
 
+	<DefaultProperties Id="Rotorcraft.AS350" Base="Rotorcraft.Transport">
+		<Criteria>
+			<Name>AS350</Name>
+			<Name>Écureuil</Name>
+			<Name>Ecureuil</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AS350</ShortName>
+			<LongName>AS350 Écureuil</LongName>
+			<FullName>Eurocopter AS350 Écureuil</FullName>
+			<Shape>Rotorcraft.AS350.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.AS350.B3" Base="Rotorcraft.AS350">
+		<Criteria>
+			<Name>AS350B3</Name>
+			<Name>AS350 B3</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AS350 B3</ShortName>
+			<LongName>AS350 B3 Écureuil</LongName>
+			<FullName>Eurocopter AS350 B3 Écureuil</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.AS355" Base="Rotorcraft.AS350">
+		<Criteria>
+			<Name>AS355</Name>
+			<Name>Écureuil 2</Name>
+			<Name>Ecureuil 2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AS355</ShortName>
+			<LongName>AS355 Écureuil 2</LongName>
+			<FullName>Eurocopter AS355 Écureuil 2</FullName>
+			<Shape>Rotorcraft.AS350.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Rotorcraft.SA341" Base="Rotorcraft.Transport">
 		<Criteria>
 			<Name>SA 341</Name>
