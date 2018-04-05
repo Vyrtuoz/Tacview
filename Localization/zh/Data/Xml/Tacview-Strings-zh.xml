@@ -155,8 +155,8 @@
 	<String ID="OptionsEditObjectHelp">编辑已选物体属性</String>
 	<String ID="OptionsRemoveObjectText">删除物体</String>
 	<String ID="OptionsRemoveObjectHelp">从世界里删除已选物体</String>
-	<String ID="TimeShiftObjectText">Time Shift...</String>
-	<String ID="TimeShiftObjectHelp">Correct selected object telemetry time</String>
+	<String ID="TimeShiftObjectText">时间移动...</String>
+	<String ID="TimeShiftObjectHelp">修正已选物体的遥测时间</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;关联acmi文件至Tacview</String>
 	<String ID="OptionsAssociateFileTypesHelp">在Windows里双击acmi飞行记录文件时用Tacview打开。</String>
@@ -221,11 +221,11 @@
 	<String ID="HelpMemoryProfilerHelp">显示内存配置器</String>
 	<String ID="HelpAboutText">&amp;关于Tacview</String>
 	<String ID="HelpAboutHelp">显示版权信息</String>
-	<String ID="AddOnsMenuTooltip">Add-ons</String>
-	<String ID="AddOnsMenuHelp">Tools to manage and interact with Add-ons</String>
-	<String ID="ActiveAddOnsListText">Enable/Disable Add-ons</String>
-	<String ID="ReloadLuaScriptsText">Reload Lua Scripts</String>
-	<String ID="ReloadLuaScriptsHelp">Reload all add-ons written in Lua script</String>
+	<String ID="AddOnsMenuTooltip">插件</String>
+	<String ID="AddOnsMenuHelp">管理和与插件交互的工具</String>
+	<String ID="ActiveAddOnsListText">启用/禁用插件</String>
+	<String ID="ReloadLuaScriptsText">重新加载Lua脚本</String>
+	<String ID="ReloadLuaScriptsHelp">重新加载所有以Lua脚本写成的插件</String>
 
 	<String ID="RegisterCmdTooltip">注册</String>
 	<String ID="RegisterCmdHelp">注册你的Tacview软件副本</String>
@@ -527,12 +527,12 @@
 	<String ID="BuildingType">(建筑)</String>
 	<String ID="TimelessValue">(永久物体)</String>
 
-	<String ID="TimeShiftTitle">Time shift</String>
-	<String ID="TimeShiftSubTitle">Fix telemetry time or use as a ghost mode to compare performances.</String>
-	<String ID="TimeShiftFirstSampleTime">First sample time: {0}</String>
-	<String ID="TimeShiftOffsetInHours">Offset in hours</String>
-	<String ID="TimeShiftOffsetInSeconds">Offset in seconds</String>
-	<String ID="TimeShiftDragToShift">Click and drag here for a smooth time-shift</String>
+	<String ID="TimeShiftTitle">时间移动</String>
+	<String ID="TimeShiftSubTitle">修正遥测时间或使用幻象模式来对比性能。</String>
+	<String ID="TimeShiftFirstSampleTime">首要样本时间: {0}</String>
+	<String ID="TimeShiftOffsetInHours">偏移小时数</String>
+	<String ID="TimeShiftOffsetInSeconds">偏移秒数</String>
+	<String ID="TimeShiftDragToShift">点击并拖动进行平滑时间移动</String>
 
 	<String ID="ButtonHelp">按下想用的控制设备来使用此命令。</String>
 	<String ID="AxeHelp">激活想用的摇杆轴来使用此命令。</String>
@@ -652,8 +652,8 @@
 	<String ID="CmdDebugModeHelp">显示调试信息以帮助修补错误。</String>
 	<String ID="CmdConfigSetHelp">为每个Tacview实例以特定组合存储用户偏好设置。</String>
 	<String ID="CmdAuthenticateHelp">如果所有打开的文件都是认证的，返回询问-1。</String>
-	<String ID="CmdRegisterUserProductKeyHelp">Activate Tacview for the current user with the provided key.</String>
-	<String ID="CmdRegisterSystemProductKeyHelp">Activate Tacview for the entire system with the provided key.</String>
+	<String ID="CmdRegisterUserProductKeyHelp">为当前用户使用提供的秘钥激活Tacveiw。</String>
+	<String ID="CmdRegisterSystemProductKeyHelp">为整个系统使用提供的秘钥激活Tacview。</String>
 
 	<String ID="Selection">选择</String>
 	<String ID="TimeControl">时间控制</String>
@@ -742,8 +742,8 @@
 	<String ID="RegistrationSucceededURL">了解更多关于使用注册版本Tacview的优点</String>
 	<String ID="RequireHomeLicenseText">要使用此版本的Tacview，你需要注册你的软件副本。</String>
 	<String ID="RequireProfessionalLicenseText">要使用此版本的Tacview，你需要高级版许可。</String>
-	<String ID="RegisterUserProductKey">Register User</String>
-	<String ID="RegisterSystemProductKey">Register System</String>
+	<String ID="RegisterUserProductKey">注册用户</String>
+	<String ID="RegisterSystemProductKey">注册系统</String>
 
 	<!-- Additional Dialogs Strings -->
 	<String ID="BrowseDCSWorldFolderHelp">请选择'DCS World'安装文件夹</String>
