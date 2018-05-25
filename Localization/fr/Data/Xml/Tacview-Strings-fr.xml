@@ -91,6 +91,8 @@
 	<String ID="OptionsTerrainDisplayModeEmptyHelp">Affiche un terrain complément vide afin d'améliorer encore plus la lisibilité des combats</String>
 	<String ID="OptionsTerrainDisplayModeHighContrastText">Fort contraste</String>
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Affiche le terrain avec un thème de couleur a fort contraste</String>
+	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Textures personnalisées</String>
+	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Afficher toutes les textures déclarées dans CustomTextureList.xml</String>
 
 	<String ID="OptionsTerrainText">Terrain</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Auto)</String>

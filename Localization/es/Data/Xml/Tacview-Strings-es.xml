@@ -92,6 +92,8 @@
 	<String ID="OptionsTerrainDisplayModeEmptyHelp">Mostrar terreno vacío para mejorar aún más la visibilidad</String>
 	<String ID="OptionsTerrainDisplayModeHighContrastText">Alto Contraste</String>
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Mostrar el terreno con un esquema de colores de alto contraste</String>
+	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Custom textures</String>
+	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Display all the textures declared in CustomTextureList.xml</String>
 
 	<String ID="OptionsTerrainText">Terreno</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Automático)</String>

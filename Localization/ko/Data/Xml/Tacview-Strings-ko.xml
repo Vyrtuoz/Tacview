@@ -92,6 +92,8 @@
 	<String ID="OptionsTerrainDisplayModeEmptyHelp">가독성을 더 높이기 위하여 지형을 빈 공간으로 보이게 하기</String>
 	<String ID="OptionsTerrainDisplayModeHighContrastText">High-Contrast</String>
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Display the terrain with a high contrast color scheme</String>
+	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Custom textures</String>
+	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Display all the textures declared in CustomTextureList.xml</String>
 
 	<String ID="OptionsTerrainText">지형</String>
 	<String ID="OptionsTerrainAutoText">(&amp;자동)</String>
