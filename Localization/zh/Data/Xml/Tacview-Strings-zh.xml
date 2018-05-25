@@ -92,8 +92,8 @@
 	<String ID="OptionsTerrainDisplayModeEmptyHelp">显示空白地形以进一步增进执行效率</String>
 	<String ID="OptionsTerrainDisplayModeHighContrastText">高对比度</String>
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">使用高对比度配色方案显示地形</String>
-	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Custom textures</String>
-	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Display all the textures declared in CustomTextureList.xml</String>
+	<String ID="OptionsTerrainDisplayModeCustomTexturesText">自定义纹理</String>
+	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">显示CustomTextureList.xml中声明的所有纹理</String>
 
 	<String ID="OptionsTerrainText">地形</String>
 	<String ID="OptionsTerrainAutoText">（&amp;自动）</String>
