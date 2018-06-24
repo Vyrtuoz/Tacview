@@ -110,34 +110,40 @@ msgid "at the same time."
 msgstr "al mismo tiempo."
 
 msgid "Host Telemetry Password"
-msgstr ""
+msgstr "Contraseña de telemetría de host"
 
 msgid "As the host of an online session, you can authorize privileged clients to review"
-msgstr ""
+msgstr "Como anfitrión de una sesión en línea, puede autorizar a los clientes con privilegios"
 
 msgid "right away any telemetry recorded from your server."
-msgstr ""
+msgstr "de inmediato cualquier telemetría registrada desde su servidor"
 
 msgid "Client Telemetry Password"
-msgstr ""
+msgstr "Contraseña de telemetría del cliente"
 
 msgid "Enter the Host Telemetry Password provided by the host of your online flight,"
-msgstr ""
+msgstr "Ingrese la contraseña de telemetría del host del vuelo,"
 
 msgid "to get immediate access to any available telemetry data."
-msgstr ""
+msgstr "para obtener acceso inmediato a cualquier información de telemetría disponible."
 
 msgid "Local Remote Control Password"
-msgstr ""
+msgstr "Contraseña de control remoto local"
+
 msgid "Terrain Export"
-msgstr ""
+msgstr "Exportación de terreno"
+
 msgid "NOTICE: SLOW OPERATION!"
-msgstr ""
+msgstr "AVISO: ¡OPERACIÓN LENTA!"
+
 msgid "DO NOT forget to disable this option after successful export."
-msgstr ""
+msgstr "NO olvide desactivar esta opción después de exportar con éxito"
+
 msgid "Disabled"
-msgstr ""
+msgstr "Deshabilitado"
+
 msgid "Unknown Terrain"
-msgstr ""
+msgstr "Terreno desconocido"
+
 msgid "Predefined Terrain"
-msgstr ""
+msgstr "Terreno predefinido"
