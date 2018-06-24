@@ -92,8 +92,8 @@
 	<String ID="OptionsTerrainDisplayModeEmptyHelp">Mostrar terreno vacío para mejorar aún más la visibilidad</String>
 	<String ID="OptionsTerrainDisplayModeHighContrastText">Alto Contraste</String>
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Mostrar el terreno con un esquema de colores de alto contraste</String>
-	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Custom textures</String>
-	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Display all the textures declared in CustomTextureList.xml</String>
+	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Textura Personalizada</String>
+	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Mostrar todas las texturas indicadas en CustomTextureList.xml</String>
 
 	<String ID="OptionsTerrainText">Terreno</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Automático)</String>
@@ -157,8 +157,8 @@
 	<String ID="OptionsEditObjectHelp">Edita las propiedades del objeto seleccionado</String>
 	<String ID="OptionsRemoveObjectText">Borrar objeto</String>
 	<String ID="OptionsRemoveObjectHelp">Borra el objeto del mundo</String>
-	<String ID="TimeShiftObjectText">Time Shift...</String>
-	<String ID="TimeShiftObjectHelp">Correct selected object telemetry time</String>
+	<String ID="TimeShiftObjectText">Cambio de hora...</String>
+	<String ID="TimeShiftObjectHelp">Corregir el tiempo de telemetría del objeto seleccionado</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Asociar Tacview con los archivos acmi</String>
 	<String ID="OptionsAssociateFileTypesHelp">Habilita que Tacview abra en windows los archivos de vuelo con doble click</String>
@@ -224,10 +224,10 @@
 	<String ID="HelpAboutText">&amp;Sobre Tacview</String>
 	<String ID="HelpAboutHelp">Muestra la información de copyright</String>
 	<String ID="AddOnsMenuTooltip">Add-ons</String>
-	<String ID="AddOnsMenuHelp">Tools to manage and interact with Add-ons</String>
-	<String ID="ActiveAddOnsListText">Enable/Disable Add-ons</String>
-	<String ID="ReloadLuaScriptsText">Reload Lua Scripts</String>
-	<String ID="ReloadLuaScriptsHelp">Reload all add-ons written in Lua script</String>
+	<String ID="AddOnsMenuHelp">Herramientas para administrar e interactuar con Add-ons</String>
+	<String ID="ActiveAddOnsListText">Des/Activar Add-ons</String>
+	<String ID="ReloadLuaScriptsText">Recargar Lua Scripts</String>
+	<String ID="ReloadLuaScriptsHelp">Recargar todos los add-ons escritos en Lua script</String>
 
 	<String ID="RegisterCmdTooltip">Registrar</String>
 	<String ID="RegisterCmdHelp">Registra la copia de Tacview</String>
@@ -478,7 +478,7 @@
 	<String ID="RealTimeTelemetryNotSynchronized">La reproducción no esta sincronizada con la telemetria en tiempo real.</String>
 	<String ID="RealTimeTelemetryConnect">Conectar</String>
 	<String ID="RealTimeTelemetryDisconnect">Desconectar</String>
-	<String ID="RealTimeTelemetryDisconnect">Disconnect</String>
+	<String ID="RealTimeTelemetryDisconnect">Desconectar</String>
 	<String ID="RealTimeTelemetryAutoReconnect">Auto Reconectar</String>
 
 	<String ID="AddEditObjectAddTitle">Crear nuevo objeto</String>
@@ -512,12 +512,12 @@
 	<String ID="BuildingType">(Edificio)</String>
 	<String ID="TimelessValue">(Objeto atemporal)</String>
 
-	<String ID="TimeShiftTitle">Time shift</String>
-	<String ID="TimeShiftSubTitle">Fix selected object telemetry time, or create a ghost mode to compare performances.</String>
-	<String ID="TimeShiftFirstSampleTime">First sample time: {0}</String>
-	<String ID="TimeShiftOffsetInHours">Offset in hours</String>
-	<String ID="TimeShiftOffsetInSeconds">Offset in seconds</String>
-	<String ID="TimeShiftDragToShift">Click and drag here for a smooth time-shift</String>
+	<String ID="TimeShiftTitle">Cambio de horat</String>
+	<String ID="TimeShiftSubTitle">Fijar el tiempo de telemetría del objeto seleccionado o crea un modo fantasma para comparar las actuaciones.</String>
+	<String ID="TimeShiftFirstSampleTime">Primer tiempo de muestra: {0}</String>
+	<String ID="TimeShiftOffsetInHours">Desplazamiento en horas</String>
+	<String ID="TimeShiftOffsetInSeconds"Desplazamiento en segundos</String>
+	<String ID="TimeShiftDragToShift">Haga clic y arrastre aquí para un cambio de tiempo suave</String>
 
 	<String ID="ButtonHelp">Pulse el control que quiere usar para este comando.</String>
 	<String ID="AxeHelp">Mueva el eje del joystick que quiere usar para este comando.</String>
@@ -561,8 +561,8 @@
 	<String ID="AddOnTitleMedia2">Media 2</String>
 	<String ID="AddOnTitleMedia3">Media 3</String>
 	<String ID="AddOnTitleMedia4">Media 4</String>
-	<String ID="UnsupportedMediaNotification">Unsupported media file.</String>
-	<String ID="UnsupportedMediaLink">Try to install a codec pack.</String>
+	<String ID="UnsupportedMediaNotification">Archivo multimedia no compatible.</String>
+	<String ID="UnsupportedMediaLink">ntenta instalar un paquete de códecs.</String>
 
 	<String ID="AddOnTelemetryName">Nombre</String>
 	<String ID="AddOnTelemetryData">Datos</String>
@@ -721,8 +721,8 @@
 	<String ID="RegistrationSucceededURL">Aprenda más sobre las ventajas de usar una copia registrada de Tacview</String>
 	<String ID="RequireHomeLicenseText">Para usar esta versión de Tacview necesita registrar su copia.</String>
 	<String ID="RequireProfessionalLicenseText">Para usar esta versión de Tacview necesita una licencia professional.</String>
-	<String ID="RegisterUserProductKey">Register User</String>
-	<String ID="RegisterSystemProductKey">Register System</String>
+	<String ID="RegisterUserProductKey">Registrar usor</String>
+	<String ID="RegisterSystemProductKey">Sistema de registro</String>
 
 	<!-- Additional Dialogs Strings -->
 	<String ID="BrowseDCSWorldFolderHelp">Por favor seleccione la carpeta de instalación de 'DCS World'</String>
