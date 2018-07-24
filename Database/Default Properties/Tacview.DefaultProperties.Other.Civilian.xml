@@ -6,4 +6,22 @@
 
 	<!-- Core Declarations -->
 
+	<DefaultProperties Id="Other.Sea.Biologic" Base="Core.Biologic">
+	</DefaultProperties>
+
+	<!-- Sea Animals -->
+
+	<DefaultProperties Id="Biologic.Whale" Base="Other.Sea.Biologic">
+		<Criteria>
+			<Name>Whale</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Sea+Biologic</AdditionalType>
+			<ShortName>Whale</ShortName>
+			<LongName>Whale</LongName>
+			<FullName>Whale</FullName>
+			<Shape>Other.Whale.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 </DefaultPropertiesCollection>

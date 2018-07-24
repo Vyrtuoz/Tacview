@@ -12,6 +12,18 @@
 		</Criteria>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Container.RocketPod" Base="Core.Container">
+		<Properties>
+			<Shape>Other.RocketPod.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.FuelTank" Base="Core.Container">
+		<Properties>
+			<Shape>Other.FuelTank.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- Military Infantry -->
 
 	<DefaultProperties Id="Other.Parachutist.WithoutName" Base="Core.Infantry">
@@ -82,6 +94,63 @@
 			<ShortName>AK-47</ShortName>
 			<LongName>AK-47 Infantry</LongName>
 			<FullName>AK-47 Infantry</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Containers -->
+
+	<DefaultProperties Id="Container.LUA-3" Base="Container.RocketPod">
+		<Criteria>
+			<Name>LAU-3</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>LAU-3</ShortName>
+			<LongName>LAU-3</LongName>
+			<FullName>LAU-3</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.LUA-68" Base="Container.RocketPod">
+		<Criteria>
+			<Name>LAU-68</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>LAU-68</ShortName>
+			<LongName>LAU-68</LongName>
+			<FullName>LAU-68</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.FuelTank.Aero.1D" Base="Container.FuelTank">
+		<Criteria>
+			<Name>Aero 1D</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Aero 1D</ShortName>
+			<LongName>Aero 1D Fuel Tank</LongName>
+			<FullName>Aero 1D Fuel Tank</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.FuelTank.RPL-522" Base="Container.FuelTank">
+		<Criteria>
+			<Name>RPL-522</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>RPL-522</ShortName>
+			<LongName>RPL-522 Fuel Tank</LongName>
+			<FullName>RPL-522 Fuel Tank</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.FuelTank.275-gal" Base="Container.FuelTank">
+		<Criteria>
+			<Name>275-gal fuel tank</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>275-gal</ShortName>
+			<LongName>275-gal Fuel Tank</LongName>
+			<FullName>275-gal Fuel Tank</FullName>
 		</Properties>
 	</DefaultProperties>
 

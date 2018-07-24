@@ -256,6 +256,46 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Rotorcraft.SA330" Base="Rotorcraft.Transport">
+		<Criteria>
+			<Name>SA 330</Name>
+			<Name>Puma</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA 330</ShortName>
+			<LongName>SA 330 Puma</LongName>
+			<FullName>Aérospatiale SA 330 Puma</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.H215M" Base="Rotorcraft.SA330">
+		<Criteria>
+			<Name>H215M</Name>
+			<Name>AS532</Name>
+			<Name>Cougar</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>H215M</ShortName>
+			<LongName>H215M Cougar</LongName>
+			<FullName>Airbus Helicopters H215M</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.H225M" Base="Rotorcraft.H215M">
+		<Criteria>
+			<Name>H225M</Name>
+			<Name>EC725</Name>
+			<Name>Caracal</Name>
+			<Name>Super Cougar</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>H225M</ShortName>
+			<LongName>H225M Caracal</LongName>
+			<FullName>Airbus Helicopters H225M</FullName>
+			<Shape>Rotorcraft.H225M.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Rotorcraft.SA342" Base="Rotorcraft.SA341">
 		<Criteria>
 			<Name>SA 342</Name>

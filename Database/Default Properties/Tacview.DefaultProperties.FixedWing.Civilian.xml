@@ -217,6 +217,20 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.EAGL2" Base="FixedWing.GA.OneEngine.LowWing.Taildragger">
+		<Criteria>
+			<Name>EAGL</Name>
+			<Name>Christen Eagle II</Name>
+			<Name>Aviat Eagle II</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>EAGL</ShortName>
+			<LongName>Eagle II</LongName>
+			<FullName>Christen Eagle II</FullName>
+			<Shape>FixedWing.Eagle II.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.Edge 540" Base="FixedWing.GA.OneEngine.LowWing.Taildragger">
 		<Criteria>
 			<Name>Edge 540</Name>
@@ -261,6 +275,88 @@
 			<LongName>Learjet 45</LongName>
 			<FullName>Learjet 45</FullName>
 			<Shape>FixedWing.LJ45.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.M-7" Base="FixedWing.GA.OneEngine.HighWing.Taildragger">
+		<Criteria>
+			<Name>M-7</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M-7</ShortName>
+			<LongName>M-7</LongName>
+			<FullName>Maule M-7</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.M-7-260" Base="FixedWing.M-7">
+		<Criteria>
+			<Name>M-7-260</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M-7-260</ShortName>
+			<LongName>M-7-260</LongName>
+			<FullName>Maule M-7-260</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.M-7-260C" Base="FixedWing.M-7-260">
+		<Criteria>
+			<Name>M-7-260C</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M-7-260C</ShortName>
+			<LongName>M-7-260C</LongName>
+			<FullName>Maule M-7-260C</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.M20" Base="FixedWing.GA.OneEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>M20</Name>
+			<Name>Mooney M20</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M20</ShortName>
+			<LongName>M20</LongName>
+			<FullName>Mooney M20</FullName>
+			<Shape>FixedWing.M20.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.M20M" Base="FixedWing.M20">
+		<Criteria>
+			<Name>M20M</Name>
+			<Name>Mooney M20</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M20M</ShortName>
+			<LongName>M20M</LongName>
+			<FullName>Mooney M20M</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.M20M.Bravo" Base="FixedWing.M20M">
+		<Criteria>
+			<Name>M20M</Name>
+			<Name>Mooney Bravo</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M20M</ShortName>
+			<LongName>M20M Bravo</LongName>
+			<FullName>Mooney M20M Bravo</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.M20TN" Base="FixedWing.M20M.Bravo">
+		<Criteria>
+			<Name>M20TN</Name>
+			<Name>Mooney Acclaim</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M20TN</ShortName>
+			<LongName>M20TN Acclaim</LongName>
+			<FullName>Mooney M20TN Acclaim</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -469,6 +565,18 @@
 
 	<!-- Russian Civilian GA aircraft -->
 
+	<DefaultProperties Id="FixedWing.Yak-40" Base="FixedWing.GA.TwinJet.Tail">
+		<Criteria>
+			<Name>Yak-40</Name>
+			<Name>Iak-40</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Yak-40</ShortName>
+			<LongName>Yak-40</LongName>
+			<FullName>Yakovlev Yak-40 Codling</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.Yak-52" Base="FixedWing.GA.OneEngine.LowWing.Tricycle">
 		<Criteria>
 			<Name>Yak-52</Name>
@@ -651,6 +759,42 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.MD-81" Base="FixedWing.MD-80">
+		<Criteria>
+			<Name>MD81</Name>
+			<Name>MD-81</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MD-81</ShortName>
+			<LongName>MD-81</LongName>
+			<FullName>McDonnell Douglas MD-81</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.MD-82" Base="FixedWing.MD-81">
+		<Criteria>
+			<Name>MD82</Name>
+			<Name>MD-82</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MD-82</ShortName>
+			<LongName>MD-82</LongName>
+			<FullName>McDonnell Douglas MD-82</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.MD-83" Base="FixedWing.MD-82">
+		<Criteria>
+			<Name>MD83</Name>
+			<Name>MD-83</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MD-83</ShortName>
+			<LongName>MD-83</LongName>
+			<FullName>McDonnell Douglas MD-83</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- EU Heavy Planes -->
 
 	<DefaultProperties Id="FixedWing.A320" Base="FixedWing.Heavy.Jet.TwinEngines">
@@ -673,6 +817,18 @@
 			<ShortName>A321</ShortName>
 			<LongName>A321</LongName>
 			<FullName>Airbus A321</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.P3D.Airliner" Base="FixedWing.Heavy">
+		<Criteria>
+			<Name>Airliner</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Airliner</ShortName>
+			<LongName>Airliner</LongName>
+			<FullName>Airliner</FullName>
+			<Shape>FixedWing.A320.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

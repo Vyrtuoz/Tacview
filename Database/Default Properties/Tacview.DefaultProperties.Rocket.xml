@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.1">
+
+	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
+	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+
+	<!-- Core Declarations -->
+
+	<DefaultProperties Id="Rocket.Light" Base="Core.Rocket">
+		<Properties>
+			<Shape>Rocket.Hydra 70.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rocket.Heavy" Base="Core.Rocket">
+		<Properties>
+			<Shape>Rocket.Hydra 70.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- North American Rockets -->
+
+	<DefaultProperties Id="Rocket.FFAR.Mk5" Base="Rocket.Light">
+		<Criteria>
+			<Name>FFAR Mk5</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>FFAR</ShortName>
+			<LongName>FFAR Mk5</LongName>
+			<FullName>FFAR Mk5</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rocket.FFAR.Mk5.HEAT" Base="Rocket.FFAR.Mk5">
+		<Criteria>
+			<Name>FFAR Mk5 HEAT</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>FFAR HEAT</ShortName>
+			<LongName>FFAR Mk5 HEAT</LongName>
+			<FullName>FFAR Mk5 HEAT</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rocket.HYDRA70" Base="Rocket.FFAR.Mk5">
+		<Criteria>
+			<Name>HYDRA 70</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>HYDRA</ShortName>
+			<LongName>HYDRA 70</LongName>
+			<FullName>HYDRA 70</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rocket.HYDRA70.M151" Base="Rocket.HYDRA70">
+		<Criteria>
+			<Name>HYDRA 70 M151</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>HYDRA M151</ShortName>
+			<LongName>HYDRA 70 M151</LongName>
+			<FullName>HYDRA 70 M151</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rocket.Zuni" Base="Rocket.Heavy">
+		<Criteria>
+			<Name>Zuni</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Zuni</ShortName>
+			<LongName>Mk-32 Zuni</LongName>
+			<FullName>Mk-32 Zuni</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Eastern Rockets -->
+
+	<!-- EU Rockets -->
+
+</DefaultPropertiesCollection>

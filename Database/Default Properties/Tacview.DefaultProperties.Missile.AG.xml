@@ -12,6 +12,48 @@
 	<DefaultProperties Id="Missile.AG.Radio" Base="Missile.AG">
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.ARM" Base="Missile.AG">
+	</DefaultProperties>
+
+	<!-- North American Air to Ground Missiles -->
+
+	<DefaultProperties Id="Missile.ARM.AGM-122" Base="Missile.AA.AIM-9C">
+		<Criteria>
+			<Name>AGM-122</Name>
+			<Name>AGM-122 Sidearm</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGM-122</ShortName>
+			<LongName>AGM-122 Sidearm</LongName>
+			<FullName>AGM-122 Sidearm</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.AGM-65" Base="Missile.AG">
+		<Criteria>
+			<Name>AGM-65</Name>
+			<Name>AGM-65 Maverick</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGM-65</ShortName>
+			<LongName>AGM-65 Maverick</LongName>
+			<FullName>AGM-65 Maverick</FullName>
+			<Shape>Missile.AGM-65.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.AGM-65G" Base="Missile.AG.AGM-65">
+		<Criteria>
+			<Name>AGM-65G</Name>
+			<Name>Maverick G</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGM-65G</ShortName>
+			<LongName>AGM-65G Maverick</LongName>
+			<FullName>AGM-65G Maverick</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- Eastern Air to Ground Missiles -->
 
 	<DefaultProperties Id="Missile.AG.AT-6" Base="Missile.AG.Radio">

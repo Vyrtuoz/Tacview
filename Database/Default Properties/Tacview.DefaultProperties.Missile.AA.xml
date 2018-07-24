@@ -66,6 +66,30 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.AA.AIM-9C" Base="Missile.AA.AIM-9B">
+		<Criteria>
+			<Name>AIM-9C</Name>
+			<Name>AIM-9C Sidewinder</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-9C</ShortName>
+			<LongName>AIM-9C Sidewinder</LongName>
+			<FullName>AIM-9C Sidewinder</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-9E" Base="Missile.AA.AIM-9B">
+		<Criteria>
+			<Name>AIM-9E</Name>
+			<Name>AIM-9E Sidewinder</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-9E</ShortName>
+			<LongName>AIM-9E Sidewinder</LongName>
+			<FullName>AIM-9E Sidewinder</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.AA.AIM-9G" Base="Missile.AA.AIM-9D">
 		<Criteria>
 			<Name>AIM-9G</Name>
@@ -90,6 +114,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.AA.AIM-9J" Base="Missile.AA.AIM-9E">
+		<Criteria>
+			<Name>AIM-9J</Name>
+			<Name>AIM-9J Sidewinder</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-9J</ShortName>
+			<LongName>AIM-9J Sidewinder</LongName>
+			<FullName>AIM-9J Sidewinder</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.AA.AIM-9L" Base="Missile.AA.AIM-9H">
 		<Criteria>
 			<Name>AIM-9L</Name>
@@ -111,6 +147,43 @@
 			<ShortName>AIM-9M</ShortName>
 			<LongName>AIM-9M Sidewinder</LongName>
 			<FullName>AIM-9M Sidewinder</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-9N" Base="Missile.AA.AIM-9J">
+		<Criteria>
+			<Name>AIM-9N</Name>
+			<Name>AIM-9J-1</Name>
+			<Name>AIM-9N Sidewinder</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-9N</ShortName>
+			<LongName>AIM-9N Sidewinder</LongName>
+			<FullName>AIM-9N Sidewinder</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-9P" Base="Missile.AA.AIM-9J">
+		<Criteria>
+			<Name>AIM-9P</Name>
+			<Name>AIM-9P Sidewinder</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-9P</ShortName>
+			<LongName>AIM-9P Sidewinder</LongName>
+			<FullName>AIM-9P Sidewinder</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-9P-5" Base="Missile.AA.AIM-9N">
+		<Criteria>
+			<Name>AIM-9P-5</Name>
+			<Name>AIM-9P-5 Sidewinder</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-9P-5</ShortName>
+			<LongName>AIM-9P-5 Sidewinder</LongName>
+			<FullName>AIM-9P-5 Sidewinder</FullName>
 		</Properties>
 	</DefaultProperties>
 

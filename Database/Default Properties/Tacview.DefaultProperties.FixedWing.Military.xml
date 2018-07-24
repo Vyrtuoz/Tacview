@@ -161,6 +161,20 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.CN-235" Base="FixedWing.Military.Transport">
+		<Criteria>
+			<Name>CN-235</Name>
+			<Name>IPTN CN-235</Name>
+			<Name>CASA CN-235</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CN-235</ShortName>
+			<LongName>CASA CN-235</LongName>
+			<FullName>CASA/IPTN CN-235</FullName>
+			<Shape>FixedWing.CN-235.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- Russian Military Transports -->
 
 	<DefaultProperties Id="FixedWing.Il-76" Base="FixedWing.Military.Transport">
@@ -187,6 +201,20 @@
 			<ShortName>Il-76MD</ShortName>
 			<LongName>Il-76MD Candid</LongName>
 			<FullName>Ilyushin Il-76MD Candid</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Il-78" Base="FixedWing.Tanker">
+		<Criteria>
+			<Name>Il-78</Name>
+			<Name>Il-78 Midas</Name>
+			<Name>Ilyushin Il-78</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Il-78</ShortName>
+			<LongName>Il-78 Midas</LongName>
+			<FullName>Ilyushin Il-78 Midas</FullName>
+			<Shape>FixedWing.Il-78.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -411,6 +439,21 @@
 	</DefaultProperties>
 
 	<!-- North American Recon -->
+
+	<DefaultProperties Id="FixedWing.P-3" Base="FixedWing.Military.Recon">
+		<Criteria>
+			<Name>P-3</Name>
+			<Name>P-3 Orion</Name>
+			<Name>Lockheed P-3</Name>
+			<Name>Blackbird</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>P-3</ShortName>
+			<LongName>P-3 Orion</LongName>
+			<FullName>Lockheed P-3 Orion</FullName>
+			<Shape>FixedWing.P-3.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.SR-71" Base="FixedWing.Military.Recon">
 		<Criteria>
@@ -926,7 +969,7 @@
 			<ShortName>F/A-18</ShortName>
 			<LongName>F/A-18 Hornet</LongName>
 			<FullName>McDonnell Douglas F/A-18 Hornet</FullName>
-			<Shape>FixedWing.F-18E.obj</Shape>
+			<Shape>FixedWing.F-18C.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -955,6 +998,7 @@
 			<ShortName>F/A-18C</ShortName>
 			<LongName>F/A-18C Hornet</LongName>
 			<FullName>McDonnell Douglas F/A-18C Hornet</FullName>
+			<Shape>FixedWing.F-18C.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -1289,6 +1333,21 @@
 			<ShortName>TF-51D</ShortName>
 			<LongName>TF-51D Mustang</LongName>
 			<FullName>North American TF-51D Mustang</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.T6II" Base="FixedWing.Trainer.Prop">
+		<Criteria>
+			<Name>TEX2</Name>
+			<Name>T-6 II</Name>
+			<Name>T-6 Texan II</Name>
+			<Name>Beechcraft T-6</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>TEX2</ShortName>
+			<LongName>T-6 Texan II</LongName>
+			<FullName>Beechcraft T-6 Texan II</FullName>
+			<Shape>FixedWing.Tex2.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2598,6 +2657,37 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.Su-47" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>Su-47</Name>
+			<Name>Су-47</Name>
+			<Name>S-32</Name>
+			<Name>S-37</Name>
+			<Name>Berkut</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Su-47</ShortName>
+			<LongName>Su-47 Berkut</LongName>
+			<FullName>Sukhoi Su-47 Berkut</FullName>
+			<Shape>FixedWing.Su-47.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Su-57" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>Su-57</Name>
+			<Name>Су-57</Name>
+			<Name>T-50</Name>
+			<Name>Sukhoi Su-57</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Su-57</ShortName>
+			<LongName>Su-57</LongName>
+			<FullName>Sukhoi Su-57</FullName>
+			<Shape>FixedWing.Su-57.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.Yak-1" Base="FixedWing.Fighter.Prop">
 		<Criteria>
 			<Name>Yak-1</Name>
@@ -2654,6 +2744,32 @@
 			<LongName>Yak-52</LongName>
 			<FullName>Yakovlev Yak-52</FullName>
 			<Shape>FixedWing.Yak-52.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Asian Military Fixed-wing aircraft -->
+
+	<DefaultProperties Id="FixedWing.J-11" Base="FixedWing.Su-27">
+		<Criteria>
+			<Name>J-11</Name>
+			<Name>Shenyang J-11</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>J-11</ShortName>
+			<LongName>Shenyang J-11</LongName>
+			<FullName>Shenyang J-11</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.J-11A" Base="FixedWing.J-11">
+		<Criteria>
+			<Name>J-11A</Name>
+			<Name>Shenyang J-11A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>J-11A</ShortName>
+			<LongName>Shenyang J-11A</LongName>
+			<FullName>Shenyang J-11A</FullName>
 		</Properties>
 	</DefaultProperties>
 

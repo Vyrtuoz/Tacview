@@ -192,6 +192,13 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Core.Biologic" Base="Core.Default">
+		<Criteria>
+			<Type>Biologic</Type>
+			<Name>*</Name>
+		</Criteria>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Core.Missile" Base="Core.Weapon">
 		<Criteria>
 			<Type>Missile</Type>
@@ -267,6 +274,17 @@
 		<Properties>
 			<AdditionalType>Sea+Watercraft+Submarine</AdditionalType>
 			<Shape>Watercraft.Ohio.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Core.Container" Base="Core.Default">
+		<Criteria>
+			<Type>Container</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Misc+Container</AdditionalType>
+			<Shape>Core.Container.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

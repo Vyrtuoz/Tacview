@@ -62,7 +62,7 @@
 
 	<DefaultProperties Id="Watercraft.CVN70" Base="Watercraft.AircraftCarrier">
 		<Criteria>
-			<Name>CVN70</Name>
+			<Name>CVN-70</Name>
 			<Name>USS Carl Vinson</Name>
 			<Name>Vinson</Name>
 		</Criteria>
@@ -71,6 +71,21 @@
 			<LongName>CVN-70 Carl Vinson</LongName>
 			<FullName>USS Carl Vinson (CVN-70)</FullName>
 			<EngagementRange>13000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.CVN74" Base="Watercraft.AircraftCarrier">
+		<Criteria>
+			<Name>CVN-74</Name>
+			<Name>USS John Stennis</Name>
+			<Name>Stennis</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CVN-74</ShortName>
+			<LongName>CVN-74 John Stennis</LongName>
+			<FullName>USS John C. Stennis (CVN-74)</FullName>
+			<EngagementRange>13000</EngagementRange>
+			<Shape>Watercraft.CVN-74.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

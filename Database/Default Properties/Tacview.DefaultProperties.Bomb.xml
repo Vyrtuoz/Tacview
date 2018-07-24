@@ -15,6 +15,15 @@
 	<DefaultProperties Id="Bomb.Unguided" Base="Core.Bomb">
 	</DefaultProperties>
 
+	<DefaultProperties Id="Bomb.Guided" Base="Core.Bomb">
+		<Properties>
+			<Shape>Bomb.GBU-12.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.Cluster" Base="Core.Bomb">
+	</DefaultProperties>
+
 	<DefaultProperties Id="Bomb.Practice" Base="Core.Bomb">
 	</DefaultProperties>
 
@@ -89,13 +98,100 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Bomb.CBU-99" Base="Bomb.Cluster">
+		<!-- This is the dispenser which should be called: SUU-75 -->
+		<Criteria>
+			<Name>CBU-99</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CBU-99</ShortName>
+			<LongName>CBU-99</LongName>
+			<FullName>CBU-99</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.CBU-99.Cluster" Base="Bomb.CBU-99">
+		<Criteria>
+			<Name>CBU-99 Cluster</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CBU-99 Cluster</ShortName>
+			<LongName>CBU-99 Cluster</LongName>
+			<FullName>CBU-99 Cluster</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.Mk20" Base="Bomb.Cluster">
+		<!-- This is the dispenser which should be called: MK7 -->
+		<Criteria>
+			<Name>Mk-20</Name>
+			<Name>Mark 20</Name>
+			<Name>Rockeye</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mk-20</ShortName>
+			<LongName>Mk-20 Rockeye</LongName>
+			<FullName>Mark 20 Rockeye</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.Mk20.Cluster" Base="Bomb.Mk20">
+		<Criteria>
+			<Name>Mk-20 cluster</Name>
+			<Name>Mark 20 cluster</Name>
+			<Name>Rockeye cluster</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mk-20 Cluster</ShortName>
+			<LongName>Mk-20 Rockeye Cluster</LongName>
+			<FullName>Mark 20 Rockeye Cluster</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.GBU-12" Base="Bomb.Guided">
+		<Criteria>
+			<Name>GBU-12</Name>
+			<Name>Paveway II</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>GBU-12</ShortName>
+			<LongName>GBU-12 Paveway II</LongName>
+			<FullName>GBU-12 Paveway II</FullName>
+			<Shape>Bomb.GBU-12.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.Mk81" Base="Bomb.Unguided">
+		<Criteria>
+			<Name>Mk-81</Name>
+			<Name>Mark 81</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mk-81</ShortName>
+			<LongName>Mark 81</LongName>
+			<FullName>Mark 81</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Bomb.Mk82" Base="Bomb.Unguided">
 		<Criteria>
-			<Name>Mk 82</Name>
+			<Name>Mk-82</Name>
 			<Name>Mark 82</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>Mk 82</ShortName>
+			<ShortName>Mk-82</ShortName>
+			<LongName>Mark 82</LongName>
+			<FullName>Mark 82</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.Mk82" Base="Bomb.Unguided">
+		<Criteria>
+			<Name>Mk-82</Name>
+			<Name>Mark 82</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mk-82</ShortName>
 			<LongName>Mark 82</LongName>
 			<FullName>Mark 82</FullName>
 		</Properties>
@@ -103,22 +199,34 @@
 
 	<DefaultProperties Id="Bomb.Mk82.LDGP" Base="Bomb.Mk82">
 		<Criteria>
-			<Name>Mk 82 LDGP</Name>
+			<Name>Mk-82 LDGP</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>Mk 82 LDGP</ShortName>
+			<ShortName>Mk-82 LDGP</ShortName>
 			<LongName>Mark 82 LDGP</LongName>
 			<FullName>Mark 82 LDGP</FullName>
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Bomb.Mk83" Base="Bomb.Unguided">
+		<Criteria>
+			<Name>Mk-83</Name>
+			<Name>Mark 83</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mk-83</ShortName>
+			<LongName>Mark 83</LongName>
+			<FullName>Mark 83</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Bomb.Mk84" Base="Bomb.Unguided">
 		<Criteria>
-			<Name>Mk 84</Name>
+			<Name>Mk-84</Name>
 			<Name>BLU-117</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>Mk 84</ShortName>
+			<ShortName>Mk-84</ShortName>
 			<LongName>Mark 84</LongName>
 			<FullName>Mark 84</FullName>
 		</Properties>
@@ -126,10 +234,10 @@
 
 	<DefaultProperties Id="Bomb.Mk84.LDGP" Base="Bomb.Mk84">
 		<Criteria>
-			<Name>Mk 84 LDGP</Name>
+			<Name>Mk-84 LDGP</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>Mk 84 LDGP</ShortName>
+			<ShortName>Mk-84 LDGP</ShortName>
 			<LongName>Mark 84 LDGP</LongName>
 			<FullName>Mark 84 LDGP</FullName>
 		</Properties>
