@@ -1,29 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 
-<!-- FSX2ACMI Traditional Chinese Text -->
+<!-- Tacview Traditional Chinese (繁體中文) Text -->
+<!-- Translation by 張炯 'Billeinstein'-->
 
 <Resources Language="zh-Hant">
 
 	<!-- Status -->
-	<String ID="StatusSimConnectNotInstalled">SimConnect not detected.&#10;Make sure either Microsoft Flight&#160;Simulator&#160;X or Lockheed&#160;Martin Prepar3D is properly installed on your computer.</String>
-	<String ID="StatusWaitingForSimConnect">FSX2ACMI is ready!&#10;You can now launch Microsoft Flight&#160;Simulator&#160;X&#10;or Lockheed&#160;Martin Prepar3D.</String>
-	<String ID="StatusWaitingForSimConnectFailed">Failed to record your last flight...&#10;Before restarting your simulator, make sure there is enough free space on your hard drive.</String>
-	<String ID="StatusWaitingForSimConnectSucceeded">Your last flight has been successfully recorded!&#10;You can now close FSX2ACMI or restart your simulator to record another flight.</String>
-	<String ID="StatusConnectedToSimConnect">FSX2ACMI is connected to your simulator.&#10;You can now start a flight,&#10;it will be automatically recorded.</String>
-	<String ID="StatusConnectedToSimConnectFailed">Failed to record your last flight...&#10;Before trying to record another flight, make sure there is enough free space on your hard drive.</String>
-	<String ID="StatusConnectedToSimConnectSucceeded">Your last flight has been successfully recorded!&#10;You can now start another flight or close FSX2ACMI.</String>
-	<String ID="StatusRecordingFlight">Your flight is now being recorded&#10;until you close FSX2ACMI,&#10;quit your simulator or start another flight.</String>
-	<String ID="StatusRecordingFlightFailed">Failed to record your last flight...&#10;FSX2ACMI is now trying to record your new flight. Make sure there is enough free space on your hard drive.</String>
-	<String ID="StatusRecordingFlightSucceeded">Your last flight has been successfully recorded!&#10;A new flight is now being recorded until you close FSX2ACMI, quit your simulator or start another flight.</String>
+	<String ID="StatusSimConnectNotInstalled">未發現模擬飛行軟體連接。&#10;請確認完整的微軟模擬&#160;飛行&#160;X或洛克希德&#160;馬丁Prepar3D在電腦上安裝正確。</String>
+	<String ID="StatusWaitingForSimConnect">FSX2ACMI準備就緒！&#10;現在可以啟動微軟模擬&#160;飛行&#160;X或洛克希德&#160;馬丁Prepar3D。</String>
+	<String ID="StatusWaitingForSimConnectFailed">本次飛行記錄失敗...&#10;重新開機模擬軟體前，請確認硬碟上有足夠的空間。</String>
+	<String ID="StatusWaitingForSimConnectSucceeded">本次飛行成功記錄！&#10;現在可以關閉FSX2ACMI或者重新開機模擬軟體以記錄另一次飛行。</String>
+	<String ID="StatusConnectedToSimConnect">FSX2ACMI已連接模擬軟體。&#10;現在可以開始飛行，&#10;它將被自動記錄。</String>
+	<String ID="StatusConnectedToSimConnectFailed">本次飛行記錄失敗...&#10;在記錄另一次飛行前，請確認硬碟上有足夠的空間。</String>
+	<String ID="StatusConnectedToSimConnectSucceeded">本次飛行成功記錄！&#10;現在可以開始另一次飛行或者關閉FSX2ACMI。</String>
+	<String ID="StatusRecordingFlight">飛行正在記錄&#10;直到關閉FSX2ACMI、&#10;關閉模擬軟體或開始另一次飛行。</String>
+	<String ID="StatusRecordingFlightFailed">本次飛行記錄失敗...&#10;FSX2ACMI正在嘗試記錄新的飛行。請確認硬碟上有足夠的空間。</String>
+	<String ID="StatusRecordingFlightSucceeded">本次飛行成功記錄！&#10;FSX2ACMI正在記錄一次新的飛行，直到關閉FSX2ACMI、關閉模擬軟體或開始另一次飛行。</String>
 
 	<!-- Controls -->
-	<String ID="ObjectsCountFormat">{0} objects</String>
+	<String ID="ObjectsCountFormat">{0} 物體</String>
 	<String ID="UpdateSpeedFormat">{0} ms // {1} ms</String>
-	<String ID="ACMIFilesFolder">Tacview ACMI Files</String>
-	<String ID="IntroductionText">Microsoft Flight&#160;Simulator flight recorder for Tacview</String>
+	<String ID="ACMIFilesFolder">Tacview ACMI 文件</String>
+	<String ID="IntroductionText">用於Tacview的&#160;微軟模擬飛行記錄器</String>
 
 	<!-- Options -->
-	<String ID="AutoLaunchText">Auto &amp;Launch</String>
-	<String ID="AutoQuitText">Auto &amp;Quit</String>
+	<String ID="AutoLaunchText">自動&amp;啟動</String>
+	<String ID="AutoQuitText">自動&amp;退出</String>
 
 </Resources>

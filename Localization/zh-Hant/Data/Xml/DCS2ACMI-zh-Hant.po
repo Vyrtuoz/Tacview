@@ -1,98 +1,146 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.6.3\n"
+"Project-Id-Version: 1.6.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-02 18:36+0400\n"
-"PO-Revision-Date: 2017-08-08 11:00-0400\n"
-"Last-Translator: ???\n"
-"Language-Team: ???\n"
+"PO-Revision-Date: 2018-05-26 07:56+0800\n"
+"Last-Translator: 張炯 'Billeinstein'\n"
+"Language-Team: ED Chinese Localization\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language: zh_TW\n"
-"X-Generator: Poedit 2.0.3\n"
+"X-Generator: Poedit 2.0.7\n"
 
 msgid "Tacview - The Universal Flight Analysis Tool"
-msgstr ""
+msgstr "Tacview - 通用飛行分析工具"
 
 msgid "Tacview is a universal flight analysis tool which enables you to record, analyze, and understand any flight to improve your skills much faster than with conventional debriefings. From the novice pilot to the virtual squadron leader, it is an invaluable tool to understand what really happened and to improve piloting style and tactical skills."
-msgstr ""
+msgstr "Tacview是一個通用飛行分析工具，允許您記錄、分析和理解任何飛行，相比常規報告更快的改進您的技能。從菜鳥飛行員到虛擬中隊長，這是一個無價的工具，可以瞭解實際上發生了什麼來改進駕駛風格和戰術技巧。"
 
 msgid "Record Flight Data"
-msgstr ""
+msgstr "記錄飛行資料"
 
 msgid "Create one file for each network client"
-msgstr ""
+msgstr "為每個用戶端創建各自的檔"
 
 msgid "Records a separate acmi file for each client connected to your server,"
-msgstr ""
+msgstr "為每個連接到伺服器的用戶端記錄單獨的acmi檔，"
 
 msgid "so each can be shared with your whole squadron later."
-msgstr ""
+msgstr "那樣各個檔之後可以與你的整個中隊共用。"
 
 msgid "Bookmark Shortcut"
-msgstr ""
+msgstr "書簽快速鍵"
 
 msgid "RAlt + B"
-msgstr ""
+msgstr "右Alt+B"
 
 msgid "Use this shortcut while flying to highlight a specific moment in Tacview log and timeline."
-msgstr ""
+msgstr "飛行時使用這個快速鍵，在Tacview日誌和時間線裡標出特定的時刻。"
 
 msgid "NOTE: Works only when the flight is recorded by the local computer."
-msgstr ""
+msgstr "注意：僅在飛行由本地電腦記錄時有效。"
 
 msgid "Playback Delay"
-msgstr ""
+msgstr "重播延時"
 
 msgid "None (real-time)"
-msgstr ""
+msgstr "無（即時）"
 
 msgid "1 minute"
-msgstr ""
+msgstr "1分鐘"
 
 msgid "5 minutes"
-msgstr ""
+msgstr "5分鐘"
 
 msgid "10 minutes"
-msgstr ""
+msgstr "10分鐘"
 
 msgid "20 minutes"
-msgstr ""
+msgstr "20分鐘"
 
 msgid "30 minutes"
-msgstr ""
+msgstr "30分鐘"
 
 msgid "As the host of an online session, you can prevent cheating by forcing a delay before"
-msgstr ""
+msgstr "作為連線活動的主機，你可以防止作弊"
 
 msgid "clients can playback the flight they have recorded on their side."
-msgstr ""
+msgstr "在用戶端側播放其錄製的重播前強制延時。"
 
 msgid "NOTE: Flights recorded in single player mode or by the host are not protected."
-msgstr ""
+msgstr "注意：單機遊戲模式或主機的飛行記錄不受保護。"
 
 msgid "Compression Level"
-msgstr ""
+msgstr "壓縮層級"
 
 msgid "You may want to disable compression if your simulator crashes often and you need to load"
-msgstr ""
+msgstr "您可能需要禁用壓縮，如果您的模擬器經常崩潰，或您需要載入"
 
 msgid "corrupted acmi files."
-msgstr ""
+msgstr "損壞的acmi文件。"
 
 msgid "not compressed"
-msgstr ""
+msgstr "未壓縮"
 
 msgid "Profiling Period"
-msgstr ""
+msgstr "分析週期"
 
 msgid "Defines how often profiling data is output in the dcs.log file."
-msgstr ""
+msgstr "指定分析資料輸出到dcs.log檔裡的頻率。"
 
 msgid "Debug Mode"
-msgstr ""
+msgstr "調試模式"
 
 msgid "Records additional debug info for each object and event to help pinpoint specific issues."
-msgstr ""
+msgstr "為每個物件和事件錄製附加的調試資訊來説明定位特定的問題。"
+
+msgid "Real-Time Telemetry TCP Port (42674)"
+msgstr "即時遙測TCP埠（42674）"
+
+msgid "Remote Control TCP Port (42675)"
+msgstr "遙控TCP埠（42675）"
+
+msgid "Customize TCP ports when running several DCS World instances"
+msgstr "同時使用數個DCS World實例時"
+
+msgid "at the same time."
+msgstr "自訂TCP埠。"
+
+msgid "Host Telemetry Password"
+msgstr "主機遙測密碼"
+
+msgid "As the host of an online session, you can authorize privileged clients to review"
+msgstr "作為連線活動的主機，你可以授權特定的用戶端來回顧"
+
+msgid "right away any telemetry recorded from your server."
+msgstr "當前任何你伺服器上的遙測記錄。"
+
+msgid "Client Telemetry Password"
+msgstr "用戶端遙測密碼"
+
+msgid "Enter the Host Telemetry Password provided by the host of your online flight,"
+msgstr "輸入連線飛行主機提供的主機遙測密碼，"
+
+msgid "to get immediate access to any available telemetry data."
+msgstr "以獲得可用遙測資料的直接訪問。"
+
+msgid "Local Remote Control Password"
+msgstr "本地遙控密碼"
+
+msgid "NOTICE: SLOW OPERATION!"
+msgstr "注意：慢動作！"
+
+msgid "DO NOT forget to disable this option after successful export."
+msgstr "不要忘記在成功輸出後禁用此選項。"
+
+msgid "Disabled"
+msgstr "禁用"
+
+msgid "Unknown Terrain"
+msgstr "未知地形"
+
+msgid "Predefined Terrain"
+msgstr "預定義地形"

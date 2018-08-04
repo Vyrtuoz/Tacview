@@ -1,59 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 
-<!-- XtraSetup Traditional Chinese Text -->
+<!-- Tacview Traditional Chinese (繁體中文) Text -->
+<!-- Translation by 張炯 'Billeinstein'-->
 
 <Resources Language="zh-Hant">
 
 	<!-- Misc -->
-	<String ID="InstallTitle">{0} Installation</String>
-	<String ID="InstallLabel">{0} Installation</String>
+	<String ID="InstallTitle">{0}安裝</String>
+	<String ID="InstallLabel">{0}安裝</String>
 
 	<!-- Main Page -->
-	<String ID="WelcomePageTitle">Welcome</String>
-	<String ID="WelcomeTitle">Welcome to {0} installation program</String>
-	<String ID="WelcomeInstructions">By installing this application,&#10;you agree you have read and accepted the License Agreement.</String>
+	<String ID="WelcomePageTitle">歡迎</String>
+	<String ID="WelcomeTitle">歡迎 {0} 安裝程式</String>
+	<String ID="WelcomeInstructions">安裝此應用，&#10;表示您同意已閱讀並接受授權合約。</String>
 <!--
-	<String ID="WelcomeInstructions">To begin the installation, click Install.&#10;To customize the installation, click the Options tab.</String>
+	<String ID="WelcomeInstructions">要開始安裝，請點擊安裝。&#10;要自訂安裝，請點擊選項。</String>
 -->
-	<String ID="WelcomeInfoURL">Learn more about {0}</String>
-	<String ID="OpenBetaWarningURL">WARNING: To use this version you need a product key.</String>
-	<String ID="ClosedBetaWarning">WARNING: This is a closed beta test. Do not distribute this version.</String>
+	<String ID="WelcomeInfoURL">瞭解更多關於 {0}</String>
+	<String ID="OpenBetaWarningURL">警告：要使用此版本的全部功能，你需要一個產品金鑰。</String>
+	<String ID="ClosedBetaWarning">警告：此為內部測試，請不要對外發佈此版本。</String>
 
-	<String ID="LicensePageTitle">License</String>
+	<String ID="LicensePageTitle">授權合約</String>
 
-	<String ID="OptionsPageTitle">Options</String>
-	<String ID="InstallFolders">Folders</String>
-	<String ID="InstallFolderLabel">{0} will be installed in the following folder:</String>
-	<String ID="SpaceRequired">Space required: {0,.0} MB</String>
-	<String ID="ProgramGroupLabel">Program icons will be added into the following group:</String>
-	<String ID="ShortcutsGroup">Additional Shortcuts</String>
-	<String ID="CreateDesktopShortcut">Create a &amp;Desktop icon</String>
-	<String ID="CreateQuickLaunchShortcut">Create a &amp;Quick Launch icon</String>
+	<String ID="OptionsPageTitle">選項</String>
+	<String ID="InstallFolders">資料夾</String>
+	<String ID="InstallFolderLabel">{0} 將安裝在以下路徑中：</String>
+	<String ID="SpaceRequired">空間需求：{0,.0} MB</String>
+	<String ID="ProgramGroupLabel">程式圖示將添加至以下組：</String>
+	<String ID="ShortcutsGroup">添加快捷方式</String>
+	<String ID="CreateDesktopShortcut">創建&amp;桌面圖示</String>
+	<String ID="CreateQuickLaunchShortcut">創建&amp;快速啟動圖示</String>
 
-	<String ID="BrowseInstallFolderHelp">Select Installation Folder</String>
+	<String ID="BrowseInstallFolderHelp">選擇安裝資料夾</String>
 
 	<!-- File Transfer Page -->
-	<String ID="InstallInProgress">Install in progress...</String>
-	<String ID="ProgressionText">Writing files: {0,.0}% Completed</String>
-	<String ID="TimeRemaining">Time Remaining:</String>
-	<String ID="CancelConfirmation">Are you sure you want to abort {0} installation?</String>
+	<String ID="InstallInProgress">安裝進行中...</String>
+	<String ID="ProgressionText">寫入文件：{0,.0}% 完成</String>
+	<String ID="TimeRemaining">剩餘時間：</String>
+	<String ID="CancelConfirmation">你確認要中斷 {0} 的安裝嗎？</String>
 
 	<!-- Canceled Page -->
-	<String ID="InstallCanceled">Install Canceled</String>
-	<String ID="CanceledMessage">The installation process was successfully cancelled.</String>
+	<String ID="InstallCanceled">安裝取消</String>
+	<String ID="CanceledMessage">安裝進程成功取消。</String>
 
 	<!-- Failure Page -->
-	<String ID="InstallFailed">Install Failed</String>
-	<String ID="FailureMessage">Please ensure that you have enough access rights and free disk space&#10;before contacting the software manufacturer for assistance.</String>
-	<String ID="TechnicalSupport">Technical support</String>
+	<String ID="InstallFailed">安裝失敗</String>
+	<String ID="FailureMessage">在聯繫軟體製作者協助之前&#10;請確認有足夠的存取權限和磁片剩餘空間。</String>
+	<String ID="TechnicalSupport">技術支援</String>
 
 	<!-- Success Page -->
-	<String ID="InstallSucceeded">Installation Successful</String>
-	<String ID="SuccessMessage">{0} was successfully installed.</String>
-	<String ID="OfficialWebSiteInfo">Find detailed documentation and latest updates on the official website.</String>
+	<String ID="InstallSucceeded">安裝成功</String>
+	<String ID="SuccessMessage">{0}成功安裝。</String>
+	<String ID="OfficialWebSiteInfo">請訪問官方網站瞭解詳細文檔和最新更新資訊。</String>
 
 	<!-- Buttons -->
-	<String ID="InstallButton">&amp;Install</String>
-	<String ID="RunButton">&amp;Launch {0}</String>
+	<String ID="InstallButton">&amp;安裝</String>
+	<String ID="RunButton">&amp;啟動{0}</String>
 
 </Resources>

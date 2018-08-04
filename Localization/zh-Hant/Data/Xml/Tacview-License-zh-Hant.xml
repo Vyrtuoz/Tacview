@@ -1,70 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 
-<!-- Tacview Traditional Chinese License Text -->
+<!-- Tacview Traditional Chinese (繁體中文) Text -->
+<!-- Translation by 張炯 'Billeinstein'-->
 
 <Resources Language="zh-Hant">
 
 	<!-- EULA -->
 	<String ID="LicenseText">
 		<br/>
-		<p align="center"><b>Tacview License Agreement</b></p>
-		<p align="center">Last Updated September 30th, 2016</p>
-		<p><b>IMPORTANT NOTICE</b></p>
-		<p>Read this license agreement carefully before using the Tacview software and any associated documentation (hereinafter "Tacview"). This is a legal agreement between you and RAIA&#160;SOFTWARE&#160;INC. (hereinafter "Raia&#160;Software").</p>
-		<p>The original Tacview software license agreement is written in English. Any translation in another language is provided as a courtesy by members of the Tacview community and shall be used for information purposes only. Only the English language original license agreement constitutes a binding agreement between Raia&#160;Software and users downloading or using Tacview. The English language license agreement may be found at http://tacview.net/license/en.</p>
-		<p>BY DOWLOADING OR USING TACVIEW IN ANY WAY YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREED TO THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THESE TERMS, DO NOT USE THIS SOFTWARE IN ANY WAY AND PROMPTLY RETURN IT AND DELETE ANY COPIES IN YOUR POSSESSION.</p>
-		<p><b>GRANT OF LICENSE</b></p>
-		<p>All rights, title and interest in and to Tacview are exclusively owned by Raia&#160;Software. All rights not expressly granted herein are reserved by Raia&#160;Software.</p>
-		<p>Raia&#160;Software grants you a non-exclusive license to test and use Tacview and the associated documentation in accordance with the terms of this license.</p>
-		<p>You MAY do the following:</p>
+		<p align="center"><b>Tacview授權合約</b></p>
+		<p align="center">更新日期：2015年3月22日</p>
+		<p><b>重要通告</b></p>
+		<p>在使用此軟體前請仔細閱讀此授權合約。</p>
+		<p>以任何方式使用此軟體表示你確認已閱讀、理解和同意此協議的條款。如果你不同意這些條款，不要以任何方式使用此軟體，立刻退回並刪除任何你擁有的此軟體及副本。</p>
+		<p><b>允許</b></p>
+		<p>所有的權利均為作者Frantz RAIA ("Raia&#160;Software")獨有。所有沒有在此專門轉授的權利均由作者保留。Raia&#160;Software授予你唯一的許可用於測試和使用此軟體（“Tacview”）及其在此指明的相關文檔。</p>
+		<p>可以做下列行為：</p>
 		<ul>
-			<li>Install and use Tacview for non-commercial purposes as long as you comply with the terms of this license agreement;</li>
-			<li>Use Tacview in accordance with the specific conditions of a purchased license;</li>
+			<li>在遵守這些條款的情況下安裝和使用Tacview</li>
+			<li>自由再分發Tacview的原始安裝程式</li>
 		</ul>
-		<p>You MAY NOT do any of the following:</p>
+		<p><b>限制</b></p>
+		<p>不可以做下列行為:</p>
 		<ul>
-			<li>Sell Tacview or distribute Tacview against payment;</li>
-			<li>Rent or lease Tacview;</li>
-			<li>Sublicense Tacview;</li>
-			<li>Reverse engineer, disassemble, decompile, or alter Tacview;</li>
-			<li>Remove any product identification, copyright notices, or other notices or proprietary restrictions from Tacview;</li>
-			<li>Use Tacview trademark or logo without Raia&#160;Software written authorization; or</li>
-			<li>Disable or circumvent Tacview's trial period mechanism.</li>
+			<li>出售Tacview</li>
+			<li>租用或出租Tacview</li>
+			<li>反向工程、反彙編、反編譯或者篡改Tacview</li>
+			<li>從Tacview中刪除任何產品標識、版權聲明、或者其他產權限制通告</li>
 		</ul>
-		<p>Any such unauthorized use shall result in immediate and automatic termination of this license and may result in criminal and/or civil prosecution.</p>
-		<p><b>COLLECTION OF ANONYMOUS DATA</b></p>
-		<p>Raia&#160;Software reserves the right to collect, store and use anonymous data about Tacview usage. This data will not be sold to a third party and will be exclusively used to improve the quality and stability of Tacview.</p>
-		<p><b>TRIAL PERIOD</b></p>
-		<p>Following an evaluation period of 21 days, some advanced features of Tacview will be disabled. You must buy a Standard, Advanced or Enterprise license if you wish to continue enjoying these features.</p>
-		<p><b>SPECIFIC CONDITIONS FOR FULL LICENSE USERS</b></p>
-		<p>To obtain a Standard or Advanced license, complete the online registration form and send it with the registration fee to one of the authorized registration sites. Go to http://tacview.net for a list of authorized sites.</p>
-		<p><b>Standard and Advanced Licenses</b></p>
-		<p>Once registered, the user is granted a non-exclusive license to use Tacview on the number of computers defined by the license purchased. A Standard or Advanced license or license key may not be shared, sublicensed, redistributed, rented or leased, but it may be permanently transferred, provided the transferee agrees to the terms of this license agreement.</p>
-		<p><b>Enterprise License</b></p>
-		<p>If you wish to use Tacview for commercial purposes or in an institutional environment, then you must buy at least one Enterprise license for Tacview: you may order either one license per user or one license per computer depending on the best fit for your needs.</p>
-		<ul>
-			<li>If you choose to buy one license per user: Each user may install and use one copy of Tacview on one of more computers for their sole use, provided Tacview is only used on one computer at any given time. This includes home and work, or a laptop and desktop.</li>
-			<li>If you choose to buy one license per computer: Each license is tied to a single computer. In that case, as many users as you want can share the same computer and use the same installation of Tacview, provided only one user per computer is active at any given time.</li>
-		</ul>
-		<p>Each Enterprise license grants you a non-exclusive right to use Tacview for one year. Enterprise licenses must be renewed at the end of the one-year validity period. Enterprise license keys may not be shared, transferred, sublicensed, redistributed, rented or leased.</p>
-		<p>Please contact mailto:support@tacview.net to order Enterprise licenses or if you have any questions.</p>
-		<p><b>COPYRIGHT/OWNERSHIP</b></p>
-		<p>Tacview, its logo, trademarks, images, graphics, interface, texts, video sequences, look and feel and source code are proprietary products of Raia&#160;Software and are protected by copyright and other intellectual property laws. Nothing in this license agreement shall be construed as an assignment of any rights by Raia&#160;Software.</p>
-		<p><b>TERMINATION</b></p>
-		<p>If you fail to comply with any of the terms or conditions of this agreement, this license will be terminated. Upon such termination, you agree to stop using Tacview and destroy any copies in your possession or under your control.</p>
-		<p><b>DISCLAIMER OF WARRANTIES</b></p>
-		<p>Tacview is supplied "AS IS". Raia&#160;Software disclaims all warranties, expressed or implied, including, without limitation, any warranties of merchantability or fitness for any purpose. The user assumes the entire risk of using Tacview.</p>
-		<p>Tacview is meant for entertainment use only. Raia&#160;Software makes no representation or warranty as to the accuracy of the information obtained through Tacview and as to the adequacy of Tacview or any of its features for any activity or purpose whatsoever, including, without limitation, training, evaluation of abilities, risk assessment and military exercises.</p>
-		<p>Raia&#160;Software does not warrant that access to Tacview will be continuously available or that support and/or updates will always be available.</p>
-		<p><b>LIMITATION OF LIABILIY</b></p>
-		<p>To the full extent permitted by law, Raia&#160;Software disclaims all liability for any loss or damages, direct or consequential, including, without limitation, loss of profits, loss of opportunity, personal injury or property damage, which may result from the use of Tacview, even if Raia&#160;Software has been advised of the possibility of such damages.</p>
-		<p>By using Tacview and agreeing to this license agreement, to the full extent permitted by law, you release Raia&#160;Software, as well as its directors, officers, shareholders, employees and subcontractors, from any and all claims that may result from your use of Tacview or your distribution of the Tacview installer, whether or not such use or distribution is authorized under this license agreement.</p>
-		<p><b>INDEMNIFICATION</b></p>
-		<p>By using Tacview and agreeing to this license agreement, you agree to indemnify, defend and hold harmless Raia&#160;Software, as well as its directors, officers, shareholders, employees and subcontractors, from any and all claims, orders, fines, penalties or loss of any kind that may result from your use or distribution of Tacview, whether or not such use or distribution is authorized under this license agreement.</p>
-		<p><b>APPLICABLE LAW</b></p>
-		<p>This license agreement is governed by the laws of the Province of Quebec and the laws of Canada applicable therein and shall be interpreted in accordance with these laws.</p>
-		<p><b>DISPUTE RESOLUTION</b></p>
-		<p>Any dispute or claim arising from this license agreement shall be brought before the competent court sitting in the judicial district of Montreal, in the Province of Quebec, the parties hereby excluding any other forum.</p>
+		<p>任何此類未授權的使用將立刻並自動導致中止此許可，並可能導致刑事和民事訴訟。</p>
+		<p><b>分發</b></p>
+		<p>允許複製任意數量的Tacview軟體副本，及分發所有交互檔給任何人。分發的必須是Tacview安裝程式，而不是安裝後的檔。不允許出售Tacview。無需Raia&#160;Software的許可也能以任何方式（DVD、光碟、網站）分發於任何形式的媒體。</p>
+		<p><b>匿名資料收集</b></p>
+		<p>Raia&#160;Software保留收集、儲存和使用關於Tacview的匿名資料的權力。這些資料不會被賣給協力廠商，將專用於改進Tacview的品質和穩定性。</p>
+		<p><b>註冊用戶</b></p>
+		<p>在21天的評估試用期過後，一些Tacview的高級功能將被禁用。如果希望繼續享用這些功能，必須購買Tacview的家庭或者專業許可。</p>
+		<p>要註冊為家庭或專業用戶，請完成線上註冊表單，將其和註冊費一併送至任一授權註冊網站。請前往 http://tacview.net 上尋找授權網站列表。</p>
+		<p>一旦註冊完成，用戶將獲得一份獨有的許可，可在購買的許可規定數量內的電腦上使用此程式。許可金鑰不得再分發、租借或出租。不過如果註冊使用者同意此協議的條款，許可金鑰可永久性的完整轉移與他人。</p>
+		<p><b>版權和所有權</b></p>
+		<p>Tacview及其原始程式碼是Raia&#160;Software的專利產品，並受到版權和其他智慧財產權法的保護。</p>
+		<p><b>條款</b></p>
+		<p>如果未能遵守協議的任一條款或者條件，本許可將自動中止。許可的中止表示同意停止使用Tacview並銷毀任何製作的軟體副本。</p>
+		<p><b>免責聲明</b></p>
+		<p>Tacview的支援不變。Raia&#160;Software免去所有明示的或暗示的責任，包括但不限於對於任何目的適銷性和適用性責任。使用者必須承擔使用 Tacview 的全部風險。</p>
+		<p><b>損害免責聲明</b></p>
+		<p>Raia&#160;Software不承擔可能由使用Tacview引起直接或間接損害導致的債務，即使Raia&#160;Software已被告知此損害的可能性。</p>
 	</String>
 
 </Resources>
