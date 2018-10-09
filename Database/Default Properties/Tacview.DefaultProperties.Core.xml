@@ -232,6 +232,17 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Core.Torpedo" Base="Core.Weapon">
+		<Criteria>
+			<Type>Torpedo</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Weapon+Torpedo</AdditionalType>
+			<Shape>Core.Torpedo.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Core.Bullseye" Base="Core.Default">
 		<Criteria>
 			<Type>Bullseye</Type>

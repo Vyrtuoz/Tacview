@@ -438,6 +438,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.BQM-74" Base="FixedWing.Military.Drone">
+		<Criteria>
+			<Name>BQM-74</Name>
+			<Name>BQM-74 Chukar</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BQM-74</ShortName>
+			<LongName>BQM-74 Chukar</LongName>
+			<FullName>Northrop BQM-74 Chukar</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- North American Recon -->
 
 	<DefaultProperties Id="FixedWing.P-3" Base="FixedWing.Military.Recon">
@@ -471,6 +483,44 @@
 	</DefaultProperties>
 
 	<!-- North American Military Fixed-wing aircraft -->
+
+	<DefaultProperties Id="FixedWing.S-3A" Base="FixedWing.Bomber.Jet">
+		<Criteria>
+			<Name>S-3A</Name>
+			<Name>S-3A Viking</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>S-3A</ShortName>
+			<LongName>S-3A Viking</LongName>
+			<FullName>Lockheed S-3A Viking</FullName>
+			<Shape>FixedWing.ES-3A.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.S-3B" Base="FixedWing.S-3A">
+		<Criteria>
+			<Name>S-3B</Name>
+			<Name>S-3B Viking</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>S-3B</ShortName>
+			<LongName>S-3B Viking</LongName>
+			<FullName>Lockheed S-3B Viking</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.ES-3A" Base="FixedWing.S-3A">
+		<Criteria>
+			<Name>ES-3A</Name>
+			<Name>ES-3A Shadow</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ES-3A</ShortName>
+			<LongName>ES-3A Shadow</LongName>
+			<FullName>Lockheed ES-3A Shadow</FullName>
+			<Shape>FixedWing.ES-3A.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.A-4" Base="FixedWing.GroundAttack">
 		<Criteria>
@@ -2361,6 +2411,7 @@
 			<Name>MiG-29</Name>
 			<Name>MiG-29 Fulcrum</Name>
 			<Name>Mikoyan MiG-29</Name>
+			<Name>Jet Fighter 29</Name>			<!-- P3D -->
 		</Criteria>
 		<Properties>
 			<ShortName>MiG-29</ShortName>
@@ -2590,6 +2641,7 @@
 			<Name>Su-30 Flanker-C</Name>
 			<Name>Sukhoi Su-30</Name>
 			<Name>Flanker-C</Name>
+			<Name>Jet Fighter 27</Name>		<!-- P3D Typo -->
 		</Criteria>
 		<Properties>
 			<ShortName>Su-30</ShortName>

@@ -17,6 +17,56 @@
 
 	<!-- North American AA Missiles -->
 
+	<DefaultProperties Id="Missile.AA.AIM-7" Base="Missile.AA.Radar">
+		<Criteria>
+			<Name>AIM-7</Name>
+			<Name>AIM-7 Sparrow</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-7</ShortName>
+			<LongName>AIM-7 Sparrow</LongName>
+			<FullName>AIM-7 Sparrow</FullName>
+			<Shape>Missile.AIM-7M.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-7E" Base="Missile.AA.AIM-7">
+		<Criteria>
+			<Name>AIM-7E</Name>
+			<Name>AIM-7E Sparrow</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-7E</ShortName>
+			<LongName>AIM-7E Sparrow III</LongName>
+			<FullName>AIM-7E Sparrow III</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-7F" Base="Missile.AA.AIM-7E">
+		<Criteria>
+			<Name>AIM-7F</Name>
+			<Name>AIM-7F Sparrow</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-7F</ShortName>
+			<LongName>AIM-7F Sparrow III</LongName>
+			<FullName>AIM-7F Sparrow III</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-7M" Base="Missile.AA.AIM-7F">
+		<Criteria>
+			<Name>AIM-7M</Name>
+			<Name>AIM-7M Sparrow</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-7M</ShortName>
+			<LongName>AIM-7M Sparrow III</LongName>
+			<FullName>AIM-7M Sparrow III</FullName>
+			<Shape>Missile.AIM-7M.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.AA.AIM-9" Base="Missile.AA.IR">
 		<Criteria>
 			<Name>AIM-9</Name>

@@ -59,6 +59,42 @@
 
 	<!-- North American Civilian GA aircraft -->
 
+	<DefaultProperties Id="FixedWing.8KCAB" Base="FixedWing.C152">
+		<Criteria>
+			<Name>8KCAB</Name>
+			<Name>Decathlon</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>8KCAB</ShortName>
+			<LongName>8KCAB Decathlon</LongName>
+			<FullName>American Champion 8KCAB Decathlon</FullName>
+			<Shape>FixedWing.8KCAB.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.8KCAB.Super" Base="FixedWing.8KCAB">
+		<Criteria>
+			<Name>Super Decathlon</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>8KCAB</ShortName>
+			<LongName>8KCAB Super Decathlon</LongName>
+			<FullName>American Champion 8KCAB Super Decathlon</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.BE55" Base="FixedWing.GA.TwinEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>BE55</Name>
+			<Name>Baron 55</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BE55</ShortName>
+			<LongName>Baron 55</LongName>
+			<FullName>Beechcraft Baron 55</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.BE58" Base="FixedWing.GA.TwinEngine.LowWing.Tricycle">
 		<Criteria>
 			<Name>BE58</Name>
@@ -68,6 +104,18 @@
 			<ShortName>BE58</ShortName>
 			<LongName>Baron 58</LongName>
 			<FullName>Beechcraft Baron 58</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.F90" Base="FixedWing.GA.TwinEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>Beechcraft F90</Name>
+			<Name>King Air F90</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F90</ShortName>
+			<LongName>King Air F90</LongName>
+			<FullName>King Air F90</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -82,6 +130,18 @@
 			<LongName>Super King Air 200</LongName>
 			<FullName>Beechcraft Super King Air 200</FullName>
 			<Shape>FixedWing.BE20.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.BE76" Base="FixedWing.GA.TwinEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>BE76</Name>
+			<Name>Beechcraft Duchess</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BE76</ShortName>
+			<LongName>Beechcraft 76</LongName>
+			<FullName>Beechcraft Model 76 Duchess</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -132,7 +192,8 @@
 			<Name>Cessna 172SP</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>C172S</ShortName>		<!-- SP is the marketing name, S is the real name -->
+			<ShortName>C172S</ShortName>
+			<!-- SP is the marketing name, S is the real name -->
 			<LongName>C172S Skyhawk</LongName>
 			<FullName>Cessna 172S Skyhawk</FullName>
 		</Properties>
@@ -153,7 +214,8 @@
 	<DefaultProperties Id="FixedWing.C182D" Base="FixedWing.C182">
 		<Criteria>
 			<Name>C182D</Name>
-			<Name>C182_D</Name>			<!-- A2A FSX Skylane -->
+			<Name>C182_D</Name>
+			<!-- A2A FSX Skylane -->
 			<Name>Cessna 182D</Name>
 		</Criteria>
 		<Properties>
@@ -187,6 +249,116 @@
 			<LongName>C195 Businessliner</LongName>
 			<FullName>Cessna 195 Businessliner</FullName>
 			<Shape>FixedWing.C195.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C208" Base="FixedWing.GA.OneEngine.HighWing.Tricycle">
+		<Criteria>
+			<Name>C208</Name>
+			<Name>Cessna 208</Name>
+			<Name>Cessna Caravan</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C208</ShortName>
+			<LongName>208 Caravan</LongName>
+			<FullName>Cessna 208 Caravan</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C208B" Base="FixedWing.C208">
+		<Criteria>
+			<Name>C208B</Name>
+			<Name>Cessna 208B</Name>
+			<Name>Cessna Grand Caravan</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C208B</ShortName>
+			<LongName>C208B Grand Caravan</LongName>
+			<FullName>Cessna 208B Grand Caravan</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C401" Base="FixedWing.GA.TwinEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>C401</Name>
+			<Name>Cessna 401</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C401</ShortName>
+			<LongName>Cessna 401</LongName>
+			<FullName>Cessna 401</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C402" Base="FixedWing.C401">
+		<Criteria>
+			<Name>C402</Name>
+			<Name>Cessna 402</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C402</ShortName>
+			<LongName>Cessna 402</LongName>
+			<FullName>Cessna 402</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C402A" Base="FixedWing.C402">
+		<Criteria>
+			<Name>C402A</Name>
+			<Name>Cessna 402A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C402A</ShortName>
+			<LongName>Cessna 402A</LongName>
+			<FullName>Cessna 402A</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C402B" Base="FixedWing.C402A">
+		<Criteria>
+			<Name>C402B</Name>
+			<Name>Cessna 402B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C402B</ShortName>
+			<LongName>Cessna 402B</LongName>
+			<FullName>Cessna 402B</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C414" Base="FixedWing.GA.TwinEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>C414</Name>
+			<Name>Cessna 414</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C414</ShortName>
+			<LongName>Cessna 414</LongName>
+			<FullName>Cessna 414</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C414A" Base="FixedWing.C414">
+		<Criteria>
+			<Name>C414A</Name>
+			<Name>Cessna 414A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C414A</ShortName>
+			<LongName>Cessna 414A</LongName>
+			<FullName>Cessna 414A</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C421C" Base="FixedWing.GA.TwinEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>C421C</Name>
+			<Name>Cessna 421C</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C421C</ShortName>
+			<LongName>421C Golden Eagle</LongName>
+			<FullName>Cessna 421C Golden Eagle</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -265,6 +437,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.LJ35" Base="FixedWing.GA.TwinJet.Tail">
+		<Criteria>
+			<Name>LJ35</Name>
+			<Name>Learjet 35</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>LJ35</ShortName>
+			<LongName>Learjet 35</LongName>
+			<FullName>Learjet 35</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.LJ45" Base="FixedWing.GA.TwinJet.Tail">
 		<Criteria>
 			<Name>LJ45</Name>
@@ -275,6 +459,18 @@
 			<LongName>Learjet 45</LongName>
 			<FullName>Learjet 45</FullName>
 			<Shape>FixedWing.LJ45.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.LJ60" Base="FixedWing.GA.TwinJet.Tail">
+		<Criteria>
+			<Name>LJ60</Name>
+			<Name>Learjet 60</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>LJ60</ShortName>
+			<LongName>Learjet 60</LongName>
+			<FullName>Learjet 60</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -404,6 +600,19 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.PA-28-161 Warrior II" Base="FixedWing.PA-28">
+		<Criteria>
+			<Name>PA-28-161</Name>
+			<Name>PA-28-161 Warrior II</Name>
+			<Name>Piper Warrior II</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PA-28-161</ShortName>
+			<LongName>PA-28-161 Warrior II</LongName>
+			<FullName>Piper PA-28-161 Warrior II</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.PA-28-180 Archer" Base="FixedWing.PA-28-180">
 		<Criteria>
 			<Name>PA-28-180 Archer</Name>
@@ -444,11 +653,37 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.PA-28R-201T Turbo Arrow III" Base="FixedWing.PA-28-180">
+		<Criteria>
+			<Name>PA-28R-201T Turbo Arrow III</Name>
+			<Name>Turbo Arrow III</Name>
+			<Name>Arrow III Turbo</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PA-28R-201T</ShortName>
+			<LongName>PA-28R-201T Turbo Arrow III</LongName>
+			<FullName>Piper PA-28R-201T Turbo Arrow III</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.PA-28RT-201 Arrow IV" Base="FixedWing.PA-28-180">
+		<Criteria>
+			<Name>PA-28RT-201 Arrow IV</Name>
+			<Name>Arrow IV</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PA-28</ShortName>
+			<LongName>PA-28RT-201 Arrow IV</LongName>
+			<FullName>Piper PA-28RT-201 Arrow IV</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.PA-31" Base="FixedWing.GA.TwinEngine.LowWing.Tricycle">
 		<Criteria>
 			<Name>PA-31</Name>
 			<Name>PA-31 Navajo</Name>
 			<Name>Piper PA-31</Name>
+			<Name>Piper Navajo</Name>
 			<Name>Car_PA31</Name>
 		</Criteria>
 		<Properties>
@@ -474,7 +709,7 @@
 		<Criteria>
 			<Name>RV-6A</Name>
 			<Name>Van's RV-6A</Name>
-			</Criteria>
+		</Criteria>
 		<Properties>
 			<ShortName>RV-6A</ShortName>
 			<LongName>Van's RV-6A</LongName>
@@ -486,7 +721,7 @@
 		<Criteria>
 			<Name>RV-7</Name>
 			<Name>Van's RV-7</Name>
-			</Criteria>
+		</Criteria>
 		<Properties>
 			<ShortName>RV-7</ShortName>
 			<LongName>Van's RV-7</LongName>
@@ -498,7 +733,7 @@
 		<Criteria>
 			<Name>RV-7A</Name>
 			<Name>Van's RV-7A</Name>
-			</Criteria>
+		</Criteria>
 		<Properties>
 			<ShortName>RV-7A</ShortName>
 			<LongName>Van's RV-7A</LongName>
@@ -510,7 +745,7 @@
 		<Criteria>
 			<Name>V35</Name>
 			<Name>Bonanza V35</Name>
-			</Criteria>
+		</Criteria>
 		<Properties>
 			<ShortName>V35</ShortName>
 			<LongName>Bonanza V35</LongName>
@@ -524,11 +759,35 @@
 			<Name>V35B</Name>
 			<Name>Bonanza V35B</Name>
 			<Name>Car_Bonanza</Name>
-			</Criteria>
+		</Criteria>
 		<Properties>
 			<ShortName>V35B</ShortName>
 			<LongName>Bonanza V35B</LongName>
 			<FullName>Beechcraft Bonanza V35B</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.BE36" Base="FixedWing.V35">
+		<Criteria>
+			<Name>BE36</Name>
+			<Name>Bonanza 36</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BE36</ShortName>
+			<LongName>Bonanza 36</LongName>
+			<FullName>Beechcraft Bonanza 36</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.GIV" Base="FixedWing.GA.TwinJet.Tail">
+		<Criteria>
+			<Name>Gulfstream IV</Name>
+			<Name>Gulfstream G-IV</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>GIV</ShortName>
+			<LongName>Gulfstream IV</LongName>
+			<FullName>Gulfstream IV</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -681,6 +940,17 @@
 			<LongName>Boeing 737 MAX 8</LongName>
 			<FullName>Boeing 737 MAX 8</FullName>
 			<Shape>FixedWing.B737-MAX-8.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.BD700" Base="FixedWing.Heavy.Jet.Tail">
+		<Criteria>
+			<Name>BD-700</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BD-700</ShortName>
+			<LongName>Bombardier BD-700</LongName>
+			<FullName>Bombardier BD-700</FullName>
 		</Properties>
 	</DefaultProperties>
 

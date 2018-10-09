@@ -99,6 +99,34 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Rotorcraft.CH-53" Base="Rotorcraft.Transport">
+		<Criteria>
+			<Name>Sea Stallion</Name>
+			<Name>CH-53</Name>
+			<Name>Sikorsky CH-53</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CH-53</ShortName>
+			<LongName>CH-53 Sea Stallion</LongName>
+			<FullName>Sikorsky CH-53 Sea Stallion</FullName>
+			<Shape>Rotorcraft.CH-53E.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.CH-53E" Base="Rotorcraft.CH-53">
+		<Criteria>
+			<Name>Super Stallion</Name>
+			<Name>CH-53E</Name>
+			<Name>Sikorsky CH-53E</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CH-53E</ShortName>
+			<LongName>CH-53E Super Stallion</LongName>
+			<FullName>Sikorsky CH-53E Super Stallion</FullName>
+			<Shape>Rotorcraft.CH-53E.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Rotorcraft.UH-1" Base="Rotorcraft.Transport">
 		<Criteria>
 			<Name>Iroquois</Name>
@@ -111,6 +139,18 @@
 			<LongName>UH-1 Huey</LongName>
 			<FullName>Bell UH-1 Huey</FullName>
 			<Shape>Rotorcraft.UH-1.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.UH-1C" Base="Rotorcraft.UH-1">
+		<Criteria>
+			<Name>UH-1C</Name>
+			<Name>Bell UH-1C</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>UH-1C</ShortName>
+			<LongName>UH-1C Huey</LongName>
+			<FullName>Bell UH-1C Huey</FullName>
 		</Properties>
 	</DefaultProperties>
 

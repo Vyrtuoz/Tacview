@@ -60,6 +60,20 @@
 
 	<!-- North American Aircraft Carriers -->
 
+	<DefaultProperties Id="Watercraft.CVN68" Base="Watercraft.AircraftCarrier">
+		<Criteria>
+			<Name>CVN-68</Name>
+			<Name>USS Nimitz</Name>
+			<Name>Nimitz</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CVN-68</ShortName>
+			<LongName>CVN-68 Nimitz</LongName>
+			<FullName>USS Nimitz (CVN-68)</FullName>
+			<Shape>Watercraft.CVN-68.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Watercraft.CVN70" Base="Watercraft.AircraftCarrier">
 		<Criteria>
 			<Name>CVN-70</Name>
@@ -131,6 +145,56 @@
 			<LongName>Project 877</LongName>
 			<FullName>Project 877 Paltus</FullName>
 			<Shape>Watercraft.Project 877.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Project 971" Base="Watercraft.Submarine">
+		<Criteria>
+			<Name>Akula</Name>
+			<Name>Project 971</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Akula</ShortName>
+			<LongName>Project 971</LongName>
+			<FullName>Project 971 Akula I</FullName>
+			<Shape>Watercraft.Project 971U.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Project 971I" Base="Watercraft.Project 971">
+		<Criteria>
+			<Name>Akula I</Name>
+			<Name>Project 971I</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Akula</ShortName>
+			<LongName>Project 971I</LongName>
+			<FullName>Project 971I Akula I</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Project 971U" Base="Watercraft.Project 971I">
+		<Criteria>
+			<Name>Akula II</Name>
+			<Name>Project 971U</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Akula II</ShortName>
+			<LongName>Project 971U</LongName>
+			<FullName>Project 971U Akula II</FullName>
+			<Shape>Watercraft.Project 971U.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Project 971M" Base="Watercraft.Project 971U">
+		<Criteria>
+			<Name>Akula III</Name>
+			<Name>Project 971M</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Akula III</ShortName>
+			<LongName>Project 971M</LongName>
+			<FullName>Project 971M Akula III</FullName>
 		</Properties>
 	</DefaultProperties>
 
