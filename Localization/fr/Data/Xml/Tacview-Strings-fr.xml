@@ -150,14 +150,19 @@
 	<String ID="AspectAngleRight">D</String>
 
 	<!-- Other Options -->
-	<String ID="OptionsAddObjectText">Ajouter objet</String>
+	<String ID="OptionsAddObjectText">Ajouter objet...</String>
 	<String ID="OptionsAddObjectHelp">Crée et ajoute un nouvel objet dans le monde</String>
-	<String ID="OptionsEditObjectText">Editer objet sélectionné</String>
+	<String ID="OptionsEditObjectText">Editer objet sélectionné...</String>
 	<String ID="OptionsEditObjectHelp">Modifier les propriétés de l’objet sélectionné</String>
-	<String ID="OptionsRemoveObjectText">Supprimer objet</String>
+	<String ID="OptionsRemoveObjectText">Supprimer objet sélectionné...</String>
 	<String ID="OptionsRemoveObjectHelp">Retirer du monde l’objet sélectionné</String>
 	<String ID="TimeShiftObjectText">Décalage temporel...</String>
 	<String ID="TimeShiftObjectHelp">Corrige l’heure de la télémétrie de l’objet sélectionné</String>
+
+	<String ID="OptionsTrimBeforeText">Couper avant...</String>
+	<String ID="OptionsTrimBeforeHelp">Efface toute donnée de télémétrie qui précèdent le point courant dans le temps.</String>
+	<String ID="OptionsTrimAfterText">Couper après...</String>
+	<String ID="OptionsTrimAfterHelp">Efface toute donnée de télémétrie au-delà du point courant dans le temps.</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Associer Tacview aux fichiers acmi</String>
 	<String ID="OptionsAssociateFileTypesHelp">Permet d'ouvrir les enregistrements de vol avec Tacview lorsque l'on clique dessus depuis Windows</String>
@@ -225,7 +230,7 @@
 	<String ID="AddOnsMenuTooltip">Add-ons</String>
 	<String ID="AddOnsMenuHelp">Outils pour gérer et interagir avec les add-ons</String>
 	<String ID="ActiveAddOnsListText">Activer/Désactiver des Add-ons</String>
-	<String ID="ReloadLuaScriptsText">Recharger les scripts Lua</String>
+	<String ID="ReloadLuaScriptsText">Recharger les scripts Lua&#9;Ctrl+R</String>
 	<String ID="ReloadLuaScriptsHelp">Recharge tout les add-ons écrits en lua</String>
 
 	<String ID="RegisterCmdTooltip">Enregistrement</String>
@@ -304,6 +309,8 @@
 	<!-- Telemetry -->
 	<String ID="ATCHelp">Etiquette style trafic aérien: altitude/100, vitesse verticale et vitesse sol/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
+	<String ID="ATCMachHelp">Etiquette style trafic aérien: altitude/100, vitesse verticale et vitesse en mach</String>
+	<String ID="ATCMachText">ATC (ASL+VS+Mach)</String>
 	<String ID="RegistrationHelp">Immatriculation de l'avion</String>
 	<String ID="RegistrationText">Immatriculation</String>
 	<String ID="SquawkHelp">Code transpondeur</String>
@@ -513,8 +520,9 @@
 	<String ID="TimeShiftTitle">Décalage temporel</String>
 	<String ID="TimeShiftSubTitle">Corrigez l’heure de la télémétrie de l’objet sélectionné, ou créez un ghost mode pour comparer des performances.</String>
 	<String ID="TimeShiftFirstSampleTime">Temps du premier échantillon : {0}</String>
-	<String ID="TimeShiftOffsetInHours">Décalage en heures</String>
-	<String ID="TimeShiftOffsetInSeconds">Décalage en secondes</String>
+	<String ID="TimeShiftDaysOffset">Jours</String>
+	<String ID="TimeShiftHoursOffset">Heures</String>
+	<String ID="TimeShiftSecondsOffset">Secondes</String>
 	<String ID="TimeShiftDragToShift">Cliquez et glissez ici pour un décalage temporel fluide</String>
 
 	<String ID="ButtonHelp">Appuyez sur le contrôle que vous souhaitez utiliser pour cette commande.</String>
@@ -541,8 +549,10 @@
 	<String ID="ProfilerProfileDataSaveHelp">Profile la prochaine sauvegarde de fichier</String>
 	<String ID="ProfilerResetZoomTooltip">Réinitialiser le zoom</String>
 	<String ID="ProfilerResetZoomHelp">Voir l'intégralité du profile</String>
-	<String ID="ProfilerProfileMemoryTooltip">Profile la mémoire (F18)</String>
+	<String ID="ProfilerProfileMemoryTooltip">Profile la mémoire (F19)</String>
 	<String ID="ProfilerProfileMemoryHelp">Profile l'utilisation actuel de la mémoire</String>
+	<String ID="ProfilerProfileMainLoopAutoTooltip">Profile automatiquement la boucle principale (F18)</String>
+	<String ID="ProfilerProfileMainLoopAutoHelp">Pour trouver automatiquement le goulot d’étranglement</String>
 
 	<!-- Add On Strings -->
 	<String ID="AddOnTitleTelemetry0">Télémétrie 1</String>
@@ -637,6 +647,10 @@
 	<String ID="CmdAuthenticateHelp">Retourne -1 a l’appelant si tous les fichiers ouverts sont authentiques.</String>
 	<String ID="CmdRegisterUserProductKeyHelp">Active Tacview pour l’utilisateur courant avec la clé de produit fournie.</String>
 	<String ID="CmdRegisterSystemProductKeyHelp">Active Tacview pour tout le système avec la clé de produit fournie.</String>
+	<String ID="CmdRegisterSessionProductKeyHelp">Active Tacview avec la clé de produit fournie, uniquement pour la session courante.</String>
+	<String ID="CmdDisplayFrameRateHelp">Affiche le nombre d’images par seconde dans la vue 3D</String>
+	<String ID="CmdResourceFolderHelp">Déclare un dossier où se trouve des ressources additionnelles pour Tacview</String>
+	<String ID="CmdReadOnlyHelp">Désactive les addons et options d’export</String>
 
 	<String ID="Selection">Sélection</String>
 	<String ID="TimeControl">Contrôle du temps</String>
@@ -698,7 +712,10 @@
 	<String ID="SaveButton">&amp;Enregistrer</String>
 	<String ID="DontSaveButton">&amp;Ne pas enregistrer</String>
 	<String ID="IL2SturmovikIsRunningText">Afin d’assurer un jeu équitable et prévenir la triche, veuillez fermer IL-2 Sturmovik avant d’utiliser Tacview.</String>
+	<String ID="RemoveObjectConfirmation">Etes-vous certain de vouloir supprimer l’objet [{0}] des données de télémétrie ?</String>
 	<String ID="OK">&amp;OK</String>
+	<String ID="TrimBeforeConfirmation">Etes-vous certain de vouloir supprimer toutes les données de télémétrie qui précèdent {0} ?</String>
+	<String ID="TrimAfterConfirmation">Etes-vous certain de vouloir supprimer toutes les données de télémétrie au-delà de {0} ?</String>
 
 	<!-- Dialogs Strings -->
 	<String ID="LicenseTitle">Contrat de Licence de Tacview</String>

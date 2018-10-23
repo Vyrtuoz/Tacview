@@ -129,15 +129,21 @@ msgstr "afin d’obtenir un accès immédiat à toute la télémétrie disponibl
 
 msgid "Local Remote Control Password"
 msgstr "Mot de passe télécommandes"
+
 msgid "Terrain Export"
 msgstr "Export du terrain"
+
 msgid "NOTICE: SLOW OPERATION!"
 msgstr "AVERTISSEMENT: OPERATION LONGUE!"
+
 msgid "DO NOT forget to disable this option after successful export."
 msgstr "N’oubliez pas de désactiver cette option après un export réussi."
+
 msgid "Disabled"
 msgstr "Désactivé"
+
 msgid "Unknown Terrain"
 msgstr "Terrain inconnu"
+
 msgid "Predefined Terrain"
 msgstr "Terrain prédéfini"

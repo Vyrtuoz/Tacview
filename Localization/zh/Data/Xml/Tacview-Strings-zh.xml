@@ -160,6 +160,11 @@
 	<String ID="TimeShiftObjectText">时间移动...</String>
 	<String ID="TimeShiftObjectHelp">修正已选物体的遥测时间</String>
 
+	<String ID="OptionsTrimBeforeText">Trim Before...</String>
+	<String ID="OptionsTrimBeforeHelp">Delete all telemetry data before the current point in time</String>
+	<String ID="OptionsTrimAfterText">Trim After...</String>
+	<String ID="OptionsTrimAfterHelp">Delete all telemetry beyond the current point in time</String>
+
 	<String ID="OptionsAssociateFileTypesText">&amp;关联acmi文件至Tacview</String>
 	<String ID="OptionsAssociateFileTypesHelp">在Windows里双击acmi飞行记录文件时用Tacview打开。</String>
 	<String ID="OptionsTrackIRCmdText">TrackIR</String>
@@ -226,7 +231,7 @@
 	<String ID="AddOnsMenuTooltip">插件</String>
 	<String ID="AddOnsMenuHelp">管理和与插件交互的工具</String>
 	<String ID="ActiveAddOnsListText">启用/禁用插件</String>
-	<String ID="ReloadLuaScriptsText">重新加载Lua脚本</String>
+	<String ID="ReloadLuaScriptsText">重新加载Lua脚本&#9;Ctrl+R</String>
 	<String ID="ReloadLuaScriptsHelp">重新加载所有以Lua脚本写成的插件</String>
 
 	<String ID="RegisterCmdTooltip">注册</String>
@@ -305,6 +310,8 @@
 	<!-- Telemetry -->
 	<String ID="ATCHelp">ATC风格遥测：高度/100、垂直速度和地速/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
+	<String ID="ATCMachHelp">ATC like telemetry: altitude/100, vertical speed, and mach number</String>
+	<String ID="ATCMachText">ATC (ASL+VS+Mach)</String>
 	<String ID="RegistrationHelp">航空器注册编号（机尾编号）</String>
 	<String ID="RegistrationText">注册编号</String>
 	<String ID="SquawkHelp">应答器编码</String>
@@ -495,7 +502,6 @@
 	<String ID="RealTimeTelemetryNotSynchronized">当前回放与实时遥测不同步。</String>
 	<String ID="RealTimeTelemetryConnect">连接</String>
 	<String ID="RealTimeTelemetryDisconnect">断开连接</String>
-	<String ID="RealTimeTelemetryDisconnect">断开连接</String>
 	<String ID="RealTimeTelemetryAutoReconnect">自动重新连接</String>
 
 	<String ID="AddEditObjectAddTitle">创建一个新物体</String>
@@ -532,8 +538,9 @@
 	<String ID="TimeShiftTitle">时间移动</String>
 	<String ID="TimeShiftSubTitle">修正遥测时间或使用幻象模式来对比性能。</String>
 	<String ID="TimeShiftFirstSampleTime">首要样本时间: {0}</String>
-	<String ID="TimeShiftOffsetInHours">偏移小时数</String>
-	<String ID="TimeShiftOffsetInSeconds">偏移秒数</String>
+	<String ID="TimeShiftDaysOffset">Days</String>
+	<String ID="TimeShiftHoursOffset">Hours</String>
+	<String ID="TimeShiftSecondsOffset">Seconds</String>
 	<String ID="TimeShiftDragToShift">点击并拖动进行平滑时间移动</String>
 
 	<String ID="ButtonHelp">按下想用的控制设备来使用此命令。</String>
@@ -562,6 +569,8 @@
 	<String ID="ProfilerResetZoomHelp">在屏幕上显示整个配置</String>
 	<String ID="ProfilerProfileMemoryTooltip">配置内存 (F18)</String>
 	<String ID="ProfilerProfileMemoryHelp">配置当前内存使用</String>
+	<String ID="ProfilerProfileMainLoopAutoTooltip">Auto Profile Main Loop (F19)</String>
+	<String ID="ProfilerProfileMainLoopAutoHelp">Automatically find the slowest frame and its bottleneck</String>
 
 	<!-- Add On Strings -->
 	<String ID="AddOnTitleTelemetry0">遥测1</String>
@@ -656,6 +665,10 @@
 	<String ID="CmdAuthenticateHelp">如果所有打开的文件都是认证的，返回询问-1。</String>
 	<String ID="CmdRegisterUserProductKeyHelp">为当前用户使用提供的秘钥激活Tacveiw。</String>
 	<String ID="CmdRegisterSystemProductKeyHelp">为整个系统使用提供的秘钥激活Tacview。</String>
+	<String ID="CmdRegisterSessionProductKeyHelp">Activate Tacview, for the current session only, with the provided key.</String>
+	<String ID="CmdDisplayFrameRateHelp">Display the frame-rate in the 3D view</String>
+	<String ID="CmdResourceFolderHelp">Declare additional custom directory where Tacview resources are stored</String>
+	<String ID="CmdReadOnlyHelp">Disable addons and export capabilities</String>
 
 	<String ID="Selection">选择</String>
 	<String ID="TimeControl">时间控制</String>
@@ -723,7 +736,10 @@
 	<String ID="SaveButton">&amp;保存</String>
 	<String ID="DontSaveButton">&amp;不保存</String>
 	<String ID="IL2SturmovikIsRunningText">为了确保公平游戏避免作弊，请在使用Tacview前关闭IL-2 Sturmovik。</String>
+	<String ID="RemoveObjectConfirmation">Are you sure you want to remove the object [{0}] from the telemetry data?</String>
 	<String ID="OK">&amp;确定</String>
+	<String ID="TrimBeforeConfirmation">Are you sure you want to remove all telemetry data before {0}?</String>
+	<String ID="TrimAfterConfirmation">Are you sure you want to remove all telemetry beyond {0}?</String>
 
 	<!-- Dialogs Boxes Strings -->
 	<String ID="LicenseTitle">Tacview许可协议</String>

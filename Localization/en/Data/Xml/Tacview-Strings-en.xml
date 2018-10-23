@@ -91,6 +91,8 @@
 	<String ID="OptionsTerrainDisplayModeEmptyHelp">Display an empty terrain to improve further readability</String>
 	<String ID="OptionsTerrainDisplayModeHighContrastText">High-Contrast</String>
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Display the terrain with a high contrast color scheme</String>
+	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Custom textures</String>
+	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Display all the textures declared in CustomTextureList.xml</String>
 
 	<String ID="OptionsTerrainText">Terrain</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Auto)</String>
@@ -148,14 +150,19 @@
 	<String ID="AspectAngleRight">R</String>
 
 	<!-- Other Options -->
-	<String ID="OptionsAddObjectText">Add Object</String>
+	<String ID="OptionsAddObjectText">Add Object...</String>
 	<String ID="OptionsAddObjectHelp">Create a new object and add it to the world</String>
-	<String ID="OptionsEditObjectText">Edit Selected Object</String>
+	<String ID="OptionsEditObjectText">Edit Selected Object...</String>
 	<String ID="OptionsEditObjectHelp">Edit selected object property</String>
-	<String ID="OptionsRemoveObjectText">Remove Object</String>
+	<String ID="OptionsRemoveObjectText">Remove Selected Object...</String>
 	<String ID="OptionsRemoveObjectHelp">Remove selected object from the world</String>
 	<String ID="TimeShiftObjectText">Time Shift...</String>
 	<String ID="TimeShiftObjectHelp">Correct selected object telemetry time</String>
+
+	<String ID="OptionsTrimBeforeText">Trim Before...</String>
+	<String ID="OptionsTrimBeforeHelp">Delete all telemetry data before the current point in time</String>
+	<String ID="OptionsTrimAfterText">Trim After...</String>
+	<String ID="OptionsTrimAfterHelp">Delete all telemetry beyond the current point in time</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Associate Tacview with acmi files</String>
 	<String ID="OptionsAssociateFileTypesHelp">Enable you to open flight recordings with Tacview when you double-click them in Windows</String>
@@ -223,7 +230,7 @@
 	<String ID="AddOnsMenuTooltip">Add-ons</String>
 	<String ID="AddOnsMenuHelp">Tools to manage and interact with Add-ons</String>
 	<String ID="ActiveAddOnsListText">Enable/Disable Add-ons</String>
-	<String ID="ReloadLuaScriptsText">Reload Lua Scripts</String>
+	<String ID="ReloadLuaScriptsText">Reload Lua Scripts&#9;Ctrl+R</String>
 	<String ID="ReloadLuaScriptsHelp">Reload all add-ons written in Lua script</String>
 
 	<String ID="RegisterCmdTooltip">Register</String>
@@ -302,6 +309,8 @@
 	<!-- Telemetry -->
 	<String ID="ATCHelp">ATC like telemetry: altitude/100, vertical speed, and ground speed/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
+	<String ID="ATCMachHelp">ATC like telemetry: altitude/100, vertical speed, and mach number</String>
+	<String ID="ATCMachText">ATC (ASL+VS+Mach)</String>
 	<String ID="RegistrationHelp">Aircraft registration (tail number)</String>
 	<String ID="RegistrationText">Registration number</String>
 	<String ID="SquawkHelp">Transponder code</String>
@@ -511,8 +520,9 @@
 	<String ID="TimeShiftTitle">Time shift</String>
 	<String ID="TimeShiftSubTitle">Fix selected object telemetry time, or create a ghost mode to compare performances.</String>
 	<String ID="TimeShiftFirstSampleTime">First sample time: {0}</String>
-	<String ID="TimeShiftOffsetInHours">Offset in hours</String>
-	<String ID="TimeShiftOffsetInSeconds">Offset in seconds</String>
+	<String ID="TimeShiftDaysOffset">Days</String>
+	<String ID="TimeShiftHoursOffset">Hours</String>
+	<String ID="TimeShiftSecondsOffset">Seconds</String>
 	<String ID="TimeShiftDragToShift">Click and drag here for a smooth time-shift</String>
 
 	<String ID="ButtonHelp">Press the control you want to use for this command.</String>
@@ -539,8 +549,10 @@
 	<String ID="ProfilerProfileDataSaveHelp">Profile next file save</String>
 	<String ID="ProfilerResetZoomTooltip">Reset zoom</String>
 	<String ID="ProfilerResetZoomHelp">Show the entire profile on screen</String>
-	<String ID="ProfilerProfileMemoryTooltip">Profile Memory (F18)</String>
+	<String ID="ProfilerProfileMemoryTooltip">Profile Memory (F19)</String>
 	<String ID="ProfilerProfileMemoryHelp">Profile current memory use</String>
+	<String ID="ProfilerProfileMainLoopAutoTooltip">Auto Profile Main Loop (F18)</String>
+	<String ID="ProfilerProfileMainLoopAutoHelp">Automatically find the slowest frame and its bottleneck</String>
 
 	<!-- Add On Strings -->
 	<String ID="AddOnTitleTelemetry0">Telemetry 1</String>
@@ -635,6 +647,10 @@
 	<String ID="CmdAuthenticateHelp">Returns -1 to the caller if all of the opened files are authentic.</String>
 	<String ID="CmdRegisterUserProductKeyHelp">Activate Tacview for the current user with the provided key.</String>
 	<String ID="CmdRegisterSystemProductKeyHelp">Activate Tacview for the entire system with the provided key.</String>
+	<String ID="CmdRegisterSessionProductKeyHelp">Activate Tacview, for the current session only, with the provided key.</String>
+	<String ID="CmdDisplayFrameRateHelp">Display the frame-rate in the 3D view</String>
+	<String ID="CmdResourceFolderHelp">Declare additional custom directory where Tacview resources are stored</String>
+	<String ID="CmdReadOnlyHelp">Disable addons and export capabilities</String>
 
 	<String ID="Selection">Selection</String>
 	<String ID="TimeControl">Time Control</String>
@@ -696,7 +712,10 @@
 	<String ID="SaveButton">&amp;Save</String>
 	<String ID="DontSaveButton">&amp;Don't Save</String>
 	<String ID="IL2SturmovikIsRunningText">To ensure fair play and to prevent cheating, please close IL-2 Sturmovik before using Tacview.</String>
+	<String ID="RemoveObjectConfirmation">Are you sure you want to remove the object [{0}] from the telemetry data?</String>
 	<String ID="OK">&amp;OK</String>
+	<String ID="TrimBeforeConfirmation">Are you sure you want to remove all telemetry data before {0}?</String>
+	<String ID="TrimAfterConfirmation">Are you sure you want to remove all telemetry beyond {0}?</String>
 
 	<!-- Dialogs Boxes Strings -->
 	<String ID="LicenseTitle">Tacview License Agreement</String>

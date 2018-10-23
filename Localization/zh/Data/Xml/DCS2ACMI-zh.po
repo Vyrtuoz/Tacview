@@ -130,6 +130,9 @@ msgstr "以获得可用遥测数据的直接访问。"
 msgid "Local Remote Control Password"
 msgstr "本地遥控密码"
 
+msgid "Terrain Export"
+msgstr ""
+
 msgid "NOTICE: SLOW OPERATION!"
 msgstr "注意：慢动作！"
 

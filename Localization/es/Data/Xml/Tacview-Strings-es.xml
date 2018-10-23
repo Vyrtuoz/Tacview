@@ -160,6 +160,11 @@
 	<String ID="TimeShiftObjectText">Cambio de hora...</String>
 	<String ID="TimeShiftObjectHelp">Corregir el tiempo de telemetría del objeto seleccionado</String>
 
+	<String ID="OptionsTrimBeforeText">Trim Before...</String>
+	<String ID="OptionsTrimBeforeHelp">Delete all telemetry data before the current point in time</String>
+	<String ID="OptionsTrimAfterText">Trim After...</String>
+	<String ID="OptionsTrimAfterHelp">Delete all telemetry beyond the current point in time</String>
+
 	<String ID="OptionsAssociateFileTypesText">&amp;Asociar Tacview con los archivos acmi</String>
 	<String ID="OptionsAssociateFileTypesHelp">Habilita que Tacview abra en windows los archivos de vuelo con doble click</String>
 	<String ID="OptionsTrackIRCmdText">TrackIR</String>
@@ -305,6 +310,8 @@
 	<!-- Telemetry -->
 	<String ID="ATCHelp">Telemetría como ATC: Altitud/100, velocidad vertical y velocidad terrestre/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
+	<String ID="ATCMachHelp">ATC like telemetry: altitude/100, vertical speed, and mach number</String>
+	<String ID="ATCMachText">ATC (ASL+VS+Mach)</String>
 	<String ID="RegistrationHelp">Muestra el numero de registro</String>
 	<String ID="RegistrationText">Registro del avion (numero de cola)</String>
 	<String ID="SquawkHelp">Codigo del Traspondedore</String>
@@ -478,7 +485,6 @@
 	<String ID="RealTimeTelemetryNotSynchronized">La reproducción no esta sincronizada con la telemetria en tiempo real.</String>
 	<String ID="RealTimeTelemetryConnect">Conectar</String>
 	<String ID="RealTimeTelemetryDisconnect">Desconectar</String>
-	<String ID="RealTimeTelemetryDisconnect">Desconectar</String>
 	<String ID="RealTimeTelemetryAutoReconnect">Auto Reconectar</String>
 
 	<String ID="AddEditObjectAddTitle">Crear nuevo objeto</String>
@@ -515,8 +521,9 @@
 	<String ID="TimeShiftTitle">Cambio de horat</String>
 	<String ID="TimeShiftSubTitle">Fijar el tiempo de telemetría del objeto seleccionado o crea un modo fantasma para comparar las actuaciones.</String>
 	<String ID="TimeShiftFirstSampleTime">Primer tiempo de muestra: {0}</String>
-	<String ID="TimeShiftOffsetInHours">Desplazamiento en horas</String>
-	<String ID="TimeShiftOffsetInSeconds"Desplazamiento en segundos</String>
+	<String ID="TimeShiftDaysOffset">Days</String>
+	<String ID="TimeShiftHoursOffset">Hours</String>
+	<String ID="TimeShiftSecondsOffset">Seconds</String>
 	<String ID="TimeShiftDragToShift">Haga clic y arrastre aquí para un cambio de tiempo suave</String>
 
 	<String ID="ButtonHelp">Pulse el control que quiere usar para este comando.</String>
@@ -545,6 +552,8 @@
 	<String ID="ProfilerResetZoomHelp">Enseñar el perfil entero en pantalla</String>
 	<String ID="ProfilerProfileMemoryTooltip">Memoria del perfil (F18)</String>
 	<String ID="ProfilerProfileMemoryHelp">Uso actual de memoria del perfil</String>
+	<String ID="ProfilerProfileMainLoopAutoTooltip">Auto Profile Main Loop (F18)</String>
+	<String ID="ProfilerProfileMainLoopAutoHelp">Automatically find the slowest frame and its bottleneck</String>
 
 	<!-- Add On Strings -->
 	<String ID="AddOnTitleTelemetry0">Telemetría 1</String>
@@ -639,6 +648,10 @@
 	<String ID="CmdAuthenticateHelp">Returns -1 to the caller if all of the opened files are authentic.</String>
 	<String ID="CmdRegisterUserProductKeyHelp">Activate Tacview for the current user with the provided key.</String>
 	<String ID="CmdRegisterSystemProductKeyHelp">Activate Tacview for the entire system with the provided key.</String>
+	<String ID="CmdRegisterSessionProductKeyHelp">Activate Tacview, for the current session only, with the provided key.</String>
+	<String ID="CmdDisplayFrameRateHelp">Display the frame-rate in the 3D view</String>
+	<String ID="CmdResourceFolderHelp">Declare additional custom directory where Tacview resources are stored</String>
+	<String ID="CmdReadOnlyHelp">Disable addons and export capabilities</String>
 
 	<String ID="Selection">Selección</String>
 	<String ID="TimeControl">Control de tiempo</String>
@@ -700,7 +713,10 @@
 	<String ID="SaveButton">&amp;Grabar</String>
 	<String ID="DontSaveButton">&amp;No grabar</String>
 	<String ID="IL2SturmovikIsRunningText">Para asegurar el juego limpio y evitar trampas, por favor cierre IL-2 Sturmovik antes de usar Tacview.</String>
+	<String ID="RemoveObjectConfirmation">Are you sure you want to remove the object [{0}] from the telemetry data?</String>
 	<String ID="OK">&amp;OK</String>
+	<String ID="TrimBeforeConfirmation">Are you sure you want to remove all telemetry data before {0}?</String>
+	<String ID="TrimAfterConfirmation">Are you sure you want to remove all telemetry beyond {0}?</String>
 
 	<!-- Dialogs Boxes Strings -->
 	<String ID="LicenseTitle">Licencia de Acuerdo de usuario</String>

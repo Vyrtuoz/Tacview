@@ -8,14 +8,14 @@
 	<String ID="LicenseText">
 		<br/>
 		<p align="center"><b>Tacview License Agreement</b></p>
-		<p align="center">Last Updated September 30th, 2016</p>
+		<p align="center">Last Updated May 18, 2018</p>
 		<p><b>IMPORTANT NOTICE</b></p>
 		<p>Read this license agreement carefully before using the Tacview software and any associated documentation (hereinafter "Tacview"). This is a legal agreement between you and RAIA&#160;SOFTWARE&#160;INC. (hereinafter "Raia&#160;Software").</p>
 		<p>The original Tacview software license agreement is written in English. Any translation in another language is provided as a courtesy by members of the Tacview community and shall be used for information purposes only. Only the English language original license agreement constitutes a binding agreement between Raia&#160;Software and users downloading or using Tacview. The English language license agreement may be found at http://tacview.net/license/en.</p>
 		<p>BY DOWLOADING OR USING TACVIEW IN ANY WAY YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREED TO THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THESE TERMS, DO NOT USE THIS SOFTWARE IN ANY WAY AND PROMPTLY RETURN IT AND DELETE ANY COPIES IN YOUR POSSESSION.</p>
 		<p><b>GRANT OF LICENSE</b></p>
 		<p>All rights, title and interest in and to Tacview are exclusively owned by Raia&#160;Software. All rights not expressly granted herein are reserved by Raia&#160;Software.</p>
-		<p>Raia&#160;Software grants you a non-exclusive license to test and use Tacview and the associated documentation in accordance with the terms of this license.</p>
+		<p>Raia&#160;Software grants you a non-exclusive license to evaluate and use Tacview and the associated documentation in accordance with the terms of this license.</p>
 		<p>You MAY do the following:</p>
 		<ul>
 			<li>Install and use Tacview for non-commercial purposes as long as you comply with the terms of this license agreement;</li>
@@ -35,19 +35,29 @@
 		<p><b>COLLECTION OF ANONYMOUS DATA</b></p>
 		<p>Raia&#160;Software reserves the right to collect, store and use anonymous data about Tacview usage. This data will not be sold to a third party and will be exclusively used to improve the quality and stability of Tacview.</p>
 		<p><b>TRIAL PERIOD</b></p>
-		<p>Following an evaluation period of 21 days, some advanced features of Tacview will be disabled. You must buy a Standard, Advanced or Enterprise license if you wish to continue enjoying these features.</p>
-		<p><b>SPECIFIC CONDITIONS FOR FULL LICENSE USERS</b></p>
-		<p>To obtain a Standard or Advanced license, complete the online registration form and send it with the registration fee to one of the authorized registration sites. Go to http://tacview.net for a list of authorized sites.</p>
-		<p><b>Standard and Advanced Licenses</b></p>
-		<p>Once registered, the user is granted a non-exclusive license to use Tacview on the number of computers defined by the license purchased. A Standard or Advanced license or license key may not be shared, sublicensed, redistributed, rented or leased, but it may be permanently transferred, provided the transferee agrees to the terms of this license agreement.</p>
-		<p><b>Enterprise License</b></p>
-		<p>If you wish to use Tacview for commercial purposes or in an institutional environment, then you must buy at least one Enterprise license for Tacview: you may order either one license per user or one license per computer depending on the best fit for your needs.</p>
+		<p>Following an evaluation period of 21 days, some advanced features of Tacview will be disabled.</p>
 		<ul>
-			<li>If you choose to buy one license per user: Each user may install and use one copy of Tacview on one or more computers for their sole use, provided Tacview is only used on one computer at any given time. This includes home and work, or a laptop and desktop.</li>
+			<li>If you wish to continue enjoying these features for personal use, you may purchase a Standard or Advanced license;</li>
+			<li>If you wish to use Tacview for commercial purposes or in an institutional environment after the evaluation period has ended, you must buy at least one Tacview Enterprise license.</li>
+		</ul>
+		<p><b>SPECIFIC CONDITIONS FOR FULL LICENSE USERS</b></p>
+		<p><b>Standard and Advanced Licenses</b></p>
+		<p>Standard and Advanced licenses are for personal use only. Once registered, the user is granted a non-exclusive license to use Tacview on all his personal computers provided Tacview is only used on one computer at any given time.</p>
+		<p>Standard and Advanced licenses and product keys may not be shared, sublicensed, redistributed, rented or leased, but they may be permanently transferred, provided the transferee agrees to the terms of this license agreement.</p>
+		<p>To obtain a Standard or Advanced license, complete the online registration form and send it with the registration fee to one of the authorized registration sites. Go to http://tacview.net for a list of authorized sites.</p>
+		<p><b>Enterprise License</b></p>
+		<p>If you wish to use Tacview for commercial purposes or in an institutional environment, you must buy at least one Tacview Enterprise license. You may order either one license per user or one license per computer depending on the best fit for your needs.</p>
+		<ul>
+			<li>If you choose to buy one license per user: Each user may install and use one copy of Tacview on one or more computers for their sole use, provided Tacview is only used on one computer at any given time. This includes home and work, laptop and desktop computers.</li>
 			<li>If you choose to buy one license per computer: Each license is tied to a single computer. In that case, as many users as you want can share the same computer and use the same installation of Tacview, provided only one user per computer is active at any given time.</li>
 		</ul>
-		<p>Each Enterprise license grants you a non-exclusive right to use Tacview for one year. Enterprise licenses must be renewed at the end of the one-year validity period. Enterprise license keys may not be shared, transferred, sublicensed, redistributed, rented or leased.</p>
-		<p>Please contact mailto:support@tacview.net to order Enterprise licenses or if you have any questions.</p>
+		<p>There are two kinds of Tacview Enterprise licenses:</p>
+		<ul>
+			<li>Annual licenses grant you a non-exclusive right to use Tacview for one year. These licenses may be renewed at the end of their validity period.</li>
+			<li>Perpetual licenses grant you a non-exclusive right to use Tacview indefinitely.</li>
+		</ul>
+		<p>Enterprise licenses and product keys may not be shared, transferred, sublicensed, redistributed, rented or leased.</p>
+		<p>To obtain one or more Tacview Enterprise license, please contact us at mailto:support@tacview.net</p>
 		<p><b>COPYRIGHT/OWNERSHIP</b></p>
 		<p>Tacview, its logo, trademarks, images, graphics, interface, texts, video sequences, look and feel and source code are proprietary products of Raia&#160;Software and are protected by copyright and other intellectual property laws. Nothing in this license agreement shall be construed as an assignment of any rights by Raia&#160;Software.</p>
 		<p><b>TERMINATION</b></p>

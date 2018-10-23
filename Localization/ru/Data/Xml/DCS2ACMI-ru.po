@@ -129,3 +129,21 @@ msgstr ""
 
 msgid "Local Remote Control Password"
 msgstr ""
+
+msgid "Terrain Export"
+msgstr ""
+
+msgid "NOTICE: SLOW OPERATION!"
+msgstr ""
+
+msgid "DO NOT forget to disable this option after successful export."
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Unknown Terrain"
+msgstr ""
+
+msgid "Predefined Terrain"
+msgstr ""
