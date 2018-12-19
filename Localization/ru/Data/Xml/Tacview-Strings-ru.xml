@@ -21,6 +21,8 @@
 	<String ID="FileExportText">Экспорт</String>
 	<String ID="FileExportFlightLogText">Экспортировать журнал &amp;полёта...</String>
 	<String ID="FileExportFlightLogHelp">Экспортировать данные полёта в формате .xml или .csv</String>
+	<String ID="FileExportTelemetryText">Экспортировать данные телеметрии...</String>
+	<String ID="FileExportTelemetryHelp">Export telemetry in the file format of your choice</String>
 
 	<String ID="RecordingMenuTooltip">Ведётся запись</String>
 	<String ID="RecordingMenuHelp">Задать свойства записи полёта</String>
@@ -147,6 +149,9 @@
 	<String ID="OptionsPositionFormatDMSHelp">Градусы, минуты, секунды</String>
 	<String ID="OptionsPositionFormatMGRSHelp">Военная система прямоугольных координат (MGRS)</String>
 
+	<String ID="OptionsPositionAlwaysDisplayedText">Always Displayed</String>
+	<String ID="OptionsPositionAlwaysDisplayedHelp">When hidden, press SHIFT to display current position in top left corner of the 3D view.</String>
+
 	<String ID="AspectAngleLeft">Л</String>
 	<String ID="AspectAngleRight">П</String>
 
@@ -174,6 +179,8 @@
 	<String ID="DogfightModeCenteredHelp">Center the camera between selected objects</String>
 	<String ID="DogfightModeLookAtText">Look at Target</String>
 	<String ID="DogfightModeLookAtHelp">The camera will keep looking at the secondary object</String>
+	<String ID="DogfightModeLookForwardText">Look Forward</String>
+	<String ID="DogfightModeLookForwardHelp">The camera will keep looking in the forward direction of the primary object</String>
 
 	<String ID="InsertBookmarkText">&amp;Добавить метку</String>
 	<String ID="InsertBookmarkHelp">Создать и добавить метку в события на шкале времени</String>
@@ -282,14 +289,6 @@
 	<String ID="ChartZoomOutHelp">Отобразить больше данных</String>
 	<String ID="ChartZoomInTooltip">Приблизить камеру</String>
 	<String ID="ChartZoomInHelp">Отобразить больше деталей</String>
-	<String ID="ChartExportTelemetryTooltip">Экспорт</String>
-	<String ID="ChartExportTelemetryHelp">Экспортировать данные телеметрии в формате, доступном другим инструментам</String>
-	<String ID="ExportTelemetryText">Экспортировать данные телеметрии</String>
-	<String ID="ExportTelemetryHelp">Экспортировать графики в формате .csv</String>
-	<String ID="ExportTelemetryPositionText">Добавить позицию</String>
-	<String ID="ExportTelemetryPositionHelp">Добавить сведения о положении ЛА в экспортированные данные</String>
-	<String ID="ExportTelemetryRotationText">Добавить вращение</String>
-	<String ID="ExportTelemetryRotationHelp">Добавить сведения о вращении ЛА в экспортированные данные</String>
 
 	<String ID="ChartAltitudeSpeedHelp">Стандартные графики "высота/скорость"</String>
 	<String ID="ChartAltitudeSpeedText">Высота / Скорость</String>
@@ -376,6 +375,12 @@
 	<String ID="RollText">Крен</String>
 	<String ID="PitchHelp">Положение ЛА по тангажу</String>
 	<String ID="PitchText">Тангаж</String>
+
+	<String ID="NavaidsLabelsText">Navaids Labels</String>
+	<String ID="NavaidsLabelsAlwaysText">Always</String>
+	<String ID="NavaidsLabelsAlwaysHelp">Display all navaids labels</String>
+	<String ID="NavaidsLabelsSelectedOnlyText">Selected Only</String>
+	<String ID="NavaidsLabelsSelectedOnlyHelp">Display labels only for selected navaids</String>
 
 	<String ID="AbsoluteTimeHelp">Абсолютное время</String>
 	<String ID="AbsoluteTimeText">Время</String>
@@ -739,6 +744,27 @@
 	<String ID="RequireProfessionalLicenseText">Эта программа требует ключа версии Professional.</String>
 	<String ID="RegisterUserProductKey">Register User</String>
 	<String ID="RegisterSystemProductKey">Register System</String>
+	<String ID="Export">Export...</String>
+
+	<!-- Telemetry Export -->
+	<String ID="ExportTitle">Telemetry Export</String>
+	<String ID="ExportSubTitle">Export telemetry data in a file readable by other tools. Properties are expressed in meters and degrees. The accuracy of calculated properties depends on recorded data availability and precision.</String>
+	<String ID="ExportSelectionLabel">Export the following properties for:</String>
+	<String ID="ExportMainObject">Main object only</String>
+	<String ID="ExportSelectedObjects">All selected objects</String>
+	<String ID="ExportAllObjets">All objects</String>
+	<String ID="ExportSamplingRate">Sampling rate (Hz):</String>
+	<String ID="ExportAll">All</String>
+	<String ID="ExportNone">None</String>
+	<String ID="ExportRecordedProperties">Recorded Properties</String>
+	<String ID="ExportCalculatedProperties">Calculated Properties</String>
+	<String ID="ExportNumericProperties">Numeric Properties</String>
+	<String ID="ExportTextProperties">Text Properties</String>
+	<String ID="ExportGroupGeneral">General</String>
+	<String ID="ExportGroupPerformance">Performance</String>
+	<String ID="ExportGroupEnergy">Energy</String>
+	<String ID="ExportGroupFuel">Fuel</String>
+	<String ID="ExportGroupMisc">Miscellaneous</String>
 
 	<!-- Additional Dialogs Strings -->
 	<String ID="BrowseDCSWorldFolderHelp">Пожалуйста, укажите путь к игре 'DCS World'</String>

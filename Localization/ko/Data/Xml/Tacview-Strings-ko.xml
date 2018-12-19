@@ -21,6 +21,8 @@
 	<String ID="FileExportText">내보내기</String>
 	<String ID="FileExportFlightLogText">현재의 비행로그를 &amp;내보내기...</String>
 	<String ID="FileExportFlightLogHelp">비행 로그를 XML이나 CSV 파일로 내보내기</String>
+	<String ID="FileExportTelemetryText">익스포트 텔레메트리...</String>
+	<String ID="FileExportTelemetryHelp">Export telemetry in the file format of your choice</String>
 
 	<String ID="RecordingMenuTooltip">기록하기</String>
 	<String ID="RecordingMenuHelp">비행 데이터 기록 설정하기</String>
@@ -147,6 +149,9 @@
 	<String ID="OptionsPositionFormatDMSHelp">도,분,초 방식</String>
 	<String ID="OptionsPositionFormatMGRSHelp">군사용 좌표 레퍼런스 시스템</String>
 
+	<String ID="OptionsPositionAlwaysDisplayedText">Always Displayed</String>
+	<String ID="OptionsPositionAlwaysDisplayedHelp">When hidden, press SHIFT to display current position in top left corner of the 3D view.</String>
+
 	<String ID="AspectAngleLeft">L</String>
 	<String ID="AspectAngleRight">R</String>
 
@@ -174,6 +179,8 @@
 	<String ID="DogfightModeCenteredHelp">Center the camera between selected objects</String>
 	<String ID="DogfightModeLookAtText">Look at Target</String>
 	<String ID="DogfightModeLookAtHelp">The camera will keep looking at the secondary object</String>
+	<String ID="DogfightModeLookForwardText">Look Forward</String>
+	<String ID="DogfightModeLookForwardHelp">The camera will keep looking in the forward direction of the primary object</String>
 
 	<String ID="InsertBookmarkText">&amp;북마크 삽입하기</String>
 	<String ID="InsertBookmarkHelp">북마크를 이벤트와 타임라인에 생성하거나 삽입하도록 해 준다.</String>
@@ -282,14 +289,6 @@
 	<String ID="ChartZoomOutHelp">더 많은 정보 보여주기</String>
 	<String ID="ChartZoomInTooltip">확대</String>
 	<String ID="ChartZoomInHelp">자세한 정보 보여주기</String>
-	<String ID="ChartExportTelemetryTooltip">익스포트</String>
-	<String ID="ChartExportTelemetryHelp">텔레메트리 데이터를 다른 툴에서 볼 수 있는 형태로 익스포트 하기</String>
-	<String ID="ExportTelemetryText">익스포트 텔레메트리</String>
-	<String ID="ExportTelemetryHelp">챠트를 CSV 파일 형태로 익스포트 하기</String>
-	<String ID="ExportTelemetryPositionText">위치 포함하기</String>
-	<String ID="ExportTelemetryPositionHelp">익스포트 된 데이터 안에 기체의 위치정보 포함하기</String>
-	<String ID="ExportTelemetryRotationText">회전정보 포함하기</String>
-	<String ID="ExportTelemetryRotationHelp">익스포트 된 데이터 안에 기체의 회전정보 포함하기</String>
 
 	<String ID="ChartAltitudeSpeedHelp">기준 고도/속도 챠트</String>
 	<String ID="ChartAltitudeSpeedText">고도/속도</String>
@@ -376,6 +375,12 @@
 	<String ID="RollText">롤</String>
 	<String ID="PitchHelp">기체 피치 상태</String>
 	<String ID="PitchText">피치</String>
+
+	<String ID="NavaidsLabelsText">Navaids Labels</String>
+	<String ID="NavaidsLabelsAlwaysText">Always</String>
+	<String ID="NavaidsLabelsAlwaysHelp">Display all navaids labels</String>
+	<String ID="NavaidsLabelsSelectedOnlyText">Selected Only</String>
+	<String ID="NavaidsLabelsSelectedOnlyHelp">Display labels only for selected navaids</String>
 
 	<String ID="AbsoluteTimeHelp">절대 시간</String>
 	<String ID="AbsoluteTimeText">시간</String>
@@ -759,6 +764,27 @@
 	<String ID="RequireProfessionalLicenseText">이 버전의 택뷰를 사용하기 위해서는, 프로페셔널 라이센스가 필요합니다.</String>
 	<String ID="RegisterUserProductKey">Register User</String>
 	<String ID="RegisterSystemProductKey">Register System</String>
+	<String ID="Export">Export...</String>
+
+	<!-- Telemetry Export -->
+	<String ID="ExportTitle">Telemetry Export</String>
+	<String ID="ExportSubTitle">Export telemetry data in a file readable by other tools. Properties are expressed in meters and degrees. The accuracy of calculated properties depends on recorded data availability and precision.</String>
+	<String ID="ExportSelectionLabel">Export the following properties for:</String>
+	<String ID="ExportMainObject">Main object only</String>
+	<String ID="ExportSelectedObjects">All selected objects</String>
+	<String ID="ExportAllObjets">All objects</String>
+	<String ID="ExportSamplingRate">Sampling rate (Hz):</String>
+	<String ID="ExportAll">All</String>
+	<String ID="ExportNone">None</String>
+	<String ID="ExportRecordedProperties">Recorded Properties</String>
+	<String ID="ExportCalculatedProperties">Calculated Properties</String>
+	<String ID="ExportNumericProperties">Numeric Properties</String>
+	<String ID="ExportTextProperties">Text Properties</String>
+	<String ID="ExportGroupGeneral">General</String>
+	<String ID="ExportGroupPerformance">Performance</String>
+	<String ID="ExportGroupEnergy">Energy</String>
+	<String ID="ExportGroupFuel">Fuel</String>
+	<String ID="ExportGroupMisc">Miscellaneous</String>
 
 	<!-- Additional Dialogs Strings -->
 	<String ID="BrowseDCSWorldFolderHelp">'DCS 월드' 설치 폴더를 선택하여 주시기 바랍니다.</String>

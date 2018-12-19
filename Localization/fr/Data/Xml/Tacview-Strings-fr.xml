@@ -20,6 +20,8 @@
 	<String ID="FileExportText">Exporter</String>
 	<String ID="FileExportFlightLogText">Exporter &amp;Journal de vol...</String>
 	<String ID="FileExportFlightLogHelp">Exporter le journal de vol au format XML ou CSV</String>
+	<String ID="FileExportTelemetryText">Exporter télémétrie...</String>
+	<String ID="FileExportTelemetryHelp">Exporter les données de télémétrie dans le format de fichier de votre choix</String>
 
 	<String ID="RecordingMenuTooltip">Enregistrement</String>
 	<String ID="RecordingMenuHelp">Définir les paramètres d'enregistrement des vols</String>
@@ -140,11 +142,14 @@
 	<String ID="OptionsDistanceAutoSwitch2Text">Basculer les distances en pieds sous 2 nm</String>
 	<String ID="OptionsDistanceAutoSwitch2Help">Basculer les distances en pieds sous 2 nm</String>
 
-	<String ID="OptionsPositionFormatText">Format de la position</String>
+	<String ID="OptionsPositionFormatText">Position</String>
 	<String ID="OptionsPositionFormatDDDHelp">Degrés décimaux</String>
 	<String ID="OptionsPositionFormatDMMHelp">Degrés, minutes décimales</String>
 	<String ID="OptionsPositionFormatDMSHelp">Degrés, minutes, secondes</String>
 	<String ID="OptionsPositionFormatMGRSHelp">Système de référence de carroyage militaire</String>
+
+	<String ID="OptionsPositionAlwaysDisplayedText">Toujours affichée</String>
+	<String ID="OptionsPositionAlwaysDisplayedHelp">Lorsque cachée, appuyez sur SHIFT pour afficher la position dans le coin haut/gauche de la vue 3D.</String>
 
 	<String ID="AspectAngleLeft">G</String>
 	<String ID="AspectAngleRight">D</String>
@@ -173,6 +178,8 @@
 	<String ID="DogfightModeCenteredHelp">Centre la caméra entre les objets sélectionnés</String>
 	<String ID="DogfightModeLookAtText">Regarder cible</String>
 	<String ID="DogfightModeLookAtHelp">Pointer la caméra en direction de l’objet secondaire</String>
+	<String ID="DogfightModeLookForwardText">Regarder vers avant</String>
+	<String ID="DogfightModeLookForwardHelp">Pointe la caméra dans la même direction que l’objet principal</String>
 
 	<String ID="InsertBookmarkText">&amp;Insérer signet</String>
 	<String ID="InsertBookmarkHelp">Crée et insère un signet dans la liste d'évènements et la barre de temps</String>
@@ -281,14 +288,6 @@
 	<String ID="ChartZoomOutHelp">Voir plus de données</String>
 	<String ID="ChartZoomInTooltip">Zoom avant</String>
 	<String ID="ChartZoomInHelp">Voir plus de détails</String>
-	<String ID="ChartExportTelemetryTooltip">Exporter</String>
-	<String ID="ChartExportTelemetryHelp">Exporter les données de télémétrie dans un fichier lisible par d'autres outils</String>
-	<String ID="ExportTelemetryText">Exporter télémétrie</String>
-	<String ID="ExportTelemetryHelp">Exporter le graphique dans un fichier au format CSV</String>
-	<String ID="ExportTelemetryPositionText">Inclure position</String>
-	<String ID="ExportTelemetryPositionHelp">Inclure la position de l'appareil dans les donnes exportées</String>
-	<String ID="ExportTelemetryRotationText">Inclure rotation</String>
-	<String ID="ExportTelemetryRotationHelp">Inclure la rotation de l'appareil dans les donnes exportées</String>
 
 	<String ID="ChartAltitudeSpeedHelp">Graphique standard incluant la vitesse et l'altitude</String>
 	<String ID="ChartAltitudeSpeedText">Altitude/Vitesse</String>
@@ -375,6 +374,12 @@
 	<String ID="RollText">Roulis</String>
 	<String ID="PitchHelp">Inclinaison en tangage de l’aéronef</String>
 	<String ID="PitchText">Tangage</String>
+
+	<String ID="NavaidsLabelsText">Aides à la navigation</String>
+	<String ID="NavaidsLabelsAlwaysText">Toujours</String>
+	<String ID="NavaidsLabelsAlwaysHelp">Affiche les étiquettes de toutes les aides à la navigation</String>
+	<String ID="NavaidsLabelsSelectedOnlyText">Seulement sélectionnés</String>
+	<String ID="NavaidsLabelsSelectedOnlyHelp">Affiche uniquement les étiquettes des aides à la navigation sélectionnés</String>
 
 	<String ID="AbsoluteTimeHelp">Temps absolu</String>
 	<String ID="AbsoluteTimeText">Temps</String>
@@ -738,6 +743,27 @@
 	<String ID="RequireProfessionalLicenseText">Pour utiliser cette version de Tacview, vous devez posséder une Tacview Advanced.</String>
 	<String ID="RegisterUserProductKey">Enregistrer utilisateur</String>
 	<String ID="RegisterSystemProductKey">Enregistrer système</String>
+	<String ID="Export">Exporter...</String>
+
+	<!-- Telemetry Export -->
+	<String ID="ExportTitle">Exporter télémétrie</String>
+	<String ID="ExportSubTitle">Exporter les données de télémétrie dans un fichier lisible par d'autres outils. Les propriétés sont exprimées en mètres et degrés. L’exactitude des propriétés calculées dépend de la disponibilité et précision des données mesurées.</String>
+	<String ID="ExportSelectionLabel">Exporter les propriétés suivantes pour :</String>
+	<String ID="ExportMainObject">Uniquement l’objet principal</String>
+	<String ID="ExportSelectedObjects">Tous les objets sélectionnés</String>
+	<String ID="ExportAllObjets">Tous les objets</String>
+	<String ID="ExportSamplingRate">Taux d’échantillonnage (Hz) :</String>
+	<String ID="ExportAll">Toutes</String>
+	<String ID="ExportNone">Aucune</String>
+	<String ID="ExportRecordedProperties">Propriétés enregistrées</String>
+	<String ID="ExportCalculatedProperties">Propriétés calculées</String>
+	<String ID="ExportNumericProperties">Propriétés numériques</String>
+	<String ID="ExportTextProperties">Propriétés texte</String>
+	<String ID="ExportGroupGeneral">Général</String>
+	<String ID="ExportGroupPerformance">Performance</String>
+	<String ID="ExportGroupEnergy">Energie</String>
+	<String ID="ExportGroupFuel">Carburant</String>
+	<String ID="ExportGroupMisc">Divers</String>
 
 	<!-- Additional Dialogs Strings -->
 	<String ID="BrowseDCSWorldFolderHelp">Veuillez sélectionner le dossier d'installation de 'DCS World'</String>

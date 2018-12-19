@@ -20,6 +20,8 @@
 	<String ID="FileExportText">Export</String>
 	<String ID="FileExportFlightLogText">Export Flight &amp;Log...</String>
 	<String ID="FileExportFlightLogHelp">Export flight log as an XML or CSV File</String>
+	<String ID="FileExportTelemetryText">Export Telemetry...</String>
+	<String ID="FileExportTelemetryHelp">Export telemetry in the file format of your choice</String>
 
 	<String ID="RecordingMenuTooltip">Recording</String>
 	<String ID="RecordingMenuHelp">Set flight data recording settings</String>
@@ -140,11 +142,14 @@
 	<String ID="OptionsDistanceAutoSwitch2Text">Switch distances to feet under 2 nm</String>
 	<String ID="OptionsDistanceAutoSwitch2Help">Switch distances to feet under 2 nm</String>
 
-	<String ID="OptionsPositionFormatText">Position Format</String>
+	<String ID="OptionsPositionFormatText">Position</String>
 	<String ID="OptionsPositionFormatDDDHelp">Decimal degrees</String>
 	<String ID="OptionsPositionFormatDMMHelp">Degrees, decimal minutes</String>
 	<String ID="OptionsPositionFormatDMSHelp">Degrees, minutes, seconds</String>
 	<String ID="OptionsPositionFormatMGRSHelp">Military grid reference system</String>
+
+	<String ID="OptionsPositionAlwaysDisplayedText">Always Displayed</String>
+	<String ID="OptionsPositionAlwaysDisplayedHelp">When hidden, press SHIFT to display current position in top left corner of the 3D view.</String>
 
 	<String ID="AspectAngleLeft">L</String>
 	<String ID="AspectAngleRight">R</String>
@@ -173,6 +178,8 @@
 	<String ID="DogfightModeCenteredHelp">Center the camera between selected objects</String>
 	<String ID="DogfightModeLookAtText">Look at Target</String>
 	<String ID="DogfightModeLookAtHelp">The camera will keep looking at the secondary object</String>
+	<String ID="DogfightModeLookForwardText">Look Forward</String>
+	<String ID="DogfightModeLookForwardHelp">The camera will keep looking in the forward direction of the primary object</String>
 
 	<String ID="InsertBookmarkText">&amp;Insert Bookmark</String>
 	<String ID="InsertBookmarkHelp">Create and insert a bookmark in the events and timeline</String>
@@ -281,14 +288,6 @@
 	<String ID="ChartZoomOutHelp">Show more data</String>
 	<String ID="ChartZoomInTooltip">Zoom in</String>
 	<String ID="ChartZoomInHelp">Show more details</String>
-	<String ID="ChartExportTelemetryTooltip">Export</String>
-	<String ID="ChartExportTelemetryHelp">Export telemetry data in a file readable by other tools</String>
-	<String ID="ExportTelemetryText">Export Telemetry</String>
-	<String ID="ExportTelemetryHelp">Export chart in CSV file format</String>
-	<String ID="ExportTelemetryPositionText">Include Position</String>
-	<String ID="ExportTelemetryPositionHelp">Include aircraft position in exported data</String>
-	<String ID="ExportTelemetryRotationText">Include Rotation</String>
-	<String ID="ExportTelemetryRotationHelp">Include aircraft rotation in exported data</String>
 
 	<String ID="ChartAltitudeSpeedHelp">Standard altitude/speed chart</String>
 	<String ID="ChartAltitudeSpeedText">Altitude/Speed</String>
@@ -375,6 +374,12 @@
 	<String ID="RollText">Roll</String>
 	<String ID="PitchHelp">Aircraft pitch attitude</String>
 	<String ID="PitchText">Pitch</String>
+
+	<String ID="NavaidsLabelsText">Navaids Labels</String>
+	<String ID="NavaidsLabelsAlwaysText">Always</String>
+	<String ID="NavaidsLabelsAlwaysHelp">Display all navaids labels</String>
+	<String ID="NavaidsLabelsSelectedOnlyText">Selected Only</String>
+	<String ID="NavaidsLabelsSelectedOnlyHelp">Display labels only for selected navaids</String>
 
 	<String ID="AbsoluteTimeHelp">Absolute time</String>
 	<String ID="AbsoluteTimeText">Time</String>
@@ -738,6 +743,27 @@
 	<String ID="RequireProfessionalLicenseText">To use this version of Tacview you need a Tacview Advanced license.</String>
 	<String ID="RegisterUserProductKey">Register User</String>
 	<String ID="RegisterSystemProductKey">Register System</String>
+	<String ID="Export">Export...</String>
+
+	<!-- Telemetry Export -->
+	<String ID="ExportTitle">Telemetry Export</String>
+	<String ID="ExportSubTitle">Export telemetry data in a file readable by other tools. Properties are expressed in meters and degrees. The accuracy of calculated properties depends on recorded data availability and precision.</String>
+	<String ID="ExportSelectionLabel">Export the following properties for:</String>
+	<String ID="ExportMainObject">Main object only</String>
+	<String ID="ExportSelectedObjects">All selected objects</String>
+	<String ID="ExportAllObjets">All objects</String>
+	<String ID="ExportSamplingRate">Sampling rate (Hz):</String>
+	<String ID="ExportAll">All</String>
+	<String ID="ExportNone">None</String>
+	<String ID="ExportRecordedProperties">Recorded Properties</String>
+	<String ID="ExportCalculatedProperties">Calculated Properties</String>
+	<String ID="ExportNumericProperties">Numeric Properties</String>
+	<String ID="ExportTextProperties">Text Properties</String>
+	<String ID="ExportGroupGeneral">General</String>
+	<String ID="ExportGroupPerformance">Performance</String>
+	<String ID="ExportGroupEnergy">Energy</String>
+	<String ID="ExportGroupFuel">Fuel</String>
+	<String ID="ExportGroupMisc">Miscellaneous</String>
 
 	<!-- Additional Dialogs Strings -->
 	<String ID="BrowseDCSWorldFolderHelp">Please select 'DCS World' install folder</String>

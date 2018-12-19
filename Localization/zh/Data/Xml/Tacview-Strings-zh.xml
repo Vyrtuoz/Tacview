@@ -21,6 +21,8 @@
 	<String ID="FileExportText">导出</String>
 	<String ID="FileExportFlightLogText">导出飞行&amp;日志...</String>
 	<String ID="FileExportFlightLogHelp">导出飞行日志为XML文件</String>
+	<String ID="FileExportTelemetryText">输出遥测...</String>
+	<String ID="FileExportTelemetryHelp">Export telemetry in the file format of your choice</String>
 
 	<String ID="RecordingMenuTooltip">记录</String>
 	<String ID="RecordingMenuHelp">设置飞行数据记录</String>
@@ -147,6 +149,9 @@
 	<String ID="OptionsPositionFormatDMSHelp">度，分，秒</String>
 	<String ID="OptionsPositionFormatMGRSHelp">军事网格参考系统</String>
 
+	<String ID="OptionsPositionAlwaysDisplayedText">Always Displayed</String>
+	<String ID="OptionsPositionAlwaysDisplayedHelp">When hidden, press SHIFT to display current position in top left corner of the 3D view.</String>
+
 	<String ID="AspectAngleLeft">L</String>
 	<String ID="AspectAngleRight">R</String>
 
@@ -174,6 +179,8 @@
 	<String ID="DogfightModeCenteredHelp">把摄像机剧中到已选物体中间</String>
 	<String ID="DogfightModeLookAtText">注视目标</String>
 	<String ID="DogfightModeLookAtHelp">摄像机会保持注视次要目标</String>
+	<String ID="DogfightModeLookForwardText">Look Forward</String>
+	<String ID="DogfightModeLookForwardHelp">The camera will keep looking in the forward direction of the primary object</String>
 
 	<String ID="InsertBookmarkText">&amp;插入书签</String>
 	<String ID="InsertBookmarkHelp">在事件和时间线里创建并插入书签</String>
@@ -282,14 +289,6 @@
 	<String ID="ChartZoomOutHelp">显示更多数据</String>
 	<String ID="ChartZoomInTooltip">放大</String>
 	<String ID="ChartZoomInHelp">显示更多细节</String>
-	<String ID="ChartExportTelemetryTooltip">导出</String>
-	<String ID="ChartExportTelemetryHelp">导出遥测数据作为可由其他工具读取的文件</String>
-	<String ID="ExportTelemetryText">输出遥测</String>
-	<String ID="ExportTelemetryHelp">输出图表为CSV文件格式</String>
-	<String ID="ExportTelemetryPositionText">包含位置</String>
-	<String ID="ExportTelemetryPositionHelp">在输出数据里包含航空器位置</String>
-	<String ID="ExportTelemetryRotationText">包含旋转</String>
-	<String ID="ExportTelemetryRotationHelp">在输出数据里包含航空器旋转</String>
 
 	<String ID="ChartAltitudeSpeedHelp">标准高度/速度图表</String>
 	<String ID="ChartAltitudeSpeedText">高度/速度</String>
@@ -376,6 +375,12 @@
 	<String ID="RollText">滚转</String>
 	<String ID="PitchHelp">航空器俯仰姿态</String>
 	<String ID="PitchText">俯仰</String>
+
+	<String ID="NavaidsLabelsText">Navaids Labels</String>
+	<String ID="NavaidsLabelsAlwaysText">Always</String>
+	<String ID="NavaidsLabelsAlwaysHelp">Display all navaids labels</String>
+	<String ID="NavaidsLabelsSelectedOnlyText">Selected Only</String>
+	<String ID="NavaidsLabelsSelectedOnlyHelp">Display labels only for selected navaids</String>
 
 	<String ID="AbsoluteTimeHelp">绝对时间</String>
 	<String ID="AbsoluteTimeText">时间</String>
@@ -762,6 +767,27 @@
 	<String ID="RequireProfessionalLicenseText">要使用此版本的Tacview，你需要高级版许可。</String>
 	<String ID="RegisterUserProductKey">注册用户</String>
 	<String ID="RegisterSystemProductKey">注册系统</String>
+	<String ID="Export">Export...</String>
+
+	<!-- Telemetry Export -->
+	<String ID="ExportTitle">Telemetry Export</String>
+	<String ID="ExportSubTitle">Export telemetry data in a file readable by other tools. Properties are expressed in meters and degrees. The accuracy of calculated properties depends on recorded data availability and precision.</String>
+	<String ID="ExportSelectionLabel">Export the following properties for:</String>
+	<String ID="ExportMainObject">Main object only</String>
+	<String ID="ExportSelectedObjects">All selected objects</String>
+	<String ID="ExportAllObjets">All objects</String>
+	<String ID="ExportSamplingRate">Sampling rate (Hz):</String>
+	<String ID="ExportAll">All</String>
+	<String ID="ExportNone">None</String>
+	<String ID="ExportRecordedProperties">Recorded Properties</String>
+	<String ID="ExportCalculatedProperties">Calculated Properties</String>
+	<String ID="ExportNumericProperties">Numeric Properties</String>
+	<String ID="ExportTextProperties">Text Properties</String>
+	<String ID="ExportGroupGeneral">General</String>
+	<String ID="ExportGroupPerformance">Performance</String>
+	<String ID="ExportGroupEnergy">Energy</String>
+	<String ID="ExportGroupFuel">Fuel</String>
+	<String ID="ExportGroupMisc">Miscellaneous</String>
 
 	<!-- Additional Dialogs Strings -->
 	<String ID="BrowseDCSWorldFolderHelp">请选择'DCS World'安装文件夹</String>
