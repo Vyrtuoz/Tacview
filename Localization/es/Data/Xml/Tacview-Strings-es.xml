@@ -22,7 +22,7 @@
 	<String ID="FileExportFlightLogText">Exportar registro &amp;de vuelo...</String>
 	<String ID="FileExportFlightLogHelp">Exportar los datos de vuelo como archivo XML o CSV</String>
 	<String ID="FileExportTelemetryText">Exportar Telemetría...</String>
-	<String ID="FileExportTelemetryHelp">Export telemetry in the file format of your choice</String>
+	<String ID="FileExportTelemetryHelp">Exportar Telemetría en el formato de su elección</String>
 
 	<String ID="RecordingMenuTooltip">Grabando</String>
 	<String ID="RecordingMenuHelp">Configurar los datos de vuelo a grabar</String>
@@ -114,7 +114,7 @@
 
 	<String ID="OptionsLanguageText">Lenguaje</String>
 	<String ID="OptionsLanguageAutoText">(&amp;Automático)</String>
-	<String ID="OptionsLanguageAutoHelp">Sleccionar automáticamente el mejor lenguaje</String>
+	<String ID="OptionsLanguageAutoHelp">Seleccionar automáticamente el mejor lenguaje</String>
 
 	<!-- Units -->
 	<String ID="OptionsMeasurementSystemText">Unidades</String>
@@ -149,8 +149,8 @@
 	<String ID="OptionsPositionFormatDMSHelp">Grados, minutos, segundos</String>
 	<String ID="OptionsPositionFormatMGRSHelp">Malla de referencia militar</String>
 
-	<String ID="OptionsPositionAlwaysDisplayedText">Always Displayed</String>
-	<String ID="OptionsPositionAlwaysDisplayedHelp">When hidden, press SHIFT to display current position in top left corner of the 3D view.</String>
+	<String ID="OptionsPositionAlwaysDisplayedText">Mostrar Siempre</String>
+	<String ID="OptionsPositionAlwaysDisplayedHelp">Cuando este oculto, al presionar SHIFT se enseñara en la parte superior izquierda de la imagen 3D</String>
 
 	<String ID="AspectAngleLeft">Iz</String>
 	<String ID="AspectAngleRight">Der</String>
@@ -165,10 +165,10 @@
 	<String ID="TimeShiftObjectText">Cambio de hora...</String>
 	<String ID="TimeShiftObjectHelp">Corregir el tiempo de telemetría del objeto seleccionado</String>
 
-	<String ID="OptionsTrimBeforeText">Trim Before...</String>
-	<String ID="OptionsTrimBeforeHelp">Delete all telemetry data before the current point in time</String>
-	<String ID="OptionsTrimAfterText">Trim After...</String>
-	<String ID="OptionsTrimAfterHelp">Delete all telemetry beyond the current point in time</String>
+	<String ID="OptionsTrimBeforeText">Trimar Antes...</String>
+	<String ID="OptionsTrimBeforeHelp">Borrar toda la Telemetría anterior del punto temporal actual</String>
+	<String ID="OptionsTrimAfterText">Trimar Después...</String>
+	<String ID="OptionsTrimAfterHelp">Borrar toda la Telemetría mas haya del punto temporal actual</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Asociar Tacview con los archivos acmi</String>
 	<String ID="OptionsAssociateFileTypesHelp">Habilita que Tacview abra en windows los archivos de vuelo con doble click</String>
@@ -179,8 +179,8 @@
 	<String ID="DogfightModeCenteredHelp">Centrar la cámara entre los objetos seleccionados</String>
 	<String ID="DogfightModeLookAtText">Mirar al objetivo</String>
 	<String ID="DogfightModeLookAtHelp">La cámara seguirá mirando al objetivo secundario</String>
-	<String ID="DogfightModeLookForwardText">Look Forward</String>
-	<String ID="DogfightModeLookForwardHelp">The camera will keep looking in the forward direction of the primary object</String>
+	<String ID="DogfightModeLookForwardText">Mirar hacia adelante</String>
+	<String ID="DogfightModeLookForwardHelp">La camara seguirá mirando a la direccion del objetivo principal</String>
 
 	<String ID="InsertBookmarkText">&amp;Insertar marca</String>
 	<String ID="InsertBookmarkHelp">Crea e inserta una marca en eventos y línea de tiempo</String>
@@ -376,11 +376,11 @@
 	<String ID="PitchHelp">Actitud de cabezeo del avion</String>
 	<String ID="PitchText">Cabeceo</String>
 
-	<String ID="NavaidsLabelsText">Navaids Labels</String>
-	<String ID="NavaidsLabelsAlwaysText">Always</String>
-	<String ID="NavaidsLabelsAlwaysHelp">Display all navaids labels</String>
-	<String ID="NavaidsLabelsSelectedOnlyText">Selected Only</String>
-	<String ID="NavaidsLabelsSelectedOnlyHelp">Display labels only for selected navaids</String>
+	<String ID="NavaidsLabelsText">Etiquetas de ayuda a la navegación</String>
+	<String ID="NavaidsLabelsAlwaysText">Siempre</String>
+	<String ID="NavaidsLabelsAlwaysHelp">Mostrar todas las etiquetas de ayuda a la navegación</String>
+	<String ID="NavaidsLabelsSelectedOnlyText">Solo seleccionadas</String>
+	<String ID="NavaidsLabelsSelectedOnlyHelp">Mostrar todas las etiquetas solo para las ayudas a la navegacion seleccionadas</String>
 
 	<String ID="AbsoluteTimeHelp">Tiempo absoluto</String>
 	<String ID="AbsoluteTimeText">Tiempo</String>
@@ -456,8 +456,8 @@
 	<String ID="RemoteControlRoll">Roll/Alabeo</String>
 	<String ID="RemoteControlPitch">Pitch/Cabeceo</String>
 	<String ID="RemoteControlYaw">Yaw/Guiñada</String>
-	<String ID="RemoteControlThrottle">Throttle</String>
-	<String ID="RemoteControlSimulation">Simulation</String>
+	<String ID="RemoteControlThrottle">Palanca de gases</String>
+	<String ID="RemoteControlSimulation">Simulación</String>
 	<String ID="RemoteControlFlightControl">Mandos de Vuelo</String>
 	<String ID="RemoteControlSystems">Sistemas</String>
 	<String ID="RemoteControlAxisCommands">Comandos de Ejes</String>
@@ -526,9 +526,9 @@
 	<String ID="TimeShiftTitle">Cambio de horat</String>
 	<String ID="TimeShiftSubTitle">Fijar el tiempo de telemetría del objeto seleccionado o crea un modo fantasma para comparar las actuaciones.</String>
 	<String ID="TimeShiftFirstSampleTime">Primer tiempo de muestra: {0}</String>
-	<String ID="TimeShiftDaysOffset">Days</String>
-	<String ID="TimeShiftHoursOffset">Hours</String>
-	<String ID="TimeShiftSecondsOffset">Seconds</String>
+	<String ID="TimeShiftDaysOffset">Dias</String>
+	<String ID="TimeShiftHoursOffset">Horas</String>
+	<String ID="TimeShiftSecondsOffset">Segundos</String>
 	<String ID="TimeShiftDragToShift">Haga clic y arrastre aquí para un cambio de tiempo suave</String>
 
 	<String ID="ButtonHelp">Pulse el control que quiere usar para este comando.</String>
@@ -558,7 +558,7 @@
 	<String ID="ProfilerProfileMemoryTooltip">Memoria del perfil (F18)</String>
 	<String ID="ProfilerProfileMemoryHelp">Uso actual de memoria del perfil</String>
 	<String ID="ProfilerProfileMainLoopAutoTooltip">Auto Profile Main Loop (F18)</String>
-	<String ID="ProfilerProfileMainLoopAutoHelp">Automatically find the slowest frame and its bottleneck</String>
+	<String ID="ProfilerProfileMainLoopAutoHelp">Encontrar automaticamente el frame mas lento en el cuello de botella</String>
 
 	<!-- Add On Strings -->
 	<String ID="AddOnTitleTelemetry0">Telemetría 1</String>
@@ -576,7 +576,7 @@
 	<String ID="AddOnTitleMedia3">Media 3</String>
 	<String ID="AddOnTitleMedia4">Media 4</String>
 	<String ID="UnsupportedMediaNotification">Archivo multimedia no compatible.</String>
-	<String ID="UnsupportedMediaLink">ntenta instalar un paquete de códecs.</String>
+	<String ID="UnsupportedMediaLink">Intenta instalar un paquete de códecs.</String>
 
 	<String ID="AddOnTelemetryName">Nombre</String>
 	<String ID="AddOnTelemetryData">Datos</String>
@@ -649,14 +649,14 @@
 	<String ID="CmdDataCollectionHelp">Deshabilitar recopilación anónima de datos.</String>
 	<String ID="CmdVBOOffHelp">Deshabilita el buffer de los vértices de objetos para evitar CTDs en algunas ATI en configuración CrossFire.</String>
 	<String ID="CmdDebugModeHelp">Muestra la información de errores para ayudar a solucionar problemas.</String>
-	<String ID="CmdConfigSetHelp">Almacena las preferencias del usuario en un conjunto específico para cada instancia de Tacview.</String>
-	<String ID="CmdAuthenticateHelp">Returns -1 to the caller if all of the opened files are authentic.</String>
-	<String ID="CmdRegisterUserProductKeyHelp">Activate Tacview for the current user with the provided key.</String>
-	<String ID="CmdRegisterSystemProductKeyHelp">Activate Tacview for the entire system with the provided key.</String>
-	<String ID="CmdRegisterSessionProductKeyHelp">Activate Tacview, for the current session only, with the provided key.</String>
-	<String ID="CmdDisplayFrameRateHelp">Display the frame-rate in the 3D view</String>
-	<String ID="CmdResourceFolderHelp">Declare additional custom directory where Tacview resources are stored</String>
-	<String ID="CmdReadOnlyHelp">Disable addons and export capabilities</String>
+	<String ID="CmdConfigSetHelp">Almacena las preferencias del usuario en un conjunto específico para cada instancia de Tacview.</String>	
+	<String ID="CmdAuthenticateHelp">Retorna el valor de -1 al llamante  para comprobar si todos los archivos son autenticos.</String>
+	<String ID="CmdRegisterUserProductKeyHelp">Activa el Tacview para el usuario actual con la Key indicada.</String>
+	<String ID="CmdRegisterSystemProductKeyHelp">Activa Tacview para todo el sistema con la Key indicada.</String>
+	<String ID="CmdRegisterSessionProductKeyHelp">Activa Tacview, para la sesion actual, con la Key indicada.</String>
+	<String ID="CmdDisplayFrameRateHelp">Mostrar los frame-rate en la vista 3D</String>
+	<String ID="CmdResourceFolderHelp">Declarar un directorio personalado donde se almacenen los recursos del TacView</String>
+	<String ID="CmdReadOnlyHelp">Deshabilitar addons y exportar capacidades</String>
 
 	<String ID="Selection">Selección</String>
 	<String ID="TimeControl">Control de tiempo</String>
@@ -718,10 +718,10 @@
 	<String ID="SaveButton">&amp;Grabar</String>
 	<String ID="DontSaveButton">&amp;No grabar</String>
 	<String ID="IL2SturmovikIsRunningText">Para asegurar el juego limpio y evitar trampas, por favor cierre IL-2 Sturmovik antes de usar Tacview.</String>
-	<String ID="RemoveObjectConfirmation">Are you sure you want to remove the object [{0}] from the telemetry data?</String>
+	<String ID="RemoveObjectConfirmation">¿Esta seguro que quiere borrar el objeto [{0}] de la telemetria?</String>
 	<String ID="OK">&amp;OK</String>
-	<String ID="TrimBeforeConfirmation">Are you sure you want to remove all telemetry data before {0}?</String>
-	<String ID="TrimAfterConfirmation">Are you sure you want to remove all telemetry beyond {0}?</String>
+	<String ID="TrimBeforeConfirmation">¿Esta seguro que quiere borrar toda la telemetria anterior a {0}?</String>
+	<String ID="TrimAfterConfirmation">¿Esta seguro que quiere borrar toda la telemetria posterior a {0}?</String>
 
 	<!-- Dialogs Boxes Strings -->
 	<String ID="LicenseTitle">Licencia de Acuerdo de usuario</String>
@@ -747,23 +747,23 @@
 	<String ID="Export">Export...</String>
 
 	<!-- Telemetry Export -->
-	<String ID="ExportTitle">Telemetry Export</String>
+	<String ID="ExportTitle">Exportar telemetría</String>
 	<String ID="ExportSubTitle">Exportar datos de telemetría en un archivo legible por otras herramientas. Properties are expressed in meters and degrees. The accuracy of calculated properties depends on recorded data availability and precision.</String>
-	<String ID="ExportSelectionLabel">Export the following properties for:</String>
-	<String ID="ExportMainObject">Main object only</String>
-	<String ID="ExportSelectedObjects">All selected objects</String>
-	<String ID="ExportAllObjets">All objects</String>
+	<String ID="ExportSelectionLabel">Exportar la siguiente telemetría para:</String>
+	<String ID="ExportMainObject">Solo objeto principal</String>
+	<String ID="ExportSelectedObjects">Todos los objetos seleccionados</String>
+	<String ID="ExportAllObjets">Todos los objetos</String>
 	<String ID="ExportSamplingRate">Sampling rate (Hz):</String>
-	<String ID="ExportAll">All</String>
-	<String ID="ExportNone">None</String>
-	<String ID="ExportRecordedProperties">Recorded Properties</String>
-	<String ID="ExportCalculatedProperties">Calculated Properties</String>
-	<String ID="ExportNumericProperties">Numeric Properties</String>
-	<String ID="ExportTextProperties">Text Properties</String>
+	<String ID="ExportAll">Todo</String>
+	<String ID="ExportNone">Ninguno</String>
+	<String ID="ExportRecordedProperties">Propiedades guardadas</String>
+	<String ID="ExportCalculatedProperties">Propiedades calculadas</String>
+	<String ID="ExportNumericProperties">Propiedades numericass</String>
+	<String ID="ExportTextProperties">Propiedades de texto</String>
 	<String ID="ExportGroupGeneral">General</String>
-	<String ID="ExportGroupPerformance">Performance</String>
-	<String ID="ExportGroupEnergy">Energy</String>
-	<String ID="ExportGroupFuel">Fuel</String>
+	<String ID="ExportGroupPerformance">Rendimiento</String>
+	<String ID="ExportGroupEnergy">Energía</String>
+	<String ID="ExportGroupFuel">Combustible</String>
 	<String ID="ExportGroupMisc">Miscellaneous</String>
 
 	<!-- Additional Dialogs Strings -->
