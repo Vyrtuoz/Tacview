@@ -185,14 +185,15 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Bomb.Mk82" Base="Bomb.Unguided">
+	<DefaultProperties Id="Bomb.Mk82RT" Base="Bomb.Unguided">
 		<Criteria>
 			<Name>Mk-82</Name>
-			<Name>Mark 82</Name>
+			<Name>Mk-82RT</Name>
+			<Name>Mk 82 Snake Eye</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>Mk-82</ShortName>
-			<LongName>Mark 82</LongName>
+			<ShortName>Mk-82RT</ShortName>
+			<LongName>Mk-82 Snake Eye</LongName>
 			<FullName>Mark 82</FullName>
 		</Properties>
 	</DefaultProperties>

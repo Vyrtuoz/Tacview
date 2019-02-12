@@ -321,7 +321,8 @@
 
 	<DefaultProperties Id="AntiAircraft.SAM.SA-2.LN" Base="AntiAircraft.SAM.Launcher">
 		<Criteria>
-			<Name>SA-2</Name>		<!-- BMS -->
+			<Name>SA-2</Name>			<!-- BMS -->
+			<Name>SA-2 Launcher</Name>	<!-- SuperBug -->
 		</Criteria>
 		<Properties>
 			<ShortName>SA-2</ShortName>
@@ -333,6 +334,7 @@
 	<DefaultProperties Id="AntiAircraft.SAM.SA-2.TR" Base="AntiAircraft.SAM.TrackingRadar">
 		<Criteria>
 			<Name>SNR-75</Name>
+			<Name>Fan Song</Name>		<!-- SuperBug -->
 			<Name>Fan Song E</Name>		<!-- BMS -->
 		</Criteria>
 		<Properties>

@@ -9,19 +9,19 @@
 	<DefaultProperties Id="FixedWing.GA" Base="Core.FixedWing">
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.GA.OneEngine.LowWing.Tricycle" Base="FixedWing.GA">
+	<DefaultProperties Id="FixedWing.GA.SingleEngine.LowWing.Tricycle" Base="FixedWing.GA">
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.GA.OneEngine.LowWing.Taildragger" Base="FixedWing.GA">
+	<DefaultProperties Id="FixedWing.GA.SingleEngine.LowWing.Taildragger" Base="FixedWing.GA">
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.GA.OneEngine.HighWing.Tricycle" Base="FixedWing.GA">
+	<DefaultProperties Id="FixedWing.GA.SingleEngine.HighWing.Tricycle" Base="FixedWing.GA">
 		<Properties>
 			<Shape>FixedWing.C172.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.GA.OneEngine.HighWing.Taildragger" Base="FixedWing.GA">
+	<DefaultProperties Id="FixedWing.GA.SingleEngine.HighWing.Taildragger" Base="FixedWing.GA">
 	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.GA.TwinEngine.LowWing.Tricycle" Base="FixedWing.GA">
@@ -158,7 +158,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.C152" Base="FixedWing.GA.OneEngine.HighWing.Tricycle">
+	<DefaultProperties Id="FixedWing.C152" Base="FixedWing.GA.SingleEngine.HighWing.Tricycle">
 		<Criteria>
 			<Name>C152</Name>
 			<Name>Cessna 152</Name>
@@ -171,7 +171,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.C172" Base="FixedWing.GA.OneEngine.HighWing.Tricycle">
+	<DefaultProperties Id="FixedWing.C172" Base="FixedWing.GA.SingleEngine.HighWing.Tricycle">
 		<Criteria>
 			<Name>C172</Name>
 			<Name>Cessna 172</Name>
@@ -225,7 +225,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.C190" Base="FixedWing.GA.OneEngine.HighWing.Taildragger">
+	<DefaultProperties Id="FixedWing.C190" Base="FixedWing.GA.SingleEngine.HighWing.Taildragger">
 		<Criteria>
 			<Name>C190</Name>
 			<Name>Cessna 190</Name>
@@ -252,7 +252,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.C208" Base="FixedWing.GA.OneEngine.HighWing.Tricycle">
+	<DefaultProperties Id="FixedWing.C208" Base="FixedWing.GA.SingleEngine.HighWing.Tricycle">
 		<Criteria>
 			<Name>C208</Name>
 			<Name>Cessna 208</Name>
@@ -362,7 +362,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.DA20" Base="FixedWing.GA.OneEngine.LowWing.Tricycle">
+	<DefaultProperties Id="FixedWing.DA20" Base="FixedWing.GA.SingleEngine.LowWing.Tricycle">
 		<Criteria>
 			<Name>DA20</Name>
 			<Name>DA20 Katana</Name>
@@ -389,7 +389,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.EAGL2" Base="FixedWing.GA.OneEngine.LowWing.Taildragger">
+	<DefaultProperties Id="FixedWing.EAGL2" Base="FixedWing.GA.SingleEngine.LowWing.Taildragger">
 		<Criteria>
 			<Name>EAGL</Name>
 			<Name>Christen Eagle II</Name>
@@ -403,7 +403,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.Edge 540" Base="FixedWing.GA.OneEngine.LowWing.Taildragger">
+	<DefaultProperties Id="FixedWing.Edge 540" Base="FixedWing.GA.SingleEngine.LowWing.Taildragger">
 		<Criteria>
 			<Name>Edge 540</Name>
 		</Criteria>
@@ -412,6 +412,18 @@
 			<LongName>Edge 540</LongName>
 			<FullName>Zivko Edge 540</FullName>
 			<Shape>FixedWing.Edge 540.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.EMB110" Base="FixedWing.Heavy.TwinProp">
+		<Criteria>
+			<Name>EMB 110</Name>
+			<Name>Bandeirante</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>EMB 110</ShortName>
+			<LongName>Embraer EMB 110</LongName>
+			<FullName>Embraer EMB 110 Bandeirante</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -474,7 +486,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.M-7" Base="FixedWing.GA.OneEngine.HighWing.Taildragger">
+	<DefaultProperties Id="FixedWing.M-7" Base="FixedWing.GA.SingleEngine.HighWing.Taildragger">
 		<Criteria>
 			<Name>M-7</Name>
 		</Criteria>
@@ -507,7 +519,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.M20" Base="FixedWing.GA.OneEngine.LowWing.Tricycle">
+	<DefaultProperties Id="FixedWing.M20" Base="FixedWing.GA.SingleEngine.LowWing.Tricycle">
 		<Criteria>
 			<Name>M20</Name>
 			<Name>Mooney M20</Name>
@@ -556,7 +568,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.PA-28" Base="FixedWing.GA.OneEngine.LowWing.Tricycle">
+	<DefaultProperties Id="FixedWing.PA-28" Base="FixedWing.GA.SingleEngine.LowWing.Tricycle">
 		<Criteria>
 			<Name>PA-28</Name>
 			<Name>PA-28 Cherokee</Name>
@@ -693,7 +705,20 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.RV-6" Base="FixedWing.GA.OneEngine.LowWing.Taildragger">
+	<DefaultProperties Id="FixedWing.PC-12" Base="FixedWing.GA.SingleEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>PC-12</Name>
+			<Name>Pilatus PC-12</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PC-12</ShortName>
+			<LongName>Pilatus PC-12</LongName>
+			<FullName>Pilatus PC-12</FullName>
+			<Shape>FixedWing.PC-12.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.RV-6" Base="FixedWing.GA.SingleEngine.LowWing.Taildragger">
 		<Criteria>
 			<Name>RV-6</Name>
 			<Name>Van's RV-6</Name>
@@ -741,7 +766,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.V35" Base="FixedWing.GA.OneEngine.LowWing.Tricycle">
+	<DefaultProperties Id="FixedWing.V35" Base="FixedWing.GA.SingleEngine.LowWing.Tricycle">
 		<Criteria>
 			<Name>V35</Name>
 			<Name>Bonanza V35</Name>
@@ -793,7 +818,7 @@
 
 	<!-- EU Civilian fixed-wing aircraft -->
 
-	<DefaultProperties Id="FixedWing.DR400" Base="FixedWing.GA.OneEngine.LowWing.Tricycle">
+	<DefaultProperties Id="FixedWing.DR400" Base="FixedWing.GA.SingleEngine.LowWing.Tricycle">
 		<Criteria>
 			<Name>DR400</Name>
 			<Name>Robin DR400</Name>
@@ -803,6 +828,31 @@
 			<LongName>Robin DR400</LongName>
 			<FullName>Robin DR400</FullName>
 			<Shape>FixedWing.DR400.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.EA300" Base="FixedWing.GA.SingleEngine.LowWing.Taildragger">
+		<Criteria>
+			<Name>EA300</Name>
+			<Name>Extra 300</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>EA300</ShortName>
+			<LongName>Extra 300</LongName>
+			<FullName>Extra Flugzeugbau EA300</FullName>
+			<Shape>FixedWing.EA300.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.EA300S" Base="FixedWing.EA300">
+		<Criteria>
+			<Name>EA300S</Name>
+			<Name>Extra 300S</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>EA300S</ShortName>
+			<LongName>Extra 300S</LongName>
+			<FullName>Extra Flugzeugbau EA300S</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -836,7 +886,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.Yak-52" Base="FixedWing.GA.OneEngine.LowWing.Tricycle">
+	<DefaultProperties Id="FixedWing.Yak-52" Base="FixedWing.GA.SingleEngine.LowWing.Tricycle">
 		<Criteria>
 			<Name>Yak-52</Name>
 			<Name>Iak-52</Name>

@@ -33,6 +33,18 @@
 	<DefaultProperties Id="FixedWing.Fighter.TwinProp" Base="FixedWing.Fighter.Prop">
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.Fighter.Biplane" Base="Core.FixedWing">
+		<Properties>
+			<Shape>FixedWing.CAML.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Fighter.Triplane" Base="FixedWing.Fighter.Biplane">
+		<Properties>
+			<Shape>FixedWing.Dr.I.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.Fighter.Jet" Base="Core.FixedWing">
 	</DefaultProperties>
 
@@ -424,7 +436,21 @@
 
 	<!-- North American Drones -->
 
-	<DefaultProperties Id="FixedWing.MQ-9" Base="FixedWing.Military.Drone">
+	<DefaultProperties Id="FixedWing.MQ-1" Base="FixedWing.Military.Drone">
+		<Criteria>
+			<Name>RQ-1A</Name>		<!-- Preproduction version referenced by DCS World -->
+			<Name>MQ-1</Name>
+			<Name>MQ-1 Predator</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MQ-1</ShortName>
+			<LongName>MQ-1 Predator</LongName>
+			<FullName>General Atomics MQ-1 Predator</FullName>
+			<Shape>FixedWing.MQ-1.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.MQ-9" Base="FixedWing.MQ-1">
 		<Criteria>
 			<Name>MQ-9</Name>
 			<Name>MQ-9 Reaper</Name>
@@ -1058,7 +1084,25 @@
 			<Name>F/A-18E</Name>
 			<Name>F/A-18E Hornet</Name>
 			<Name>Boeing F/A-18E</Name>
-			<Name>Flight Test Aircraft E1</Name>	<!-- FSX Superbug -->
+			<!-- FSX Superbug Aliases -->
+			<Name>Flight Test Aircraft E</Name>
+			<Name>US NAVY Blue Angels</Name>
+			<Name>VFA-14</Name>
+			<Name>VFA-22</Name>
+			<Name>VFA-27</Name>
+			<Name>VFA-31</Name>
+			<Name>VFA-81</Name>
+			<Name>VFA-105</Name>
+			<Name>VFA-106</Name>
+			<Name>VFA-115</Name>
+			<Name>VFA-122</Name>
+			<Name>VFA-136</Name>
+			<Name>VFA-137</Name>
+			<Name>VFA-143</Name>
+			<Name>VFA-147</Name>
+			<Name>VX-9</Name>
+			<Name>VX-23</Name>
+			<Name>VX-31</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>F/A-18E</ShortName>
@@ -1225,6 +1269,75 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.F-100" Base="FixedWing.F-86">
+		<Criteria>
+			<Name>F-100</Name>
+			<Name>F-100 Super Sabre</Name>
+			<Name>North American F-100</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F-100</ShortName>
+			<LongName>F-100 Super Sabre</LongName>
+			<FullName>North American F-100 Super Sabre</FullName>
+			<Shape>FixedWing.F-100.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.F-100D" Base="FixedWing.F-100">
+		<Criteria>
+			<Name>F-100D</Name>
+			<Name>F-100D Super Sabre</Name>
+			<Name>North American F-100D</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F-100D</ShortName>
+			<LongName>F-100D Super Sabre</LongName>
+			<FullName>North American F-100D Super Sabre</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.F-104" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>F-104</Name>
+			<Name>F-104 Starfighter</Name>
+			<Name>Lockheed F-104</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F-104</ShortName>
+			<LongName>F-104 Starfighter</LongName>
+			<FullName>Lockheed F-104 Starfighter</FullName>
+			<Shape>FixedWing.F-104.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.F-104G" Base="FixedWing.F-104">
+		<Criteria>
+			<Name>F104-G</Name>
+			<Name>F-104G</Name>
+			<Name>F-104G Starfighter</Name>
+			<Name>Lockheed F-104G</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F-104G</ShortName>
+			<LongName>F-104G Starfighter</LongName>
+			<FullName>Lockheed F-104G Starfighter</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.F-104S" Base="FixedWing.F-104">
+		<Criteria>
+			<Name>F104-S</Name>
+			<Name>F-104S</Name>
+			<Name>F-104S Starfighter</Name>
+			<Name>Aeritalia F-104S</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F-104S</ShortName>
+			<LongName>F-104S Starfighter</LongName>
+			<FullName>Aeritalia F-104S Starfighter</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.F-111" Base="FixedWing.Bomber.Jet">
 		<Criteria>
 			<Name>F-111</Name>
@@ -1263,6 +1376,20 @@
 			<ShortName>F-117A</ShortName>
 			<LongName>F-117A Nighthawk</LongName>
 			<FullName>Lockheed F-117A Nighthawk</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.P-39" Base="FixedWing.Fighter.Prop">
+		<Criteria>
+			<Name>P-39</Name>
+			<Name>P-39 Airacobra</Name>
+			<Name>Bell P-39</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>P-39</ShortName>
+			<LongName>P-39 Airacobra</LongName>
+			<FullName>Bell P-39 Airacobra</FullName>
+			<Shape>FixedWing.P-39.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -1402,6 +1529,32 @@
 	</DefaultProperties>
 
 	<!-- EU Military Fixed-wing aircraft -->
+
+	<DefaultProperties Id="FixedWing.Dr.I" Base="FixedWing.Fighter.Triplane">
+		<Criteria>
+			<Name>Dr.I</Name>
+			<Name>Fokker Dr.I</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Dr.I</ShortName>
+			<LongName>Fokker Dr.I</LongName>
+			<FullName>Fokker Dr.I</FullName>
+			<Shape>FixedWing.Dr.I.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.CAML" Base="FixedWing.Fighter.Biplane">
+		<Criteria>
+			<Name>Camel</Name>
+			<Name>Sopwith Camel</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Camel</ShortName>
+			<LongName>Sopwith Camel</LongName>
+			<FullName>Sopwith Camel</FullName>
+			<Shape>FixedWing.CAML.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.AlphaJet" Base="FixedWing.Trainer.Jet">
 		<Criteria>
@@ -1892,6 +2045,7 @@
 	<DefaultProperties Id="FixedWing.Typhoon" Base="FixedWing.Fighter.Jet">
 		<Criteria>
 			<Name>Typhoon</Name>
+			<Name>Eurofighter</Name>
 			<Name>Eurofighter Typhoon</Name>
 			<Name>EF2000</Name>
 		</Criteria>
@@ -2783,6 +2937,43 @@
 			<ShortName>Yak-1B</ShortName>
 			<LongName>Yak-1B (Series 127)</LongName>
 			<FullName>Yakovlev Yak-1B (Series 127)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Yak-7" Base="FixedWing.Yak-1">
+		<Criteria>
+			<Name>Yak-7</Name>
+			<Name>Yakovlev Yak-7</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Yak-7</ShortName>
+			<LongName>Yak-7</LongName>
+			<FullName>Yakovlev Yak-7</FullName>
+			<Shape>FixedWing.Yak-7.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Yak-7A" Base="FixedWing.Yak-7">
+		<Criteria>
+			<Name>Yak-7A</Name>
+			<Name>Yakovlev Yak-7A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Yak-7A</ShortName>
+			<LongName>Yak-7A</LongName>
+			<FullName>Yakovlev Yak-7A</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Yak-7B" Base="FixedWing.Yak-7A">
+		<Criteria>
+			<Name>Yak-7B</Name>
+			<Name>Yakovlev Yak-7B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Yak-7B</ShortName>
+			<LongName>Yak-7B</LongName>
+			<FullName>Yakovlev Yak-7B</FullName>
 		</Properties>
 	</DefaultProperties>
 

@@ -104,6 +104,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Core.Waypoint" Base="Core.Default">
+		<Criteria>
+			<Type>Waypoint</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Navaid+Static+Waypoint</AdditionalType>
+			<Shape>Core.Waypoint.obj</Shape>
+			<Color>Violet</Color>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- Basic Types -->
 
 	<DefaultProperties Id="Core.FixedWing" Base="Core.Air">

@@ -54,6 +54,52 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.AG.AGM-88" Base="Missile.AG">
+		<Criteria>
+			<Name>AGM-88</Name>
+			<Name>AGM-88 HARM</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGM-88</ShortName>
+			<LongName>AGM-88 HARM</LongName>
+			<FullName>AGM-88 HARM</FullName>
+			<Shape>Missile.AGM-88.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.AGM-88A" Base="Missile.AG.AGM-88">
+		<Criteria>
+			<Name>AGM-88A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGM-88A</ShortName>
+			<LongName>AGM-88A HARM</LongName>
+			<FullName>AGM-88A HARM</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.AGM-88B" Base="Missile.AG.AGM-88A">
+		<Criteria>
+			<Name>AGM-88B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGM-88B</ShortName>
+			<LongName>AGM-88B HARM</LongName>
+			<FullName>AGM-88B HARM</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.AGM-88C" Base="Missile.AG.AGM-88B">
+		<Criteria>
+			<Name>AGM-88C</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGM-88C</ShortName>
+			<LongName>AGM-88C HARM</LongName>
+			<FullName>AGM-88C HARM</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- Eastern Air to Ground Missiles -->
 
 	<DefaultProperties Id="Missile.AG.AT-6" Base="Missile.AG.Radio">
