@@ -44,6 +44,8 @@
 	<String ID="AnalysisPropertiesHelp">Mostrare o nascondere le proprietà di registrazione di volo</String>
 	<String ID="AnalysisEventLogText">&amp;Registro di Volo</String>
 	<String ID="AnalysisEventLogHelp">Mostrare o nascondere la registrazione di volo del regidtro di volo</String>
+	<String ID="AnalysisShotLogText">Shot Log</String>
+	<String ID="AnalysisShotLogHelp">Show or hide combat shot log</String>
 	<String ID="AnalysisDisplayTelemetry0Text">Telemetria &amp;1</String>
 	<String ID="AnalysisDisplayTelemetry0Help">Mostra o nascondi la finestra della telemetria #1</String>
 	<String ID="AnalysisDisplayTelemetry1Text">Telemetria &amp;2</String>
@@ -96,6 +98,10 @@
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Display the terrain with a high contrast color scheme</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Custom textures</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Display all the textures declared in CustomTextureList.xml</String>
+	<String ID="OptionsDisplayActiveAircraftListText">Display Active Aircraft List</String>
+	<String ID="OptionsDisplayActiveAircraftListHelp">Display an interactive list of the active aircraft in the 3D view</String>
+	<String ID="OptionsAlwaysDisplayBullseyeText">Always display Bullseye</String>
+	<String ID="OptionsAlwaysDisplayBullseyeHelp">Always display Bullseye in the 3D view</String>
 
 	<String ID="OptionsTerrainText">Terreno</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Auto)</String>
@@ -164,11 +170,18 @@
 	<String ID="OptionsRemoveObjectHelp">Remove selected object from the world</String>
 	<String ID="TimeShiftObjectText">Time Shift...</String>
 	<String ID="TimeShiftObjectHelp">Correct selected object telemetry time</String>
+	<String ID="EditObjectText">Edit Object...</String>
+	<String ID="EditObjectHelp">Edit object properties</String>
 
 	<String ID="OptionsTrimBeforeText">Trim Before...</String>
 	<String ID="OptionsTrimBeforeHelp">Delete all telemetry data before the current point in time</String>
 	<String ID="OptionsTrimAfterText">Trim After...</String>
 	<String ID="OptionsTrimAfterHelp">Delete all telemetry beyond the current point in time</String>
+
+	<String ID="PauseOnEventCmdText">Pause on Event</String>
+	<String ID="PauseOnEventCmdHelp">Pause the playback on each event in the shot log</String>
+	<String ID="PauseOnBreakPointCmdText">Pause on Breakpoint</String>
+	<String ID="PauseOnBreakPointCmdHelp">Pause the playback on breakpoint events</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Associa Tacview con i file ACMI</String>
 	<String ID="OptionsAssociateFileTypesHelp">Consente di aprire le registrazioni di volo con Tacview quando si fa doppio clic su di esse in Windows</String>
@@ -604,6 +617,7 @@
 	<String ID="CommentsProperty">Commenti</String>
 
 	<String ID="AddOnTitleEventsLog">Registro di Volo</String>
+	<String ID="AddOnTitleShotLog">Shot Log</String>
 	<String ID="AddOnTitleControlsList">Lista dei Controlli</String>
 	<String ID="AddOnTitleRemoteControl0">Remote Control 1</String>
 	<String ID="AddOnTitleRemoteControl1">Remote Control 2</String>
@@ -673,7 +687,7 @@
 	<String ID="ControlsCtrlLeftClick">[Ctrl] + [Clic Sinistro]</String>
 	<String ID="ControlsCtrlRightClick">[Ctrl] + [Clic Destro]</String>
 	<String ID="ControlsDoubleClick">[Doppio Clic]</String>
-	<String ID="ControlsLeftRight">[Sinistra] / [Destra]</String>
+	<String ID="ControlsLeftRight">[←] / [→]</String>
 	<String ID="ControlsMouseLeftDrag">[Mouse Sinistro] + {Trascinare}</String>
 	<String ID="ControlsMouseRightDrag">[Mouse Destro] + {Trashinare}</String>
 	<String ID="ControlsMouseWheel">[Rotellina del Mouse]</String>
@@ -685,6 +699,9 @@
 	<String ID="ControlsAltReturn">[Alt] + [Return]</String>
 	<String ID="ControlsCtrlC">[Ctrl] + [C]</String>
 	<String ID="ControlsCtrlV">[Ctrl] + [V]</String>
+	<String ID="ControlsPlaybackFasterShortcut">[↑]</String>
+	<String ID="ControlsPlaybackSlowerShortcut">[↓]</String>
+	<String ID="ControlsSwitchPlaybackSpeedShortcut">[NUM *]</String>
 
 	<String ID="ControlsBackwardForward">Indietro/Avanti nel Tempo</String>
 	<String ID="ControlsSelectEvent">Vai all'evento e seleziona gli oggetti associati</String>
@@ -698,6 +715,9 @@
 	<String ID="ControlsSelectSecondaryObject">Selezionare oggetto secondario dalla vista 3D</String>
 	<String ID="ControlsZoomInOut">Zoom In/Out</String>
 	<String ID="ControlsToggleFullScreen">Alterna Modalità a Schermo Intero</String>
+	<String ID="ControlsPlaybackSlowerHelp">Playback slower</String>
+	<String ID="ControlsPlaybackFasterHelp">Playback faster</String>
+	<String ID="ControlsSwitchPlaybackSpeedHelp">Switch playback speed</String>
 
 	<!-- Additional Tooltips -->
 	<String ID="UpdateAvailableTooltip">Una nuova versione di Tacview è disponibile!</String>
@@ -841,7 +861,7 @@
 	<String ID="InvalidShortcutText">Non riesco a trovare nella missione corrente gli oggetti e il tempo a cui fa riferimento questa scorciatoia. Assicurarsi di aver aperto il file giusto e copia/incolla tutta la scorciatoia.</String>
 
 	<String ID="AboutTitle">Riguardo Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2018, Raia Software. Tutti i diritti riservati.&#10;Questo programma è protetto da copyright e dai trattati internazionali.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2019, Raia Software. Tutti i diritti riservati.&#10;Questo programma è protetto da copyright e dai trattati internazionali.</String>
 
 	<String ID="LoadingInProgressShort">Caricamento...</String>
 	<String ID="LoadingInProgress">Caricamento '{0}'</String>
@@ -923,10 +943,11 @@
 	<String ID="EventHasBeenDestroyedBy">{0} è stato distrutto da {1}</String>
 
 	<String ID="StatusPlay">AVVIA</String>
-	<String ID="StatusPlayFast">AVVIA &#2;×{0:g}</String>
+	<String ID="StatusPlaySpeed">AVVIA &#2;×{0:g}</String>
 	<String ID="StatusRewind">RIAVVOLGI</String>
-	<String ID="StatusRewindFast">RIAVVOLGI &#2;×{0:g}</String>
+	<String ID="StatusRewindSpeed">RIAVVOLGI &#2;×{0:g}</String>
 	<String ID="StatusPause">PAUSA</String>
+	<String ID="StatusPauseSpeed">PAUSA &#2;×{0:g}</String>
 
 	<!-- Error Messages -->
 	<String ID="ErrorUnknown">Errore sconosciuto 0x{0,08:X}</String>
@@ -964,7 +985,7 @@
 	<String ID="TTViewSatellite">Visuale Satellitare (F7)</String>
 	<String ID="TTViewFree">Camera Libera (F8)</String>
 
-	<String ID="TTDisplayCockpitInstruments">Display cockpit instruments</String>
+	<String ID="TTDisplayCockpitInstruments">Display Cockpit Instruments</String>
 	<String ID="TTDrawHeight">Mostra la Quota degli Oggetti</String>
 	<String ID="TTDrawDirection">Mostra la Direzione degli Oggetti Selezionati</String>
 	<String ID="TTDrawIDs">Mostra gli ID degli Oggetti</String>

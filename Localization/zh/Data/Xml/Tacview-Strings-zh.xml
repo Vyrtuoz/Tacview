@@ -44,6 +44,8 @@
 	<String ID="AnalysisPropertiesHelp">显示或隐藏飞行记录属性</String>
 	<String ID="AnalysisEventLogText">&amp;飞行记日志</String>
 	<String ID="AnalysisEventLogHelp">显示或隐藏飞行记录飞行日志</String>
+	<String ID="AnalysisShotLogText">Shot Log</String>
+	<String ID="AnalysisShotLogHelp">Show or hide combat shot log</String>
 	<String ID="AnalysisDisplayTelemetry0Text">遥测&amp;1</String>
 	<String ID="AnalysisDisplayTelemetry0Help">显示或隐藏遥测窗口#1</String>
 	<String ID="AnalysisDisplayTelemetry1Text">遥测&amp;2</String>
@@ -96,6 +98,10 @@
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">使用高对比度配色方案显示地形</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">自定义纹理</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">显示CustomTextureList.xml中声明的所有纹理</String>
+	<String ID="OptionsDisplayActiveAircraftListText">Display Active Aircraft List</String>
+	<String ID="OptionsDisplayActiveAircraftListHelp">Display an interactive list of the active aircraft in the 3D view</String>
+	<String ID="OptionsAlwaysDisplayBullseyeText">Always display Bullseye</String>
+	<String ID="OptionsAlwaysDisplayBullseyeHelp">Always display Bullseye in the 3D view</String>
 
 	<String ID="OptionsTerrainText">地形</String>
 	<String ID="OptionsTerrainAutoText">（&amp;自动）</String>
@@ -164,11 +170,18 @@
 	<String ID="OptionsRemoveObjectHelp">从世界里删除已选物体</String>
 	<String ID="TimeShiftObjectText">时间移动...</String>
 	<String ID="TimeShiftObjectHelp">修正已选物体的遥测时间</String>
+	<String ID="EditObjectText">Edit Object...</String>
+	<String ID="EditObjectHelp">Edit object properties</String>
 
 	<String ID="OptionsTrimBeforeText">剪去前段...</String>
 	<String ID="OptionsTrimBeforeHelp">删除当前时间点之前的所有遥测数据</String>
 	<String ID="OptionsTrimAfterText">剪去后段...</String>
 	<String ID="OptionsTrimAfterHelp">删除当前时间点之后的所有遥测数据</String>
+
+	<String ID="PauseOnEventCmdText">Pause on Event</String>
+	<String ID="PauseOnEventCmdHelp">Pause the playback on each event in the shot log</String>
+	<String ID="PauseOnBreakPointCmdText">Pause on Breakpoint</String>
+	<String ID="PauseOnBreakPointCmdHelp">Pause the playback on breakpoint events</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;关联acmi文件至Tacview</String>
 	<String ID="OptionsAssociateFileTypesHelp">在Windows里双击acmi飞行记录文件时用Tacview打开。</String>
@@ -621,6 +634,7 @@
 	<String ID="CommentsProperty">注释</String>
 
 	<String ID="AddOnTitleEventsLog">飞行日志</String>
+	<String ID="AddOnTitleShotLog">Shot Log</String>
 	<String ID="AddOnTitleControlsList">控制列表</String>
 	<String ID="AddOnTitleRemoteControl0">遥控1</String>
 	<String ID="AddOnTitleRemoteControl1">遥控2</String>
@@ -690,7 +704,7 @@
 	<String ID="ControlsCtrlLeftClick">[Ctrl] + [鼠标左键]</String>
 	<String ID="ControlsCtrlRightClick">[Ctrl] + [鼠标右键]</String>
 	<String ID="ControlsDoubleClick">[双击鼠标左键]</String>
-	<String ID="ControlsLeftRight">[左方向键] / [右方向键]</String>
+	<String ID="ControlsLeftRight">[←] / [→]</String>
 	<String ID="ControlsMouseLeftDrag">[鼠标左键] + {拖拽}</String>
 	<String ID="ControlsMouseRightDrag">[鼠标右键] + {拖拽}</String>
 	<String ID="ControlsMouseWheel">[鼠标滚轮滚动]</String>
@@ -702,6 +716,9 @@
 	<String ID="ControlsAltReturn">[Alt] + [Return]</String>
 	<String ID="ControlsCtrlC">[Ctrl] + [C]</String>
 	<String ID="ControlsCtrlV">[Ctrl] + [V]</String>
+	<String ID="ControlsPlaybackFasterShortcut">[↑]</String>
+	<String ID="ControlsPlaybackSlowerShortcut">[↓]</String>
+	<String ID="ControlsSwitchPlaybackSpeedShortcut">[NUM *]</String>
 
 	<String ID="ControlsBackwardForward">时间倒退/前进</String>
 	<String ID="ControlsSelectEvent">前往事件并选择关联物体</String>
@@ -715,6 +732,9 @@
 	<String ID="ControlsSelectSecondaryObject">在3D视野里选择次物体</String>
 	<String ID="ControlsZoomInOut">视场缩放</String>
 	<String ID="ControlsToggleFullScreen">开关全屏模式</String>
+	<String ID="ControlsPlaybackSlowerHelp">Playback slower</String>
+	<String ID="ControlsPlaybackFasterHelp">Playback faster</String>
+	<String ID="ControlsSwitchPlaybackSpeedHelp">Switch playback speed</String>
 
 	<!-- Additional Tooltips -->
 	<String ID="UpdateAvailableTooltip">有新版本Tacview可用！</String>
@@ -909,7 +929,7 @@
 	<String ID="InvalidShortcutText">在当前任务里无法通过快捷方式找到物体和时间参考。请确认打开了正确的文件且复制/粘贴了整个快捷方式。</String>
 
 	<String ID="AboutTitle">关于Tacview</String>
-	<String ID="AboutCopyright">版权© 2006-2018, Raia Software. 保留所有权利。&#10;此计算机程序受到版权法和国际协约保护。</String>
+	<String ID="AboutCopyright">版权© 2006-2019, Raia Software. 保留所有权利。&#10;此计算机程序受到版权法和国际协约保护。</String>
 
 	<String ID="LoadingInProgressShort">载入...</String>
 	<String ID="LoadingInProgress">载入'{0}'</String>
@@ -999,10 +1019,11 @@
 	<String ID="StatusPause">暂停</String>
 -->
 	<String ID="StatusPlay">PLAY</String>
-	<String ID="StatusPlayFast">PLAY &#2;×{0:g}</String>
+	<String ID="StatusPlaySpeed">PLAY &#2;×{0:g}</String>
 	<String ID="StatusRewind">REWIND</String>
-	<String ID="StatusRewindFast">REWIND &#2;×{0:g}</String>
+	<String ID="StatusRewindSpeed">REWIND &#2;×{0:g}</String>
 	<String ID="StatusPause">PAUSE</String>
+	<String ID="StatusPauseSpeed">PAUSE &#2;×{0:g}</String>
 
 	<!-- Error Messages -->
 	<String ID="ErrorUnknown">未知错误发生 0x{0,08:X}</String>

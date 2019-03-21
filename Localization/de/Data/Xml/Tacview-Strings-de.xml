@@ -44,6 +44,8 @@
 	<String ID="AnalysisPropertiesHelp">Anzeigen oder verbergen der Flugaufzeichnungseinstellungen</String>
 	<String ID="AnalysisEventLogText">&amp;Flight Log</String>
 	<String ID="AnalysisEventLogHelp">Anzeigen oder verbergen des Flugaufzeichnungslog</String>
+	<String ID="AnalysisShotLogText">Shot Log</String>
+	<String ID="AnalysisShotLogHelp">Show or hide combat shot log</String>
 	<String ID="AnalysisDisplayTelemetry0Text">Telemetrie &amp;1</String>
 	<String ID="AnalysisDisplayTelemetry0Help">Anzeigen oder verbergen des Telemetriefensters #1</String>
 	<String ID="AnalysisDisplayTelemetry1Text">Telemetrie &amp;2</String>
@@ -96,6 +98,10 @@
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Zeige das Gelände mit einem hohen Kontrastfarbschema an</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Custom textures</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Display all the textures declared in CustomTextureList.xml</String>
+	<String ID="OptionsDisplayActiveAircraftListText">Display Active Aircraft List</String>
+	<String ID="OptionsDisplayActiveAircraftListHelp">Display an interactive list of the active aircraft in the 3D view</String>
+	<String ID="OptionsAlwaysDisplayBullseyeText">Always display Bullseye</String>
+	<String ID="OptionsAlwaysDisplayBullseyeHelp">Always display Bullseye in the 3D view</String>
 
 	<String ID="OptionsTerrainText">Gelände</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Auto)</String>
@@ -164,11 +170,18 @@
 	<String ID="OptionsRemoveObjectHelp">Entferne gewähltes Objekt von der Welt</String>
 	<String ID="TimeShiftObjectText">Time Shift...</String>
 	<String ID="TimeShiftObjectHelp">Correct selected object telemetry time</String>
+	<String ID="EditObjectText">Edit Object...</String>
+	<String ID="EditObjectHelp">Edit object properties</String>
 
 	<String ID="OptionsTrimBeforeText">Trim Before...</String>
 	<String ID="OptionsTrimBeforeHelp">Delete all telemetry data before the current point in time</String>
 	<String ID="OptionsTrimAfterText">Trim After...</String>
 	<String ID="OptionsTrimAfterHelp">Delete all telemetry beyond the current point in time</String>
+
+	<String ID="PauseOnEventCmdText">Pause on Event</String>
+	<String ID="PauseOnEventCmdHelp">Pause the playback on each event in the shot log</String>
+	<String ID="PauseOnBreakPointCmdText">Pause on Breakpoint</String>
+	<String ID="PauseOnBreakPointCmdHelp">Pause the playback on breakpoint events</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Verbinde Tacview mit .acmi Dateien</String>
 	<String ID="OptionsAssociateFileTypesHelp">Ermöglicht das öffenen von Flugaufzeichnungen in Tacview durch Doppelklick in Windows</String>
@@ -604,6 +617,7 @@
 	<String ID="CommentsProperty">Kommentare</String>
 
 	<String ID="AddOnTitleEventsLog">Fluglog</String>
+	<String ID="AddOnTitleShotLog">Shot Log</String>
 	<String ID="AddOnTitleControlsList">Kontrollen Liste</String>
 	<String ID="AddOnTitleRemoteControl0">Fernsteuerung 1</String>
 	<String ID="AddOnTitleRemoteControl1">Fernsteuerung 2</String>
@@ -673,7 +687,7 @@
 	<String ID="ControlsCtrlLeftClick">[Ctrl] + [Links Klick]</String>
 	<String ID="ControlsCtrlRightClick">[Ctrl] + [Rechts Klick]</String>
 	<String ID="ControlsDoubleClick">[Doppel Klick]</String>
-	<String ID="ControlsLeftRight">[Links] / [Rechts]</String>
+	<String ID="ControlsLeftRight">[←] / [→]</String>
 	<String ID="ControlsMouseLeftDrag">[Maus Links] + {Drag}</String>
 	<String ID="ControlsMouseRightDrag">[Maus Rechts] + {Drag}</String>
 	<String ID="ControlsMouseWheel">[Mausrad]</String>
@@ -685,6 +699,9 @@
 	<String ID="ControlsAltReturn">[Alt] + [Return]</String>
 	<String ID="ControlsCtrlC">[Ctrl] + [C]</String>
 	<String ID="ControlsCtrlV">[Ctrl] + [V]</String>
+	<String ID="ControlsPlaybackFasterShortcut">[↑]</String>
+	<String ID="ControlsPlaybackSlowerShortcut">[↓]</String>
+	<String ID="ControlsSwitchPlaybackSpeedShortcut">[NUM *]</String>
 
 	<String ID="ControlsBackwardForward">Zeit Rückwärts/Vorwärts</String>
 	<String ID="ControlsSelectEvent">Gehe zu Ereignis und wähle die zugehörigen Objekte aus</String>
@@ -698,6 +715,9 @@
 	<String ID="ControlsSelectSecondaryObject">Wähle Nebenobjekt aus der 3D-Ansicht</String>
 	<String ID="ControlsZoomInOut">Rein/Raus Zoomen</String>
 	<String ID="ControlsToggleFullScreen">Wechsle zum Vollbildschirmmodus</String>
+	<String ID="ControlsPlaybackSlowerHelp">Playback slower</String>
+	<String ID="ControlsPlaybackFasterHelp">Playback faster</String>
+	<String ID="ControlsSwitchPlaybackSpeedHelp">Switch playback speed</String>
 
 	<!-- Additional Tooltips -->
 	<String ID="UpdateAvailableTooltip">Eine neue Version von Tacview ist verfügbar!</String>
@@ -842,7 +862,7 @@
 	<String ID="InvalidShortcutText">Kann in der aktuellen Mission die Objekte und Zeitreferenz nicht finden, auf die sich dieses Tastenkürzel bezieht. Vergewissern Sie sich, dass Sie die richtige Datei geöffnet und das komplette Tastaturkürzel kopiert und eingefügt haben.</String>
 
 	<String ID="AboutTitle">Über Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2018, Raia Software. All Rights Reserved.&#10;Diese Software ist durch Urheberrechte und internationale Verträge geschützt.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2019, Raia Software. All Rights Reserved.&#10;Diese Software ist durch Urheberrechte und internationale Verträge geschützt.</String>
 
 	<String ID="LoadingInProgressShort">Lade...</String>
 	<String ID="LoadingInProgress">Lade '{0}'</String>
@@ -924,10 +944,11 @@
 	<String ID="EventHasBeenDestroyedBy">{0} wurde von {1} zerstört</String>
 
 	<String ID="StatusPlay">ABSPIELEN</String>
-	<String ID="StatusPlayFast">ABSPIELEN &#2;×{0:g}</String>
+	<String ID="StatusPlaySpeed">ABSPIELEN &#2;×{0:g}</String>
 	<String ID="StatusRewind">ZURÜCKSPULEN</String>
-	<String ID="StatusRewindFast">VORSPULEN &#2;×{0:g}</String>
+	<String ID="StatusRewindSpeed">VORSPULEN &#2;×{0:g}</String>
 	<String ID="StatusPause">PAUSE</String>
+	<String ID="StatusPauseSpeed">PAUSE &#2;×{0:g}</String>
 
 	<!-- Error Messages -->
 	<String ID="ErrorUnknown">Unbekannter Fehler 0x{0,08:X}</String>

@@ -44,6 +44,8 @@
 	<String ID="AnalysisPropertiesHelp">Показать / скрыть свойства записи полёта</String>
 	<String ID="AnalysisEventLogText">&amp;Журнал полёта</String>
 	<String ID="AnalysisEventLogHelp">Показать / скрыть журнал файла записи полёта</String>
+	<String ID="AnalysisShotLogText">Shot Log</String>
+	<String ID="AnalysisShotLogHelp">Show or hide combat shot log</String>
 	<String ID="AnalysisDisplayTelemetry0Text">Телеметрия &amp;1</String>
 	<String ID="AnalysisDisplayTelemetry0Help">Показать / скрыть телеметрическое окно #1</String>
 	<String ID="AnalysisDisplayTelemetry1Text">Телеметрия &amp;2</String>
@@ -96,6 +98,10 @@
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Отображать ландшафт в высококонтрастной цветовой схеме</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Custom textures</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Display all the textures declared in CustomTextureList.xml</String>
+	<String ID="OptionsDisplayActiveAircraftListText">Display Active Aircraft List</String>
+	<String ID="OptionsDisplayActiveAircraftListHelp">Display an interactive list of the active aircraft in the 3D view</String>
+	<String ID="OptionsAlwaysDisplayBullseyeText">Always display Bullseye</String>
+	<String ID="OptionsAlwaysDisplayBullseyeHelp">Always display Bullseye in the 3D view</String>
 
 	<String ID="OptionsTerrainText">Ландшафт</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Авто)</String>
@@ -164,11 +170,18 @@
 	<String ID="OptionsRemoveObjectHelp">Удалить выбранный объект с карты</String>
 	<String ID="TimeShiftObjectText">Time Shift...</String>
 	<String ID="TimeShiftObjectHelp">Correct selected object telemetry time</String>
+	<String ID="EditObjectText">Edit Object...</String>
+	<String ID="EditObjectHelp">Edit object properties</String>
 
 	<String ID="OptionsTrimBeforeText">Trim Before...</String>
 	<String ID="OptionsTrimBeforeHelp">Delete all telemetry data before the current point in time</String>
 	<String ID="OptionsTrimAfterText">Trim After...</String>
 	<String ID="OptionsTrimAfterHelp">Delete all telemetry beyond the current point in time</String>
+
+	<String ID="PauseOnEventCmdText">Pause on Event</String>
+	<String ID="PauseOnEventCmdHelp">Pause the playback on each event in the shot log</String>
+	<String ID="PauseOnBreakPointCmdText">Pause on Breakpoint</String>
+	<String ID="PauseOnBreakPointCmdHelp">Pause the playback on breakpoint events</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Ассоциировать .acmi файлы с Tacview</String>
 	<String ID="OptionsAssociateFileTypesHelp">Позволяет открывать .acmi файлы в программе Tacview по двойному щелчку мыши (Windows OS)</String>
@@ -604,6 +617,7 @@
 	<String ID="CommentsProperty">Комментарии</String>
 
 	<String ID="AddOnTitleEventsLog">Журнал полёта</String>
+	<String ID="AddOnTitleShotLog">Shot Log</String>
 	<String ID="AddOnTitleControlsList">Управление</String>
 	<String ID="AddOnTitleRemoteControl0">Удаленное управление 1</String>
 	<String ID="AddOnTitleRemoteControl1">Удаленное управление 2</String>
@@ -673,7 +687,7 @@
 	<String ID="ControlsCtrlLeftClick">[Ctrl] + [ЛКМ]</String>
 	<String ID="ControlsCtrlRightClick">[Ctrl] + [ПКМ]</String>
 	<String ID="ControlsDoubleClick">[Двойной клик]</String>
-	<String ID="ControlsLeftRight">[Влево] / [Вправо]</String>
+	<String ID="ControlsLeftRight">[←] / [→]</String>
 	<String ID="ControlsMouseLeftDrag">[ЛКМ] + {потянуть}</String>
 	<String ID="ControlsMouseRightDrag">[ПКМ] + {потянуть}</String>
 	<String ID="ControlsMouseWheel">[Колесо мыши]</String>
@@ -685,6 +699,9 @@
 	<String ID="ControlsAltReturn">[Alt] + [Return]</String>
 	<String ID="ControlsCtrlC">[Ctrl] + [C]</String>
 	<String ID="ControlsCtrlV">[Ctrl] + [V]</String>
+	<String ID="ControlsPlaybackFasterShortcut">[↑]</String>
+	<String ID="ControlsPlaybackSlowerShortcut">[↓]</String>
+	<String ID="ControlsSwitchPlaybackSpeedShortcut">[NUM *]</String>
 
 	<String ID="ControlsBackwardForward">Промотать назад / вперёд</String>
 	<String ID="ControlsSelectEvent">Перейти к событию и выделить ассоциированные объекты</String>
@@ -698,6 +715,9 @@
 	<String ID="ControlsSelectSecondaryObject">Выбрать вторичный объект из 3D вида</String>
 	<String ID="ControlsZoomInOut">Приблизиться / Отдалиться</String>
 	<String ID="ControlsToggleFullScreen">Переключиться в полноэкранный режим</String>
+	<String ID="ControlsPlaybackSlowerHelp">Playback slower</String>
+	<String ID="ControlsPlaybackFasterHelp">Playback faster</String>
+	<String ID="ControlsSwitchPlaybackSpeedHelp">Switch playback speed</String>
 
 	<!-- Additional Tooltips -->
 	<String ID="UpdateAvailableTooltip">Доступна новая версия Tacview!</String>
@@ -841,7 +861,7 @@
 	<String ID="InvalidShortcutText">Невозможно найти объекты и время, на которые ссылается данный ярлык. Убедитесь, что открыт требуемый файл и целиком скопирован / метка вставлена.</String>
 
 	<String ID="AboutTitle">О программе Tacview</String>
-	<String ID="AboutCopyright">© 2006-2018, Raia Software. Все права защищены.&#10;Данное ПО защищено авторским правом и международными соглашениями.</String>
+	<String ID="AboutCopyright">© 2006-2019, Raia Software. Все права защищены.&#10;Данное ПО защищено авторским правом и международными соглашениями.</String>
 
 	<String ID="LoadingInProgressShort">Загрузка...</String>
 	<String ID="LoadingInProgress">Загружаем '{0}'</String>
@@ -923,10 +943,11 @@
 	<String ID="EventHasBeenDestroyedBy">{0} был уничтожен {1}</String>
 
 	<String ID="StatusPlay">Старт</String>
-	<String ID="StatusPlayFast">Старт &#2;×{0:g}</String>
+	<String ID="StatusPlaySpeed">Старт &#2;×{0:g}</String>
 	<String ID="StatusRewind">Промотка</String>
-	<String ID="StatusRewindFast">Промотка &#2;×{0:g}</String>
+	<String ID="StatusRewindSpeed">Промотка &#2;×{0:g}</String>
 	<String ID="StatusPause">Пауза</String>
+	<String ID="StatusPauseSpeed">Пауза &#2;×{0:g}</String>
 
 	<!-- Error Messages -->
 	<String ID="ErrorUnknown">Неизвестная ошибка 0x{0,08:X}</String>

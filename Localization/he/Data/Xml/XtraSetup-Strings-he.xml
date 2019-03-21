@@ -35,7 +35,7 @@
 
 	<!-- File Transfer Page -->
 	<String ID="InstallInProgress">התקנה בתהליכים</String>
-	<String ID="ProgressionText"<{0,.0}% הסתיימו</String>
+	<String ID="ProgressionText">{0,.0}% הסתיימו</String>
 	<String ID="TimeRemaining">זמן שנותר:</String>
 	<String ID="CancelConfirmation">האם אתה בטוח שברצונך לבטל {0} התקנה?</String>
 

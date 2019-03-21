@@ -44,6 +44,8 @@
 	<String ID="AnalysisPropertiesHelp">비행 기록의 설정값을 보이거나 숨기기</String>
 	<String ID="AnalysisEventLogText">&amp;비행 로그</String>
 	<String ID="AnalysisEventLogHelp">비행기록의 로그를 보이거나 숨기기</String>
+	<String ID="AnalysisShotLogText">Shot Log</String>
+	<String ID="AnalysisShotLogHelp">Show or hide combat shot log</String>
 	<String ID="AnalysisDisplayTelemetry0Text">텔레메트리 &amp;1</String>
 	<String ID="AnalysisDisplayTelemetry0Help">텔레메트리 윈도우 #1을 보이거나 숨기기</String>
 	<String ID="AnalysisDisplayTelemetry1Text">텔레메트리 &amp;2</String>
@@ -96,6 +98,10 @@
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Display the terrain with a high contrast color scheme</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Custom textures</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Display all the textures declared in CustomTextureList.xml</String>
+	<String ID="OptionsDisplayActiveAircraftListText">Display Active Aircraft List</String>
+	<String ID="OptionsDisplayActiveAircraftListHelp">Display an interactive list of the active aircraft in the 3D view</String>
+	<String ID="OptionsAlwaysDisplayBullseyeText">Always display Bullseye</String>
+	<String ID="OptionsAlwaysDisplayBullseyeHelp">Always display Bullseye in the 3D view</String>
 
 	<String ID="OptionsTerrainText">지형</String>
 	<String ID="OptionsTerrainAutoText">(&amp;자동)</String>
@@ -164,11 +170,18 @@
 	<String ID="OptionsRemoveObjectHelp">선택 된 오브젝트를 월드에서 삭제하기</String>
 	<String ID="TimeShiftObjectText">Time Shift...</String>
 	<String ID="TimeShiftObjectHelp">Correct selected object telemetry time</String>
+	<String ID="EditObjectText">Edit Object...</String>
+	<String ID="EditObjectHelp">Edit object properties</String>
 
 	<String ID="OptionsTrimBeforeText">Trim Before...</String>
 	<String ID="OptionsTrimBeforeHelp">Delete all telemetry data before the current point in time</String>
 	<String ID="OptionsTrimAfterText">Trim After...</String>
 	<String ID="OptionsTrimAfterHelp">Delete all telemetry beyond the current point in time</String>
+
+	<String ID="PauseOnEventCmdText">Pause on Event</String>
+	<String ID="PauseOnEventCmdHelp">Pause the playback on each event in the shot log</String>
+	<String ID="PauseOnBreakPointCmdText">Pause on Breakpoint</String>
+	<String ID="PauseOnBreakPointCmdHelp">Pause the playback on breakpoint events</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;택뷰를 acmi 파일과 연동하기</String>
 	<String ID="OptionsAssociateFileTypesHelp">윈도우 내에서 비행기록 파일을 더블 클릭하였을 때, 택뷰에서 해당 파일을 열어준다.</String>
@@ -620,6 +633,7 @@
 	<String ID="CommentsProperty">코멘트</String>
 
 	<String ID="AddOnTitleEventsLog">비행 로그</String>
+	<String ID="AddOnTitleShotLog">Shot Log</String>
 	<String ID="AddOnTitleControlsList">컨트롤 목록</String>
 	<String ID="AddOnTitleRemoteControl0">원격 컨트롤0</String>
 	<String ID="AddOnTitleRemoteControl1">원격 컨트롤1</String>
@@ -689,7 +703,7 @@
 	<String ID="ControlsCtrlLeftClick">[컨트롤] + [좌 클릭]</String>
 	<String ID="ControlsCtrlRightClick">[컨트롤] + [우 클릭]</String>
 	<String ID="ControlsDoubleClick">[더블 클릭]</String>
-	<String ID="ControlsLeftRight">[좌] / [우]</String>
+	<String ID="ControlsLeftRight">[←] / [→]</String>
 	<String ID="ControlsMouseLeftDrag">[마우스 왼쪽 버튼] + {드래그}</String>
 	<String ID="ControlsMouseRightDrag">[마우스 오른쪽 버튼] + {드래그}</String>
 	<String ID="ControlsMouseWheel">[마우스 휠]</String>
@@ -701,6 +715,9 @@
 	<String ID="ControlsAltReturn">[알트] + [리턴]</String>
 	<String ID="ControlsCtrlC">[컨트롤] + [C]</String>
 	<String ID="ControlsCtrlV">[컨트롤] + [V]</String>
+	<String ID="ControlsPlaybackFasterShortcut">[↑]</String>
+	<String ID="ControlsPlaybackSlowerShortcut">[↓]</String>
+	<String ID="ControlsSwitchPlaybackSpeedShortcut">[NUM *]</String>
 
 	<String ID="ControlsBackwardForward">시간 구간 뒷쪽으로/앞쪽으로</String>
 	<String ID="ControlsSelectEvent">해당 이벤트로 이동 후 관련 오브젝트 선택</String>
@@ -714,6 +731,9 @@
 	<String ID="ControlsSelectSecondaryObject">3D 뷰에서 세컨더리 오브젝트를 선택</String>
 	<String ID="ControlsZoomInOut">확대/축소</String>
 	<String ID="ControlsToggleFullScreen">전체화면 모드 토글</String>
+	<String ID="ControlsPlaybackSlowerHelp">Playback slower</String>
+	<String ID="ControlsPlaybackFasterHelp">Playback faster</String>
+	<String ID="ControlsSwitchPlaybackSpeedHelp">Switch playback speed</String>
 
 	<!-- Additional Tooltips -->
 	<String ID="UpdateAvailableTooltip">새 버전의 택뷰가 출시되었습니다!</String>
@@ -906,7 +926,7 @@
 	<String ID="InvalidShortcutText">미션 내에 현재의 단축키가 지정 된 오브젝트나 시간을 찾을 수 없습니다. 정상적인 파일을 열었는지, 그리고 단축키가 정상적으로 복사/붙이기 되었는지 확인하시기 바랍니다.</String>
 
 	<String ID="AboutTitle">택뷰에 대하여</String>
-	<String ID="AboutCopyright">Copyright © 2006-2018, Raia Software. All Rights Reserved.&#10;이 컴퓨터 프로그램은 국제규약의 저작권 법에 의해 보호받고 있습니다.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2019, Raia Software. All Rights Reserved.&#10;이 컴퓨터 프로그램은 국제규약의 저작권 법에 의해 보호받고 있습니다.</String>
 
 	<String ID="LoadingInProgressShort">로딩...</String>
 	<String ID="LoadingInProgress">로딩 '{0}'</String>
@@ -996,10 +1016,11 @@
 	<String ID="StatusPause">일시정지</String>
 -->
 	<String ID="StatusPlay">PLAY</String>
-	<String ID="StatusPlayFast">PLAY &#2;×{0:g}</String>
+	<String ID="StatusPlaySpeed">PLAY &#2;×{0:g}</String>
 	<String ID="StatusRewind">REWIND</String>
-	<String ID="StatusRewindFast">REWIND &#2;×{0:g}</String>
+	<String ID="StatusRewindSpeed">REWIND &#2;×{0:g}</String>
 	<String ID="StatusPause">PAUSE</String>
+	<String ID="StatusPauseSpeed">PAUSE &#2;×{0:g}</String>
 
 	<!-- Error Messages -->
 	<String ID="ErrorUnknown">알수 없는 에러 0x{0,08:X}</String>
@@ -1037,7 +1058,7 @@
 	<String ID="TTViewSatellite">위성 시점 (F7)</String>
 	<String ID="TTViewFree">프리 카메라 (F8)</String>
 
-	<String ID="TTDisplayCockpitInstruments">Display cockpit instruments</String>
+	<String ID="TTDisplayCockpitInstruments">Display Cockpit Instruments</String>
 	<String ID="TTDrawHeight">오브젝트의 높이 보여주기</String>
 	<String ID="TTDrawDirection">선택된 오브젝트의 방향 보여주기</String>
 	<String ID="TTDrawIDs">오브젝트 ID 보여주기</String>
