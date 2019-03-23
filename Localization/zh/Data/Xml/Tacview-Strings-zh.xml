@@ -44,8 +44,8 @@
 	<String ID="AnalysisPropertiesHelp">显示或隐藏飞行记录属性</String>
 	<String ID="AnalysisEventLogText">&amp;飞行记日志</String>
 	<String ID="AnalysisEventLogHelp">显示或隐藏飞行记录飞行日志</String>
-	<String ID="AnalysisShotLogText">Shot Log</String>
-	<String ID="AnalysisShotLogHelp">Show or hide combat shot log</String>
+	<String ID="AnalysisShotLogText">射击日志</String>
+	<String ID="AnalysisShotLogHelp">显示或隐藏战斗射击日志</String>
 	<String ID="AnalysisDisplayTelemetry0Text">遥测&amp;1</String>
 	<String ID="AnalysisDisplayTelemetry0Help">显示或隐藏遥测窗口#1</String>
 	<String ID="AnalysisDisplayTelemetry1Text">遥测&amp;2</String>
@@ -98,10 +98,10 @@
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">使用高对比度配色方案显示地形</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">自定义纹理</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">显示CustomTextureList.xml中声明的所有纹理</String>
-	<String ID="OptionsDisplayActiveAircraftListText">Display Active Aircraft List</String>
-	<String ID="OptionsDisplayActiveAircraftListHelp">Display an interactive list of the active aircraft in the 3D view</String>
-	<String ID="OptionsAlwaysDisplayBullseyeText">Always display Bullseye</String>
-	<String ID="OptionsAlwaysDisplayBullseyeHelp">Always display Bullseye in the 3D view</String>
+	<String ID="OptionsDisplayActiveAircraftListText">显示活动航空器列表</String>
+	<String ID="OptionsDisplayActiveAircraftListHelp">显示在3D视野里活动飞机的交互列表</String>
+	<String ID="OptionsAlwaysDisplayBullseyeText">总是显示靶眼</String>
+	<String ID="OptionsAlwaysDisplayBullseyeHelp">总是在3D视野里显示靶眼</String>
 
 	<String ID="OptionsTerrainText">地形</String>
 	<String ID="OptionsTerrainAutoText">（&amp;自动）</String>
@@ -170,18 +170,18 @@
 	<String ID="OptionsRemoveObjectHelp">从世界里删除已选物体</String>
 	<String ID="TimeShiftObjectText">时间移动...</String>
 	<String ID="TimeShiftObjectHelp">修正已选物体的遥测时间</String>
-	<String ID="EditObjectText">Edit Object...</String>
-	<String ID="EditObjectHelp">Edit object properties</String>
+	<String ID="EditObjectText">编辑物体...</String>
+	<String ID="EditObjectHelp">编辑物体属性</String>
 
 	<String ID="OptionsTrimBeforeText">剪去前段...</String>
 	<String ID="OptionsTrimBeforeHelp">删除当前时间点之前的所有遥测数据</String>
 	<String ID="OptionsTrimAfterText">剪去后段...</String>
 	<String ID="OptionsTrimAfterHelp">删除当前时间点之后的所有遥测数据</String>
 
-	<String ID="PauseOnEventCmdText">Pause on Event</String>
-	<String ID="PauseOnEventCmdHelp">Pause the playback on each event in the shot log</String>
-	<String ID="PauseOnBreakPointCmdText">Pause on Breakpoint</String>
-	<String ID="PauseOnBreakPointCmdHelp">Pause the playback on breakpoint events</String>
+	<String ID="PauseOnEventCmdText">在事件处暂停</String>
+	<String ID="PauseOnEventCmdHelp">在射击日志的每个事件处暂停播放</String>
+	<String ID="PauseOnBreakPointCmdText">在断点处暂停</String>
+	<String ID="PauseOnBreakPointCmdHelp">在断点事件处暂停播放</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;关联acmi文件至Tacview</String>
 	<String ID="OptionsAssociateFileTypesHelp">在Windows里双击acmi飞行记录文件时用Tacview打开。</String>
@@ -634,7 +634,7 @@
 	<String ID="CommentsProperty">注释</String>
 
 	<String ID="AddOnTitleEventsLog">飞行日志</String>
-	<String ID="AddOnTitleShotLog">Shot Log</String>
+	<String ID="AddOnTitleShotLog">射击日志</String>
 	<String ID="AddOnTitleControlsList">控制列表</String>
 	<String ID="AddOnTitleRemoteControl0">遥控1</String>
 	<String ID="AddOnTitleRemoteControl1">遥控2</String>
@@ -713,7 +713,7 @@
 	<String ID="ControlsShiftLeftClick">[Shift] + [鼠标左键]</String>
 	<String ID="ControlsShiftMove">[Shift] + {方向键}</String>
 	<String ID="ControlsSpaceBar">[空格键]</String>
-	<String ID="ControlsAltReturn">[Alt] + [Return]</String>
+	<String ID="ControlsAltReturn">[Alt] + [Enter]</String>
 	<String ID="ControlsCtrlC">[Ctrl] + [C]</String>
 	<String ID="ControlsCtrlV">[Ctrl] + [V]</String>
 	<String ID="ControlsPlaybackFasterShortcut">[↑]</String>
@@ -732,9 +732,9 @@
 	<String ID="ControlsSelectSecondaryObject">在3D视野里选择次物体</String>
 	<String ID="ControlsZoomInOut">视场缩放</String>
 	<String ID="ControlsToggleFullScreen">开关全屏模式</String>
-	<String ID="ControlsPlaybackSlowerHelp">Playback slower</String>
-	<String ID="ControlsPlaybackFasterHelp">Playback faster</String>
-	<String ID="ControlsSwitchPlaybackSpeedHelp">Switch playback speed</String>
+	<String ID="ControlsPlaybackSlowerHelp">减慢播放</String>
+	<String ID="ControlsPlaybackFasterHelp">加快播放</String>
+	<String ID="ControlsSwitchPlaybackSpeedHelp">切换播放速度</String>
 
 	<!-- Additional Tooltips -->
 	<String ID="UpdateAvailableTooltip">有新版本Tacview可用！</String>
