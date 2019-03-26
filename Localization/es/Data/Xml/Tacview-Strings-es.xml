@@ -173,10 +173,10 @@
 	<String ID="EditObjectText">Editar objeto...</String>
 	<String ID="EditObjectHelp">Editar propiedades de objeto</String>
 
-	<String ID="OptionsTrimBeforeText">Trimar Antes...</String>
+	<String ID="OptionsTrimBeforeText">Recortar hacia atrás...</String>
 	<String ID="OptionsTrimBeforeHelp">Borrar toda la Telemetría anterior del punto temporal actual</String>
-	<String ID="OptionsTrimAfterText">Trimar Después...</String>
-	<String ID="OptionsTrimAfterHelp">Borrar toda la Telemetría mas haya del punto temporal actual</String>
+	<String ID="OptionsTrimAfterText">Recortar en adelante...</String>
+	<String ID="OptionsTrimAfterHelp">Borrar toda la Telemetría a continuación del punto temporal actual</String>
 
 	<String ID="PauseOnEventCmdText">Pausar en evento</String>
 	<String ID="PauseOnEventCmdHelp">Pausar la reproducion en cada evento del registro de eventos</String>
@@ -536,7 +536,7 @@
 	<String ID="BuildingType">(Edificio)</String>
 	<String ID="TimelessValue">(Objeto atemporal)</String>
 
-	<String ID="TimeShiftTitle">Cambio de horat</String>
+	<String ID="TimeShiftTitle">Cambio de hora</String>
 	<String ID="TimeShiftSubTitle">Fijar el tiempo de telemetría del objeto seleccionado o crea un modo fantasma para comparar las actuaciones.</String>
 	<String ID="TimeShiftFirstSampleTime">Primer tiempo de muestra: {0}</String>
 	<String ID="TimeShiftDaysOffset">Dias</String>
