@@ -44,8 +44,8 @@
 	<String ID="AnalysisPropertiesHelp">Mostrar u ocultar propiedades de grabación de vuelo</String>
 	<String ID="AnalysisEventLogText">&amp;Registro de vuelo</String>
 	<String ID="AnalysisEventLogHelp">Mostrar u ocultar registro de datos de vuelo</String>
-	<String ID="AnalysisShotLogText">Shot Log</String>
-	<String ID="AnalysisShotLogHelp">Show or hide combat shot-log</String>
+	<String ID="AnalysisShotLogText">Registro de eventos</String>
+	<String ID="AnalysisShotLogHelp">Mostrar u ocultar registro de combate (shot-log)</String>
 	<String ID="AnalysisDisplayTelemetry0Text">Telemetría &amp;1</String>
 	<String ID="AnalysisDisplayTelemetry0Help">Mostrar u ocultar ventana de telemetría 1</String>
 	<String ID="AnalysisDisplayTelemetry1Text">Telemetría &amp;2</String>
@@ -98,10 +98,10 @@
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Mostrar el terreno con un esquema de colores de alto contraste</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Textura Personalizada</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Mostrar todas las texturas indicadas en CustomTextureList.xml</String>
-	<String ID="OptionsDisplayActiveAircraftListText">Display Active Aircraft List</String>
-	<String ID="OptionsDisplayActiveAircraftListHelp">Display an interactive list of the active aircraft in the 3D view</String>
-	<String ID="OptionsAlwaysDisplayBullseyeText">Always display Bullseye</String>
-	<String ID="OptionsAlwaysDisplayBullseyeHelp">Always display Bullseye in the 3D view</String>
+	<String ID="OptionsDisplayActiveAircraftListText">Mostrar lista de aviones activos</String>
+	<String ID="OptionsDisplayActiveAircraftListHelp">Mostrar una lista interactiva de aviones activos en la vista 3D</String>
+	<String ID="OptionsAlwaysDisplayBullseyeText">Siempre mostrar Bullseye</String>
+	<String ID="OptionsAlwaysDisplayBullseyeHelp">Mostrar siempre el Bullseye en la vista 3D</String>
 
 	<String ID="OptionsTerrainText">Terreno</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Automático)</String>
@@ -170,18 +170,18 @@
 	<String ID="OptionsRemoveObjectHelp">Borra el objeto del mundo</String>
 	<String ID="TimeShiftObjectText">Cambio de hora...</String>
 	<String ID="TimeShiftObjectHelp">Corregir el tiempo de telemetría del objeto seleccionado</String>
-	<String ID="EditObjectText">Edit Object...</String>
-	<String ID="EditObjectHelp">Edit object properties</String>
+	<String ID="EditObjectText">Editar objeto...</String>
+	<String ID="EditObjectHelp">Editar propiedades de objeto</String>
 
 	<String ID="OptionsTrimBeforeText">Trimar Antes...</String>
 	<String ID="OptionsTrimBeforeHelp">Borrar toda la Telemetría anterior del punto temporal actual</String>
 	<String ID="OptionsTrimAfterText">Trimar Después...</String>
 	<String ID="OptionsTrimAfterHelp">Borrar toda la Telemetría mas haya del punto temporal actual</String>
 
-	<String ID="PauseOnEventCmdText">Pause on Event</String>
-	<String ID="PauseOnEventCmdHelp">Pause the playback on each event in the shot log</String>
-	<String ID="PauseOnBreakPointCmdText">Pause on Breakpoint</String>
-	<String ID="PauseOnBreakPointCmdHelp">Pause the playback on breakpoint events</String>
+	<String ID="PauseOnEventCmdText">Pausar en evento</String>
+	<String ID="PauseOnEventCmdHelp">Pausar la reproducion en cada evento del registro de eventos</String>
+	<String ID="PauseOnBreakPointCmdText">Pausar en Breakpoint</String>
+	<String ID="PauseOnBreakPointCmdHelp">Pausar la reproducion en los eventos de breakpoint</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Asociar Tacview con los archivos acmi</String>
 	<String ID="OptionsAssociateFileTypesHelp">Habilita que Tacview abra en windows los archivos de vuelo con doble click</String>
@@ -322,7 +322,7 @@
 	<!-- Telemetry -->
 	<String ID="ATCHelp">Telemetría como ATC: Altitud/100, velocidad vertical y velocidad terrestre/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
-	<String ID="ATCMachHelp">ATC like telemetry: altitude/100, vertical speed, and mach number</String>
+	<String ID="ATCMachHelp">ATC como telemetria: altitud/100, velocidad vertical, y numero mach</String>
 	<String ID="ATCMachText">ATC (ASL+VS+Mach)</String>
 	<String ID="RegistrationHelp">Muestra el numero de registro</String>
 	<String ID="RegistrationText">Registro del avion (numero de cola)</String>
@@ -570,7 +570,7 @@
 	<String ID="ProfilerResetZoomHelp">Enseñar el perfil entero en pantalla</String>
 	<String ID="ProfilerProfileMemoryTooltip">Memoria del perfil (F18)</String>
 	<String ID="ProfilerProfileMemoryHelp">Uso actual de memoria del perfil</String>
-	<String ID="ProfilerProfileMainLoopAutoTooltip">Auto Profile Main Loop (F18)</String>
+	<String ID="ProfilerProfileMainLoopAutoTooltip">Perfil automatico loop princiapl (F18)</String>
 	<String ID="ProfilerProfileMainLoopAutoHelp">Encontrar automaticamente el frame mas lento en el cuello de botella</String>
 
 	<!-- Add On Strings -->
@@ -617,7 +617,7 @@
 	<String ID="CommentsProperty">Comentarios</String>
 
 	<String ID="AddOnTitleEventsLog">Registro de vuelo</String>
-	<String ID="AddOnTitleShotLog">Shot Log</String>
+	<String ID="AddOnTitleShotLog">Registro de eventos</String>
 	<String ID="AddOnTitleControlsList">Lista de control</String>
 	<String ID="AddOnTitleRemoteControl0">Control remoto 1</String>
 	<String ID="AddOnTitleRemoteControl1">Control remoto 2</String>
@@ -717,7 +717,7 @@
 	<String ID="ControlsToggleFullScreen">Cambiar a modo pantalla completa</String>
 	<String ID="ControlsPlaybackSlowerHelp">Playback slower</String>
 	<String ID="ControlsPlaybackFasterHelp">Playback faster</String>
-	<String ID="ControlsSwitchPlaybackSpeedHelp">Switch playback speed</String>
+	<String ID="ControlsSwitchPlaybackSpeedHelp">Cambiar velocidad de reproduccion</String>
 
 	<!-- Additional Tooltips -->
 	<String ID="UpdateAvailableTooltip">Nueva versión de Tacview disponible</String>
