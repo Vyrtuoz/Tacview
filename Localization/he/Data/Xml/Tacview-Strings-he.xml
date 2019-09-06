@@ -44,8 +44,12 @@
 	<String ID="AnalysisPropertiesHelp">הצג/הסתר רשימת מאפייני הטיסה</String>
 	<String ID="AnalysisEventLogText">טיסה Log</String>
 	<String ID="AnalysisEventLogHelp">טיסה Log הצג/הסתר נתוני</String>
-	<String ID="AnalysisShotLogText">Shot Log</String>
-	<String ID="AnalysisShotLogHelp">Show or hide combat shot log</String>
+	<String ID="AnalysisShotLogText">Event Log</String>
+	<String ID="AnalysisShotLogHelp">Show or hide the event log</String>
+	<String ID="AnalysisDisplayControlBarText">Playback Control Bar</String>
+	<String ID="AnalysisDisplayControlBarHelp">Show or hide playback control bar</String>
+	<String ID="AnalysisActiveObjectListText">Active Objects List</String>
+	<String ID="AnalysisActiveObjectListHelp">Show or hide the list of active objects</String>
 	<String ID="AnalysisDisplayTelemetry0Text">טבלת נתונים עבור אובייקט 1</String>
 	<String ID="AnalysisDisplayTelemetry0Help">הצג/הסתר טבלת נתונים עבור אובייקט 1</String>
 	<String ID="AnalysisDisplayTelemetry1Text">טבלת נתונים עבור אובייקט 2</String>
@@ -98,10 +102,9 @@
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Display the terrain with a high contrast color scheme</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Custom textures</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Display all the textures declared in CustomTextureList.xml</String>
-	<String ID="OptionsDisplayActiveAircraftListText">Display Active Aircraft List</String>
-	<String ID="OptionsDisplayActiveAircraftListHelp">Display an interactive list of the active aircraft in the 3D view</String>
 	<String ID="OptionsAlwaysDisplayBullseyeText">Always display Bullseye</String>
 	<String ID="OptionsAlwaysDisplayBullseyeHelp">Always display Bullseye in the 3D view</String>
+	<String ID="OptionsUIScaleText">UI Scaling</String>
 
 	<String ID="OptionsTerrainText">תוואי שטח לתצוגה</String>
 	<String ID="OptionsTerrainAutoText">(אוטומטי)</String>
@@ -155,6 +158,7 @@
 	<String ID="OptionsPositionFormatDMSHelp">DD°MM'SS''</String>
 	<String ID="OptionsPositionFormatMGRSHelp">Military grid reference system (MGRS)</String>
 
+	<String ID="OptionsTimeFormatText">Time Offset</String>
 	<String ID="OptionsPositionAlwaysDisplayedText">Always Displayed</String>
 	<String ID="OptionsPositionAlwaysDisplayedHelp">When hidden, press SHIFT to display current position in top left corner of the 3D view.</String>
 
@@ -170,8 +174,12 @@
 	<String ID="OptionsRemoveObjectHelp">Remove selected object from the world</String>
 	<String ID="TimeShiftObjectText">Time Shift...</String>
 	<String ID="TimeShiftObjectHelp">Correct selected object telemetry time</String>
+	<String ID="AddObjectText">Add Object...</String>
+	<String ID="AddObjectHelp">Create new object at the mouse cursor location</String>
 	<String ID="EditObjectText">Edit Object...</String>
 	<String ID="EditObjectHelp">Edit object properties</String>
+	<String ID="RemoveObjectText">Remove Object</String>
+	<String ID="RemoveObjectHelp">Remove object from the world</String>
 
 	<String ID="OptionsTrimBeforeText">Trim Before...</String>
 	<String ID="OptionsTrimBeforeHelp">Delete all telemetry data before the current point in time</String>
@@ -179,9 +187,7 @@
 	<String ID="OptionsTrimAfterHelp">Delete all telemetry beyond the current point in time</String>
 
 	<String ID="PauseOnEventCmdText">Pause on Event</String>
-	<String ID="PauseOnEventCmdHelp">Pause the playback on each event in the shot log</String>
-	<String ID="PauseOnBreakPointCmdText">Pause on Breakpoint</String>
-	<String ID="PauseOnBreakPointCmdHelp">Pause the playback on breakpoint events</String>
+	<String ID="PauseOnEventCmdHelp">Automatically pause the playback at each event time in the event log</String>
 
 	<String ID="OptionsAssociateFileTypesText">Tacview באמצעות ACMI פתח קבצי</String>
 	<String ID="OptionsAssociateFileTypesHelp">באמצעות לחיצה כפולה על שם הקובץ Tacview בתוכנת ACMI אפשר פתיחת קבצי</String>
@@ -206,6 +212,8 @@
 	<String ID="AttractAttentionHelp">הפנה תשומת לב המשתתפים לעבר אובייקט מסויים</String>
 	<String ID="DefineControlText">Assign Input</String>
 	<String ID="DefineControlHelp">Assign custom joystick or keyboard input to this command</String>
+	<String ID="LaserPointerHelp">Display a laser pointer to highlight objects during an online debriefing</String>
+	<String ID="MousePositionHelp">Display latitude, longitude and bullseye position of the mouse cursor</String>
 
 	<String ID="SelectedObjectsTelemetryText">תוויות אובייקט שנבחרו</String>
 	<String ID="AircraftsTelemetryText">תוויות אוביקט שלא נבחרו</String>
@@ -494,8 +502,8 @@
 	<String ID="RealTimeTelemetryPort">Data Recorder Port :</String>
 	<String ID="RealTimeTelemetryWarningClient">Only the professional version of Tacview can record real-time telemetry.</String>
 	<String ID="RealTimeTelemetryPasswordTip">A password may be required to join a private session</String>
-	<String ID="RealTimeTelemetryRecordingConnecting">Waiting for {0} {1}</String>
-	<String ID="RealTimeTelemetryRecordingProgress">Recording from {0} {1}</String>
+	<String ID="RealTimeTelemetryRecordingConnecting">Waiting for {1}&#xA;{0}</String>
+	<String ID="RealTimeTelemetryRecordingProgress">Recording from {1}&#xA;{0}</String>
 	<String ID="RealTimeTelemetryOperationCompleted">Real-time telemetry recording complete.</String>
 	<String ID="RealTimeTelemetryOperationFailed">Failed to connect real-time telemetry to given host address.</String>
 	<String ID="RealTimeTelemetryUnsupportedOperation">Real-time telemetry not compatible with the host exporter.</String>
@@ -517,12 +525,14 @@
 	<String ID="AddEditObjectPosition">Position</String>
 	<String ID="AddEditObjectColor">Color</String>
 	<String ID="AddEditObjectCoalition">Coalition</String>
+	<String ID="AddEditObjectEngagementRange">Engagement Range</String>
 	<String ID="AutoValue">(auto)</String>
 	<String ID="CurrentTimeValue">(now)</String>
 	<String ID="NoTypeValue">(none)</String>
 	<String ID="NoNameValue">(none)</String>
 	<String ID="NoColorValue">(none)</String>
 	<String ID="NoCoalitionValue">(none)</String>
+	<String ID="DefaultEngagementRangeValue">(default)</String>
 	<String ID="BullseyeType">(Bullseye)</String>
 	<String ID="FixedWingType">(Fixed Wing Aircraft)</String>
 	<String ID="RotorcraftType">(Rotorcraft)</String>
@@ -617,7 +627,7 @@
 	<String ID="CommentsProperty">הערות</String>
 
 	<String ID="AddOnTitleEventsLog">יומן טיסות</String>
-	<String ID="AddOnTitleShotLog">Shot Log</String>
+	<String ID="AddOnTitleShotLog">Event Log</String>
 	<String ID="AddOnTitleControlsList">רשימת מקשי קיצור</String>
 	<String ID="AddOnTitleRemoteControl0">Remote Control 1</String>
 	<String ID="AddOnTitleRemoteControl1">Remote Control 2</String>
@@ -630,6 +640,8 @@
 	<String ID="AddOnTitleFunctionsProfiler">מאבחן פונקציות</String>
 	<String ID="AddOnTitleGraphicalProfiler">מאבחן גרפי</String>
 	<String ID="AddOnTitleMemoryProfiler">מאבחן זיכרון</String>
+	<String ID="AddOnTitleActiveObjectList">Active Objects</String>
+	<String ID="AddOnTitlePlaybackControlBar">Playback Control Bar</String>
 
 	<String ID="DebugEventTime">זמן</String>
 	<String ID="DebugEventLevel">רמה</String>
@@ -670,6 +682,7 @@
 	<String ID="CmdRegisterSessionProductKeyHelp">Activate Tacview, for the current session only, with the provided key.</String>
 	<String ID="CmdDisplayFrameRateHelp">Display the frame-rate in the 3D view</String>
 	<String ID="CmdResourceFolderHelp">Declare additional custom directory where Tacview resources are stored</String>
+	<String ID="CmdAddOnsFolderHelp">Declares an additional custom folder from where to load add-ons</String>
 	<String ID="CmdReadOnlyHelp">Disable addons and export capabilities</String>
 
 	<String ID="Selection">בחירה</String>
@@ -702,6 +715,11 @@
 	<String ID="ControlsPlaybackFasterShortcut">[↑]</String>
 	<String ID="ControlsPlaybackSlowerShortcut">[↓]</String>
 	<String ID="ControlsSwitchPlaybackSpeedShortcut">[NUM *]</String>
+	<String ID="ControlsPreviousEventShortcut">[Ctrl] + [←]</String>
+	<String ID="ControlsNextEventShortcut">[Ctrl] + [→]</String>
+	<String ID="LaserPointerShortcut">[Shift] + {Mouse}</String>
+	<String ID="MousePositionShortcut">[Shift] + [Ctrl] + {Mouse}</String>
+	<String ID="ControlsDeselectObjects">[Ctrl] + [N]</String>
 
 	<String ID="ControlsBackwardForward">הזזת זמן קדימה/אחורה</String>
 	<String ID="ControlsSelectEvent">עבור לאירוע ובחר אובייקטים מקושרים</String>
@@ -718,6 +736,7 @@
 	<String ID="ControlsPlaybackSlowerHelp">Playback slower</String>
 	<String ID="ControlsPlaybackFasterHelp">Playback faster</String>
 	<String ID="ControlsSwitchPlaybackSpeedHelp">Switch playback speed</String>
+	<String ID="ControlsDeselectObjectsHelp">Deselect primary and secondary objects</String>
 
 	<!-- Additional Tooltips -->
 	<String ID="UpdateAvailableTooltip">! Tacview קיימת גרסה חדשה יותר של תוכנת</String>
@@ -790,6 +809,8 @@
 	<String ID="BrowseDCSWorldFolderHelp">'DCS World' אנא בחר את תיקיית ההתקנה של תוכנת</String>
 	<String ID="BrowseExportPathFolderHelp">עבור המשתמש הנוכחי.acmi אנא בחר היכן לשמור קבצי</String>
 	<String ID="Falcon4TheaterFilter">:Falcon 4.0 זירת</String>
+	<String ID="AddOnGetExistingFolderNameHelp">Please choose an existing folder</String>
+	<String ID="AddOnGetNewFolderNameHelp">Please choose a new or existing folder</String>
 
 	<!-- Online Debriefing -->
 	<String ID="HostLabel">(מארח)</String>
@@ -899,6 +920,8 @@
 	<String ID="FileTypeDescriptionZip">Telemetry Data in a ZIP archive</String>
 	<String ID="FileTypeDescription7z">Telemetry Data in a 7z archive</String>
 	<String ID="FileTypeDescriptionMediaMany">Media Files</String>
+	<String ID="FileTypeDescriptionAudioFiles">Audio Files</String>
+	<String ID="FileTypeDescriptionVideoFiles">Video Files</String>
 	<String ID="TypeColumn">סוג</String>
 	<String ID="TimeColumn">זמן</String>
 	<String ID="EventColumn">ארוע</String>
@@ -906,6 +929,9 @@
 	<String ID="LogLevelInfo">מידע</String>
 	<String ID="LogLevelWarning">אזהרה</String>
 	<String ID="LogLevelError">שגיאה</String>
+	<String ID="EventTime">Time</String>
+	<String ID="EventCallSign">Call Sign</String>
+	<String ID="EventDescription">Event Description</String>
 
 	<!-- Flight Recording Strings -->
 	<String ID="ObjectNameShrapnel">רסיסים</String>
@@ -942,6 +968,17 @@
 	<String ID="EventHasBeenDestroyed">{0} has been destroyed</String>
 	<String ID="EventHasBeenDestroyedBy">{0} has been destroyed by {1}</String>
 
+	<String ID="EventLogHasLeftTheArea">has left the area</String>
+	<String ID="EventLogHasBeenDestroyed">has been destroyed</String>
+	<String ID="EventLogHasBeenDestroyedBy">has been destroyed by {0}</String>
+	<String ID="EventLogTakeoff">Takeoff</String>
+	<String ID="EventLogLanding">Landing</String>
+	<String ID="EventLogDisabledLabel">Kill Removed</String>
+	<String ID="EventLogEnabledLabel">Alive</String>
+	<String ID="EventLogTimeoutLabel">Timeout {2}</String>
+	<String ID="EventLogTimeoutAtLabel">Timeout at {1} {2}</String>
+	<String ID="EventLogTimeoutWeaponLabel">Timeout {0} {2}</String>
+	<String ID="EventLogTimeoutWeaponAtLabel">Timeout {0} at {1} {2}</String>
 	<String ID="StatusPlay">PLAY</String>
 	<String ID="StatusPlaySpeed">PLAY &#2;×{0:g}</String>
 	<String ID="StatusRewind">REWIND</String>
@@ -979,6 +1016,9 @@
 	<String ID="TTFaster">האץ</String>
 	<String ID="TTEnd">עבור לסוף</String>
 	<String ID="TTOneFrame">Frame By Frame</String>
+	<String ID="TTPreviousEvent">Jump to previous event</String>
+	<String ID="TTNextEvent">Jump to next event</String>
+	<String ID="TTSyncRealTimeTelemetry">Synchronize with real-time telemetry</String>
 
 	<String ID="TTViewCockpit">(F5) מבט קוקפיט</String>
 	<String ID="TTViewExternal">(F6) מבט חיצון</String>

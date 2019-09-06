@@ -43,8 +43,12 @@
 	<String ID="AnalysisPropertiesHelp">Afficher ou masquer les propriétés de l'enregistrement de vol</String>
 	<String ID="AnalysisEventLogText">&amp;Journal des événements</String>
 	<String ID="AnalysisEventLogHelp">Afficher ou masquer le journal des événements</String>
-	<String ID="AnalysisShotLogText">Shot Log</String>
-	<String ID="AnalysisShotLogHelp">Afficher ou masquer le journal des tirs</String>
+	<String ID="AnalysisShotLogText">Journal d’évènements</String>
+	<String ID="AnalysisShotLogHelp">Afficher ou masquer le journal des évènements</String>
+	<String ID="AnalysisDisplayControlBarText">Contrôles de lecture</String>
+	<String ID="AnalysisDisplayControlBarHelp">Afficher ou masquer la barre de contrôle de lecture</String>
+	<String ID="AnalysisActiveObjectListText">Liste objets actifs</String>
+	<String ID="AnalysisActiveObjectListHelp">Afficher ou masquer la liste des objets actifs</String>
 	<String ID="AnalysisDisplayTelemetry0Text">Télémétrie &amp;1</String>
 	<String ID="AnalysisDisplayTelemetry0Help">Afficher ou masquer la fenêtre de télémétrie nº1</String>
 	<String ID="AnalysisDisplayTelemetry1Text">Télémétrie &amp;2</String>
@@ -97,10 +101,9 @@
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Affiche le terrain avec un thème de couleur a fort contraste</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Textures personnalisées</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Afficher toutes les textures déclarées dans CustomTextureList.xml</String>
-	<String ID="OptionsDisplayActiveAircraftListText">Afficher liste aéronefs actifs</String>
-	<String ID="OptionsDisplayActiveAircraftListHelp">Affiche une liste interactive des aéronefs actifs dans la vue 3D</String>
 	<String ID="OptionsAlwaysDisplayBullseyeText">Toujours afficher le Bullseye</String>
 	<String ID="OptionsAlwaysDisplayBullseyeHelp">Toujours afficher le Bullseye dans la vue 3D</String>
+	<String ID="OptionsUIScaleText">Echelle interface utilisateur</String>
 
 	<String ID="OptionsTerrainText">Terrain</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Auto)</String>
@@ -154,6 +157,7 @@
 	<String ID="OptionsPositionFormatDMSHelp">Degrés, minutes, secondes</String>
 	<String ID="OptionsPositionFormatMGRSHelp">Système de référence de carroyage militaire</String>
 
+	<String ID="OptionsTimeFormatText">Décalage Horaire</String>
 	<String ID="OptionsPositionAlwaysDisplayedText">Toujours affichée</String>
 	<String ID="OptionsPositionAlwaysDisplayedHelp">Lorsque cachée, appuyez sur SHIFT pour afficher la position dans le coin haut/gauche de la vue 3D.</String>
 
@@ -169,8 +173,12 @@
 	<String ID="OptionsRemoveObjectHelp">Retirer du monde l’objet sélectionné</String>
 	<String ID="TimeShiftObjectText">Décalage temporel...</String>
 	<String ID="TimeShiftObjectHelp">Corrige l’heure de la télémétrie de l’objet sélectionné</String>
+	<String ID="AddObjectText">Ajouter objet...</String>
+	<String ID="AddObjectHelp">Créer un nouvel objet à l’emplacement du curseur souris</String>
 	<String ID="EditObjectText">Editer objet...</String>
 	<String ID="EditObjectHelp">Modifier les propriétés de l’objet</String>
+	<String ID="RemoveObjectText">Supprimer sélectionné...</String>
+	<String ID="RemoveObjectHelp">Retirer du monde l’objet</String>
 
 	<String ID="OptionsTrimBeforeText">Couper avant...</String>
 	<String ID="OptionsTrimBeforeHelp">Efface toute donnée de télémétrie qui précèdent le point courant dans le temps.</String>
@@ -178,9 +186,7 @@
 	<String ID="OptionsTrimAfterHelp">Efface toute donnée de télémétrie au-delà du point courant dans le temps.</String>
 
 	<String ID="PauseOnEventCmdText">Pauser sur évènement</String>
-	<String ID="PauseOnEventCmdHelp">Pauser la lecture à chaque évènement du shot log</String>
-	<String ID="PauseOnBreakPointCmdText">Pauser sur breakpoint</String>
-	<String ID="PauseOnBreakPointCmdHelp">Pauser la lecture à chaque évènement breakpoint</String>
+	<String ID="PauseOnEventCmdHelp">Pause automatiquement la lecture à chaque évènement dans le log d’éléments</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Associer Tacview aux fichiers acmi</String>
 	<String ID="OptionsAssociateFileTypesHelp">Permet d'ouvrir les enregistrements de vol avec Tacview lorsque l'on clique dessus depuis Windows</String>
@@ -205,6 +211,8 @@
 	<String ID="AttractAttentionHelp">Attire l'attention des spectateurs sur un objet spécifique</String>
 	<String ID="DefineControlText">Assigner contrôle</String>
 	<String ID="DefineControlHelp">Assigne un contrôle clavier ou joystick à cette commande</String>
+	<String ID="LaserPointerHelp">Affiche un pointeur laser pour mettre souligner des objets pendant un debriefing en ligne</String>
+	<String ID="MousePositionHelp">Affiche la latitude, longitude et position bullseye du curseur de la souris</String>
 
 	<String ID="SelectedObjectsTelemetryText">Etiquettes objets sélectionnés</String>
 	<String ID="AircraftsTelemetryText">Etiquettes aéronefs non sélectionnés</String>
@@ -433,7 +441,7 @@
 	<String ID="OnlineDebriefingJoinButton">Rejoindre</String>
 	<String ID="OnlineDebriefingLeaveButton">Déconnecter</String>
 	<String ID="OnlineDebriefingCancelButton">Annuler</String>
-	<String ID="OnlineDebriefingWarningHost">Seule Tacview Advanced est capable d'héberger un débriefing en ligne.</String>
+	<String ID="OnlineDebriefingWarningHost">Seul Tacview Advanced est capable d'héberger un débriefing en ligne.</String>
 	<String ID="OnlineDebriefingWarningClient">Toutes les versions enregistrées de Tacview peuvent rejoindre un débriefing en ligne.</String>
 	<String ID="OnlineDebriefingHostInProgress">Hébergement du débriefing en ligne [{0}]</String>
 	<String ID="OnlineDebriefingClientInProgress">Connecté au débriefing en ligne [{0}]</String>
@@ -491,10 +499,10 @@
 	<String ID="RealTimeTelemetryUsername">Choisissez un nom d’utilisateur :</String>
 	<String ID="RealTimeTelemetryAddress">Addresse enregistreur de vol :</String>
 	<String ID="RealTimeTelemetryPort">Port enregistreur de vol :</String>
-	<String ID="RealTimeTelemetryWarningClient">Seule Tacview Advanced peut enregistrer des données de télémétrie en temps réel.</String>
+	<String ID="RealTimeTelemetryWarningClient">Seul Tacview Advanced peut enregistrer des données de télémétrie en temps réel.</String>
 	<String ID="RealTimeTelemetryPasswordTip">Un mot de passe peut-être nécessaire pour accéder à une session privée</String>
-	<String ID="RealTimeTelemetryRecordingConnecting">En attente de {0} {1}</String>
-	<String ID="RealTimeTelemetryRecordingProgress">Enregistrement depuis {0} {1}</String>
+	<String ID="RealTimeTelemetryRecordingConnecting">En attente de {1}&#xA;{0}</String>
+	<String ID="RealTimeTelemetryRecordingProgress">Enregistrement depuis {1}&#xA;{0}</String>
 	<String ID="RealTimeTelemetryOperationCompleted">Enregistrement télémétrie temps réelle terminé.</String>
 	<String ID="RealTimeTelemetryOperationFailed">Echec de connexion télémétrie temps réelle à l’adresse hôte fournie.</String>
 	<String ID="RealTimeTelemetryUnsupportedOperation">La télémétrie temps réelle n’est pas compatible avec l’exporteur hôte.</String>
@@ -516,12 +524,14 @@
 	<String ID="AddEditObjectPosition">Position</String>
 	<String ID="AddEditObjectColor">Couleur</String>
 	<String ID="AddEditObjectCoalition">Coalition</String>
+	<String ID="AddEditObjectEngagementRange">Portée d'engagement</String>
 	<String ID="AutoValue">(auto)</String>
 	<String ID="CurrentTimeValue">(maintenant)</String>
 	<String ID="NoTypeValue">(aucun)</String>
 	<String ID="NoNameValue">(aucun)</String>
 	<String ID="NoColorValue">(aucune)</String>
 	<String ID="NoCoalitionValue">(aucune)</String>
+	<String ID="DefaultEngagementRangeValue">(par défaut)</String>
 	<String ID="BullseyeType">(Bullseye)</String>
 	<String ID="FixedWingType">(Aéroplane)</String>
 	<String ID="RotorcraftType">(Voilure tournante)</String>
@@ -616,7 +626,7 @@
 	<String ID="CommentsProperty">Commentaires</String>
 
 	<String ID="AddOnTitleEventsLog">Journal de Vol</String>
-	<String ID="AddOnTitleShotLog">Shot Log</String>
+	<String ID="AddOnTitleShotLog">Journal d’évènements</String>
 	<String ID="AddOnTitleControlsList">Liste des contrôles</String>
 	<String ID="AddOnTitleRemoteControl0">Télécommande 1</String>
 	<String ID="AddOnTitleRemoteControl1">Télécommande 2</String>
@@ -629,6 +639,8 @@
 	<String ID="AddOnTitleFunctionsProfiler">Profiler de functions</String>
 	<String ID="AddOnTitleGraphicalProfiler">Profiler graphique</String>
 	<String ID="AddOnTitleMemoryProfiler">Profiler memoire</String>
+	<String ID="AddOnTitleActiveObjectList">Objets actifs</String>
+	<String ID="AddOnTitlePlaybackControlBar">Contrôles de lecture</String>
 
 	<String ID="DebugEventTime">Heure</String>
 	<String ID="DebugEventLevel">Niveau</String>
@@ -669,6 +681,7 @@
 	<String ID="CmdRegisterSessionProductKeyHelp">Active Tacview avec la clé de produit fournie, uniquement pour la session courante.</String>
 	<String ID="CmdDisplayFrameRateHelp">Affiche le nombre d’images par seconde dans la vue 3D</String>
 	<String ID="CmdResourceFolderHelp">Déclare un dossier où se trouve des ressources additionnelles pour Tacview</String>
+	<String ID="CmdAddOnsFolderHelp">Déclare un dossier supplémentaire depuis lequel seront chargé des add-ons</String>
 	<String ID="CmdReadOnlyHelp">Désactive les addons et options d’export</String>
 
 	<String ID="Selection">Sélection</String>
@@ -701,6 +714,11 @@
 	<String ID="ControlsPlaybackFasterShortcut">[↑]</String>
 	<String ID="ControlsPlaybackSlowerShortcut">[↓]</String>
 	<String ID="ControlsSwitchPlaybackSpeedShortcut">[NUM *]</String>
+	<String ID="ControlsPreviousEventShortcut">[Ctrl] + [←]</String>
+	<String ID="ControlsNextEventShortcut">[Ctrl] + [→]</String>
+	<String ID="LaserPointerShortcut">[Shift] + {Souris}</String>
+	<String ID="MousePositionShortcut">[Shift] + [Ctrl] + {Souris}</String>
+	<String ID="ControlsDeselectObjects">[Ctrl] + [N]</String>
 
 	<String ID="ControlsBackwardForward">Avant/Arrière dans le temps</String>
 	<String ID="ControlsSelectEvent">Va à l'événement et sélectionne les objets concernés</String>
@@ -717,6 +735,7 @@
 	<String ID="ControlsPlaybackSlowerHelp">Lire plus lentement</String>
 	<String ID="ControlsPlaybackFasterHelp">Lire plus rapidement</String>
 	<String ID="ControlsSwitchPlaybackSpeedHelp">Changer de vitesse de lecture</String>
+	<String ID="ControlsDeselectObjectsHelp">Désélectionne l’objet primaire et secondaire</String>
 
 	<!-- Additional Tooltips -->
 	<String ID="UpdateAvailableTooltip">Une nouvelle version de Tacview est disponible !</String>
@@ -727,7 +746,7 @@
 	<String ID="FlightSimHookTooltipMessage">Lorsque cette icone est visible, tous les vols sont automatiquement enregistrés par votre simulateur de vol. Il n'est pas nécessaire de garder Tacview ouvert pendant que vous volez.</String>
 	<String ID="FlightRecordingEmptyNotification">Cet enregistrement est vide.</String>
 	<String ID="LowEndOpenGL">Veuillez mettre à jour vos pilotes de carte graphique</String>
-	<String ID="AntiCheatCannotPlayback">L’analyse de ce fichier a été retardée de {0} minutes par l’hôte. Il n’y a pas suffisamment de temps enregistre pour revoir des données.</String>
+	<String ID="AntiCheatCannotPlayback">L’analyse de ce fichier a été retardée de {0} minutes par l’hôte. Il n’y a pas suffisamment de temps enregistré pour revoir des données.</String>
 	<String ID="AntiCheatIncompletePlayback">L’analyse de ce fichier a été retardée de {0} minutes par l’hôte. Les dernières {1} minute(s) ne peuvent pas être revues.</String>
 	<String ID="AuthenticationComplete">Ce fichier est authentique, il n’a pas été modifié depuis son enregistrement.</String>
 	<String ID="AuthenticationIncomplete">Ce fichier est authentique, excepté les dernières {0} secondes qui ne peuvent être validées.</String>
@@ -789,14 +808,16 @@
 	<String ID="BrowseDCSWorldFolderHelp">Veuillez sélectionner le dossier d'installation de 'DCS World'</String>
 	<String ID="BrowseExportPathFolderHelp">Veuillez choisir le dossier d'enregistrement des fichiers .acmi pour l'utilisateur courant</String>
 	<String ID="Falcon4TheaterFilter">Théâtre d'opérations Falcon 4.0&#160;:</String>
+	<String ID="AddOnGetExistingFolderNameHelp">Veuillez choisir un dossier existant</String>
+	<String ID="AddOnGetNewFolderNameHelp">Veuillez choisir un nouveau dossier ou un dossier existant</String>
 
 	<!-- Online Debriefing -->
 	<String ID="HostLabel">(hôte)</String>
 	<String ID="InstructorLabel">(instructeur)</String>
 	<String ID="UnknownIPAddress">(inconnue)</String>
-	<String ID="OnlineDebriefingHostTitle">Hébergement du débriefing &#2;{0}&#1;</String>
+	<String ID="OnlineDebriefingHostTitle">Hébergement du débriefing {0}</String>
 	<String ID="OnlineDebriefingClientJoiningTitle">Connection au débriefing...</String>
-	<String ID="OnlineDebriefingClientTitle">Connecté au débriefing &#2;{0}&#1;</String>
+	<String ID="OnlineDebriefingClientTitle">Connecté au débriefing {0}</String>
 
 	<!-- Misc -->
 	<String ID="DemoEditionShortOneDay">Demo ({0} jour restant)</String>
@@ -898,6 +919,8 @@
 	<String ID="FileTypeDescriptionZip">Données télémétrie dans une archive ZIP</String>
 	<String ID="FileTypeDescription7z">Données télémétrie dans une archive 7z</String>
 	<String ID="FileTypeDescriptionMediaMany">Fichiers multimédia</String>
+	<String ID="FileTypeDescriptionAudioFiles">Fichiers audio</String>
+	<String ID="FileTypeDescriptionVideoFiles">Fichiers vidéo</String>
 	<String ID="TypeColumn">Type</String>
 	<String ID="TimeColumn">Heure</String>
 	<String ID="EventColumn">Evénement</String>
@@ -905,6 +928,9 @@
 	<String ID="LogLevelInfo">INFO</String>
 	<String ID="LogLevelWarning">ALERTE</String>
 	<String ID="LogLevelError">ERREUR</String>
+	<String ID="EventTime">Heure</String>
+	<String ID="EventCallSign">Indicatif</String>
+	<String ID="EventDescription">Description évènement</String>
 
 	<!-- Flight Recording Strings -->
 	<String ID="ObjectNameShrapnel">Fragment</String>
@@ -941,6 +967,17 @@
 	<String ID="EventHasBeenDestroyed">{0} a été détruit</String>
 	<String ID="EventHasBeenDestroyedBy">{0} a été détruit par {1}</String>
 
+	<String ID="EventLogHasLeftTheArea">a quitté le secteur</String>
+	<String ID="EventLogHasBeenDestroyed">a été détruit</String>
+	<String ID="EventLogHasBeenDestroyedBy">a été détruit par {0}</String>
+	<String ID="EventLogTakeoff">Décollage</String>
+	<String ID="EventLogLanding">Atterrissage</String>
+	<String ID="EventLogDisabledLabel">Kill Removed</String>
+	<String ID="EventLogEnabledLabel">Alive</String>
+	<String ID="EventLogTimeoutLabel">Timeout {2}</String>
+	<String ID="EventLogTimeoutAtLabel">Timeout sur {1} {2}</String>
+	<String ID="EventLogTimeoutWeaponLabel">Timeout {0} {2}</String>
+	<String ID="EventLogTimeoutWeaponAtLabel">Timeout {0} sur {1} {2}</String>
 	<String ID="StatusPlay">LECTURE</String>
 	<String ID="StatusPlaySpeed">LECTURE &#2;×{0:g}</String>
 	<String ID="StatusRewind">REMBOBINAGE</String>
@@ -963,7 +1000,7 @@
 	<String ID="LoadingErrorInvalidID">Erreur dans l'enregistrement de vol.¤ID invalide.</String>
 	<String ID="LoadingErrorUnexpectedCall">Erreur dans l'enregistrement de vol.¤Un véhicule est référencé après avoir été détruit.</String>
 	<String ID="LoadingErrorEndOfFile">'{1}' est vide.¤Assurez-vous que le script d'export est correctement installé et qu'il n'est pas désactivé par le serveur réseau sur lequel vous jouez.</String>
-	<String ID="LoadingErrorInvalidPath">Chemin invalide.¤Assurez-vous que l'enregistrement de vol est accessible et disponible.</String>
+	<String ID="LoadingErrorInvalidPath">Chemin invalide.¤Assurez-vous que l'enregistrement de vol '{1}' est accessible et disponible.</String>
 
 	<String ID="SavingErrorInvalidName">Nom de fichier invalide.¤Réessayez avec un nom correctement formaté ou plus simple.</String>
 	<String ID="SavingErrorInvalidPath">Chemin invalide.¤Assurez-vous que le dossier destination est accessible.</String>
@@ -978,6 +1015,9 @@
 	<String ID="TTFaster">Accélérer</String>
 	<String ID="TTEnd">Aller à la fin de l'enregistrement</String>
 	<String ID="TTOneFrame">Image par image</String>
+	<String ID="TTPreviousEvent">Aller au précèdent événement</String>
+	<String ID="TTNextEvent">Aller au prochain événement</String>
+	<String ID="TTSyncRealTimeTelemetry">Synchroniser avec la télémétrie temps réelle</String>
 
 	<String ID="TTViewCockpit">Vue cockpit (F5)</String>
 	<String ID="TTViewExternal">Vue externe (F6)</String>
