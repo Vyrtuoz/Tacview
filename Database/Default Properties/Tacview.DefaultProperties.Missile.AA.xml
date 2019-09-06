@@ -10,9 +10,15 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="Missile.AA.Radar" Base="Missile.AA">
+		<Properties>
+			<Shape>Missile.AIM-120C.obj</Shape>
+		</Properties>
 	</DefaultProperties>
 
 	<DefaultProperties Id="Missile.AA.IR" Base="Missile.AA">
+		<Properties>
+			<Shape>Missile.AIM-9M.obj</Shape>
+		</Properties>
 	</DefaultProperties>
 
 	<!-- North American AA Missiles -->
@@ -311,6 +317,45 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.AA.AIM-132" Base="Missile.AA.AIM-120">
+		<Criteria>
+			<Name>AIM-132</Name>
+			<Name>AIM-132 ASRAAM</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-132</ShortName>
+			<LongName>AIM-132 ASRAAM</LongName>
+			<FullName>AIM-132 ASRAAM</FullName>
+			<Shape>Missile.AIM-132.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- EU AA Missiles -->
+
+	<DefaultProperties Id="Missile.AA.R550Mk2" Base="Missile.AA.IR">
+		<Criteria>
+			<Name>R550</Name>
+			<Name>Magic II</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R550Mk2</ShortName>
+			<LongName>R550 Magic II</LongName>
+			<FullName>Matra R550 Magic II</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R530D" Base="Missile.AA.Radar">
+		<Criteria>
+			<Name>R530</Name>
+			<Name>Super 530 D</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R530D</ShortName>
+			<LongName>Super 530 D</LongName>
+			<FullName>Matra Super 530 D</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- Eastern AA Missiles -->
 
 	<DefaultProperties Id="Missile.AA.R-27" Base="Missile.AA">
@@ -376,6 +421,33 @@
 			<ShortName>R-27ET</ShortName>
 			<LongName>R-27ET (AA-10 Alamo-D)</LongName>
 			<FullName>Vympel R-27ET (AA-10 Alamo-D)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-3" Base="Missile.AA.IR">
+		<Criteria>
+			<Name>R-3</Name>
+			<Name>AA-2</Name>
+			<Name>AA-2 Atoll</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-3</ShortName>
+			<LongName>R-3 (AA-2 Atoll)</LongName>
+			<FullName>Vympel R-3 (AA-2 Atoll)</FullName>
+			<Shape>Missile.R-60.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-3S" Base="Missile.AA.R-3">
+		<Criteria>
+			<Name>R-3S</Name>
+			<Name>AA-2A</Name>
+			<Name>AA-2A Atoll</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-3S</ShortName>
+			<LongName>R-3S (AA-2A Atoll)</LongName>
+			<FullName>Vympel R-3S (AA-2A Atoll)</FullName>
 		</Properties>
 	</DefaultProperties>
 

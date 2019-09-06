@@ -12,6 +12,9 @@
 	<DefaultProperties Id="Missile.AG.Radio" Base="Missile.AG">
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.AG.Laser" Base="Missile.AG">
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.ARM" Base="Missile.AG">
 	</DefaultProperties>
 
@@ -42,6 +45,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.AG.AGM-65F" Base="Missile.AG.AGM-65">
+		<Criteria>
+			<Name>AGM-65F</Name>
+			<Name>Maverick F</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGM-65F</ShortName>
+			<LongName>AGM-65F Maverick</LongName>
+			<FullName>AGM-65F Maverick</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.AG.AGM-65G" Base="Missile.AG.AGM-65">
 		<Criteria>
 			<Name>AGM-65G</Name>
@@ -58,6 +73,7 @@
 		<Criteria>
 			<Name>AGM-88</Name>
 			<Name>AGM-88 HARM</Name>
+			<Name>HARM</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>AGM-88</ShortName>
@@ -126,6 +142,20 @@
 			<ShortName>Kh-23</ShortName>
 			<LongName>Kh-23 Grom (AS-7)</LongName>
 			<FullName>Kh-23 Grom (AS-7 Kerry)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.Vikhr" Base="Missile.AG.Laser">
+		<Criteria>
+			<Name>9K121</Name>
+			<Name>9K121 Vikhr</Name>
+			<Name>Vikhr</Name>
+			<Name>Vikhr-M</Name>			<!-- Typo from DCS 2.5.5.33184 -->
+		</Criteria>
+		<Properties>
+			<ShortName>Vikhr</ShortName>
+			<LongName>9K121 Vikhr</LongName>
+			<FullName>9K121 Vikhr</FullName>
 		</Properties>
 	</DefaultProperties>
 

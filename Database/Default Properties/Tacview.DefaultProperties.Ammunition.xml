@@ -6,7 +6,7 @@
 
 	<!-- Core Declarations -->
 
-	<DefaultProperties Id="Core.Shell.Artillery" Base="Core.Default">
+	<DefaultProperties Id="Core.Shell.Artillery" Base="Core.Shell">
 		<Criteria>
 			<Type>Shell</Type>
 		</Criteria>
@@ -15,7 +15,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Core.Shell.Tank" Base="Core.Default">
+	<DefaultProperties Id="Core.Shell.Tank" Base="Core.Shell">
 		<Criteria>
 			<Type>Shell</Type>
 		</Criteria>

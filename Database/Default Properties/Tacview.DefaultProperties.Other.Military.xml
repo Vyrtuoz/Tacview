@@ -99,7 +99,7 @@
 
 	<!-- Containers -->
 
-	<DefaultProperties Id="Container.LUA-3" Base="Container.RocketPod">
+	<DefaultProperties Id="Container.RocketPod.LUA-3" Base="Container.RocketPod">
 		<Criteria>
 			<Name>LAU-3</Name>
 		</Criteria>
@@ -110,7 +110,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Container.LUA-68" Base="Container.RocketPod">
+	<DefaultProperties Id="Container.RocketPod.LUA-68" Base="Container.RocketPod">
 		<Criteria>
 			<Name>LAU-68</Name>
 		</Criteria>
@@ -121,14 +121,25 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Container.FuelTank.Aero.1D" Base="Container.FuelTank">
+	<DefaultProperties Id="Container.RocketPod.LUA-3" Base="Container.RocketPod">
 		<Criteria>
-			<Name>Aero 1D</Name>
+			<Name>LAU-3</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>Aero 1D</ShortName>
-			<LongName>Aero 1D Fuel Tank</LongName>
-			<FullName>Aero 1D Fuel Tank</FullName>
+			<ShortName>LAU-3</ShortName>
+			<LongName>LAU-3</LongName>
+			<FullName>LAU-3</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.RocketPod.B-20-OFP2" Base="Container.RocketPod">
+		<Criteria>
+			<Name>B-20-OFP2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B-20-OFP2</ShortName>
+			<LongName>B-20-OFP2</LongName>
+			<FullName>B-20-OFP2</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -151,6 +162,61 @@
 			<ShortName>275-gal</ShortName>
 			<LongName>275-gal Fuel Tank</LongName>
 			<FullName>275-gal Fuel Tank</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.FuelTank.PTB-400" Base="Container.FuelTank">
+		<Criteria>
+			<Name>PTB-400</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PTB-400</ShortName>
+			<LongName>PTB-400</LongName>
+			<FullName>PTB-400 Fuel Tank</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.FuelTank.PTB-760" Base="Container.FuelTank">
+		<Criteria>
+			<Name>PTB-760</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PTB-760</ShortName>
+			<LongName>PTB-760</LongName>
+			<FullName>PTB-760 Fuel Tank</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.FuelTank.Generic" Base="Container.FuelTank">
+		<Criteria>
+			<Name>Drop Tank</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Drop Tank</ShortName>
+			<LongName>Drop Tank</LongName>
+			<FullName>Drop Tank</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.FuelTank.1500L" Base="Container.FuelTank">
+		<Criteria>
+			<Name>Fuel Tank 1500 L</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Drop Tank</ShortName>
+			<LongName>Drop Tank 1500L</LongName>
+			<FullName>Drop Tank 1500L</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.FuelTank.PTB-1150" Base="Container.FuelTank">
+		<Criteria>
+			<Name>PTB-1150</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PTB-1150</ShortName>
+			<LongName>Drop Tank PTB-1150</LongName>
+			<FullName>Drop Tank PTB-1150</FullName>
 		</Properties>
 	</DefaultProperties>
 

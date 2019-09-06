@@ -104,6 +104,28 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Core.Shell" Base="Core.Default">
+		<Criteria>
+			<Type>Weapon+Shell</Type>
+			<Type>Shell</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Shell</AdditionalType>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Core.Bullet" Base="Core.Default">
+		<Criteria>
+			<Type>Weapon+Bullet</Type>
+			<Type>Bullet</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Bullet</AdditionalType>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Core.Waypoint" Base="Core.Default">
 		<Criteria>
 			<Type>Waypoint</Type>

@@ -57,12 +57,21 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="AntiAircraft.SAM.TrackingRadar" Base="AntiAircraft.SAM">
+		<Properties>
+			<Shape>AntiAircraft.SAM.SA-10.76N6.obj</Shape>
+		</Properties>
 	</DefaultProperties>
 
 	<DefaultProperties Id="AntiAircraft.SAM.SearchAndTrackingRadar" Base="AntiAircraft.SAM">
+		<Properties>
+			<Shape>AntiAircraft.SAM.SA-10.76N6.obj</Shape>
+		</Properties>
 	</DefaultProperties>
 
 	<DefaultProperties Id="AntiAircraft.SAM.Launcher" Base="AntiAircraft.SAM">
+		<Properties>
+			<Shape>AntiAircraft.SAM.Launcher.obj</Shape>
+		</Properties>
 	</DefaultProperties>
 
 	<!-- North American SAM -->
@@ -264,6 +273,40 @@
 
 	<!-- European SAM -->
 
+	<DefaultProperties Id="AntiAircraft.SAM.Rapier.FAS.SR" Base="AntiAircraft.SAM.SearchRadar">
+		<Criteria>
+			<Name>rapier_fsa_blindfire_radar</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Rapier SR</ShortName>
+			<LongName>Rapier FAS SR</LongName>
+			<FullName>Rapier FAS (SearchRadar)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.Rapier.FAS.TR" Base="AntiAircraft.SAM.TrackingRadar">
+		<Criteria>
+			<Name>rapier_fsa_optical_tracker_unit</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Rapier TR</ShortName>
+			<LongName>Rapier FAS (TR)</LongName>
+			<FullName>Rapier FAS (Tracking Radar)</FullName>
+			<EngagementRange>8000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.Rapier.FAS.LN" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>rapier_fsa_launcher</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Rapier LN</ShortName>
+			<LongName>Rapier FAS (LN)</LongName>
+			<FullName>Rapier FAS (Launcher)</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="AntiAircraft.SAM.Mistral.Launcher" Base="AntiAircraft.SAM.Manpad">
 		<Criteria>
 			<Name>Mistral-V</Name>			<!-- BMS Israel -->
@@ -306,11 +349,53 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="AntiAircraft.SAM.ASTER30.Launcher" Base="AntiAircraft.SAM.Launcher">
+		<!-- https://www.army-technology.com/projects/aster-30/ -->
+		<Criteria>
+			<Name>Aster 30 (LN)</Name>
+			<Name>SAMP/T (LN)</Name>
+			<Name>Mamba (LN)</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mamba (LN)</ShortName>
+			<LongName>Aster 30 Mamba (LN)</LongName>
+			<FullName>SAMP/T Aster 30 Mamba (LN)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.ASTER30.SearchAndTrackingRadar" Base="AntiAircraft.SAM.SearchAndTrackingRadar">
+		<Criteria>
+			<Name>Aster 30 (STR)</Name>
+			<Name>SAMP/T (STR)</Name>
+			<Name>Mamba (STR)</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mamba (STR)</ShortName>
+			<LongName>Aster 30 Mamba (STR)</LongName>
+			<FullName>SAMP/T Aster 30 Mamba (STR)</FullName>
+			<EngagementRange>65000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.ASTER30.Control" Base="AntiAircraft.SAM.Control">
+		<Criteria>
+			<Name>Aster 30 (CC)</Name>
+			<Name>SAMP/T (CC)</Name>
+			<Name>Mamba (CC)</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mamba (CC)</ShortName>
+			<LongName>Aster 30 Mamba (CC)</LongName>
+			<FullName>SAMP/T Aster 30 Mamba (CC)</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- Eastern SAM -->
 
 	<DefaultProperties Id="AntiAircraft.SAM.SA-2.SR" Base="AntiAircraft.SAM.SearchRadar">
 		<Criteria>
 			<Name>Spoon Rest</Name>		<!-- BMS -->
+			<Name>SA-2 SR</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SA-2</ShortName>
@@ -323,6 +408,7 @@
 		<Criteria>
 			<Name>SA-2</Name>			<!-- BMS -->
 			<Name>SA-2 Launcher</Name>	<!-- SuperBug -->
+			<Name>SA-2 LN</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SA-2</ShortName>
@@ -336,6 +422,7 @@
 			<Name>SNR-75</Name>
 			<Name>Fan Song</Name>		<!-- SuperBug -->
 			<Name>Fan Song E</Name>		<!-- BMS -->
+			<Name>SA-2 TR</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SA-2</ShortName>
@@ -348,6 +435,7 @@
 	<DefaultProperties Id="AntiAircraft.SAM.SA-3.P-19" Base="AntiAircraft.SAM.SearchRadar">
 		<Criteria>
 			<Name>P-19 s-125 sr</Name>
+			<Name>SA-3 SR</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SA-3</ShortName>
@@ -361,6 +449,7 @@
 			<Name>SA-3</Name>		<!-- BMS -->
 			<Name>5P73</Name>
 			<Name>5p73 s-125 ln</Name>
+			<Name>SA-3 LN</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SA-3</ShortName>
@@ -373,6 +462,7 @@
 		<Criteria>
 			<Name>snr s-125 tr</Name>
 			<Name>Low Blow</Name>
+			<Name>SA-3 TR</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SA-3</ShortName>
@@ -386,6 +476,7 @@
 		<Criteria>
 			<Name>Bar Lock B</Name>
 			<Name>Barlock-B</Name>			<!-- BMS Israel -->
+			<Name>SA-5 SR</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SA-5</ShortName>
@@ -397,6 +488,7 @@
 	<DefaultProperties Id="AntiAircraft.SAM.SA-5.Launcher" Base="AntiAircraft.SAM.Launcher">
 		<Criteria>
 			<Name>SA-5</Name>				<!-- BMS Israel -->
+			<Name>SA-5 LN</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SA-5</ShortName>
@@ -409,6 +501,7 @@
 		<Criteria>
 			<Name>Square Pair</Name>		<!-- BMS Israel -->
 			<Name>5N62</Name>
+			<Name>SA-5 TR</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SA-5</ShortName>
@@ -423,6 +516,7 @@
 			<Name>Straight Flush</Name>		<!-- BMS Israel -->
 			<Name>1S91</Name>
 			<Name>Kub 1S91 str</Name>
+			<Name>SA-6 STR</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SA-6</ShortName>
@@ -437,6 +531,7 @@
 			<Name>SA-6</Name>				<!-- BMS Israel -->
 			<Name>2P25</Name>
 			<Name>Kub 2P25 ln</Name>
+			<Name>SA-6 LN</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SA-6</ShortName>
@@ -496,6 +591,7 @@
 	<DefaultProperties Id="AntiAircraft.SAM.SA-10.54K6" Base="AntiAircraft.SAM.Control">
 		<Criteria>
 			<Name>S-300PS 54K6 cp</Name>
+			<Name>SA-10 CP</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SA-10</ShortName>
@@ -518,6 +614,7 @@
 	<DefaultProperties Id="AntiAircraft.SAM.SA-10.64H6E" Base="AntiAircraft.SAM.SearchRadar">
 		<Criteria>
 			<Name>S-300PS 64H6E sr</Name>
+			<Name>SA-10 SR</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SA-10</ShortName>
@@ -540,6 +637,7 @@
 	<DefaultProperties Id="AntiAircraft.SAM.SA-10.5P85D" Base="AntiAircraft.SAM.Launcher">
 		<Criteria>
 			<Name>S-300PS 5P85D ln</Name>
+			<Name>SA-10 LN</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SA-10</ShortName>
@@ -551,6 +649,7 @@
 	<DefaultProperties Id="AntiAircraft.SAM.SA-10.40B6M" Base="AntiAircraft.SAM.TrackingRadar">
 		<Criteria>
 			<Name>S-300PS 40B6M tr</Name>
+			<Name>SA-10 TR</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SA-10</ShortName>
@@ -563,6 +662,7 @@
 	<DefaultProperties Id="AntiAircraft.SAM.SA-11.9S18M1" Base="AntiAircraft.SAM.SearchRadar">
 		<Criteria>
 			<Name>SA-11 Buk SR 9S18M1</Name>
+			<Name>SA-11 SR</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SA-11</ShortName>
@@ -575,6 +675,7 @@
 	<DefaultProperties Id="AntiAircraft.SAM.SA-11.9S470M1" Base="AntiAircraft.SAM.SearchRadar">
 		<Criteria>
 			<Name>SA-11 Buk CC 9S470M1</Name>
+			<Name>SA-11 CC</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SA-11</ShortName>
@@ -586,6 +687,7 @@
 	<DefaultProperties Id="AntiAircraft.SAM.SA-11.9A310M1" Base="AntiAircraft.SAM.Launcher">
 		<Criteria>
 			<Name>SA-11 Buk LN 9A310M1</Name>
+			<Name>SA-11 LN</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SA-11</ShortName>

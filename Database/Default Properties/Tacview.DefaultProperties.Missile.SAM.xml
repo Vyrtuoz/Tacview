@@ -12,6 +12,9 @@
 	<DefaultProperties Id="Missile.SAM.IR" Base="Missile.SAM">
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.SAM.Hybrid" Base="Missile.SAM">
+	</DefaultProperties>
+
 	<!-- Eastern Surface-to-air Missiles -->
 
 	<DefaultProperties Id="Missile.SAM.9M39" Base="Missile.SAM.IR">
@@ -24,6 +27,18 @@
 			<ShortName>9M39</ShortName>
 			<LongName>9M39 Igla (SA-18)</LongName>
 			<FullName>9M39 Igla (SA-18 Grouse)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.SAM.Rapier" Base="Missile.SAM.Hybrid">
+		<Criteria>
+			<Name>Rapier</Name>
+			<Name>Rapier missile</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Rapier</ShortName>
+			<LongName>Rapier (missile)</LongName>
+			<FullName>Rapier (missile)</FullName>
 		</Properties>
 	</DefaultProperties>
 

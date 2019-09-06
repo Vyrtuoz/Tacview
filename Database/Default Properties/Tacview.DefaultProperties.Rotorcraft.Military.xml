@@ -296,6 +296,19 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Rotorcraft.NH90" Base="Rotorcraft.Transport">
+		<Criteria>
+			<Name>NH90</Name>
+			<Name>NHIndustries NH90</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>NH90</ShortName>
+			<LongName>NHIndustries NH90</LongName>
+			<FullName>NHIndustries NH90</FullName>
+			<Shape>Rotorcraft.NH90.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Rotorcraft.SA330" Base="Rotorcraft.Transport">
 		<Criteria>
 			<Name>SA 330</Name>

@@ -23,4 +23,113 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Building.DoublePylon.60m" Base="Building.DoublePylon">
+		<!-- https://www.digitalcombatsimulator.com/fr/files/3196986/ -->
+		<Criteria>
+			<Name>60m Checker</Name>
+		</Criteria>
+		<Properties>
+			<Shape>Building.DoublePylon.60m.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Building.DoublePylon.60m.Blue" Base="Building.DoublePylon">
+		<!-- https://www.digitalcombatsimulator.com/fr/files/3196986/ -->
+		<Criteria>
+			<Name>60m Blue</Name>
+		</Criteria>
+		<Properties>
+			<Color>Blue</Color>
+			<Shape>Building.DoublePylon.60m.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Building.DoublePylon.40m.Blue" Base="Building.DoublePylon">
+		<!-- https://www.digitalcombatsimulator.com/fr/files/3196986/ -->
+		<Criteria>
+			<Name>40m Blue</Name>
+		</Criteria>
+		<Properties>
+			<Color>Blue</Color>
+			<Shape>Building.DoublePylon.40m.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Building.DoublePylon.40m.Blue" Base="Building.DoublePylon">
+		<!-- https://www.digitalcombatsimulator.com/fr/files/3196986/ -->
+		<Criteria>
+			<Name>40m Blue</Name>
+		</Criteria>
+		<Properties>
+			<Color>Blue</Color>
+			<Shape>Building.DoublePylon.40m.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Building.DoublePylon.15m.Red" Base="Building.Pylon">
+		<!-- https://www.digitalcombatsimulator.com/fr/files/3196986/ -->
+		<Criteria>
+			<Name>15m Red</Name>
+		</Criteria>
+		<Properties>
+			<Color>Red</Color>
+			<Shape>Building.DoublePylon.15m.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Building.DoublePylon.15m.Blue" Base="Building.Pylon">
+		<!-- https://www.digitalcombatsimulator.com/fr/files/3196986/ -->
+		<Criteria>
+			<Name>15m Blue</Name>
+		</Criteria>
+		<Properties>
+			<Color>Blue</Color>
+			<Shape>Building.DoublePylon.15m.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Building.SinglePylon.50m.Blue" Base="Building.Pylon">
+		<!-- https://www.digitalcombatsimulator.com/fr/files/3196986/ -->
+		<Criteria>
+			<Name>50m Blue</Name>
+		</Criteria>
+		<Properties>
+			<Color>Blue</Color>
+			<Shape>Building.SinglePylon.50m.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Building.SinglePylon.50m.Red" Base="Building.Pylon">
+		<!-- https://www.digitalcombatsimulator.com/fr/files/3196986/ -->
+		<Criteria>
+			<Name>50m Red</Name>
+		</Criteria>
+		<Properties>
+			<Color>Red</Color>
+			<Shape>Building.SinglePylon.50m.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Building.SinglePylon.25m.Red" Base="Building.Pylon">
+		<!-- https://www.digitalcombatsimulator.com/fr/files/3196986/ -->
+		<Criteria>
+			<Name>25m Red</Name>
+		</Criteria>
+		<Properties>
+			<Color>Red</Color>
+			<Shape>Building.SinglePylon.25m.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Building.SinglePylon.25m.Blue" Base="Building.Pylon">
+		<!-- https://www.digitalcombatsimulator.com/fr/files/3196986/ -->
+		<Criteria>
+			<Name>25m Blue</Name>
+		</Criteria>
+		<Properties>
+			<Color>Blue</Color>
+			<Shape>Building.SinglePylon.25m.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 </DefaultPropertiesCollection>

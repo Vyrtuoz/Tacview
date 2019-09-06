@@ -119,6 +119,32 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Rotorcraft.EC120" Base="Rotorcraft.Transport">
+		<Criteria>
+			<Name>EC-120</Name>
+			<Name>EC120</Name>
+			<Name>Colibri</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>EC120</ShortName>
+			<LongName>EC120 Colibri</LongName>
+			<FullName>Eurocopter EC120 Colibri</FullName>
+			<Shape>Rotorcraft.EC120.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.EC120B" Base="Rotorcraft.EC120">
+		<Criteria>
+			<Name>EC-120B</Name>
+			<Name>EC120B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>EC120B</ShortName>
+			<LongName>EC120B Colibri</LongName>
+			<FullName>Eurocopter EC120B Colibri</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Rotorcraft.SA341" Base="Rotorcraft.Transport">
 		<Criteria>
 			<Name>SA 341</Name>

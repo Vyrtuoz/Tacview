@@ -24,6 +24,9 @@
 	<DefaultProperties Id="Bomb.Cluster" Base="Core.Bomb">
 	</DefaultProperties>
 
+	<DefaultProperties Id="Bomb.Subminution" Base="Core.Bomb">
+	</DefaultProperties>
+
 	<DefaultProperties Id="Bomb.Practice" Base="Core.Bomb">
 	</DefaultProperties>
 
@@ -161,6 +164,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Bomb.GBU-38" Base="Bomb.Guided">
+		<Criteria>
+			<Name>GBU-38</Name>
+			<Name>JDAM</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>GBU-38</ShortName>
+			<LongName>GBU-38 JDAM</LongName>
+			<FullName>GBU-38 JDAM</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Bomb.Mk81" Base="Bomb.Unguided">
 		<Criteria>
 			<Name>Mk-81</Name>
@@ -187,14 +202,13 @@
 
 	<DefaultProperties Id="Bomb.Mk82RT" Base="Bomb.Unguided">
 		<Criteria>
-			<Name>Mk-82</Name>
 			<Name>Mk-82RT</Name>
 			<Name>Mk 82 Snake Eye</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>Mk-82RT</ShortName>
 			<LongName>Mk-82 Snake Eye</LongName>
-			<FullName>Mark 82</FullName>
+			<FullName>Mk-82 Snake Eye</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -245,6 +259,39 @@
 	</DefaultProperties>
 
 	<!-- Eastern Bombs -->
+
+	<DefaultProperties Id="Bomb.FAB500" Base="Bomb.Unguided">
+		<Criteria>
+			<Name>FAB 500</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>FAB-500</ShortName>
+			<LongName>FAB-500</LongName>
+			<FullName>FAB-500</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.AO-2,5RT" Base="Bomb.Subminution">
+		<Criteria>
+			<Name>weapons.bombs.KMGU_2_AO_2_5RT</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AO-2,5RT</ShortName>
+			<LongName>AO-2,5RT</LongName>
+			<FullName>AO-2,5RT high explosive mines</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.PTAB-2,5KO" Base="Bomb.Subminution">
+		<Criteria>
+			<Name>weapons.bombs.KMGU_2_PTAB_2_5KO</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PTAB-2,5KO</ShortName>
+			<LongName>PTAB-2,5KO</LongName>
+			<FullName>PTAB-2,5KO armor piercing</FullName>
+		</Properties>
+	</DefaultProperties>
 
 	<!-- EU Bombs -->
 

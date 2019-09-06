@@ -77,6 +77,54 @@
 
 	<!-- Eastern Rockets -->
 
+	<DefaultProperties Id="Rocket.S8" Base="Rocket.Light">
+		<Criteria>
+			<Name>C_8</Name>
+			<Name>S-8</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>S-8</ShortName>
+			<LongName>S-8</LongName>
+			<FullName>S-8</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rocket.S8.OFP2" Base="Rocket.S8">
+		<Criteria>
+			<Name>C_8OFP2</Name>
+			<Name>S-8OFP2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>S-8OFP2</ShortName>
+			<LongName>S-8OFP2</LongName>
+			<FullName>S-8OFP2</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rocket.S8.TsM" Base="Rocket.S8">
+		<Criteria>
+			<Name>S-8TsM</Name>
+			<Name>C-8CM</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>S-8TsM</ShortName>
+			<LongName>S-8TsM</LongName>
+			<FullName>S-8TsM</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rocket.S24" Base="Rocket.Heavy">
+		<Criteria>
+			<Name>C_24</Name>
+			<Name>S-24</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>S-24</ShortName>
+			<LongName>S-24</LongName>
+			<FullName>S-24</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- EU Rockets -->
 
 </DefaultPropertiesCollection>

@@ -622,6 +622,31 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.A-20" Base="FixedWing.GroundAttack">
+		<Criteria>
+			<Name>A-20</Name>
+			<Name>A-20 Havoc</Name>
+			<Name>Havoc</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A-20</ShortName>
+			<LongName>A-20 Havoc</LongName>
+			<FullName>Douglas A-20 Havoc</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.A-20B" Base="FixedWing.A-20">
+		<Criteria>
+			<Name>A-20B</Name>
+			<Name>A-20B Havoc</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A-20B</ShortName>
+			<LongName>A-20B Havoc</LongName>
+			<FullName>Douglas A-20B Havoc</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.Harrier" Base="FixedWing.GroundAttack">
 		<Criteria>
 			<Name>Harrier</Name>
@@ -646,7 +671,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.AV-8B.NA" Base="FixedWing.Harrier">
+	<DefaultProperties Id="FixedWing.AV-8B.NA" Base="FixedWing.AV-8B">
 		<Criteria>
 			<Name>AV-8BNA</Name>		<!-- DCS World 2.5 -->
 		</Criteria>
@@ -867,6 +892,32 @@
 			<ShortName>F-14A</ShortName>
 			<LongName>F-14A Tomcat</LongName>
 			<FullName>Grumman F-14A Tomcat</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.F-14B" Base="FixedWing.F-14A">
+		<Criteria>
+			<Name>F-14B</Name>
+			<Name>F-14B Tomcat</Name>
+			<Name>Grumman F-14B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F-14B</ShortName>
+			<LongName>F-14B Tomcat</LongName>
+			<FullName>Grumman F-14B Tomcat</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.F-14D" Base="FixedWing.F-14B">
+		<Criteria>
+			<Name>F-14D</Name>
+			<Name>F-14D Super Tomcat</Name>
+			<Name>Grumman F-14D</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F-14D</ShortName>
+			<LongName>F-14D Super Tomcat</LongName>
+			<FullName>Grumman F-14D Super Tomcat</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -1379,6 +1430,43 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.P-38" Base="FixedWing.Fighter.TwinProp">
+		<Criteria>
+			<Name>P-38</Name>
+			<Name>P-38 Lightning</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>P-38</ShortName>
+			<LongName>P-38 Lightning</LongName>
+			<FullName>Lockheed P-38 Lightning</FullName>
+			<Shape>FixedWing.P-38.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.P-38J" Base="FixedWing.P-38">
+		<Criteria>
+			<Name>P-38J</Name>
+			<Name>P-38J Lightning</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>P-38J</ShortName>
+			<LongName>P-38J Lightning</LongName>
+			<FullName>Lockheed P-38J Lightning</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.P-38J-25" Base="FixedWing.P-38J">
+		<Criteria>
+			<Name>P-38J-25</Name>
+			<Name>P-38J-25 Lightning</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>P-38J-25</ShortName>
+			<LongName>P-38J-25 Lightning</LongName>
+			<FullName>Lockheed P-38J-25 Lightning</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.P-39" Base="FixedWing.Fighter.Prop">
 		<Criteria>
 			<Name>P-39</Name>
@@ -1472,6 +1560,43 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.P-47" Base="FixedWing.Fighter.Prop">
+		<Criteria>
+			<Name>P-47</Name>
+			<Name>P-47 Thunderbolt</Name>
+			<Name>Republic P-47 Thunderbolt</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>P-47</ShortName>
+			<LongName>P-47 Thunderbolt</LongName>
+			<FullName>Republic P-47 Thunderbolt</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.P-47D" Base="FixedWing.P-47">
+		<Criteria>
+			<Name>P-47D</Name>
+			<Name>P-47D Thunderbolt</Name>
+			<Name>Republic P-47D Thunderbolt</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>P-47D</ShortName>
+			<LongName>P-47D Thunderbolt</LongName>
+			<FullName>Republic P-47D Thunderbolt</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.P-47D-28" Base="FixedWing.P-47D">
+		<Criteria>
+			<Name>P-47D-28</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>P-47D-28</ShortName>
+			<LongName>P-47D-28 Thunderbolt</LongName>
+			<FullName>Republic P-47D-28 Thunderbolt</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.P-51" Base="FixedWing.Fighter.Prop">
 		<Criteria>
 			<Name>P-51</Name>
@@ -1497,6 +1622,17 @@
 			<LongName>P-51D Mustang</LongName>
 			<FullName>North American P-51D Mustang</FullName>
 			<Shape>FixedWing.P-51D.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.P-51D-15" Base="FixedWing.P-51D">
+		<Criteria>
+			<Name>P-51D-15</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>P-51D-15</ShortName>
+			<LongName>P-51D-15 Mustang</LongName>
+			<FullName>North American P-51D-15 Mustang</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -1543,6 +1679,29 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.D.V" Base="FixedWing.Fighter.Biplane">
+		<Criteria>
+			<Name>Albatros D.V</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>D.V</ShortName>
+			<LongName>Albatros D.V</LongName>
+			<FullName>Albatros D.V</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.D.Va" Base="FixedWing.D.V">
+		<Criteria>
+			<Name>D.Va</Name>
+			<Name>Albatros D.Va</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>D.Va</ShortName>
+			<LongName>Albatros D.Va</LongName>
+			<FullName>Albatros D.Va</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.CAML" Base="FixedWing.Fighter.Biplane">
 		<Criteria>
 			<Name>Camel</Name>
@@ -1553,6 +1712,63 @@
 			<LongName>Sopwith Camel</LongName>
 			<FullName>Sopwith Camel</FullName>
 			<Shape>FixedWing.CAML.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Pfalz.D.III" Base="FixedWing.Fighter.Biplane">
+		<Criteria>
+			<Name>Pfalz D.III</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Pfalz D.III</ShortName>
+			<LongName>Pfalz D.III</LongName>
+			<FullName>Pfalz D.III</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Pfalz.D.IIIa" Base="FixedWing.Pfalz.D.III">
+		<Criteria>
+			<Name>Pfalz D.IIIa</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Pfalz D.IIIa</ShortName>
+			<LongName>Pfalz D.IIIa</LongName>
+			<FullName>Pfalz D.IIIa</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.S.E.5" Base="FixedWing.Fighter.Biplane">
+		<Criteria>
+			<Name>S.E.5</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>S.E.5</ShortName>
+			<LongName>Royal Aircraft Factory S.E.5</LongName>
+			<FullName>Royal Aircraft Factory S.E.5</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.S.E.5a" Base="FixedWing.S.E.5">
+		<Criteria>
+			<Name>S.E.5a</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>S.E.5a</ShortName>
+			<LongName>Royal Aircraft Factory S.E.5a</LongName>
+			<FullName>Royal Aircraft Factory S.E.5a</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Dolphin" Base="FixedWing.Fighter.Biplane">
+		<Criteria>
+			<Name>Dolphin</Name>
+			<Name>Sopwith Dolphin</Name>
+			<Name>Sopwith 5F.1 Dolphin</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Dolphin</ShortName>
+			<LongName>Sopwith Dolphin</LongName>
+			<FullName>Sopwith 5F.1 Dolphin</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -1657,6 +1873,28 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.Bf 109.G-6" Base="FixedWing.Bf 109">
+		<Criteria>
+			<Name>Bf 109 G-6</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Bf 109 G-6</ShortName>
+			<LongName>Messerschmitt Bf 109 G-6</LongName>
+			<FullName>Messerschmitt Bf 109 G-6</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Bf 109.G-14" Base="FixedWing.Bf 109">
+		<Criteria>
+			<Name>Bf 109 G-14</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Bf 109 G-14</ShortName>
+			<LongName>Messerschmitt Bf 109 G-14</LongName>
+			<FullName>Messerschmitt Bf 109 G-14</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.Bf 109.K-4" Base="FixedWing.Bf 109">
 		<Criteria>
 			<Name>Bf 109 K-4</Name>
@@ -1730,6 +1968,66 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.Bristol.F2B" Base="FixedWing.Fighter.Biplane">
+		<Criteria>
+			<Name>Bristol F.2B</Name>
+			<Name>Bristol F2B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F.2B</ShortName>
+			<LongName>Bristol F.2B</LongName>
+			<FullName>Bristol F.2B Fighter</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Bristol.F2B.F.II" Base="FixedWing.Bristol.F2B">
+		<Criteria>
+			<Name>Bristol F.2B (F.II)</Name>
+			<Name>Bristol F2B (F.II)</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F.2B</ShortName>
+			<LongName>Bristol F.2B (F.II)</LongName>
+			<FullName>Bristol F.2B (F.II)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Bristol.F2B.F.III" Base="FixedWing.Bristol.F2B.F.II">
+		<Criteria>
+			<Name>Bristol F.2B (F.III)</Name>
+			<Name>Bristol F2B (F.III)</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F.2B</ShortName>
+			<LongName>Bristol F.2B (F.III)</LongName>
+			<FullName>Bristol F.2B (F.III)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Me 262" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>Me 262</Name>
+			<Name>Messerschmitt Me 262</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Me 262</ShortName>
+			<LongName>Me 262 Schwalbe</LongName>
+			<FullName>Messerschmitt Me 262 Schwalbe</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Me 262 A" Base="FixedWing.Me 262">
+		<Criteria>
+			<Name>Me 262 A</Name>
+			<Name>Messerschmitt Me 262 A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Me 262 A</ShortName>
+			<LongName>Me 262 A Schwalbe</LongName>
+			<FullName>Messerschmitt Me 262 A Schwalbe</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.C.202" Base="FixedWing.Fighter.Prop">
 		<Criteria>
 			<Name>C.202</Name>
@@ -1743,24 +2041,24 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.C.202.III" Base="FixedWing.C.202">
+	<DefaultProperties Id="FixedWing.C.202.VIII" Base="FixedWing.C.202">
 		<Criteria>
 			<Name>C.202 ser.VIII</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>C.202</ShortName>
-			<LongName>C.202 (Series III) Folgore</LongName>
-			<FullName>Macchi C.202 (Series III) Folgore</FullName>
+			<LongName>C.202 (Series VIII) Folgore</LongName>
+			<FullName>Macchi C.202 (Series VIII) Folgore</FullName>
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.Fw 190" Base="FixedWing.Fighter.TwinProp">
+	<DefaultProperties Id="FixedWing.Fw 190" Base="FixedWing.Fighter.Prop">
 		<Criteria>
 			<Name>Fw 190</Name>
 			<Name>Fw 190 Würger</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>Fw 190 Würger</ShortName>
+			<ShortName>Fw 190</ShortName>
 			<LongName>Fw 190 Würger</LongName>
 			<FullName>Focke-Wulf Fw 190 Würger</FullName>
 			<Shape>FixedWing.Fw 190.obj</Shape>
@@ -1773,7 +2071,7 @@
 			<Name>Fw 190 A Würger</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>Fw 190 A Würger</ShortName>
+			<ShortName>Fw 190 A</ShortName>
 			<LongName>Fw 190 A Würger</LongName>
 			<FullName>Focke-Wulf Fw 190 A Würger</FullName>
 		</Properties>
@@ -1785,7 +2083,7 @@
 			<Name>Fw 190 A-3 Würger</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>Fw 190 A-3 Würger</ShortName>
+			<ShortName>Fw 190 A-3</ShortName>
 			<LongName>Fw 190 A-3 Würger</LongName>
 			<FullName>Focke-Wulf Fw 190 A-3 Würger</FullName>
 		</Properties>
@@ -1797,9 +2095,21 @@
 			<Name>Fw 190 A-5 Würger</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>Fw 190 A-5 Würger</ShortName>
+			<ShortName>Fw 190 A-5</ShortName>
 			<LongName>Fw 190 A-5 Würger</LongName>
 			<FullName>Focke-Wulf Fw 190 A-5 Würger</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Fw 190 A-8" Base="FixedWing.Fw 190 A">
+		<Criteria>
+			<Name>Fw 190 A-8</Name>
+			<Name>Fw 190 A-8 Würger</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Fw 190 A-8</ShortName>
+			<LongName>Fw 190 A-8 Würger</LongName>
+			<FullName>Focke-Wulf Fw 190 A-8 Würger</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -1824,6 +2134,55 @@
 			<ShortName>Fw 190 D-9 Dora</ShortName>
 			<LongName>Fw 190 D-9 Dora</LongName>
 			<FullName>Focke-Wulf Fw 190 D-9 Dora</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Fokker.D.VII" Base="FixedWing.Fighter.Biplane">
+		<Criteria>
+			<Name>D.VII</Name>
+			<Name>Fokker D.VII</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>D.VII</ShortName>
+			<LongName>Fokker D.VII</LongName>
+			<FullName>Fokker D.VII</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Fokker.D.VIIF" Base="FixedWing.Fokker.D.VII">
+		<Criteria>
+			<Name>D.VII(F)</Name>
+			<Name>Fokker D.VII(F)</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>D.VII(F)</ShortName>
+			<LongName>Fokker D.VII(F)</LongName>
+			<FullName>Fokker D.VII(F)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Halberstadt.CL.II" Base="FixedWing.Fighter.Biplane">
+		<Criteria>
+			<Name>CL.II</Name>
+			<Name>Halberstadt CL.II</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CL.II</ShortName>
+			<LongName>Halberstadt CL.II</LongName>
+			<FullName>Halberstadt CL.II</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Halberstadt.CL.II.200hp" Base="FixedWing.Halberstadt.CL.II">
+		<Criteria>
+			<Name>CL.IIa</Name>
+			<Name>Halberstadt CL.IIa</Name>
+			<Name>Halberstadt CL.II 200hp</Name>		<!-- IL2 name -->
+		</Criteria>
+		<Properties>
+			<ShortName>CL.IIa</ShortName>
+			<LongName>Halberstadt CL.IIa</LongName>
+			<FullName>Halberstadt CL.IIa</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -1886,6 +2245,19 @@
 			<ShortName>Hs 129 B-2</ShortName>
 			<LongName>Hs 129 B-2</LongName>
 			<FullName>Henschel Hs 129 B-2</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Mirage F1" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>Mirage F1</Name>
+			<Name>Dassault Mirage F1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F1</ShortName>
+			<LongName>Mirage F1</LongName>
+			<FullName>Dassault Mirage F1</FullName>
+			<Shape>FixedWing.Mirage F1.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -1955,6 +2327,33 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.PC-7" Base="FixedWing.Trainer.Prop">
+		<Criteria>
+			<Name>NCPC-7</Name>
+			<Name>PC-7</Name>
+			<Name>Pilatus PC-7</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PC-7</ShortName>
+			<LongName>Pilatus PC-7</LongName>
+			<FullName>Pilatus PC-7</FullName>
+			<Shape>FixedWing.PC-9.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.PC-9" Base="FixedWing.Trainer.Prop">
+		<Criteria>
+			<Name>PC-9</Name>
+			<Name>Pilatus PC-9</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PC-9</ShortName>
+			<LongName>Pilatus PC-9</LongName>
+			<FullName>Pilatus PC-9</FullName>
+			<Shape>FixedWing.PC-9.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.Rafale" Base="FixedWing.Fighter.Jet">
 		<Criteria>
 			<Name>Rafale</Name>
@@ -1965,6 +2364,30 @@
 			<LongName>Rafale</LongName>
 			<FullName>Dassault Rafale</FullName>
 			<Shape>FixedWing.Rafale.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.SPAD.13" Base="FixedWing.Fighter.Biplane">
+		<Criteria>
+			<Name>SPAD 13</Name>
+			<Name>SPAD S.XIII</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>S.XIII</ShortName>
+			<LongName>SPAD S.XIII</LongName>
+			<FullName>SPAD S.XIII</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.SPAD.13.C1" Base="FixedWing.SPAD.13">
+		<Criteria>
+			<Name>SPAD 13 C1</Name>
+			<Name>SPAD S.XIII C1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>S.XIII C1</ShortName>
+			<LongName>SPAD S.XIII C1</LongName>
+			<FullName>SPAD S.XIII C1</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -2002,6 +2425,30 @@
 			<ShortName>Spitfire</ShortName>
 			<LongName>Spitfire LF Mk IX</LongName>
 			<FullName>Supermarine Spitfire LF Mk IX</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Tempest" Base="FixedWing.Fighter.Prop">
+		<Criteria>
+			<Name>Tempest</Name>
+			<Name>Hawker Tempest</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Tempest</ShortName>
+			<LongName>Hawker Tempest</LongName>
+			<FullName>Hawker Tempest</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Tempest.Mk.V" Base="FixedWing.Tempest">
+		<Criteria>
+			<Name>Tempest Mk.V</Name>
+			<Name>Hawker Tempest Mk.V</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Tempest</ShortName>
+			<LongName>Hawker Tempest Mk.V</LongName>
+			<FullName>Hawker Tempest Mk.V</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -2084,6 +2531,31 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.Polikarpov.Po2" Base="FixedWing.Fighter.Biplane">
+		<Criteria>
+			<Name>Po-2</Name>
+			<Name>Polikarpov Po-2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Po-2</ShortName>
+			<LongName>Po-2 Kukuruznik</LongName>
+			<FullName>Polikarpov Po-2 Kukuruznik</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Polikarpov.Po2VS" Base="FixedWing.Polikarpov.Po2">
+		<Criteria>
+			<Name>U-2VS</Name>			<!-- Name before 1944 used by IL2 -->
+			<Name>Po-2VS</Name>
+			<Name>Polikarpov Po-2VS</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Po-2VS</ShortName>
+			<LongName>Po-2VS Kukuruznik</LongName>
+			<FullName>Polikarpov Po-2VS Kukuruznik</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.IL-2" Base="FixedWing.Fighter.Prop">
 		<Criteria>
 			<Name>Il-2</Name>
@@ -2127,6 +2599,18 @@
 			<ShortName>Il-2 1943</ShortName>
 			<LongName>Il-2 mod.1943 Sturmovik</LongName>
 			<FullName>Ilyushin Il-2 mod.1943 Sturmovik</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.IL-28" Base="FixedWing.Bomber.Jet">
+		<Criteria>
+			<Name>Il-28</Name>
+			<Name>Il-28 Beagle</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Il-28</ShortName>
+			<LongName>Il-28 Beagle</LongName>
+			<FullName>Ilyushin Il-28 Beagle</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -2342,6 +2826,33 @@
 			<ShortName>MiG-15bis</ShortName>
 			<LongName>MiG-15bis Fagot</LongName>
 			<FullName>Mikoyan-Gurevich MiG-15bis Fagot</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.MiG-19" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>MiG-19</Name>
+			<Name>MiG-19 Farmer-A</Name>
+			<Name>Mikoyan-Gurevich MiG-19</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MiG-19</ShortName>
+			<LongName>MiG-19 Farmer-A</LongName>
+			<FullName>Mikoyan-Gurevich MiG-19 Farmer-A</FullName>
+			<Shape>FixedWing.MiG-19.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.MiG-19P" Base="FixedWing.MiG-19">
+		<Criteria>
+			<Name>MiG-19P</Name>
+			<Name>MiG-19P Farmer-B</Name>
+			<Name>Mikoyan-Gurevich MiG-19P</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MiG-19P</ShortName>
+			<LongName>MiG-19P Farmer-B</LongName>
+			<FullName>Mikoyan-Gurevich MiG-19P Farmer-B</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -2891,6 +3402,71 @@
 			<LongName>Su-57</LongName>
 			<FullName>Sukhoi Su-57</FullName>
 			<Shape>FixedWing.Su-57.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Tu-22" Base="FixedWing.Bomber.Jet">
+		<Criteria>
+			<Name>Tu-22</Name>
+			<Name>Blinder</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Tu-22</ShortName>
+			<LongName>Tu-22 Blinder</LongName>
+			<FullName>Tupolev Tu-22 Blinder</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Tu-22M" Base="FixedWing.Tu-22">
+		<Criteria>
+			<Name>Tu-22M</Name>
+			<Name>Backfire</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Tu-22M</ShortName>
+			<LongName>Tu-22M Backfire</LongName>
+			<FullName>Tupolev Tu-22M Backfire</FullName>
+			<Shape>FixedWing.Tu-22M.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Tu-22M3" Base="FixedWing.Tu-22M">
+		<Criteria>
+			<Name>Tu-22M3</Name>
+			<Name>Backfire-C</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Tu-22M3</ShortName>
+			<LongName>Tu-22M3 Backfire-C</LongName>
+			<FullName>Tupolev Tu-22M3 Backfire-C</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Tu-95" Base="FixedWing.Bomber.QuadProp">
+		<Criteria>
+			<Name>Tu-95</Name>
+			<Name>Tu-95 Bear</Name>
+			<Name>Tupolev Tu-95</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Tu-95</ShortName>
+			<LongName>Tu-95 Bear</LongName>
+			<FullName>Tupolev Tu-95 Bear</FullName>
+			<Shape>FixedWing.Tu-95MS.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Tu-95MS" Base="FixedWing.Tu-95">
+		<Criteria>
+			<Name>Tu-95MS</Name>
+			<Name>Tu-95MS Bear</Name>
+			<Name>Tupolev Tu-95MS</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Tu-95MS</ShortName>
+			<LongName>Tu-95MS Bear</LongName>
+			<FullName>Tupolev Tu-95MS Bear</FullName>
+			<Shape>FixedWing.Tu-95MS.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

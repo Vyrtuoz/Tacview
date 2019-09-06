@@ -10,6 +10,9 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="Watercraft.Frigate" Base="Watercraft.Military">
+		<Properties>
+			<Shape>Watercraft.Frigate.obj</Shape>
+		</Properties>
 	</DefaultProperties>
 
 	<DefaultProperties Id="Watercraft.Cruiser" Base="Watercraft.Frigate">
@@ -195,6 +198,64 @@
 			<ShortName>Akula III</ShortName>
 			<LongName>Project 971M</LongName>
 			<FullName>Project 971M Akula III</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Rezkiy" Base="Watercraft.Frigate">
+		<Criteria>
+			<Name>Rezkiy</Name>
+			<Name>Rezky</Name>		<!-- DCS World -->
+			<Name>Krivak II</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Krivak II</ShortName>
+			<LongName>Krivak II (Rezkiy)</LongName>
+			<FullName>Project 1135M Krivak II (Rezkiy)</FullName>
+			<EngagementRange>13500</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Neustrashimyy" Base="Watercraft.Frigate">
+		<Criteria>
+			<Name>Neustrashimy</Name>
+			<Name>Neustrashimyy</Name>
+			<Name>Neustrash</Name>	<!-- DCS World -->
+		</Criteria>
+		<Properties>
+			<ShortName>Neustrashimyy</ShortName>
+			<LongName>Neustrashimyy</LongName>
+			<FullName>Project 1135M Neustrashimyy</FullName>
+			<EngagementRange>15500</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- North American Frigates -->
+
+	<DefaultProperties Id="Watercraft.D615" Base="Watercraft.Frigate">
+		<Criteria>
+			<Name>D615</Name>
+			<Name>Jean Bart</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>D615</ShortName>
+			<LongName>D615 Jean Bart</LongName>
+			<FullName>Jean Bart (D615)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- EU Aircraft Carriers -->
+
+	<DefaultProperties Id="Watercraft.R91" Base="Watercraft.AircraftCarrier">
+		<Criteria>
+			<Name>R91</Name>
+			<Name>CDG</Name>
+			<Name>Charles de Gaulle</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CDG</ShortName>
+			<LongName>R91 Charles de Gaulle</LongName>
+			<FullName>Charles de Gaulle (R91)</FullName>
+			<Shape>Watercraft.R91.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
