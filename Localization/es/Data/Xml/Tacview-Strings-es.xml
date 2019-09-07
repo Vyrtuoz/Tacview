@@ -44,12 +44,12 @@
 	<String ID="AnalysisPropertiesHelp">Mostrar u ocultar propiedades de grabación de vuelo</String>
 	<String ID="AnalysisEventLogText">&amp;Registro de vuelo</String>
 	<String ID="AnalysisEventLogHelp">Mostrar u ocultar registro de datos de vuelo</String>
-	<String ID="AnalysisShotLogText">Event Log</String>
-	<String ID="AnalysisShotLogHelp">Show or hide the event log</String>
-	<String ID="AnalysisDisplayControlBarText">Playback Control Bar</String>
-	<String ID="AnalysisDisplayControlBarHelp">Show or hide playback control bar</String>
-	<String ID="AnalysisActiveObjectListText">Active Objects List</String>
-	<String ID="AnalysisActiveObjectListHelp">Show or hide the list of active objects</String>
+	<String ID="AnalysisShotLogText">Registro de eventos</String>
+	<String ID="AnalysisShotLogHelp">Muestra u oculta el registro de eventos</String>
+	<String ID="AnalysisDisplayControlBarText">Barra de control de reproducción</String>
+	<String ID="AnalysisDisplayControlBarHelp">Muestra u oculta la barra de reproducción</String>
+	<String ID="AnalysisActiveObjectListText">Lista de objetos activos</String>
+	<String ID="AnalysisActiveObjectListHelp">Muestra u oculta la lista de objetos activos</String>
 	<String ID="AnalysisDisplayTelemetry0Text">Telemetría &amp;1</String>
 	<String ID="AnalysisDisplayTelemetry0Help">Mostrar u ocultar ventana de telemetría 1</String>
 	<String ID="AnalysisDisplayTelemetry1Text">Telemetría &amp;2</String>
@@ -104,7 +104,7 @@
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Mostrar todas las texturas indicadas en CustomTextureList.xml</String>
 	<String ID="OptionsAlwaysDisplayBullseyeText">Siempre mostrar Bullseye</String>
 	<String ID="OptionsAlwaysDisplayBullseyeHelp">Mostrar siempre el Bullseye en la vista 3D</String>
-	<String ID="OptionsUIScaleText">UI Scaling</String>
+	<String ID="OptionsUIScaleText">Ajuste de tamaño de la UI</String>
 
 	<String ID="OptionsTerrainText">Terreno</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Automático)</String>
@@ -158,7 +158,7 @@
 	<String ID="OptionsPositionFormatDMSHelp">Grados, minutos, segundos</String>
 	<String ID="OptionsPositionFormatMGRSHelp">Malla de referencia militar</String>
 
-	<String ID="OptionsTimeFormatText">Time Offset</String>
+	<String ID="OptionsTimeFormatText">Desplazamiento de tiempo (UTC)</String>
 	<String ID="OptionsPositionAlwaysDisplayedText">Mostrar Siempre</String>
 	<String ID="OptionsPositionAlwaysDisplayedHelp">Cuando este oculto, al presionar SHIFT se enseñara en la parte superior izquierda de la imagen 3D</String>
 
@@ -174,12 +174,12 @@
 	<String ID="OptionsRemoveObjectHelp">Borra el objeto del mundo</String>
 	<String ID="TimeShiftObjectText">Cambio de hora...</String>
 	<String ID="TimeShiftObjectHelp">Corregir el tiempo de telemetría del objeto seleccionado</String>
-	<String ID="AddObjectText">Add Object...</String>
-	<String ID="AddObjectHelp">Create new object at the mouse cursor location</String>
+	<String ID="AddObjectText">Añadir objeto...</String>
+	<String ID="AddObjectHelp">Crea un nuevo objeto en la posicion del cursor del raton</String>
 	<String ID="EditObjectText">Editar objeto...</String>
 	<String ID="EditObjectHelp">Editar propiedades de objeto</String>
-	<String ID="RemoveObjectText">Remove Object</String>
-	<String ID="RemoveObjectHelp">Remove object from the world</String>
+	<String ID="RemoveObjectText">Borrar Objeto</String>
+	<String ID="RemoveObjectHelp">Quita un objeto del mundo</String>
 
 	<String ID="OptionsTrimBeforeText">Recortar hacia atrás...</String>
 	<String ID="OptionsTrimBeforeHelp">Borrar toda la Telemetría anterior del punto temporal actual</String>
@@ -212,8 +212,8 @@
 	<String ID="AttractAttentionHelp">Atrae la atención de los espectadores a un objeto específico</String>
 	<String ID="DefineControlText">Asignar tecla</String>
 	<String ID="DefineControlHelp">Asignar una tcla del teclado o boton del joystick a este comando</String>
-	<String ID="LaserPointerHelp">Display a laser pointer to highlight objects during an online debriefing</String>
-	<String ID="MousePositionHelp">Display latitude, longitude and bullseye position of the mouse cursor</String>
+	<String ID="LaserPointerHelp">Mostrar un puntero laser para remarcar objetos en un debriefing online</String>
+	<String ID="MousePositionHelp">Mostrar latitud, longitud y posicion bullseye del cursor del raton</String>
 
 	<String ID="SelectedObjectsTelemetryText">Etiquetas de los objetos seleccionados</String>
 	<String ID="AircraftsTelemetryText">Etiquetas de los objetos no seleccionados</String>
@@ -733,10 +733,10 @@
 	<String ID="ControlsSelectSecondaryObject">Seleccionar el objeto secundario en la vista 3D</String>
 	<String ID="ControlsZoomInOut">Aumentar/Disminuir Zoom</String>
 	<String ID="ControlsToggleFullScreen">Cambiar a modo pantalla completa</String>
-	<String ID="ControlsPlaybackSlowerHelp">Playback slower</String>
-	<String ID="ControlsPlaybackFasterHelp">Playback faster</String>
+	<String ID="ControlsPlaybackSlowerHelp">Reproducir mas lento</String>
+	<String ID="ControlsPlaybackFasterHelp">Reproducir mas rapido</String>
 	<String ID="ControlsSwitchPlaybackSpeedHelp">Cambiar velocidad de reproduccion</String>
-	<String ID="ControlsDeselectObjectsHelp">Deselect primary and secondary objects</String>
+	<String ID="ControlsDeselectObjectsHelp">Deseleccionar objetos primario y secundario</String>
 
 	<!-- Additional Tooltips -->
 	<String ID="UpdateAvailableTooltip">Nueva versión de Tacview disponible</String>
@@ -783,7 +783,7 @@
 	<String ID="RequireProfessionalLicenseText">Para usar esta versión de Tacview necesita una licencia professional.</String>
 	<String ID="RegisterUserProductKey">Registrar usor</String>
 	<String ID="RegisterSystemProductKey">Sistema de registro</String>
-	<String ID="Export">Export...</String>
+	<String ID="Export">Exportar...</String>
 
 	<!-- Telemetry Export -->
 	<String ID="ExportTitle">Exportar telemetría</String>
@@ -792,7 +792,7 @@
 	<String ID="ExportMainObject">Solo objeto principal</String>
 	<String ID="ExportSelectedObjects">Todos los objetos seleccionados</String>
 	<String ID="ExportAllObjets">Todos los objetos</String>
-	<String ID="ExportSamplingRate">Sampling rate (Hz):</String>
+	<String ID="ExportSamplingRate">Tasa de muestreo (Hz):</String>
 	<String ID="ExportAll">Todo</String>
 	<String ID="ExportNone">Ninguno</String>
 	<String ID="ExportRecordedProperties">Propiedades guardadas</String>
@@ -803,14 +803,14 @@
 	<String ID="ExportGroupPerformance">Rendimiento</String>
 	<String ID="ExportGroupEnergy">Energía</String>
 	<String ID="ExportGroupFuel">Combustible</String>
-	<String ID="ExportGroupMisc">Miscellaneous</String>
+	<String ID="ExportGroupMisc">Miscelánea</String>
 
 	<!-- Additional Dialogs Strings -->
 	<String ID="BrowseDCSWorldFolderHelp">Por favor seleccione la carpeta de instalación de 'DCS World'</String>
 	<String ID="BrowseExportPathFolderHelp">Por favor elija donde grabar los archivos .acmi para el usuario actual.</String>
 	<String ID="Falcon4TheaterFilter">Falcon 4.0 Teatro:</String>
-	<String ID="AddOnGetExistingFolderNameHelp">Please choose an existing folder</String>
-	<String ID="AddOnGetNewFolderNameHelp">Please choose a new or existing folder</String>
+	<String ID="AddOnGetExistingFolderNameHelp">Elija una carpeta existente</String>
+	<String ID="AddOnGetNewFolderNameHelp">Por fabor elija una carpeta existente o una nueva</String>
 
 	<!-- Online Debriefing -->
 	<String ID="HostLabel">(Anfitrión)</String>
@@ -931,7 +931,7 @@
 	<String ID="LogLevelError">ERROR</String>
 	<String ID="EventTime">Time</String>
 	<String ID="EventCallSign">Call Sign</String>
-	<String ID="EventDescription">Event Description</String>
+	<String ID="EventDescription">Descripción de evento</String>
 
 	<!-- Flight Recording Strings -->
 	<String ID="ObjectNameShrapnel">Metralla</String>
@@ -968,19 +968,19 @@
 	<String ID="EventHasBeenDestroyed">{0} ha sido destruido</String>
 	<String ID="EventHasBeenDestroyedBy">{0} ha sido destruido por {1}</String>
 
-	<String ID="EventLogHasLeftTheArea">has left the area</String>
-	<String ID="EventLogHasBeenDestroyed">has been destroyed</String>
-	<String ID="EventLogHasBeenDestroyedBy">has been destroyed by {0}</String>
-	<String ID="EventLogTakeoff">Takeoff</String>
-	<String ID="EventLogLanding">Landing</String>
+	<String ID="EventLogHasLeftTheArea">ha dejado el area</String>
+	<String ID="EventLogHasBeenDestroyed">ha sido destruio</String>
+	<String ID="EventLogHasBeenDestroyedBy">ha sido destruido por {0}</String>
+	<String ID="EventLogTakeoff">Despegó</String>
+	<String ID="EventLogLanding">Aterrizó</String>
 	<String ID="EventLogDisabledLabel">Kill Removed</String>
-	<String ID="EventLogEnabledLabel">Alive</String>
+	<String ID="EventLogEnabledLabel">Vivo</String>
 	<String ID="EventLogTimeoutLabel">Timeout {2}</String>
 	<String ID="EventLogTimeoutAtLabel">Timeout at {1} {2}</String>
 	<String ID="EventLogTimeoutWeaponLabel">Timeout {0} {2}</String>
 	<String ID="EventLogTimeoutWeaponAtLabel">Timeout {0} at {1} {2}</String>
-	<String ID="StatusPlay">PLAY</String>
-	<String ID="StatusPlaySpeed">PLAY &#2;×{0:g}</String>
+	<String ID="StatusPlay">REPRODUCIR</String>
+	<String ID="StatusPlaySpeed">REPRODUCIR &#2;×{0:g}</String>
 	<String ID="StatusRewind">REBOBINAR</String>
 	<String ID="StatusRewindSpeed">REBOBINAR &#2;×{0:g}</String>
 	<String ID="StatusPause">PAUSAR</String>
@@ -1016,9 +1016,9 @@
 	<String ID="TTFaster">Más rápido</String>
 	<String ID="TTEnd">Ir al final</String>
 	<String ID="TTOneFrame">Cuadro a cuadro</String>
-	<String ID="TTPreviousEvent">Jump to previous event</String>
-	<String ID="TTNextEvent">Jump to next event</String>
-	<String ID="TTSyncRealTimeTelemetry">Synchronize with real-time telemetry</String>
+	<String ID="TTPreviousEvent">Saltar al evento anterior</String>
+	<String ID="TTNextEvent">Saltar al proximo evento</String>
+	<String ID="TTSyncRealTimeTelemetry">Sincronizar con telemetría en tiempo real</String>
 
 	<String ID="TTViewCockpit">Visión de cabina (F5)</String>
 	<String ID="TTViewExternal">Vista externa (F6)</String>
