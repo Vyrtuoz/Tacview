@@ -44,12 +44,12 @@
 	<String ID="AnalysisPropertiesHelp">显示或隐藏飞行记录属性</String>
 	<String ID="AnalysisEventLogText">&amp;飞行记日志</String>
 	<String ID="AnalysisEventLogHelp">显示或隐藏飞行记录飞行日志</String>
-	<String ID="AnalysisShotLogText">Event Log</String>
-	<String ID="AnalysisShotLogHelp">Show or hide the event log</String>
-	<String ID="AnalysisDisplayControlBarText">Playback Control Bar</String>
-	<String ID="AnalysisDisplayControlBarHelp">Show or hide playback control bar</String>
-	<String ID="AnalysisActiveObjectListText">Active Objects List</String>
-	<String ID="AnalysisActiveObjectListHelp">Show or hide the list of active objects</String>
+	<String ID="AnalysisShotLogText">事件日志</String>
+	<String ID="AnalysisShotLogHelp">显示或隐藏事件日志</String>
+	<String ID="AnalysisDisplayControlBarText">播放控制栏</String>
+	<String ID="AnalysisDisplayControlBarHelp">显示或隐藏播放控制栏</String>
+	<String ID="AnalysisActiveObjectListText">活动物体列表</String>
+	<String ID="AnalysisActiveObjectListHelp">显示或隐藏活动物体列表</String>
 	<String ID="AnalysisDisplayTelemetry0Text">遥测&amp;1</String>
 	<String ID="AnalysisDisplayTelemetry0Help">显示或隐藏遥测窗口#1</String>
 	<String ID="AnalysisDisplayTelemetry1Text">遥测&amp;2</String>
@@ -104,7 +104,7 @@
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">显示CustomTextureList.xml中声明的所有纹理</String>
 	<String ID="OptionsAlwaysDisplayBullseyeText">总是显示靶眼</String>
 	<String ID="OptionsAlwaysDisplayBullseyeHelp">总是在3D视野里显示靶眼</String>
-	<String ID="OptionsUIScaleText">UI Scaling</String>
+	<String ID="OptionsUIScaleText">用户界面缩放</String>
 
 	<String ID="OptionsTerrainText">地形</String>
 	<String ID="OptionsTerrainAutoText">（&amp;自动）</String>
@@ -157,7 +157,7 @@
 	<String ID="OptionsPositionFormatDMMHelp">度，十进制显示分</String>
 	<String ID="OptionsPositionFormatDMSHelp">度，分，秒</String>
 	<String ID="OptionsPositionFormatMGRSHelp">军事网格参考系统</String>
-	<String ID="OptionsTimeFormatText">Time Offset</String>
+	<String ID="OptionsTimeFormatText">时间偏移</String>
 
 	<String ID="OptionsPositionAlwaysDisplayedText">总是显示</String>
 	<String ID="OptionsPositionAlwaysDisplayedHelp">隐藏时，按SHIFT在3D视野的左上角显示当前位置。</String>
@@ -174,12 +174,12 @@
 	<String ID="OptionsRemoveObjectHelp">从世界里删除已选物体</String>
 	<String ID="TimeShiftObjectText">时间移动...</String>
 	<String ID="TimeShiftObjectHelp">修正已选物体的遥测时间</String>
-	<String ID="AddObjectText">Add Object...</String>
-	<String ID="AddObjectHelp">Create new object at the mouse cursor location</String>
+	<String ID="AddObjectText">添加物体...</String>
+	<String ID="AddObjectHelp">在鼠标光标位置创建新物体</String>
 	<String ID="EditObjectText">编辑物体...</String>
 	<String ID="EditObjectHelp">编辑物体属性</String>
-	<String ID="RemoveObjectText">Remove Object</String>
-	<String ID="RemoveObjectHelp">Remove object from the world</String>
+	<String ID="RemoveObjectText">移除物体</String>
+	<String ID="RemoveObjectHelp">从世界里移除物体</String>
 
 	<String ID="OptionsTrimBeforeText">剪去前段...</String>
 	<String ID="OptionsTrimBeforeHelp">删除当前时间点之前的所有遥测数据</String>
@@ -212,8 +212,8 @@
 	<String ID="AttractAttentionHelp">吸引观察者注意力到特定物体</String>
 	<String ID="DefineControlText">分配输入</String>
 	<String ID="DefineControlHelp">为此命令分配自定义摇杆或键盘输入</String>
-	<String ID="LaserPointerHelp">Display a laser pointer to highlight objects during an online debriefing</String>
-	<String ID="MousePositionHelp">Display latitude, longitude and bullseye position of the mouse cursor</String>
+	<String ID="LaserPointerHelp">在联机任务报告期间显示用于突出显示物体的激光指针</String>
+	<String ID="MousePositionHelp">显示鼠标光标的纬度、经度和靶眼位置</String>
 
 	<String ID="SelectedObjectsTelemetryText">已选物体标签</String>
 	<String ID="AircraftsTelemetryText">未选飞机标签</String>
@@ -518,8 +518,8 @@
 	<String ID="RealTimeTelemetryInvalidParameters">Invalid real-time telemetry password.</String>
 <!--
 	Chinese characters are not yet supported in the 3D view
-	<String ID="RealTimeTelemetryRecordingConnecting">请等待 {0} {1}</String>
-	<String ID="RealTimeTelemetryRecordingProgress">记录自 {0} {1}</String>
+	<String ID="RealTimeTelemetryRecordingConnecting">请等待 {1}&#xA;{0}</String>
+	<String ID="RealTimeTelemetryRecordingProgress">记录自 {1}&#xA;{0}</String>
 	<String ID="RealTimeTelemetryOperationCompleted">实时遥测记录完毕。</String>
 	<String ID="RealTimeTelemetryOperationFailed">无法连接实时遥测到给定主机地址。</String>
 	<String ID="RealTimeTelemetryUnsupportedOperation">实时遥测与主机输出器不兼容。</String>
@@ -542,14 +542,14 @@
 	<String ID="AddEditObjectPosition">位置</String>
 	<String ID="AddEditObjectColor">颜色</String>
 	<String ID="AddEditObjectCoalition">阵营</String>
-	<String ID="AddEditObjectEngagementRange">Engagement Range</String>
+	<String ID="AddEditObjectEngagementRange">交战范围</String>
 	<String ID="AutoValue">(自动)</String>
 	<String ID="CurrentTimeValue">(现在)</String>
 	<String ID="NoTypeValue">(无)</String>
 	<String ID="NoNameValue">(无)</String>
 	<String ID="NoColorValue">(无)</String>
 	<String ID="NoCoalitionValue">(无)</String>
-	<String ID="DefaultEngagementRangeValue">(default)</String>
+	<String ID="DefaultEngagementRangeValue">(默认)</String>
 	<String ID="BullseyeType">(靶眼)</String>
 	<String ID="FixedWingType">(固定翼航空器)</String>
 	<String ID="RotorcraftType">(旋翼机)</String>
@@ -644,7 +644,7 @@
 	<String ID="CommentsProperty">注释</String>
 
 	<String ID="AddOnTitleEventsLog">飞行日志</String>
-	<String ID="AddOnTitleShotLog">Event Log</String>
+	<String ID="AddOnTitleShotLog">事件日志</String>
 	<String ID="AddOnTitleControlsList">控制列表</String>
 	<String ID="AddOnTitleRemoteControl0">遥控1</String>
 	<String ID="AddOnTitleRemoteControl1">遥控2</String>
@@ -657,8 +657,8 @@
 	<String ID="AddOnTitleFunctionsProfiler">功能配置器</String>
 	<String ID="AddOnTitleGraphicalProfiler">图像配置器</String>
 	<String ID="AddOnTitleMemoryProfiler">内存配置器</String>
-	<String ID="AddOnTitleActiveObjectList">Active Objects</String>
-	<String ID="AddOnTitlePlaybackControlBar">Playback Control Bar</String>
+	<String ID="AddOnTitleActiveObjectList">活动物体</String>
+	<String ID="AddOnTitlePlaybackControlBar">播放控制栏</String>
 
 	<String ID="DebugEventTime">时间</String>
 	<String ID="DebugEventLevel">等级</String>
@@ -699,7 +699,7 @@
 	<String ID="CmdRegisterSessionProductKeyHelp">只为当前会话使用秘钥激活Tacview。</String>
 	<String ID="CmdDisplayFrameRateHelp">在3D窗口里显示帧率</String>
 	<String ID="CmdResourceFolderHelp">声明存储Tacview资源的附加自定义目录</String>
-	<String ID="CmdAddOnsFolderHelp">Declares an additional custom folder from where to load add-ons</String>
+	<String ID="CmdAddOnsFolderHelp">声明从何处加载加载项的附加自定义文件夹</String>
 	<String ID="CmdReadOnlyHelp">禁用插件和导出功能</String>
 
 	<String ID="Selection">选择</String>
@@ -753,7 +753,7 @@
 	<String ID="ControlsPlaybackSlowerHelp">减慢播放</String>
 	<String ID="ControlsPlaybackFasterHelp">加快播放</String>
 	<String ID="ControlsSwitchPlaybackSpeedHelp">切换播放速度</String>
-	<String ID="ControlsDeselectObjectsHelp">Deselect primary and secondary objects</String>
+	<String ID="ControlsDeselectObjectsHelp">取消选择主要和次要物体</String>
 
 	<!-- Additional Tooltips -->
 	<String ID="UpdateAvailableTooltip">有新版本Tacview可用！</String>
@@ -832,8 +832,8 @@
 	<String ID="BrowseDCSWorldFolderHelp">请选择'DCS World'安装文件夹</String>
 	<String ID="BrowseExportPathFolderHelp">请选择当前用户存储.acmi文件的位置</String>
 	<String ID="Falcon4TheaterFilter">Falcon 4.0战区：</String>
-	<String ID="AddOnGetExistingFolderNameHelp">Please choose an existing folder</String>
-	<String ID="AddOnGetNewFolderNameHelp">Please choose a new or existing folder</String>
+	<String ID="AddOnGetExistingFolderNameHelp">请选择现有文件夹</String>
+	<String ID="AddOnGetNewFolderNameHelp">请选择新文件夹或现有文件夹</String>
 
 	<!-- Online Debriefing -->
 <!--
@@ -846,9 +846,9 @@
 	<String ID="UnknownIPAddress">(未知)</String>
 <!--
 	Chinese characters are not yet supported in the 3D view
-	<String ID="OnlineDebriefingHostTitle">主持&#2;{0}&#1;任务报告</String>
+	<String ID="OnlineDebriefingHostTitle">主持{0}任务报告</String>
 	<String ID="OnlineDebriefingClientJoiningTitle">连接到任务报告……</String>
-	<String ID="OnlineDebriefingClientTitle">连接到&#2;{0}&#1;任务报告</String>
+	<String ID="OnlineDebriefingClientTitle">连接到{0}任务报告</String>
 -->
 	<String ID="OnlineDebriefingHostTitle">Hosting {0} Debriefing</String>
 	<String ID="OnlineDebriefingClientJoiningTitle">Connecting to debriefing...</String>
@@ -988,8 +988,8 @@
 	<String ID="FileTypeDescriptionZip">遥测数据ZIP存档</String>
 	<String ID="FileTypeDescription7z">遥测数据7z存档</String>
 	<String ID="FileTypeDescriptionMediaMany">媒体文件</String>
-	<String ID="FileTypeDescriptionAudioFiles">Audio Files</String>
-	<String ID="FileTypeDescriptionVideoFiles">Video Files</String>
+	<String ID="FileTypeDescriptionAudioFiles">音频文件</String>
+	<String ID="FileTypeDescriptionVideoFiles">视频文件</String>
 	<String ID="TypeColumn">类型</String>
 	<String ID="TimeColumn">时间</String>
 	<String ID="EventColumn">事件</String>
@@ -997,9 +997,9 @@
 	<String ID="LogLevelInfo">信息</String>
 	<String ID="LogLevelWarning">警报</String>
 	<String ID="LogLevelError">错误</String>
-	<String ID="EventTime">Time</String>
-	<String ID="EventCallSign">Call Sign</String>
-	<String ID="EventDescription">Event Description</String>
+	<String ID="EventTime">时间</String>
+	<String ID="EventCallSign">呼号</String>
+	<String ID="EventDescription">事件描述</String>
 
 	<!-- Flight Recording Strings -->
 	<String ID="ObjectNameShrapnel">子母弹</String>
@@ -1035,17 +1035,17 @@
 	<String ID="EventHasBeenHitByMultiple">{0}被{1}命中{2}次</String>
 	<String ID="EventHasBeenDestroyed">{0}被摧毁</String>
 	<String ID="EventHasBeenDestroyedBy">{0}被{1}摧毁</String>
-	<String ID="EventLogHasLeftTheArea">has left the area</String>
-	<String ID="EventLogHasBeenDestroyed">has been destroyed</String>
-	<String ID="EventLogHasBeenDestroyedBy">has been destroyed by {0}</String>
-	<String ID="EventLogTakeoff">Takeoff</String>
-	<String ID="EventLogLanding">Landing</String>
-	<String ID="EventLogDisabledLabel">Kill Removed</String>
-	<String ID="EventLogEnabledLabel">Alive</String>
-	<String ID="EventLogTimeoutLabel">Timeout {2}</String>
-	<String ID="EventLogTimeoutAtLabel">Timeout at {1} {2}</String>
-	<String ID="EventLogTimeoutWeaponLabel">Timeout {0} {2}</String>
-	<String ID="EventLogTimeoutWeaponAtLabel">Timeout {0} at {1} {2}</String>
+	<String ID="EventLogHasLeftTheArea">已离开区域</String>
+	<String ID="EventLogHasBeenDestroyed">已被摧毁</String>
+	<String ID="EventLogHasBeenDestroyedBy">以被{0}摧毁</String>
+	<String ID="EventLogTakeoff">起飞</String>
+	<String ID="EventLogLanding">着陆</String>
+	<String ID="EventLogDisabledLabel">击杀删除</String>
+	<String ID="EventLogEnabledLabel">存活</String>
+	<String ID="EventLogTimeoutLabel">超时 {2}</String>
+	<String ID="EventLogTimeoutAtLabel">超时于{1} {2}</String>
+	<String ID="EventLogTimeoutWeaponLabel">超时{0} {2}</String>
+	<String ID="EventLogTimeoutWeaponAtLabel">超时{0}于{1} {2}</String>
 
 <!--
 	Chinese characters are not yet supported in the 3D view
