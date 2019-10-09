@@ -342,7 +342,7 @@
 	<String ID="TASHelp">在标准大气条件下，航空器相对于空气团运动的真实速度</String>
 	<String ID="TASText">真空速 (TAS)</String>
 	<String ID="CASHelp">校正空速</String>
-	<String ID="CASText">空速 (CAS)</String>
+	<String ID="CASText">校正空速 (CAS)</String>
 	<String ID="IASHelp">直接从空速表上读取的速度</String>
 	<String ID="IASText">指示空速 (IAS)</String>
 	<String ID="MachHelp">马赫数</String>
