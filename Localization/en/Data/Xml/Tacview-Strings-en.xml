@@ -427,8 +427,8 @@
 
 	<String ID="OnlineDebriefingTitle">Online Debriefing</String>
 	<String ID="OnlineDebriefingIntro">Share a debriefing session with your squadron and friends!</String>
-	<String ID="OnlineDebriefingUsername">User Name :</String>
-	<String ID="OnlineDebriefingUsernameHelp">Use at least 3 characters</String>
+	<String ID="OnlineDebriefingUsername">Call sign :</String>
+	<String ID="OnlineDebriefingUsernameHelp">Use at least 2 characters</String>
 	<String ID="OnlineDebriefingPassword">Password :</String>
 	<String ID="OnlineDebriefingPort">Tacview TCP Port :</String>
 	<String ID="OnlineDebriefingPortHelp">Don't forget to open this port on your router!</String>
@@ -767,10 +767,13 @@
 	<String ID="LicenseAccept">&amp;Accept</String>
 	<String ID="LicenseDecline">&amp;Decline</String>
 	<String ID="RegisterTitle">Register your copy of Tacview</String>
-	<String ID="UpgradeTitle">Upgrade to Tacview Advanced</String>
+	<String ID="UpgradeToAdvancedTitle">Upgrade to Tacview Advanced</String>
+	<String ID="UpgradeTitle">Upgrade your copy of Tacview</String>
 	<String ID="RegisterSubTitle">Enter your product key</String>
 	<String ID="RegisterComment">To register your product and unlock advanced features, enter the 25-character key you have received by email. If you do not have a product key yet, you can buy a new one.</String>
+	<String ID="RegisterCommentSteam">If you already own a product key, enter it here. Otherwise, use the link below to purchase an upgrade.</String>
 	<String ID="UpgradeComment">To upgrade your product and unlock advanced features, enter the 25-character Tacview Advanced key you have received by email. If you do not have a Tacview Advanced product key yet, you can buy a new one.</String>
+	<String ID="UpgradeCommentSteam">If you already own a Tacview Advanced product key, enter it here. Otherwise, use the link below to purchase an upgrade.</String>
 	<String ID="RegisterExample">Example:</String>
 	<String ID="RegisterProductKey">Product Key:</String>
 	<String ID="RegisterBuyProductKey">Buy a new product key online</String>
@@ -778,8 +781,8 @@
 	<String ID="RegistrationSucceededSubTitle">Congratulations!</String>
 	<String ID="RegistrationSucceededComment">Your copy is now registered. Keep your product key in a safe place in case you ever need to reinstall your Tacview.&#10;&#10;In addition to many exclusive advanced features, you now have priority technical support as well as privileged access to updates and previews of future versions of Tacview 2.x.</String>
 	<String ID="RegistrationSucceededURL">Learn more about the advantages of using a registered copy of Tacview</String>
-	<String ID="RequireHomeLicenseText">To use this version of Tacview you need to register your copy.</String>
-	<String ID="RequireProfessionalLicenseText">To use this version of Tacview you need a Tacview Advanced license.</String>
+	<String ID="RequireHomeLicenseText">To use this feature or version of Tacview you need to upgrade your license.</String>
+	<String ID="RequireProfessionalLicenseText">To use this feature or version of Tacview you need a Tacview Advanced license.</String>
 	<String ID="RegisterUserProductKey">Register User</String>
 	<String ID="RegisterSystemProductKey">Register System</String>
 	<String ID="Export">Export...</String>
@@ -900,6 +903,7 @@
 	<String ID="NoRecentDocuments">(No recent document)</String>
 	<String ID="FileTypeDescriptionAnyTelemetryFile">Any Telemetry Data</String>
 	<String ID="FileTypeDescriptionTacviewText">Tacview Text Telemetry Data</String>
+	<String ID="FileTypeDescriptionTacviewTextZip">Compressed Tacview Text Telemetry Data</String>
 	<String ID="FileTypeDescriptionTacviewBinary">Tacview Binary Telemetry Data</String>
 	<String ID="FileTypeDescriptionGAEText">EAG/GAE Distributed Interactive Simulation Text Data</String>
 	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole Markup Language static objects</String>
@@ -1017,7 +1021,7 @@
 	<String ID="TTOneFrame">Frame By Frame</String>
 	<String ID="TTPreviousEvent">Jump to previous event</String>
 	<String ID="TTNextEvent">Jump to next event</String>
-	<String ID="TTSyncRealTimeTelemetry">Synchronize with real-time telemetry</String>
+	<String ID="TTSyncRealTimeTelemetry">Go to end / Synchronize with real-time telemetry</String>
 
 	<String ID="TTViewCockpit">Cockpit View (F5)</String>
 	<String ID="TTViewExternal">External View (F6)</String>

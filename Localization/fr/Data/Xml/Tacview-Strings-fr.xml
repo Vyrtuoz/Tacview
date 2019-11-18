@@ -427,8 +427,8 @@
 
 	<String ID="OnlineDebriefingTitle">Débriefing en ligne</String>
 	<String ID="OnlineDebriefingIntro">Partagez une session de débriefing avec votre escadrille et vos amis !</String>
-	<String ID="OnlineDebriefingUsername">Utilisateur :</String>
-	<String ID="OnlineDebriefingUsernameHelp">Utilisez au moins 3 caractères</String>
+	<String ID="OnlineDebriefingUsername">Indicatif :</String>
+	<String ID="OnlineDebriefingUsernameHelp">Utilisez au moins 2 caractères</String>
 	<String ID="OnlineDebriefingPassword">Mot de passe :</String>
 	<String ID="OnlineDebriefingPort">Port TCP Tacview :</String>
 	<String ID="OnlineDebriefingPortHelp">N'oubliez pas d'ouvrir ce port sur votre routeur !</String>
@@ -767,10 +767,13 @@
 	<String ID="LicenseAccept">&amp;Accepter</String>
 	<String ID="LicenseDecline">&amp;Décliner</String>
 	<String ID="RegisterTitle">Enregistrer votre copie de Tacview</String>
-	<String ID="UpgradeTitle">Mise à niveau vers Tacview Advanced</String>
+	<String ID="UpgradeToAdvancedTitle">Mise à niveau vers Tacview Advanced</String>
+	<String ID="UpgradeTitle">Mise à niveau de votre licence Tacview</String>
 	<String ID="RegisterSubTitle">Entrez votre clé de produit</String>
 	<String ID="RegisterComment">Pour enregistrer votre produit et débloquer les fonctionnalités avancées, entrez la clé de 25 caractères qui vous avez reçu par email. Si vous n'avez déjà pas une clé de produit, vous pouvez en commander une.</String>
+	<String ID="RegisterCommentSteam">Si vous possédez déjà une clé de produit, veuillez l’entrer ici. Dans le cas contraire, utilisez le lien ci-dessous pour acheter une mise niveau.</String>
 	<String ID="UpgradeComment">Pour enregistrer votre produit et débloquer les fonctionnalités avancées, entrez la clé de 25 caractères de Tacview Advanced qui vous avez reçu par email. Si vous n'avez pas déjà une clé de produit Tacview Advanced, vous pouvez en commander une.</String>
+	<String ID="UpgradeCommentSteam">Si vous possédez déjà une clé de produit Tacview Advanced, veuillez l’entrer ici. Dans le cas contraire, utilisez le lien ci-dessous pour acheter une mise niveau.</String>
 	<String ID="RegisterExample">Exemple&#160;:</String>
 	<String ID="RegisterProductKey">Clé de produit&#160;:</String>
 	<String ID="RegisterBuyProductKey">Acheter une clé de produit en ligne</String>
@@ -778,8 +781,8 @@
 	<String ID="RegistrationSucceededSubTitle">Félicitations&#160;!</String>
 	<String ID="RegistrationSucceededComment">Votre copie est maintenant enregistrée. Conservez votre clé de produit dans un endroit sur, elle pourrait vous être utile en cas de réinstallation.&#10;&#10;En plus de nombreuses fonctionnalités avancées exclusives, vous bénéficiez à présent d'un support technique prioritaire ainsi qu'un accès privilégié aux mises-à-jour et avant-premières des futures versions de Tacview 2.x.</String>
 	<String ID="RegistrationSucceededURL">Apprendre plus sur les avantages d'utiliser une copie enregistrée de Tacview</String>
-	<String ID="RequireHomeLicenseText">Pour utiliser cette version de Tacview vous devez enregistrer votre copie.</String>
-	<String ID="RequireProfessionalLicenseText">Pour utiliser cette version de Tacview, vous devez posséder une Tacview Advanced.</String>
+	<String ID="RequireHomeLicenseText">Pour utiliser cette fonctionnalité ou version, vous devez mettre à niveau votre licence.</String>
+	<String ID="RequireProfessionalLicenseText">Pour utiliser cette fonctionnalité ou version, vous devez passer à Tacview Advanced.</String>
 	<String ID="RegisterUserProductKey">Enregistrer utilisateur</String>
 	<String ID="RegisterSystemProductKey">Enregistrer système</String>
 	<String ID="Export">Exporter...</String>
@@ -899,7 +902,8 @@
 	<String ID="CustomProtocolDescription">Raccourci Tacview</String>
 	<String ID="NoRecentDocuments">(Aucun document récent)</String>
 	<String ID="FileTypeDescriptionAnyTelemetryFile">Tout fichier de télémétrie</String>
-	<String ID="FileTypeDescriptionTacviewText">Données texte de télémétrie de Tacview</String>
+	<String ID="FileTypeDescriptionTacviewText">Données de télémétrie de Tacview au format texte</String>
+	<String ID="FileTypeDescriptionTacviewTextZip">Données de télémétrie de Tacview au format texte compressé</String>
 	<String ID="FileTypeDescriptionTacviewBinary">Données binaire de télémétrie de Tacview</String>
 	<String ID="FileTypeDescriptionGAEText">Données texte GAE/DIS</String>
 	<String ID="FileTypeDescriptionKMLStaticObjects">Objets statiques au format KML (Keyhole Markup Language)</String>
@@ -1017,7 +1021,7 @@
 	<String ID="TTOneFrame">Image par image</String>
 	<String ID="TTPreviousEvent">Aller au précèdent événement</String>
 	<String ID="TTNextEvent">Aller au prochain événement</String>
-	<String ID="TTSyncRealTimeTelemetry">Synchroniser avec la télémétrie temps réelle</String>
+	<String ID="TTSyncRealTimeTelemetry">Aller à la fin / Synchroniser avec la télémétrie temps réelle</String>
 
 	<String ID="TTViewCockpit">Vue cockpit (F5)</String>
 	<String ID="TTViewExternal">Vue externe (F6)</String>

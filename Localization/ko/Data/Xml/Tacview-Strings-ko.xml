@@ -429,7 +429,7 @@
 	<String ID="OnlineDebriefingTitle">온라인 디브리핑</String>
 	<String ID="OnlineDebriefingIntro">디브리핑 세션을 편대나 친구들과 함께 할 수 있습니다.</String>
 	<String ID="OnlineDebriefingUsername">유저 이름 :</String>
-	<String ID="OnlineDebriefingUsernameHelp">최소 3글자를 사용하세요.</String>
+	<String ID="OnlineDebriefingUsernameHelp">최소 2글자를 사용하세요.</String>
 	<String ID="OnlineDebriefingPassword">비밀번호 :</String>
 	<String ID="OnlineDebriefingPort">택뷰 TCP 포트 :</String>
 	<String ID="OnlineDebriefingPortHelp">라우터에서 포트를 열어두는 것을 잊지 마세요!</String>
@@ -788,10 +788,13 @@
 	<String ID="LicenseAccept">&amp;동의</String>
 	<String ID="LicenseDecline">&amp;거절</String>
 	<String ID="RegisterTitle">택뷰 등록하기</String>
-	<String ID="UpgradeTitle">택뷰를 프로페셔널 버전으로 업그레이드 하기</String>
+	<String ID="UpgradeToAdvancedTitle">택뷰를 프로페셔널 버전으로 업그레이드 하기</String>
+	<String ID="UpgradeTitle">Upgrade your copy of Tacview</String>
 	<String ID="RegisterSubTitle">제품 키를 입력하여 주세요.</String>
 	<String ID="RegisterComment">제품을 등록하거나 향상된 기능을 해제하기 위해서는, 이메일을 통해 받은 25 문자열을 입력 해 주시기 바랍니다. 만약 제품키가 아직 없다면, 새 제품을 구입하실 수 있습니다.</String>
+	<String ID="RegisterCommentSteam">If you already own a product key, enter it here. Otherwise, use the link below to purchase an upgrade.</String>
 	<String ID="UpgradeComment">제품을 업그레이드 하여 향상된 기능을 사용하기 위해서는 이메일을 통해 받은 25 문자열을 입력 해 주시기 바랍니다. 만약 프로페셔널 제품 키가 아직 없다면, 새 제품을 구입하실 수 있습니다.</String>
+	<String ID="UpgradeCommentSteam">If you already own a Tacview Advanced product key, enter it here. Otherwise, use the link below to purchase an upgrade.</String>
 	<String ID="RegisterExample">예시:</String>
 	<String ID="RegisterProductKey">제품 키:</String>
 	<String ID="RegisterBuyProductKey">온라인으로 새로운 제품 키 구입</String>
@@ -875,7 +878,7 @@
 	<String ID="ExpiredCommercialLicenseAnnual">Your commercial license as expired on {0},&#10;DO NOT use this version in commercial and institutional environments.</String>
 	<String ID="ExpiredCommercialLicensePerpetual">Your Tacview Enterprise support has expired on {0},&#10;Please contact us if you want to use this new version.</String>
 -->
-	<String ID="StrategicViewDemoWarning">This Strategic View is available in Tacview Professional.</String>
+	<String ID="StrategicViewDemoWarning">This Strategic View is available in Tacview Advanced.</String>
 	<String ID="ExpiredCommercialLicenseAnnual">Your Tacview Enterprise has expired on {0},&#10;DO NOT use this version in commercial and institutional environment.</String>
 	<String ID="ExpiredCommercialLicensePerpetual">Your Tacview Enterprise support has expired on {0},&#10;Please contact us if you want to use this new version.</String>
 
@@ -966,6 +969,7 @@
 	<String ID="NoRecentDocuments">(최근 문서 없음)</String>
 	<String ID="FileTypeDescriptionAnyTelemetryFile">텔레메트리 데이터</String>
 	<String ID="FileTypeDescriptionTacviewText">택뷰 텍스트 텔레메트리 데이터</String>
+	<String ID="FileTypeDescriptionTacviewTextZip">Compressed Tacview Text Telemetry Data</String>
 	<String ID="FileTypeDescriptionTacviewBinary">택뷰 바이너리 텔레메트리 데이터</String>
 	<String ID="FileTypeDescriptionGAEText">GAE 배포 인터렉티브 시뮬레이션 텍스트 데이터</String>
 	<String ID="FileTypeDescriptionKMLStaticObjects">키홀 마크업 언어 스태틱 오브젝트</String>
@@ -1091,7 +1095,7 @@
 	<String ID="TTOneFrame">프레임 바이 프레임</String>
 	<String ID="TTPreviousEvent">Jump to previous event</String>
 	<String ID="TTNextEvent">Jump to next event</String>
-	<String ID="TTSyncRealTimeTelemetry">Synchronize with real-time telemetry</String>
+	<String ID="TTSyncRealTimeTelemetry">Go to end / Synchronize with real-time telemetry</String>
 
 	<String ID="TTViewCockpit">조종석 시점 (F5)</String>
 	<String ID="TTViewExternal">외부 시점 (F6)</String>

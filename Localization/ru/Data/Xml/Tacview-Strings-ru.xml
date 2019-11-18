@@ -264,12 +264,12 @@
 
 	<String ID="RegisterCmdTooltip">Зарегистрироваться</String>
 	<String ID="RegisterCmdHelp">Зарегистрировать свою копию Tacview</String>
-	<String ID="UpgradeToProfessionalCmdTooltip">Обновиться до версии Professional</String>
-	<String ID="UpgradeToProfessionalCmdHelp">Обновить "Home" версию продукта до "Professional"</String>
+	<String ID="UpgradeToProfessionalCmdTooltip">Обновиться до версии Advanced</String>
+	<String ID="UpgradeToProfessionalCmdHelp">Обновить "Standard" версию продукта до "Advanced"</String>
 	<String ID="UpgradeToCommercialCmdTooltip">Обновиться до коммерческой версии</String>
-	<String ID="UpgradeToCommercialCmdHelp">Обновить версию Professional до Commercial</String>
+	<String ID="UpgradeToCommercialCmdHelp">Обновить версию Advanced до Enterprise</String>
 	<String ID="UpdateCommercialCmdTooltip">Продлить коммерческую версию</String>
-	<String ID="UpdateCommercialCmdHelp">Продлить истекающую версию Commercial</String>
+	<String ID="UpdateCommercialCmdHelp">Продлить истекающую версию Enterprise</String>
 
 	<!-- Popup Menus -->
 	<String ID="ObjectsInfoCmdRateOfClosureText">Расстояние / Скорость сближения</String>
@@ -429,7 +429,7 @@
 	<String ID="OnlineDebriefingTitle">Дебрифинг по сети</String>
 	<String ID="OnlineDebriefingIntro">Начать сессию дебрифинга совместно со командой и друзьями!</String>
 	<String ID="OnlineDebriefingUsername">Имя:</String>
-	<String ID="OnlineDebriefingUsernameHelp">Введите минимум 3 символа</String>
+	<String ID="OnlineDebriefingUsernameHelp">Введите минимум 2 символа</String>
 	<String ID="OnlineDebriefingPassword">Пароль:</String>
 	<String ID="OnlineDebriefingPort">Tacview TCP порт :</String>
 	<String ID="OnlineDebriefingPortHelp">Не забудьте открыть этот порт в своем роутере!</String>
@@ -500,7 +500,7 @@
 	<String ID="RealTimeTelemetryUsername">Выбрать имя пользователя:</String>
 	<String ID="RealTimeTelemetryAddress">Адрес самописца :</String>
 	<String ID="RealTimeTelemetryPort">Порт самописца :</String>
-	<String ID="RealTimeTelemetryWarningClient">Опция записи телеметрии в реальном времени доступна только для версии Professional.</String>
+	<String ID="RealTimeTelemetryWarningClient">Опция записи телеметрии в реальном времени доступна только для версии Advanced.</String>
 	<String ID="RealTimeTelemetryPasswordTip">Для присоединения к приватному каналу может потребоваться пароль</String>
 	<String ID="RealTimeTelemetryRecordingConnecting">Ожидаем {1}&#xA;{0}</String>
 	<String ID="RealTimeTelemetryRecordingProgress">Ведется запись из {1}&#xA;{0}</String>
@@ -768,10 +768,13 @@
 	<String ID="LicenseAccept">&amp;Принимаю</String>
 	<String ID="LicenseDecline">&amp;Не принимаю</String>
 	<String ID="RegisterTitle">Зарегистрировать свою копию Tacview</String>
-	<String ID="UpgradeTitle">Обновиться до версии Professional</String>
+	<String ID="UpgradeToAdvancedTitle">Обновиться до версии Advanced</String>
+	<String ID="UpgradeTitle">Upgrade your copy of Tacview</String>
 	<String ID="RegisterSubTitle">Ввести ключ продукта</String>
 	<String ID="RegisterComment">Пожалуйста, введите 25-значный ключ продукта, чтобы зарегистрировать программу и активировать дополнительные функции.</String>
-	<String ID="UpgradeComment">Пожалуйста, введите 25-значный ключ Professional версии продукта, чтобы зарегистрировать программу и активировать дополнительные функции. Ключ для данной версии можно купить.</String>
+	<String ID="RegisterCommentSteam">If you already own a product key, enter it here. Otherwise, use the link below to purchase an upgrade.</String>
+	<String ID="UpgradeComment">Пожалуйста, введите 25-значный ключ Advanced версии продукта, чтобы зарегистрировать программу и активировать дополнительные функции. Ключ для данной версии можно купить.</String>
+	<String ID="UpgradeCommentSteam">If you already own a Tacview Advanced product key, enter it here. Otherwise, use the link below to purchase an upgrade.</String>
 	<String ID="RegisterExample">Пример:</String>
 	<String ID="RegisterProductKey">Ключ продукта:</String>
 	<String ID="RegisterBuyProductKey">Купить ключ продукта онлайн</String>
@@ -780,7 +783,7 @@
 	<String ID="RegistrationSucceededComment">Ваша копия зарегистрирована. Храните ключи в надёжном месте, они потребуются при переустановке программы.&#10;&#10;Помимо ряда дополнительных функций, Вам обеспечен повышенный приоритет при рассмотрении заявок в тех.поддержку, ранний доступ к обновлениям и превью новых версий Tacview (2.x).</String>
 	<String ID="RegistrationSucceededURL">Узнать больше о преимуществах регистрации Tacview (English)</String>
 	<String ID="RequireHomeLicenseText">Данная версия Tacview требует регистрации.</String>
-	<String ID="RequireProfessionalLicenseText">Эта программа требует ключа версии Professional.</String>
+	<String ID="RequireProfessionalLicenseText">Эта программа требует ключа версии Advanced.</String>
 	<String ID="RegisterUserProductKey">Register User</String>
 	<String ID="RegisterSystemProductKey">Register System</String>
 	<String ID="Export">Export...</String>
@@ -832,13 +835,13 @@
 	<String ID="CommercialEditionPerpetual">{0} Enterprise (поддержка заканчивается {1})</String>
 	<String ID="32bitEdition">32-бит</String>
 	<String ID="64bitEdition">64-бит</String>
-	<String ID="ProfessionalToolDemoWarningOneDay">Данный инструмент доступен в Tacview <a href="cmd:RegisterCmd">Professional</a>, Вы можете использовать его {0} день.</String>
-	<String ID="ProfessionalToolDemoWarningManyDays">Данный инструмент доступен в Tacview <a href="cmd:RegisterCmd">Professional</a>, Вы можете использовать его {0} дней.</String>
-	<String ID="ProfessionalToolDemoExpired">Вам необходимо <a href="cmd:RegisterCmd">приобрести ключ</a> к версии Professional, чтобы пользоваться данным инструментом.</String>
-	<String ID="HomeToolDemoWarningOneDay">Этот инструмент доступен в <a href="cmd:RegisterCmd">Home версии</a> программы Tacview, Вы можете использовать его {0} день.</String>
-	<String ID="HomeToolDemoWarningManyDays">Этот инструмент доступен в <a href="cmd:RegisterCmd">Home версии</a> программы Tacview, Вы можете использовать его {0} дней.</String>
-	<String ID="HomeToolDemoExpired">Для использования этого инструмента необходимо<a href="cmd:RegisterCmd">обновить лицензию</a> до версии Home или Professional.</String>
-	<String ID="StrategicViewDemoWarning">Стратегический обзор доступен в Professional версии программы Tacview.</String>
+	<String ID="ProfessionalToolDemoWarningOneDay">Данный инструмент доступен в Tacview <a href="cmd:RegisterCmd">Advanced</a>, Вы можете использовать его {0} день.</String>
+	<String ID="ProfessionalToolDemoWarningManyDays">Данный инструмент доступен в Tacview <a href="cmd:RegisterCmd">Advanced</a>, Вы можете использовать его {0} дней.</String>
+	<String ID="ProfessionalToolDemoExpired">Вам необходимо <a href="cmd:RegisterCmd">приобрести ключ</a> к версии Advanced, чтобы пользоваться данным инструментом.</String>
+	<String ID="HomeToolDemoWarningOneDay">Этот инструмент доступен в <a href="cmd:RegisterCmd">Standard версии</a> программы Tacview, Вы можете использовать его {0} день.</String>
+	<String ID="HomeToolDemoWarningManyDays">Этот инструмент доступен в <a href="cmd:RegisterCmd">Standard версии</a> программы Tacview, Вы можете использовать его {0} дней.</String>
+	<String ID="HomeToolDemoExpired">Для использования этого инструмента необходимо<a href="cmd:RegisterCmd">обновить лицензию</a> до версии Standard или Advanced.</String>
+	<String ID="StrategicViewDemoWarning">Стратегический обзор доступен в Advanced версии программы Tacview.</String>
 	<String ID="ExpiredCommercialLicenseAnnual">Ваша Enterprise версия программы Tacview истекла {0},&#10;НЕ ИСПОЛЬЗУЙТЕ эту версию в коммерческих или ведомственных целях.</String>
 	<String ID="ExpiredCommercialLicensePerpetual">Поддержка Вашей Enterprise версии истекла {0},&#10;Пожалуйста, свжяитесь с нами, если хотите в дальнейшем использовать данную версию.</String>
 
@@ -901,6 +904,7 @@
 	<String ID="NoRecentDocuments">(Отсутствуют недавние документы)</String>
 	<String ID="FileTypeDescriptionAnyTelemetryFile">Любые данные телеметрии</String>
 	<String ID="FileTypeDescriptionTacviewText">Текстовые данные телеметрии Tacview</String>
+	<String ID="FileTypeDescriptionTacviewTextZip">Compressed Tacview Text Telemetry Data</String>
 	<String ID="FileTypeDescriptionTacviewBinary">Бинарные данные телеметрии Tacview</String>
 	<String ID="FileTypeDescriptionGAEText">Текстовые данные распределенного интерактивного моделирования (GAE)</String>
 	<String ID="FileTypeDescriptionKMLStaticObjects">Статические объекты KML</String>
@@ -1018,7 +1022,7 @@
 	<String ID="TTOneFrame">Покадрово</String>
 	<String ID="TTPreviousEvent">Jump to previous event</String>
 	<String ID="TTNextEvent">Jump to next event</String>
-	<String ID="TTSyncRealTimeTelemetry">Synchronize with real-time telemetry</String>
+	<String ID="TTSyncRealTimeTelemetry">Go to end / Synchronize with real-time telemetry</String>
 
 	<String ID="TTViewCockpit">Вид из кабины (F5)</String>
 	<String ID="TTViewExternal">Внешний вид (F6)</String>

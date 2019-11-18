@@ -791,10 +791,13 @@
 	<String ID="LicenseAccept">&amp;接受</String>
 	<String ID="LicenseDecline">&amp;拒绝</String>
 	<String ID="RegisterTitle">注册你的Tacview软件副本</String>
-	<String ID="UpgradeTitle">升级Tacview至高级版</String>
+	<String ID="UpgradeToAdvancedTitle">升级Tacview至高级版</String>
+	<String ID="UpgradeTitle">Upgrade your copy of Tacview</String>
 	<String ID="RegisterSubTitle">输入你的产品密钥</String>
 	<String ID="RegisterComment">要注册你的产品和解锁高级功能，请输入Email中收到的25字符密钥。如果还没有产品密钥，你可以购买一个新的。</String>
+	<String ID="RegisterCommentSteam">If you already own a product key, enter it here. Otherwise, use the link below to purchase an upgrade.</String>
 	<String ID="UpgradeComment">要升级你的产品和解锁高级功能，请输入Email中收到的25字符Tacview高级版密钥。如果还没有高级版密钥，你可以购买一个新的。</String>
+	<String ID="UpgradeCommentSteam">If you already own a Tacview Advanced product key, enter it here. Otherwise, use the link below to purchase an upgrade.</String>
 	<String ID="RegisterExample">示例：</String>
 	<String ID="RegisterProductKey">产品密钥：</String>
 	<String ID="RegisterBuyProductKey">联机购买新产品密钥</String>
@@ -878,7 +881,7 @@
 	<String ID="ExpiredCommercialLicenseAnnual">你的企业版许可已于 {0} 过期，&#10;不要在商业和制度环境下使用此版本。</String>
 	<String ID="ExpiredCommercialLicensePerpetual">你的Tacview企业版支持到期于 {0},&#10;如果你希望使用此新版本，请联系我们。</String>
 -->
-	<String ID="StrategicViewDemoWarning">This Strategic View is available in Tacview Professional.</String>
+	<String ID="StrategicViewDemoWarning">This Strategic View is available in Tacview Advanced.</String>
 	<String ID="ExpiredCommercialLicenseAnnual">Your Tacview Enterprise has expired on {0},&#10;DO NOT use this version in commercial and institutional environment.</String>
 	<String ID="ExpiredCommercialLicensePerpetual">Your Tacview Enterprise support has expired on {0},&#10;Please contact us if you want to use this new version.</String>
 
@@ -969,6 +972,7 @@
 	<String ID="NoRecentDocuments">（无新文档）</String>
 	<String ID="FileTypeDescriptionAnyTelemetryFile">任何遥测数据</String>
 	<String ID="FileTypeDescriptionTacviewText">Tacview文本遥测数据</String>
+	<String ID="FileTypeDescriptionTacviewTextZip">Compressed Tacview Text Telemetry Data</String>
 	<String ID="FileTypeDescriptionTacviewBinary">Tacview二进制遥测数据</String>
 	<String ID="FileTypeDescriptionGAEText">GAE分布式交互仿真文本数据</String>
 	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole标记语言静态对象</String>
@@ -1094,7 +1098,7 @@
 	<String ID="TTOneFrame">逐帧显示</String>
 	<String ID="TTPreviousEvent">Jump to previous event</String>
 	<String ID="TTNextEvent">Jump to next event</String>
-	<String ID="TTSyncRealTimeTelemetry">Synchronize with real-time telemetry</String>
+	<String ID="TTSyncRealTimeTelemetry">Go to end / Synchronize with real-time telemetry</String>
 
 	<String ID="TTViewCockpit">座舱视野 (F5)</String>
 	<String ID="TTViewExternal">外部视野 (F6)</String>

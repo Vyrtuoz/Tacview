@@ -266,10 +266,10 @@
 	<String ID="RegisterCmdHelp">רכוש עותק מלא של התוכנה</String>
 	<String ID="UpgradeToProfessionalCmdTooltip">שדרג</String>
 	<String ID="UpgradeToProfessionalCmdHelp">שדרג את הגרסה הביתית שלך לגרסה מקצועית</String>
-	<String ID="UpgradeToCommercialCmdTooltip">Upgrade to Commercial</String>
-	<String ID="UpgradeToCommercialCmdHelp">Upgrade your Professional edition to the Commercial edition</String>
-	<String ID="UpdateCommercialCmdTooltip">Extend Commercial License</String>
-	<String ID="UpdateCommercialCmdHelp">Extend an expiring Commercial license</String>
+	<String ID="UpgradeToCommercialCmdTooltip">Upgrade to Enterprise</String>
+	<String ID="UpgradeToCommercialCmdHelp">Upgrade your Advanced edition to the Enterprise edition</String>
+	<String ID="UpdateCommercialCmdTooltip">Extend Enterprise License</String>
+	<String ID="UpdateCommercialCmdHelp">Extend an expiring Enterprise license</String>
 
 	<!-- Popup Menus -->
 	<String ID="ObjectsInfoCmdRateOfClosureText">קצב סגירה / טווח</String>
@@ -428,8 +428,8 @@
 
 	<String ID="OnlineDebriefingTitle">תחקור ברשת</String>
 	<String ID="OnlineDebriefingIntro">!שתף את התחקור עם הטייסת וחברים</String>
-	<String ID="OnlineDebriefingUsername">Username :</String>
-	<String ID="OnlineDebriefingUsernameHelp">הזן לפחות 3 תווים</String>
+	<String ID="OnlineDebriefingUsername">Call sign :</String>
+	<String ID="OnlineDebriefingUsernameHelp">הזן לפחות 2 תווים</String>
 	<String ID="OnlineDebriefingPassword">Password :</String>
 	<String ID="OnlineDebriefingPort">Tacview TCP Port :</String>
 	<String ID="OnlineDebriefingPortHelp">נדרש לפתוח פורט זה בנתב</String>
@@ -442,7 +442,7 @@
 	<String ID="OnlineDebriefingJoinButton">Join</String>
 	<String ID="OnlineDebriefingLeaveButton">Leave</String>
 	<String ID="OnlineDebriefingCancelButton">Cancel</String>
-	<String ID="OnlineDebriefingWarningHost">Professional ע"מ ליצור תחקור ברשת נדרש רישיון</String>
+	<String ID="OnlineDebriefingWarningHost">Advanced ע"מ ליצור תחקור ברשת נדרש רישיון</String>
 	<String ID="OnlineDebriefingWarningClient">ע"מ להצטרף לתחקור קיים ברשת נדרש רישיון כלשהו</String>
 	<String ID="OnlineDebriefingHostInProgress">Hosting online debriefing session [{0}]</String>
 	<String ID="OnlineDebriefingClientInProgress">Connected to online debriefing session [{0}]</String>
@@ -500,7 +500,7 @@
 	<String ID="RealTimeTelemetryUsername">Choose a User Name :</String>
 	<String ID="RealTimeTelemetryAddress">Data Recorder Address :</String>
 	<String ID="RealTimeTelemetryPort">Data Recorder Port :</String>
-	<String ID="RealTimeTelemetryWarningClient">Only the professional version of Tacview can record real-time telemetry.</String>
+	<String ID="RealTimeTelemetryWarningClient">Only the Advanced edition of Tacview can record real-time telemetry.</String>
 	<String ID="RealTimeTelemetryPasswordTip">A password may be required to join a private session</String>
 	<String ID="RealTimeTelemetryRecordingConnecting">Waiting for {1}&#xA;{0}</String>
 	<String ID="RealTimeTelemetryRecordingProgress">Recording from {1}&#xA;{0}</String>
@@ -768,10 +768,13 @@
 	<String ID="LicenseAccept">אשר</String>
 	<String ID="LicenseDecline">דחה</String>
 	<String ID="RegisterTitle">רכוש עותק מלא של התוכנה</String>
-	<String ID="UpgradeTitle">שדרג את הגרסה הביתית שלך לגרסה מקצועית</String>
+	<String ID="UpgradeToAdvancedTitle">שדרג את הגרסה הביתית שלך לגרסה מקצועית</String>
+	<String ID="UpgradeTitle">Upgrade your copy of Tacview</String>
 	<String ID="RegisterSubTitle">הזן את מספר הרישיון שלך</String>
 	<String ID="RegisterComment">לרישום התוכנה ואיפשור הפונקציות המתקדמות, הזן את מספר הרישיון בן 25 תווים שנשלח אליך למייל. במידה ואין ברשותך מספר רישיון, ניתן לרכוש באתר התוכנה</String>
+	<String ID="RegisterCommentSteam">If you already own a product key, enter it here. Otherwise, use the link below to purchase an upgrade.</String>
 	<String ID="UpgradeComment">לשידרוג התוכנה ואיפשור הפונקציות המתקדמות, הזן את מספר הרישיון בן 25 תווים שנשלח אליך למייל. במידה ואין ברשותך מספר רישיון, ניתן לרכוש באתר התוכנה</String>
+	<String ID="UpgradeCommentSteam">If you already own a Tacview Advanced product key, enter it here. Otherwise, use the link below to purchase an upgrade.</String>
 	<String ID="RegisterExample">:דוגמא</String>
 	<String ID="RegisterProductKey">:מספר רישיון</String>
 	<String ID="RegisterBuyProductKey">רכוש מספר רישיון באתר</String>
@@ -901,6 +904,7 @@
 	<String ID="NoRecentDocuments">(רשימת הקבצים האחרונים ריקה)</String>
 	<String ID="FileTypeDescriptionAnyTelemetryFile">Any Telemetry Data</String>
 	<String ID="FileTypeDescriptionTacviewText">Tacview Text Telemetry Data</String>
+	<String ID="FileTypeDescriptionTacviewTextZip">Compressed Tacview Text Telemetry Data</String>
 	<String ID="FileTypeDescriptionTacviewBinary">Tacview Binary Telemetry Data</String>
 	<String ID="FileTypeDescriptionGAEText">GAE Distributed Interactive Simulation Text Data</String>
 	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole Markup Language static objects</String>
@@ -1018,7 +1022,7 @@
 	<String ID="TTOneFrame">Frame By Frame</String>
 	<String ID="TTPreviousEvent">Jump to previous event</String>
 	<String ID="TTNextEvent">Jump to next event</String>
-	<String ID="TTSyncRealTimeTelemetry">Synchronize with real-time telemetry</String>
+	<String ID="TTSyncRealTimeTelemetry">Go to end / Synchronize with real-time telemetry</String>
 
 	<String ID="TTViewCockpit">(F5) מבט קוקפיט</String>
 	<String ID="TTViewExternal">(F6) מבט חיצון</String>

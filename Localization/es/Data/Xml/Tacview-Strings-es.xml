@@ -264,11 +264,11 @@
 
 	<String ID="RegisterCmdTooltip">Registrar</String>
 	<String ID="RegisterCmdHelp">Registra la copia de Tacview</String>
-	<String ID="UpgradeToProfessionalCmdTooltip">Actualizar a Professional</String>
-	<String ID="UpgradeToProfessionalCmdHelp">Actualiza la versión Home edición a la Professional edición</String>
-	<String ID="UpgradeToCommercialCmdTooltip">Mejorar a Commercial</String>
-	<String ID="UpgradeToCommercialCmdHelp">Mejora tu licencia de Professional edition a Commercial edition</String>
-	<String ID="UpdateCommercialCmdTooltip">Extender Commercial License</String>
+	<String ID="UpgradeToProfessionalCmdTooltip">Actualizar a Advanced</String>
+	<String ID="UpgradeToProfessionalCmdHelp">Actualiza la versión Standard edición a la Advanced edición</String>
+	<String ID="UpgradeToCommercialCmdTooltip">Mejorar a Enterprise</String>
+	<String ID="UpgradeToCommercialCmdHelp">Mejora tu licencia de Advanced edition a Enterprise edition</String>
+	<String ID="UpdateCommercialCmdTooltip">Extender Enterprise License</String>
 	<String ID="UpdateCommercialCmdHelp">Extiende una licencia comercial expirada</String>
 
 	<!-- Popup Menus -->
@@ -429,7 +429,7 @@
 	<String ID="OnlineDebriefingTitle">Debriefing en línea</String>
 	<String ID="OnlineDebriefingIntro">¡Comparte una sesión de debriefing con tu escuadrón y amigos!</String>
 	<String ID="OnlineDebriefingUsername">Nombre de usuario :</String>
-	<String ID="OnlineDebriefingUsernameHelp">Use como mínimo 3 caracteres</String>
+	<String ID="OnlineDebriefingUsernameHelp">Use como mínimo 2 caracteres</String>
 	<String ID="OnlineDebriefingPassword">Contraseña :</String>
 	<String ID="OnlineDebriefingPort">Puerto TCP Tacview :</String>
 	<String ID="OnlineDebriefingPortHelp">¡No olvide abrir el puerto en el router!</String>
@@ -442,7 +442,7 @@
 	<String ID="OnlineDebriefingJoinButton">Unirse</String>
 	<String ID="OnlineDebriefingLeaveButton">Desconectar</String>
 	<String ID="OnlineDebriefingCancelButton">Cancelar</String>
-	<String ID="OnlineDebriefingWarningHost">Solo la versión Professional de Tacview puede ser anfitrión de una sesión de debriefing.</String>
+	<String ID="OnlineDebriefingWarningHost">Solo la versión Advanced de Tacview puede ser anfitrión de una sesión de debriefing.</String>
 	<String ID="OnlineDebriefingWarningClient">Cualquier versión registrada de Tacview puede unirse a una sesión en línea.</String>
 	<String ID="OnlineDebriefingHostInProgress">Hosteando una sesión de debriefing en línea [{0}]</String>
 	<String ID="OnlineDebriefingClientInProgress">Conectado a una sesión en línea [{0}]</String>
@@ -768,10 +768,13 @@
 	<String ID="LicenseAccept">&amp;Aceptar</String>
 	<String ID="LicenseDecline">&amp;Denegar</String>
 	<String ID="RegisterTitle">Registre su copia de Tacview</String>
-	<String ID="UpgradeTitle">Actualice a Tacview Professional</String>
+	<String ID="UpgradeToAdvancedTitle">Actualice a Tacview Advanced</String>
+	<String ID="UpgradeTitle">Upgrade your copy of Tacview</String>
 	<String ID="RegisterSubTitle">Introduzca su clave de producto</String>
 	<String ID="RegisterComment">Para registrar el producto y activar las características avanzadas, introduce el código de 25 caracteres que ha recibido por correo electrónico. Si no tiene uno aun, deberá comprar uno.</String>
-	<String ID="UpgradeComment">Para actualizar su producto y desbloquear las características avanzadas, introduzca la key de 25 caracteres de Tacview Professional que debe haber recibido por correo electrónico. Si no tiene una key professional, puede comprar una.</String>
+	<String ID="RegisterCommentSteam">If you already own a product key, enter it here. Otherwise, use the link below to purchase an upgrade.</String>
+	<String ID="UpgradeComment">Para actualizar su producto y desbloquear las características avanzadas, introduzca la key de 25 caracteres de Tacview Advanced que debe haber recibido por correo electrónico. Si no tiene una key Advanced, puede comprar una.</String>
+	<String ID="UpgradeCommentSteam">If you already own a Tacview Advanced product key, enter it here. Otherwise, use the link below to purchase an upgrade.</String>
 	<String ID="RegisterExample">Ejemplo:</String>
 	<String ID="RegisterProductKey">Clave del producto:</String>
 	<String ID="RegisterBuyProductKey">Comprar nueva key del producto en línea</String>
@@ -780,7 +783,7 @@
 	<String ID="RegistrationSucceededComment">Su copia esta ahora registrada. Mantenga la key en un sitio seguro en caso que necesite reinstalar Tacview.&#10;&#10;Como complemento de las nuevas y avanzadas características, ahora tiene prioridad con las consultas del soporte técnico al igual que privilegios en el acceso a las actualizaciones y vistas previas de futuras versiones de Tacview 2.x.</String>
 	<String ID="RegistrationSucceededURL">Aprenda más sobre las ventajas de usar una copia registrada de Tacview</String>
 	<String ID="RequireHomeLicenseText">Para usar esta versión de Tacview necesita registrar su copia.</String>
-	<String ID="RequireProfessionalLicenseText">Para usar esta versión de Tacview necesita una licencia professional.</String>
+	<String ID="RequireProfessionalLicenseText">Para usar esta versión de Tacview necesita una licencia Advanced.</String>
 	<String ID="RegisterUserProductKey">Registrar usor</String>
 	<String ID="RegisterSystemProductKey">Sistema de registro</String>
 	<String ID="Export">Exportar...</String>
@@ -901,6 +904,7 @@
 	<String ID="NoRecentDocuments">(Sin archivos recientes)</String>
 	<String ID="FileTypeDescriptionAnyTelemetryFile">Cualquier dato de telemetría</String>
 	<String ID="FileTypeDescriptionTacviewText">Texto de datos de telemetría de Tacview</String>
+	<String ID="FileTypeDescriptionTacviewTextZip">Compressed Tacview Text Telemetry Data</String>
 	<String ID="FileTypeDescriptionTacviewBinary">Datos binarios de telemetría de Tacview</String>
 	<String ID="FileTypeDescriptionGAEText">Texto de datos interactivos de distribución GAE</String>
 	<String ID="FileTypeDescriptionKMLStaticObjects">Objetos estáticos del lenguaje de marcado</String>
@@ -1018,7 +1022,7 @@
 	<String ID="TTOneFrame">Cuadro a cuadro</String>
 	<String ID="TTPreviousEvent">Saltar al evento anterior</String>
 	<String ID="TTNextEvent">Saltar al proximo evento</String>
-	<String ID="TTSyncRealTimeTelemetry">Sincronizar con telemetría en tiempo real</String>
+	<String ID="TTSyncRealTimeTelemetry">Go to end / Sincronizar con telemetría en tiempo real</String>
 
 	<String ID="TTViewCockpit">Visión de cabina (F5)</String>
 	<String ID="TTViewExternal">Vista externa (F6)</String>
