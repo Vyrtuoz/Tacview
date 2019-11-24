@@ -769,12 +769,12 @@
 	<String ID="LicenseDecline">&amp;Denegar</String>
 	<String ID="RegisterTitle">Registre su copia de Tacview</String>
 	<String ID="UpgradeToAdvancedTitle">Actualice a Tacview Advanced</String>
-	<String ID="UpgradeTitle">Upgrade your copy of Tacview</String>
+	<String ID="UpgradeTitle">Actualize su copia de Tacview</String>
 	<String ID="RegisterSubTitle">Introduzca su clave de producto</String>
 	<String ID="RegisterComment">Para registrar el producto y activar las características avanzadas, introduce el código de 25 caracteres que ha recibido por correo electrónico. Si no tiene uno aun, deberá comprar uno.</String>
-	<String ID="RegisterCommentSteam">If you already own a product key, enter it here. Otherwise, use the link below to purchase an upgrade.</String>
+	<String ID="RegisterCommentSteam">Si poses una key del producto, introduzcala aqui. En otro caso, use el link de abajo para la actualizacion.</String>
 	<String ID="UpgradeComment">Para actualizar su producto y desbloquear las características avanzadas, introduzca la key de 25 caracteres de Tacview Advanced que debe haber recibido por correo electrónico. Si no tiene una key Advanced, puede comprar una.</String>
-	<String ID="UpgradeCommentSteam">If you already own a Tacview Advanced product key, enter it here. Otherwise, use the link below to purchase an upgrade.</String>
+	<String ID="UpgradeCommentSteam">Si ya poseé una key de Tacview Advanced product, introduzcala aqui. En otro caso, use el link de abajo para comprar la mejora.</String>
 	<String ID="RegisterExample">Ejemplo:</String>
 	<String ID="RegisterProductKey">Clave del producto:</String>
 	<String ID="RegisterBuyProductKey">Comprar nueva key del producto en línea</String>
@@ -784,7 +784,7 @@
 	<String ID="RegistrationSucceededURL">Aprenda más sobre las ventajas de usar una copia registrada de Tacview</String>
 	<String ID="RequireHomeLicenseText">Para usar esta versión de Tacview necesita registrar su copia.</String>
 	<String ID="RequireProfessionalLicenseText">Para usar esta versión de Tacview necesita una licencia Advanced.</String>
-	<String ID="RegisterUserProductKey">Registrar usor</String>
+	<String ID="RegisterUserProductKey">Registrar user</String>
 	<String ID="RegisterSystemProductKey">Sistema de registro</String>
 	<String ID="Export">Exportar...</String>
 
@@ -904,7 +904,7 @@
 	<String ID="NoRecentDocuments">(Sin archivos recientes)</String>
 	<String ID="FileTypeDescriptionAnyTelemetryFile">Cualquier dato de telemetría</String>
 	<String ID="FileTypeDescriptionTacviewText">Texto de datos de telemetría de Tacview</String>
-	<String ID="FileTypeDescriptionTacviewTextZip">Compressed Tacview Text Telemetry Data</String>
+	<String ID="FileTypeDescriptionTacviewTextZip">Datos de telemetria comprimidos</String>
 	<String ID="FileTypeDescriptionTacviewBinary">Datos binarios de telemetría de Tacview</String>
 	<String ID="FileTypeDescriptionGAEText">Texto de datos interactivos de distribución GAE</String>
 	<String ID="FileTypeDescriptionKMLStaticObjects">Objetos estáticos del lenguaje de marcado</String>
@@ -1022,7 +1022,7 @@
 	<String ID="TTOneFrame">Cuadro a cuadro</String>
 	<String ID="TTPreviousEvent">Saltar al evento anterior</String>
 	<String ID="TTNextEvent">Saltar al proximo evento</String>
-	<String ID="TTSyncRealTimeTelemetry">Go to end / Sincronizar con telemetría en tiempo real</String>
+	<String ID="TTSyncRealTimeTelemetry">Ir al final / Sincronizar con telemetría en tiempo real</String>
 
 	<String ID="TTViewCockpit">Visión de cabina (F5)</String>
 	<String ID="TTViewExternal">Vista externa (F6)</String>
