@@ -50,6 +50,8 @@
 	<String ID="AnalysisDisplayControlBarHelp">Show or hide playback control bar</String>
 	<String ID="AnalysisActiveObjectListText">Active Objects List</String>
 	<String ID="AnalysisActiveObjectListHelp">Show or hide the list of active objects</String>
+	<String ID="AnalysisTimeJumpText">Time Jump</String>
+	<String ID="AnalysisTimeJumpHelp">Show or hide the tool to jump to specific time</String>
 	<String ID="AnalysisDisplayTelemetry0Text">Telemetria &amp;1</String>
 	<String ID="AnalysisDisplayTelemetry0Help">Mostra o nascondi la finestra della telemetria #1</String>
 	<String ID="AnalysisDisplayTelemetry1Text">Telemetria &amp;2</String>
@@ -191,8 +193,12 @@
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Associa Tacview con i file ACMI</String>
 	<String ID="OptionsAssociateFileTypesHelp">Consente di aprire le registrazioni di volo con Tacview quando si fa doppio clic su di esse in Windows</String>
-	<String ID="OptionsTrackIRCmdText">TrackIR</String>
-	<String ID="OptionsTrackIRCmdHelp">Abilita il TrackIR nella vista dalla cabina di pilotaggio</String>
+	<String ID="OptionsCockpitViewCmdText">Cockpit View</String>
+	<String ID="OptionsCockpitViewCmdHelp">Display cockpit view looking forward at the HUD</String>
+	<String ID="OptionsPilotViewCmdText">Pilot View</String>
+	<String ID="OptionsPilotViewCmdHelp">Animate the cockpit view based on pilot head movements (when data available)</String>
+	<String ID="OptionsTrackIRViewCmdText">TrackIR</String>
+	<String ID="OptionsTrackIRViewCmdHelp">Abilita il TrackIR nella vista dalla cabina di pilotaggio</String>
 
 	<String ID="DogfightModeCenteredText">Centered</String>
 	<String ID="DogfightModeCenteredHelp">Center the camera between selected objects</String>
@@ -642,6 +648,8 @@
 	<String ID="AddOnTitleMemoryProfiler">Profilo di Memoria</String>
 	<String ID="AddOnTitleActiveObjectList">Active Objects</String>
 	<String ID="AddOnTitlePlaybackControlBar">Playback Control Bar</String>
+	<String ID="AddOnTitleTimeJump">Time Jump</String>
+	<String ID="TimeJumpSetTime">Go!</String>
 
 	<String ID="DebugEventTime">Tempo</String>
 	<String ID="DebugEventLevel">Livello</String>
@@ -885,7 +893,7 @@
 	<String ID="InvalidShortcutText">Non riesco a trovare nella missione corrente gli oggetti e il tempo a cui fa riferimento questa scorciatoia. Assicurarsi di aver aperto il file giusto e copia/incolla tutta la scorciatoia.</String>
 
 	<String ID="AboutTitle">Riguardo Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2019, Raia Software. Tutti i diritti riservati.&#10;Questo programma è protetto da copyright e dai trattati internazionali.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2020, Raia Software. Tutti i diritti riservati.&#10;Questo programma è protetto da copyright e dai trattati internazionali.</String>
 
 	<String ID="LoadingInProgressShort">Caricamento...</String>
 	<String ID="LoadingInProgress">Caricamento '{0}'</String>

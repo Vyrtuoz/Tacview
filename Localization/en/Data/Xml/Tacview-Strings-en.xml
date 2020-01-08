@@ -49,6 +49,8 @@
 	<String ID="AnalysisDisplayControlBarHelp">Show or hide playback control bar</String>
 	<String ID="AnalysisActiveObjectListText">Active Objects List</String>
 	<String ID="AnalysisActiveObjectListHelp">Show or hide the list of active objects</String>
+	<String ID="AnalysisTimeJumpText">Time Jump</String>
+	<String ID="AnalysisTimeJumpHelp">Show or hide the tool to jump to specific time</String>
 	<String ID="AnalysisDisplayTelemetry0Text">Telemetry &amp;1</String>
 	<String ID="AnalysisDisplayTelemetry0Help">Show or hide telemetry window #1</String>
 	<String ID="AnalysisDisplayTelemetry1Text">Telemetry &amp;2</String>
@@ -190,8 +192,12 @@
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Associate Tacview with acmi files</String>
 	<String ID="OptionsAssociateFileTypesHelp">Enable you to open flight recordings with Tacview when you double-click them in Windows</String>
-	<String ID="OptionsTrackIRCmdText">TrackIR</String>
-	<String ID="OptionsTrackIRCmdHelp">Enable TrackIR in cockpit view</String>
+	<String ID="OptionsCockpitViewCmdText">Cockpit View</String>
+	<String ID="OptionsCockpitViewCmdHelp">Display cockpit view looking forward at the HUD</String>
+	<String ID="OptionsPilotViewCmdText">Pilot View</String>
+	<String ID="OptionsPilotViewCmdHelp">Animate the cockpit view based on pilot head movements (when data available)</String>
+	<String ID="OptionsTrackIRViewCmdText">TrackIR</String>
+	<String ID="OptionsTrackIRViewCmdHelp">Enable TrackIR in cockpit view</String>
 
 	<String ID="DogfightModeCenteredText">Centered</String>
 	<String ID="DogfightModeCenteredHelp">Center the camera between selected objects</String>
@@ -641,6 +647,8 @@
 	<String ID="AddOnTitleMemoryProfiler">Memory Profiler</String>
 	<String ID="AddOnTitleActiveObjectList">Active Objects</String>
 	<String ID="AddOnTitlePlaybackControlBar">Playback Control Bar</String>
+	<String ID="AddOnTitleTimeJump">Time Jump</String>
+	<String ID="TimeJumpSetTime">Go!</String>
 
 	<String ID="DebugEventTime">Time</String>
 	<String ID="DebugEventLevel">Level</String>
@@ -884,7 +892,7 @@
 	<String ID="InvalidShortcutText">Cannot find in the current mission the objects and time referenced by this shortcut. Make sure you have opened the right file and copy/pasted the whole shortcut.</String>
 
 	<String ID="AboutTitle">About Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2019, Raia Software. All Rights Reserved.&#10;This computer program is protected by copyright law and international treaties.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2020, Raia Software. All Rights Reserved.&#10;This computer program is protected by copyright law and international treaties.</String>
 
 	<String ID="LoadingInProgressShort">Loading...</String>
 	<String ID="LoadingInProgress">Loading '{0}'</String>

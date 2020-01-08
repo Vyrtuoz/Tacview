@@ -50,6 +50,8 @@
 	<String ID="AnalysisDisplayControlBarHelp">Show or hide playback control bar</String>
 	<String ID="AnalysisActiveObjectListText">Active Objects List</String>
 	<String ID="AnalysisActiveObjectListHelp">Show or hide the list of active objects</String>
+	<String ID="AnalysisTimeJumpText">Time Jump</String>
+	<String ID="AnalysisTimeJumpHelp">Show or hide the tool to jump to specific time</String>
 	<String ID="AnalysisDisplayTelemetry0Text">Телеметрия &amp;1</String>
 	<String ID="AnalysisDisplayTelemetry0Help">Показать / скрыть телеметрическое окно #1</String>
 	<String ID="AnalysisDisplayTelemetry1Text">Телеметрия &amp;2</String>
@@ -191,8 +193,12 @@
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Ассоциировать .acmi файлы с Tacview</String>
 	<String ID="OptionsAssociateFileTypesHelp">Позволяет открывать .acmi файлы в программе Tacview по двойному щелчку мыши (Windows OS)</String>
-	<String ID="OptionsTrackIRCmdText">TrackIR</String>
-	<String ID="OptionsTrackIRCmdHelp">Включить поддержку TrackIR для вида из кабины</String>
+	<String ID="OptionsCockpitViewCmdText">Cockpit View</String>
+	<String ID="OptionsCockpitViewCmdHelp">Display cockpit view looking forward at the HUD</String>
+	<String ID="OptionsPilotViewCmdText">Pilot View</String>
+	<String ID="OptionsPilotViewCmdHelp">Animate the cockpit view based on pilot head movements (when data available)</String>
+	<String ID="OptionsTrackIRViewCmdText">TrackIR</String>
+	<String ID="OptionsTrackIRViewCmdHelp">Включить поддержку TrackIR для вида из кабины</String>
 
 	<String ID="DogfightModeCenteredText">Centered</String>
 	<String ID="DogfightModeCenteredHelp">Center the camera between selected objects</String>
@@ -642,6 +648,8 @@
 	<String ID="AddOnTitleMemoryProfiler">Настройщик памяти</String>
 	<String ID="AddOnTitleActiveObjectList">Active Objects</String>
 	<String ID="AddOnTitlePlaybackControlBar">Playback Control Bar</String>
+	<String ID="AddOnTitleTimeJump">Time Jump</String>
+	<String ID="TimeJumpSetTime">Go!</String>
 
 	<String ID="DebugEventTime">Время</String>
 	<String ID="DebugEventLevel">Уровень</String>
@@ -885,7 +893,7 @@
 	<String ID="InvalidShortcutText">Невозможно найти объекты и время, на которые ссылается данный ярлык. Убедитесь, что открыт требуемый файл и целиком скопирован / метка вставлена.</String>
 
 	<String ID="AboutTitle">О программе Tacview</String>
-	<String ID="AboutCopyright">© 2006-2019, Raia Software. Все права защищены.&#10;Данное ПО защищено авторским правом и международными соглашениями.</String>
+	<String ID="AboutCopyright">© 2006-2020, Raia Software. Все права защищены.&#10;Данное ПО защищено авторским правом и международными соглашениями.</String>
 
 	<String ID="LoadingInProgressShort">Загрузка...</String>
 	<String ID="LoadingInProgress">Загружаем '{0}'</String>

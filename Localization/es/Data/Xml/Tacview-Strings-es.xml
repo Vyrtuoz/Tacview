@@ -50,6 +50,8 @@
 	<String ID="AnalysisDisplayControlBarHelp">Muestra u oculta la barra de reproducción</String>
 	<String ID="AnalysisActiveObjectListText">Lista de objetos activos</String>
 	<String ID="AnalysisActiveObjectListHelp">Muestra u oculta la lista de objetos activos</String>
+	<String ID="AnalysisTimeJumpText">Time Jump</String>
+	<String ID="AnalysisTimeJumpHelp">Show or hide the tool to jump to specific time</String>
 	<String ID="AnalysisDisplayTelemetry0Text">Telemetría &amp;1</String>
 	<String ID="AnalysisDisplayTelemetry0Help">Mostrar u ocultar ventana de telemetría 1</String>
 	<String ID="AnalysisDisplayTelemetry1Text">Telemetría &amp;2</String>
@@ -191,8 +193,12 @@
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Asociar Tacview con los archivos acmi</String>
 	<String ID="OptionsAssociateFileTypesHelp">Habilita que Tacview abra en windows los archivos de vuelo con doble click</String>
-	<String ID="OptionsTrackIRCmdText">TrackIR</String>
-	<String ID="OptionsTrackIRCmdHelp">Habilita el TrackIR en vista de cabina</String>
+	<String ID="OptionsCockpitViewCmdText">Cockpit View</String>
+	<String ID="OptionsCockpitViewCmdHelp">Display cockpit view looking forward at the HUD</String>
+	<String ID="OptionsPilotViewCmdText">Pilot View</String>
+	<String ID="OptionsPilotViewCmdHelp">Animate the cockpit view based on pilot head movements (when data available)</String>
+	<String ID="OptionsTrackIRViewCmdText">TrackIR</String>
+	<String ID="OptionsTrackIRViewCmdHelp">Habilita el TrackIR en vista de cabina</String>
 
 	<String ID="DogfightModeCenteredText">Centrado</String>
 	<String ID="DogfightModeCenteredHelp">Centrar la cámara entre los objetos seleccionados</String>
@@ -642,6 +648,8 @@
 	<String ID="AddOnTitleMemoryProfiler">Perfilador de memoria</String>
 	<String ID="AddOnTitleActiveObjectList">Active Objects</String>
 	<String ID="AddOnTitlePlaybackControlBar">Playback Control Bar</String>
+	<String ID="AddOnTitleTimeJump">Time Jump</String>
+	<String ID="TimeJumpSetTime">Go!</String>
 
 	<String ID="DebugEventTime">Tiempo</String>
 	<String ID="DebugEventLevel">Nivel</String>
@@ -885,7 +893,7 @@
 	<String ID="InvalidShortcutText">No es posible encontrar en la misión actual los objetos y tiempos de referencia del acceso directo. Asegúrese de haber abierto el archivo correcto y haber copiado/pegado el acceso directo entero.</String>
 
 	<String ID="AboutTitle">Sobre Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2019, Raia Software. Todos los derechos reservados.&#10;Este programa informático está protegido por las leyes de copyright y la ley internacional de tratados.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2020, Raia Software. Todos los derechos reservados.&#10;Este programa informático está protegido por las leyes de copyright y la ley internacional de tratados.</String>
 
 	<String ID="LoadingInProgressShort">Cargando...</String>
 	<String ID="LoadingInProgress">Cargando '{0}'</String>

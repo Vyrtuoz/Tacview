@@ -49,6 +49,8 @@
 	<String ID="AnalysisDisplayControlBarHelp">Afficher ou masquer la barre de contrôle de lecture</String>
 	<String ID="AnalysisActiveObjectListText">Liste objets actifs</String>
 	<String ID="AnalysisActiveObjectListHelp">Afficher ou masquer la liste des objets actifs</String>
+	<String ID="AnalysisTimeJumpText">Saut temporel</String>
+	<String ID="AnalysisTimeJumpHelp">Afficher ou masque l’outil pour sauter à un point spécifique dans le temps</String>
 	<String ID="AnalysisDisplayTelemetry0Text">Télémétrie &amp;1</String>
 	<String ID="AnalysisDisplayTelemetry0Help">Afficher ou masquer la fenêtre de télémétrie nº1</String>
 	<String ID="AnalysisDisplayTelemetry1Text">Télémétrie &amp;2</String>
@@ -190,8 +192,12 @@
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Associer Tacview aux fichiers acmi</String>
 	<String ID="OptionsAssociateFileTypesHelp">Permet d'ouvrir les enregistrements de vol avec Tacview lorsque l'on clique dessus depuis Windows</String>
-	<String ID="OptionsTrackIRCmdText">TrackIR</String>
-	<String ID="OptionsTrackIRCmdHelp">Active le TrackIR en vue cockpit</String>
+	<String ID="OptionsCockpitViewCmdText">Vue cockpit</String>
+	<String ID="OptionsCockpitViewCmdHelp">Affiche la vue cockpit regardant vers le HUD en avant</String>
+	<String ID="OptionsPilotViewCmdText">Vue du pilote</String>
+	<String ID="OptionsPilotViewCmdHelp">Montre où regarde le pilote (si l'information est disponible)</String>
+	<String ID="OptionsTrackIRViewCmdText">TrackIR</String>
+	<String ID="OptionsTrackIRViewCmdHelp">Active le TrackIR en vue cockpit</String>
 
 	<String ID="DogfightModeCenteredText">Centrer</String>
 	<String ID="DogfightModeCenteredHelp">Centre la caméra entre les objets sélectionnés</String>
@@ -641,6 +647,8 @@
 	<String ID="AddOnTitleMemoryProfiler">Profiler memoire</String>
 	<String ID="AddOnTitleActiveObjectList">Objets actifs</String>
 	<String ID="AddOnTitlePlaybackControlBar">Contrôles de lecture</String>
+	<String ID="AddOnTitleTimeJump">Saut temporel</String>
+	<String ID="TimeJumpSetTime">Go!</String>
 
 	<String ID="DebugEventTime">Heure</String>
 	<String ID="DebugEventLevel">Niveau</String>
@@ -884,7 +892,7 @@
 	<String ID="InvalidShortcutText">Impossible de trouver dans cette mission les objets et l'heure contenus dans ce raccourci. Assurez-vous d'avoir ouvert le bon fichier et d'avoir copié/collé l'intégralité du raccourci.</String>
 
 	<String ID="AboutTitle">A propos de Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2019, Raia Software. Tous droits réservés.&#10;Ce logiciel est protégé par les lois internationales sur le copyright.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2020, Raia Software. Tous droits réservés.&#10;Ce logiciel est protégé par les lois internationales sur le copyright.</String>
 
 	<String ID="LoadingInProgressShort">Chargement...</String>
 	<String ID="LoadingInProgress">Chargement de '{0}'</String>
