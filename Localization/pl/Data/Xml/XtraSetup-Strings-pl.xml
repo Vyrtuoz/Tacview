@@ -5,55 +5,55 @@
 <Resources Language="pl">
 
 	<!-- Misc -->
-	<String ID="InstallTitle">{0} Installation</String>
-	<String ID="InstallLabel">{0} Installation</String>
+	<String ID="InstallTitle">{0} Instalacja</String>
+	<String ID="InstallLabel">{0} Instalacja</String>
 
 	<!-- Main Page -->
-	<String ID="WelcomePageTitle">Welcome</String>
-	<String ID="WelcomeTitle">Welcome to {0} installation program</String>
-	<String ID="WelcomeInstructions">By installing this application,&#10;you agree you have read and accepted the License Agreement.</String>
+	<String ID="WelcomePageTitle">Witamy</String>
+	<String ID="WelcomeTitle">Witamy w {0} programie instalacyjnym</String>
+	<String ID="WelcomeInstructions">W momencie instalacji tej aplikacji,&#10;potwierdzasz, żę przecztałeś i akceptujesz umowe lincencyjną.</String>
 <!--
-	<String ID="WelcomeInstructions">To begin the installation, click Install.&#10;To customize the installation, click the Options tab.</String>
+	<String ID="WelcomeInstructions">Aby rozpocząć instalację, kliknij Instaluj.&#10;Aby zmodyfikować instalację, kliknij zakładke Opcje.</String>
 -->
-	<String ID="WelcomeInfoURL">Learn more about {0}</String>
-	<String ID="OpenBetaWarningURL">WARNING: To use this version you need a product key.</String>
-	<String ID="ClosedBetaWarning">WARNING: This is a closed beta test. Do not distribute this version.</String>
+	<String ID="WelcomeInfoURL">Dowiedz się więccccej {0}</String>
+	<String ID="OpenBetaWarningURL">UWAGA: Aby używać tej wersji, musisz posiadać klucz produktu.</String>
+	<String ID="ClosedBetaWarning">UWAGA: To jest beta test. Nie rozpowszechniaj tej wersji.</String>
 
-	<String ID="LicensePageTitle">License</String>
+	<String ID="LicensePageTitle">Licencja</String>
 
-	<String ID="OptionsPageTitle">Options</String>
-	<String ID="InstallFolders">Folders</String>
-	<String ID="InstallFolderLabel">{0} will be installed in the following folder:</String>
-	<String ID="SpaceRequired">Space required: {0,.0} MB</String>
-	<String ID="ProgramGroupLabel">Program icons will be added into the following group:</String>
-	<String ID="ShortcutsGroup">Additional Shortcuts</String>
-	<String ID="CreateDesktopShortcut">Create a &amp;Desktop icon</String>
-	<String ID="CreateQuickLaunchShortcut">Create a &amp;Quick Launch icon</String>
+	<String ID="OptionsPageTitle">Opcje</String>
+	<String ID="InstallFolders">Foldery</String>
+	<String ID="InstallFolderLabel">{0} będzie zainstalowana w następującym folderze:</String>
+	<String ID="SpaceRequired">Wymagane miejsce: {0,.0} MB</String>
+	<String ID="ProgramGroupLabel">Ikony programu zostaną dodane do następującej grupy:</String>
+	<String ID="ShortcutsGroup">Dodatkowe skróty</String>
+	<String ID="CreateDesktopShortcut">Utwórz ikonę na &amp;Desktop</String>
+	<String ID="CreateQuickLaunchShortcut">Utwórz ikonę &amp;Quick Launch</String>
 
-	<String ID="BrowseInstallFolderHelp">Select Installation Folder</String>
+	<String ID="BrowseInstallFolderHelp">Wybierz docelowy folder</String>
 
 	<!-- File Transfer Page -->
-	<String ID="InstallInProgress">Install in progress...</String>
-	<String ID="ProgressionText">Writing files: {0,.0}% Completed</String>
-	<String ID="TimeRemaining">Time Remaining:</String>
-	<String ID="CancelConfirmation">Are you sure you want to abort {0} installation?</String>
+	<String ID="InstallInProgress">Instalacja w trakcie...</String>
+	<String ID="ProgressionText">Zapisywanie plików: {0,.0}% Zakończone</String>
+	<String ID="TimeRemaining">Pozostały czas:</String>
+	<String ID="CancelConfirmation">Czy jesteś pewnie, że chcesz przerwać {0} instalację?</String>
 
 	<!-- Canceled Page -->
-	<String ID="InstallCanceled">Install Canceled</String>
-	<String ID="CanceledMessage">The installation process was successfully cancelled.</String>
+	<String ID="InstallCanceled">Instalacja przerwana</String>
+	<String ID="CanceledMessage">Proces instalacji został poprawnie przerwany.</String>
 
 	<!-- Failure Page -->
-	<String ID="InstallFailed">Install Failed</String>
-	<String ID="FailureMessage">Please ensure that you have enough access rights and free disk space&#10;before contacting the software manufacturer for assistance.</String>
-	<String ID="TechnicalSupport">Technical support</String>
+	<String ID="InstallFailed">Instalacja nie udana</String>
+	<String ID="FailureMessage">Proszę upewnij się, że masz wywystarczajce uprawnienia i odpowiednią ilość wolnego miejsca&#10;zanim skontaktujesz się z autorem tego oprograpowania po pomoc.</String>
+	<String ID="TechnicalSupport">Pomoc techniczna</String>
 
 	<!-- Success Page -->
-	<String ID="InstallSucceeded">Installation Successful</String>
-	<String ID="SuccessMessage">{0} was successfully installed.</String>
-	<String ID="OfficialWebSiteInfo">Find detailed documentation and latest updates on the official website.</String>
+	<String ID="InstallSucceeded">Instalacja udana</String>
+	<String ID="SuccessMessage">{0} zainstaloway z powodzeniem.</String>
+	<String ID="OfficialWebSiteInfo">Zobacz szczegółową dokumentacja i najnowsze uaktualnienia na oficjalnej stronie internetowej.</String>
 
 	<!-- Buttons -->
-	<String ID="InstallButton">&amp;Install</String>
-	<String ID="RunButton">&amp;Launch {0}</String>
+	<String ID="InstallButton">&amp;Zainstaluj</String>
+	<String ID="RunButton">&amp;Uruchom {0}</String>
 
 </Resources>
