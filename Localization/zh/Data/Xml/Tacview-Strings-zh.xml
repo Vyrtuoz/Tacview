@@ -50,8 +50,8 @@
 	<String ID="AnalysisDisplayControlBarHelp">显示或隐藏播放控制栏</String>
 	<String ID="AnalysisActiveObjectListText">活动物体列表</String>
 	<String ID="AnalysisActiveObjectListHelp">显示或隐藏活动物体列表</String>
-	<String ID="AnalysisTimeJumpText">Time Jump</String>
-	<String ID="AnalysisTimeJumpHelp">Show or hide the tool to jump to specific time</String>
+	<String ID="AnalysisTimeJumpText">时间跳跃</String>
+	<String ID="AnalysisTimeJumpHelp">显示或隐藏跳至特定时间的工具</String>
 	<String ID="AnalysisDisplayTelemetry0Text">遥测&amp;1</String>
 	<String ID="AnalysisDisplayTelemetry0Help">显示或隐藏遥测窗口#1</String>
 	<String ID="AnalysisDisplayTelemetry1Text">遥测&amp;2</String>
@@ -193,12 +193,12 @@
 
 	<String ID="OptionsAssociateFileTypesText">&amp;关联acmi文件至Tacview</String>
 	<String ID="OptionsAssociateFileTypesHelp">在Windows里双击acmi飞行记录文件时用Tacview打开。</String>
-	<String ID="OptionsCockpitViewCmdText">Cockpit View</String>
-	<String ID="OptionsCockpitViewCmdHelp">Display cockpit view looking forward at the HUD</String>
-	<String ID="OptionsPilotViewCmdText">Pilot View</String>
-	<String ID="OptionsPilotViewCmdHelp">Animate the cockpit view based on pilot head movements (when data available)</String>
+	<String ID="OptionsCockpitViewCmdText">驾驶舱视图</String>
+	<String ID="OptionsCockpitViewCmdHelp">显示向前看HUD的驾驶舱视图</String>
+	<String ID="OptionsPilotViewCmdText">飞行员视图</String>
+	<String ID="OptionsPilotViewCmdHelp">根据飞行员的头部动作对驾驶舱视图进行动画处理（如果有数据可用）</String>
 	<String ID="OptionsTrackIRViewCmdText">TrackIR</String>
-	<String ID="OptionsTrackIRViewCmdHelp">在驾驶舱视野里启用TrackIR</String>
+	<String ID="OptionsTrackIRViewCmdHelp">在驾驶舱视图里启用TrackIR</String>
 
 	<String ID="DogfightModeCenteredText">居中</String>
 	<String ID="DogfightModeCenteredHelp">把摄像机剧中到已选物体中间</String>
@@ -665,8 +665,8 @@
 	<String ID="AddOnTitleMemoryProfiler">内存配置器</String>
 	<String ID="AddOnTitleActiveObjectList">活动物体</String>
 	<String ID="AddOnTitlePlaybackControlBar">播放控制栏</String>
-	<String ID="AddOnTitleTimeJump">Time Jump</String>
-	<String ID="TimeJumpSetTime">Go!</String>
+	<String ID="AddOnTitleTimeJump">时间跳跃</String>
+	<String ID="TimeJumpSetTime">走！</String>
 
 	<String ID="DebugEventTime">时间</String>
 	<String ID="DebugEventLevel">等级</String>
