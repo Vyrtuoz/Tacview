@@ -542,6 +542,7 @@
 	<String ID="AddEditObjectId">ID</String>
 	<String ID="AddEditObjectTime">时间</String>
 	<String ID="AddEditObjectName">名称</String>
+	<String ID="AddEditObjectCallSign">Callsign</String>
 	<String ID="AddEditObjectPilot">驾驶员</String>
 	<String ID="AddEditObjectGroup">群组</String>
 	<String ID="AddEditObjectType">类型</String>
@@ -726,6 +727,7 @@
 	<String ID="ControlsCtrlRightClick">[Ctrl] + [鼠标右键]</String>
 	<String ID="ControlsDoubleClick">[双击鼠标左键]</String>
 	<String ID="ControlsLeftRight">[←] / [→]</String>
+	<String ID="ControlsPageUpDown">([Ctrl]+) [⇞] / [⇟]</String>
 	<String ID="ControlsMouseLeftDrag">[鼠标左键] + {拖拽}</String>
 	<String ID="ControlsMouseRightDrag">[鼠标右键] + {拖拽}</String>
 	<String ID="ControlsMouseWheel">[鼠标滚轮滚动]</String>
@@ -734,7 +736,7 @@
 	<String ID="ControlsShiftLeftClick">[Shift] + [鼠标左键]</String>
 	<String ID="ControlsShiftMove">[Shift] + {方向键}</String>
 	<String ID="ControlsSpaceBar">[空格键]</String>
-	<String ID="ControlsAltReturn">[Alt] + [Enter]</String>
+	<String ID="ControlsAltEnter">[Alt] + [Enter]</String>
 	<String ID="ControlsCtrlC">[Ctrl] + [C]</String>
 	<String ID="ControlsCtrlV">[Ctrl] + [V]</String>
 	<String ID="ControlsPlaybackFasterShortcut">[↑]</String>

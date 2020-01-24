@@ -541,6 +541,7 @@
 	<String ID="AddEditObjectId">ID</String>
 	<String ID="AddEditObjectTime">시간</String>
 	<String ID="AddEditObjectName">이름</String>
+	<String ID="AddEditObjectCallSign">Callsign</String>
 	<String ID="AddEditObjectPilot">파일럿</String>
 	<String ID="AddEditObjectGroup">Group</String>
 	<String ID="AddEditObjectType">타입</String>
@@ -725,6 +726,7 @@
 	<String ID="ControlsCtrlRightClick">[컨트롤] + [우 클릭]</String>
 	<String ID="ControlsDoubleClick">[더블 클릭]</String>
 	<String ID="ControlsLeftRight">[←] / [→]</String>
+	<String ID="ControlsPageUpDown">([Ctrl]+) [⇞] / [⇟]</String>
 	<String ID="ControlsMouseLeftDrag">[마우스 왼쪽 버튼] + {드래그}</String>
 	<String ID="ControlsMouseRightDrag">[마우스 오른쪽 버튼] + {드래그}</String>
 	<String ID="ControlsMouseWheel">[마우스 휠]</String>
@@ -733,7 +735,7 @@
 	<String ID="ControlsShiftLeftClick">[쉬프트] + [좌 클릭]</String>
 	<String ID="ControlsShiftMove">[쉬프트] + {움직이기}</String>
 	<String ID="ControlsSpaceBar">[스페이스 바]</String>
-	<String ID="ControlsAltReturn">[알트] + [리턴]</String>
+	<String ID="ControlsAltEnter">[알트] + [리턴]</String>
 	<String ID="ControlsCtrlC">[컨트롤] + [C]</String>
 	<String ID="ControlsCtrlV">[컨트롤] + [V]</String>
 	<String ID="ControlsPlaybackFasterShortcut">[↑]</String>

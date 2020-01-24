@@ -525,6 +525,7 @@
 	<String ID="AddEditObjectId">ID</String>
 	<String ID="AddEditObjectTime">Время</String>
 	<String ID="AddEditObjectName">Имя</String>
+	<String ID="AddEditObjectCallSign">Callsign</String>
 	<String ID="AddEditObjectPilot">Пилот</String>
 	<String ID="AddEditObjectGroup">Group</String>
 	<String ID="AddEditObjectType">Тип</String>
@@ -709,6 +710,7 @@
 	<String ID="ControlsCtrlRightClick">[Ctrl] + [ПКМ]</String>
 	<String ID="ControlsDoubleClick">[Двойной клик]</String>
 	<String ID="ControlsLeftRight">[←] / [→]</String>
+	<String ID="ControlsPageUpDown">([Ctrl]+) [⇞] / [⇟]</String>
 	<String ID="ControlsMouseLeftDrag">[ЛКМ] + {потянуть}</String>
 	<String ID="ControlsMouseRightDrag">[ПКМ] + {потянуть}</String>
 	<String ID="ControlsMouseWheel">[Колесо мыши]</String>
@@ -717,7 +719,7 @@
 	<String ID="ControlsShiftLeftClick">[Shift] + [ЛКМ]</String>
 	<String ID="ControlsShiftMove">[Shift] + {потянуть}</String>
 	<String ID="ControlsSpaceBar">[Пробел]</String>
-	<String ID="ControlsAltReturn">[Alt] + [Return]</String>
+	<String ID="ControlsAltEnter">[Alt] + [Enter]</String>
 	<String ID="ControlsCtrlC">[Ctrl] + [C]</String>
 	<String ID="ControlsCtrlV">[Ctrl] + [V]</String>
 	<String ID="ControlsPlaybackFasterShortcut">[↑]</String>

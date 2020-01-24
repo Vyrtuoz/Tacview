@@ -106,7 +106,7 @@ msgstr ""
 msgid "Customize TCP ports when running several DCS World instances"
 msgstr ""
 
-msgid "at the same time."
+msgid "at the same time. Set to 0 to disable."
 msgstr ""
 
 msgid "Host Telemetry Password"

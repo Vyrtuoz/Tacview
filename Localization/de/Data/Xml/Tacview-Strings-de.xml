@@ -525,6 +525,7 @@
 	<String ID="AddEditObjectId">ID</String>
 	<String ID="AddEditObjectTime">Zeit</String>
 	<String ID="AddEditObjectName">Name</String>
+	<String ID="AddEditObjectCallSign">Callsign</String>
 	<String ID="AddEditObjectPilot">Pilot</String>
 	<String ID="AddEditObjectGroup">Group</String>
 	<String ID="AddEditObjectType">Typ</String>
@@ -709,6 +710,7 @@
 	<String ID="ControlsCtrlRightClick">[Ctrl] + [Rechts Klick]</String>
 	<String ID="ControlsDoubleClick">[Doppel Klick]</String>
 	<String ID="ControlsLeftRight">[←] / [→]</String>
+	<String ID="ControlsPageUpDown">([Ctrl]+) [⇞] / [⇟]</String>
 	<String ID="ControlsMouseLeftDrag">[Maus Links] + {Drag}</String>
 	<String ID="ControlsMouseRightDrag">[Maus Rechts] + {Drag}</String>
 	<String ID="ControlsMouseWheel">[Mausrad]</String>
@@ -717,7 +719,7 @@
 	<String ID="ControlsShiftLeftClick">[Shift] + [Links Click]</String>
 	<String ID="ControlsShiftMove">[Shift] + {Move}</String>
 	<String ID="ControlsSpaceBar">[Leertaste]</String>
-	<String ID="ControlsAltReturn">[Alt] + [Return]</String>
+	<String ID="ControlsAltEnter">[Alt] + [Enter]</String>
 	<String ID="ControlsCtrlC">[Ctrl] + [C]</String>
 	<String ID="ControlsCtrlV">[Ctrl] + [V]</String>
 	<String ID="ControlsPlaybackFasterShortcut">[↑]</String>

@@ -106,8 +106,8 @@ msgstr "Port TCP Télécommande (42675)"
 msgid "Customize TCP ports when running several DCS World instances"
 msgstr "Personnalisez les ports TCP lorsque plusieurs instances de"
 
-msgid "at the same time."
-msgstr "DCS World sont exécutées en même temps."
+msgid "at the same time. Set to 0 to disable."
+msgstr "DCS World sont exécutées en même temps. Utilisez 0 pour désactiver."
 
 msgid "Host Telemetry Password"
 msgstr "Mot de passe télémétrie hôte"
