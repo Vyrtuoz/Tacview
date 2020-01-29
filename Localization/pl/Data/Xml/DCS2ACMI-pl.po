@@ -14,136 +14,136 @@ msgstr ""
 "X-Generator: Poedit 2.0.2\n"
 
 msgid "Tacview - The Universal Flight Analysis Tool"
-msgstr ""
+msgstr "Tacview - Uniwersalny analizator lotu"
 
 msgid "Tacview is a universal flight analysis tool which enables you to record, analyze, and understand any flight to improve your skills much faster than with conventional debriefings. From the novice pilot to the virtual squadron leader, it is an invaluable tool to understand what really happened and to improve piloting style and tactical skills."
-msgstr ""
+msgstr "Tacview to uniwersalne narzędzie do analizy lotu, które pozwala nagrywać, analizować i zrozumieć każdy lot, aby ulepszyć Twoje umiejętności znacznie szybciej niż podczas tradycyjnych odpraw. Od nowicjusza po wirtualnego dowódcy eskadry, to nieocenione narzędzie, aby zrozumieć, co naprawdę zaszło, aby ulepszyć styl latania i taktyczne umiejętności."
 
 msgid "Record Flight Data"
-msgstr ""
+msgstr "Nagraj dane lotu"
 
 msgid "Create one file for each network client"
-msgstr ""
+msgstr "Utwórz plik dla każdego klienta sieciowego"
 
 msgid "Records a separate acmi file for each client connected to your server,"
-msgstr ""
+msgstr "Nagraj oddzielny plik acmi dla każdego klienta podłączonego do twojego serwera,"
 
 msgid "so each can be shared with your whole squadron later."
-msgstr ""
+msgstr "aby mógł być udostępniony dla całej eskadry."
 
 msgid "Bookmark Shortcut"
-msgstr ""
+msgstr "Skrót do zakładki"
 
 msgid "RAlt + B"
-msgstr ""
+msgstr "RAlt + B"
 
 msgid "Use this shortcut while flying to highlight a specific moment in Tacview log and timeline."
-msgstr ""
+msgstr "Użyj tego skrótu podczas lotu, aby zaznaczyć specyficzny moment w logu Tacview i na osi czasu."
 
 msgid "NOTE: Works only when the flight is recorded by the local computer."
-msgstr ""
+msgstr "Uwaga: Działa jedynie, kiedy lot nagrywany jest na lokalnym komputerze."
 
 msgid "Playback Delay"
-msgstr ""
+msgstr "Opóźnienie odgrywania"
 
 msgid "None (real-time)"
-msgstr ""
+msgstr "nic (rzeczywisty czas)"
 
 msgid "1 minute"
-msgstr ""
+msgstr "1 minuta"
 
 msgid "5 minutes"
-msgstr ""
+msgstr "5 minut"
 
 msgid "10 minutes"
-msgstr ""
+msgstr "10 minut"
 
 msgid "20 minutes"
-msgstr ""
+msgstr "20 minut"
 
 msgid "30 minutes"
-msgstr ""
+msgstr "30 minut"
 
 msgid "As the host of an online session, you can prevent cheating by forcing a delay before"
-msgstr ""
+msgstr "Jako zarządca sesji, możesz zapobiec oszukiwaniu przez wymuszenie opóźnienia, zanim"
 
 msgid "clients can playback the flight they have recorded on their side."
-msgstr ""
+msgstr "klienci mogą odtworzyć lot, który nagrali po swojej stronie."
 
 msgid "NOTE: Flights recorded in single player mode or by the host are not protected."
-msgstr ""
+msgstr "Uwaga: Nagrane loty w trybie pojedynczego gracza lub przez zarządce nie mogą być chronione."
 
 msgid "Compression Level"
-msgstr ""
+msgstr "Poziom kompresji"
 
 msgid "You may want to disable compression if your simulator crashes often and you need to load"
-msgstr ""
+msgstr "Możesz wyłączyć kompresję, jeśli Twój symulator czesto się zawiesza i musisz załadować"
 
 msgid "corrupted acmi files."
-msgstr ""
+msgstr "zepsute pliki acmi."
 
 msgid "not compressed"
-msgstr ""
+msgstr "nie skompresowany"
 
 msgid "Profiling Period"
-msgstr ""
+msgstr "Okres profilowania"
 
 msgid "Defines how often profiling data is output in the dcs.log file."
-msgstr ""
+msgstr "Definiuje jak często dane profilujące trafiają do pliku dcs.log."
 
 msgid "Debug Mode"
-msgstr ""
+msgstr "Tryb debugowania"
 
 msgid "Records additional debug info for each object and event to help pinpoint specific issues."
-msgstr ""
+msgstr "Nagraj dodatkowe dane dla każdego obiektu i wydarzenia, aby dokładnie namierzyć specyficzny problem."
 
 msgid "Real-Time Telemetry TCP Port (42674)"
-msgstr ""
+msgstr "Telemetria czasu rzeczywistego port TCP (42674)"
 
 msgid "Remote Control TCP Port (42675)"
-msgstr ""
+msgstr "Zdalne sterowanie port TCP (42675)"
 
 msgid "Customize TCP ports when running several DCS World instances"
-msgstr ""
+msgstr "Dostosuj porty TCP, kiedy masz uruchomione kilka instancji DCS World"
 
 msgid "at the same time. Set to 0 to disable."
-msgstr ""
+msgstr "jednocześnie. Ustaw 0, aby wyłączyć."
 
 msgid "Host Telemetry Password"
-msgstr ""
+msgstr "Hasło telemetrii dla zarządcy"
 
 msgid "As the host of an online session, you can authorize privileged clients to review"
-msgstr ""
+msgstr "Jako zarządca sesji online, możesz autoryzować uprzywilejowanych klientów do natychmiastowego"
 
 msgid "right away any telemetry recorded from your server."
-msgstr ""
+msgstr "przeglądania telemetrii nagranej z Twojego serwera."
 
 msgid "Client Telemetry Password"
-msgstr ""
+msgstr "Hasło telemetrii dla klienta"
 
 msgid "Enter the Host Telemetry Password provided by the host of your online flight,"
-msgstr ""
+msgstr "Wprowadź hasło telemetrii dla zarządcy, dostarczone przez zarządca Twojego lotu online,"
 
 msgid "to get immediate access to any available telemetry data."
-msgstr ""
+msgstr "aby dostać natychmiastowy dostęp do danych telemetrycznych."
 
 msgid "Local Remote Control Password"
-msgstr ""
+msgstr "Lokalne hasło zdalnej obsługi"
 
 msgid "Terrain Export"
-msgstr ""
+msgstr "Eksport terenu"
 
 msgid "NOTICE: SLOW OPERATION!"
-msgstr ""
+msgstr "Uwaga: WOLNE DZIAŁANIE"
 
 msgid "DO NOT forget to disable this option after successful export."
-msgstr ""
+msgstr "NIE ZAPOMNIJ wyłączyć tej opcji po udanym eksporcie."
 
 msgid "Disabled"
-msgstr ""
+msgstr "Wyłączone"
 
 msgid "Unknown Terrain"
-msgstr ""
+msgstr "Nieznany teren"
 
 msgid "Predefined Terrain"
-msgstr ""
+msgstr "Predefiniowany teren"
