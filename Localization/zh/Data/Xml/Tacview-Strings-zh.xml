@@ -542,7 +542,7 @@
 	<String ID="AddEditObjectId">ID</String>
 	<String ID="AddEditObjectTime">时间</String>
 	<String ID="AddEditObjectName">名称</String>
-	<String ID="AddEditObjectCallSign">Callsign</String>
+	<String ID="AddEditObjectCallSign">呼号</String>
 	<String ID="AddEditObjectPilot">驾驶员</String>
 	<String ID="AddEditObjectGroup">群组</String>
 	<String ID="AddEditObjectType">类型</String>
