@@ -15,6 +15,63 @@
 	<DefaultProperties Id="Missile.SAM.Hybrid" Base="Missile.SAM">
 	</DefaultProperties>
 
+	<!-- North American Surface-to-air Missiles -->
+
+	<DefaultProperties Id="Missile.SAM.RIM-7" Base="Missile.AA.AIM-7">
+		<Criteria>
+			<Name>RIM-7</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>RIM-7</ShortName>
+			<LongName>RIM-7 Sea Sparrow</LongName>
+			<FullName>RIM-7 Sea Sparrow</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.SAM.FIM92" Base="Missile.SAM.IR">
+		<Criteria>
+			<Name>FIM-92</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>FIM-92</ShortName>
+			<LongName>FIM-92 Stinger</LongName>
+			<FullName>FIM-92 Stinger</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.SAM.FIM92C" Base="Missile.SAM.FIM92">
+		<Criteria>
+			<Name>FIM-92C</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>FIM-92C</ShortName>
+			<LongName>FIM-92C Stinger</LongName>
+			<FullName>FIM-92C Stinger</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.SAM.MIM-72A" Base="Missile.AA.AIM-9D">
+		<Criteria>
+			<Name>MIM-72A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MIM-72A</ShortName>
+			<LongName>MIM-72A Chaparral</LongName>
+			<FullName>MIM-72A Chaparral</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.SAM.MIM-72G" Base="Missile.SAM.MIM-72A">
+		<Criteria>
+			<Name>MIM-72G</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MIM-72G</ShortName>
+			<LongName>MIM-72G Chaparral</LongName>
+			<FullName>MIM-72G Chaparral</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- Eastern Surface-to-air Missiles -->
 
 	<DefaultProperties Id="Missile.SAM.9M39" Base="Missile.SAM.IR">
@@ -27,6 +84,19 @@
 			<ShortName>9M39</ShortName>
 			<LongName>9M39 Igla (SA-18)</LongName>
 			<FullName>9M39 Igla (SA-18 Grouse)</FullName>
+			<Shape>Missile.9K38.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.SAM.Igla-1E" Base="Missile.SAM.IR">
+		<Criteria>
+			<Name>Igla-1E</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Igla</ShortName>
+			<LongName>Igla-1E (SA-18)</LongName>
+			<FullName>9K38 Igla-1E (SA-18 Grouse)</FullName>
+			<Shape>Missile.9K38.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

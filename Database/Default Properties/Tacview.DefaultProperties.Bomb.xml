@@ -30,6 +30,9 @@
 	<DefaultProperties Id="Bomb.Practice" Base="Core.Bomb">
 	</DefaultProperties>
 
+	<DefaultProperties Id="Bomb.Flare" Base="Bomb.Unguided">
+	</DefaultProperties>
+
 	<!-- North American Bombs -->
 
 	<DefaultProperties Id="Bomb.AN-M59" Base="Bomb.WWII">
@@ -176,6 +179,17 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Bomb.LUU2B" Base="Bomb.Flare">
+		<Criteria>
+			<Name>LUU-2B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>LUU-2B</ShortName>
+			<LongName>LUU-2B</LongName>
+			<FullName>LUU-2B</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Bomb.Mk81" Base="Bomb.Unguided">
 		<Criteria>
 			<Name>Mk-81</Name>
@@ -293,6 +307,98 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Bomb.RKB-500.AO" Base="Bomb.Subminution">
+		<Criteria>
+			<Name>RKB-500 AO</Name>
+			<Name>weapons.bombs.RBK_500AO</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>RKB-500 AO</ShortName>
+			<LongName>RKB-500 AO</LongName>
+			<FullName>RKB-500 AO Cluster Bombs</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- EU Bombs -->
+
+	<DefaultProperties Id="Bomb.BK90" Base="Bomb.Subminution">
+		<Criteria>
+			<Name>BK90 cluster</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BK90</ShortName>
+			<LongName>BK90 (cluster)</LongName>
+			<FullName>Bombkapsel 90 (BK90 cluster)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.BK90.MJ1" Base="Bomb.BK90">
+		<Criteria>
+			<Name>BK90 MJ1 cluster</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BK90</ShortName>
+			<LongName>BK90 MJ1 (cluster)</LongName>
+			<FullName>Bombkapsel 90 (BK90 MJ1 cluster)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.BK90.MJ2" Base="Bomb.BK90">
+		<Criteria>
+			<Name>BK90 MJ2 cluster</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BK90</ShortName>
+			<LongName>BK90 MJ2 (cluster)</LongName>
+			<FullName>Bombkapsel 90 (BK90 MJ2 cluster)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.BK90.MJ1.MJ2" Base="Bomb.BK90">
+		<Criteria>
+			<Name>BK90 MJ1 MJ2 cluster</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BK90</ShortName>
+			<LongName>BK90 MJ1-MJ2 (cluster)</LongName>
+			<FullName>Bombkapsel 90 (BK90 MJ1-MJ2 cluster)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.M71" Base="Bomb.Unguided">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.M71HD" Base="Bomb.M71">
+		<Criteria>
+			<Name>HEBOMBD</Name>	<!-- DCS: AJS-37 Viggen -->
+		</Criteria>
+		<Properties>
+			<ShortName>M71HD</ShortName>
+			<LongName>SB M/71 High-Drag</LongName>
+			<FullName>SB M/71 High-Drag</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.M71LD" Base="Bomb.M71">
+		<Criteria>
+			<Name>HEBOMB</Name>		<!-- DCS: AJS-37 Viggen -->
+		</Criteria>
+		<Properties>
+			<ShortName>M71LD</ShortName>
+			<LongName>SB M/71 Low-Drag</LongName>
+			<FullName>SB M/71 Low-Drag</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.Lysbomb.m/71" Base="Bomb.Flare">
+		<Criteria>
+			<Name>Lysbomb</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Lysbomb</ShortName>
+			<LongName>Lysbomb m/71</LongName>
+			<FullName>Lysbomb 80kg m/71 Illumination Bomb</FullName>
+		</Properties>
+	</DefaultProperties>
 
 </DefaultPropertiesCollection>

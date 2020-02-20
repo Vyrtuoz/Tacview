@@ -18,9 +18,21 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Container.FuelTank" Base="Core.Container">
+	<DefaultProperties Id="Container.DropTank" Base="Core.Container">
 		<Properties>
-			<Shape>Other.FuelTank.obj</Shape>
+			<Shape>Other.DropTank.FPU610.obj</Shape>		<!-- Donation from jon@milviz.com -->
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Fix for IL-2 -->
+
+	<DefaultProperties Id="IL2.DistantLOD" Base="Core.Default">
+		<Criteria>
+			<Name>CDistantLOD</Name>
+			<Type>Misc+Shrapnel</Type>
+		</Criteria>
+		<Properties>
+			<Visible>0</Visible>
 		</Properties>
 	</DefaultProperties>
 
@@ -39,6 +51,7 @@
 	<DefaultProperties Id="Other.Parachutist" Base="Other.Parachutist.WithoutName">
 		<Criteria>
 			<Name>Parachutist</Name>
+			<Name>CParachute</Name>		<!-- IL-2 -->
 		</Criteria>
 		<Properties>
 			<ShortName>Parachutist</ShortName>
@@ -143,51 +156,9 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Container.FuelTank.RPL-522" Base="Container.FuelTank">
-		<Criteria>
-			<Name>RPL-522</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>RPL-522</ShortName>
-			<LongName>RPL-522 Fuel Tank</LongName>
-			<FullName>RPL-522 Fuel Tank</FullName>
-		</Properties>
-	</DefaultProperties>
+	<!-- Drop Tanks -->
 
-	<DefaultProperties Id="Container.FuelTank.275-gal" Base="Container.FuelTank">
-		<Criteria>
-			<Name>275-gal fuel tank</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>275-gal</ShortName>
-			<LongName>275-gal Fuel Tank</LongName>
-			<FullName>275-gal Fuel Tank</FullName>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="Container.FuelTank.PTB-400" Base="Container.FuelTank">
-		<Criteria>
-			<Name>PTB-400</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>PTB-400</ShortName>
-			<LongName>PTB-400</LongName>
-			<FullName>PTB-400 Fuel Tank</FullName>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="Container.FuelTank.PTB-760" Base="Container.FuelTank">
-		<Criteria>
-			<Name>PTB-760</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>PTB-760</ShortName>
-			<LongName>PTB-760</LongName>
-			<FullName>PTB-760 Fuel Tank</FullName>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="Container.FuelTank.Generic" Base="Container.FuelTank">
+	<DefaultProperties Id="Container.DropTank.Generic" Base="Container.DropTank">
 		<Criteria>
 			<Name>Drop Tank</Name>
 		</Criteria>
@@ -198,25 +169,160 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Container.FuelTank.1500L" Base="Container.FuelTank">
+	<DefaultProperties Id="Container.DropTank.RPL-522" Base="Container.DropTank">
 		<Criteria>
-			<Name>Fuel Tank 1500 L</Name>
+			<Name>RPL-522</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>Drop Tank</ShortName>
-			<LongName>Drop Tank 1500L</LongName>
-			<FullName>Drop Tank 1500L</FullName>
+			<LongName>RPL-522 Drop Tank</LongName>
+			<FullName>RPL-522 Drop Tank</FullName>
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Container.FuelTank.PTB-1150" Base="Container.FuelTank">
+	<DefaultProperties Id="Container.DropTank.275-gal" Base="Container.DropTank">
+		<Criteria>
+			<Name>275 gal tank</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Drop Tank</ShortName>
+			<LongName>275 gal Drop Tank</LongName>
+			<FullName>275 gal Drop Tank</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.DropTank.PTB-150" Base="Container.DropTank">
+		<Criteria>
+			<Name>PTB-150</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Drop Tank</ShortName>
+			<LongName>PTB-150</LongName>
+			<FullName>PTB-150 Drop Tank</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.DropTank.PTB-400" Base="Container.DropTank">
+		<Criteria>
+			<Name>PTB-400</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Drop Tank</ShortName>
+			<LongName>PTB-400</LongName>
+			<FullName>PTB-400 Drop Tank</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.DropTank.PTB-760" Base="Container.DropTank">
+		<Criteria>
+			<Name>PTB-760</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Drop Tank</ShortName>
+			<LongName>PTB-760</LongName>
+			<FullName>PTB-760 Drop Tank</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.DropTank.PTB-1150" Base="Container.DropTank">
 		<Criteria>
 			<Name>PTB-1150</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>PTB-1150</ShortName>
-			<LongName>Drop Tank PTB-1150</LongName>
-			<FullName>Drop Tank PTB-1150</FullName>
+			<ShortName>Drop Tank</ShortName>
+			<LongName>PTB-1150 Drop Tank</LongName>
+			<FullName>PTB-1150 Drop Tank</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.DropTank.FPU8B" Base="Container.DropTank">
+		<Criteria>
+			<Name>FPU 8 A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Drop Tank</ShortName>
+			<LongName>FPU-8/A Drop Tank</LongName>
+			<LongName>FPU-8/A Drop Tank</LongName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.DropTank.FPU610" Base="Container.DropTank">
+		<Criteria>
+			<Name>FPU610</Name>
+			<Name>F610</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Drop Tank</ShortName>
+			<LongName>FPU610 Drop Tank</LongName>
+			<LongName>FPU610 Drop Tank</LongName>
+			<Shape>Other.DropTank.FPU610.obj</Shape>		<!-- Donation from jon@milviz.com -->
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.DropTank.800L" Base="Container.DropTank">
+		<Criteria>
+			<Name>800L Tank</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Drop Tank</ShortName>
+			<LongName>800L Drop Tank</LongName>
+			<FullName>800L Drop Tank</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.DropTank.300gal" Base="Container.DropTank">
+		<Criteria>
+			<Name>fuel 300 gal</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Drop Tank</ShortName>
+			<LongName>300 gal Drop Tank</LongName>
+			<FullName>300 gal Drop Tank</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.DropTank.370gal" Base="Container.DropTank">
+		<Criteria>
+			<Name>fuel 370 gal</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Drop Tank</ShortName>
+			<LongName>370 gal Drop Tank</LongName>
+			<FullName>370 gal Drop Tank</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.DropTank.1000gal" Base="Container.DropTank">
+		<Criteria>
+			<Name>fuel 1000 gal</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Drop Tank</ShortName>
+			<LongName>1000 gal Drop Tank</LongName>
+			<FullName>1000 gal Drop Tank</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.DropTank.1250L" Base="Container.DropTank">
+		<Criteria>
+			<Name>Drop Tank 1250 L</Name>
+			<Name>VIGGEN_XTANK</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Drop Tank</ShortName>
+			<LongName>1250L Drop Tank</LongName>
+			<FullName>1250L Drop Tank</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.DropTank.1500L" Base="Container.DropTank">
+		<Criteria>
+			<Name>Drop Tank 1500 L</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Drop Tank</ShortName>
+			<LongName>1500L Drop Tank</LongName>
+			<FullName>1500L Drop Tank</FullName>
 		</Properties>
 	</DefaultProperties>
 

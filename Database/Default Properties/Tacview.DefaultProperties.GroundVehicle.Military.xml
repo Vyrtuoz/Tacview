@@ -13,6 +13,9 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="Vehicle.Military.Truck" Base="Vehicle.Military">
+		<Properties>
+			<Shape>Vehicle.Truck.Ural.obj</Shape>
+		</Properties>
 	</DefaultProperties>
 
 	<DefaultProperties Id="Vehicle.Military.Tanker" Base="Vehicle.Military">
@@ -26,6 +29,7 @@
 
 	<DefaultProperties Id="Vehicle.Military.Tank" Base="Vehicle.Military">
 		<Properties>
+			<AdditionalType>Armor+Tank</AdditionalType>
 			<Shape>Vehicle.Tank.T-62A.obj</Shape>
 		</Properties>
 	</DefaultProperties>
@@ -35,9 +39,6 @@
 			<Name>*</Name>
 			<Type>Tank</Type>
 		</Criteria>
-		<Properties>
-			<Shape>Vehicle.Tank.T-62A.obj</Shape>
-		</Properties>
 	</DefaultProperties>
 
 	<!-- North American Military Cars -->
@@ -178,6 +179,28 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Vehicle.Truck.ZIL-131.APA-80" Base="Vehicle.Truck.ZIL-131">
+		<Criteria>
+			<Name>ZIL-131 APA-80</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ZIL-131</ShortName>
+			<LongName>ZIL-131 APA-80</LongName>
+			<FullName>ZIL-131 APA-80</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Truck.SKP-11" Base="Vehicle.Truck.ZIL-131">
+		<Criteria>
+			<Name>SKP-11</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SKP-11</ShortName>
+			<LongName>SKP-11</LongName>
+			<FullName>SKP-11 Command Post</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Vehicle.Truck.Ural-375" Base="Vehicle.Truck.Ural">
 		<Criteria>
 			<Name>Ural-375</Name>
@@ -186,6 +209,17 @@
 			<ShortName>Ural-375</ShortName>
 			<LongName>Ural-375</LongName>
 			<FullName>Ural-375</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Truck.Ural-4320" Base="Vehicle.Truck.Ural">
+		<Criteria>
+			<Name>Ural-4320</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Ural-4320</ShortName>
+			<LongName>Ural-4320</LongName>
+			<FullName>Ural-4320</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -275,6 +309,21 @@
 
 	<!-- North American Tanks -->
 
+	<DefaultProperties Id="Vehicle.Tank.M2" Base="Vehicle.Military.Tank">
+		<Criteria>
+			<Name>M-2 Bradley</Name>
+			<Name>M2 Bradley</Name>
+			<Name>Bradley IFV</Name>
+			<Name>M2A2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M2</ShortName>
+			<LongName>M2 Bradley</LongName>
+			<FullName>M2 Bradley</FullName>
+			<Shape>Vehicle.Tank.M2.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Vehicle.Tank.M4" Base="Vehicle.Military.Tank">
 		<Criteria>
 			<Name>M4 Sherman</Name>
@@ -349,6 +398,18 @@
 
 	<!-- Eastern Tanks -->
 
+	<DefaultProperties Id="Vehicle.Tank.T-55" Base="Vehicle.Military.Tank">
+		<Criteria>
+			<Name>T-55</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>T-55</ShortName>
+			<LongName>T-55</LongName>
+			<FullName>T-55</FullName>
+			<Shape>Vehicle.Tank.T-55.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Vehicle.Tank.T-62" Base="Vehicle.Military.Tank">
 		<Criteria>
 			<Name>T-62</Name>
@@ -370,6 +431,28 @@
 			<LongName>T-62A</LongName>
 			<FullName>T-62A</FullName>
 			<Shape>Vehicle.Tank.T-62A.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.T-72" Base="Vehicle.Tank.T-62A">
+		<Criteria>
+			<Name>T-72</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>T-72</ShortName>
+			<LongName>T-72</LongName>
+			<FullName>T-72</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.T-72B" Base="Vehicle.Tank.T-72">
+		<Criteria>
+			<Name>T-72B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>T-72B</ShortName>
+			<LongName>T-72B</LongName>
+			<FullName>T-72B</FullName>
 		</Properties>
 	</DefaultProperties>
 

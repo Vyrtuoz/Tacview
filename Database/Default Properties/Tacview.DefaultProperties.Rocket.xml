@@ -42,25 +42,36 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Rocket.HYDRA70" Base="Rocket.FFAR.Mk5">
+	<DefaultProperties Id="Rocket.Hydra70" Base="Rocket.FFAR.Mk5">
 		<Criteria>
-			<Name>HYDRA 70</Name>
+			<Name>Hydra 70</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>HYDRA</ShortName>
-			<LongName>HYDRA 70</LongName>
-			<FullName>HYDRA 70</FullName>
+			<ShortName>Hydra</ShortName>
+			<LongName>Hydra 70</LongName>
+			<FullName>Hydra 70</FullName>
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Rocket.HYDRA70.M151" Base="Rocket.HYDRA70">
+	<DefaultProperties Id="Rocket.Hydra70.M151" Base="Rocket.Hydra70">
 		<Criteria>
-			<Name>HYDRA 70 M151</Name>
+			<Name>Hydra 70 M151</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>HYDRA M151</ShortName>
-			<LongName>HYDRA 70 M151</LongName>
-			<FullName>HYDRA 70 M151</FullName>
+			<ShortName>M151</ShortName>
+			<LongName>Hydra 70 M151</LongName>
+			<FullName>Hydra 70 M151</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rocket.Hydra70.Mk5" Base="Rocket.Hydra70">
+		<Criteria>
+			<Name>Hydra 70 Mk5</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mk5</ShortName>
+			<LongName>Hydra 70 Mk5</LongName>
+			<FullName>Hydra 70 Mk5</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -76,6 +87,18 @@
 	</DefaultProperties>
 
 	<!-- Eastern Rockets -->
+
+	<DefaultProperties Id="Rocket.9M22U" Base="Rocket.Light">
+		<Criteria>
+			<Name>9M22U</Name>
+			<Name>M-21OF</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>9M22U</ShortName>
+			<LongName>9M22U</LongName>
+			<FullName>9M22U</FullName>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="Rocket.S8" Base="Rocket.Light">
 		<Criteria>
@@ -125,6 +148,30 @@
 		</Properties>
 	</DefaultProperties>
 
+	<!-- Asia -->
+
+	<DefaultProperties Id="Rocket.90mm" Base="Rocket.Light">
+		<Criteria>
+			<Name>Unguided Rocket 90mm</Name>		<!-- DCS World JF-17 -->
+		</Criteria>
+		<Properties>
+			<ShortName>90mm</ShortName>
+			<LongName>Rocket 90mm</LongName>
+			<FullName>Unguided Rocket 90mm</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- EU Rockets -->
+
+	<DefaultProperties Id="Rocket.M70B" Base="Rocket.Light">
+		<Criteria>
+			<Name>M70B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M70B</ShortName>
+			<LongName>ARAK M/70B</LongName>
+			<FullName>ARAK M/70B</FullName>
+		</Properties>
+	</DefaultProperties>
 
 </DefaultPropertiesCollection>

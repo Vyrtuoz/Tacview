@@ -7,6 +7,12 @@
 	<!-- Core Declarations -->
 
 	<DefaultProperties Id="Missile.AG" Base="Core.Missile">
+		<Properties>
+			<Shape>Missile.AGM-65.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.Radar" Base="Missile.AG">
 	</DefaultProperties>
 
 	<DefaultProperties Id="Missile.AG.Radio" Base="Missile.AG">
@@ -15,7 +21,16 @@
 	<DefaultProperties Id="Missile.AG.Laser" Base="Missile.AG">
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.AS" Base="Core.Missile">
+		<Properties>
+			<Shape>Missile.AGM-84E.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.ARM" Base="Missile.AG">
+		<Properties>
+			<Shape>Missile.AGM-88.obj</Shape>
+		</Properties>
 	</DefaultProperties>
 
 	<!-- North American Air to Ground Missiles -->
@@ -45,6 +60,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.AG.AGM-65B" Base="Missile.AG.AGM-65">
+		<Criteria>
+			<Name>AGM-65B</Name>
+			<Name>AGM-65B Maverick</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGM-65B</ShortName>
+			<LongName>AGM-65B Maverick</LongName>
+			<FullName>AGM-65B Maverick</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.AG.AGM-65F" Base="Missile.AG.AGM-65">
 		<Criteria>
 			<Name>AGM-65F</Name>
@@ -66,6 +93,31 @@
 			<ShortName>AGM-65G</ShortName>
 			<LongName>AGM-65G Maverick</LongName>
 			<FullName>AGM-65G Maverick</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AS.AGM-84" Base="Missile.AS">
+		<Criteria>
+			<Name>AGM-84</Name>
+			<Name>AGM-84 Harpoon</Name>
+			<Name>Harpoon</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGM-84</ShortName>
+			<LongName>AGM-84 Harpoon</LongName>
+			<FullName>AGM-84 Harpoon</FullName>
+			<Shape>Missile.AGM-84E.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AS.AGM-84D" Base="Missile.AS.AGM-84">
+		<Criteria>
+			<Name>AGM-84D</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGM-84D</ShortName>
+			<LongName>AGM-84D Harpoon</LongName>
+			<FullName>AGM-84D Harpoon</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -156,6 +208,210 @@
 			<ShortName>Vikhr</ShortName>
 			<LongName>9K121 Vikhr</LongName>
 			<FullName>9K121 Vikhr</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- EU Air to Ground Missiles -->
+
+	<DefaultProperties Id="Missile.AS.RB04" Base="Missile.AS">
+		<Criteria>
+			<Name>RB-304</Name>
+			<Name>RB-04</Name>
+			<Name>Robot 04</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>RB-04</ShortName>
+			<LongName>Robot 04</LongName>
+			<FullName>Robot 04</FullName>
+			<Shape>Missile.RB-04E.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AS.RB04E" Base="Missile.AS.RB04">
+		<Criteria>
+			<Name>RB-04E</Name>
+			<Name>Robot 04E</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>RB-04E</ShortName>
+			<LongName>Robot 04E</LongName>
+			<FullName>Robot 04E</FullName>
+			<Shape>Missile.RB-04E.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AS.RB05A" Base="Missile.AG.Radio">
+		<Criteria>
+			<Name>RB-05A</Name>
+			<Name>Robot 05A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>RB-05A</ShortName>
+			<LongName>Robot 05A</LongName>
+			<FullName>Robot 05A</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.RB75" Base="Missile.AG.AGM-65">
+		<Criteria>
+			<Name>RB-75</Name>
+			<Name>Robot 75</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>RB-75</ShortName>
+			<LongName>Robot 75 (AGM-65A)</LongName>
+			<FullName>Robot 75 (AGM-65A)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.RB75B" Base="Missile.AG.AGM-65B">
+		<Criteria>
+			<Name>RB-75B</Name>
+			<Name>Robot 75B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>RB-75B</ShortName>
+			<LongName>Robot 75B (AGM-65B)</LongName>
+			<FullName>Robot 75B (AGM-65B)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.RB75T" Base="Missile.AG.RB75B">
+		<Criteria>
+			<Name>RB-75T</Name>
+			<Name>Robot 75T</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>RB-75T</ShortName>
+			<LongName>Robot 75T (AGM-65A heavy)</LongName>
+			<FullName>Robot 75T (AGM-65A heavy)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.SOM" Base="Missile.AG">
+		<Criteria>
+			<Name>SOM</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SOM</ShortName>
+			<LongName>SOM</LongName>
+			<FullName>SOM</FullName>
+			<Shape>Missile.SOM.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.BK90" Base="Missile.AG">
+		<Criteria>
+			<Name>BK90</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BK90</ShortName>
+			<LongName>BK90</LongName>
+			<FullName>Bombkapsel 90 (BK90)</FullName>
+			<Shape>Missile.SOM.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.BK90.MJ1" Base="Missile.AG.BK90">
+		<Criteria>
+			<Name>BK90 MJ1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BK90</ShortName>
+			<LongName>BK90 MJ1</LongName>
+			<FullName>Bombkapsel 90 (BK90 MJ1)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.BK90.MJ2" Base="Missile.AG.BK90">
+		<Criteria>
+			<Name>BK90 MJ2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BK90</ShortName>
+			<LongName>BK90 MJ2</LongName>
+			<FullName>Bombkapsel 90 (BK90 MJ2)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.BK90.MJ1.MJ2" Base="Missile.AG.BK90">
+		<Criteria>
+			<Name>BK90 MJ1 MJ2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BK90</ShortName>
+			<LongName>BK90 MJ1-MJ2</LongName>
+			<FullName>Bombkapsel 90 (BK90 MJ1-MJ2)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Asia -->
+
+	<DefaultProperties Id="Missile.AS.YJ-62" Base="Missile.AS">
+		<Criteria>
+			<Name>YJ-62</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>YJ-62</ShortName>
+			<LongName>Yingji-62</LongName>
+			<FullName>Yingji-62</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AS.YJ-83" Base="Missile.AS">
+		<Criteria>
+			<Name>YJ-83</Name>
+			<Name>CSS-N-8</Name>
+			<Name>Saccade</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>YJ-83</ShortName>
+			<LongName>Yingji-83</LongName>
+			<FullName>Yingji-83 (CSS-N-8)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AS.LD-10" Base="Missile.AA.SD-10">
+		<Criteria>
+			<Name>LD-10</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>LD-10</ShortName>
+			<LongName>LD-10</LongName>
+			<FullName>LD-10</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AS.C-802" Base="Missile.AS.YJ-83">
+		<Criteria>
+			<Name>C-802</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C-802</ShortName>
+			<LongName>C-802</LongName>
+			<FullName>C-802</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AS.C-802A" Base="Missile.AS.C-802">
+		<Criteria>
+			<Name>C-802A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C-802A</ShortName>
+			<LongName>C-802A</LongName>
+			<FullName>C-802A</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AS.C-802AK" Base="Missile.AS.C-802A">
+		<Criteria>
+			<Name>C-802AK</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C-802AK</ShortName>
+			<LongName>C-802AK</LongName>
+			<FullName>C-802AK</FullName>
 		</Properties>
 	</DefaultProperties>
 

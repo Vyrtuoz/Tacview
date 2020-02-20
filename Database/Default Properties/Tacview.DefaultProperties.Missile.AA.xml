@@ -102,11 +102,23 @@
 		<Criteria>
 			<Name>AIM-9B</Name>
 			<Name>AIM-9B Sidewinder</Name>
+			<Name>RB 24</Name>	<!-- Viggen -->
 		</Criteria>
 		<Properties>
 			<ShortName>AIM-9B</ShortName>
 			<LongName>AIM-9B Sidewinder</LongName>
 			<FullName>AIM-9B Sidewinder</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.RB24" Base="Missile.AA.AIM-9B">
+		<Criteria>
+			<Name>RB 24</Name>	<!-- Viggen -->
+		</Criteria>
+		<Properties>
+			<ShortName>RB 24</ShortName>
+			<LongName>RB 24 (AIM-9B)</LongName>
+			<FullName>RB 24 (AIM-9B) Sidewinder</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -186,11 +198,23 @@
 		<Criteria>
 			<Name>AIM-9L</Name>
 			<Name>AIM-9L Sidewinder</Name>
+			<Name>RB 74</Name>	<!-- Viggen -->
 		</Criteria>
 		<Properties>
 			<ShortName>AIM-9L</ShortName>
 			<LongName>AIM-9L Sidewinder</LongName>
 			<FullName>AIM-9L Sidewinder</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.RB74" Base="Missile.AA.AIM-9L">
+		<Criteria>
+			<Name>RB 74</Name>	<!-- Viggen -->
+		</Criteria>
+		<Properties>
+			<ShortName>RB-74</ShortName>
+			<LongName>RB-74 (AIM-9L)</LongName>
+			<FullName>RB-74 (AIM-9L Sidewinder)</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -231,6 +255,30 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.AA.AIM-9P-3" Base="Missile.AA.AIM-9N">
+		<Criteria>
+			<Name>AIM-9P-3</Name>
+			<Name>AIM-9P-3 Sidewinder</Name>
+			<Name>RB 24J</Name>	<!-- Viggen -->
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-9P-3</ShortName>
+			<LongName>AIM-9P-3 Sidewinder</LongName>
+			<FullName>AIM-9P-3 Sidewinder</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.RB24J" Base="Missile.AA.AIM-9P-3">
+		<Criteria>
+			<Name>RB 24J</Name>	<!-- Viggen -->
+		</Criteria>
+		<Properties>
+			<ShortName>RB 24J</ShortName>
+			<LongName>RB 24J (AIM-9P-3)</LongName>
+			<FullName>RB 24J (AIM-9P-3 Sidewinder)</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.AA.AIM-9P-5" Base="Missile.AA.AIM-9N">
 		<Criteria>
 			<Name>AIM-9P-5</Name>
@@ -252,6 +300,40 @@
 			<ShortName>AIM-9X</ShortName>
 			<LongName>AIM-9X Sidewinder</LongName>
 			<FullName>AIM-9X Sidewinder</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-54" Base="Missile.AA.Radar">
+		<Criteria>
+			<Name>AIM-54</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-54</ShortName>
+			<LongName>AIM-54 Phoenix</LongName>
+			<FullName>AIM-54 Phoenix</FullName>
+			<Shape>Missile.AIM-54A.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-54A" Base="Missile.AA.AIM-54">
+		<Criteria>
+			<Name>AIM-54A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-54A</ShortName>
+			<LongName>AIM-54A Phoenix</LongName>
+			<FullName>AIM-54A Phoenix</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-54C" Base="Missile.AA.AIM-54A">
+		<Criteria>
+			<Name>AIM-54C</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-54C</ShortName>
+			<LongName>AIM-54C Phoenix</LongName>
+			<FullName>AIM-54C Phoenix</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -330,15 +412,39 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.AA.ADM-141" Base="Missile.AA">
+		<Criteria>
+			<Name>ADM-141</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ADM-141</ShortName>
+			<LongName>ADM-141 TALD</LongName>
+			<FullName>ADM-141 TALD</FullName>
+			<Shape>Missile.SOM.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.ADM-141A" Base="Missile.AA.ADM-141">
+		<Criteria>
+			<Name>ADM-141A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ADM-141A</ShortName>
+			<LongName>ADM-141A TALD</LongName>
+			<FullName>ADM-141A TALD</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- EU AA Missiles -->
 
 	<DefaultProperties Id="Missile.AA.R550Mk2" Base="Missile.AA.IR">
 		<Criteria>
 			<Name>R550</Name>
 			<Name>Magic II</Name>
+			<Name>M.Magic</Name>		<!-- DCS World Mirage 2000C -->
 		</Criteria>
 		<Properties>
-			<ShortName>R550Mk2</ShortName>
+			<ShortName>R550</ShortName>
 			<LongName>R550 Magic II</LongName>
 			<FullName>Matra R550 Magic II</FullName>
 		</Properties>
@@ -346,13 +452,13 @@
 
 	<DefaultProperties Id="Missile.AA.R530D" Base="Missile.AA.Radar">
 		<Criteria>
-			<Name>R530</Name>
+			<Name>S530D</Name>			<!-- DCS World Mirage 2000C -->
 			<Name>Super 530 D</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>R530D</ShortName>
-			<LongName>Super 530 D</LongName>
-			<FullName>Matra Super 530 D</FullName>
+			<ShortName>S530D</ShortName>
+			<LongName>Super 530D</LongName>
+			<FullName>Matra Super 530D</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -421,6 +527,20 @@
 			<ShortName>R-27ET</ShortName>
 			<LongName>R-27ET (AA-10 Alamo-D)</LongName>
 			<FullName>Vympel R-27ET (AA-10 Alamo-D)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-33" Base="Missile.AA.Radar">
+		<Criteria>
+			<Name>R-33</Name>
+			<Name>AA-9</Name>
+			<Name>AA-9 Amos</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-33</ShortName>
+			<LongName>R-33 (AA-9 Amos)</LongName>
+			<FullName>Vympel R-33 (AA-9 Amos)</FullName>
+			<Shape>Missile.R-33.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -587,6 +707,75 @@
 			<ShortName>Python-5</ShortName>
 			<LongName>Python-5</LongName>
 			<FullName>Python-5</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.PL5EII" Base="Missile.AA.IR">
+		<Criteria>
+			<Name>PL-5EII</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PL-5EII</ShortName>
+			<LongName>PL-5EII</LongName>
+			<FullName>PL-5EII</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.PL-12" Base="Missile.AA.Radar">
+		<Criteria>
+			<Name>PL-12</Name>
+			<Name>Pinyin 12</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PL-12</ShortName>
+			<LongName>PL-12</LongName>
+			<FullName>PL-12</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.SD-10" Base="Missile.AA.PL-12">
+		<Criteria>
+			<Name>SD-10</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SD-10</ShortName>
+			<LongName>SD-10</LongName>
+			<FullName>SD-10</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Space / Science fiction -->
+
+	<DefaultProperties Id="Missile.AA.Ignite" Base="Missile.AA.IR">
+		<Criteria>
+			<Name>Ignite</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Ignite</ShortName>
+			<LongName>Ignite II</LongName>
+			<FullName>Firestorm Kinetics Ignite II</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.Marksman" Base="Missile.AA.IR">
+		<Criteria>
+			<Name>Marksman</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Marksman</ShortName>
+			<LongName>Marksman I</LongName>
+			<FullName>Behring Marksman I</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.Dominator" Base="Missile.AA.IR">
+		<Criteria>
+			<Name>Dominator</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Dominator</ShortName>
+			<LongName>Dominator II</LongName>
+			<FullName>Talon Weapon Systems Dominator II</FullName>
 		</Properties>
 	</DefaultProperties>
 

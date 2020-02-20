@@ -7,15 +7,27 @@
 	<!-- Core Declarations -->
 
 	<DefaultProperties Id="Watercraft.Military" Base="Core.Watercraft">
-	</DefaultProperties>
-
-	<DefaultProperties Id="Watercraft.Frigate" Base="Watercraft.Military">
 		<Properties>
-			<Shape>Watercraft.Frigate.obj</Shape>
+			<AdditionalType>Sea+Watercraft+Warship</AdditionalType>
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Watercraft.Cruiser" Base="Watercraft.Frigate">
+	<DefaultProperties Id="Watercraft.Corvette" Base="Watercraft.Military">
+		<Properties>
+			<Shape>Watercraft.Warship.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Frigate" Base="Watercraft.Corvette">
+		<Properties>
+			<Shape>Watercraft.Warship.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Destroyer" Base="Watercraft.Frigate">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Cruiser" Base="Watercraft.Destroyer">
 	</DefaultProperties>
 
 	<DefaultProperties Id="Watercraft.AircraftCarrier" Base="Watercraft.Military">
@@ -25,6 +37,9 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="Watercraft.Submarine" Base="Core.Submarine">
+		<Properties>
+			<AdditionalType>Sea+Watercraft+Submarine</AdditionalType>
+		</Properties>
 	</DefaultProperties>
 
 	<!-- North American Frigates -->
@@ -63,7 +78,20 @@
 
 	<!-- North American Aircraft Carriers -->
 
-	<DefaultProperties Id="Watercraft.CVN68" Base="Watercraft.AircraftCarrier">
+	<DefaultProperties Id="Watercraft.CV-41" Base="Watercraft.AircraftCarrier">
+		<Criteria>
+			<Name>CV-41</Name>
+			<Name>USS Midway</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CV-41</ShortName>
+			<LongName>CV-41 Midway</LongName>
+			<FullName>USS Midway (CV-41)</FullName>
+			<Shape>Watercraft.CV-41.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.CVN-68" Base="Watercraft.AircraftCarrier">
 		<Criteria>
 			<Name>CVN-68</Name>
 			<Name>USS Nimitz</Name>
@@ -77,10 +105,21 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Watercraft.CVN70" Base="Watercraft.AircraftCarrier">
+	<DefaultProperties Id="Watercraft.CVN-69" Base="Watercraft.CVN-68">
+		<Criteria>
+			<Name>CVN-69</Name>
+			<Name>Eisenhower</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CVN-69</ShortName>
+			<LongName>CVN-69 Dwight Eisenhower</LongName>
+			<FullName>USS Dwight D. Eisenhower (CVN-69)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.CVN-70" Base="Watercraft.CVN-69">
 		<Criteria>
 			<Name>CVN-70</Name>
-			<Name>USS Carl Vinson</Name>
 			<Name>Vinson</Name>
 		</Criteria>
 		<Properties>
@@ -91,18 +130,91 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Watercraft.CVN74" Base="Watercraft.AircraftCarrier">
+	<DefaultProperties Id="Watercraft.CVN-71" Base="Watercraft.CVN-70">
+		<Criteria>
+			<Name>CVN-71</Name>
+			<Name>Roosevelt</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CVN-71</ShortName>
+			<LongName>CVN-71 Theodore Roosevelt</LongName>
+			<FullName>USS Theodore Roosevelt (CVN-71)</FullName>
+			<Shape>Watercraft.CVN-72.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.CVN-72" Base="Watercraft.CVN-71">
+		<Criteria>
+			<Name>CVN-72</Name>
+			<Name>Lincoln</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CVN-72</ShortName>
+			<LongName>CVN-72 Abraham Lincoln</LongName>
+			<FullName>USS Abraham Lincoln (CVN-72)</FullName>
+			<Shape>Watercraft.CVN-72.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.CVN-73" Base="Watercraft.CVN-72">
+		<Criteria>
+			<Name>CVN-73</Name>
+			<Name>Washington</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CVN-73</ShortName>
+			<LongName>CVN-73 George Washington</LongName>
+			<FullName>USS George Washington (CVN-73)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.CVN-74" Base="Watercraft.CVN-73">
 		<Criteria>
 			<Name>CVN-74</Name>
-			<Name>USS John Stennis</Name>
 			<Name>Stennis</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>CVN-74</ShortName>
 			<LongName>CVN-74 John Stennis</LongName>
 			<FullName>USS John C. Stennis (CVN-74)</FullName>
-			<EngagementRange>13000</EngagementRange>
+			<EngagementRange>26000</EngagementRange>
 			<Shape>Watercraft.CVN-74.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.CVN-75" Base="Watercraft.CVN-74">
+		<Criteria>
+			<Name>CVN-75</Name>
+			<Name>Truman</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CVN-75</ShortName>
+			<LongName>CVN-75 Harry Truman</LongName>
+			<FullName>USS Harry S. Truman (CVN-75)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.CVN-76" Base="Watercraft.CVN-75">
+		<Criteria>
+			<Name>CVN-76</Name>
+			<Name>Reagan</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CVN-76</ShortName>
+			<LongName>CVN-76 Ronald Reagan</LongName>
+			<FullName>USS Ronald Reagan (CVN-76)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.CVN-77" Base="Watercraft.CVN-76">
+		<Criteria>
+			<Name>CVN-77</Name>
+			<Name>Bush</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CVN-77</ShortName>
+			<LongName>CVN-77 George Bush</LongName>
+			<FullName>USS George H.W. Bush (CVN-77)</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -133,6 +245,18 @@
 			<FullName>Admiral Kuznetsov</FullName>
 			<Shape>Watercraft.Admiral Kuznetsov.obj</Shape>
 			<EngagementRange>11000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Varyag" Base="Watercraft.AdmiralKuznetsov">
+		<Criteria>
+			<Name>Varyag</Name>
+			<Name>Liaoning</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Liaoning</ShortName>
+			<LongName>Liaoning</LongName>
+			<FullName>Liaoning</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -201,17 +325,50 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Watercraft.Rezkiy" Base="Watercraft.Frigate">
+	<!-- Russian Frigates and corverttes -->
+
+	<DefaultProperties Id="Watercraft.Grisha" Base="Watercraft.Corvette">
+		<Criteria>
+			<Name>Grisha</Name>
+			<Name>Project 1124</Name>
+			<Name>Albatros</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Grisha</ShortName>
+			<LongName>Grisha (Albatros)</LongName>
+			<FullName>Project 1124 Grisha (Albatros)</FullName>
+			<EngagementRange>12000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Molniya" Base="Watercraft.Corvette">
+		<Criteria>
+			<Name>Molniya</Name>
+			<Name>Project 1242</Name>
+			<Name>Project 1241</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Molniya</ShortName>
+			<LongName>Molniya (Tarantul)</LongName>
+			<FullName>Project 1242 Molniya (Tarantul)</FullName>
+			<!-- According to Wikipedia is should fire at least some Strela-2, DCS is firing only AAA -->
+			<EngagementRange>4200</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Krivak" Base="Watercraft.Frigate">
 		<Criteria>
 			<Name>Rezkiy</Name>
 			<Name>Rezky</Name>		<!-- DCS World -->
 			<Name>Krivak II</Name>
+			<Name>Project 1135M</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>Krivak II</ShortName>
 			<LongName>Krivak II (Rezkiy)</LongName>
 			<FullName>Project 1135M Krivak II (Rezkiy)</FullName>
 			<EngagementRange>13500</EngagementRange>
+			<Shape>Watercraft.Krivak.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -226,6 +383,22 @@
 			<LongName>Neustrashimyy</LongName>
 			<FullName>Project 1135M Neustrashimyy</FullName>
 			<EngagementRange>15500</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Russian Cruisers -->
+
+	<DefaultProperties Id="Watercraft.Moskva" Base="Watercraft.Cruiser">
+		<Criteria>
+			<Name>Moskva</Name>
+			<Name>Moscow</Name> <!-- DCS World -->
+		</Criteria>
+		<Properties>
+			<ShortName>Moskva</ShortName>
+			<LongName>Moskva</LongName>
+			<FullName>Moskva</FullName>
+			<Shape>Watercraft.Moskva.obj</Shape>
+			<EngagementRange>60000</EngagementRange>	<!-- Tested with DCS 2.5.5.35461 -->
 		</Properties>
 	</DefaultProperties>
 
@@ -256,6 +429,63 @@
 			<LongName>R91 Charles de Gaulle</LongName>
 			<FullName>Charles de Gaulle (R91)</FullName>
 			<Shape>Watercraft.R91.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- China -->
+
+	<DefaultProperties Id="Watercraft.Type052B" Base="Watercraft.Destroyer">
+		<Criteria>
+			<Name>052B</Name>
+			<Name>Luyang I</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>052B</ShortName>
+			<LongName>Luyang I</LongName>
+			<FullName>Luyang I (Type 052B)</FullName>
+			<EngagementRange>35000</EngagementRange>
+			<Shape>Watercraft.Type 052D.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Type052C" Base="Watercraft.Type052B">
+		<Criteria>
+			<Name>052C</Name>
+			<Name>Luyang II</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>052C</ShortName>
+			<LongName>Luyang II</LongName>
+			<FullName>Luyang II (Type 052C)</FullName>
+			<EngagementRange>86000</EngagementRange>
+			<Shape>Watercraft.Type 052D.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Type052D" Base="Watercraft.Type052C">
+		<Criteria>
+			<Name>052D</Name>
+			<Name>Luyang III</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>052D</ShortName>
+			<LongName>Luyang III</LongName>
+			<FullName>Luyang III (Type 052D)</FullName>
+			<Shape>Watercraft.Type 052D.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Type054A" Base="Watercraft.Frigate">
+		<Criteria>
+			<Name>054A</Name>
+			<Name>Jiangkai II</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>054A</ShortName>
+			<LongName>Jiangkai II</LongName>
+			<FullName>Jiangkai II (Type 054A)</FullName>
+			<EngagementRange>49000</EngagementRange>
+			<Shape>Watercraft.Type 054A.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

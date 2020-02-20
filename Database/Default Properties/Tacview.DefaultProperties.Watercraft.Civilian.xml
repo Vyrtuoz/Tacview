@@ -6,4 +6,64 @@
 
 	<!-- Core Declarations -->
 
+	<DefaultProperties Id="Watercraft.Civilian" Base="Core.Watercraft">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Heavy" Base="Core.Watercraft">
+		<Properties>
+			<Shape>Watercraft.Cargo.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Small Boats -->
+
+	<DefaultProperties Id="Watercraft.Zodiac" Base="Watercraft.Civilian">
+		<Criteria>
+			<Name>Zodiac</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Zodiac</ShortName>
+			<LongName>Zodiac</LongName>
+			<FullName>Zodiac</FullName>
+			<Shape>Watercraft.Zodiac.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.SpeedBoat" Base="Watercraft.Zodiac">
+		<Criteria>
+			<Name>SpeedBoat</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SpeedBoat</ShortName>
+			<LongName>SpeedBoat</LongName>
+			<FullName>SpeedBoat</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Heavy Boats -->
+
+	<DefaultProperties Id="Watercraft.Cargo" Base="Watercraft.Heavy">
+		<Criteria>
+			<Name>Cargo</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Cargo</ShortName>
+			<LongName>Dry Cargo Ship</LongName>
+			<FullName>Dry Cargo Ship</FullName>
+			<Shape>Watercraft.Cargo.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Tanker" Base="Watercraft.Heavy">
+		<Criteria>
+			<Name>Tanker</Name>
+			<Name>Elnya</Name>		<!-- DCS World -->
+		</Criteria>
+		<Properties>
+			<ShortName>Tanker</ShortName>
+			<LongName>Tanker Ship</LongName>
+			<FullName>Tanker Ship</FullName>
+		</Properties>
+	</DefaultProperties>
+
 </DefaultPropertiesCollection>

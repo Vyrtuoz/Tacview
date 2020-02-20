@@ -98,7 +98,8 @@
 	<DefaultProperties Id="AntiAircraft.ZU-23-2" Base="AntiAircraft.ZU-23">
 		<Criteria>
 			<Name>ZU-23-2</Name>
-			<Name>ZU-23 Emplacement Closed</Name>	<!-- Black Shark -->
+			<Name>ZU-23 Closed</Name>		<!-- DCS 2.5.5 -->
+			<Name>ZU-23 Emplacement</Name>	<!-- DCS 2.5.5 -->
 		</Criteria>
 		<Properties>
 			<ShortName>ZU-23-2</ShortName>

@@ -81,10 +81,11 @@
 			<Name>M1097 Avenger</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>AN/TWQ-1</ShortName>
+			<ShortName>Avenger</ShortName>
 			<LongName>AN/TWQ-1 Avenger</LongName>
 			<FullName>AN/TWQ-1 Avenger</FullName>
 			<EngagementRange>7000</EngagementRange>
+			<Shape>AntiAircraft.SAM.Avenger.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -120,7 +121,7 @@
 			<Name>FIM-92</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>FIM-92</ShortName>
+			<ShortName>Stinger</ShortName>
 			<LongName>FIM-92 Stinger</LongName>
 			<FullName>FIM-92 Stinger</FullName>
 			<EngagementRange>3800</EngagementRange>
@@ -737,7 +738,7 @@
 			<ShortName>SA-15</ShortName>
 			<LongName>SA-15 Gauntlet</LongName>
 			<FullName>SA-15 Gauntlet (9K330 Tor)</FullName>
-			<EngagementRange>17000</EngagementRange>
+			<EngagementRange>13000</EngagementRange>	<!-- DCS World 2.5.5 -->
 		</Properties>
 	</DefaultProperties>
 
@@ -828,6 +829,29 @@
 			<ShortName>SA-24</ShortName>
 			<LongName>SA-24 Grinch</LongName>
 			<FullName>SA-24 Grinch</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.HQ-7.LN" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>HQ-7 LN</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>HQ-7 LN</ShortName>
+			<LongName>HQ-7 LN</LongName>
+			<FullName>HQ-7 (Launcher)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.HQ-7.STR" Base="AntiAircraft.SAM.SearchAndTrackingRadar">
+		<Criteria>
+			<Name>HQ-7 STR</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>HQ-7 STR</ShortName>
+			<LongName>HQ-7 STR</LongName>
+			<FullName>HQ-7 (Search &amp; Tracking Radar)</FullName>
+			<EngagementRange>10200</EngagementRange>
 		</Properties>
 	</DefaultProperties>
 

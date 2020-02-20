@@ -993,6 +993,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.B77W" Base="FixedWing.B38M">
+		<Criteria>
+			<Name>B77W</Name>
+			<Name>777-300ER</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B77W</ShortName>
+			<LongName>BOEING 777-300ER</LongName>
+			<FullName>BOEING 777-300ER</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.BD700" Base="FixedWing.Heavy.Jet.Tail">
 		<Criteria>
 			<Name>BD-700</Name>
@@ -1137,6 +1149,29 @@
 			<ShortName>A321</ShortName>
 			<LongName>A321</LongName>
 			<FullName>Airbus A321</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.A380" Base="FixedWing.A321">
+		<Criteria>
+			<Name>A380</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A380</ShortName>
+			<LongName>A380</LongName>
+			<FullName>Airbus A380</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.A388" Base="FixedWing.A380">
+		<Criteria>
+			<Name>A388</Name>
+			<Name>A380-841</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A388</ShortName>
+			<LongName>A388</LongName>
+			<FullName>Airbus A388</FullName>
 		</Properties>
 	</DefaultProperties>
 
