@@ -42,7 +42,7 @@
 	<String ID="AnalysisMenuHelp">分析工具</String>
 	<String ID="AnalysisPropertiesText">&amp;属性</String>
 	<String ID="AnalysisPropertiesHelp">显示或隐藏飞行记录属性</String>
-	<String ID="AnalysisEventLogText">&amp;飞行记日志</String>
+	<String ID="AnalysisEventLogText">&amp;飞行日志</String>
 	<String ID="AnalysisEventLogHelp">显示或隐藏飞行记录飞行日志</String>
 	<String ID="AnalysisShotLogText">事件日志</String>
 	<String ID="AnalysisShotLogHelp">显示或隐藏事件日志</String>
