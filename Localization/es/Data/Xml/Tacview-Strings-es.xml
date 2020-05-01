@@ -50,8 +50,8 @@
 	<String ID="AnalysisDisplayControlBarHelp">Muestra u oculta la barra de reproducción</String>
 	<String ID="AnalysisActiveObjectListText">Lista de objetos activos</String>
 	<String ID="AnalysisActiveObjectListHelp">Muestra u oculta la lista de objetos activos</String>
-	<String ID="AnalysisTimeJumpText">Time Jump</String>
-	<String ID="AnalysisTimeJumpHelp">Show or hide the tool to jump to specific time</String>
+	<String ID="AnalysisTimeJumpText">Salto de Tiempo</String>
+	<String ID="AnalysisTimeJumpHelp">Muestra u oculta la herramienta para saltar a un tiempo especifico</String>
 	<String ID="AnalysisDisplayTelemetry0Text">Telemetría &amp;1</String>
 	<String ID="AnalysisDisplayTelemetry0Help">Mostrar u ocultar ventana de telemetría 1</String>
 	<String ID="AnalysisDisplayTelemetry1Text">Telemetría &amp;2</String>
@@ -193,10 +193,10 @@
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Asociar Tacview con los archivos acmi</String>
 	<String ID="OptionsAssociateFileTypesHelp">Habilita que Tacview abra en windows los archivos de vuelo con doble click</String>
-	<String ID="OptionsCockpitViewCmdText">Cockpit View</String>
-	<String ID="OptionsCockpitViewCmdHelp">Display cockpit view looking forward at the HUD</String>
-	<String ID="OptionsPilotViewCmdText">Pilot View</String>
-	<String ID="OptionsPilotViewCmdHelp">Animate the cockpit view based on pilot head movements (when data available)</String>
+	<String ID="OptionsCockpitViewCmdText">Vista de Cabina</String>
+	<String ID="OptionsCockpitViewCmdHelp">Mostrar la vista de cabina mirando al frente HUD</String>
+	<String ID="OptionsPilotViewCmdText">Vista del Piloto</String>
+	<String ID="OptionsPilotViewCmdHelp">Animar la vista de cabina basada en los movimientos de la cabeza del piloto (Cuando este disponible)</String>
 	<String ID="OptionsTrackIRViewCmdText">TrackIR</String>
 	<String ID="OptionsTrackIRViewCmdHelp">Habilita el TrackIR en vista de cabina</String>
 
@@ -414,7 +414,7 @@
 	<String ID="RelativeTimeHelp">Hace la comparación más fácil</String>
 	<String ID="RelativeTimeText">Tiempo relativo</String>
 
-	<String ID="NoTelemetryHelp">Sin telemetríaa mostrar</String>
+	<String ID="NoTelemetryHelp">Sin telemetría mostrar</String>
 	<String ID="NoTelemetryText">Deshabilitado</String>
 
 	<String ID="TelemetryMinValue">Min&#9;{0}</String>
@@ -647,9 +647,9 @@
 	<String ID="AddOnTitleFunctionsProfiler">Perfilador de funciones</String>
 	<String ID="AddOnTitleGraphicalProfiler">Perfilador de gráficos</String>
 	<String ID="AddOnTitleMemoryProfiler">Perfilador de memoria</String>
-	<String ID="AddOnTitleActiveObjectList">Active Objects</String>
-	<String ID="AddOnTitlePlaybackControlBar">Playback Control Bar</String>
-	<String ID="AddOnTitleTimeJump">Time Jump</String>
+	<String ID="AddOnTitleActiveObjectList">Objetos Activos</String>
+	<String ID="AddOnTitlePlaybackControlBar">Barra de control de Reproducción</String>
+	<String ID="AddOnTitleTimeJump">Salto de Tiempo</String>
 	<String ID="TimeJumpSetTime">Go!</String>
 
 	<String ID="DebugEventTime">Tiempo</String>
@@ -943,7 +943,7 @@
 	<String ID="LogLevelInfo">INFORMACION</String>
 	<String ID="LogLevelWarning">ATENCION</String>
 	<String ID="LogLevelError">ERROR</String>
-	<String ID="EventTime">Time</String>
+	<String ID="EventTime">Tiempo</String>
 	<String ID="EventCallSign">Call Sign</String>
 	<String ID="EventDescription">Descripción de evento</String>
 
