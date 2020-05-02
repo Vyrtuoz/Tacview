@@ -106,6 +106,8 @@
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Display all the textures declared in CustomTextureList.xml</String>
 	<String ID="OptionsAlwaysDisplayBullseyeText">Always display Bullseye</String>
 	<String ID="OptionsAlwaysDisplayBullseyeHelp">Always display Bullseye in the 3D view</String>
+	<String ID="OptionsAutoHideCoordinatesText">Auto Hide Coordinates</String>
+	<String ID="OptionsAutoHideCoordinatesHelp">Auto hide latitude/longitude coordinates whenever bullseye coordinates are present</String>
 	<String ID="OptionsUIScaleText">UI Scaling</String>
 
 	<String ID="OptionsTerrainText">Ландшафт</String>
@@ -360,6 +362,10 @@
 	<String ID="AOAText">Угол атаки (AOA)</String>
 	<String ID="GHelp">Ускорение свободного падения</String>
 	<String ID="GText">Перегрузка (G)</String>
+	<String ID="LatGHelp">Acceleration relative to lateral axis</String>
+	<String ID="LatGText">Lateral G-Force (LatG)</String>
+	<String ID="LonGHelp">Acceleration relative to longitudinal axis</String>
+	<String ID="LonGText">Longitudinal G-Force (LonG)</String>
 	<String ID="RollRateHelp">Скорость вращения</String>
 	<String ID="RollRateText">Скорость вращения (RRT)</String>
 	<String ID="TurnRateHelp">Скорость поворота</String>
@@ -551,6 +557,8 @@
 	<String ID="SubmarineType">(Submarine)</String>
 	<String ID="InfantryType">(Infantry)</String>
 	<String ID="BuildingType">(Building)</String>
+	<String ID="WaypointType">(Waypoint)</String>
+	<String ID="GroundVehicleType">(Ground Vehicle)</String>
 	<String ID="TimelessValue">(безвременной объект)</String>
 
 	<String ID="TimeShiftTitle">Time shift</String>
@@ -677,6 +685,7 @@
 	<String ID="CmdSaveHelp">Сохранить запись в формате с высоким сжатием.</String>
 	<String ID="CmdExportFlightLogHelp">Экспортировать журнал в виде .xml или .csv.</String>
 	<String ID="CmdFalcon4TheaterHelp">Использовать ТВД из Falcon 4.0 для VHS файлов. (Aegean, Balkan, Israel, Korea...)</String>
+	<String ID="CmdFullscreenHelp">Starts Tacview in Fullscreen mode.</String>
 	<String ID="CmdQuietHelp">Tacview выполнит все указанные операции и закроется без дополнительных уведомлений.</String>
 	<String ID="CmdConnectRealTimeTelemetryHelp">подключиться к телеметрии реального времени по последним известным параметрам.</String>
 	<String ID="CmdConnectRemoteControlHelp">Подключить указанное удаленное управления по последним известным параметрам.</String>
@@ -710,7 +719,7 @@
 	<String ID="ControlsCtrlRightClick">[Ctrl] + [ПКМ]</String>
 	<String ID="ControlsDoubleClick">[Двойной клик]</String>
 	<String ID="ControlsLeftRight">[←] / [→]</String>
-	<String ID="ControlsPageUpDown">([Ctrl]+) [⇞] / [⇟]</String>
+	<String ID="ControlsPageUpDown">([Ctrl] / [Shift] +) [⇞] / [⇟]</String>
 	<String ID="ControlsMouseLeftDrag">[ЛКМ] + {потянуть}</String>
 	<String ID="ControlsMouseRightDrag">[ПКМ] + {потянуть}</String>
 	<String ID="ControlsMouseWheel">[Колесо мыши]</String>
@@ -869,7 +878,9 @@
 	<String ID="UnitLabelAbsoluteAOA">AOA (°)</String>
 	<String ID="UnitLabelIndicatedAOA">AOA (°)</String>
 	<String ID="UnitLabelAbsoluteG">Перегрузка (G)</String>
-	<String ID="UnitLabelIndicatedG">Перегрузка (G)</String>
+	<String ID="UnitLabelIndicatedVerticalG">Перегрузка (G)</String>
+	<String ID="UnitLabelIndicatedLateralG">Lateral g-force (G)</String>
+	<String ID="UnitLabelIndicatedLongitudinalG">Longitudinal g-force (G)</String>
 	<String ID="UnitLabelRollRate">Угловая скорость крена (°/сек)</String>
 	<String ID="UnitLabelTurnRate">Угловая скорость виража (°/сек)</String>
 	<String ID="UnitLabelTurnRadius">Радиус виража ({0})</String>
@@ -989,6 +1000,8 @@
 	<String ID="EventLogLanding">Landing</String>
 	<String ID="EventLogDisabledLabel">Kill Removed</String>
 	<String ID="EventLogEnabledLabel">Alive</String>
+	<String ID="EventLogRadarOnLabel">Radar-ON</String>
+	<String ID="EventLogRadarOffLabel">Radar-OFF</String>
 	<String ID="EventLogTimeoutLabel">Timeout {2}</String>
 	<String ID="EventLogTimeoutAtLabel">Timeout at {1} {2}</String>
 	<String ID="EventLogTimeoutWeaponLabel">Timeout {0} {2}</String>

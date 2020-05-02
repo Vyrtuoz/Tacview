@@ -106,6 +106,8 @@
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Display all the textures declared in CustomTextureList.xml</String>
 	<String ID="OptionsAlwaysDisplayBullseyeText">Always display Bullseye</String>
 	<String ID="OptionsAlwaysDisplayBullseyeHelp">Always display Bullseye in the 3D view</String>
+	<String ID="OptionsAutoHideCoordinatesText">Auto Hide Coordinates</String>
+	<String ID="OptionsAutoHideCoordinatesHelp">Auto hide latitude/longitude coordinates whenever bullseye coordinates are present</String>
 	<String ID="OptionsUIScaleText">UI Scaling</String>
 
 	<String ID="OptionsTerrainText">지형</String>
@@ -360,6 +362,10 @@
 	<String ID="AOAText">받음각 (AOA)</String>
 	<String ID="GHelp">자유낙하 대비 가속도</String>
 	<String ID="GText">지-포스 (G)</String>
+	<String ID="LatGHelp">Acceleration relative to lateral axis</String>
+	<String ID="LatGText">Lateral G-Force (LatG)</String>
+	<String ID="LonGHelp">Acceleration relative to longitudinal axis</String>
+	<String ID="LonGText">Longitudinal G-Force (LonG)</String>
 	<String ID="RollRateHelp">롤 레이트</String>
 	<String ID="RollRateText">롤 레이트 (RRT)</String>
 	<String ID="TurnRateHelp">턴 레이트</String>
@@ -567,6 +573,8 @@
 	<String ID="SubmarineType">(Submarine)</String>
 	<String ID="InfantryType">(Infantry)</String>
 	<String ID="BuildingType">(Building)</String>
+	<String ID="WaypointType">(Waypoint)</String>
+	<String ID="GroundVehicleType">(Ground Vehicle)</String>
 	<String ID="TimelessValue">(timeless object)</String>
 
 	<String ID="TimeShiftTitle">Time shift</String>
@@ -693,6 +701,7 @@
 	<String ID="CmdSaveHelp">고효율 압축 포맷으로 비행기록을 저장함</String>
 	<String ID="CmdExportFlightLogHelp">비행로그를 XML이나 CSV 파일로 익스포트 합니다.</String>
 	<String ID="CmdFalcon4TheaterHelp">VHS 파일용 팰콘 4.0 전장 셋 (에게해, 발칸, 이스라엘, 코리아...)</String>
+	<String ID="CmdFullscreenHelp">Starts Tacview in Fullscreen mode.</String>
 	<String ID="CmdQuietHelp">택뷰가 지정된 작업을 모두 수행 한 후 다른 윈도우를 표시하지 않은 채 종료됩니다.</String>
 	<String ID="CmdConnectRealTimeTelemetryHelp">Connect real-time telemetry using the last known parameters.</String>
 	<String ID="CmdConnectRemoteControlHelp">Connect specified remote control using the last known parameters.</String>
@@ -726,7 +735,7 @@
 	<String ID="ControlsCtrlRightClick">[컨트롤] + [우 클릭]</String>
 	<String ID="ControlsDoubleClick">[더블 클릭]</String>
 	<String ID="ControlsLeftRight">[←] / [→]</String>
-	<String ID="ControlsPageUpDown">([Ctrl]+) [⇞] / [⇟]</String>
+	<String ID="ControlsPageUpDown">([Ctrl] / [Shift] +) [⇞] / [⇟]</String>
 	<String ID="ControlsMouseLeftDrag">[마우스 왼쪽 버튼] + {드래그}</String>
 	<String ID="ControlsMouseRightDrag">[마우스 오른쪽 버튼] + {드래그}</String>
 	<String ID="ControlsMouseWheel">[마우스 휠]</String>
@@ -934,7 +943,9 @@
 	<String ID="UnitLabelAbsoluteAOA">AOA (°)</String>
 	<String ID="UnitLabelIndicatedAOA">AOA (°)</String>
 	<String ID="UnitLabelAbsoluteG">g-force (G)</String>
-	<String ID="UnitLabelIndicatedG">g-force (G)</String>
+	<String ID="UnitLabelIndicatedVerticalG">g-force (G)</String>
+	<String ID="UnitLabelIndicatedLateralG">Lateral g-force (G)</String>
+	<String ID="UnitLabelIndicatedLongitudinalG">Longitudinal g-force (G)</String>
 	<String ID="UnitLabelRollRate">Roll Rate (°/s)</String>
 	<String ID="UnitLabelTurnRate">Turn Rate (°/s)</String>
 	<String ID="UnitLabelTurnRadius">Turn Radius ({0})</String>
@@ -1053,6 +1064,8 @@
 	<String ID="EventLogLanding">Landing</String>
 	<String ID="EventLogDisabledLabel">Kill Removed</String>
 	<String ID="EventLogEnabledLabel">Alive</String>
+	<String ID="EventLogRadarOnLabel">Radar-ON</String>
+	<String ID="EventLogRadarOffLabel">Radar-OFF</String>
 	<String ID="EventLogTimeoutLabel">Timeout {2}</String>
 	<String ID="EventLogTimeoutAtLabel">Timeout at {1} {2}</String>
 	<String ID="EventLogTimeoutWeaponLabel">Timeout {0} {2}</String>

@@ -105,6 +105,8 @@
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Afficher toutes les textures déclarées dans CustomTextureList.xml</String>
 	<String ID="OptionsAlwaysDisplayBullseyeText">Toujours afficher le Bullseye</String>
 	<String ID="OptionsAlwaysDisplayBullseyeHelp">Toujours afficher le Bullseye dans la vue 3D</String>
+	<String ID="OptionsAutoHideCoordinatesText">Cacher automatiquement les coordonnées</String>
+	<String ID="OptionsAutoHideCoordinatesHelp">Masquer automatiquement les coordonnées latitude/longitude lorsque des coordonnées bullseye sont présentes</String>
 	<String ID="OptionsUIScaleText">Echelle interface utilisateur</String>
 
 	<String ID="OptionsTerrainText">Terrain</String>
@@ -359,6 +361,10 @@
 	<String ID="AOAText">Angle d'attaque (AOA)</String>
 	<String ID="GHelp">Accélération par rapport à une chute libre</String>
 	<String ID="GText">G-Force (G)</String>
+	<String ID="LatGHelp">Accélération par rapport à l’axe latéral</String>
+	<String ID="LatGText">Lateral G-Force (LatG)</String>
+	<String ID="LonGHelp">Accélération par rapport à l’axe longitudinal</String>
+	<String ID="LonGText">Longitudinal G-Force (LonG)</String>
 	<String ID="RollRateHelp">Taux de roulis</String>
 	<String ID="RollRateText">Taux de roulis (RRT)</String>
 	<String ID="TurnRateHelp">Taux de virage</String>
@@ -550,6 +556,8 @@
 	<String ID="SubmarineType">(Sous-marin)</String>
 	<String ID="InfantryType">(Infanterie)</String>
 	<String ID="BuildingType">(Batiment)</String>
+	<String ID="WaypointType">(Waypoint)</String>
+	<String ID="GroundVehicleType">(Véhicule au sol)</String>
 	<String ID="TimelessValue">(object intemporel)</String>
 
 	<String ID="TimeShiftTitle">Décalage temporel</String>
@@ -676,6 +684,7 @@
 	<String ID="CmdSaveHelp">Sauvegarde l'enregistrement de vol dans un format hautement compressé.</String>
 	<String ID="CmdExportFlightLogHelp">Exporte le journal de vol au format XML ou CSV.</String>
 	<String ID="CmdFalcon4TheaterHelp">Sélectionne le théâtre d'opérations à utiliser pour les fichiers VHS de Falcon 4.0. (Aegean, Balkan, Israel, Korea...)</String>
+	<String ID="CmdFullscreenHelp">Démarre Tacview en mode plein écran.</String>
 	<String ID="CmdQuietHelp">Tacview exécutera toutes les opérations spécifiées puis se fermera sans afficher de fenêtre.</String>
 	<String ID="CmdConnectRealTimeTelemetryHelp">Connecte la télémétrie temps-réel en utilisant les derniers paramètres connus.</String>
 	<String ID="CmdConnectRemoteControlHelp">Connecte la télécommande spécifiéee en utilisant les derniers paramètres connus.</String>
@@ -709,7 +718,7 @@
 	<String ID="ControlsCtrlRightClick">[Ctrl] + [Clic Droit]</String>
 	<String ID="ControlsDoubleClick">[Double Clic]</String>
 	<String ID="ControlsLeftRight">[←] / [→]</String>
-	<String ID="ControlsPageUpDown">([Ctrl]+) [⇞] / [⇟]</String>
+	<String ID="ControlsPageUpDown">([Ctrl] / [Shift] +) [⇞] / [⇟]</String>
 	<String ID="ControlsMouseLeftDrag">[Clic Gauche] + {Glissé}</String>
 	<String ID="ControlsMouseRightDrag">[Clic Droit] + {Glissé}</String>
 	<String ID="ControlsMouseWheel">[Molette Souris]</String>
@@ -868,7 +877,9 @@
 	<String ID="UnitLabelAbsoluteAOA">AOA (°)</String>
 	<String ID="UnitLabelIndicatedAOA">AOA (°)</String>
 	<String ID="UnitLabelAbsoluteG">g-force (G)</String>
-	<String ID="UnitLabelIndicatedG">g-force (G)</String>
+	<String ID="UnitLabelIndicatedVerticalG">g-force (G)</String>
+	<String ID="UnitLabelIndicatedLateralG">Lateral g-force (G)</String>
+	<String ID="UnitLabelIndicatedLongitudinalG">Longitudinal g-force (G)</String>
 	<String ID="UnitLabelRollRate">Taux de roulis (°/s)</String>
 	<String ID="UnitLabelTurnRate">Taux de virage (°/s)</String>
 	<String ID="UnitLabelTurnRadius">Rayon de virage ({0})</String>
@@ -988,6 +999,8 @@
 	<String ID="EventLogLanding">Atterrissage</String>
 	<String ID="EventLogDisabledLabel">Kill Removed</String>
 	<String ID="EventLogEnabledLabel">Alive</String>
+	<String ID="EventLogRadarOnLabel">Radar-ON</String>
+	<String ID="EventLogRadarOffLabel">Radar-OFF</String>
 	<String ID="EventLogTimeoutLabel">Timeout {2}</String>
 	<String ID="EventLogTimeoutAtLabel">Timeout sur {1} {2}</String>
 	<String ID="EventLogTimeoutWeaponLabel">Timeout {0} {2}</String>

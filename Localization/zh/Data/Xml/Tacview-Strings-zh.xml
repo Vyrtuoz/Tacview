@@ -106,6 +106,8 @@
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">显示CustomTextureList.xml中声明的所有纹理</String>
 	<String ID="OptionsAlwaysDisplayBullseyeText">总是显示靶眼</String>
 	<String ID="OptionsAlwaysDisplayBullseyeHelp">总是在3D视野里显示靶眼</String>
+	<String ID="OptionsAutoHideCoordinatesText">Auto Hide Coordinates</String>
+	<String ID="OptionsAutoHideCoordinatesHelp">Auto hide latitude/longitude coordinates whenever bullseye coordinates are present</String>
 	<String ID="OptionsUIScaleText">用户界面缩放</String>
 
 	<String ID="OptionsTerrainText">地形</String>
@@ -360,6 +362,10 @@
 	<String ID="AOAText">迎角 (AOA)</String>
 	<String ID="GHelp">作用在航空器上的合力与航空器重力之比</String>
 	<String ID="GText">过载 (G)</String>
+	<String ID="LatGHelp">Acceleration relative to lateral axis</String>
+	<String ID="LatGText">Lateral G-Force (LatG)</String>
+	<String ID="LonGHelp">Acceleration relative to longitudinal axis</String>
+	<String ID="LonGText">Longitudinal G-Force (LonG)</String>
 	<String ID="RollRateHelp">单位时间滚转角度</String>
 	<String ID="RollRateText">滚转率 (RRT)</String>
 	<String ID="TurnRateHelp">单位时间转弯角度</String>
@@ -568,6 +574,8 @@
 	<String ID="SubmarineType">(潜艇)</String>
 	<String ID="InfantryType">(步兵)</String>
 	<String ID="BuildingType">(建筑)</String>
+	<String ID="WaypointType">(Waypoint)</String>
+	<String ID="GroundVehicleType">(Ground Vehicle)</String>
 	<String ID="TimelessValue">(永久物体)</String>
 
 	<String ID="TimeShiftTitle">时间移动</String>
@@ -694,6 +702,7 @@
 	<String ID="CmdSaveHelp">保存飞行记录为高压缩格式。</String>
 	<String ID="CmdExportFlightLogHelp">导出飞行日志为XML或CSV文件。</String>
 	<String ID="CmdFalcon4TheaterHelp">设置Falcon 4.0战区使用VHS文件。(Aegean, Balkan, Israel, Korea...)</String>
+	<String ID="CmdFullscreenHelp">Starts Tacview in Fullscreen mode.</String>
 	<String ID="CmdQuietHelp">Tacview将执行所有指定操作然后不显示任何窗口退出。</String>
 	<String ID="CmdConnectRealTimeTelemetryHelp">使用最后已知的参数连接实时遥测。</String>
 	<String ID="CmdConnectRemoteControlHelp">使用最后已知的参数连接特定遥控。</String>
@@ -727,7 +736,7 @@
 	<String ID="ControlsCtrlRightClick">[Ctrl] + [鼠标右键]</String>
 	<String ID="ControlsDoubleClick">[双击鼠标左键]</String>
 	<String ID="ControlsLeftRight">[←] / [→]</String>
-	<String ID="ControlsPageUpDown">([Ctrl]+) [⇞] / [⇟]</String>
+	<String ID="ControlsPageUpDown">([Ctrl] / [Shift] +) [⇞] / [⇟]</String>
 	<String ID="ControlsMouseLeftDrag">[鼠标左键] + {拖拽}</String>
 	<String ID="ControlsMouseRightDrag">[鼠标右键] + {拖拽}</String>
 	<String ID="ControlsMouseWheel">[鼠标滚轮滚动]</String>
@@ -937,7 +946,9 @@
 	<String ID="UnitLabelAbsoluteAOA">AOA (°)</String>
 	<String ID="UnitLabelIndicatedAOA">AOA (°)</String>
 	<String ID="UnitLabelAbsoluteG">g-force (G)</String>
-	<String ID="UnitLabelIndicatedG">g-force (G)</String>
+	<String ID="UnitLabelIndicatedVerticalG">g-force (G)</String>
+	<String ID="UnitLabelIndicatedLateralG">Lateral g-force (G)</String>
+	<String ID="UnitLabelIndicatedLongitudinalG">Longitudinal g-force (G)</String>
 	<String ID="UnitLabelRollRate">Roll Rate (°/s)</String>
 	<String ID="UnitLabelTurnRate">Turn Rate (°/s)</String>
 	<String ID="UnitLabelTurnRadius">Turn Radius ({0})</String>
@@ -1056,6 +1067,8 @@
 	<String ID="EventLogLanding">着陆</String>
 	<String ID="EventLogDisabledLabel">击杀删除</String>
 	<String ID="EventLogEnabledLabel">存活</String>
+	<String ID="EventLogRadarOnLabel">Radar-ON</String>
+	<String ID="EventLogRadarOffLabel">Radar-OFF</String>
 	<String ID="EventLogTimeoutLabel">超时 {2}</String>
 	<String ID="EventLogTimeoutAtLabel">超时于{1} {2}</String>
 	<String ID="EventLogTimeoutWeaponLabel">超时{0} {2}</String>

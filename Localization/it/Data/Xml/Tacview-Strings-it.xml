@@ -106,6 +106,8 @@
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Display all the textures declared in CustomTextureList.xml</String>
 	<String ID="OptionsAlwaysDisplayBullseyeText">Always display Bullseye</String>
 	<String ID="OptionsAlwaysDisplayBullseyeHelp">Always display Bullseye in the 3D view</String>
+	<String ID="OptionsAutoHideCoordinatesText">Auto Hide Coordinates</String>
+	<String ID="OptionsAutoHideCoordinatesHelp">Auto hide latitude/longitude coordinates whenever bullseye coordinates are present</String>
 	<String ID="OptionsUIScaleText">UI Scaling</String>
 
 	<String ID="OptionsTerrainText">Terreno</String>
@@ -360,6 +362,10 @@
 	<String ID="AOAText">Angolo d'Attacco (AOA)</String>
 	<String ID="GHelp">Accelerazione relativa a caduta libera</String>
 	<String ID="GText">Forza-G (G)</String>
+	<String ID="LatGHelp">Acceleration relative to lateral axis</String>
+	<String ID="LatGText">Lateral G-Force (LatG)</String>
+	<String ID="LonGHelp">Acceleration relative to longitudinal axis</String>
+	<String ID="LonGText">Longitudinal G-Force (LonG)</String>
 	<String ID="RollRateHelp">Velocità di rollio</String>
 	<String ID="RollRateText">Velocità di rollio (RRT)</String>
 	<String ID="TurnRateHelp">Velocità di virata</String>
@@ -551,6 +557,8 @@
 	<String ID="SubmarineType">(Submarine)</String>
 	<String ID="InfantryType">(Infantry)</String>
 	<String ID="BuildingType">(Building)</String>
+	<String ID="WaypointType">(Waypoint)</String>
+	<String ID="GroundVehicleType">(Ground Vehicle)</String>
 	<String ID="TimelessValue">(timeless object)</String>
 
 	<String ID="TimeShiftTitle">Time shift</String>
@@ -677,6 +685,7 @@
 	<String ID="CmdSaveHelp">Salva il volo registrato in un file compresso</String>
 	<String ID="CmdExportFlightLogHelp"> Esporta il registro di Volo come XML o CSV.</String>
 	<String ID="CmdFalcon4TheaterHelp">Imposta il Teatro di Falcon 4.0 per usare i file VHS. (Aegean, Balkan, Israel, Korea...)</String>
+	<String ID="CmdFullscreenHelp">Starts Tacview in Fullscreen mode.</String>
 	<String ID="CmdQuietHelp">Tacview eseguirà tutte le operazioni specificate, senza visualizzarle in finestre.</String>
 	<String ID="CmdConnectRealTimeTelemetryHelp">Connect real-time telemetry using the last known parameters.</String>
 	<String ID="CmdConnectRemoteControlHelp">Connect specified remote control using the last known parameters.</String>
@@ -710,7 +719,7 @@
 	<String ID="ControlsCtrlRightClick">[Ctrl] + [Clic Destro]</String>
 	<String ID="ControlsDoubleClick">[Doppio Clic]</String>
 	<String ID="ControlsLeftRight">[←] / [→]</String>
-	<String ID="ControlsPageUpDown">([Ctrl]+) [⇞] / [⇟]</String>
+	<String ID="ControlsPageUpDown">([Ctrl] / [Shift] +) [⇞] / [⇟]</String>
 	<String ID="ControlsMouseLeftDrag">[Mouse Sinistro] + {Trascinare}</String>
 	<String ID="ControlsMouseRightDrag">[Mouse Destro] + {Trashinare}</String>
 	<String ID="ControlsMouseWheel">[Rotellina del Mouse]</String>
@@ -869,7 +878,9 @@
 	<String ID="UnitLabelAbsoluteAOA">AOA (°)</String>
 	<String ID="UnitLabelIndicatedAOA">AOA (°)</String>
 	<String ID="UnitLabelAbsoluteG">g-force (G)</String>
-	<String ID="UnitLabelIndicatedG">g-force (G)</String>
+	<String ID="UnitLabelIndicatedVerticalG">g-force (G)</String>
+	<String ID="UnitLabelIndicatedLateralG">Lateral g-force (G)</String>
+	<String ID="UnitLabelIndicatedLongitudinalG">Longitudinal g-force (G)</String>
 	<String ID="UnitLabelRollRate">Rateo di Rollio (°/s)</String>
 	<String ID="UnitLabelTurnRate">Rateo di Virata (°/s)</String>
 	<String ID="UnitLabelTurnRadius">Raggio di Virata ({0})</String>
@@ -989,6 +1000,8 @@
 	<String ID="EventLogLanding">Landing</String>
 	<String ID="EventLogDisabledLabel">Kill Removed</String>
 	<String ID="EventLogEnabledLabel">Alive</String>
+	<String ID="EventLogRadarOnLabel">Radar-ON</String>
+	<String ID="EventLogRadarOffLabel">Radar-OFF</String>
 	<String ID="EventLogTimeoutLabel">Timeout {2}</String>
 	<String ID="EventLogTimeoutAtLabel">Timeout at {1} {2}</String>
 	<String ID="EventLogTimeoutWeaponLabel">Timeout {0} {2}</String>
