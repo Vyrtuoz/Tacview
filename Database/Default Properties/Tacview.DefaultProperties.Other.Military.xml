@@ -50,6 +50,7 @@
 
 	<DefaultProperties Id="Other.Parachutist" Base="Other.Parachutist.WithoutName">
 		<Criteria>
+			<Name>Pilot</Name>
 			<Name>Parachutist</Name>
 			<Name>CParachute</Name>		<!-- IL-2 -->
 		</Criteria>
@@ -153,6 +154,17 @@
 			<ShortName>B-20-OFP2</ShortName>
 			<LongName>B-20-OFP2</LongName>
 			<FullName>B-20-OFP2</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Container.RocketPod.UB13" Base="Container.RocketPod">
+		<Criteria>
+			<Name>UB-13</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>UB-13</ShortName>
+			<LongName>UB-13 Rocket Pod</LongName>
+			<FullName>UB-13 122mm Rocket Pod</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -317,6 +329,7 @@
 
 	<DefaultProperties Id="Container.DropTank.1500L" Base="Container.DropTank">
 		<Criteria>
+			<Name>Tank 1500 L</Name>
 			<Name>Drop Tank 1500 L</Name>
 		</Criteria>
 		<Properties>

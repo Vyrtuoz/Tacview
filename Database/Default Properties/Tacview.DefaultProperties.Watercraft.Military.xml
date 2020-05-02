@@ -12,6 +12,12 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Watercraft.LST" Base="Watercraft.Military">
+		<Properties>
+			<Shape>Watercraft.Warship.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Watercraft.Corvette" Base="Watercraft.Military">
 		<Properties>
 			<Shape>Watercraft.Warship.obj</Shape>
@@ -32,13 +38,35 @@
 
 	<DefaultProperties Id="Watercraft.AircraftCarrier" Base="Watercraft.Military">
 		<Properties>
-			<Shape>Core.AircraftCarrier.obj</Shape>
+			<Shape>Watercraft.CVN-68.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
 	<DefaultProperties Id="Watercraft.Submarine" Base="Core.Submarine">
+	</DefaultProperties>
+
+	<!-- North Transports -->
+
+	<DefaultProperties Id="Watercraft.LST-1" Base="Watercraft.LST">
+		<Criteria>
+			<Name>LST-1</Name>
+		</Criteria>
 		<Properties>
-			<AdditionalType>Sea+Watercraft+Submarine</AdditionalType>
+			<ShortName>LST-1</ShortName>
+			<LongName>LST-1</LongName>
+			<FullName>LST-1</FullName>
+			<Shape>Watercraft.LST-1.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.LST-2" Base="Watercraft.LST-1">
+		<Criteria>
+			<Name>LST Mk2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>LST-2</ShortName>
+			<LongName>USS LST-2</LongName>
+			<FullName>USS LST-2</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -90,8 +118,20 @@
 			<Shape>Watercraft.CV-41.obj</Shape>
 		</Properties>
 	</DefaultProperties>
+	
+	<DefaultProperties Id="Watercraft.CVN-65" Base="Watercraft.AircraftCarrier">
+		<Criteria>
+			<Name>CVN-65</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CVN-65</ShortName>
+			<LongName>CVN-65 Enterprise</LongName>
+			<FullName>USS Enterprise (CVN-65)</FullName>
+			<Shape>Watercraft.CVN-65.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 
-	<DefaultProperties Id="Watercraft.CVN-68" Base="Watercraft.AircraftCarrier">
+	<DefaultProperties Id="Watercraft.CVN-68" Base="Watercraft.CVN-65">
 		<Criteria>
 			<Name>CVN-68</Name>
 			<Name>USS Nimitz</Name>
@@ -325,6 +365,60 @@
 		</Properties>
 	</DefaultProperties>
 
+	<!-- European Submarines -->
+
+	<DefaultProperties Id="Watercraft.TypeVII" Base="Watercraft.Submarine">
+		<Criteria>
+			<Name>Type VII</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Type VII</ShortName>
+			<LongName>Type VII</LongName>
+			<FullName>Type VII U-boat</FullName>
+			<Shape>Watercraft.Type VIIC.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.TypeVIIC" Base="Watercraft.TypeVII">
+		<Criteria>
+			<Name>Type VIIC</Name>
+			<Name>Uboat_VIIC</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Type VIIC</ShortName>
+			<LongName>Type VIIC</LongName>
+			<FullName>Type VIIC U-boat</FullName>
+			<Shape>Watercraft.Type VIIC.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- European Boats -->
+
+	<DefaultProperties Id="Watercraft.Schnellboot" Base="Watercraft.Corvette">
+		<Criteria>
+			<Name>Schnellboot</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Schnellboot</ShortName>
+			<LongName>Schnellboot</LongName>
+			<FullName>Schnellboot</FullName>
+			<Shape>Watercraft.Type S130.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Schnellboot.S130" Base="Watercraft.Schnellboot">
+		<Criteria>
+			<Name>S130</Name>
+			<Name>Schnellboot S130</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>S130</ShortName>
+			<LongName>Type S130</LongName>
+			<FullName>Schnellboot Type S130</FullName>
+			<Shape>Watercraft.Type S130.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- Russian Frigates and corverttes -->
 
 	<DefaultProperties Id="Watercraft.Grisha" Base="Watercraft.Corvette">
@@ -433,6 +527,18 @@
 	</DefaultProperties>
 
 	<!-- China -->
+
+	<DefaultProperties Id="Watercraft.Type093" Base="Watercraft.Submarine">
+		<Criteria>
+			<Name>Type 093</Name>
+			<Name>Shang</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>093</ShortName>
+			<LongName>Shang</LongName>
+			<FullName>Shang class (Type 093)</FullName>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="Watercraft.Type052B" Base="Watercraft.Destroyer">
 		<Criteria>

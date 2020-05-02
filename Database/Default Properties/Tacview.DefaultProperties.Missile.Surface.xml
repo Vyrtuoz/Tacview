@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.1">
+
+	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
+	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+
+	<!-- Core Declarations -->
+
+	<DefaultProperties Id="Missile.Surface" Base="Core.Missile">
+		<Properties>
+			<Shape>Missile.AGM-65.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.Surface.Wire" Base="Missile.Surface">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.Surface.Optical" Base="Missile.Surface">
+	</DefaultProperties>
+
+	<!-- North American Surface Missiles -->
+
+	<DefaultProperties Id="Missile.Surface.BGM71A" Base="Missile.Surface.Optical">
+		<Criteria>
+			<Name>BGM-71A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BGM-71A</ShortName>
+			<LongName>BGM-71A TOW</LongName>
+			<FullName>BGM-71A TOW</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.Surface.BGM71B" Base="Missile.Surface.BGM71A">
+		<Criteria>
+			<Name>BGM-71B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BGM-71B</ShortName>
+			<LongName>BGM-71B TOW</LongName>
+			<FullName>BGM-71B TOW</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.Surface.BGM71C" Base="Missile.Surface.BGM71B">
+		<Criteria>
+			<Name>BGM-71C</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BGM-71C</ShortName>
+			<LongName>BGM-71C TOW</LongName>
+			<FullName>BGM-71C TOW</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.Surface.BGM71D" Base="Missile.Surface.BGM71C">
+		<Criteria>
+			<Name>BGM-71D</Name>
+			<Name>TOW-2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BGM-71D</ShortName>
+			<LongName>BGM-71D TOW-2</LongName>
+			<FullName>BGM-71D TOW-2</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- EU Surface Missiles -->
+
+	<!-- Eastern Surface Missiles -->
+
+	<DefaultProperties Id="Missile.Surface.9M113" Base="Missile.Surface.Wire">
+		<Criteria>
+			<Name>9M113</Name>
+			<Name>Konkurs</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>9M113</ShortName>
+			<LongName>9M113 Konkurs</LongName>
+			<FullName>9M113 Konkurs</FullName>
+		</Properties>
+	</DefaultProperties>
+
+</DefaultPropertiesCollection>

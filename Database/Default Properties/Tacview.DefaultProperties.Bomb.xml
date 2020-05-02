@@ -31,6 +31,9 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="Bomb.Flare" Base="Bomb.Unguided">
+		<Properties>
+			<Shape>Bomb.Flare.obj</Shape>
+		</Properties>
 	</DefaultProperties>
 
 	<!-- North American Bombs -->
@@ -104,7 +107,128 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Bomb.CBU-99" Base="Bomb.Cluster">
+	<DefaultProperties Id="Bomb.Mk20" Base="Bomb.Cluster">
+		<!-- This is the dispenser which should be called: MK7 -->
+		<Criteria>
+			<Name>Mk-20</Name>
+			<Name>Mark 20</Name>
+			<Name>Rockeye</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mk-20</ShortName>
+			<LongName>Mk-20 Rockeye</LongName>
+			<FullName>Mark 20 Rockeye</FullName>
+			<Shape>Bomb.MK-20.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.Mk20.Cluster" Base="Bomb.Mk20">
+		<Criteria>
+			<Name>Mk-20 cluster</Name>
+			<Name>Mark 20 cluster</Name>
+			<Name>Rockeye cluster</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mk-20 Cluster</ShortName>
+			<LongName>Mk-20 Rockeye Cluster</LongName>
+			<FullName>Mark 20 Rockeye Cluster</FullName>
+			<Shape>Bomb.Bomblet.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.CBU-52.Dispenser" Base="Bomb.Mk20">
+		<Criteria>
+			<Name>CBU-52</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CBU-52</ShortName>
+			<LongName>CBU-52</LongName>
+			<FullName>CBU-52</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.CBU-52.Cluster" Base="Bomb.CBU-87">
+		<Criteria>
+			<Name>CBU-52 Cluster</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CBU-52 Cluster</ShortName>
+			<LongName>CBU-52 Cluster</LongName>
+			<FullName>CBU-52 Cluster</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.CBU-52B.Dispenser" Base="Bomb.CBU-52.Dispenser">
+		<Criteria>
+			<Name>CBU-52B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CBU-52B</ShortName>
+			<LongName>CBU-52B</LongName>
+			<FullName>CBU-52B</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.CBU-52B.Cluster" Base="Bomb.CBU-52.Cluster">
+		<Criteria>
+			<Name>CBU-52B Cluster</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CBU-52B Cluster</ShortName>
+			<LongName>CBU-52B Cluster</LongName>
+			<FullName>CBU-52B Cluster</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.CBU-87" Base="Bomb.Mk20">
+		<!-- This is the dispenser -->
+		<Criteria>
+			<Name>CBU-87</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CBU-87</ShortName>
+			<LongName>CBU-87 CEM</LongName>
+			<FullName>CBU-87 Combined Effects Munition</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.CBU-87.Cluster" Base="Bomb.CBU-87">
+		<Criteria>
+			<Name>CBU-87 Cluster</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CBU-87 Cluster</ShortName>
+			<LongName>CBU-87 CEM Cluster</LongName>
+			<FullName>CBU-87 CEM Cluster</FullName>
+			<Shape>Bomb.Bomblet.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.CBU-97" Base="Bomb.CBU-87">
+		<!-- This is the dispenser -->
+		<Criteria>
+			<Name>CBU-97</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CBU-97</ShortName>
+			<LongName>CBU-97 SFW</LongName>
+			<FullName>CBU-97 Sensor Fuzed Weapon</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.CBU-97.Cluster" Base="Bomb.CBU-97">
+		<Criteria>
+			<Name>CBU-97 Cluster</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CBU-97 Cluster</ShortName>
+			<LongName>CBU-97 SFW Cluster</LongName>
+			<FullName>CBU-97 SFW Cluster</FullName>
+			<Shape>Bomb.Bomblet.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.CBU-99" Base="Bomb.CBU-97">
 		<!-- This is the dispenser which should be called: SUU-75 -->
 		<Criteria>
 			<Name>CBU-99</Name>
@@ -124,46 +248,42 @@
 			<ShortName>CBU-99 Cluster</ShortName>
 			<LongName>CBU-99 Cluster</LongName>
 			<FullName>CBU-99 Cluster</FullName>
+			<Shape>Bomb.Bomblet.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Bomb.Mk20" Base="Bomb.Cluster">
-		<!-- This is the dispenser which should be called: MK7 -->
+	<DefaultProperties Id="Bomb.GBU-10" Base="Bomb.Guided">
 		<Criteria>
-			<Name>Mk-20</Name>
-			<Name>Mark 20</Name>
-			<Name>Rockeye</Name>
+			<Name>GBU-10</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>Mk-20</ShortName>
-			<LongName>Mk-20 Rockeye</LongName>
-			<FullName>Mark 20 Rockeye</FullName>
+			<ShortName>GBU-10</ShortName>
+			<LongName>GBU-10 Paveway II</LongName>
+			<FullName>GBU-10 Paveway II (Mk84)</FullName>
+			<Shape>Bomb.GBU-12.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Bomb.Mk20.Cluster" Base="Bomb.Mk20">
-		<Criteria>
-			<Name>Mk-20 cluster</Name>
-			<Name>Mark 20 cluster</Name>
-			<Name>Rockeye cluster</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>Mk-20 Cluster</ShortName>
-			<LongName>Mk-20 Rockeye Cluster</LongName>
-			<FullName>Mark 20 Rockeye Cluster</FullName>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="Bomb.GBU-12" Base="Bomb.Guided">
+	<DefaultProperties Id="Bomb.GBU-12" Base="Bomb.GBU-16">
 		<Criteria>
 			<Name>GBU-12</Name>
-			<Name>Paveway II</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>GBU-12</ShortName>
 			<LongName>GBU-12 Paveway II</LongName>
-			<FullName>GBU-12 Paveway II</FullName>
+			<FullName>GBU-12 Paveway II (Mk82)</FullName>
 			<Shape>Bomb.GBU-12.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.GBU-16" Base="Bomb.GBU-10">
+		<Criteria>
+			<Name>GBU-16</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>GBU-16</ShortName>
+			<LongName>GBU-16 Paveway II</LongName>
+			<FullName>GBU-16 Paveway II (Mk83)</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -187,6 +307,29 @@
 			<ShortName>LUU-2B</ShortName>
 			<LongName>LUU-2B</LongName>
 			<FullName>LUU-2B</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.M257" Base="Bomb.Flare">
+		<Criteria>
+			<Name>M257</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M257</ShortName>
+			<LongName>M257 (Flare)</LongName>
+			<FullName>M257 Parachute illumination</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.M117" Base="Bomb.Unguided">
+		<Criteria>
+			<Name>M117</Name>
+			<Name>M-117</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M117</ShortName>
+			<LongName>M117</LongName>
+			<FullName>M117</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -218,11 +361,12 @@
 		<Criteria>
 			<Name>Mk-82RT</Name>
 			<Name>Mk 82 Snake Eye</Name>
+			<Name>Mk 82 Snakeye</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>Mk-82RT</ShortName>
-			<LongName>Mk-82 Snake Eye</LongName>
-			<FullName>Mk-82 Snake Eye</FullName>
+			<LongName>Mk-82 Snakeye</LongName>
+			<FullName>Mk-82 Snakeye</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -274,7 +418,51 @@
 
 	<!-- Eastern Bombs -->
 
-	<DefaultProperties Id="Bomb.FAB500" Base="Bomb.Unguided">
+	<DefaultProperties Id="Bomb.FAB50" Base="Bomb.Unguided">
+		<Criteria>
+			<Name>FAB 50</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>FAB-50</ShortName>
+			<LongName>FAB-50</LongName>
+			<FullName>FAB-50</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.FAB100" Base="Bomb.FAB50">
+		<Criteria>
+			<Name>FAB 100</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>FAB-100</ShortName>
+			<LongName>FAB-100</LongName>
+			<FullName>FAB-100</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.FAB100SV" Base="Bomb.FAB100">
+		<Criteria>
+			<Name>FAB 100SV</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>FAB-100SV</ShortName>
+			<LongName>FAB-100SV</LongName>
+			<FullName>FAB-100SV</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.FAB250" Base="Bomb.FAB100">
+		<Criteria>
+			<Name>FAB 250</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>FAB-250</ShortName>
+			<LongName>FAB-250</LongName>
+			<FullName>FAB-250</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.FAB500" Base="Bomb.FAB250">
 		<Criteria>
 			<Name>FAB 500</Name>
 		</Criteria>

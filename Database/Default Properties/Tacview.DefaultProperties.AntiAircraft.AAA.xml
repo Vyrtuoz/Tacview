@@ -71,7 +71,7 @@
 			<ShortName>Gepard</ShortName>
 			<LongName>Gepard</LongName>
 			<FullName>Flugabwehrkanonenpanzer Gepard</FullName>
-			<EngagementRange>3000</EngagementRange>
+			<EngagementRange>3500</EngagementRange>
 		</Properties>
 	</DefaultProperties>
 
@@ -133,6 +133,7 @@
 			<ShortName>ZU-23-2</ShortName>
 			<LongName>ZU-23-2 (Ural-375)</LongName>
 			<FullName>Ural-375 ZU-23-2</FullName>
+			<Shape>AntiAircraft.AAA.ZSU-23-2.Ural.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

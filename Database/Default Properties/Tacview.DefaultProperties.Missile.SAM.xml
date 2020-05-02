@@ -12,6 +12,12 @@
 	<DefaultProperties Id="Missile.SAM.IR" Base="Missile.SAM">
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.SAM.Radar" Base="Missile.SAM">
+		<Properties>
+			<Shape>Missile.9M330.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.SAM.Hybrid" Base="Missile.SAM">
 	</DefaultProperties>
 
@@ -20,11 +26,23 @@
 	<DefaultProperties Id="Missile.SAM.RIM-7" Base="Missile.AA.AIM-7">
 		<Criteria>
 			<Name>RIM-7</Name>
+			<Name>Sea Sparrow</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>RIM-7</ShortName>
 			<LongName>RIM-7 Sea Sparrow</LongName>
 			<FullName>RIM-7 Sea Sparrow</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.SAM.RIM-66" Base="Missile.SAM.Radar">
+		<Criteria>
+			<Name>RIM-66</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>RIM-66</ShortName>
+			<LongName>RIM-66 Standard</LongName>
+			<FullName>RIM-66 Standard MR</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -85,6 +103,18 @@
 			<LongName>9M39 Igla (SA-18)</LongName>
 			<FullName>9M39 Igla (SA-18 Grouse)</FullName>
 			<Shape>Missile.9K38.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.SAM.9M330" Base="Missile.SAM.Radar">
+		<Criteria>
+			<Name>9M330</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>9M330</ShortName>
+			<LongName>9M330</LongName>
+			<FullName>9M330</FullName>
+			<Shape>Missile.9M330.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

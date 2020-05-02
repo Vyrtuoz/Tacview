@@ -12,13 +12,25 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Rocket.Heavy" Base="Core.Rocket">
+	<DefaultProperties Id="Rocket.Heavy" Base="Rocket.Light">
 		<Properties>
-			<Shape>Rocket.Hydra 70.obj</Shape>
+			<Shape>Rocket.S-13.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
 	<!-- North American Rockets -->
+
+	<DefaultProperties Id="Rocket.HVAR" Base="Rocket.Light">
+		<Criteria>
+			<Name>HVAR</Name>
+			<Name>Holy Moses</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>HVAR</ShortName>
+			<LongName>HVAR</LongName>
+			<FullName>High Velocity Aircraft Rocket</FullName>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="Rocket.FFAR.Mk5" Base="Rocket.Light">
 		<Criteria>
@@ -53,18 +65,41 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Rocket.Hydra70.M151" Base="Rocket.Hydra70">
+	<DefaultProperties Id="Rocket.M151" Base="Rocket.Hydra70">
 		<Criteria>
 			<Name>Hydra 70 M151</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>M151</ShortName>
-			<LongName>Hydra 70 M151</LongName>
-			<FullName>Hydra 70 M151</FullName>
+			<LongName>M151 (HE)</LongName>
+			<FullName>M151 (HE) Rocket</FullName>
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Rocket.Hydra70.Mk5" Base="Rocket.Hydra70">
+	<DefaultProperties Id="Rocket.M156" Base="Rocket.Hydra70">
+		<Criteria>
+			<Name>Hydra 70 M156</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M156</ShortName>
+			<LongName>M156 (WP)</LongName>
+			<FullName>M156 (WP) Rocket</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rocket.M257" Base="Rocket.Hydra70">
+		<Criteria>
+			<Name>M257</Name>
+			<Name>Hydra M257</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M257</ShortName>
+			<LongName>M257 (Flare)</LongName>
+			<FullName>M257 Parachute illumination</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rocket.Mk5" Base="Rocket.Hydra70">
 		<Criteria>
 			<Name>Hydra 70 Mk5</Name>
 		</Criteria>
@@ -97,6 +132,29 @@
 			<ShortName>9M22U</ShortName>
 			<LongName>9M22U</LongName>
 			<FullName>9M22U</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rocket.RS-82" Base="Rocket.Light">
+		<Criteria>
+			<Name>RS-82</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>RS-82</ShortName>
+			<LongName>RS-82</LongName>
+			<FullName>RS-82</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rocket.S5" Base="Rocket.Light">
+		<Criteria>
+			<Name>C_5</Name>
+			<Name>S-5</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>S-5</ShortName>
+			<LongName>S-5</LongName>
+			<FullName>S-5</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -136,7 +194,20 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Rocket.S24" Base="Rocket.Heavy">
+	<DefaultProperties Id="Rocket.S13" Base="Rocket.Heavy">
+		<Criteria>
+			<Name>C_13</Name>
+			<Name>S-13</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>S-13</ShortName>
+			<LongName>S-13</LongName>
+			<FullName>S-13</FullName>
+			<Shape>Rocket.S-13.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rocket.S24" Base="Rocket.S13">
 		<Criteria>
 			<Name>C_24</Name>
 			<Name>S-24</Name>
@@ -145,6 +216,18 @@
 			<ShortName>S-24</ShortName>
 			<LongName>S-24</LongName>
 			<FullName>S-24</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rocket.S25" Base="Rocket.S24">
+		<Criteria>
+			<Name>C_25</Name>
+			<Name>S-25</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>S-25</ShortName>
+			<LongName>S-25</LongName>
+			<FullName>S-25</FullName>
 		</Properties>
 	</DefaultProperties>
 

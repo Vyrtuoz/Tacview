@@ -472,6 +472,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.KJ-2000" Base="FixedWing.A-50">
+		<Criteria>
+			<Name>KJ-2000</Name>
+			<Name>Mainring</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>KJ-2000</ShortName>
+			<LongName>KJ-2000 Mainring</LongName>
+			<FullName>KJ-2000 Mainring</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- North American Drones -->
 
 	<DefaultProperties Id="FixedWing.MQ-1" Base="FixedWing.Military.Drone">
@@ -590,6 +602,7 @@
 		<Criteria>
 			<Name>A-4</Name>
 			<Name>A-4 Skyhawk</Name>
+			<Name>Skyhawk</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>A-4</ShortName>
@@ -621,6 +634,19 @@
 			<ShortName>A-4M</ShortName>
 			<LongName>A-4M Skyhawk II</LongName>
 			<FullName>Douglas A-4M Skyhawk II</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.A-7" Base="FixedWing.GroundAttack">
+		<Criteria>
+			<Name>A-7</Name>
+			<Name>Corsair II</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A-7</ShortName>
+			<LongName>A-7 Corsair II</LongName>
+			<FullName>LTV A-7 Corsair II</FullName>
+			<Shape>FixedWing.A-7.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -1455,6 +1481,40 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.F-105" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>F-105</Name>
+			<Name>Thunderchief</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F-105</ShortName>
+			<LongName>F-105 Thunderchief</LongName>
+			<FullName>Republic F-105 Thunderchief</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.F-105D" Base="FixedWing.F-105">
+		<Criteria>
+			<Name>F-105D</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F-105D</ShortName>
+			<LongName>F-105D Thunderchief</LongName>
+			<FullName>Republic F-105D Thunderchief</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.F-105G" Base="FixedWing.F-105">
+		<Criteria>
+			<Name>F-105G</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F-105G</ShortName>
+			<LongName>F-105G Thunderchief</LongName>
+			<FullName>Republic F-105G Thunderchief</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.F-111" Base="FixedWing.Bomber.Jet">
 		<Criteria>
 			<Name>F-111</Name>
@@ -1742,7 +1802,32 @@
 		</Properties>
 	</DefaultProperties>
 
-	<!-- EU Military Fixed-wing aircraft -->
+	<!-- EU Europe Military Fixed-wing aircraft -->
+
+	<DefaultProperties Id="FixedWing.Br.1150" Base="FixedWing.P-3">
+		<Criteria>
+			<Name>Br.1150</Name>
+			<Name>Breguet Br.1150 Atlantic</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Br.1150</ShortName>
+			<LongName>Br.1150 Atlantic</LongName>
+			<FullName>Breguet Br.1150 Atlantic</FullName>
+			<Shape>FixedWing.Br.1150.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.ATL2" Base="FixedWing.Br.1150">
+		<Criteria>
+			<Name>Atlantique 2</Name>
+			<Name>ATL2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ATL2</ShortName>
+			<LongName>Atlantique 2</LongName>
+			<FullName>Atlantique 2</FullName>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.C-101" Base="FixedWing.GroundAttack">
 		<Criteria>
@@ -1967,6 +2052,19 @@
 			<ShortName>AJS 37</ShortName>
 			<LongName>AJS 37 Viggen</LongName>
 			<FullName>Saab AJS 37 Viggen</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.JAS39" Base="FixedWing.AJS37">
+		<Criteria>
+			<Name>JAS 39</Name>
+			<Name>Gripen</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>JAS 39</ShortName>
+			<LongName>JAS 39 Gripen</LongName>
+			<FullName>Saab JAS 39 Gripen</FullName>
+			<Shape>FixedWing.JAS 39.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2197,6 +2295,18 @@
 			<LongName>Me 262 A Schwalbe</LongName>
 			<FullName>Messerschmitt Me 262 A Schwalbe</FullName>
 			<Shape>FixedWing.Me-262.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Me 262 A-1a/U4" Base="FixedWing.Me 262 A">
+		<Criteria>
+			<Name>Me 262 A-1a/U4</Name>
+			<Name>Pulkzerstörer</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Me 262 A-1a/U4</ShortName>
+			<LongName>Me 262 A-1a/U4 Pulkzerstörer</LongName>
+			<FullName>Messerschmitt Me 262 A-1a/U4 Pulkzerstörer</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -2525,7 +2635,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.PC-9" Base="FixedWing.Trainer.Prop">
+	<DefaultProperties Id="FixedWing.PC-9" Base="FixedWing.PC-7">
 		<Criteria>
 			<Name>PC-9</Name>
 			<Name>Pilatus PC-9</Name>
@@ -2535,6 +2645,19 @@
 			<LongName>Pilatus PC-9</LongName>
 			<FullName>Pilatus PC-9</FullName>
 			<Shape>FixedWing.PC-9.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.PC-21" Base="FixedWing.PC-7">
+		<Criteria>
+			<Name>PC-21</Name>
+			<Name>Pilatus PC-21</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PC-21</ShortName>
+			<LongName>Pilatus PC-21</LongName>
+			<FullName>Pilatus PC-21</FullName>
+			<Shape>FixedWing.PC-21.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2696,6 +2819,7 @@
 		<Criteria>
 			<Name>I-16</Name>
 			<Name>Polikarpov I-16</Name>
+			<Name>Ishak</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>I-16</ShortName>
@@ -3792,6 +3916,19 @@
 
 	<!-- Asian Military Fixed-wing aircraft -->
 
+	<DefaultProperties Id="FixedWing.J-10" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>J-10</Name>
+			<Name>Chengdu J-10</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>J-10</ShortName>
+			<LongName>Chengdu J-10</LongName>
+			<FullName>Chengdu J-10</FullName>
+			<Shape>FixedWing.J-10.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.J-11" Base="FixedWing.Su-27">
 		<Criteria>
 			<Name>J-11</Name>
@@ -3862,6 +3999,19 @@
 
 	<!-- Space / Science fiction -->
 
+	<DefaultProperties Id="FixedWing.Spacecraft.P5G" Base="FixedWing.Spacecraft.Fighter">
+		<Criteria>
+			<Name>P5G</Name>
+			<Name>Gladius</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>P5G</ShortName>
+			<LongName>P5G Gladius</LongName>
+			<FullName>Aegis P5G Gladius</FullName>
+			<Shape>Spacecraft.P5G.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.Spacecraft.F7A" Base="FixedWing.Spacecraft.Fighter">
 		<Criteria>
 			<Name>F7A</Name>
@@ -3870,6 +4020,7 @@
 			<ShortName>F7A</ShortName>
 			<LongName>F7A Hornet</LongName>
 			<FullName>Anvil Aerospace F7A Hornet</FullName>
+			<Shape>Spacecraft.F7C-M.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -3914,6 +4065,7 @@
 			<ShortName>F7CM</ShortName>
 			<LongName>F7C-M Super Hornet</LongName>
 			<FullName>Anvil Aerospace F7C-M Super Hornet</FullName>
+			<Shape>Spacecraft.F7C-M.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

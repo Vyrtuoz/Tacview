@@ -69,6 +69,8 @@
 		<Properties>
 			<Color>Blue</Color>
 			<Visible>1</Visible>
+			<EngagementMode>1</EngagementMode>
+			<EngagementMode2>1</EngagementMode2>
 		</Properties>
 	</DefaultProperties>
 

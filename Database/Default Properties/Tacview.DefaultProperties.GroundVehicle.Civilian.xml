@@ -13,8 +13,20 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="Vehicle.Civilian.Truck" Base="Vehicle.Civilian">
+		<Criteria>
+			<Name>Truck</Name>
+		</Criteria>
 		<Properties>
 			<Shape>Vehicle.Truck.Ural.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Civilian.Pickup" Base="Vehicle.Civilian">
+		<Criteria>
+			<Name>Pickup</Name>
+		</Criteria>
+		<Properties>
+			<Shape>Vehicle.Car.Pickup.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -34,6 +46,7 @@
 			<ShortName>GAZ-66</ShortName>
 			<LongName>GAZ-66</LongName>
 			<FullName>GAZ-66</FullName>
+			<Shape>Vehicle.Truck.Kamaz.Dump.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -45,6 +58,18 @@
 			<ShortName>Fuel Truck</ShortName>
 			<LongName>Fuel Truck</LongName>
 			<FullName>Fuel Truck</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Truck.Kamaz" Base="Vehicle.Civilian.Truck">
+		<Criteria>
+			<Name>Kamaz</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Kamaz</ShortName>
+			<LongName>Kamaz</LongName>
+			<FullName>Kamaz</FullName>
+			<Shape>Vehicle.Truck.Kamaz.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

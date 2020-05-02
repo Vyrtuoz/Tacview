@@ -50,9 +50,9 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="AntiAircraft.SAM.SearchRadar.Truck" Base="Vehicle.Military.Truck">
+	<DefaultProperties Id="AntiAircraft.SAM.SearchRadar.Truck" Base="AntiAircraft.SAM">
 		<Properties>
-			<Shape>AntiAircraft.SAM.SA-10.76N6.obj</Shape>
+			<Shape>AntiAircraft.SAM.P-15.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -64,7 +64,7 @@
 
 	<DefaultProperties Id="AntiAircraft.SAM.SearchAndTrackingRadar" Base="AntiAircraft.SAM">
 		<Properties>
-			<Shape>AntiAircraft.SAM.SA-10.76N6.obj</Shape>
+			<Shape>AntiAircraft.SAM.SA-6.1S91.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -74,10 +74,23 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="AntiAircraft.SAM.Launcher.US" Base="AntiAircraft.SAM">
+		<Properties>
+			<Shape>AntiAircraft.SAM.Launcher.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.Launcher.Russian" Base="AntiAircraft.SAM">
+		<Properties>
+			<Shape>AntiAircraft.SAM.SA-6.2P25.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- North American SAM -->
 
 	<DefaultProperties Id="AntiAircraft.SAM.AN/TWQ-1" Base="AntiAircraft.SAM.Launcher">
 		<Criteria>
+			<Name>Avenger</Name>
 			<Name>M1097 Avenger</Name>
 		</Criteria>
 		<Properties>
@@ -110,7 +123,7 @@
 			<ShortName>MIM-72</ShortName>
 			<LongName>MIM-72 Chaparral</LongName>
 			<FullName>MIM-72 Chaparral</FullName>
-			<EngagementRange>4250</EngagementRange>
+			<EngagementRange>5750</EngagementRange>
 		</Properties>
 	</DefaultProperties>
 
@@ -391,9 +404,22 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="AntiAircraft.SAM.Crotale" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>Crotale</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Crotale</ShortName>
+			<LongName>Crotale</LongName>
+			<FullName>Crotale</FullName>
+			<EngagementRange>8000</EngagementRange>
+			<Shape>AntiAircraft.SAM.CrotaleNG.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- Eastern SAM -->
 
-	<DefaultProperties Id="AntiAircraft.SAM.SA-2.SR" Base="AntiAircraft.SAM.SearchRadar">
+	<DefaultProperties Id="AntiAircraft.SAM.SA-2.SR" Base="AntiAircraft.SAM.SearchRadar.Truck">
 		<Criteria>
 			<Name>Spoon Rest</Name>		<!-- BMS -->
 			<Name>SA-2 SR</Name>
@@ -405,11 +431,12 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="AntiAircraft.SAM.SA-2.LN" Base="AntiAircraft.SAM.Launcher">
+	<DefaultProperties Id="AntiAircraft.SAM.SA-2.LN" Base="AntiAircraft.SAM.Launcher.Russian">
 		<Criteria>
 			<Name>SA-2</Name>			<!-- BMS -->
 			<Name>SA-2 Launcher</Name>	<!-- SuperBug -->
 			<Name>SA-2 LN</Name>
+			<Name>S-75M</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SA-2</ShortName>
@@ -433,7 +460,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="AntiAircraft.SAM.SA-3.P-19" Base="AntiAircraft.SAM.SearchRadar">
+	<DefaultProperties Id="AntiAircraft.SAM.SA-3.P-19" Base="AntiAircraft.SAM.SearchRadar.Truck">
 		<Criteria>
 			<Name>P-19 s-125 sr</Name>
 			<Name>SA-3 SR</Name>
@@ -442,10 +469,11 @@
 			<ShortName>SA-3</ShortName>
 			<LongName>SA-3 Goa (SR)</LongName>
 			<FullName>SA-3 Goa (S-125 P-19 Search Radar)</FullName>
+			<Shape>AntiAircraft.SAM.P-15.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="AntiAircraft.SAM.SA-3.5P73" Base="AntiAircraft.SAM.Launcher">
+	<DefaultProperties Id="AntiAircraft.SAM.SA-3.5P73" Base="AntiAircraft.SAM.Launcher.Russian">
 		<Criteria>
 			<Name>SA-3</Name>		<!-- BMS -->
 			<Name>5P73</Name>
@@ -456,6 +484,7 @@
 			<ShortName>SA-3</ShortName>
 			<LongName>SA-3 Goa (LN)</LongName>
 			<FullName>SA-3 Goa (S-125 5P73 Launcher)</FullName>
+			<Shape>AntiAircraft.SAM.SA-3.5P73.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -470,6 +499,7 @@
 			<LongName>SA-3 Goa (TR Low Blow)</LongName>
 			<FullName>SA-3 Goa (S-125 Low Blow Tracking Radar)</FullName>
 			<EngagementRange>14000</EngagementRange>
+			<Shape>AntiAircraft.SAM.SA-3.SNR-125.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -486,7 +516,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="AntiAircraft.SAM.SA-5.Launcher" Base="AntiAircraft.SAM.Launcher">
+	<DefaultProperties Id="AntiAircraft.SAM.SA-5.Launcher" Base="AntiAircraft.SAM.Launcher.Russian">
 		<Criteria>
 			<Name>SA-5</Name>				<!-- BMS Israel -->
 			<Name>SA-5 LN</Name>
@@ -524,10 +554,11 @@
 			<LongName>SA-6 Gainful (STR)</LongName>
 			<FullName>SA-6 Gainful (1S91 Straight Flush Search &amp; Tracking Radar)</FullName>
 			<EngagementRange>35000</EngagementRange>
+			<Shape>AntiAircraft.SAM.SA-6.1S91.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="AntiAircraft.SAM.SA-6.2P25" Base="AntiAircraft.SAM.Launcher">
+	<DefaultProperties Id="AntiAircraft.SAM.SA-6.2P25" Base="AntiAircraft.SAM.Launcher.Russian">
 		<Criteria>
 			<Name>SA-6</Name>				<!-- BMS Israel -->
 			<Name>2P25</Name>
@@ -562,7 +593,7 @@
 		</Criteria>
 	</DefaultProperties>
 
-	<DefaultProperties Id="AntiAircraft.SAM.SA-8.9K33" Base="AntiAircraft.SAM.Launcher">
+	<DefaultProperties Id="AntiAircraft.SAM.SA-8.9K33" Base="AntiAircraft.SAM.Launcher.Russian">
 		<Criteria>
 			<Name>SA-8</Name>
 			<Name>SA-8 Gecko</Name>
@@ -576,7 +607,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="AntiAircraft.SAM.SA-9.9K31" Base="AntiAircraft.SAM.Launcher">
+	<DefaultProperties Id="AntiAircraft.SAM.SA-9.9K31" Base="AntiAircraft.SAM.Launcher.Russian">
 		<Criteria>
 			<Name>9P31</Name>
 			<Name>Strela-1 9P31</Name>
@@ -624,7 +655,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="AntiAircraft.SAM.SA-10.5P85C" Base="AntiAircraft.SAM.Launcher">
+	<DefaultProperties Id="AntiAircraft.SAM.SA-10.5P85C" Base="AntiAircraft.SAM.Launcher.Russian">
 		<Criteria>
 			<Name>S-300PS 5P85C ln</Name>
 		</Criteria>
@@ -635,7 +666,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="AntiAircraft.SAM.SA-10.5P85D" Base="AntiAircraft.SAM.Launcher">
+	<DefaultProperties Id="AntiAircraft.SAM.SA-10.5P85D" Base="AntiAircraft.SAM.Launcher.Russian">
 		<Criteria>
 			<Name>S-300PS 5P85D ln</Name>
 			<Name>SA-10 LN</Name>
@@ -656,7 +687,7 @@
 			<ShortName>SA-10</ShortName>
 			<LongName>SA-10 Grumble (TR)</LongName>
 			<FullName>SA-10 Grumble (S-300PS 40B6M Tracking Radar)</FullName>
-			<EngagementRange>50000</EngagementRange>
+			<EngagementRange>55000</EngagementRange>
 		</Properties>
 	</DefaultProperties>
 
@@ -685,7 +716,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="AntiAircraft.SAM.SA-11.9A310M1" Base="AntiAircraft.SAM.Launcher">
+	<DefaultProperties Id="AntiAircraft.SAM.SA-11.9A310M1" Base="AntiAircraft.SAM.Launcher.Russian">
 		<Criteria>
 			<Name>SA-11 Buk LN 9A310M1</Name>
 			<Name>SA-11 LN</Name>
@@ -697,8 +728,9 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="AntiAircraft.SAM.SA-13.9K35" Base="AntiAircraft.SAM.Launcher">
+	<DefaultProperties Id="AntiAircraft.SAM.SA-13.9K35" Base="AntiAircraft.SAM.Launcher.Russian">
 		<Criteria>
+			<Name>SA-13</Name>
 			<Name>Strela-10M3</Name>		<!-- DCS World 2.2 -->
 		</Criteria>
 		<Properties>
@@ -706,6 +738,7 @@
 			<LongName>SA-13 Gopher</LongName>
 			<FullName>SA-13 Gopher (9K35 Strela-10)</FullName>
 			<EngagementRange>4200</EngagementRange>
+			<Shape>AntiAircraft.SAM.SA-13.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -730,7 +763,7 @@
 		</Criteria>
 	</DefaultProperties>
 
-	<DefaultProperties Id="AntiAircraft.SAM.SA-15.9K330" Base="AntiAircraft.SAM.Launcher">
+	<DefaultProperties Id="AntiAircraft.SAM.SA-15.9K330" Base="AntiAircraft.SAM.Launcher.Russian">
 		<Criteria>
 			<Name>Tor 9A331</Name>		<!-- DCS World 2.2 -->
 		</Criteria>
@@ -766,7 +799,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="AntiAircraft.SAM.SA-17" Base="AntiAircraft.SAM.Launcher">
+	<DefaultProperties Id="AntiAircraft.SAM.SA-17" Base="AntiAircraft.SAM.Launcher.Russian">
 		<Criteria>
 			<Name>SA-17</Name>		<!-- BMS Israel -->
 		</Criteria>
@@ -832,7 +865,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="AntiAircraft.SAM.HQ-7.LN" Base="AntiAircraft.SAM.Launcher">
+	<DefaultProperties Id="AntiAircraft.SAM.HQ-7.LN" Base="AntiAircraft.SAM.Launcher.Russian">
 		<Criteria>
 			<Name>HQ-7 LN</Name>
 		</Criteria>

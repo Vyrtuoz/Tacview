@@ -60,6 +60,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.AG.AGM-65A" Base="Missile.AG.AGM-65">
+		<Criteria>
+			<Name>AGM-65A</Name>
+			<Name>AGM-65A Maverick</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGM-65A</ShortName>
+			<LongName>AGM-65A Maverick</LongName>
+			<FullName>AGM-65A Maverick</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.AG.AGM-65B" Base="Missile.AG.AGM-65">
 		<Criteria>
 			<Name>AGM-65B</Name>
@@ -347,6 +359,18 @@
 
 	<!-- Asia -->
 
+	<DefaultProperties Id="Missile.AG.YJ-7" Base="Missile.AG">
+		<Criteria>
+			<Name>YJ-7</Name>
+			<Name>C-701T</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C-701T</ShortName>
+			<LongName>C-701T (YJ-7)</LongName>
+			<FullName>C-701T (YJ-7)</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.AS.YJ-62" Base="Missile.AS">
 		<Criteria>
 			<Name>YJ-62</Name>
@@ -412,6 +436,18 @@
 			<ShortName>C-802AK</ShortName>
 			<LongName>C-802AK</LongName>
 			<FullName>C-802AK</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.BRM1" Base="Missile.AG.Laser">
+		<Criteria>
+			<Name>BRM-1</Name>		<!-- DCS World JF-17 -->
+		</Criteria>
+		<Properties>
+			<ShortName>BRM1</ShortName>
+			<LongName>BRM1 90mm</LongName>
+			<FullName>BRM1 90mm</FullName>
+			<Shape>Rocket.Hydra 70.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
