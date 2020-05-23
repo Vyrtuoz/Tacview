@@ -106,8 +106,8 @@
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">显示CustomTextureList.xml中声明的所有纹理</String>
 	<String ID="OptionsAlwaysDisplayBullseyeText">总是显示靶眼</String>
 	<String ID="OptionsAlwaysDisplayBullseyeHelp">总是在3D视野里显示靶眼</String>
-	<String ID="OptionsAutoHideCoordinatesText">Auto Hide Coordinates</String>
-	<String ID="OptionsAutoHideCoordinatesHelp">Auto hide latitude/longitude coordinates whenever bullseye coordinates are present</String>
+	<String ID="OptionsAutoHideCoordinatesText">自动隐藏坐标</String>
+	<String ID="OptionsAutoHideCoordinatesHelp">每当出现靶眼坐标时，自动隐藏纬度/经度坐标</String>
 	<String ID="OptionsUIScaleText">用户界面缩放</String>
 
 	<String ID="OptionsTerrainText">地形</String>
@@ -362,10 +362,10 @@
 	<String ID="AOAText">迎角 (AOA)</String>
 	<String ID="GHelp">作用在航空器上的合力与航空器重力之比</String>
 	<String ID="GText">过载 (G)</String>
-	<String ID="LatGHelp">Acceleration relative to lateral axis</String>
-	<String ID="LatGText">Lateral G-Force (LatG)</String>
-	<String ID="LonGHelp">Acceleration relative to longitudinal axis</String>
-	<String ID="LonGText">Longitudinal G-Force (LonG)</String>
+	<String ID="LatGHelp">相对于横轴的加速度</String>
+	<String ID="LatGText">横向过载 (LatG)</String>
+	<String ID="LonGHelp">相对于纵轴的加速度</String>
+	<String ID="LonGText">纵向加速度 (LonG)</String>
 	<String ID="RollRateHelp">单位时间滚转角度</String>
 	<String ID="RollRateText">滚转率 (RRT)</String>
 	<String ID="TurnRateHelp">单位时间转弯角度</String>
@@ -574,8 +574,8 @@
 	<String ID="SubmarineType">(潜艇)</String>
 	<String ID="InfantryType">(步兵)</String>
 	<String ID="BuildingType">(建筑)</String>
-	<String ID="WaypointType">(Waypoint)</String>
-	<String ID="GroundVehicleType">(Ground Vehicle)</String>
+	<String ID="WaypointType">(航路点)</String>
+	<String ID="GroundVehicleType">(地面车辆)</String>
 	<String ID="TimelessValue">(永久物体)</String>
 
 	<String ID="TimeShiftTitle">时间移动</String>
@@ -702,7 +702,7 @@
 	<String ID="CmdSaveHelp">保存飞行记录为高压缩格式。</String>
 	<String ID="CmdExportFlightLogHelp">导出飞行日志为XML或CSV文件。</String>
 	<String ID="CmdFalcon4TheaterHelp">设置Falcon 4.0战区使用VHS文件。(Aegean, Balkan, Israel, Korea...)</String>
-	<String ID="CmdFullscreenHelp">Starts Tacview in Fullscreen mode.</String>
+	<String ID="CmdFullscreenHelp">以全屏模式启动Tacview。</String>
 	<String ID="CmdQuietHelp">Tacview将执行所有指定操作然后不显示任何窗口退出。</String>
 	<String ID="CmdConnectRealTimeTelemetryHelp">使用最后已知的参数连接实时遥测。</String>
 	<String ID="CmdConnectRemoteControlHelp">使用最后已知的参数连接特定遥控。</String>
@@ -1067,8 +1067,8 @@
 	<String ID="EventLogLanding">着陆</String>
 	<String ID="EventLogDisabledLabel">击杀删除</String>
 	<String ID="EventLogEnabledLabel">存活</String>
-	<String ID="EventLogRadarOnLabel">Radar-ON</String>
-	<String ID="EventLogRadarOffLabel">Radar-OFF</String>
+	<String ID="EventLogRadarOnLabel">雷达-开启</String>
+	<String ID="EventLogRadarOffLabel">雷达-关闭</String>
 	<String ID="EventLogTimeoutLabel">超时 {2}</String>
 	<String ID="EventLogTimeoutAtLabel">超时于{1} {2}</String>
 	<String ID="EventLogTimeoutWeaponLabel">超时{0} {2}</String>
