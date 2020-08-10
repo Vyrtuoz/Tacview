@@ -5,23 +5,23 @@
 <Resources Language="pl">
 
 	<!-- Main Menu -->
-	<String ID="FileMenuTooltip">File</String>
-	<String ID="FileMenuHelp">Import and export flight data</String>
-	<String ID="FileOpenCmdText">&amp;Open...&#9;Ctrl+O</String>
-	<String ID="FileOpenCmdHelp">Open an existing flight recording</String>
-	<String ID="FileOpenContainingFolderCmdText">Open Containing &amp;Folder</String>
-	<String ID="FileOpenContainingFolderCmdHelp">Open current flight recording containing folder in the File Explorer</String>
-	<String ID="FileMergeCmdText">&amp;Merge...</String>
-	<String ID="FileMergeCmdHelp">Merge an existing flight recording with all the data currently loaded</String>
-	<String ID="FileSaveCmdText">&amp;Save&#9;Ctrl+S</String>
-	<String ID="FileSaveCmdHelp">Save this flight recording</String>
-	<String ID="FileSaveCmdAsText">Save &amp;As...</String>
-	<String ID="FileSaveAsCmdHelp">Save this flight recording under a new name</String>
-	<String ID="FileExportText">Export</String>
-	<String ID="FileExportFlightLogText">Export Flight &amp;Log...</String>
-	<String ID="FileExportFlightLogHelp">Export flight log as an XML or CSV File</String>
-	<String ID="FileExportTelemetryText">Export Telemetry...</String>
-	<String ID="FileExportTelemetryHelp">Export telemetry in the file format of your choice</String>
+	<String ID="FileMenuTooltip">Plik</String>
+	<String ID="FileMenuHelp">Import i eksport danych lotu</String>
+	<String ID="FileOpenCmdText">&amp;Otwórz...&#9;Ctrl+O</String>
+	<String ID="FileOpenCmdHelp">Otwórz istniejące nagranie lotu</String>
+	<String ID="FileOpenContainingFolderCmdText">Otwórz zawierający &amp;Folder</String>
+	<String ID="FileOpenContainingFolderCmdHelp">Otwórz folder zawierający bierzące nagranie lotu w Explorerze Plików</String>
+	<String ID="FileMergeCmdText">&amp;Scal...</String>
+	<String ID="FileMergeCmdHelp">Scal bierzące nagranie lotu ze wszystkimi załadowanymi danymi</String>
+	<String ID="FileSaveCmdText">&amp;Zapisz&#9;Ctrl+S</String>
+	<String ID="FileSaveCmdHelp">Zapisz to nagranie lotu</String>
+	<String ID="FileSaveCmdAsText">Zapisz &amp;jako...</String>
+	<String ID="FileSaveAsCmdHelp">Zapisz to nagranie lotu pod nową nazwą</String>
+	<String ID="FileExportText">Eksport</String>
+	<String ID="FileExportFlightLogText">Eksport Dziennika &amp;lotu...</String>
+	<String ID="FileExportFlightLogHelp">Eksport dziennika lotu jako XML lub CSV</String>
+	<String ID="FileExportTelemetryText">Eksport Telemetrii...</String>
+	<String ID="FileExportTelemetryHelp">Eksport telemetrii w formacie jaki wybierzesz</String>
 
 	<String ID="RecordingMenuTooltip">Recording</String>
 	<String ID="RecordingMenuHelp">Set flight data recording settings</String>
