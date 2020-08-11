@@ -23,19 +23,19 @@
 	<String ID="FileExportTelemetryText">Eksport Telemetrii...</String>
 	<String ID="FileExportTelemetryHelp">Eksport telemetrii w formacie jaki wybierzesz</String>
 
-	<String ID="RecordingMenuTooltip">Recording</String>
-	<String ID="RecordingMenuHelp">Set flight data recording settings</String>
-	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Real-Time Telemetry...</String>
-	<String ID="RecordingRealTimeTelemetryCmdHelp">Record a flight currently in progress</String>
-	<String ID="RecordingRemoteControl0Text">Remote Control 1</String>
-	<String ID="RecordingRemoteControl1Text">Remote Control 2</String>
-	<String ID="RecordingRemoteControl2Text">Remote Control 3</String>
-	<String ID="RecordingRemoteControl3Text">Remote Control 4</String>
-	<String ID="RecordingRemoteControlHelp">Use the remote-control window to remotely control your favorite flight simulator</String>
-	<String ID="RecordingRecordDCSWorldCmdText">Record DCS &amp;World Flights</String>
-	<String ID="RecordingRecordDCSWorldCmdHelp">Record all 'DCS World' flights</String>
-	<String ID="RecordingExportPathCmdText">ACMI Files &amp;Recording Folder...</String>
-	<String ID="RecordingExportPathCmdHelp">Choose where to record .acmi files for the current user</String>
+	<String ID="RecordingMenuTooltip">Nagrania</String>
+	<String ID="RecordingMenuHelp">Ustawienia nagrań lotu</String>
+	<String ID="RecordingRealTimeTelemetryCmdText">Telemetria czasu &amp;rzeczywistego...</String>
+	<String ID="RecordingRealTimeTelemetryCmdHelp">Nagraj lot, który jest obecnie w toku</String>
+	<String ID="RecordingRemoteControl0Text">Zdalna kontrola 1</String>
+	<String ID="RecordingRemoteControl1Text">Zdalna kontrola 2</String>
+	<String ID="RecordingRemoteControl2Text">Zdalna kontrola 3</String>
+	<String ID="RecordingRemoteControl3Text">Zdalna kontrola 4</String>
+	<String ID="RecordingRemoteControlHelp">Użyj okona zdalna kontrola do zdalnej kontroli Twojego ulubionego symulatora lotu</String>
+	<String ID="RecordingRecordDCSWorldCmdText">Nagraj lotu DCS &amp;World</String>
+	<String ID="RecordingRecordDCSWorldCmdHelp">Nagraj wszystkie loty 'DCS World'</String>
+	<String ID="RecordingExportPathCmdText">Pliki ACMI Folder nag&amp;rań...</String>
+	<String ID="RecordingExportPathCmdHelp">Wybierz miejsce nagrań dla plikow .acmi dla obecnego użytkownika</String>
 
 	<String ID="AnalysisMenuTooltip">Analysis</String>
 	<String ID="AnalysisMenuHelp">Analysis tools</String>
