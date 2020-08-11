@@ -124,9 +124,9 @@
 	<String ID="OptionsTerrainTextIL2">IL-2 Sturmovik</String>
 	<String ID="OptionsTerrainHelpIL2">Wyświetl teren z IL-2 Sturmovik</String>
 
-	<String ID="OptionsLanguageText">Language</String>
+	<String ID="OptionsLanguageText">Język</String>
 	<String ID="OptionsLanguageAutoText">(&amp;Auto)</String>
-	<String ID="OptionsLanguageAutoHelp">Automatically use the best language</String>
+	<String ID="OptionsLanguageAutoHelp">Automatycznie użyj najlepszego języka</String>
 
 	<!-- Units -->
 	<String ID="OptionsMeasurementSystemText">Units</String>
