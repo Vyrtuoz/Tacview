@@ -80,10 +80,10 @@
 	<String ID="AnalysisDisplayMedia4Text">Media &amp;4</String>
 	<String ID="AnalysisDisplayMedia4Help">Pokarz lub ukryj okno audio/video #4</String>
 
-	<String ID="DebriefingMenuTooltip">Debriefing</String>
-	<String ID="DebriefingMenuHelp">Debriefing tools</String>
-	<String ID="DebriefingOnlineDebriefingText">&amp;Online Debriefing...</String>
-	<String ID="DebriefingOnlineDebriefingHelp">Join or host an online debriefing</String>
+	<String ID="DebriefingMenuTooltip">Odprawa</String>
+	<String ID="DebriefingMenuHelp">Narzędzia odprawy</String>
+	<String ID="DebriefingOnlineDebriefingText">Odprawa &amp;Online...</String>
+	<String ID="DebriefingOnlineDebriefingHelp">Dołącz się lub udostępnij odprawę online</String>
 
 	<String ID="OptionsMenuTooltip">Options</String>
 	<String ID="OptionsMenuHelp">Change program settings</String>
