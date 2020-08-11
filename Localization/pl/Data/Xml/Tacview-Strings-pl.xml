@@ -109,20 +109,20 @@
 	<String ID="OptionsAutoHideCoordinatesHelp">Auto ukrywaj dł. i szr. geograficzną, kiedy występują współrzędne bullseye</String>
 	<String ID="OptionsUIScaleText">Skalowanie UI</String>
 
-	<String ID="OptionsTerrainText">Terrain</String>
+	<String ID="OptionsTerrainText">Teren</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Auto)</String>
-	<String ID="OptionsTerrainAutoHelp">Automatically use the best terrain available</String>
-	<String ID="OptionsTerrainGenericHelp">Use terrain from '{0}'</String>
-	<String ID="OptionsTerrainTextRealWorld">Real Terrain</String>
-	<String ID="OptionsTerrainHelpRealWorld">Use real earth terrain from NASA Shuttle Radar Topography Mission</String>
+	<String ID="OptionsTerrainAutoHelp">Automatycznie używaj najlepszego dostępnego terenu</String>
+	<String ID="OptionsTerrainGenericHelp">Użuj terenu z '{0}'</String>
+	<String ID="OptionsTerrainTextRealWorld">Prawdziwy teren</String>
+	<String ID="OptionsTerrainHelpRealWorld">Użyj prawdziwego terenu Ziemi z NASA Shuttle Radar Topography Mission</String>
 	<String ID="OptionsTerrainTextDCSWorld">DCS World</String>
-	<String ID="OptionsTerrainHelpDCSWorld">Use terrain from the latest version of DCS World</String>
+	<String ID="OptionsTerrainHelpDCSWorld">Użyj terenu z ostatniej wersji DCS World</String>
 	<String ID="OptionsTerrainTextEECH">Enemy Engaged: Comanche vs Hokum</String>
-	<String ID="OptionsTerrainHelpEECH">Use terrain from EECH (Enemy Engaged: Comanche vs Hokum)</String>
+	<String ID="OptionsTerrainHelpEECH">Użyj terenu z EECH (Enemy Engaged: Comanche vs Hokum)</String>
 	<String ID="OptionsTerrainTextFalcon4">Falcon 4.0</String>
-	<String ID="OptionsTerrainHelpFalcon4">Use terrain from Falcon 4.0</String>
+	<String ID="OptionsTerrainHelpFalcon4">Użyj terenu z Falcon 4.0</String>
 	<String ID="OptionsTerrainTextIL2">IL-2 Sturmovik</String>
-	<String ID="OptionsTerrainHelpIL2">Displays terrain from IL-2 Sturmovik</String>
+	<String ID="OptionsTerrainHelpIL2">Wyświetl teren z IL-2 Sturmovik</String>
 
 	<String ID="OptionsLanguageText">Language</String>
 	<String ID="OptionsLanguageAutoText">(&amp;Auto)</String>
