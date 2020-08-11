@@ -85,10 +85,10 @@
 	<String ID="DebriefingOnlineDebriefingText">Odprawa &amp;Online...</String>
 	<String ID="DebriefingOnlineDebriefingHelp">Dołącz się lub udostępnij odprawę online</String>
 
-	<String ID="OptionsMenuTooltip">Options</String>
-	<String ID="OptionsMenuHelp">Change program settings</String>
-	<String ID="OptionsDisplayCommentsText">Display &amp;Comments</String>
-	<String ID="OptionsDisplayCommentsHelp">Display flight comments as subtitles in the 3D view</String>
+	<String ID="OptionsMenuTooltip">Ustawienia</String>
+	<String ID="OptionsMenuHelp">Zmień ustawiena proigramu</String>
+	<String ID="OptionsDisplayCommentsText">Wyświetl &amp;komentarze</String>
+	<String ID="OptionsDisplayCommentsHelp">Wyświetl komentarze lotu jako napisy w widoku 3D</String>
 
 	<String ID="OptionsTerrainDisplayModeText">Terrain Display Mode</String>
 	<String ID="OptionsTerrainDisplayModeFull3DText">3D &amp;&amp; &amp;Underwater</String>
