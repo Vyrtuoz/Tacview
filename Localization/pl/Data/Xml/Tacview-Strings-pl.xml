@@ -193,21 +193,21 @@
 	<String ID="PauseOnEventCmdText">Wstrzymaj na wydarzeniu</String>
 	<String ID="PauseOnEventCmdHelp">Automatycznie wstrzymaj odgrywanie przy każdym wydarzeniu z dziennika wydarzeń</String>
 
-	<String ID="OptionsAssociateFileTypesText">&amp;Associate Tacview with acmi files</String>
-	<String ID="OptionsAssociateFileTypesHelp">Enable you to open flight recordings with Tacview when you double-click them in Windows</String>
-	<String ID="OptionsCockpitViewCmdText">Cockpit View</String>
-	<String ID="OptionsCockpitViewCmdHelp">Display cockpit view looking forward at the HUD</String>
-	<String ID="OptionsPilotViewCmdText">Pilot View</String>
-	<String ID="OptionsPilotViewCmdHelp">Animate the cockpit view based on pilot head movements (when data available)</String>
+	<String ID="OptionsAssociateFileTypesText">&amp;Przypisz Tacview do pliów acmi</String>
+	<String ID="OptionsAssociateFileTypesHelp">Pozwala otworzyć zapisy lotu w Tacview, przez podwójne kliknięcie na nich w Windows</String>
+	<String ID="OptionsCockpitViewCmdText">Widok kabiny</String>
+	<String ID="OptionsCockpitViewCmdHelp">Wyświetl widok kabiny pilota, patrząc do przodu na HUD</String>
+	<String ID="OptionsPilotViewCmdText">Widok pilota</String>
+	<String ID="OptionsPilotViewCmdHelp">Animuj widok kabiny bazując na ruchach głowy pilota (kiedy dane są dostępne)</String>
 	<String ID="OptionsTrackIRViewCmdText">TrackIR</String>
-	<String ID="OptionsTrackIRViewCmdHelp">Enable TrackIR in cockpit view</String>
+	<String ID="OptionsTrackIRViewCmdHelp">Włącz TrackIR w widoku kabiny</String>
 
-	<String ID="DogfightModeCenteredText">Centered</String>
-	<String ID="DogfightModeCenteredHelp">Center the camera between selected objects</String>
-	<String ID="DogfightModeLookAtText">Look at Target</String>
-	<String ID="DogfightModeLookAtHelp">The camera will keep looking at the secondary object</String>
-	<String ID="DogfightModeLookForwardText">Look Forward</String>
-	<String ID="DogfightModeLookForwardHelp">The camera will keep looking in the forward direction of the primary object</String>
+	<String ID="DogfightModeCenteredText">Wyśrodkowany</String>
+	<String ID="DogfightModeCenteredHelp">Wyśrodkuj kamere pomiędzy wybranymi obiektami</String>
+	<String ID="DogfightModeLookAtText">Patrz na cel</String>
+	<String ID="DogfightModeLookAtHelp">Kamera będzie skierowana na drugorzędny obiekt</String>
+	<String ID="DogfightModeLookForwardText">Patrz do przodu</String>
+	<String ID="DogfightModeLookForwardHelp">Kamera bedzie skierowana do przodu w kierunku głównego obiektu</String>
 
 	<String ID="InsertBookmarkText">&amp;Insert Bookmark</String>
 	<String ID="InsertBookmarkHelp">Create and insert a bookmark in the events and timeline</String>
