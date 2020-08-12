@@ -170,28 +170,28 @@
 	<String ID="AspectAngleRight">P</String>
 
 	<!-- Other Options -->
-	<String ID="OptionsAddObjectText">Add Object...</String>
-	<String ID="OptionsAddObjectHelp">Create a new object and add it to the world</String>
-	<String ID="OptionsEditObjectText">Edit Selected Object...</String>
-	<String ID="OptionsEditObjectHelp">Edit selected object properties</String>
-	<String ID="OptionsRemoveObjectText">Remove Selected Object...</String>
-	<String ID="OptionsRemoveObjectHelp">Remove selected object from the world</String>
-	<String ID="TimeShiftObjectText">Time Shift...</String>
-	<String ID="TimeShiftObjectHelp">Correct selected object telemetry time</String>
-	<String ID="AddObjectText">Add Object...</String>
-	<String ID="AddObjectHelp">Create new object at the mouse cursor location</String>
-	<String ID="EditObjectText">Edit Object...</String>
-	<String ID="EditObjectHelp">Edit object properties</String>
-	<String ID="RemoveObjectText">Remove Object</String>
-	<String ID="RemoveObjectHelp">Remove object from the world</String>
+	<String ID="OptionsAddObjectText">Dodaj objekt...</String>
+	<String ID="OptionsAddObjectHelp">Utwórz nowy obiekt i dodaj go do świata</String>
+	<String ID="OptionsEditObjectText">Edytuj wybrany objekt...</String>
+	<String ID="OptionsEditObjectHelp">Edytuj właściwości wybranego obiektu</String>
+	<String ID="OptionsRemoveObjectText">Usuń wybrany objekt...</String>
+	<String ID="OptionsRemoveObjectHelp">Usuń wybrany obiekt ze świata</String>
+	<String ID="TimeShiftObjectText">Przesunięcie czasu...</String>
+	<String ID="TimeShiftObjectHelp">Popraw czas telemetrii wybranego obiektu</String>
+	<String ID="AddObjectText">Dodaj objekt...</String>
+	<String ID="AddObjectHelp">Utwórz nowy obiekt w miejscu kursora myszki</String>
+	<String ID="EditObjectText">Edytuj objekt...</String>
+	<String ID="EditObjectHelp">Edytuj właściwości obiektu</String>
+	<String ID="RemoveObjectText">Usuń obiekt</String>
+	<String ID="RemoveObjectHelp">Usuń obiekt ze świata</String>
 
-	<String ID="OptionsTrimBeforeText">Trim Before...</String>
-	<String ID="OptionsTrimBeforeHelp">Delete all telemetry data before the current point in time</String>
-	<String ID="OptionsTrimAfterText">Trim After...</String>
-	<String ID="OptionsTrimAfterHelp">Delete all telemetry beyond the current point in time</String>
+	<String ID="OptionsTrimBeforeText">Trymuj przed...</String>
+	<String ID="OptionsTrimBeforeHelp">Usuń wszystkie dane telemetryczne przed bierzącym punktem w czasie</String>
+	<String ID="OptionsTrimAfterText">Trymuj po...</String>
+	<String ID="OptionsTrimAfterHelp">Usuń całą telemetrię po bierzącym punkcie w czasie</String>
 
-	<String ID="PauseOnEventCmdText">Pause on Event</String>
-	<String ID="PauseOnEventCmdHelp">Automatically pause the playback at each event time in the event log</String>
+	<String ID="PauseOnEventCmdText">Wstrzymaj na wydarzeniu</String>
+	<String ID="PauseOnEventCmdHelp">Automatycznie wstrzymaj odgrywanie przy każdym wydarzeniu z dziennika wydarzeń</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Associate Tacview with acmi files</String>
 	<String ID="OptionsAssociateFileTypesHelp">Enable you to open flight recordings with Tacview when you double-click them in Windows</String>
