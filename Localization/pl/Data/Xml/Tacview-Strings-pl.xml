@@ -224,11 +224,11 @@
 	<String ID="MousePositionHelp">Pokarz szerokość, długość geograficzną i pozycję bullseye kursora myszki</String>
 
 	<String ID="SelectedObjectsTelemetryText">Etykiety wybranych objektów</String>
-	<String ID="AircraftsTelemetryText">Etykiety nie wybranych samolotów</String>
+	<String ID="AircraftsTelemetryText">Etykiety niewybranych samolotów</String>
 	<String ID="LabelOnAllGroundObjectsText">Etykiety wszystkich obiektów naziemnych</String>
 	<String ID="LabelOnAllGroundObjectsHelp">Wyświetl etykiety dla wszystkich obiektów naziemnych, dodatkowo dla wyszystkich zagrorzeń lotniczych</String>
 	<String ID="ForceSelectedObjetsLabelsText">Wymuś etykiety dle zaznaczonych obiektów</String>
-	<String ID="ForceSelectedObjetsLabelsHelp">Zawsze wyświetlaj etykiety zaznaczonych obiektów, bez względy na globalne ustawienia</String>
+	<String ID="ForceSelectedObjetsLabelsHelp">Zawsze wyświetlaj etykiety zaznaczonych obiektów, bez względu na globalne ustawienia</String>
 
 	<String ID="LabelsScaleText">Skala etykiet</String>
 	<String ID="ScaleAutoText">Auto</String>
@@ -253,7 +253,7 @@
 	<String ID="HelpCheckForUpdatesText">Sprawdź &amp;aktualizacje</String>
 	<String ID="HelpCheckForUpdatesHelp">Sprawdź online nowe wydanie Tacview</String>
 	<String ID="HelpDebugLogText">Dziennik Debug</String>
-	<String ID="HelpDebugLogHelp">Dziennik Debug, użyteczny do zrozumienie problemów</String>
+	<String ID="HelpDebugLogHelp">Dziennik Debug, użyteczny do zrozumienia problemów</String>
 	<String ID="HelpEventsProfilerText">Profiler wydarzeń</String>
 	<String ID="HelpEventsProfilerHelp">Wyświetl narzędzia do profilowania wydarzeń</String>
 	<String ID="HelpFunctionsProfilerText">Profiler funkcji</String>
