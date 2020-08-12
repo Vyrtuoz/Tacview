@@ -280,20 +280,20 @@
 	<String ID="UpdateCommercialCmdHelp">Rozszerz istniejącą licencję Tacview Enterprise</String>
 
 	<!-- Popup Menus -->
-	<String ID="ObjectsInfoCmdRateOfClosureText">Range / Rate of Closure</String>
-	<String ID="ObjectsInfoCmdRateOfClosureHelp">Display range and rate of closure between selected objects</String>
-	<String ID="ObjectsInfoCmdAbsoluteBearingText">Range / Bearing</String>
-	<String ID="ObjectsInfoCmdAbsoluteBearingHelp">Display range and bearing between selected objects</String>
-	<String ID="ObjectsInfoCmdRelativeBearingNavText">Range / Relative Bearing (Navigation/2D)</String>
-	<String ID="ObjectsInfoCmdRelativeBearingNavHelp">Display range and relative 2D bearing between selected objects</String>
-	<String ID="ObjectsInfoCmdRelativeBearingCombatText">Range / Relative Bearing (Combat/3D)</String>
-	<String ID="ObjectsInfoCmdRelativeBearingCombatHelp">Display range and relative 3D bearing between selected objects</String>
-	<String ID="ObjectsInfoCmdAspectAngleText">Range / Aspect Angle</String>
-	<String ID="ObjectsInfoCmdAspectAngleHelp">Display number of degrees measured from the tail of a target to your aircraft</String>
-	<String ID="ObjectsInfoCmdDisplayObjectsInfoText">Display in 3D view</String>
-	<String ID="ObjectsInfoCmdDisplayObjectsInfoHelp">Display selected objects info in the 3D view</String>
-	<String ID="ObjectsInfoCmdLineOfSightRateText">Range / Line of Sight Rate</String>
-	<String ID="ObjectsInfoCmdLineOfSightRateHelp">Display range and line of sight rate between selected objects</String>
+	<String ID="ObjectsInfoCmdRateOfClosureText">Zasięg / Tempo zbliżania</String>
+	<String ID="ObjectsInfoCmdRateOfClosureHelp">Wyświetl zasięg i tempo zbliżania pomiędzy wybranymi obiektami</String>
+	<String ID="ObjectsInfoCmdAbsoluteBearingText">Zasięg / Kurs</String>
+	<String ID="ObjectsInfoCmdAbsoluteBearingHelp">Wyświetl zasięg i kurs pomiędzy wybranymi obiektami</String>
+	<String ID="ObjectsInfoCmdRelativeBearingNavText">Zasięg / Względny kurs (Nawigacja/2D)</String>
+	<String ID="ObjectsInfoCmdRelativeBearingNavHelp">Wyświetl zasięg i względny kurs 2D pomiędzy wybranymi obiektami</String>
+	<String ID="ObjectsInfoCmdRelativeBearingCombatText">Zasięg / Względny kurs (Walka/3D)</String>
+	<String ID="ObjectsInfoCmdRelativeBearingCombatHelp">Wyświetl zasięg i względny kurs 3D pomiędzy wybranymi obiektami</String>
+	<String ID="ObjectsInfoCmdAspectAngleText">Zasięg / Kąt widzenia</String>
+	<String ID="ObjectsInfoCmdAspectAngleHelp">Wyświetl ilość stopni mierzoną od ogona celu to twojego samolotu</String>
+	<String ID="ObjectsInfoCmdDisplayObjectsInfoText">Wyświetl w widoku 3D</String>
+	<String ID="ObjectsInfoCmdDisplayObjectsInfoHelp">Wyświetl informacje o wybranych obiektach w widoku 3D</String>
+	<String ID="ObjectsInfoCmdLineOfSightRateText">Zasięg / Linia wzroku</String>
+	<String ID="ObjectsInfoCmdLineOfSightRateHelp">Wyświetl zasięg i linię wzroku pomiędzy wybranymi obiektami</String>
 
 	<!-- Charts -->
 	<String ID="ChartDisplayObjet0Tooltip">Display main object</String>
