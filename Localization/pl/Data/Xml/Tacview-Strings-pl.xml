@@ -270,14 +270,14 @@
 	<String ID="ReloadLuaScriptsText">Przeładuj skrypt Lua&#9;Ctrl+R</String>
 	<String ID="ReloadLuaScriptsHelp">Przeładuj wszystkie dodatki napisane w skrypcie Lua</String>
 
-	<String ID="RegisterCmdTooltip">Register</String>
-	<String ID="RegisterCmdHelp">Register your copy of Tacview</String>
-	<String ID="UpgradeToProfessionalCmdTooltip">Upgrade to Tacview Advanced</String>
-	<String ID="UpgradeToProfessionalCmdHelp">Upgrade Tacview Standard to Tacview Advanced</String>
-	<String ID="UpgradeToCommercialCmdTooltip">Upgrade to Tacview Enterprise</String>
-	<String ID="UpgradeToCommercialCmdHelp">Upgrade your license to Tacview Enterprise</String>
-	<String ID="UpdateCommercialCmdTooltip">Extend Tacview Enterprise License</String>
-	<String ID="UpdateCommercialCmdHelp">Extend an expiring Tacview Enterprise license</String>
+	<String ID="RegisterCmdTooltip">Zarejestruj</String>
+	<String ID="RegisterCmdHelp">Zarejestruj swoją kopie Tacview</String>
+	<String ID="UpgradeToProfessionalCmdTooltip">Aktualizuj do Tacview Advanced</String>
+	<String ID="UpgradeToProfessionalCmdHelp">Aktualizuj Tacview Standard do Tacview Advanced</String>
+	<String ID="UpgradeToCommercialCmdTooltip">Aktualizuj do Tacview Enterprise</String>
+	<String ID="UpgradeToCommercialCmdHelp">Aktualizuj swoją licencję do Tacview Enterprise</String>
+	<String ID="UpdateCommercialCmdTooltip">Rozszerz licencję Tacview Enterprise</String>
+	<String ID="UpdateCommercialCmdHelp">Rozszerz istniejącą licencję Tacview Enterprise</String>
 
 	<!-- Popup Menus -->
 	<String ID="ObjectsInfoCmdRateOfClosureText">Range / Rate of Closure</String>
