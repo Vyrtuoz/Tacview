@@ -155,19 +155,19 @@
 	<String ID="OptionsDistanceAutoSwitch2Text">Zmień odległość na stopy ponizej 2 nm</String>
 	<String ID="OptionsDistanceAutoSwitch2Help">Zmień odległość na stopy ponizej 2 nm</String>
 
-	<String ID="OptionsPositionFormatText">Position</String>
-	<String ID="OptionsPositionFormatDDDHelp">Decimal degrees</String>
-	<String ID="OptionsPositionFormatDMMHelp">Degrees, decimal minutes</String>
-	<String ID="OptionsPositionFormatDMSHelp">Degrees, minutes, seconds</String>
-	<String ID="OptionsPositionFormatMGRSHelp">Military grid reference system</String>
+	<String ID="OptionsPositionFormatText">Pozycja</String>
+	<String ID="OptionsPositionFormatDDDHelp">Dziesiętne stopnie</String>
+	<String ID="OptionsPositionFormatDMMHelp">Stopnie, dziesiętne minuty</String>
+	<String ID="OptionsPositionFormatDMSHelp">Stopnie, minuty, sekundy</String>
+	<String ID="OptionsPositionFormatMGRSHelp">Wojskowy system sietki referencyjnej</String>
 
-	<String ID="OptionsTimeFormatText">Time Offset</String>
+	<String ID="OptionsTimeFormatText">Offset czasu</String>
 
-	<String ID="OptionsPositionAlwaysDisplayedText">Always Displayed</String>
-	<String ID="OptionsPositionAlwaysDisplayedHelp">When hidden, press SHIFT to display current position in top left corner of the 3D view.</String>
+	<String ID="OptionsPositionAlwaysDisplayedText">Zawsze widoczny</String>
+	<String ID="OptionsPositionAlwaysDisplayedHelp">Kiedy ukryty naciśnij SHIFT, aby wyświetlić bierzącą pozycje w gornym lewym rogu widoku 3D.</String>
 
 	<String ID="AspectAngleLeft">L</String>
-	<String ID="AspectAngleRight">R</String>
+	<String ID="AspectAngleRight">P</String>
 
 	<!-- Other Options -->
 	<String ID="OptionsAddObjectText">Add Object...</String>
