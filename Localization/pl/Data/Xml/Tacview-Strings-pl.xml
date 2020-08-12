@@ -129,31 +129,31 @@
 	<String ID="OptionsLanguageAutoHelp">Automatycznie użyj najlepszego języka</String>
 
 	<!-- Units -->
-	<String ID="OptionsMeasurementSystemText">Units</String>
+	<String ID="OptionsMeasurementSystemText">Jednostki</String>
 	<String ID="OptionsAutoUnitsText">(&amp;Auto)</String>
-	<String ID="OptionsAutoUnitsHelp">Automatically use appropriate measurement system</String>
+	<String ID="OptionsAutoUnitsHelp">Automatycznie użyj właściwego zestawu jednostek</String>
 
-	<String ID="OptionsMetricDataAnalysisUnitsText">Metric - Data Analysis</String>
-	<String ID="OptionsMetricDataAnalysisUnitsHelp">Speed: m/s - Vertical Speed: m/s - Altitude: m - Distance: m</String>
-	<String ID="OptionsMetricHelicopterUnitsText">Metric - Helicopter</String>
-	<String ID="OptionsMetricHelicopterUnitsHelp">Speed: km/h - Vertical Speed: m/s - Altitude: m - Distance: km</String>
+	<String ID="OptionsMetricDataAnalysisUnitsText">Metryczny - Analiza danych</String>
+	<String ID="OptionsMetricDataAnalysisUnitsHelp">Prędkość: m/s - Prędkość wznoszenia: m/s - Wysokość: m - Odległość: m</String>
+	<String ID="OptionsMetricHelicopterUnitsText">Metryczny - Helikopter</String>
+	<String ID="OptionsMetricHelicopterUnitsHelp">Prędkość: km/h - Prędkość wznoszenia: m/s - Wysokość: m - Odległość: km</String>
 	<String ID="OptionsMetricAirplaneUnitsText">Metric - Airplane</String>
-	<String ID="OptionsMetricAirplaneUnitsHelp">Speed: km/h - Vertical Speed: m/min - Altitude: m - Distance: km</String>
+	<String ID="OptionsMetricAirplaneUnitsHelp">Prędkość: km/h - Prędkość wznoszenia: m/min - Wysokość: m - Odległość: km</String>
 
-	<String ID="OptionsImperialDataAnalysisMIUnitsText">Imperial - Data Analysis (mi)</String>
-	<String ID="OptionsImperialDataAnalysisMIUnitsHelp">Speed: mph - Vertical Speed: ft/min - Altitude: ft - Distance: ft</String>
-	<String ID="OptionsImperialDataAnalysisNMUnitsText">Imperial - Data Analysis (nm)</String>
-	<String ID="OptionsImperialDataAnalysisNMUnitsHelp">Speed: kts - Vertical Speed: ft/min - Altitude: ft - Distance: ft</String>
-	<String ID="OptionsImperialAircraftMIUnitsText">Imperial - Aircraft (mi)</String>
-	<String ID="OptionsImperialAircraftMIUnitsHelp">Speed: mph - Vertical Speed: ft/min - Altitude: ft - Distance: mi &amp; ft</String>
-	<String ID="OptionsImperialAircraftNMUnitsText">Imperial - Aircraft (nm)</String>
-	<String ID="OptionsImperialAircraftNMUnitsHelp">Speed: kts - Vertical Speed: ft/min - Altitude: ft - Distance: nm &amp; ft</String>
-	<String ID="OptionsDistanceAutoSwitch0Text">Do not switch distances to feet</String>
-	<String ID="OptionsDistanceAutoSwitch0Help">Do not switch to feet under a certain distance</String>
-	<String ID="OptionsDistanceAutoSwitch1Text">Switch distances to feet under 1 nm</String>
-	<String ID="OptionsDistanceAutoSwitch1Help">Switch distances to feet under 1 nm</String>
-	<String ID="OptionsDistanceAutoSwitch2Text">Switch distances to feet under 2 nm</String>
-	<String ID="OptionsDistanceAutoSwitch2Help">Switch distances to feet under 2 nm</String>
+	<String ID="OptionsImperialDataAnalysisMIUnitsText">Imperialny - Analiza danych (mi)</String>
+	<String ID="OptionsImperialDataAnalysisMIUnitsHelp">Prędkość: mph - Prędkość wznoszenia: ft/min - Wysokość: ft - Odległość: ft</String>
+	<String ID="OptionsImperialDataAnalysisNMUnitsText">Imperialny - Analiza danych (nm)</String>
+	<String ID="OptionsImperialDataAnalysisNMUnitsHelp">Prędkość: kts - Prędkość wznoszenia: ft/min - Wysokość: ft - Odległość: ft</String>
+	<String ID="OptionsImperialAircraftMIUnitsText">Imperialny - Samolot (mi)</String>
+	<String ID="OptionsImperialAircraftMIUnitsHelp">Prędkość: mph - Prędkość wznoszenia: ft/min - Wysokość: ft - Odległość: mi &amp; ft</String>
+	<String ID="OptionsImperialAircraftNMUnitsText">Imperialny - Samolot (nm)</String>
+	<String ID="OptionsImperialAircraftNMUnitsHelp">Prędkość: kts - Prędkość wznoszenia: ft/min - Wysokość: ft - Odległość: nm &amp; ft</String>
+	<String ID="OptionsDistanceAutoSwitch0Text">Nie zmieniaj odległości na stopy</String>
+	<String ID="OptionsDistanceAutoSwitch0Help">Nie zmieniaj na stopy poniżej określonej odległości</String>
+	<String ID="OptionsDistanceAutoSwitch1Text">Zmień odległość na stopy ponizej 1 nm</String>
+	<String ID="OptionsDistanceAutoSwitch1Help">Zmień odległość na stopy ponizej 1 nm</String>
+	<String ID="OptionsDistanceAutoSwitch2Text">Zmień odległość na stopy ponizej 2 nm</String>
+	<String ID="OptionsDistanceAutoSwitch2Help">Zmień odległość na stopy ponizej 2 nm</String>
 
 	<String ID="OptionsPositionFormatText">Position</String>
 	<String ID="OptionsPositionFormatDDDHelp">Decimal degrees</String>
