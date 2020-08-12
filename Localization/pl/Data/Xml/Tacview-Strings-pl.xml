@@ -21,7 +21,7 @@
 	<String ID="FileExportFlightLogText">Eksport Dziennika &amp;lotu...</String>
 	<String ID="FileExportFlightLogHelp">Eksport dziennika lotu jako XML lub CSV</String>
 	<String ID="FileExportTelemetryText">Eksport Telemetrii...</String>
-	<String ID="FileExportTelemetryHelp">Eksport telemetrii w formacie jaki wybierzesz</String>
+	<String ID="FileExportTelemetryHelp">Eksport telemetrii w formacie, jaki wybierzesz</String>
 
 	<String ID="RecordingMenuTooltip">Nagrania</String>
 	<String ID="RecordingMenuHelp">Ustawienia nagrań lotu</String>
@@ -60,9 +60,9 @@
 	<String ID="AnalysisDisplayTelemetry3Text">Telmetria &amp;4</String>
 	<String ID="AnalysisDisplayTelemetry3Help">Pokarz lub ukryj okno telemetrii #4</String>
 	<String ID="AnalysisDisplayRawTelemetry0Text">Nie obrobiona telemetria 1</String>
-	<String ID="AnalysisDisplayRawTelemetry0Help">Pokarz lub ukryj okno nie obrobionej telemetrii #1</String>
+	<String ID="AnalysisDisplayRawTelemetry0Help">Pokarz lub ukryj okno nieobrobionej telemetrii #1</String>
 	<String ID="AnalysisDisplayRawTelemetry1Text">Nie obrobiona telemetria 2</String>
-	<String ID="AnalysisDisplayRawTelemetry1Help">Pokarz lub ukryj okno nie obrobionej telemetrii #2</String>
+	<String ID="AnalysisDisplayRawTelemetry1Help">Pokarz lub ukryj okno nieobrobionej telemetrii #2</String>
 	<String ID="AnalysisDisplayChart1Text">Wykres &amp;1</String>
 	<String ID="AnalysisDisplayChart1Help">Pokarz lub ukryj okno wykresu #1</String>
 	<String ID="AnalysisDisplayChart2Text">Wykres &amp;2</String>
@@ -194,11 +194,11 @@
 	<String ID="PauseOnEventCmdHelp">Automatycznie wstrzymaj odgrywanie przy każdym wydarzeniu z dziennika wydarzeń</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Przypisz Tacview do pliów acmi</String>
-	<String ID="OptionsAssociateFileTypesHelp">Pozwala otworzyć zapisy lotu w Tacview, przez podwójne kliknięcie na nich w Windows</String>
+	<String ID="OptionsAssociateFileTypesHelp">Pozwala otworzyć zapisy lotu w Tacview, przez podwójne kliknięcie ich w Windows</String>
 	<String ID="OptionsCockpitViewCmdText">Widok kabiny</String>
 	<String ID="OptionsCockpitViewCmdHelp">Wyświetl widok kabiny pilota, patrząc do przodu na HUD</String>
 	<String ID="OptionsPilotViewCmdText">Widok pilota</String>
-	<String ID="OptionsPilotViewCmdHelp">Animuj widok kabiny bazując na ruchach głowy pilota (kiedy dane są dostępne)</String>
+	<String ID="OptionsPilotViewCmdHelp">Animuj widok kabiny, bazując na ruchach głowy pilota (kiedy dane są dostępne)</String>
 	<String ID="OptionsTrackIRViewCmdText">TrackIR</String>
 	<String ID="OptionsTrackIRViewCmdHelp">Włącz TrackIR w widoku kabiny</String>
 
