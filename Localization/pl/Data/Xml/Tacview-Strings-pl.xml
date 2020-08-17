@@ -134,20 +134,20 @@
 	<String ID="OptionsAutoUnitsHelp">Automatycznie użyj właściwego zestawu jednostek</String>
 
 	<String ID="OptionsMetricDataAnalysisUnitsText">Metryczny - Analiza danych</String>
-	<String ID="OptionsMetricDataAnalysisUnitsHelp">Prędkość: m/s - Prędkość wznoszenia: m/s - Wysokość: m - Odległość: m</String>
+	<String ID="OptionsMetricDataAnalysisUnitsHelp">Prędkość: m/s - Prędkość pionowa: m/s - Wysokość: m - Odległość: m</String>
 	<String ID="OptionsMetricHelicopterUnitsText">Metryczny - Helikopter</String>
-	<String ID="OptionsMetricHelicopterUnitsHelp">Prędkość: km/h - Prędkość wznoszenia: m/s - Wysokość: m - Odległość: km</String>
+	<String ID="OptionsMetricHelicopterUnitsHelp">Prędkość: km/h - Prędkość pionowa: m/s - Wysokość: m - Odległość: km</String>
 	<String ID="OptionsMetricAirplaneUnitsText">Metric - Airplane</String>
-	<String ID="OptionsMetricAirplaneUnitsHelp">Prędkość: km/h - Prędkość wznoszenia: m/min - Wysokość: m - Odległość: km</String>
+	<String ID="OptionsMetricAirplaneUnitsHelp">Prędkość: km/h - Prędkość pionowa: m/min - Wysokość: m - Odległość: km</String>
 
 	<String ID="OptionsImperialDataAnalysisMIUnitsText">Imperialny - Analiza danych (mi)</String>
-	<String ID="OptionsImperialDataAnalysisMIUnitsHelp">Prędkość: mph - Prędkość wznoszenia: ft/min - Wysokość: ft - Odległość: ft</String>
+	<String ID="OptionsImperialDataAnalysisMIUnitsHelp">Prędkość: mph - Prędkość pionowa: ft/min - Wysokość: ft - Odległość: ft</String>
 	<String ID="OptionsImperialDataAnalysisNMUnitsText">Imperialny - Analiza danych (nm)</String>
-	<String ID="OptionsImperialDataAnalysisNMUnitsHelp">Prędkość: kts - Prędkość wznoszenia: ft/min - Wysokość: ft - Odległość: ft</String>
+	<String ID="OptionsImperialDataAnalysisNMUnitsHelp">Prędkość: kts - Prędkość pionowa: ft/min - Wysokość: ft - Odległość: ft</String>
 	<String ID="OptionsImperialAircraftMIUnitsText">Imperialny - Samolot (mi)</String>
-	<String ID="OptionsImperialAircraftMIUnitsHelp">Prędkość: mph - Prędkość wznoszenia: ft/min - Wysokość: ft - Odległość: mi &amp; ft</String>
+	<String ID="OptionsImperialAircraftMIUnitsHelp">Prędkość: mph - Prędkość pionowa: ft/min - Wysokość: ft - Odległość: mi &amp; ft</String>
 	<String ID="OptionsImperialAircraftNMUnitsText">Imperialny - Samolot (nm)</String>
-	<String ID="OptionsImperialAircraftNMUnitsHelp">Prędkość: kts - Prędkość wznoszenia: ft/min - Wysokość: ft - Odległość: nm &amp; ft</String>
+	<String ID="OptionsImperialAircraftNMUnitsHelp">Prędkość: kts - Prędkość pionowa: ft/min - Wysokość: ft - Odległość: nm &amp; ft</String>
 	<String ID="OptionsDistanceAutoSwitch0Text">Nie zmieniaj odległości na stopy</String>
 	<String ID="OptionsDistanceAutoSwitch0Help">Nie zmieniaj na stopy poniżej określonej odległości</String>
 	<String ID="OptionsDistanceAutoSwitch1Text">Zmień odległość na stopy ponizej 1 nm</String>
