@@ -336,15 +336,15 @@
 	<String ID="AxisNoneText">Nieaktywny</String>
 
 	<!-- Telemetry -->
-	<String ID="ATCHelp">ATC like telemetry: altitude/100, vertical speed, and ground speed/10</String>
+	<String ID="ATCHelp">Telemetria ATC: wysokość/100, prędkość pionowa i prędkość na ziemi/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
-	<String ID="ATCMachHelp">ATC like telemetry: altitude/100, vertical speed, and mach number</String>
+	<String ID="ATCMachHelp">Telemetria ATC: wyskość/100, prędkość pionowa i liczba Macha</String>
 	<String ID="ATCMachText">ATC (ASL+VS+Mach)</String>
-	<String ID="RegistrationHelp">Aircraft registration (tail number)</String>
+	<String ID="RegistrationHelp">Rejestracja samolotu (numer na ogonie)</String>
 	<String ID="RegistrationText">Registration number</String>
-	<String ID="SquawkHelp">Transponder code</String>
-	<String ID="SquawkText">Squawk</String>
-	<String ID="BullseyeHelp">Position relative to the main object coalition bullseye</String>
+	<String ID="SquawkHelp">Kod transpondera</String>
+	<String ID="SquawkText">Skrzek</String>
+	<String ID="BullseyeHelp">Relatywna pozycja względem bullseye głównej koalicji</String>
 	<String ID="BullseyeText">Bullseye</String>
 
 	<String ID="TASHelp">Speed of the aircraft relative to the airmass in which it is flying</String>
