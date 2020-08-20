@@ -33,6 +33,12 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.AG.Cruise" Base="Missile.AG">
+		<Properties>
+			<Shape>Kh-101</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- North American Air to Ground Missiles -->
 
 	<DefaultProperties Id="Missile.ARM.AGM-122" Base="Missile.AA.AIM-9C">
@@ -206,6 +212,19 @@
 			<ShortName>Kh-23</ShortName>
 			<LongName>Kh-23 Grom (AS-7)</LongName>
 			<FullName>Kh-23 Grom (AS-7 Kerry)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.Kh-23" Base="Missile.AG.Cruise">
+		<Criteria>
+			<Name>Kh-101</Name>
+			<Name>Raduga</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Kh-101</ShortName>
+			<LongName>Kh-101 Raduga</LongName>
+			<FullName>Kh-101 Raduga</FullName>
+			<Shape>Missile.Kh-101.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

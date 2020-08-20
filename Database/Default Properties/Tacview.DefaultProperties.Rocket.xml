@@ -32,6 +32,17 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Rocket.FFAR.Mk1" Base="Rocket.Light">
+		<Criteria>
+			<Name>FFAR Mk1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>FFAR</ShortName>
+			<LongName>FFAR Mk1</LongName>
+			<FullName>FFAR Mk1</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Rocket.FFAR.Mk5" Base="Rocket.Light">
 		<Criteria>
 			<Name>FFAR Mk5</Name>

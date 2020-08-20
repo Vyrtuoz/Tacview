@@ -503,6 +503,31 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="AntiAircraft.SAM.SA-4.LN" Base="AntiAircraft.SAM.Launcher.Russian">
+		<Criteria>
+			<Name>SA-4 2K11</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-4</ShortName>
+			<LongName>SA-4 Ganef (LN Krug)</LongName>
+			<FullName>SA-4 Ganef (2K11 Krug Launcher)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-4.TR" Base="AntiAircraft.SAM.SearchAndTrackingRadar">
+		<Criteria>
+			<Name>1S32</Name>
+			<Name>Pat Hand</Name>
+			<Name>SA-4 TR</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-4</ShortName>
+			<LongName>SA-4 Ganef (TR Pat Hand)</LongName>
+			<FullName>SA-4 Ganef (1S32 Tracking Radar)</FullName>
+			<EngagementRange>34000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="AntiAircraft.SAM.SA-5.P-37" Base="AntiAircraft.SAM.SearchRadar">
 		<Criteria>
 			<Name>Bar Lock B</Name>
@@ -553,7 +578,7 @@
 			<ShortName>SA-6</ShortName>
 			<LongName>SA-6 Gainful (STR)</LongName>
 			<FullName>SA-6 Gainful (1S91 Straight Flush Search &amp; Tracking Radar)</FullName>
-			<EngagementRange>35000</EngagementRange>
+			<EngagementRange>20000</EngagementRange>
 			<Shape>AntiAircraft.SAM.SA-6.1S91.obj</Shape>
 		</Properties>
 	</DefaultProperties>

@@ -142,4 +142,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<!-- EU surface-to-air Missiles -->
+
+	<DefaultProperties Id="Missile.SAM.Aster30" Base="Missile.SAM.Radar">
+		<Criteria>
+			<Name>Aster 30</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Aster 30</ShortName>
+			<LongName>Aster 30</LongName>
+			<FullName>Aster 30</FullName>
+			<Shape>Missile.Aster30.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 </DefaultPropertiesCollection>

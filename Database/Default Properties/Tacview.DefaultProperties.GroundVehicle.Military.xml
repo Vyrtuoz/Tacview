@@ -41,6 +41,12 @@
 		</Criteria>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Vehicle.Military.Truck.Launcher" Base="Vehicle.Military">
+		<Properties>
+			<Shape>Vehicle.Truck.TEL.Scud.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- North American Military Cars -->
 
 	<DefaultProperties Id="Vehicle.Car.Jeep" Base="Vehicle.Military.Car">
@@ -222,6 +228,29 @@
 			<ShortName>Ural-4320</ShortName>
 			<LongName>Ural-4320</LongName>
 			<FullName>Ural-4320</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Military.Truck.Scud" Base="Vehicle.Military.Truck.Launcher">
+		<Criteria>
+			<Name>Scud</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Scud</ShortName>
+			<LongName>TEL Scud</LongName>
+			<FullName>TEL Scud</FullName>
+			<Shape>Vehicle.Truck.TEL.Scud.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Military.Truck.Scud-B" Base="Vehicle.Military.Truck.Scud">
+		<Criteria>
+			<Name>Scud-B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Scud-B</ShortName>
+			<LongName>TEL Scud-B</LongName>
+			<FullName>TEL Scud-B</FullName>
 		</Properties>
 	</DefaultProperties>
 

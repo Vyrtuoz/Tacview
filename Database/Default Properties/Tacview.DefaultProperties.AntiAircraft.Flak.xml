@@ -16,6 +16,12 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="AntiAircraft.Flak.Searchlight" Base="Core.AntiAircraft">
+		<Properties>
+			<Shape>AntiAircraft.Flak.Searchlight.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- EU Anti-Aircraft Artillery -->
 
 	<DefaultProperties Id="AntiAircraft.Flak.Kdo.​Ger.40" Base="AntiAircraft.Support.Infantry">
@@ -88,6 +94,17 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="AntiAircraft.Flak.Flakscheinwerfer.37" Base="AntiAircraft.Flak.Searchlight">
+		<Criteria>
+			<Name>Flakscheinwerfer 37</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Flakscheinwerfer 37</ShortName>
+			<LongName>Flakscheinwerfer 37</LongName>
+			<FullName>Flakscheinwerfer 37</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="AntiAircraft.Flak.Flak 38" Base="AntiAircraft.Flak">
 		<Criteria>
 			<Name>Flak 38</Name>
@@ -110,6 +127,20 @@
 			<ShortName>Flak 38</ShortName>
 			<LongName>Flakvierling 38</LongName>
 			<FullName>Flakvierling 38</FullName>
+		</Properties>
+		<Properties>
+			<EngagementRange>2000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.Flak.Flak 41" Base="AntiAircraft.Flak">
+		<Criteria>
+			<Name>Flak 41</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Flak 41</ShortName>
+			<LongName>Flak 41</LongName>
+			<FullName>Flak 41</FullName>
 		</Properties>
 		<Properties>
 			<EngagementRange>2000</EngagementRange>

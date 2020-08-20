@@ -73,7 +73,19 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Missile.AA.AIM-9" Base="Missile.AA.IR">
+	<DefaultProperties Id="Missile.AA.GAR-8" Base="Missile.AA.IR">
+		<Criteria>
+			<Name>GAR-8</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>GAR-8</ShortName>
+			<LongName>GAR-8 Sidewinder</LongName>
+			<FullName>GAR-8 Sidewinder IA</FullName>
+			<Shape>Missile.AIM-9M.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.AIM-9" Base="Missile.AA.GAR-8">
 		<Criteria>
 			<Name>AIM-9</Name>
 			<Name>AIM-9 Sidewinder</Name>

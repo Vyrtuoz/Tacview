@@ -3,7 +3,13 @@
 
 	<!-- Core Declarations -->
 
-	<DefaultProperties Id="Building.Pylon" Base="Core.Building">
+	<!--
+		http://virtualairrace.com/vars-pylons-mod/
+		We are using a generic type for pylons, because
+		the addon for DCS is using the wrong type of object.
+	-->
+
+	<DefaultProperties Id="Building.Pylon" Base="Core.Default">
 		<Criteria>
 			<Name>Pylon</Name>
 			<Name>Single Pylon</Name>

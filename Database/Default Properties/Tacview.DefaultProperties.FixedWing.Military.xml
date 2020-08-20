@@ -1607,6 +1607,32 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.P-39L" Base="FixedWing.P-39">
+		<Criteria>
+			<Name>P-39L</Name>
+			<Name>P-39L Airacobra</Name>
+			<Name>Bell P-39L</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>P-39L</ShortName>
+			<LongName>P-39L Airacobra</LongName>
+			<FullName>Bell P-39L Airacobra</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.P-39L-1" Base="FixedWing.P-39L">
+		<Criteria>
+			<Name>P-39L-1</Name>
+			<Name>P-39L-1 Airacobra</Name>
+			<Name>Bell P-39L-1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>P-39L-1</ShortName>
+			<LongName>P-39L-1 Airacobra</LongName>
+			<FullName>Bell P-39L-1 Airacobra</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.P-40" Base="FixedWing.Fighter.Prop">
 		<Criteria>
 			<Name>P-40</Name>
@@ -1710,6 +1736,17 @@
 			<ShortName>P-47D</ShortName>
 			<LongName>P-47D Thunderbolt</LongName>
 			<FullName>Republic P-47D Thunderbolt</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.P-47D-22" Base="FixedWing.P-47D">
+		<Criteria>
+			<Name>P-47D-22</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>P-47D</ShortName>
+			<LongName>P-47D-22 Thunderbolt</LongName>
+			<FullName>Republic P-47D-22 Thunderbolt</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -1942,6 +1979,33 @@
 			<ShortName>C-101EB</ShortName>
 			<LongName>CASA C-101EB</LongName>
 			<FullName>CASA C-101EB Aviojet</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Mosquito" Base="FixedWing.Fighter.TwinProp">
+		<Criteria>
+			<Name>Mosquito</Name>
+			<Name>DH-98</Name>
+			<Name>de Havilland Mosquito</Name>
+			<Name>MOSQ</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mosquito</ShortName>
+			<LongName>de Havilland Mosquito</LongName>
+			<FullName>de Havilland DH.98 Mosquito</FullName>
+			<Shape>FixedWing.Mosquito.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Mosquito.FBMkVI" Base="FixedWing.Mosquito">
+		<Criteria>
+			<Name>Mosquito FB Mk VI</Name>
+			<Name>de Havilland Mosquito FB Mk VI</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mosquito</ShortName>
+			<LongName>de Havilland Mosquito FB Mk VI</LongName>
+			<FullName>de Havilland DH.98 Mosquito FB Mk VI</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -2326,6 +2390,7 @@
 	<DefaultProperties Id="FixedWing.C.202.VIII" Base="FixedWing.C.202">
 		<Criteria>
 			<Name>C.202 ser.VIII</Name>
+			<Name>MC.202 ser.VIII</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>C.202</ShortName>
@@ -2333,7 +2398,6 @@
 			<FullName>Macchi C.202 (Series VIII) Folgore</FullName>
 		</Properties>
 	</DefaultProperties>
-
 	<DefaultProperties Id="FixedWing.Fw 190" Base="FixedWing.Fighter.Prop">
 		<Criteria>
 			<Name>Fw 190</Name>
@@ -2735,6 +2799,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.Spitfire.Mk.IXe" Base="FixedWing.Spitfire">
+		<Criteria>
+			<Name>Spitfire Mk.IXe</Name>
+			<Name>Supermarine Spitfire Mk.IXe</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Spitfire</ShortName>
+			<LongName>Spitfire Mk.IXe</LongName>
+			<FullName>Supermarine Spitfire Mk.IXe</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.Tempest" Base="FixedWing.Fighter.Prop">
 		<Criteria>
 			<Name>Tempest</Name>
@@ -2758,6 +2834,18 @@
 			<LongName>Hawker Tempest Mk.V</LongName>
 			<FullName>Hawker Tempest Mk.V</FullName>
 			<Shape>FixedWing.Tempest.Mk.V.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Tempest.Mk.V.2" Base="FixedWing.Tempest.Mk.V">
+		<Criteria>
+			<Name>Tempest Mk.V ser.2</Name>
+			<Name>Hawker Tempest Mk.V ser.2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Tempest Mk.V</ShortName>
+			<LongName>Hawker Tempest Mk.V ser.2</LongName>
+			<FullName>Hawker Tempest Mk.V ser.2</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -2804,10 +2892,11 @@
 			<Name>Eurofighter</Name>
 			<Name>Eurofighter Typhoon</Name>
 			<Name>EF2000</Name>
+			<Name>EF-2K</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>Typhoon</ShortName>
-			<LongName>Typhoon</LongName>
+			<ShortName>EF2000</ShortName>
+			<LongName>EF2000 Typhoon</LongName>
 			<FullName>Eurofighter Typhoon</FullName>
 			<Shape>FixedWing.Typhoon.obj</Shape>
 		</Properties>
@@ -3901,6 +3990,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.Yak-7B.36" Base="FixedWing.Yak-7B">
+		<Criteria>
+			<Name>Yak-7B ser.36</Name>
+			<Name>Yakovlev Yak-7B ser.36</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Yak-7B</ShortName>
+			<LongName>Yak-7B ser.36</LongName>
+			<FullName>Yakovlev Yak-7B ser.36</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.Yak-52" Base="FixedWing.Fighter.Prop">
 		<Criteria>
 			<Name>Yak-52</Name>
@@ -4020,7 +4121,7 @@
 			<ShortName>F7A</ShortName>
 			<LongName>F7A Hornet</LongName>
 			<FullName>Anvil Aerospace F7A Hornet</FullName>
-			<Shape>Spacecraft.F7C-M.obj</Shape>
+<!--		<Shape>Spacecraft.F7C-M.obj</Shape> -->
 		</Properties>
 	</DefaultProperties>
 

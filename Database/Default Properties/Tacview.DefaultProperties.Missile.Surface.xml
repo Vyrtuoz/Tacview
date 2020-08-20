@@ -12,6 +12,9 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.Surface.Ballistic" Base="Missile.Surface">
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.Surface.Wire" Base="Missile.Surface">
 	</DefaultProperties>
 
@@ -78,6 +81,17 @@
 			<ShortName>9M113</ShortName>
 			<LongName>9M113 Konkurs</LongName>
 			<FullName>9M113 Konkurs</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.Surface.SCUD" Base="Missile.Surface.Ballistic">
+		<Criteria>
+			<Name>SCUD</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SCUD</ShortName>
+			<LongName>SCUD</LongName>
+			<FullName>SCUD</FullName>
 		</Properties>
 	</DefaultProperties>
 

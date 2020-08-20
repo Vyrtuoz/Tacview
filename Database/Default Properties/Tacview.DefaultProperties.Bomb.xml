@@ -370,6 +370,17 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Bomb.Mk82AIR" Base="Bomb.Unguided">
+		<Criteria>
+			<Name>Mk-82 AIR</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mk-82 AIR</ShortName>
+			<LongName>Mk-82 AIR</LongName>
+			<FullName>Mk-82 AIR</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Bomb.Mk82.LDGP" Base="Bomb.Mk82">
 		<Criteria>
 			<Name>Mk-82 LDGP</Name>
@@ -508,6 +519,28 @@
 	</DefaultProperties>
 
 	<!-- EU Bombs -->
+
+	<DefaultProperties Id="Bomb.BLG66" Base="Bomb.Unguided">
+		<Criteria>
+			<Name>BLG 66</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BLG 66</ShortName>
+			<LongName>BLG 66</LongName>
+			<FullName>BLG 66 Belouga</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.BLG66.Cluster" Base="Bomb.Cluster">
+		<Criteria>
+			<Name>BLG 66 Cluster</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BLG 66</ShortName>
+			<LongName>BLG 66 (Cluster)</LongName>
+			<FullName>BLG 66 Belouga (Cluster)</FullName>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="Bomb.BK90" Base="Bomb.Subminution">
 		<Criteria>
