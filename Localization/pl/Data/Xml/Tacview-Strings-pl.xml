@@ -409,34 +409,34 @@
 	<String ID="PitchHelp">Stosunek pułapu samolotu</String>
 	<String ID="PitchText">Pułap</String>
 
-	<String ID="NavaidsLabelsText">Navaids Labels</String>
-	<String ID="NavaidsLabelsAlwaysText">Always</String>
-	<String ID="NavaidsLabelsAlwaysHelp">Display all navaids labels</String>
-	<String ID="NavaidsLabelsSelectedOnlyText">Selected Only</String>
-	<String ID="NavaidsLabelsSelectedOnlyHelp">Display labels only for selected navaids</String>
+	<String ID="NavaidsLabelsText">Etykiety pomocy nawigacyjnej</String>
+	<String ID="NavaidsLabelsAlwaysText">Zawsze</String>
+	<String ID="NavaidsLabelsAlwaysHelp">Wyświetl wszystkie etykety pomocy nawigacyjnej</String>
+	<String ID="NavaidsLabelsSelectedOnlyText">Tylko wybrane</String>
+	<String ID="NavaidsLabelsSelectedOnlyHelp">Wyświetl tylko wybrane etykiety pomocy nawigacyjnej</String>
 
-	<String ID="AbsoluteTimeHelp">Absolute time</String>
-	<String ID="AbsoluteTimeText">Time</String>
-	<String ID="RelativeTimeHelp">Makes data comparison easier</String>
-	<String ID="RelativeTimeText">Relative Time</String>
+	<String ID="AbsoluteTimeHelp">Czas bezwzględny</String>
+	<String ID="AbsoluteTimeText">Czas</String>
+	<String ID="RelativeTimeHelp">Ułatw porownywanie danych</String>
+	<String ID="RelativeTimeText">Czas względny</String>
 
-	<String ID="NoTelemetryHelp">No telemetry displayed</String>
-	<String ID="NoTelemetryText">Disabled</String>
+	<String ID="NoTelemetryHelp">Telemetria nie zostanie wyświetlona</String>
+	<String ID="NoTelemetryText">Wyłaczone</String>
 
 	<String ID="TelemetryMinValue">Min&#9;{0}</String>
 	<String ID="TelemetryMaxValue">Max&#9;{0}</String>
-	<String ID="TelemetryNoLimit">(no restriction)</String>
+	<String ID="TelemetryNoLimit">(bez ograniczenia)</String>
 
-	<String ID="AltitudeRestrictionsTitle">Altitude Restrictions</String>
-	<String ID="AltitudeRestrictionsIntro">Use this tool to detect when aircraft are beyond the specified limits.&#10;Enter zero (0) to remove a restriction.</String>
-	<String ID="MaxAltitudeLabel">Ceiling Altitude Restriction:</String>
+	<String ID="AltitudeRestrictionsTitle">Ograniczenie wysokości</String>
+	<String ID="AltitudeRestrictionsIntro">Użyj tego narzędzia w celu detekcji samolotu, który jest poza wybranymi limitami.&#10;Wprowadź zero (0), aby usunąć ograniczenie.</String>
+	<String ID="MaxAltitudeLabel">Górne ograniczenie pułapu:</String>
 	<String ID="MaxAltitudeLabelShort">MAX</String>
-	<String ID="MinAltitudeLabel">Floor Altitude Restriction:</String>
+	<String ID="MinAltitudeLabel">Dolne ograniczenie pułapu:</String>
 	<String ID="MinAltitudeLabelShort">MIN</String>
 
-	<String ID="BookmarkTitle">Insert a new bookmark</String>
-	<String ID="BookmarkIntro">You are about to create a bookmark containing the active selection and point of view.</String>
-	<String ID="BookmarkLabel">Bookmark Name:</String>
+	<String ID="BookmarkTitle">Wstaw nową zakładkę</String>
+	<String ID="BookmarkIntro">Chcesz stworzyć zakładkę zawierającą obecnie wybrane elementy i punkt widzenia.</String>
+	<String ID="BookmarkLabel">Nazwa zakładki:</String>
 
 	<String ID="OnlineDebriefingTitle">Online Debriefing</String>
 	<String ID="OnlineDebriefingIntro">Share a debriefing session with your squadron and friends!</String>
