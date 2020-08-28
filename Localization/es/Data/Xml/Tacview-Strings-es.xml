@@ -163,6 +163,7 @@
 	<String ID="OptionsPositionFormatMGRSHelp">Malla de referencia militar</String>
 
 	<String ID="OptionsTimeFormatText">Desplazamiento de tiempo (UTC)</String>
+
 	<String ID="OptionsPositionAlwaysDisplayedText">Mostrar Siempre</String>
 	<String ID="OptionsPositionAlwaysDisplayedHelp">Cuando este oculto, al presionar SHIFT se enseñara en la parte superior izquierda de la imagen 3D</String>
 
@@ -414,6 +415,8 @@
 	<String ID="NavaidsLabelsAlwaysHelp">Mostrar todas las etiquetas de ayuda a la navegación</String>
 	<String ID="NavaidsLabelsSelectedOnlyText">Solo seleccionadas</String>
 	<String ID="NavaidsLabelsSelectedOnlyHelp">Mostrar todas las etiquetas solo para las ayudas a la navegacion seleccionadas</String>
+	<String ID="DisplayRadarLocksLabelsText">Display Labels</String>
+	<String ID="DisplayRadarLocksLabelsHelp">Display detailed lock information when available</String>
 
 	<String ID="AbsoluteTimeHelp">Tiempo absoluto</String>
 	<String ID="AbsoluteTimeText">Tiempo</String>
@@ -531,7 +534,7 @@
 	<String ID="AddEditObjectId">ID</String>
 	<String ID="AddEditObjectTime">Tiempo</String>
 	<String ID="AddEditObjectName">Nombre</String>
-	<String ID="AddEditObjectCallSign">Callsign</String>
+	<String ID="AddEditObjectCallSign">CallSign</String>
 	<String ID="AddEditObjectPilot">Piloto</String>
 	<String ID="AddEditObjectGroup">Grupo</String>
 	<String ID="AddEditObjectType">Tipo</String>
@@ -694,6 +697,7 @@
 	<String ID="CmdVBOOffHelp">Deshabilita el buffer de los vértices de objetos para evitar CTDs en algunas ATI en configuración CrossFire.</String>
 	<String ID="CmdDebugModeHelp">Muestra la información de errores para ayudar a solucionar problemas.</String>
 	<String ID="CmdConfigSetHelp">Almacena las preferencias del usuario en un conjunto específico para cada instancia de Tacview.</String>	
+	<String ID="CmdSaveConfigHelp">To prevent Tacview from saving UI settings on exit.</String>
 	<String ID="CmdAuthenticateHelp">Retorna el valor de -1 al llamante  para comprobar si todos los archivos son autenticos.</String>
 	<String ID="CmdRegisterUserProductKeyHelp">Activa el Tacview para el usuario actual con la Key indicada.</String>
 	<String ID="CmdRegisterSystemProductKeyHelp">Activa Tacview para todo el sistema con la Key indicada.</String>
@@ -947,6 +951,7 @@
 	<String ID="FileTypeDescriptionMediaMany">Media Files</String>
 	<String ID="FileTypeDescriptionAudioFiles">Audio Files</String>
 	<String ID="FileTypeDescriptionVideoFiles">Video Files</String>
+	<String ID="FileTypeDescriptionFIT">Flexible and Interoperable Data Transfer</String>
 	<String ID="TypeColumn">Tipo</String>
 	<String ID="TimeColumn">Tiempo</String>
 	<String ID="EventColumn">Evento</String>
@@ -1006,6 +1011,7 @@
 	<String ID="EventLogTimeoutAtLabel">Timeout at {1} {2}</String>
 	<String ID="EventLogTimeoutWeaponLabel">Timeout {0} {2}</String>
 	<String ID="EventLogTimeoutWeaponAtLabel">Timeout {0} at {1} {2}</String>
+
 	<String ID="StatusPlay">REPRODUCIR</String>
 	<String ID="StatusPlaySpeed">REPRODUCIR &#2;×{0:g}</String>
 	<String ID="StatusRewind">REBOBINAR</String>

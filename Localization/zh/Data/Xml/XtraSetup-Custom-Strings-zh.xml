@@ -6,11 +6,16 @@
 <Resources Language="zh">
 
 	<!-- Main Page -->
+
 	<String ID="WelcomeText">这个功能强大的软件可以让你记录任何飞行过程，&#10;用于回顾、分析和理解实际发生的情况！</String>
 	<String ID="ApplicationDescription">记录任何飞行过程用于回顾、分析和理解实际发生的情况！</String>
 
 	<!-- Additional Shortcuts -->
-	<String ID="FSX2ACMIShortcutName">FSX2ACMI</String>
+
+	<String ID="FSX2ACMIShortcutName">FSX2ACMI (FSX &amp; P3D)</String>
 	<String ID="FSX2ACMIShortcutHelp">用于微软模拟飞行十（FSX）的Tacview飞行记录器</String>
+
+	<String ID="MSFS2ACMIShortcutName">MSFS2ACMI (Microsoft Flight Simulator)</String>
+	<String ID="MSFS2ACMIShortcutHelp">Microsoft Flight Simulator flight recorder for Tacview</String>
 
 </Resources>

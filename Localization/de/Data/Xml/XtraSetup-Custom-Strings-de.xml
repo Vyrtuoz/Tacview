@@ -6,11 +6,16 @@
 <Resources Language="de">
 
 	<!-- Main Page -->
+
 	<String ID="WelcomeText">Dieses vielseitige Programm ermöglicht es Ihnen jeden beliebigen Flug aufzuzeichnen,&#10;nochmals anzusehen, analysieren and zu verstehen was wirklich geschah!</String>
 	<String ID="ApplicationDescription">Analysieren Sie jeden Flug, verstehen, und verbesseren Sie Ihre Fähigkeiten wie nie zuvor!</String>
 
 	<!-- Additional Shortcuts -->
-	<String ID="FSX2ACMIShortcutName">FSX2ACMI</String>
+
+	<String ID="FSX2ACMIShortcutName">FSX2ACMI (FSX &amp; P3D)</String>
 	<String ID="FSX2ACMIShortcutHelp">Microsoft Flight Simulator X Flugrekorder für Tacview</String>
+
+	<String ID="MSFS2ACMIShortcutName">MSFS2ACMI (Microsoft Flight Simulator)</String>
+	<String ID="MSFS2ACMIShortcutHelp">Microsoft Flight Simulator flight recorder for Tacview</String>
 
 </Resources>

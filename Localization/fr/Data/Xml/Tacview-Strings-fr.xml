@@ -162,6 +162,7 @@
 	<String ID="OptionsPositionFormatMGRSHelp">Système de référence de carroyage militaire</String>
 
 	<String ID="OptionsTimeFormatText">Décalage Horaire</String>
+
 	<String ID="OptionsPositionAlwaysDisplayedText">Toujours affichée</String>
 	<String ID="OptionsPositionAlwaysDisplayedHelp">Lorsque cachée, appuyez sur SHIFT pour afficher la position dans le coin haut/gauche de la vue 3D.</String>
 
@@ -413,6 +414,8 @@
 	<String ID="NavaidsLabelsAlwaysHelp">Affiche les étiquettes de toutes les aides à la navigation</String>
 	<String ID="NavaidsLabelsSelectedOnlyText">Seulement sélectionnés</String>
 	<String ID="NavaidsLabelsSelectedOnlyHelp">Affiche uniquement les étiquettes des aides à la navigation sélectionnés</String>
+	<String ID="DisplayRadarLocksLabelsText">Afficher étiquettes</String>
+	<String ID="DisplayRadarLocksLabelsHelp">Afficher les informations d’accrochage radar détaillées</String>
 
 	<String ID="AbsoluteTimeHelp">Temps absolu</String>
 	<String ID="AbsoluteTimeText">Temps</String>
@@ -693,6 +696,7 @@
 	<String ID="CmdVBOOffHelp">Désactive les Vertex Buffer Objects pour éviter des plantages avec certaines configurations CrossFire d'ATI.</String>
 	<String ID="CmdDebugModeHelp">Affiche des informations de débogage pour aider à corriger des bugs.</String>
 	<String ID="CmdConfigSetHelp">Stokes les préférences utilisateur dans un ensemble spécifique à chaque instance de Tacview.</String>
+	<String ID="CmdSaveConfigHelp">Pour prévenir la sauvegarde des modifications de l’IU en quittant.</String>
 	<String ID="CmdAuthenticateHelp">Retourne -1 a l’appelant si tous les fichiers ouverts sont authentiques.</String>
 	<String ID="CmdRegisterUserProductKeyHelp">Active Tacview pour l’utilisateur courant avec la clé de produit fournie.</String>
 	<String ID="CmdRegisterSystemProductKeyHelp">Active Tacview pour tout le système avec la clé de produit fournie.</String>
@@ -946,6 +950,7 @@
 	<String ID="FileTypeDescriptionMediaMany">Fichiers multimédia</String>
 	<String ID="FileTypeDescriptionAudioFiles">Fichiers audio</String>
 	<String ID="FileTypeDescriptionVideoFiles">Fichiers vidéo</String>
+	<String ID="FileTypeDescriptionFIT">Flexible and Interoperable Data Transfer</String>
 	<String ID="TypeColumn">Type</String>
 	<String ID="TimeColumn">Heure</String>
 	<String ID="EventColumn">Evénement</String>
@@ -1005,6 +1010,7 @@
 	<String ID="EventLogTimeoutAtLabel">Timeout sur {1} {2}</String>
 	<String ID="EventLogTimeoutWeaponLabel">Timeout {0} {2}</String>
 	<String ID="EventLogTimeoutWeaponAtLabel">Timeout {0} sur {1} {2}</String>
+
 	<String ID="StatusPlay">LECTURE</String>
 	<String ID="StatusPlaySpeed">LECTURE &#2;×{0:g}</String>
 	<String ID="StatusRewind">REMBOBINAGE</String>

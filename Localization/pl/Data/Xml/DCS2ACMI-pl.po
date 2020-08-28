@@ -47,7 +47,7 @@ msgid "Playback Delay"
 msgstr "Opóźnienie odgrywania"
 
 msgid "None (real-time)"
-msgstr "nic (rzeczywisty czas)"
+msgstr "Nic (rzeczywisty czas)"
 
 msgid "1 minute"
 msgstr "1 minuta"

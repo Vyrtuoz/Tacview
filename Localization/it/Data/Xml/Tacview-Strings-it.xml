@@ -104,7 +104,7 @@
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Display the terrain with a high contrast color scheme</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Custom textures</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Display all the textures declared in CustomTextureList.xml</String>
-	<String ID="OptionsAlwaysDisplayBullseyeText">Always display Bullseye</String>
+	<String ID="OptionsAlwaysDisplayBullseyeText">Always Display Bullseye</String>
 	<String ID="OptionsAlwaysDisplayBullseyeHelp">Always display Bullseye in the 3D view</String>
 	<String ID="OptionsAutoHideCoordinatesText">Auto Hide Coordinates</String>
 	<String ID="OptionsAutoHideCoordinatesHelp">Auto hide latitude/longitude coordinates whenever bullseye coordinates are present</String>
@@ -163,6 +163,7 @@
 	<String ID="OptionsPositionFormatMGRSHelp">Sistema di riferimento di griglia militare (MGRS)</String>
 
 	<String ID="OptionsTimeFormatText">Time Offset</String>
+
 	<String ID="OptionsPositionAlwaysDisplayedText">Always Displayed</String>
 	<String ID="OptionsPositionAlwaysDisplayedHelp">When hidden, press SHIFT to display current position in top left corner of the 3D view.</String>
 
@@ -414,6 +415,8 @@
 	<String ID="NavaidsLabelsAlwaysHelp">Display all navaids labels</String>
 	<String ID="NavaidsLabelsSelectedOnlyText">Selected Only</String>
 	<String ID="NavaidsLabelsSelectedOnlyHelp">Display labels only for selected navaids</String>
+	<String ID="DisplayRadarLocksLabelsText">Display Labels</String>
+	<String ID="DisplayRadarLocksLabelsHelp">Display detailed lock information when available</String>
 
 	<String ID="AbsoluteTimeHelp">Tempo Assoluto</String>
 	<String ID="AbsoluteTimeText">Tempo</String>
@@ -531,7 +534,7 @@
 	<String ID="AddEditObjectId">ID</String>
 	<String ID="AddEditObjectTime">Time</String>
 	<String ID="AddEditObjectName">Name</String>
-	<String ID="AddEditObjectCallSign">Callsign</String>
+	<String ID="AddEditObjectCallSign">CallSign</String>
 	<String ID="AddEditObjectPilot">Pilot</String>
 	<String ID="AddEditObjectGroup">Group</String>
 	<String ID="AddEditObjectType">Type</String>
@@ -694,6 +697,7 @@
 	<String ID="CmdVBOOffHelp">Disabilita Vertex Buffer Objects al fine di evitare problemi in alcune configurazioni ATI CrossFire.</String>
 	<String ID="CmdDebugModeHelp">Mostra informazioni di debug per aiutare a risolvere eventuali bug.</String>
 	<String ID="CmdConfigSetHelp">Stores user preferences in a specific set for each instance of Tacview.</String>
+	<String ID="CmdSaveConfigHelp">To prevent Tacview from saving UI settings on exit.</String>
 	<String ID="CmdAuthenticateHelp">Returns -1 to the caller if all of the opened files are authentic.</String>
 	<String ID="CmdRegisterUserProductKeyHelp">Activate Tacview for the current user with the provided key.</String>
 	<String ID="CmdRegisterSystemProductKeyHelp">Activate Tacview for the entire system with the provided key.</String>
@@ -947,6 +951,7 @@
 	<String ID="FileTypeDescriptionMediaMany">Media Files</String>
 	<String ID="FileTypeDescriptionAudioFiles">Audio Files</String>
 	<String ID="FileTypeDescriptionVideoFiles">Video Files</String>
+	<String ID="FileTypeDescriptionFIT">Flexible and Interoperable Data Transfer</String>
 	<String ID="TypeColumn">Tipologia</String>
 	<String ID="TimeColumn">Tempo</String>
 	<String ID="EventColumn">Evento</String>
@@ -1006,6 +1011,7 @@
 	<String ID="EventLogTimeoutAtLabel">Timeout at {1} {2}</String>
 	<String ID="EventLogTimeoutWeaponLabel">Timeout {0} {2}</String>
 	<String ID="EventLogTimeoutWeaponAtLabel">Timeout {0} at {1} {2}</String>
+
 	<String ID="StatusPlay">AVVIA</String>
 	<String ID="StatusPlaySpeed">AVVIA &#2;×{0:g}</String>
 	<String ID="StatusRewind">RIAVVOLGI</String>

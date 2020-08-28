@@ -414,6 +414,8 @@
 	<String ID="NavaidsLabelsAlwaysHelp">Wyświetl wszystkie etykety pomocy nawigacyjnej</String>
 	<String ID="NavaidsLabelsSelectedOnlyText">Tylko wybrane</String>
 	<String ID="NavaidsLabelsSelectedOnlyHelp">Wyświetl tylko wybrane etykiety pomocy nawigacyjnej</String>
+	<String ID="DisplayRadarLocksLabelsText">Display Labels</String>
+	<String ID="DisplayRadarLocksLabelsHelp">Display detailed lock information when available</String>
 
 	<String ID="AbsoluteTimeHelp">Czas bezwzględny</String>
 	<String ID="AbsoluteTimeText">Czas</String>
@@ -531,7 +533,7 @@
 	<String ID="AddEditObjectId">ID</String>
 	<String ID="AddEditObjectTime">Time</String>
 	<String ID="AddEditObjectName">Name</String>
-	<String ID="AddEditObjectCallSign">Callsign</String>
+	<String ID="AddEditObjectCallSign">CallSign</String>
 	<String ID="AddEditObjectPilot">Pilot</String>
 	<String ID="AddEditObjectGroup">Group</String>
 	<String ID="AddEditObjectType">Type</String>
@@ -694,6 +696,7 @@
 	<String ID="CmdVBOOffHelp">Disable Vertex Buffer Objects to avoid crashes on some ATI CrossFire configurations.</String>
 	<String ID="CmdDebugModeHelp">Displays debug information to help fixing bugs.</String>
 	<String ID="CmdConfigSetHelp">Stores user preferences in a specific set for each instance of Tacview.</String>
+	<String ID="CmdSaveConfigHelp">To prevent Tacview from saving UI settings on exit.</String>
 	<String ID="CmdAuthenticateHelp">Returns -1 to the caller if all of the opened files are authentic.</String>
 	<String ID="CmdRegisterUserProductKeyHelp">Activate Tacview for the current user with the provided key.</String>
 	<String ID="CmdRegisterSystemProductKeyHelp">Activate Tacview for the entire system with the provided key.</String>
@@ -947,6 +950,7 @@
 	<String ID="FileTypeDescriptionMediaMany">Media Files</String>
 	<String ID="FileTypeDescriptionAudioFiles">Audio Files</String>
 	<String ID="FileTypeDescriptionVideoFiles">Video Files</String>
+	<String ID="FileTypeDescriptionFIT">Flexible and Interoperable Data Transfer</String>
 	<String ID="TypeColumn">Type</String>
 	<String ID="TimeColumn">Time</String>
 	<String ID="EventColumn">Event</String>

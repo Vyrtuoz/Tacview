@@ -6,24 +6,29 @@
 <Resources Language="he">
 
 	<!-- Status -->
+
 	<String ID="StatusSimConnectNotInstalled">SimConnect not detected.&#10;Make sure either Microsoft Flight&#160;Simulator&#160;X or Lockheed&#160;Martin Prepar3D is properly installed on your computer.</String>
-	<String ID="StatusWaitingForSimConnect">FSX2ACMI is ready!&#10;You can now launch Microsoft Flight&#160;Simulator&#160;X&#10;or Lockheed&#160;Martin Prepar3D.</String>
+	<String ID="StatusWaitingForSimConnectFSX">{0} is ready!&#10;You can now launch Microsoft Flight&#160;Simulator&#160;X&#10;or Lockheed&#160;Martin Prepar3D.</String>
+	<String ID="StatusWaitingForSimConnectMSFS">{0} is ready!&#10;You can now launch Microsoft Flight&#160;Simulator.</String>
+	<String ID="StatusWaitingForSimConnectWrongVersion">Please make sure you are using a version of Flight&#160;Simulator supported by {0}.</String>
 	<String ID="StatusWaitingForSimConnectFailed">Failed to record your last flight...&#10;Before restarting your simulator, make sure there is enough free space on your hard drive.</String>
-	<String ID="StatusWaitingForSimConnectSucceeded">Your last flight has been successfully recorded!&#10;You can now close FSX2ACMI or restart your simulator to record another flight.</String>
-	<String ID="StatusConnectedToSimConnect">FSX2ACMI is connected to your simulator.&#10;You can now start a flight,&#10;it will be automatically recorded.</String>
+	<String ID="StatusWaitingForSimConnectSucceeded">Your last flight has been successfully recorded!&#10;You can now close {0} or restart your simulator to record another flight.</String>
+	<String ID="StatusConnectedToSimConnect">{0} is connected to your simulator.&#10;You can now start a flight,&#10;it will be automatically recorded.</String>
 	<String ID="StatusConnectedToSimConnectFailed">Failed to record your last flight...&#10;Before trying to record another flight, make sure there is enough free space on your hard drive.</String>
-	<String ID="StatusConnectedToSimConnectSucceeded">Your last flight has been successfully recorded!&#10;You can now start another flight or close FSX2ACMI.</String>
-	<String ID="StatusRecordingFlight">Your flight is now being recorded&#10;until you close FSX2ACMI,&#10;quit your simulator or start another flight.</String>
-	<String ID="StatusRecordingFlightFailed">Failed to record your last flight...&#10;FSX2ACMI is now trying to record your new flight. Make sure there is enough free space on your hard drive.</String>
-	<String ID="StatusRecordingFlightSucceeded">Your last flight has been successfully recorded!&#10;A new flight is now being recorded until you close FSX2ACMI, quit your simulator or start another flight.</String>
+	<String ID="StatusConnectedToSimConnectSucceeded">Your last flight has been successfully recorded!&#10;You can now start another flight or close {0}.</String>
+	<String ID="StatusRecordingFlight">Your flight is now being recorded&#10;until you close {0},&#10;quit your simulator or start another flight.</String>
+	<String ID="StatusRecordingFlightFailed">Failed to record your last flight...&#10;{0} is now trying to record your new flight. Make sure there is enough free space on your hard drive.</String>
+	<String ID="StatusRecordingFlightSucceeded">Your last flight has been successfully recorded!&#10;A new flight is now being recorded until you close {0}, quit your simulator or start another flight.</String>
 
 	<!-- Controls -->
+
 	<String ID="ObjectsCountFormat">{0} objects</String>
 	<String ID="UpdateSpeedFormat">{0} ms // {1} ms</String>
 	<String ID="ACMIFilesFolder">Tacview ACMI Files</String>
 	<String ID="IntroductionText">Microsoft Flight&#160;Simulator flight recorder for Tacview</String>
 
 	<!-- Options -->
+
 	<String ID="AutoLaunchText">Auto &amp;Launch</String>
 	<String ID="AutoQuitText">Auto &amp;Quit</String>
 

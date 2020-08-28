@@ -5,24 +5,29 @@
 <Resources Language="pl">
 
 	<!-- Status -->
+
 	<String ID="StatusSimConnectNotInstalled">SimConnect niewykryty.&#10;Upewnij się, że Microsoft Flight&#160;Simulator&#160;X lub Lockheed&#160;Martin Prepar3D jest prawidłowo zainstalowany na Twoim komputerze.</String>
-	<String ID="StatusWaitingForSimConnect">FSX2ACMI gotowe!&#10;Możesz uruchomić Microsoft Flight&#160;Simulator&#160;X&#10;lub Lockheed&#160;Martin Prepar3D.</String>
+	<String ID="StatusWaitingForSimConnectFSX">{0} gotowe!&#10;Możesz uruchomić Microsoft Flight&#160;Simulator&#160;X&#10;lub Lockheed&#160;Martin Prepar3D.</String>
+	<String ID="StatusWaitingForSimConnectMSFS">{0} gotowe!&#10;Możesz uruchomić Microsoft Flight&#160;Simulator.</String>
+	<String ID="StatusWaitingForSimConnectWrongVersion">Please make sure you are using a version of Flight&#160;Simulator supported by {0}.</String>
 	<String ID="StatusWaitingForSimConnectFailed">Nie udało się nagrać Twojego ostatniego lotu...&#10;Zanim uruchomisz ponownie Twój symulator, upewnij się, że masz wystarczającą ilość wolnego miejsca na twardym dysku.</String>
-	<String ID="StatusWaitingForSimConnectSucceeded">Twój ostatni lot został nagrany z powodzeniem!&#10;Możesz teraz zamknąć FSX2ACMI lub uruchomić ponownie Twój symulator, aby nagrać kooleny lot.</String>
-	<String ID="StatusConnectedToSimConnect">FSX2ACMI podłączył się do Twojego symulatora.&#10;Możesz zacząć lot,&#10;zostanie on automatycznie nagrany.</String>
+	<String ID="StatusWaitingForSimConnectSucceeded">Twój ostatni lot został nagrany z powodzeniem!&#10;Możesz teraz zamknąć {0} lub uruchomić ponownie Twój symulator, aby nagrać kooleny lot.</String>
+	<String ID="StatusConnectedToSimConnect">{0} podłączył się do Twojego symulatora.&#10;Możesz zacząć lot,&#10;zostanie on automatycznie nagrany.</String>
 	<String ID="StatusConnectedToSimConnectFailed">Nie udało się nagrać Twojego ostatniego lotu...&#10;Zanim spróbujesz ponownie nagrać kolejny, upewnij się, że masz wystarczającą ilość wolnego miejsca na twardym dysku.</String>
-	<String ID="StatusConnectedToSimConnectSucceeded">Twój ostatni lot został nagrany z powodzeniem!&#10;Możesz zacząć kolejny lot lub zamknąć FSX2ACMI.</String>
-	<String ID="StatusRecordingFlight">Twój lot jest nagrywany&#10;dopóki nie zamkniesz FSX2ACMI,&#10;wyjdziesz z symulatora lub zaczniesz kolejny lot.</String>
-	<String ID="StatusRecordingFlightFailed">Nie udało się nagrać Twojego ostatniego lotu...&#10;FSX2ACMI próbuje nagrać Twój nowy lot. Upewnij się, że masz wystarczającą ilość wolnego miejsca na twardym dysku.</String>
-	<String ID="StatusRecordingFlightSucceeded">Twój ostatni lot został nagrany z powodzeniem!&#10;Twój lot będzie nagrywany dopóki nie zamkniesz FSX2ACMI, wyjdziesz z symulatora lub zaczniesz nagrywać kolejny lot.</String>
+	<String ID="StatusConnectedToSimConnectSucceeded">Twój ostatni lot został nagrany z powodzeniem!&#10;Możesz zacząć kolejny lot lub zamknąć {0}.</String>
+	<String ID="StatusRecordingFlight">Twój lot jest nagrywany&#10;dopóki nie zamkniesz {0},&#10;wyjdziesz z symulatora lub zaczniesz kolejny lot.</String>
+	<String ID="StatusRecordingFlightFailed">Nie udało się nagrać Twojego ostatniego lotu...&#10;{0} próbuje nagrać Twój nowy lot. Upewnij się, że masz wystarczającą ilość wolnego miejsca na twardym dysku.</String>
+	<String ID="StatusRecordingFlightSucceeded">Twój ostatni lot został nagrany z powodzeniem!&#10;Twój lot będzie nagrywany dopóki nie zamkniesz {0}, wyjdziesz z symulatora lub zaczniesz nagrywać kolejny lot.</String>
 
 	<!-- Controls -->
+
 	<String ID="ObjectsCountFormat">{0} obiekty</String>
 	<String ID="UpdateSpeedFormat">{0} ms // {1} ms</String>
 	<String ID="ACMIFilesFolder">Tacview pliki ACMI</String>
 	<String ID="IntroductionText">Microsoft Flight&#160;Simulator rejestrator lotu dla Tacview</String>
 
 	<!-- Options -->
+
 	<String ID="AutoLaunchText">Auto &amp;Uruchomienie</String>
 	<String ID="AutoQuitText">Auto &amp;Wyjście</String>
 

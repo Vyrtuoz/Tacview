@@ -6,11 +6,16 @@
 <Resources Language="he">
 
 	<!-- Main Page -->
+
 	<String ID="WelcomeText">כלי זה מאפשר לך להקליט כל טיסה. לצפות, לנתח ולהבין מה באמת קורה!</String>
 	<String ID="ApplicationDescription">נתח כל גיחה, הבן ושפר את יכולות הטיסה שלך!</String>
 
 	<!-- Additional Shortcuts -->
-	<String ID="FSX2ACMIShortcutName">FSX2ACMI</String>
+
+	<String ID="FSX2ACMIShortcutName">FSX2ACMI (FSX &amp; P3D)</String>
 	<String ID="FSX2ACMIShortcutHelp">Microsoft Flight Simulator X flight recorder for Tacview</String>
+
+	<String ID="MSFS2ACMIShortcutName">MSFS2ACMI (Microsoft Flight Simulator)</String>
+	<String ID="MSFS2ACMIShortcutHelp">Microsoft Flight Simulator flight recorder for Tacview</String>
 
 </Resources>

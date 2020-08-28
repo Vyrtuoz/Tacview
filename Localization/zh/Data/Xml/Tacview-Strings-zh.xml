@@ -161,6 +161,7 @@
 	<String ID="OptionsPositionFormatDMMHelp">度，十进制显示分</String>
 	<String ID="OptionsPositionFormatDMSHelp">度，分，秒</String>
 	<String ID="OptionsPositionFormatMGRSHelp">军事网格参考系统</String>
+
 	<String ID="OptionsTimeFormatText">时间偏移</String>
 
 	<String ID="OptionsPositionAlwaysDisplayedText">总是显示</String>
@@ -414,6 +415,8 @@
 	<String ID="NavaidsLabelsAlwaysHelp">显示所有助航标签</String>
 	<String ID="NavaidsLabelsSelectedOnlyText">仅已选</String>
 	<String ID="NavaidsLabelsSelectedOnlyHelp">仅显示已选助航的标签</String>
+	<String ID="DisplayRadarLocksLabelsText">Display Labels</String>
+	<String ID="DisplayRadarLocksLabelsHelp">Display detailed lock information when available</String>
 
 	<String ID="AbsoluteTimeHelp">绝对时间</String>
 	<String ID="AbsoluteTimeText">时间</String>
@@ -530,8 +533,8 @@
 	<String ID="RealTimeTelemetryInvalidParameters">Invalid real-time telemetry password.</String>
 <!--
 	Chinese characters are not yet supported in the 3D view
-	<String ID="RealTimeTelemetryRecordingConnecting">请等待 {1}&#xA;{0}</String>
-	<String ID="RealTimeTelemetryRecordingProgress">记录自 {1}&#xA;{0}</String>
+	<String ID="RealTimeTelemetryRecordingConnecting">请等待 {0} {1}</String>
+	<String ID="RealTimeTelemetryRecordingProgress">记录自 {0} {1}</String>
 	<String ID="RealTimeTelemetryOperationCompleted">实时遥测记录完毕。</String>
 	<String ID="RealTimeTelemetryOperationFailed">无法连接实时遥测到给定主机地址。</String>
 	<String ID="RealTimeTelemetryUnsupportedOperation">实时遥测与主机输出器不兼容。</String>
@@ -711,6 +714,7 @@
 	<String ID="CmdVBOOffHelp">禁用顶点缓冲区物体以避免在一些ATI交火配置上崩溃。</String>
 	<String ID="CmdDebugModeHelp">显示调试信息以帮助修补错误。</String>
 	<String ID="CmdConfigSetHelp">为每个Tacview实例以特定组合存储用户偏好设置。</String>
+	<String ID="CmdSaveConfigHelp">To prevent Tacview from saving UI settings on exit.</String>
 	<String ID="CmdAuthenticateHelp">如果所有打开的文件都是认证的，返回询问-1。</String>
 	<String ID="CmdRegisterUserProductKeyHelp">为当前用户使用提供的秘钥激活Tacveiw。</String>
 	<String ID="CmdRegisterSystemProductKeyHelp">为整个系统使用提供的秘钥激活Tacview。</String>
@@ -1015,6 +1019,7 @@
 	<String ID="FileTypeDescriptionMediaMany">媒体文件</String>
 	<String ID="FileTypeDescriptionAudioFiles">音频文件</String>
 	<String ID="FileTypeDescriptionVideoFiles">视频文件</String>
+	<String ID="FileTypeDescriptionFIT">Flexible and Interoperable Data Transfer</String>
 	<String ID="TypeColumn">类型</String>
 	<String ID="TimeColumn">时间</String>
 	<String ID="EventColumn">事件</String>
@@ -1060,6 +1065,7 @@
 	<String ID="EventHasBeenHitByMultiple">{0}被{1}命中{2}次</String>
 	<String ID="EventHasBeenDestroyed">{0}被摧毁</String>
 	<String ID="EventHasBeenDestroyedBy">{0}被{1}摧毁</String>
+
 	<String ID="EventLogHasLeftTheArea">已离开区域</String>
 	<String ID="EventLogHasBeenDestroyed">已被摧毁</String>
 	<String ID="EventLogHasBeenDestroyedBy">以被{0}摧毁</String>

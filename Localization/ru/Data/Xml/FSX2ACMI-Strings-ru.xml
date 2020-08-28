@@ -6,24 +6,29 @@
 <Resources Language="ru">
 
 	<!-- Status -->
+
 	<String ID="StatusSimConnectNotInstalled">SimConnect не обнаружен.&#10;Убедитесь, что у вас корректно установлен Microsoft Flight&#160;Simulator&#160;X / Lockheed&#160;Martin Prepar3D.</String>
-	<String ID="StatusWaitingForSimConnect">FSX2ACMI готов к работе!&#10;Теперь можно запустить Microsoft Flight&#160;Simulator&#160;X&#10; / Lockheed&#160;Martin Prepar3D.</String>
+	<String ID="StatusWaitingForSimConnectFSX">{0} готов к работе!&#10;Теперь можно запустить Microsoft Flight&#160;Simulator&#160;X&#10; / Lockheed&#160;Martin Prepar3D.</String>
+	<String ID="StatusWaitingForSimConnectMSFS">{0} готов к работе!&#10;Теперь можно запустить Microsoft Flight&#160;Simulator.</String>
+	<String ID="StatusWaitingForSimConnectWrongVersion">Please make sure you are using a version of Flight&#160;Simulator supported by {0}.</String>
 	<String ID="StatusWaitingForSimConnectFailed">Не удалось сохранить запись крайнего вылета...&#10;Перед перезапуском симулятора убедитесь, что на диске достаточно свободного места.</String>
-	<String ID="StatusWaitingForSimConnectSucceeded">Ваш крайний вылет был успешно сохранен!&#10;Можно закрыть FSX2ACMI, либо перезапустить симулятор для новой записи.</String>
-	<String ID="StatusConnectedToSimConnect">FSX2ACMI подключён к симулятору.&#10;Можно начинать вылет,&#10;запись будет начата автоматически.</String>
+	<String ID="StatusWaitingForSimConnectSucceeded">Ваш крайний вылет был успешно сохранен!&#10;Можно закрыть {0}, либо перезапустить симулятор для новой записи.</String>
+	<String ID="StatusConnectedToSimConnect">{0} подключён к симулятору.&#10;Можно начинать вылет,&#10;запись будет начата автоматически.</String>
 	<String ID="StatusConnectedToSimConnectFailed">Не удалось сохранить запись крайнего вылета...&#10;Перед новой попыткой записи убедитесь, что на диске достаточно свободного места.</String>
-	<String ID="StatusConnectedToSimConnectSucceeded">Ваш крайний вылет был успешно сохранен!&#10;Вы можете начать новый полёт, либо закрыть FSX2ACMI.</String>
-	<String ID="StatusRecordingFlight">Ведется запись полёта&#10;она прервётся, если будет закрыт FSX2ACMI,&#10; клиент игры, либо начат новый вылет.</String>
-	<String ID="StatusRecordingFlightFailed">Не удалось сохранить запись крайнего вылета...&#10;FSX2ACMI пытается записать текущий вылет. Убедитесь, что на диске достаточно свободного места.</String>
-	<String ID="StatusRecordingFlightSucceeded">Ваш крайний вылет был успешно сохранен!&#10;Запись текущего полёта будет продолжаться, пока не закроется FSX2ACMI, либо симулятор, или будет начат новый вылет.</String>
+	<String ID="StatusConnectedToSimConnectSucceeded">Ваш крайний вылет был успешно сохранен!&#10;Вы можете начать новый полёт, либо закрыть {0}.</String>
+	<String ID="StatusRecordingFlight">Ведется запись полёта&#10;она прервётся, если будет закрыт {0},&#10; клиент игры, либо начат новый вылет.</String>
+	<String ID="StatusRecordingFlightFailed">Не удалось сохранить запись крайнего вылета...&#10;{0} пытается записать текущий вылет. Убедитесь, что на диске достаточно свободного места.</String>
+	<String ID="StatusRecordingFlightSucceeded">Ваш крайний вылет был успешно сохранен!&#10;Запись текущего полёта будет продолжаться, пока не закроется {0}, либо симулятор, или будет начат новый вылет.</String>
 
 	<!-- Controls -->
+
 	<String ID="ObjectsCountFormat">{0} объектов</String>
 	<String ID="UpdateSpeedFormat">{0} мс // {1} мс</String>
 	<String ID="ACMIFilesFolder">Файлы ACMI Tacview</String>
 	<String ID="IntroductionText">Tacview для Microsoft Flight&#160;Simulator</String>
 
 	<!-- Options -->
+
 	<String ID="AutoLaunchText">Авто &amp;Запуск</String>
 	<String ID="AutoQuitText">Авто &amp;Выход</String>
 

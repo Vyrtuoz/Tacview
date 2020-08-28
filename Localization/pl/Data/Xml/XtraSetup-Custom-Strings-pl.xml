@@ -5,11 +5,16 @@
 <Resources Language="pl">
 
 	<!-- Main Page -->
+
 	<String ID="WelcomeText">To jest potężne narzędzie, które umożliwi nagranie dowolnego lotu,&#10;aby przejrzeć ,zanalizować i zrozumieć, co naprawdę się zdarzyło!</String>
 	<String ID="ApplicationDescription">Zanalizuj dowolny lotu, zrozum go i udoskonal swoje umiejętności jak nigdy do tej pory!</String>
 
 	<!-- Additional Shortcuts -->
-	<String ID="FSX2ACMIShortcutName">FSX2ACMI</String>
+
+	<String ID="FSX2ACMIShortcutName">FSX2ACMI (FSX &amp; P3D)</String>
 	<String ID="FSX2ACMIShortcutHelp">Microsoft Flight Simulator X rejestrator lotu dla Tacview</String>
+
+	<String ID="MSFS2ACMIShortcutName">MSFS2ACMI (Microsoft Flight Simulator)</String>
+	<String ID="MSFS2ACMIShortcutHelp">Microsoft Flight Simulator flight recorder for Tacview</String>
 
 </Resources>

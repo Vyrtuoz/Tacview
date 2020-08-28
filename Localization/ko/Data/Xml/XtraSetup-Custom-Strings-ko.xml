@@ -5,11 +5,16 @@
 <Resources Language="ko">
 
 	<!-- Main Page -->
+
 	<String ID="WelcomeText">이 강력한 툴은 모든 비행을 녹화하고, 리뷰하며 분석하여&#10;실제 무슨 일이 일어났는지 이해할 수 있도록 도와주는 툴입니다.</String>
 	<String ID="ApplicationDescription">비행을 분석하고, 이해함에 따라 당신의 비행기술 능력을 향상시킬 수 있습니다!</String>
 
 	<!-- Additional Shortcuts -->
-	<String ID="FSX2ACMIShortcutName">FSX2ACMI</String>
+
+	<String ID="FSX2ACMIShortcutName">FSX2ACMI (FSX &amp; P3D)</String>
 	<String ID="FSX2ACMIShortcutHelp">택뷰용 마이크로소프트 플라이트 시뮬레이터 X 플레이트 레코더</String>
+
+	<String ID="MSFS2ACMIShortcutName">MSFS2ACMI (Microsoft Flight Simulator)</String>
+	<String ID="MSFS2ACMIShortcutHelp">Microsoft Flight Simulator flight recorder for Tacview</String>
 
 </Resources>

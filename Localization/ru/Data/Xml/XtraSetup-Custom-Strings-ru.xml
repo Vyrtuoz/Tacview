@@ -6,11 +6,16 @@
 <Resources Language="ru">
 
 	<!-- Main Page -->
+
 	<String ID="WelcomeText">Tacview позволит записать любой полёт,&#10; и выяснить, что происходит на самом деле!</String>
 	<String ID="ApplicationDescription">Анализируйте свои полёты, приобретайте знания и улучшайте навыки пилотирования с совершенно новым инструментом!</String>
 
 	<!-- Additional Shortcuts -->
-	<String ID="FSX2ACMIShortcutName">FSX2ACMI</String>
+
+	<String ID="FSX2ACMIShortcutName">FSX2ACMI (FSX &amp; P3D)</String>
 	<String ID="FSX2ACMIShortcutHelp">Программа записи полётов в Microsoft Flight Simulator X flight для Tacview</String>
+
+	<String ID="MSFS2ACMIShortcutName">MSFS2ACMI (Microsoft Flight Simulator)</String>
+	<String ID="MSFS2ACMIShortcutHelp">Microsoft Flight Simulator flight recorder for Tacview</String>
 
 </Resources>

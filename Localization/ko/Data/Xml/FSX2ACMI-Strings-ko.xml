@@ -5,24 +5,29 @@
 <Resources Language="ko">
 
 	<!-- Status -->
+
 	<String ID="StatusSimConnectNotInstalled">SimConnect가 확인되지 않습니다..&#10;마이크로소프트 플라이트&#160;시뮬레이터&#160;X 또는 록히드&#160;마틴 프리파3D 가 정상적으로 컴퓨터에 설치되어져 있는지 확인 해 주시기 바랍니다.</String>
-	<String ID="StatusWaitingForSimConnect">FSX2ACMI 가 준비되었습니다!&#10;이제 마이크로소프트 플라이트&#160;시뮬레이터&#160;X&#10;또는 록히드&#160;마틴 프리파3D를 실행 해 주시기 바랍니다.</String>
+	<String ID="StatusWaitingForSimConnectFSX">{0} 가 준비되었습니다!&#10;이제 마이크로소프트 플라이트&#160;시뮬레이터&#160;X&#10;또는 록히드&#160;마틴 프리파3D를 실행 해 주시기 바랍니다.</String>
+	<String ID="StatusWaitingForSimConnectMSFS">{0} is ready!&#10;You can now launch Microsoft Flight&#160;Simulator.</String>
+	<String ID="StatusWaitingForSimConnectWrongVersion">Please make sure you are using a version of Flight&#160;Simulator supported by {0}.</String>
 	<String ID="StatusWaitingForSimConnectFailed">비행을 녹화하는데 실패하였습니다...&#10;시뮬레이터를 시작하기 전에, 반드시 하드디스크 여유공간이 충분한 지 확인 해 주시기 바랍니다.</String>
-	<String ID="StatusWaitingForSimConnectSucceeded">비행을 기록하는데 성공하였습니다!&#10;이제 FSX2ACMI를 종료하거나 시뮬레이터를 시작하여 새로운 비행기록을 생성할 수 있습니다.</String>
-	<String ID="StatusConnectedToSimConnect">FSX2ACMI가 시뮬레이터에 연결되었습니다.&#10;이제 비행을 시작하게 된다면,&#10;자동적으로 녹화가 될 것입니다.</String>
+	<String ID="StatusWaitingForSimConnectSucceeded">비행을 기록하는데 성공하였습니다!&#10;이제 {0}를 종료하거나 시뮬레이터를 시작하여 새로운 비행기록을 생성할 수 있습니다.</String>
+	<String ID="StatusConnectedToSimConnect">{0}가 시뮬레이터에 연결되었습니다.&#10;이제 비행을 시작하게 된다면,&#10;자동적으로 녹화가 될 것입니다.</String>
 	<String ID="StatusConnectedToSimConnectFailed">비행을 녹화하는데 실패하였습니다...&#10;다른 비행을 녹화하기 전에, 반드시 하드디스크의 여유공간이 충분한 지 확인 해 주시기 바랍니다.</String>
-	<String ID="StatusConnectedToSimConnectSucceeded">이전 기록이 성공적으로 기록되었습니다!&#10;이제 새로운 비행을 다시 시작하거나 FSX2ACMI를 종료할 수 있습니다.</String>
-	<String ID="StatusRecordingFlight">비행이 기록되고 있습니다&#10;FSX2ACMI를 종료하기 전에,&#10;시뮬레이터를 종료하거나 새로운 비행을 시작할 수 있습니다.</String>
-	<String ID="StatusRecordingFlightFailed">마지막 비행을 기록하는데 실패하였습니다...&#10;FSX2ACMI가 새로운 비행을 기록하는 시도를 하는 중입니다. 하드디스크에 충분한 여유공간이 있는지 확인 해 주시기 바랍니다.</String>
-	<String ID="StatusRecordingFlightSucceeded">마지막 비행을 기록하는데 성공하였습니다!&#10;FSX2ACMI를 종류하기 전 시뮬레이터를 종료하거나 새로운 비행을 시작할 수 있습니다.</String>
+	<String ID="StatusConnectedToSimConnectSucceeded">이전 기록이 성공적으로 기록되었습니다!&#10;이제 새로운 비행을 다시 시작하거나 {0}를 종료할 수 있습니다.</String>
+	<String ID="StatusRecordingFlight">비행이 기록되고 있습니다&#10;{0}를 종료하기 전에,&#10;시뮬레이터를 종료하거나 새로운 비행을 시작할 수 있습니다.</String>
+	<String ID="StatusRecordingFlightFailed">마지막 비행을 기록하는데 실패하였습니다...&#10;{0}가 새로운 비행을 기록하는 시도를 하는 중입니다. 하드디스크에 충분한 여유공간이 있는지 확인 해 주시기 바랍니다.</String>
+	<String ID="StatusRecordingFlightSucceeded">마지막 비행을 기록하는데 성공하였습니다!&#10;{0}를 종류하기 전 시뮬레이터를 종료하거나 새로운 비행을 시작할 수 있습니다.</String>
 
 	<!-- Controls -->
+
 	<String ID="ObjectsCountFormat">{0} 목표</String>
 	<String ID="UpdateSpeedFormat">{0} ms // {1} ms</String>
 	<String ID="ACMIFilesFolder">택뷰 ACMI 파일</String>
 	<String ID="IntroductionText">택뷰용 마이크로소프트 플라이트&#160;시뮬레이터 플라이트 레코더</String>
 
 	<!-- Options -->
+
 	<String ID="AutoLaunchText">자동 &amp;시작</String>
 	<String ID="AutoQuitText">자동 &amp;종료</String>
 
