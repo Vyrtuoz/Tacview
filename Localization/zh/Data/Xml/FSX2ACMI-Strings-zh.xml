@@ -9,8 +9,8 @@
 
 	<String ID="StatusSimConnectNotInstalled">未发现模拟飞行软件连接。&#10;请确认完整的微软模拟&#160;飞行&#160;X或洛克希德&#160;马丁Prepar3D在计算机上安装正确。</String>
 	<String ID="StatusWaitingForSimConnectFSX">{0}准备就绪！&#10;现在可以启动微软模拟&#160;飞行&#160;X或洛克希德&#160;马丁Prepar3D。</String>
-	<String ID="StatusWaitingForSimConnectMSFS">{0} is ready!&#10;You can now launch Microsoft Flight&#160;Simulator.</String>
-	<String ID="StatusWaitingForSimConnectWrongVersion">Please make sure you are using a version of Flight&#160;Simulator supported by {0}.</String>
+	<String ID="StatusWaitingForSimConnectMSFS">{0}准备就绪！&#10;现在可以启动微软模拟&#160;飞行。</String>
+	<String ID="StatusWaitingForSimConnectWrongVersion">请确认您使用的是{0}支持的模拟&#160;飞行版本。 </String>
 	<String ID="StatusWaitingForSimConnectFailed">本次飞行记录失败...&#10;重新启动模拟软件前，请确认硬盘上有足够的空间。</String>
 	<String ID="StatusWaitingForSimConnectSucceeded">本次飞行成功记录！&#10;现在可以关闭{0}或者重新启动模拟软件以记录另一次飞行。</String>
 	<String ID="StatusConnectedToSimConnect">{0}已连接模拟软件。&#10;现在可以开始飞行，&#10;它将被自动记录。</String>
