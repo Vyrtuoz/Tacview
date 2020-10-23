@@ -880,6 +880,7 @@
 	<String ID="UnitLabelMachNumber">Mach</String>
 	<String ID="UnitLabelAbsoluteAOA">AOA (°)</String>
 	<String ID="UnitLabelIndicatedAOA">AOA (°)</String>
+	<String ID="UnitLabelIndicatedAOS">AOS (°)</String>
 	<String ID="UnitLabelAbsoluteG">g-force (G)</String>
 	<String ID="UnitLabelIndicatedVerticalG">g-force (G)</String>
 	<String ID="UnitLabelIndicatedLateralG">Lateral g-force (G)</String>
