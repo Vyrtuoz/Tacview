@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.6.0\n"
+"Project-Id-Version: 1.8.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-02 18:36+0400\n"
-"PO-Revision-Date: 2020-02-01 01:10+0800\n"
+"PO-Revision-Date: 2020-10-26 10:24-0400\n"
 "Last-Translator: 张炯 'Billeinstein'\n"
 "Language-Team: ED Chinese Localization\n"
 "MIME-Version: 1.0\n"
@@ -11,139 +11,103 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language: zh\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.4.1\n"
 
-msgid "Tacview - The Universal Flight Analysis Tool"
-msgstr "Tacview - 通用飞行分析工具"
+msgid "Tacview Module Enabled"
+msgstr ""
 
-msgid "Tacview is a universal flight analysis tool which enables you to record, analyze, and understand any flight to improve your skills much faster than with conventional debriefings. From the novice pilot to the virtual squadron leader, it is an invaluable tool to understand what really happened and to improve piloting style and tactical skills."
-msgstr "Tacview是一个通用飞行分析工具，允许您记录、分析和理解任何飞行，相比常规报告更快的改进您的技能。从菜鸟飞行员到虚拟中队长，这是一个无价的工具，可以了解实际上发生了什么来改进驾驶风格和战术技巧。"
+msgid "Flight Data Recording"
+msgstr ""
 
-msgid "Record Flight Data"
-msgstr "记录飞行数据"
+msgid "Enabled"
+msgstr ""
 
-msgid "Create one file for each network client"
-msgstr "为每个客户端创建各自的文件"
+msgid "Single-Player Flights"
+msgstr ""
 
-msgid "Records a separate acmi file for each client connected to your server,"
-msgstr "为每个连接到服务器的客户端记录单独的acmi文件，"
+msgid "Multiplayer Flights – As Client"
+msgstr ""
 
-msgid "so each can be shared with your whole squadron later."
-msgstr "那样各个文件之后可以与你的整个中队共享。"
+msgid "Multiplayer Flights – As Host"
+msgstr ""
 
-msgid "Bookmark Shortcut"
-msgstr "书签快捷键"
+msgid "Bookmark Injection Shortcut"
+msgstr ""
 
-msgid "RAlt + B"
-msgstr "右Alt+B"
+msgid "Auto Discard Flights"
+msgstr ""
 
-msgid "Use this shortcut while flying to highlight a specific moment in Tacview log and timeline."
-msgstr "飞行时使用这个快捷键，在Tacview日志和时间线里标出特定的时刻。"
-
-msgid "NOTE: Works only when the flight is recorded by the local computer."
-msgstr "注意：仅在飞行由本地计算机记录时有效。"
-
-msgid "Playback Delay"
-msgstr "回放延时"
-
-msgid "None (real-time)"
-msgstr "无（实时）"
-
-msgid "1 minute"
-msgstr "1分钟"
-
-msgid "5 minutes"
-msgstr "5分钟"
-
-msgid "10 minutes"
-msgstr "10分钟"
-
-msgid "20 minutes"
-msgstr "20分钟"
-
-msgid "30 minutes"
-msgstr "30分钟"
-
-msgid "As the host of an online session, you can prevent cheating by forcing a delay before"
-msgstr "作为联机活动的主机，你可以防止作弊"
-
-msgid "clients can playback the flight they have recorded on their side."
-msgstr "在客户端侧播放其录制的回放前强制延时。"
-
-msgid "NOTE: Flights recorded in single player mode or by the host are not protected."
-msgstr "注意：单机游戏模式或主机的飞行记录不受保护。"
-
-msgid "Compression Level"
-msgstr "压缩级别"
-
-msgid "You may want to disable compression if your simulator crashes often and you need to load"
-msgstr "您可能需要禁用压缩，如果您的模拟器经常崩溃，或您需要加载"
-
-msgid "corrupted acmi files."
-msgstr "损坏的acmi文件。"
-
-msgid "not compressed"
-msgstr "未压缩"
-
-msgid "Profiling Period"
-msgstr "分析周期"
-
-msgid "Defines how often profiling data is output in the dcs.log file."
-msgstr "指定分析数据输出到dcs.log文件里的频率。"
+msgid "Advanced Options"
+msgstr ""
 
 msgid "Debug Mode"
 msgstr "调试模式"
 
-msgid "Records additional debug info for each object and event to help pinpoint specific issues."
-msgstr "为每个对象和事件录制附加的调试信息来帮助定位特定的问题。"
-
-msgid "Real-Time Telemetry TCP Port (42674)"
-msgstr "实时遥测TCP端口（42674）"
-
-msgid "Remote Control TCP Port (42675)"
-msgstr "遥控TCP端口（42675）"
-
-msgid "Customize TCP ports when running several DCS World instances"
-msgstr "同时使用数个DCS World实例时"
-
-msgid "at the same time. Set to 0 to disable."
-msgstr "自定义TCP端口。设置为0则禁用。"
-
-msgid "Host Telemetry Password"
-msgstr "主机遥测密码"
-
-msgid "As the host of an online session, you can authorize privileged clients to review"
-msgstr "作为联机活动的主机，你可以授权特定的客户端来回顾"
-
-msgid "right away any telemetry recorded from your server."
-msgstr "当前任何你服务器上的遥测记录。"
-
-msgid "Client Telemetry Password"
-msgstr "客户端遥测密码"
-
-msgid "Enter the Host Telemetry Password provided by the host of your online flight,"
-msgstr "输入联机飞行主机提供的主机遥测密码，"
-
-msgid "to get immediate access to any available telemetry data."
-msgstr "以获得可用遥测数据的直接访问。"
-
-msgid "Local Remote Control Password"
-msgstr "本地遥控密码"
+msgid "Tools"
+msgstr ""
 
 msgid "Terrain Export"
 msgstr "地形导出"
 
-msgid "NOTICE: SLOW OPERATION!"
-msgstr "注意：慢动作！"
+msgid "NOTICE: LONG OPERATION!"
+msgstr ""
 
 msgid "DO NOT forget to disable this option after successful export."
 msgstr "不要忘记在成功输出后禁用此选项。"
 
-msgid "Disabled"
-msgstr "禁用"
+msgid "Real-Time Telemetry"
+msgstr ""
+
+msgid "TCP Port (default 42674)"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "NOTE: Host password prioritized in multiplayer."
+msgstr ""
+
+msgid "Remote Control"
+msgstr ""
+
+msgid "TCP Port (default 42675)"
+msgstr ""
+
+msgid "Do not record any data"
+msgstr ""
+
+msgid "Record local player only"
+msgstr ""
+
+msgid "Record all available data"
+msgstr ""
+
+msgid "Record one file per client"
+msgstr ""
+
+msgid "Disabled (default)"
+msgstr ""
+
+msgid "Minimal"
+msgstr ""
+
+msgid "Full "
+msgstr ""
+
+msgid "Predefined Terrain"
+msgstr "预定义地形"
 
 msgid "Unknown Terrain"
 msgstr "未知地形"
 
-msgid "Predefined Terrain"
-msgstr "预定义地形"
+msgid "never"
+msgstr ""
+
+msgid "shorter than 10 sec (default)"
+msgstr ""
+
+msgid "shorter than 1 min"
+msgstr ""
+
+msgid "shorter than 5 min"
+msgstr ""

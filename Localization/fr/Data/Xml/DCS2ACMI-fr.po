@@ -1,149 +1,113 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.6.0\n"
+"Project-Id-Version: 1.8.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-02 18:36+0400\n"
-"PO-Revision-Date: 2017-05-18 19:04-0400\n"
+"PO-Revision-Date: 2020-10-26 10:21-0400\n"
 "Last-Translator: Vyrtuoz\n"
 "Language-Team: Tacview <support@tacview.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Language: fr\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 2.4.1\n"
 
-msgid "Tacview - The Universal Flight Analysis Tool"
-msgstr "Tacview - l’outil d’analyse de vol universel"
+msgid "Tacview Module Enabled"
+msgstr "Module Tacview activé"
 
-msgid "Tacview is a universal flight analysis tool which enables you to record, analyze, and understand any flight to improve your skills much faster than with conventional debriefings. From the novice pilot to the virtual squadron leader, it is an invaluable tool to understand what really happened and to improve piloting style and tactical skills."
-msgstr "Tacview est un outil d’analyse de vol universel qui vous permet d’enregistrer, analyser et comprendre tout vol afin d’améliorer vos compétences bien plus rapidement qu’à l’aide de débriefings conventionnels. Que ce soit pour le pilote prive ou le chef d'escadrille virtuelle, Tacview est un outil indispensable pour comprendre ce qui est réellement arrivé et pour améliorer aussi bien le style de pilotage que et les compétences tactiques."
+msgid "Flight Data Recording"
+msgstr "Enregistrement des données de vol"
 
-msgid "Record Flight Data"
-msgstr "Enregistrer les données de vol"
+msgid "Enabled"
+msgstr "Activé"
 
-msgid "Create one file for each network client"
-msgstr "Créer un fichier pour chaque client réseau"
+msgid "Single-Player Flights"
+msgstr "Vols solo"
 
-msgid "Records a separate acmi file for each client connected to your server,"
-msgstr "Enregistre un fichier acmi distinct pour chaque client connecté à votre serveur,"
+msgid "Multiplayer Flights – As Client"
+msgstr "Vols multijoueur – en tant que client"
 
-msgid "so each can be shared with your whole squadron later."
-msgstr "de façon à ce qu’ils puissent être partagés avec toute votre escadrille par la suite."
+msgid "Multiplayer Flights – As Host"
+msgstr "Vols multijoueur – en tain qu’hôte"
 
-msgid "Bookmark Shortcut"
-msgstr "Raccourcit signets"
+msgid "Bookmark Injection Shortcut"
+msgstr "Raccourcis injection signets"
 
-msgid "RAlt + B"
-msgstr "AltGr + B"
+msgid "Auto Discard Flights"
+msgstr "Rejet automatique des vols"
 
-msgid "Use this shortcut while flying to highlight a specific moment in Tacview log and timeline."
-msgstr "Utilisez ce raccourcit en vol pour souligner un moment spécifique dans la ligne de temps de Tacview."
-
-msgid "NOTE: Works only when the flight is recorded by the local computer."
-msgstr "NOTE : Fonctionne uniquement lorsque le vol est enregistré par l’ordinateur local."
-
-msgid "Playback Delay"
-msgstr "Retard de lecture"
-
-msgid "None (real-time)"
-msgstr "Aucun (temps réel)"
-
-msgid "1 minute"
-msgstr "1 minute"
-
-msgid "5 minutes"
-msgstr "5 minutes"
-
-msgid "10 minutes"
-msgstr "10 minutes"
-
-msgid "20 minutes"
-msgstr "20 minutes"
-
-msgid "30 minutes"
-msgstr "30 minutes"
-
-msgid "As the host of an online session, you can prevent cheating by forcing a delay before"
-msgstr "En tant qu’hôte d’une session réseau, vous pouvez prévenir la triche en forçant un délai avant"
-
-msgid "clients can playback the flight they have recorded on their side."
-msgstr "que les clients ne puissent rejouer le vol qui a été enregistré de leur côté."
-
-msgid "NOTE: Flights recorded in single player mode or by the host are not protected."
-msgstr "NOTE : Les vols enregistrés en mode solo ou par l’hôte d’une session réseau ne sont pas protégés."
-
-msgid "Compression Level"
-msgstr "Niveau de compression"
-
-msgid "You may want to disable compression if your simulator crashes often and you need to load"
-msgstr "Désactivez la compression si votre simulateur crashe fréquemment et que vous avez besoin"
-
-msgid "corrupted acmi files."
-msgstr "d’analyser des fichiers acmi corrompus."
-
-msgid "not compressed"
-msgstr "pas de compression"
-
-msgid "Profiling Period"
-msgstr "Période de profilage"
-
-msgid "Defines how often profiling data is output in the dcs.log file."
-msgstr "Définit la fréquence à laquelle les données de performance sont écrites dans le fichier dcs.log."
+msgid "Advanced Options"
+msgstr "Options avancées"
 
 msgid "Debug Mode"
 msgstr "Mode débogage"
 
-msgid "Records additional debug info for each object and event to help pinpoint specific issues."
-msgstr "Enregistre des infos additionnelles pour aider à corriger des problèmes particuliers."
-
-msgid "Real-Time Telemetry TCP Port (42674)"
-msgstr "Port TCP Télémétrie temps-réel (42674)"
-
-msgid "Remote Control TCP Port (42675)"
-msgstr "Port TCP Télécommande (42675)"
-
-msgid "Customize TCP ports when running several DCS World instances"
-msgstr "Personnalisez les ports TCP lorsque plusieurs instances de"
-
-msgid "at the same time. Set to 0 to disable."
-msgstr "DCS World sont exécutées en même temps. Utilisez 0 pour désactiver."
-
-msgid "Host Telemetry Password"
-msgstr "Mot de passe télémétrie hôte"
-
-msgid "As the host of an online session, you can authorize privileged clients to review"
-msgstr "En tant qu’hôte d’une session en ligne, vous pouvez autoriser certains clients"
-
-msgid "right away any telemetry recorded from your server."
-msgstr "à analyser sur le champ toute télémétrie enregistrée depuis votre partie."
-
-msgid "Client Telemetry Password"
-msgstr "Mot de passe télémétrie client"
-
-msgid "Enter the Host Telemetry Password provided by the host of your online flight,"
-msgstr "Entrez ici le mot de passe télémétrie l’hôte fournis par l’hôte de votre vol en ligne,"
-
-msgid "to get immediate access to any available telemetry data."
-msgstr "afin d’obtenir un accès immédiat à toute la télémétrie disponible."
-
-msgid "Local Remote Control Password"
-msgstr "Mot de passe télécommandes"
+msgid "Tools"
+msgstr "Outils"
 
 msgid "Terrain Export"
 msgstr "Export du terrain"
 
-msgid "NOTICE: SLOW OPERATION!"
+msgid "NOTICE: LONG OPERATION!"
 msgstr "AVERTISSEMENT: OPERATION LONGUE!"
 
 msgid "DO NOT forget to disable this option after successful export."
 msgstr "N’oubliez pas de désactiver cette option après un export réussi."
 
-msgid "Disabled"
-msgstr "Désactivé"
+msgid "Real-Time Telemetry"
+msgstr "Télémétrie temps-réel"
+
+msgid "TCP Port (default 42674)"
+msgstr "Port TCP (42674 par défaut)"
+
+msgid "Password"
+msgstr "Mot de passe"
+
+msgid "NOTE: Host password prioritized in multiplayer."
+msgstr "NOTE : Le mode de passe de l’hôte a priorité en multijoueur."
+
+msgid "Remote Control"
+msgstr "Télécommande"
+
+msgid "TCP Port (default 42675)"
+msgstr "Port TCP (42675 par défaut)"
+
+msgid "Do not record any data"
+msgstr "Ne rien enregistrer"
+
+msgid "Record local player only"
+msgstr "Enregistrer seulement le joueur local"
+
+msgid "Record all available data"
+msgstr "Enregistrer toutes les données disponibles"
+
+msgid "Record one file per client"
+msgstr "Enregistrer un fichier pour chaque client"
+
+msgid "Disabled (default)"
+msgstr "Désactivé (par défaut)"
+
+msgid "Minimal"
+msgstr "Minimal"
+
+msgid "Full "
+msgstr "Complet"
+
+msgid "Predefined Terrain"
+msgstr "Terrain prédéfini"
 
 msgid "Unknown Terrain"
 msgstr "Terrain inconnu"
 
-msgid "Predefined Terrain"
-msgstr "Terrain prédéfini"
+msgid "never"
+msgstr "jamais"
+
+msgid "shorter than 10 sec (default)"
+msgstr "plus court que 10 sec (par default)"
+
+msgid "shorter than 1 min"
+msgstr "plus court que 1 minute"
+
+msgid "shorter than 5 min"
+msgstr "plus court que 5 minutes"
