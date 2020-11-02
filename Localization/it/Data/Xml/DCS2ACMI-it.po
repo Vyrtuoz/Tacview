@@ -25,10 +25,10 @@ msgstr ""
 msgid "Single-Player Flights"
 msgstr ""
 
-msgid "Multiplayer Flights – As Client"
+msgid "Multiplayer Flights â€“ As Client"
 msgstr ""
 
-msgid "Multiplayer Flights – As Host"
+msgid "Multiplayer Flights â€“ As Host"
 msgstr ""
 
 msgid "Bookmark Injection Shortcut"
