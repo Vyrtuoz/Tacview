@@ -15,6 +15,6 @@
 	<String ID="FSX2ACMIShortcutHelp">Microsoft Flight Simulator X rejestrator lotu dla Tacview</String>
 
 	<String ID="MSFS2ACMIShortcutName">MSFS2ACMI (Microsoft Flight Simulator)</String>
-	<String ID="MSFS2ACMIShortcutHelp">Microsoft Flight Simulator flight recorder for Tacview</String>
+	<String ID="MSFS2ACMIShortcutHelp">Microsoft Flight Simulator rejestrator lotu dla Tacview</String>
 
 </Resources>

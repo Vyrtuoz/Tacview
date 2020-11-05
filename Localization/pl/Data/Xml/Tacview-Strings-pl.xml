@@ -411,11 +411,11 @@
 
 	<String ID="NavaidsLabelsText">Etykiety pomocy nawigacyjnej</String>
 	<String ID="NavaidsLabelsAlwaysText">Zawsze</String>
-	<String ID="NavaidsLabelsAlwaysHelp">Wyświetl wszystkie etykety pomocy nawigacyjnej</String>
+	<String ID="NavaidsLabelsAlwaysHelp">Pokarz wszystkie etykety pomocy nawigacyjnej</String>
 	<String ID="NavaidsLabelsSelectedOnlyText">Tylko wybrane</String>
-	<String ID="NavaidsLabelsSelectedOnlyHelp">Wyświetl tylko wybrane etykiety pomocy nawigacyjnej</String>
-	<String ID="DisplayRadarLocksLabelsText">Display Labels</String>
-	<String ID="DisplayRadarLocksLabelsHelp">Display detailed lock information when available</String>
+	<String ID="NavaidsLabelsSelectedOnlyHelp">Pokarz tylko wybrane etykiety pomocy nawigacyjnej</String>
+	<String ID="DisplayRadarLocksLabelsText">Pokarz etykiety</String>
+	<String ID="DisplayRadarLocksLabelsHelp">Pokarz szczegółowe informacje dotyczące lokowania, kiedy będą dostępne</String>
 
 	<String ID="AbsoluteTimeHelp">Czas bezwzględny</String>
 	<String ID="AbsoluteTimeText">Czas</String>
