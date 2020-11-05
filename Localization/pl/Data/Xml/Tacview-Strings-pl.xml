@@ -464,10 +464,10 @@
 	<String ID="OnlineDebriefingStatusConnecting">Poszukuje odprawy, proszę czekać...</String>
 	<String ID="OnlineDebriefingStatusFailedToJoin">⚠ Nie udało się podłączyć, sprawdź adres i numer portu.</String>
 	<String ID="OnlineDebriefingStatusFailedToHost">⚠ Nie udało się udostępnić sesji. Użyj innego portu, aby udostępnić kilka sesji na tym samum komputerze.</String>
-	<String ID="OnlineDebriefingStatusInvalidProtocol">⚠ Protokół nie wspierany. Używasz tej samej wersji Tacview?</String>
+	<String ID="OnlineDebriefingStatusInvalidProtocol">⚠ Protokół niewspierany. Używasz tej samej wersji Tacview?</String>
 	<String ID="OnlineDebriefingStatusInvalidPassword">⚠ Błędne hasło. Probowałeś skopiować/wkleić hasło, aby uniknąć literówek?</String>
-	<String ID="OnlineDebriefingHostTip">Shift+klik aby zwrócić uwagę widzów</String>
-	<String ID="OnlineDebriefingClientTip">naciśnij Alt+Enter aby przełączyć w tryb pełnoekranowy</String>
+	<String ID="OnlineDebriefingHostTip">Shift+klik, aby zwrócić uwagę widzów</String>
+	<String ID="OnlineDebriefingClientTip">naciśnij Alt+Enter, aby przełączyć w tryb pełnoekranowy</String>
 	<String ID="OnlineDebriefingControlGivenTip">{0} tymczasowo zarządza odprawą</String>
 	<String ID="OnlineDebriefingControlReceivedTip">Tymczasowo zarządzasz odprawą</String>
 
@@ -509,23 +509,23 @@
 	<String ID="RemoteControlToggleFocus">Przełącz focus</String>
 	<String ID="RemoteControlExclusiveFocus">Wyłączny Focus</String>
 
-	<String ID="RealTimeTelemetryTitle">Real-time Telemetry</String>
-	<String ID="RealTimeTelemetryIntro">Establish a connection with a data recorder to review telemetry data in real-time!</String>
-	<String ID="RealTimeTelemetryUsername">Choose a User Name :</String>
-	<String ID="RealTimeTelemetryAddress">Data Recorder Address :</String>
-	<String ID="RealTimeTelemetryPort">Data Recorder Port :</String>
-	<String ID="RealTimeTelemetryWarningClient">Only Tacview Advanced can record real-time telemetry.</String>
-	<String ID="RealTimeTelemetryPasswordTip">A password may be required to join a private session</String>
-	<String ID="RealTimeTelemetryRecordingConnecting">Waiting for {1}&#xA;{0}</String>
-	<String ID="RealTimeTelemetryRecordingProgress">Recording from {1}&#xA;{0}</String>
-	<String ID="RealTimeTelemetryOperationCompleted">Real-time telemetry recording complete.</String>
-	<String ID="RealTimeTelemetryOperationFailed">Failed to connect real-time telemetry to given host address.</String>
-	<String ID="RealTimeTelemetryUnsupportedOperation">Real-time telemetry not compatible with the host exporter.</String>
-	<String ID="RealTimeTelemetryInvalidParameters">Invalid real-time telemetry password.</String>
-	<String ID="RealTimeTelemetryNotSynchronized">Playback is currently not synchronized with real-time telemetry.</String>
-	<String ID="RealTimeTelemetryConnect">Connect</String>
-	<String ID="RealTimeTelemetryDisconnect">Disconnect</String>
-	<String ID="RealTimeTelemetryAutoReconnect">Auto Reconnect</String>
+	<String ID="RealTimeTelemetryTitle">Telemetria czasu rzeczywistego</String>
+	<String ID="RealTimeTelemetryIntro">Nawiąrz połączenie z nagraniem, aby przejrzeć dane telemetryczne w czasie rzeczywistym!</String>
+	<String ID="RealTimeTelemetryUsername">Wybierz nazwę użytkownika :</String>
+	<String ID="RealTimeTelemetryAddress">Adres do danych :</String>
+	<String ID="RealTimeTelemetryPort">Port dla danych :</String>
+	<String ID="RealTimeTelemetryWarningClient">Tylko Tacview Advanced może nagrywać telemetrię czasu rzeczywistego.</String>
+	<String ID="RealTimeTelemetryPasswordTip">Hasło może być wymagane, aby podłączyć się do prywatnej sesji</String>
+	<String ID="RealTimeTelemetryRecordingConnecting">Czekam na {1}&#xA;{0}</String>
+	<String ID="RealTimeTelemetryRecordingProgress">Nagrywam z {1}&#xA;{0}</String>
+	<String ID="RealTimeTelemetryOperationCompleted">Nagranie telemetrii zakończone.</String>
+	<String ID="RealTimeTelemetryOperationFailed">Błąd połączenia do adresu z telemetrią czasu rzeczywistego.</String>
+	<String ID="RealTimeTelemetryUnsupportedOperation">Telemetria czasu rzeczywistego nie jest kompatybilna z danymi wyeksportowanymi.</String>
+	<String ID="RealTimeTelemetryInvalidParameters">Nie poprawne hasło do telemetrii czasu rzeczywistego.</String>
+	<String ID="RealTimeTelemetryNotSynchronized">Odtwarzanie nie jest obecnie zsynchronizowane telemetria czasu rzeczywistego.</String>
+	<String ID="RealTimeTelemetryConnect">Połącz</String>
+	<String ID="RealTimeTelemetryDisconnect">Rozłącz</String>
+	<String ID="RealTimeTelemetryAutoReconnect">Auto połączenie</String>
 
 	<String ID="AddEditObjectAddTitle">Create New Object</String>
 	<String ID="AddEditObjectEditTitle">Edit Object Properties</String>
