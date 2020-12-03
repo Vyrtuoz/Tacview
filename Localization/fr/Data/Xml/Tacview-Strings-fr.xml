@@ -27,6 +27,8 @@
 	<String ID="RecordingMenuHelp">Définir les paramètres d'enregistrement des vols</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Télémétrie en temps-réel...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">Enregistrer un vol actuellement en cours</String>
+	<String ID="RecordingADSBTelemetryCmdText">Télémétrie ADS-B...</String>
+	<String ID="RecordingADSBTelemetryCmdHelp">Enregistrer télémétrie ADS-B à l’aide un récepteur radio</String>
 	<String ID="RecordingRemoteControl0Text">Télécommande 1</String>
 	<String ID="RecordingRemoteControl1Text">Télécommande 2</String>
 	<String ID="RecordingRemoteControl2Text">Télécommande 3</String>
@@ -224,21 +226,17 @@
 	<String ID="MousePositionHelp">Affiche la latitude, longitude et position bullseye du curseur de la souris</String>
 
 	<String ID="SelectedObjectsTelemetryText">Etiquettes objets sélectionnés</String>
-	<String ID="AircraftsTelemetryText">Etiquettes aéronefs non sélectionnés</String>
+	<String ID="AircraftTelemetryText">Etiquettes aéronefs non sélectionnés</String>
 	<String ID="LabelOnAllGroundObjectsText">Etiqueter tous les objets terrestres</String>
 	<String ID="LabelOnAllGroundObjectsHelp">Afficher les étiquettes pour tous les objets terrestres en plus des menaces anti-aériennes</String>
 	<String ID="ForceSelectedObjetsLabelsText">Forcer étiquettes des objets sélectionnés</String>
 	<String ID="ForceSelectedObjetsLabelsHelp">Toujours afficher les étiquettes des objets sélectionnés peu importe les préférences globales</String>
+	<String ID="DeclutterUnselectedAircraftTelemetryText">Désencombrer télémétrie objets non sélectionnés</String>
+	<String ID="DeclutterUnselectedAircraftTelemetryHelp">Sélectionner cette option pour désencombrer un champ de bataille chargé</String>
 
 	<String ID="LabelsScaleText">Echelle des étiquettes</String>
 	<String ID="ScaleAutoText">Auto</String>
 	<String ID="ScaleAutoHelp">La taille sera fonction de la dimension de la vue 3D</String>
-	<String ID="Scale1Text">Petit</String>
-	<String ID="Scale1Help">Taille par défaut</String>
-	<String ID="Scale2Text">Moyen</String>
-	<String ID="Scale2Help">Deux fois plus grand que la taille par défaut</String>
-	<String ID="Scale3Text">Grand</String>
-	<String ID="Scale3Help">Quatre fois plus grand que la taille par défaut</String>
 
 	<String ID="HelpMenuTooltip">Aide</String>
 	<String ID="HelpMenuHelp">Aide et informations générales à propos de ce programme</String>
@@ -527,6 +525,9 @@
 	<String ID="RealTimeTelemetryDisconnect">Déconnecter</String>
 	<String ID="RealTimeTelemetryAutoReconnect">Reconnexion automatique</String>
 
+	<String ID="ADSBTelemetryTitle">Télémétrie ADS-B</String>
+	<String ID="ADSBTelemetryIntro">Ecoute les signaux radio ADS-B 1090MHz pour afficher les aéronefs des alentour en temps réel !</String>
+
 	<String ID="AddEditObjectAddTitle">Créer un nouvel objet</String>
 	<String ID="AddEditObjectEditTitle">Editer les propriétés d’un objet</String>
 	<String ID="AddEditObjectHelp">Documentation sur les objets et leurs propriétés</String>
@@ -551,6 +552,7 @@
 	<String ID="BullseyeType">(Bullseye)</String>
 	<String ID="FixedWingType">(Aéroplane)</String>
 	<String ID="RotorcraftType">(Voilure tournante)</String>
+	<String ID="SpacecraftType">(Véhicule spatial)</String>
 	<String ID="MissileType">(Missile)</String>
 	<String ID="BombType">(Bombe)</String>
 	<String ID="AntiAircraftType">(Défense antiaérienne: AAA/SAM)</String>

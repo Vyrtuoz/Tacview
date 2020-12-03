@@ -28,6 +28,8 @@
 	<String ID="RecordingMenuHelp">设置飞行数据记录</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;实时遥测...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">记录当前正在进行的飞行</String>
+	<String ID="RecordingADSBTelemetryCmdText">ADS-B Telemetry...</String>
+	<String ID="RecordingADSBTelemetryCmdHelp">Record ADS-B telemetry over the air</String>
 	<String ID="RecordingRemoteControl0Text">遥控1</String>
 	<String ID="RecordingRemoteControl1Text">遥控2</String>
 	<String ID="RecordingRemoteControl2Text">遥控3</String>
@@ -225,21 +227,17 @@
 	<String ID="MousePositionHelp">显示鼠标光标的纬度、经度和靶眼位置</String>
 
 	<String ID="SelectedObjectsTelemetryText">已选物体标签</String>
-	<String ID="AircraftsTelemetryText">未选飞机标签</String>
+	<String ID="AircraftTelemetryText">未选飞机标签</String>
 	<String ID="LabelOnAllGroundObjectsText">标签所有地面物体</String>
 	<String ID="LabelOnAllGroundObjectsHelp">在所有地面物体及防空威胁上显示标签</String>
 	<String ID="ForceSelectedObjetsLabelsText">强制已选物体标签</String>
 	<String ID="ForceSelectedObjetsLabelsHelp">忽略全局设置总是显示已选物体标签</String>
+	<String ID="DeclutterUnselectedAircraftTelemetryText">Declutter Unselected Aircraft Telemetry</String>
+	<String ID="DeclutterUnselectedAircraftTelemetryHelp">Select this option to declutter a large battlefield</String>
 
 	<String ID="LabelsScaleText">标签大小</String>
 	<String ID="ScaleAutoText">自动</String>
 	<String ID="ScaleAutoHelp">大小会根据视口的尺寸变化</String>
-	<String ID="Scale1Text">小</String>
-	<String ID="Scale1Help">默认比例</String>
-	<String ID="Scale2Text">中</String>
-	<String ID="Scale2Help">是默认尺寸的两倍</String>
-	<String ID="Scale3Text">大</String>
-	<String ID="Scale3Help">是默认尺寸的四倍</String>
 
 	<String ID="HelpMenuTooltip">帮助</String>
 	<String ID="HelpMenuHelp">显示关于此程序的帮助和通用信息</String>
@@ -545,6 +543,9 @@
 	<String ID="RealTimeTelemetryDisconnect">断开连接</String>
 	<String ID="RealTimeTelemetryAutoReconnect">自动重新连接</String>
 
+	<String ID="ADSBTelemetryTitle">ADS-B Telemetry</String>
+	<String ID="ADSBTelemetryIntro">Listens to 1090MHz ADS-B radio signals to display aircraft around you in real-time!</String>
+
 	<String ID="AddEditObjectAddTitle">创建一个新物体</String>
 	<String ID="AddEditObjectEditTitle">编辑物体属性</String>
 	<String ID="AddEditObjectHelp">物体和属性文档</String>
@@ -569,6 +570,7 @@
 	<String ID="BullseyeType">(靶眼)</String>
 	<String ID="FixedWingType">(固定翼航空器)</String>
 	<String ID="RotorcraftType">(旋翼机)</String>
+	<String ID="SpacecraftType">(Spacecraft)</String>
 	<String ID="MissileType">(导弹)</String>
 	<String ID="BombType">(炸弹)</String>
 	<String ID="AntiAircraftType">(防空: AAA/SAM)</String>

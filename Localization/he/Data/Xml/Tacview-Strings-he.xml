@@ -28,6 +28,8 @@
 	<String ID="RecordingMenuHelp">בחר הגדרות הקלטת נתוני טיסה</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Real-Time Telemetry...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">Record a flight currently in progress</String>
+	<String ID="RecordingADSBTelemetryCmdText">ADS-B Telemetry...</String>
+	<String ID="RecordingADSBTelemetryCmdHelp">Record ADS-B telemetry over the air</String>
 	<String ID="RecordingRemoteControl0Text">Remote Control 1</String>
 	<String ID="RecordingRemoteControl1Text">Remote Control 2</String>
 	<String ID="RecordingRemoteControl2Text">Remote Control 3</String>
@@ -225,21 +227,17 @@
 	<String ID="MousePositionHelp">Display latitude, longitude and bullseye position of the mouse cursor</String>
 
 	<String ID="SelectedObjectsTelemetryText">תוויות אובייקט שנבחרו</String>
-	<String ID="AircraftsTelemetryText">תוויות אוביקט שלא נבחרו</String>
+	<String ID="AircraftTelemetryText">תוויות אוביקט שלא נבחרו</String>
 	<String ID="LabelOnAllGroundObjectsText">הצג תוויות לכל האוביקטים הקרקעיים</String>
 	<String ID="LabelOnAllGroundObjectsHelp">הצג תוויות עבור כל האובייקטים הקרקעיים, בנוסף לאיומי המטוסים</String>
-	<String ID="ForceSelectedObjetsLabelsText">Force selected objects labels</String>
+	<String ID="ForceSelectedObjetsLabelsText">Force Selected Objects Labels</String>
 	<String ID="ForceSelectedObjetsLabelsHelp">Always display select objects labels regardless of the global preference</String>
+	<String ID="DeclutterUnselectedAircraftTelemetryText">Declutter Unselected Aircraft Telemetry</String>
+	<String ID="DeclutterUnselectedAircraftTelemetryHelp">Select this option to declutter a large battlefield</String>
 
 	<String ID="LabelsScaleText">גודל תווית</String>
 	<String ID="ScaleAutoText">אוטומטי</String>
 	<String ID="ScaleAutoHelp">גודל התוויות יישתנה אוטומטית בהתאם למימדי התצוגה</String>
-	<String ID="Scale1Text">קטן</String>
-	<String ID="Scale1Help">גודל ברירת המחדל</String>
-	<String ID="Scale2Text">Medium</String>
-	<String ID="Scale2Help">גודל כפול מגודל ברירת המחדל</String>
-	<String ID="Scale3Text">גדול</String>
-	<String ID="Scale3Help">Four times larger than the default size</String>
 
 	<String ID="HelpMenuTooltip">עזרה</String>
 	<String ID="HelpMenuHelp">עזרה ונתונים כלליים של התוכנה</String>
@@ -528,6 +526,9 @@
 	<String ID="RealTimeTelemetryDisconnect">Disconnect</String>
 	<String ID="RealTimeTelemetryAutoReconnect">Auto Reconnect</String>
 
+	<String ID="ADSBTelemetryTitle">ADS-B Telemetry</String>
+	<String ID="ADSBTelemetryIntro">Listens to 1090MHz ADS-B radio signals to display aircraft around you in real-time!</String>
+
 	<String ID="AddEditObjectAddTitle">Create New Object</String>
 	<String ID="AddEditObjectEditTitle">Edit Object Properties</String>
 	<String ID="AddEditObjectHelp">Objects and properties documentation</String>
@@ -552,6 +553,7 @@
 	<String ID="BullseyeType">(Bullseye)</String>
 	<String ID="FixedWingType">(Fixed Wing Aircraft)</String>
 	<String ID="RotorcraftType">(Rotorcraft)</String>
+	<String ID="SpacecraftType">(Spacecraft)</String>
 	<String ID="MissileType">(Missile)</String>
 	<String ID="BombType">(Bomb)</String>
 	<String ID="AntiAircraftType">(Anti-Aircraft: AAA/SAM)</String>

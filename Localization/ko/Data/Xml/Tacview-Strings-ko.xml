@@ -28,6 +28,8 @@
 	<String ID="RecordingMenuHelp">비행 데이터 기록 설정하기</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;실시간 텔레메트리...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">현재 진행중인 비행을 녹화하기</String>
+	<String ID="RecordingADSBTelemetryCmdText">ADS-B Telemetry...</String>
+	<String ID="RecordingADSBTelemetryCmdHelp">Record ADS-B telemetry over the air</String>
 	<String ID="RecordingRemoteControl0Text">원격 컨트롤 1</String>
 	<String ID="RecordingRemoteControl1Text">원격 컨트롤 2</String>
 	<String ID="RecordingRemoteControl2Text">원격 컨트롤 3</String>
@@ -225,21 +227,17 @@
 	<String ID="MousePositionHelp">Display latitude, longitude and bullseye position of the mouse cursor</String>
 
 	<String ID="SelectedObjectsTelemetryText">선택 된 오브젝트의 라벨</String>
-	<String ID="AircraftsTelemetryText">선택되지 않은 기체의 라벨</String>
+	<String ID="AircraftTelemetryText">선택되지 않은 기체의 라벨</String>
 	<String ID="LabelOnAllGroundObjectsText">지상 모든 물체에 라벨 켜기</String>
 	<String ID="LabelOnAllGroundObjectsHelp">대-기체용 위협을 포함한 모든 지상 물체들의 라벨 켜기</String>
 	<String ID="ForceSelectedObjetsLabelsText">선택 오브젝트의 라벨을 강제로 켜기</String>
 	<String ID="ForceSelectedObjetsLabelsHelp">전역 설정에 상관없이 항상 선택된 오브젝트의 라벨을 켜줌</String>
+	<String ID="DeclutterUnselectedAircraftTelemetryText">Declutter Unselected Aircraft Telemetry</String>
+	<String ID="DeclutterUnselectedAircraftTelemetryHelp">Select this option to declutter a large battlefield</String>
 
 	<String ID="LabelsScaleText">라벨 확대 및 축소</String>
 	<String ID="ScaleAutoText">자동</String>
 	<String ID="ScaleAutoHelp">뷰포트의 영역에 따라 자동적으로 스케일이 결정 됨</String>
-	<String ID="Scale1Text">작게</String>
-	<String ID="Scale1Help">기본 크기</String>
-	<String ID="Scale2Text">중간</String>
-	<String ID="Scale2Help">기본 크기보다 두 배의 크기</String>
-	<String ID="Scale3Text">크게</String>
-	<String ID="Scale3Help">기본 크기보다 네 배의 크기</String>
 
 	<String ID="HelpMenuTooltip">도움말</String>
 	<String ID="HelpMenuHelp">이 프로그램에 대한 일반적인 정보와 도움말 켜기</String>
@@ -544,6 +542,9 @@
 	<String ID="RealTimeTelemetryDisconnect">접속해제</String>
 	<String ID="RealTimeTelemetryAutoReconnect">Auto Reconnect</String>
 
+	<String ID="ADSBTelemetryTitle">ADS-B Telemetry</String>
+	<String ID="ADSBTelemetryIntro">Listens to 1090MHz ADS-B radio signals to display aircraft around you in real-time!</String>
+
 	<String ID="AddEditObjectAddTitle">신규 오브젝트 생성</String>
 	<String ID="AddEditObjectEditTitle">오브젝트 속성 편집</String>
 	<String ID="AddEditObjectHelp">오브젝트와 속성 문서</String>
@@ -568,6 +569,7 @@
 	<String ID="BullseyeType">(Bullseye)</String>
 	<String ID="FixedWingType">(Fixed Wing Aircraft)</String>
 	<String ID="RotorcraftType">(Rotorcraft)</String>
+	<String ID="SpacecraftType">(Spacecraft)</String>
 	<String ID="MissileType">(Missile)</String>
 	<String ID="BombType">(Bomb)</String>
 	<String ID="AntiAircraftType">(Anti-Aircraft: AAA/SAM)</String>
