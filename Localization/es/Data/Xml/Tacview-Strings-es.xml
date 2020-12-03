@@ -28,6 +28,8 @@
 	<String ID="RecordingMenuHelp">Configurar los datos de vuelo a grabar</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Telemetría en tiempo real...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">Grabar un vuelo actualmente en proceso</String>
+	<String ID="RecordingADSBTelemetryCmdText">ADS-B Telemetry...</String>
+	<String ID="RecordingADSBTelemetryCmdHelp">Record ADS-B telemetry over the air</String>
 	<String ID="RecordingRemoteControl0Text">Control remoto 1</String>
 	<String ID="RecordingRemoteControl1Text">Control remoto 2</String>
 	<String ID="RecordingRemoteControl2Text">Control remoto 3</String>
@@ -225,21 +227,17 @@
 	<String ID="MousePositionHelp">Mostrar latitud, longitud y posicion bullseye del cursor del raton</String>
 
 	<String ID="SelectedObjectsTelemetryText">Etiquetas de los objetos seleccionados</String>
-	<String ID="AircraftsTelemetryText">Etiquetas de los objetos no seleccionados</String>
+	<String ID="AircraftTelemetryText">Etiquetas de los objetos no seleccionados</String>
 	<String ID="LabelOnAllGroundObjectsText">Etiquetar todos los objetos terrestres</String>
 	<String ID="LabelOnAllGroundObjectsHelp">Mostrar todas las etiquetas de los objetos terrestres en adición a las amenazas antiaéreas</String>
 	<String ID="ForceSelectedObjetsLabelsText">Forzar etiquetas de objetos seleccionados</String>
 	<String ID="ForceSelectedObjetsLabelsHelp">Mostrar siempre etiquetas de objetos de selección independientemente de la preferencia global</String>
+	<String ID="DeclutterUnselectedAircraftTelemetryText">Declutter Unselected Aircraft Telemetry</String>
+	<String ID="DeclutterUnselectedAircraftTelemetryHelp">Select this option to declutter a large battlefield</String>
 
 	<String ID="LabelsScaleText">Escala de etiquetado</String>
 	<String ID="ScaleAutoText">Automático</String>
 	<String ID="ScaleAutoHelp">La escala cambiara acorde las dimensiones del punto de visión</String>
-	<String ID="Scale1Text">Pequeño</String>
-	<String ID="Scale1Help">Tamaño por defecto</String>
-	<String ID="Scale2Text">Medio</String>
-	<String ID="Scale2Help">El doble de grande que el tamaño por defecto</String>
-	<String ID="Scale3Text">Grande</String>
-	<String ID="Scale3Help">Cuatro veces mayor que el tamaño predeterminado</String>
 
 	<String ID="HelpMenuTooltip">Ayuda</String>
 	<String ID="HelpMenuHelp">Muestra la ayuda e información general sobre el programa</String>
@@ -528,6 +526,9 @@
 	<String ID="RealTimeTelemetryDisconnect">Desconectar</String>
 	<String ID="RealTimeTelemetryAutoReconnect">Auto Reconectar</String>
 
+	<String ID="ADSBTelemetryTitle">ADS-B Telemetry</String>
+	<String ID="ADSBTelemetryIntro">Listens to 1090MHz ADS-B radio signals to display aircraft around you in real-time!</String>
+
 	<String ID="AddEditObjectAddTitle">Crear nuevo objeto</String>
 	<String ID="AddEditObjectEditTitle">Editar propiedades del objeto</String>
 	<String ID="AddEditObjectHelp">Documentación de objetos y propiedades</String>
@@ -552,6 +553,7 @@
 	<String ID="BullseyeType">(Bullseye)</String>
 	<String ID="FixedWingType">(Aeronave de ala fija)</String>
 	<String ID="RotorcraftType">(Helicoptero)</String>
+	<String ID="SpacecraftType">(Spacecraft)</String>
 	<String ID="MissileType">(Misil)</String>
 	<String ID="BombType">(Bomba)</String>
 	<String ID="AntiAircraftType">(Anti-Aircraft: AAA/SAM)</String>
@@ -684,6 +686,7 @@
 	<String ID="CommandLineBehavior">Comportamiento general</String>
 	<String ID="CommandLineSpecial">Opciones avanzadas</String>
 	<String ID="CmdOpenHelp">Abrir un archive existente.</String>
+	<String ID="CmdOpenMediaHelp">Open a media file in the corresponding window (1 to 4).</String>
 	<String ID="CmdMergeHelp">Mezclar un archivo existente con los datos actualmente cargados...</String>
 	<String ID="CmdSaveHelp">Guardar el vuelo en un formato de alta compresión.</String>
 	<String ID="CmdExportFlightLogHelp">Exportar el registro de vuelo como archive XML o CSV.</String>

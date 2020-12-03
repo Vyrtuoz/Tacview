@@ -28,6 +28,8 @@
 	<String ID="RecordingMenuHelp">Задать свойства записи полёта</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Телеметрия в реальном времени...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">Записать текущий полет</String>
+	<String ID="RecordingADSBTelemetryCmdText">ADS-B Telemetry...</String>
+	<String ID="RecordingADSBTelemetryCmdHelp">Record ADS-B telemetry over the air</String>
 	<String ID="RecordingRemoteControl0Text">Удаленное управление 1</String>
 	<String ID="RecordingRemoteControl1Text">Удаленное управление 2</String>
 	<String ID="RecordingRemoteControl2Text">Удаленное управление 3</String>
@@ -225,21 +227,17 @@
 	<String ID="MousePositionHelp">Display latitude, longitude and bullseye position of the mouse cursor</String>
 
 	<String ID="SelectedObjectsTelemetryText">Метки выбранных объектов</String>
-	<String ID="AircraftsTelemetryText">Метки невыбранных самолётов</String>
+	<String ID="AircraftTelemetryText">Метки невыбранных самолётов</String>
 	<String ID="LabelOnAllGroundObjectsText">Отметить все наземные объекты</String>
 	<String ID="LabelOnAllGroundObjectsHelp">Отображать метки на всех наземных объектах, включая ПВО</String>
 	<String ID="ForceSelectedObjetsLabelsText">Принудительно отображать метки выбранных объектов</String>
 	<String ID="ForceSelectedObjetsLabelsHelp">Всегда отображать метки выбранных объектов, независимо от глобальных настроек</String>
+	<String ID="DeclutterUnselectedAircraftTelemetryText">Declutter Unselected Aircraft Telemetry</String>
+	<String ID="DeclutterUnselectedAircraftTelemetryHelp">Select this option to declutter a large battlefield</String>
 
 	<String ID="LabelsScaleText">Размер меток</String>
 	<String ID="ScaleAutoText">Авто</String>
 	<String ID="ScaleAutoHelp">Масштаб изменится сообразно размеру окна просмотра</String>
-	<String ID="Scale1Text">Маленький</String>
-	<String ID="Scale1Help">По умолчанию</String>
-	<String ID="Scale2Text">Средний</String>
-	<String ID="Scale2Help">Вдвое больше</String>
-	<String ID="Scale3Text">Большой</String>
-	<String ID="Scale3Help">Вчетверо больше исходного размера</String>
 
 	<String ID="HelpMenuTooltip">Помощь</String>
 	<String ID="HelpMenuHelp">Отображать подсказки и общую информацию о программе</String>
@@ -528,6 +526,9 @@
 	<String ID="RealTimeTelemetryDisconnect">Отключиться</String>
 	<String ID="RealTimeTelemetryAutoReconnect">Автоподключение</String>
 
+	<String ID="ADSBTelemetryTitle">ADS-B Telemetry</String>
+	<String ID="ADSBTelemetryIntro">Listens to 1090MHz ADS-B radio signals to display aircraft around you in real-time!</String>
+
 	<String ID="AddEditObjectAddTitle">Создать новый объект</String>
 	<String ID="AddEditObjectEditTitle">Редактировать свойства объекта</String>
 	<String ID="AddEditObjectHelp">Документация по объектам и их параметрам</String>
@@ -552,6 +553,7 @@
 	<String ID="BullseyeType">(условный ориентир)</String>
 	<String ID="FixedWingType">(ЛА с фиксированным крылом)</String>
 	<String ID="RotorcraftType">(Rotorcraft)</String>
+	<String ID="SpacecraftType">(Spacecraft)</String>
 	<String ID="MissileType">(Missile)</String>
 	<String ID="BombType">(Bomb)</String>
 	<String ID="AntiAircraftType">(Anti-Aircraft: AAA/SAM)</String>
@@ -684,6 +686,7 @@
 	<String ID="CommandLineBehavior">Общее поведение</String>
 	<String ID="CommandLineSpecial">Дополнительные опции</String>
 	<String ID="CmdOpenHelp">Открыть существующую запись.</String>
+	<String ID="CmdOpenMediaHelp">Open a media file in the corresponding window (1 to 4).</String>
 	<String ID="CmdMergeHelp">Объединить существующую запись со всеми текущими данными.</String>
 	<String ID="CmdSaveHelp">Сохранить запись в формате с высоким сжатием.</String>
 	<String ID="CmdExportFlightLogHelp">Экспортировать журнал в виде .xml или .csv.</String>
