@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.1">
+
+	<!-- Core Declarations -->
+
+	<DefaultProperties Id="Core.Spacecraft.Crewed" Base="Core.Spacecraft">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Core.Spacecraft.Satellite" Base="Core.Spacecraft">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Core.Spacecraft.Probe" Base="Core.Spacecraft">
+	</DefaultProperties>
+
+	<!-- Civilian Satellites -->
+
+	<DefaultProperties Id="Spacecraft.Navstar" Base="Core.Spacecraft.Satellite">
+		<Criteria>
+			<Name>Navstar</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Navstar</ShortName>
+			<LongName>Navstar</LongName>
+			<FullName>Navstar</FullName>
+			<Shape>Spacecraft.Navstar-3.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Spacecraft.Navstar-3" Base="Spacecraft.Navstar">
+		<Criteria>
+			<Name>Navstar-3</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Navstar-3</ShortName>
+			<LongName>Navstar-3</LongName>
+			<FullName>Navstar-3</FullName>
+			<Shape>Spacecraft.Navstar-3.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Civilian Crewed Spacecrafts -->
+
+	<DefaultProperties Id="Spacecraft.Soyuz" Base="Core.Spacecraft.Crewed">
+		<Criteria>
+			<Name>Soyuz</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Soyuz</ShortName>
+			<LongName>Soyuz</LongName>
+			<FullName>Soyuz</FullName>
+			<Shape>Spacecraft.SoyuzA.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Civilian Probes -->
+
+	<DefaultProperties Id="Spacecraft.Voyager" Base="Core.Spacecraft.Probe">
+		<Criteria>
+			<Name>Voyager</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Voyager</ShortName>
+			<LongName>Voyager</LongName>
+			<FullName>Voyager</FullName>
+<!--		<Shape>Spacecraft.Voyager.obj</Shape> -->
+		</Properties>
+	</DefaultProperties>
+
+</DefaultPropertiesCollection>
