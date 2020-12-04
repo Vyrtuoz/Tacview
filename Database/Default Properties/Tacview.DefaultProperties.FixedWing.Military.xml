@@ -19,6 +19,9 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.Military.Drone" Base="Core.FixedWing">
+		<Properties>
+			<Shape>FixedWing.Military.Drone.obj</Shape>
+		</Properties>
 	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.Trainer.Prop" Base="Core.FixedWing">
@@ -303,6 +306,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.KC-46" Base="FixedWing.KC-135">
+		<Criteria>
+			<Name>KC-46</Name>
+			<Name>Pegasus</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>KC-46</ShortName>
+			<LongName>KC-46 Pegasus</LongName>
+			<FullName>Boeing KC-46 Pegasus</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.KC-130" Base="FixedWing.C-130">
 		<Criteria>
 			<Name>KC-130</Name>
@@ -313,29 +328,6 @@
 			<ShortName>KC-130</ShortName>
 			<LongName>KC-130 Hercules</LongName>
 			<FullName>Lockheed Martin KC-130</FullName>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="FixedWing.C-135F" Base="FixedWing.KC-135A">
-		<Criteria>
-			<Name>C-135F</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>C-135F</ShortName>
-			<LongName>C-135F Stratotanker</LongName>
-			<FullName>Boeing C-135F Stratotanker</FullName>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="FixedWing.C-135FR" Base="FixedWing.C-135F">
-		<Criteria>
-			<Name>C-135FR</Name>
-			<Name>717-165</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>C-135FR</ShortName>
-			<LongName>C-135FR Stratotanker</LongName>
-			<FullName>Boeing C-135FR Stratotanker</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -363,6 +355,29 @@
 			<ShortName>KC-135A</ShortName>
 			<LongName>KC-135A Stratotanker</LongName>
 			<FullName>Boeing KC-135A Stratotanker</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C-135F" Base="FixedWing.KC-135A">
+		<Criteria>
+			<Name>C-135F</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C-135F</ShortName>
+			<LongName>C-135F Stratotanker</LongName>
+			<FullName>Boeing C-135F Stratotanker</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C-135FR" Base="FixedWing.C-135F">
+		<Criteria>
+			<Name>C-135FR</Name>
+			<Name>717-165</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C-135FR</ShortName>
+			<LongName>C-135FR Stratotanker</LongName>
+			<FullName>Boeing C-135FR Stratotanker</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -484,6 +499,20 @@
 		</Properties>
 	</DefaultProperties>
 
+	<!-- Other drones -->
+
+	<DefaultProperties Id="FixedWing.Skylark" Base="FixedWing.Military.Drone">
+		<Criteria>
+			<Name>Skylark</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Skylark</ShortName>
+			<LongName>Skylark</LongName>
+			<FullName>Skylark</FullName>
+			<Shape>FixedWing.Skylark.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- North American Drones -->
 
 	<DefaultProperties Id="FixedWing.MQ-1" Base="FixedWing.Military.Drone">
@@ -523,6 +552,17 @@
 			<ShortName>BQM-74</ShortName>
 			<LongName>BQM-74 Chukar</LongName>
 			<FullName>Northrop BQM-74 Chukar</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.XQ-58" Base="FixedWing.Military.Drone">
+		<Criteria>
+			<Name>XQ-58</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>XQ-58</ShortName>
+			<LongName>XQ-58 Valkyrie</LongName>
+			<FullName>Kratos XQ-58 Valkyrie</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -647,6 +687,18 @@
 			<LongName>A-7 Corsair II</LongName>
 			<FullName>LTV A-7 Corsair II</FullName>
 			<Shape>FixedWing.A-7.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.A-7E" Base="FixedWing.A-7">
+		<Criteria>
+			<Name>A-7E</Name>
+			<Name>A-7E Corsair II</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A-7E</ShortName>
+			<LongName>A-7E Corsair II</LongName>
+			<FullName>LTV A-7E Corsair II</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -972,6 +1024,17 @@
 			<ShortName>F-14A</ShortName>
 			<LongName>F-14A Tomcat</LongName>
 			<FullName>Grumman F-14A Tomcat</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.F-14A-135-GR" Base="FixedWing.F-14A">
+		<Criteria>
+			<Name>F-14A-135-GR</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F-14A</ShortName>
+			<LongName>F-14A Tomcat</LongName>
+			<FullName>Grumman F-14A-135-GR Tomcat</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -1824,6 +1887,20 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.T-38" Base="FixedWing.F-5">
+		<Criteria>
+			<Name>T-38</Name>
+			<Name>T-38 Talon</Name>
+			<Name>Northrop T-38 Talon</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>T-38</ShortName>
+			<LongName>T-38 Talon</LongName>
+			<FullName>Northrop T-38 Talon</FullName>
+			<Shape>FixedWing.T-38.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.T6II" Base="FixedWing.Trainer.Prop">
 		<Criteria>
 			<Name>TEX2</Name>
@@ -2075,6 +2152,17 @@
 			<ShortName>Dolphin</ShortName>
 			<LongName>Sopwith Dolphin</LongName>
 			<FullName>Sopwith 5F.1 Dolphin</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.AMX" Base="FixedWing.GroundAttack">
+		<Criteria>
+			<Name>AMX</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AMX</ShortName>
+			<LongName>AMX</LongName>
+			<FullName>AMX International AMX</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -2762,6 +2850,80 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.Fi156" Base="FixedWing.GA.SingleEngine.HighWing.Tricycle">
+		<Criteria>
+			<Name>Fi 156</Name>
+			<Name>Storch</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Storch</ShortName>
+			<LongName>Fi 156 Storch</LongName>
+			<FullName>Fieseler Fi 156 Storch</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.CR42" Base="FixedWing.Fighter.Biplane">
+		<Criteria>
+			<Name>Falco</Name>
+			<Name>CR.42</Name>
+			<Name>CR_42</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Falco</ShortName>
+			<LongName>CR.42 Falco</LongName>
+			<FullName>Fiat CR.42 Falco</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Hurricane" Base="FixedWing.Fighter.Prop">
+		<Criteria>
+			<Name>Hurricane</Name>
+			<Name>Hawker Hurricane</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Hurricane</ShortName>
+			<LongName>Hurricane</LongName>
+			<FullName>Hawker Hurricane</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Gladiator" Base="FixedWing.Fighter.Biplane">
+		<Criteria>
+			<Name>Gladiator</Name>
+			<Name>Gloster Gladiator</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Gladiator</ShortName>
+			<LongName>Gladiator</LongName>
+			<FullName>Gloster Gladiator</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.SeaGladiator" Base="FixedWing.Gladiator">
+		<Criteria>
+			<Name>Sea Gladiator</Name>
+			<Name>Gloster Sea Gladiator</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Sea Gladiator</ShortName>
+			<LongName>Sea Gladiator</LongName>
+			<FullName>Gloster Sea Gladiator</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C.200" Base="FixedWing.Fighter.Prop">
+		<Criteria>
+			<Name>C.200</Name>
+			<Name>MC_200</Name>
+			<Name>Saetta</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C.200</ShortName>
+			<LongName>C.200 Saetta</LongName>
+			<FullName>Macchi C.200 Saetta</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.Spitfire" Base="FixedWing.Fighter.Prop">
 		<Criteria>
 			<Name>Spitfire</Name>
@@ -3010,17 +3172,6 @@
 			<ShortName>Il-28</ShortName>
 			<LongName>Il-28 Beagle</LongName>
 			<FullName>Ilyushin Il-28 Beagle</FullName>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="FixedWing.Ju 52.3mg4e" Base="FixedWing.Ju 52">
-		<Criteria>
-			<Name>Ju 52/3mg4e</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>Ju 52</ShortName>
-			<LongName>Ju 52/3mg4e</LongName>
-			<FullName>Junkers Ju 52/3mg4e</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -3512,6 +3663,19 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.MiG-35" Base="FixedWing.MiG-29S">
+		<Criteria>
+			<Name>MiG-35</Name>
+			<Name>Fulcrum-F</Name>
+			<Name>Mikoyan MiG-35</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MiG-35</ShortName>
+			<LongName>MiG-35 Fulcrum-F</LongName>
+			<FullName>Mikoyan MiG-35 Fulcrum-F</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.Pe-2" Base="FixedWing.Fighter.TwinProp">
 		<Criteria>
 			<Name>Pe-2</Name>
@@ -3907,6 +4071,19 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.Tu-142" Base="FixedWing.Tu-95">
+		<Criteria>
+			<Name>Tu-142</Name>
+			<Name>Tu-142 Bear</Name>
+			<Name>Tupolev Tu-142</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Tu-142</ShortName>
+			<LongName>Tu-142 Bear</LongName>
+			<FullName>Tupolev Tu-142 Bear</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.Yak-1" Base="FixedWing.Fighter.Prop">
 		<Criteria>
 			<Name>Yak-1</Name>
@@ -4065,6 +4242,18 @@
 			<LongName>JF-17 Thunder</LongName>
 			<FullName>PAC JF-17 Thunder</FullName>
 			<Shape>FixedWing.JF-17.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.J-20" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>J-20</Name>
+			<Name>Chengdu J-20</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>J-20</ShortName>
+			<LongName>Chengdu J-20</LongName>
+			<FullName>Chengdu J-20 Mighty Dragon</FullName>
 		</Properties>
 	</DefaultProperties>
 

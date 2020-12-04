@@ -1230,6 +1230,30 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.Ju 52.3mg4e" Base="FixedWing.Ju 52">
+		<Criteria>
+			<Name>Ju 52/3mg4e</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Ju 52</ShortName>
+			<LongName>Ju 52/3mg4e</LongName>
+			<FullName>Junkers Ju 52/3mg4e</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.SM.79" Base="FixedWing.Ju 52">
+		<Criteria>
+			<Name>SM79</Name>
+			<Name>SM.79</Name>
+			<Name>Sparviero</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SM.79</ShortName>
+			<LongName>SM.79 Sparviero</LongName>
+			<FullName>Savoia-Marchetti SM.79 Sparviero</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.VL-3" Base="FixedWing.GA.SingleEngine.LowWing.Tricycle">
 		<Criteria>
 			<Name>VL-3</Name>

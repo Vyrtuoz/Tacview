@@ -12,6 +12,26 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Rotorcraft.Drone" Base="Core.Rotorcraft">
+		<Properties>
+			<Shape>FixedWing.DJI300.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Drones -->
+
+	<DefaultProperties Id="FixedWing.DJI300" Base="Rotorcraft.Drone">
+		<Criteria>
+			<Name>DJI300</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>DJI300</ShortName>
+			<LongName>DJI300</LongName>
+			<FullName>DJI300</FullName>
+			<Shape>FixedWing.DJI300.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- North American Military Helicopters -->
 
 	<DefaultProperties Id="Rotorcraft.AH-1" Base="Rotorcraft.Attack">
@@ -309,7 +329,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Rotorcraft.SA330" Base="Rotorcraft.Transport">
+	<DefaultProperties Id="Rotorcraft.SA330" Base="Rotorcraft.UH-60">
 		<Criteria>
 			<Name>SA 330</Name>
 			<Name>Puma</Name>
@@ -318,6 +338,7 @@
 			<ShortName>SA 330</ShortName>
 			<LongName>SA 330 Puma</LongName>
 			<FullName>Aérospatiale SA 330 Puma</FullName>
+			<Shape>Rotocraft.SA330.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

@@ -476,6 +476,18 @@
 
 	<!-- Eastern AA Missiles -->
 
+	<DefaultProperties Id="Missile.AA.RS-2US" Base="Missile.AA">
+		<Criteria>
+			<Name>RS-2US</Name>
+			<Name>K-5MS</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>RS-2US</ShortName>
+			<LongName>RS-2US (AA-1 Alkali)</LongName>
+			<FullName>Kaliningrad RS-2US (AA-1 Alkali)</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.AA.R-27" Base="Missile.AA">
 		<Criteria>
 			<Name>R-27</Name>
@@ -561,6 +573,7 @@
 			<Name>R-3</Name>
 			<Name>AA-2</Name>
 			<Name>AA-2 Atoll</Name>
+			<Name>K-13</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>R-3</ShortName>
@@ -575,11 +588,54 @@
 			<Name>R-3S</Name>
 			<Name>AA-2A</Name>
 			<Name>AA-2A Atoll</Name>
+			<Name>K-13A</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>R-3S</ShortName>
 			<LongName>R-3S (AA-2A Atoll)</LongName>
 			<FullName>Vympel R-3S (AA-2A Atoll)</FullName>
+			<Shape>Missile.AIM-9M.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-3R" Base="Missile.AA.R-3S">
+		<Criteria>
+			<Name>R-3R</Name>
+			<Name>K-13R</Name>
+			<Name>AA-2D</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-3R</ShortName>
+			<LongName>R-3R (AA-2D Atoll)</LongName>
+			<FullName>Vympel R-3R (AA-2D Atoll)</FullName>
+			<Shape>Missile.AIM-9M.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-13M" Base="Missile.AA.R-3S">
+		<Criteria>
+			<Name>R-13M</Name>
+			<Name>K-13M</Name>
+			<Name>AA-2C</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-13M</ShortName>
+			<LongName>R-13M (AA-2C Atoll)</LongName>
+			<FullName>Vympel R-13M (AA-2C Atoll)</FullName>
+			<Shape>Missile.AIM-9M.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-13M1" Base="Missile.AA.R-13M">
+		<Criteria>
+			<Name>R-13M1</Name>
+			<Name>K-13M1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-13M1</ShortName>
+			<LongName>R-13M1 (AA-2C Atoll)</LongName>
+			<FullName>Vympel R-13M1 (AA-2C Atoll)</FullName>
+			<Shape>Missile.AIM-9M.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

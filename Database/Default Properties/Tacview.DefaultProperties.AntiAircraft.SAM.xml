@@ -913,4 +913,52 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="AntiAircraft.SAM.HQ-9.LN" Base="AntiAircraft.SAM.Launcher.Russian">
+		<Criteria>
+			<Name>HQ-9 LN</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>HQ-9 LN</ShortName>
+			<LongName>HQ-9 LN</LongName>
+			<FullName>HQ-9 (Launcher)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.HQ-9.STR" Base="AntiAircraft.SAM.SearchAndTrackingRadar">
+		<Criteria>
+			<Name>HQ-9 STR</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>HQ-9 STR</ShortName>
+			<LongName>HQ-9 STR</LongName>
+			<FullName>HQ-9 (Search &amp; Tracking Radar)</FullName>
+			<EngagementRange>200000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.HQ-9A.STR" Base="AntiAircraft.SAM.HQ-9.STR">
+		<Criteria>
+			<Name>HQ-9A STR</Name>
+			<Name>SAM Bn (HQ-9A)</Name>	<!-- CMANO -->
+		</Criteria>
+		<Properties>
+			<ShortName>HQ-9A STR</ShortName>
+			<LongName>HQ-9A STR</LongName>
+			<FullName>HQ-9A (Search &amp; Tracking Radar)</FullName>
+			<EngagementRange>250000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.HQ-9B.STR" Base="AntiAircraft.SAM.HQ-9A.STR">
+		<Criteria>
+			<Name>HQ-9B STR</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>HQ-9B STR</ShortName>
+			<LongName>HQ-9B STR</LongName>
+			<FullName>HQ-9B (Search &amp; Tracking Radar)</FullName>
+			<EngagementRange>300000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
 </DefaultPropertiesCollection>

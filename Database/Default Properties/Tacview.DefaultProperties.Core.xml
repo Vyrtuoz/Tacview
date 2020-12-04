@@ -74,6 +74,16 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Core.Space" Base="Core.Default">
+		<Criteria>
+			<Type>Space</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Space</AdditionalType>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Core.Air" Base="Core.Default">
 		<Criteria>
 			<Type>Air</Type>
@@ -142,6 +152,17 @@
 	</DefaultProperties>
 
 	<!-- Basic Types -->
+
+	<DefaultProperties Id="Core.Spacecraft" Base="Core.Space">
+		<Criteria>
+			<Type>Spacecraft</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Space+Spacecraft</AdditionalType>
+			<Shape>Spacecraft.SoyuzA.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="Core.FixedWing" Base="Core.Air">
 		<Criteria>

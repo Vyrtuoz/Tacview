@@ -21,6 +21,12 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Bomb.Glider" Base="Bomb.Guided">
+		<Properties>
+			<Shape>Missile.SOM.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Bomb.Cluster" Base="Core.Bomb">
 	</DefaultProperties>
 
@@ -287,6 +293,17 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Bomb.GBU-24" Base="Bomb.GBU-10">
+		<Criteria>
+			<Name>GBU-24</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>GBU-24</ShortName>
+			<LongName>GBU-24 Paveway III</LongName>
+			<FullName>GBU-24 Paveway III (Mk84)</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Bomb.GBU-38" Base="Bomb.Guided">
 		<Criteria>
 			<Name>GBU-38</Name>
@@ -296,6 +313,18 @@
 			<ShortName>GBU-38</ShortName>
 			<LongName>GBU-38 JDAM</LongName>
 			<FullName>GBU-38 JDAM</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.GBU-53" Base="Bomb.Glider">
+		<Criteria>
+			<Name>GBU-53</Name>
+			<Name>StormBreaker</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>GBU-53/B</ShortName>
+			<LongName>GBU-53/B</LongName>
+			<FullName>GBU-53/B StormBreaker</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -506,19 +535,69 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Bomb.RKB-500.AO" Base="Bomb.Subminution">
+	<DefaultProperties Id="Bomb.RBK-250" Base="Bomb.Subminution">
 		<Criteria>
-			<Name>RKB-500 AO</Name>
+			<Name>RBK-250</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>RBK-250</ShortName>
+			<LongName>RBK-250</LongName>
+			<FullName>RBK-250</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.RBK-250.Cluster" Base="Bomb.RBK-250">
+		<Criteria>
+			<Name>RBK-250 bomblets</Name>
+			<Name>RBK-250 cluster</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>RBK-250 Cluster</ShortName>
+			<LongName>RBK-250 Cluster</LongName>
+			<FullName>RBK-250 Cluster</FullName>
+			<Shape>Bomb.Bomblet.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.RBK-500.AO" Base="Bomb.Subminution">
+		<Criteria>
+			<Name>RBK-500 AO</Name>
 			<Name>weapons.bombs.RBK_500AO</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>RKB-500 AO</ShortName>
-			<LongName>RKB-500 AO</LongName>
-			<FullName>RKB-500 AO Cluster Bombs</FullName>
+			<ShortName>RBK-500 AO</ShortName>
+			<LongName>RBK-500 AO</LongName>
+			<FullName>RBK-500 AO</FullName>
 		</Properties>
 	</DefaultProperties>
 
 	<!-- EU Bombs -->
+
+	<DefaultProperties Id="Bomb.BL755" Base="Bomb.Cluster">
+		<Criteria>
+			<Name>BL755</Name>
+			<Name>BL_755</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BL755</ShortName>
+			<LongName>BL755</LongName>
+			<FullName>BL755</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.BL755.Cluster" Base="Bomb.BL755">
+		<Criteria>
+			<Name>BL755 Bomblets</Name>
+			<Name>BL_755 Bomblets</Name>
+			<Name>BL_755 Cluster</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BL755 Cluster</ShortName>
+			<LongName>BL755 Cluster</LongName>
+			<FullName>BL755 Cluster</FullName>
+			<Shape>Bomb.Bomblet.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="Bomb.BLG66" Base="Bomb.Unguided">
 		<Criteria>
@@ -543,6 +622,7 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="Bomb.BK90" Base="Bomb.Subminution">
+		<!-- This is the cluster part, NOT the launcher "missile" -->
 		<Criteria>
 			<Name>BK90 cluster</Name>
 		</Criteria>
@@ -554,6 +634,7 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="Bomb.BK90.MJ1" Base="Bomb.BK90">
+		<!-- This is the cluster part, NOT the launcher "missile" -->
 		<Criteria>
 			<Name>BK90 MJ1 cluster</Name>
 		</Criteria>
@@ -565,6 +646,7 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="Bomb.BK90.MJ2" Base="Bomb.BK90">
+		<!-- This is the cluster part, NOT the launcher "missile" -->
 		<Criteria>
 			<Name>BK90 MJ2 cluster</Name>
 		</Criteria>
@@ -576,6 +658,7 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="Bomb.BK90.MJ1.MJ2" Base="Bomb.BK90">
+		<!-- This is the cluster part, NOT the launcher "missile" -->
 		<Criteria>
 			<Name>BK90 MJ1 MJ2 cluster</Name>
 		</Criteria>
@@ -583,6 +666,30 @@
 			<ShortName>BK90</ShortName>
 			<LongName>BK90 MJ1-MJ2 (cluster)</LongName>
 			<FullName>Bombkapsel 90 (BK90 MJ1-MJ2 cluster)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.GB-6" Base="Bomb.Subminution">
+		<!-- This is the cluster part, NOT the launcher "missile" -->
+		<Criteria>
+			<Name>GB-6 cluster</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>GB-6</ShortName>
+			<LongName>GB-6 (cluster)</LongName>
+			<FullName>GB-6 (cluster)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.GB-6-SFW" Base="Bomb.GB-6">
+		<!-- This is the cluster part, NOT the launcher "missile" -->
+		<Criteria>
+			<Name>GB-6-SFW cluster</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>GB-6-SFW</ShortName>
+			<LongName>GB-6-SFW (cluster)</LongName>
+			<FullName>GB-6-SFW (cluster)</FullName>
 		</Properties>
 	</DefaultProperties>
 

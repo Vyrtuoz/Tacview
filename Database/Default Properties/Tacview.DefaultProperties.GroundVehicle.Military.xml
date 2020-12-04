@@ -392,7 +392,18 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Vehicle.Tank.M4A3" Base="Vehicle.Tank.M4">
+	<DefaultProperties Id="Vehicle.Tank.M4A2" Base="Vehicle.Tank.M4">
+		<Criteria>
+			<Name>M4A2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M4A2</ShortName>
+			<LongName>M4A2 Sherman</LongName>
+			<FullName>M4A2 Sherman</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.M4A3" Base="Vehicle.Tank.M4A2">
 		<Criteria>
 			<Name>M4A3</Name>
 			<Name>M4A3 Sherman</Name>
@@ -454,6 +465,73 @@
 
 	<!-- European Tanks -->
 
+	<DefaultProperties Id="Vehicle.Tank.PanzerIII" Base="Vehicle.Military.Tank">
+		<Criteria>
+			<Name>Panzer III</Name>
+			<Name>Pz.Kpfw.III</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Panzer III</ShortName>
+			<LongName>Panzer III</LongName>
+			<FullName>Panzer III</FullName>
+			<Shape>Vehicle.Tank.Tiger1.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.PanzerIV" Base="Vehicle.Tank.PanzerIII">
+		<Criteria>
+			<Name>Panzer IV</Name>
+			<Name>Pz.Kpfw.IV</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Panzer IV</ShortName>
+			<LongName>Panzer IV</LongName>
+			<FullName>Panzer IV</FullName>
+			<Shape>Vehicle.Tank.Tiger1.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.PanzerV" Base="Vehicle.Tank.PanzerIV">
+		<Criteria>
+			<Name>Panzer V</Name>
+			<Name>Pz.Kpfw.V</Name>
+			<Name>Panther</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Panther</ShortName>
+			<LongName>Panzer V Panther</LongName>
+			<FullName>Panzer V Panther</FullName>
+			<Shape>Vehicle.Tank.Tiger1.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.PanzerVI" Base="Vehicle.Tank.PanzerV">
+		<Criteria>
+			<Name>Panzer VI</Name>
+			<Name>Pz.Kpfw.VI</Name>
+			<Name>Tiger</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Tiger</ShortName>
+			<LongName>Panzer VI Tiger</LongName>
+			<FullName>Panzer VI Tiger</FullName>
+			<Shape>Vehicle.Tank.Tiger1.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.Ds.Kfz.184" Base="Vehicle.Military.Tank">
+		<Criteria>
+			<Name>Sd. Kfz. 184</Name>
+			<Name>Ferdinand</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Ferdinand</ShortName>
+			<LongName>Sd. Kfz. 184 Ferdinand</LongName>
+			<FullName>Sd. Kfz. 184 Ferdinand</FullName>
+			<Shape>Vehicle.Tank.Tiger1.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Vehicle.Tank.Leclerc" Base="Vehicle.Military.Tank">
 		<Criteria>
 			<Name>Leclerc</Name>
@@ -467,6 +545,76 @@
 	</DefaultProperties>
 
 	<!-- Eastern Tanks -->
+
+	<DefaultProperties Id="Vehicle.Tank.KV-1" Base="Vehicle.Military.Tank">
+		<Criteria>
+			<Name>KV-1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>KV-1</ShortName>
+			<LongName>KV-1</LongName>
+			<FullName>KV-1</FullName>
+			<Shape>Vehicle.Tank.T-34-76-1943.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.KV-1S" Base="Vehicle.Tank.KV-1">
+		<Criteria>
+			<Name>KV-1S</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>KV-1S</ShortName>
+			<LongName>KV-1S</LongName>
+			<FullName>KV-1S</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.SU-122" Base="Vehicle.Tank.T-34">
+		<Criteria>
+			<Name>SU-122</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SU-122</ShortName>
+			<LongName>SU-122</LongName>
+			<FullName>SU-122</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.SU-152" Base="Vehicle.Military.Tank">
+		<Criteria>
+			<Name>SU-152</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SU-152</ShortName>
+			<LongName>SU-152</LongName>
+			<FullName>SU-152</FullName>
+			<Shape>Vehicle.Tank.T-34-76-1943.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.T-34" Base="Vehicle.Military.Tank">
+		<Criteria>
+			<Name>T-34</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>T-34</ShortName>
+			<LongName>T-34</LongName>
+			<FullName>T-34</FullName>
+			<Shape>Vehicle.Tank.T-34-76-1943.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.T-34-76" Base="Vehicle.Tank.T-34">
+		<Criteria>
+			<Name>T-34/76</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>T-34/76</ShortName>
+			<LongName>T-34/76</LongName>
+			<FullName>T-34/76</FullName>
+			<Shape>Vehicle.Tank.T-34-76-1943.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="Vehicle.Tank.T-55" Base="Vehicle.Military.Tank">
 		<Criteria>

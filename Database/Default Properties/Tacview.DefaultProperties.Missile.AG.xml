@@ -35,7 +35,7 @@
 
 	<DefaultProperties Id="Missile.AG.Cruise" Base="Missile.AG">
 		<Properties>
-			<Shape>Kh-101</Shape>
+			<Shape>Missile.KH-101.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -90,6 +90,30 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.AG.AGM-65D" Base="Missile.AG.AGM-65">
+		<Criteria>
+			<Name>AGM-65D</Name>
+			<Name>AGM-65D Maverick</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGM-65D</ShortName>
+			<LongName>AGM-65D Maverick</LongName>
+			<FullName>AGM-65D Maverick</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.AGM-65E" Base="Missile.AG.AGM-65">
+		<Criteria>
+			<Name>AGM-65E</Name>
+			<Name>AGM-65E Maverick</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGM-65E</ShortName>
+			<LongName>AGM-65E Maverick</LongName>
+			<FullName>AGM-65E Maverick</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.AG.AGM-65F" Base="Missile.AG.AGM-65">
 		<Criteria>
 			<Name>AGM-65F</Name>
@@ -111,6 +135,42 @@
 			<ShortName>AGM-65G</ShortName>
 			<LongName>AGM-65G Maverick</LongName>
 			<FullName>AGM-65G Maverick</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.AGM-65H" Base="Missile.AG.AGM-65">
+		<Criteria>
+			<Name>AGM-65H</Name>
+			<Name>Maverick H</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGM-65H</ShortName>
+			<LongName>AGM-65H Maverick</LongName>
+			<FullName>AGM-65H Maverick</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.AGM-65J" Base="Missile.AG.AGM-65">
+		<Criteria>
+			<Name>AGM-65J</Name>
+			<Name>Maverick J</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGM-65J</ShortName>
+			<LongName>AGM-65J Maverick</LongName>
+			<FullName>AGM-65J Maverick</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.AGM-65K" Base="Missile.AG.AGM-65">
+		<Criteria>
+			<Name>AGM-65K</Name>
+			<Name>Maverick K</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGM-65K</ShortName>
+			<LongName>AGM-65K Maverick</LongName>
+			<FullName>AGM-65K Maverick</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -188,6 +248,39 @@
 
 	<!-- Eastern Air to Ground Missiles -->
 
+	<DefaultProperties Id="Missile.AG.GB-6" Base="Missile.AG.SOM">
+		<Criteria>
+			<Name>GB-6</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>GB-6</ShortName>
+			<LongName>GB-6</LongName>
+			<FullName>GB-6</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.GB-6-HE" Base="Missile.AG.GB-6">
+		<Criteria>
+			<Name>GB-6-HE</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>GB-6-HE</ShortName>
+			<LongName>GB-6-HE</LongName>
+			<FullName>GB-6-HE</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.GB-6-SFW" Base="Missile.AG.GB-6">
+		<Criteria>
+			<Name>GB-6-SFW</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>GB-6-SFW</ShortName>
+			<LongName>GB-6-SFW</LongName>
+			<FullName>GB-6-SFW</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.AG.AT-6" Base="Missile.AG.Radio">
 		<Criteria>
 			<Name>9M114</Name>
@@ -215,7 +308,34 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Missile.AG.Kh-23" Base="Missile.AG.Cruise">
+	<DefaultProperties Id="Missile.AG.Kh-29" Base="Missile.AG.Laser">
+		<Criteria>
+			<Name>Kh-29</Name>
+			<Name>Х-29</Name>	<!-- Russian X -->
+			<Name>X-29</Name>
+			<Name>9M721</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Kh-29</ShortName>
+			<LongName>Kh-29 Kedge</LongName>
+			<FullName>Kh-29 Kedge (AS-14)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.Kh-29L" Base="Missile.AG.Kh-29">
+		<Criteria>
+			<Name>Kh-29L</Name>
+			<Name>Х-29L</Name>	<!-- Russian X -->
+			<Name>X-29L</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Kh-29L</ShortName>
+			<LongName>Kh-29L Kedge-A</LongName>
+			<FullName>Kh-29L Kedge-A (AS-14)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.Kh-101" Base="Missile.AG.Cruise">
 		<Criteria>
 			<Name>Kh-101</Name>
 			<Name>Raduga</Name>

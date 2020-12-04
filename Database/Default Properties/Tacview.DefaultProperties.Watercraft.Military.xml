@@ -484,6 +484,20 @@
 
 	<!-- Russian Cruisers -->
 
+	<DefaultProperties Id="Watercraft.Pyotr" Base="Watercraft.Cruiser">
+		<Criteria>
+			<Name>Pyotr</Name>
+			<Name>Piotr</Name> <!-- DCS World -->
+		</Criteria>
+		<Properties>
+			<ShortName>Pyotr</ShortName>
+			<LongName>Pyotr Velikiy</LongName>
+			<FullName>Pyotr Velikiy</FullName>
+<!--		<Shape>Watercraft.Moskva.obj</Shape>	-->
+			<EngagementRange>95000</EngagementRange>	<!-- Quick test not certified -->
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Watercraft.Moskva" Base="Watercraft.Cruiser">
 		<Criteria>
 			<Name>Moskva</Name>
@@ -498,17 +512,180 @@
 		</Properties>
 	</DefaultProperties>
 
-	<!-- North American Frigates -->
+	<!-- EU Frigates -->
 
 	<DefaultProperties Id="Watercraft.D615" Base="Watercraft.Frigate">
 		<Criteria>
 			<Name>D615</Name>
+			<Name>JBT</Name>
 			<Name>Jean Bart</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>D615</ShortName>
+			<ShortName>JBT</ShortName>
 			<LongName>D615 Jean Bart</LongName>
 			<FullName>Jean Bart (D615)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.D621" Base="Watercraft.Frigate">
+		<Criteria>
+			<Name>D621</Name>
+			<Name>CHP</Name>
+			<Name>Chevalier Paul</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CHP</ShortName>
+			<LongName>D621 Chevalier Paul</LongName>
+			<FullName>Chevalier Paul (D621)</FullName>
+			<Shape>Watercraft.D621.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.F710" Base="Watercraft.Frigate">
+		<Criteria>
+			<Name>F710</Name>
+			<Name>FLF</Name>
+			<Name>La Fayette</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>FLF</ShortName>
+			<LongName>F710 La Fayette</LongName>
+			<FullName>La Fayette (F710)</FullName>
+			<Shape>Watercraft.F710.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+
+	<DefaultProperties Id="Watercraft.Aquitaine" Base="Watercraft.Frigate">
+		<Criteria>
+			<Name>D650</Name>
+			<Name>Aquitaine	</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Aquitaine</ShortName>
+			<LongName>D650 Aquitaine</LongName>
+			<FullName>D650 Aquitaine</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Normandie" Base="Watercraft.Aquitaine">
+		<Criteria>
+			<Name>D651</Name>
+			<Name>Normandie</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Normandie</ShortName>
+			<LongName>D651 Normandie</LongName>
+			<FullName>D651 Normandie</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Provence" Base="Watercraft.Aquitaine">
+		<Criteria>
+			<Name>D652</Name>
+			<Name>Provence</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Provence</ShortName>
+			<LongName>D652 Provence</LongName>
+			<FullName>D652 Provence</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Languedoc" Base="Watercraft.Aquitaine">
+		<Criteria>
+			<Name>D653</Name>
+			<Name>Languedoc</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Languedoc</ShortName>
+			<LongName>D653 Languedoc</LongName>
+			<FullName>D653 Languedoc</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Auvergne" Base="Watercraft.Aquitaine">
+		<Criteria>
+			<Name>D654</Name>
+			<Name>Auvergne</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Auvergne</ShortName>
+			<LongName>D654 Auvergne</LongName>
+			<FullName>D654 Auvergne</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Bretagne" Base="Watercraft.Aquitaine">
+		<Criteria>
+			<Name>D655</Name>
+			<Name>Bretagne</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Bretagne</ShortName>
+			<LongName>D655 Bretagne</LongName>
+			<FullName>D655 Bretagne</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Alsace" Base="Watercraft.Aquitaine">
+		<Criteria>
+			<Name>D656</Name>
+			<Name>Alsace</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Alsace</ShortName>
+			<LongName>D656 Alsace</LongName>
+			<FullName>D656 Alsace</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Lorraine" Base="Watercraft.Aquitaine">
+		<Criteria>
+			<Name>D657</Name>
+			<Name>Lorraine</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Lorraine</ShortName>
+			<LongName>D657 Lorraine</LongName>
+			<FullName>D657 Lorraine</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Mistral" Base="Watercraft.AircraftCarrier">
+		<Criteria>
+			<Name>L9013</Name>
+			<Name>Mistral</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mistral</ShortName>
+			<LongName>L9013 Mistral</LongName>
+			<FullName>L9013 Mistral</FullName>
+			<Shape>Watercraft.LHA-1.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Tonnerre" Base="Watercraft.Mistral">
+		<Criteria>
+			<Name>L9014	</Name>
+			<Name>Tonnerre</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Tonnerre</ShortName>
+			<LongName>L9014	Tonnerre</LongName>
+			<FullName>L9014	Tonnerre</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Dixmude" Base="Watercraft.Mistral">
+		<Criteria>
+			<Name>L9015</Name>
+			<Name>Dixmude</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Dixmude</ShortName>
+			<LongName>L9015 Dixmude</LongName>
+			<FullName>L9015 Dixmude</FullName>
 		</Properties>
 	</DefaultProperties>
 
