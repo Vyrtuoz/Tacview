@@ -28,8 +28,8 @@
 	<String ID="RecordingMenuHelp">设置飞行数据记录</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;实时遥测...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">记录当前正在进行的飞行</String>
-	<String ID="RecordingADSBTelemetryCmdText">ADS-B Telemetry...</String>
-	<String ID="RecordingADSBTelemetryCmdHelp">Record ADS-B telemetry over the air</String>
+	<String ID="RecordingADSBTelemetryCmdText">ADS-B遥测...</String>
+	<String ID="RecordingADSBTelemetryCmdHelp">记录空中ADS-B遥测数据</String>
 	<String ID="RecordingRemoteControl0Text">遥控1</String>
 	<String ID="RecordingRemoteControl1Text">遥控2</String>
 	<String ID="RecordingRemoteControl2Text">遥控3</String>
@@ -232,8 +232,8 @@
 	<String ID="LabelOnAllGroundObjectsHelp">在所有地面物体及防空威胁上显示标签</String>
 	<String ID="ForceSelectedObjetsLabelsText">强制已选物体标签</String>
 	<String ID="ForceSelectedObjetsLabelsHelp">忽略全局设置总是显示已选物体标签</String>
-	<String ID="DeclutterUnselectedAircraftTelemetryText">Declutter Unselected Aircraft Telemetry</String>
-	<String ID="DeclutterUnselectedAircraftTelemetryHelp">Select this option to declutter a large battlefield</String>
+	<String ID="DeclutterUnselectedAircraftTelemetryText">清理未选航空器遥测</String>
+	<String ID="DeclutterUnselectedAircraftTelemetryHelp">选择此选项以清理大型战场</String>
 
 	<String ID="LabelsScaleText">标签大小</String>
 	<String ID="ScaleAutoText">自动</String>
@@ -543,8 +543,8 @@
 	<String ID="RealTimeTelemetryDisconnect">断开连接</String>
 	<String ID="RealTimeTelemetryAutoReconnect">自动重新连接</String>
 
-	<String ID="ADSBTelemetryTitle">ADS-B Telemetry</String>
-	<String ID="ADSBTelemetryIntro">Listens to 1090MHz ADS-B radio signals to display aircraft around you in real-time!</String>
+	<String ID="ADSBTelemetryTitle">ADS-B遥测</String>
+	<String ID="ADSBTelemetryIntro">收听1090MHz的ADS-B无线电信号，实时显示您周围的航空器！</String>
 
 	<String ID="AddEditObjectAddTitle">创建一个新物体</String>
 	<String ID="AddEditObjectEditTitle">编辑物体属性</String>
@@ -570,7 +570,7 @@
 	<String ID="BullseyeType">(靶眼)</String>
 	<String ID="FixedWingType">(固定翼航空器)</String>
 	<String ID="RotorcraftType">(旋翼机)</String>
-	<String ID="SpacecraftType">(Spacecraft)</String>
+	<String ID="SpacecraftType">(航天器)</String>
 	<String ID="MissileType">(导弹)</String>
 	<String ID="BombType">(炸弹)</String>
 	<String ID="AntiAircraftType">(防空: AAA/SAM)</String>
@@ -703,7 +703,7 @@
 	<String ID="CommandLineBehavior">通用行为</String>
 	<String ID="CommandLineSpecial">高级选项</String>
 	<String ID="CmdOpenHelp">打开现存的飞行记录。</String>
-	<String ID="CmdOpenMediaHelp">Open a media file in the corresponding window (1 to 4).</String>
+	<String ID="CmdOpenMediaHelp">在相应的窗口中打开媒体文件（1至4）。</String>
 	<String ID="CmdMergeHelp">合并现存飞行记录与当前所有载入数据。</String>
 	<String ID="CmdSaveHelp">保存飞行记录为高压缩格式。</String>
 	<String ID="CmdExportFlightLogHelp">导出飞行日志为XML或CSV文件。</String>
