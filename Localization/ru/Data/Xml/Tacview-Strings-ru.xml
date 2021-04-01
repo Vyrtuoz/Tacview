@@ -106,6 +106,7 @@
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Отображать ландшафт в высококонтрастной цветовой схеме</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Custom textures</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Display all the textures declared in CustomTextureList.xml</String>
+	<String ID="OptionsDisplayControlsPositionText">Display Controls Position</String>
 	<String ID="OptionsAlwaysDisplayBullseyeText">Always Display Bullseye</String>
 	<String ID="OptionsAlwaysDisplayBullseyeHelp">Always display Bullseye in the 3D view</String>
 	<String ID="OptionsAutoHideCoordinatesText">Auto Hide Coordinates</String>
@@ -225,6 +226,11 @@
 	<String ID="DefineControlHelp">Назначить исполнение комадны на джойстик или клавиатуру</String>
 	<String ID="LaserPointerHelp">Display a laser pointer to highlight objects during an online debriefing</String>
 	<String ID="MousePositionHelp">Display latitude, longitude and bullseye position of the mouse cursor</String>
+
+	<String ID="DrawHeadingText">Heading</String>
+	<String ID="DrawCourseText">Course</String>
+	<String ID="DrawLiftVectorText">Lift</String>
+	<String ID="DrawPilotLineOfSightText">Pilot Line of Sight</String>
 
 	<String ID="SelectedObjectsTelemetryText">Метки выбранных объектов</String>
 	<String ID="AircraftTelemetryText">Метки невыбранных самолётов</String>
@@ -359,6 +365,8 @@
 
 	<String ID="AOAHelp">Угол атаки</String>
 	<String ID="AOAText">Угол атаки (AOA)</String>
+	<String ID="AOSHelp">Angle of sideslip</String>
+	<String ID="AOSText">Angle of Sideslip (AOS)</String>
 	<String ID="GHelp">Ускорение свободного падения</String>
 	<String ID="GText">Перегрузка (G)</String>
 	<String ID="LatGHelp">Acceleration relative to lateral axis</String>
@@ -914,7 +922,7 @@
 	<String ID="InvalidShortcutText">Невозможно найти объекты и время, на которые ссылается данный ярлык. Убедитесь, что открыт требуемый файл и целиком скопирован / метка вставлена.</String>
 
 	<String ID="AboutTitle">О программе Tacview</String>
-	<String ID="AboutCopyright">© 2006-2020, Raia Software. Все права защищены.&#10;Данное ПО защищено авторским правом и международными соглашениями.</String>
+	<String ID="AboutCopyright">© 2006-2021, Raia Software. Все права защищены.&#10;Данное ПО защищено авторским правом и международными соглашениями.</String>
 
 	<String ID="LoadingInProgressShort">Загрузка...</String>
 	<String ID="LoadingInProgress">Загружаем '{0}'</String>
@@ -941,6 +949,7 @@
 	<String ID="FileTypeDescriptionGPX">Файлы обмена GPS</String>
 	<String ID="FileTypeDescriptionVHS">Записи полёта Falcon 4.0</String>
 	<String ID="FileTypeDescriptionMAVLink">Телеметрия MAVLink</String>
+	<String ID="FileTypeDescriptionIGC">International Gliding Commission telemetry</String>
 	<String ID="FileTypeDescriptionCSV">CSV файлы (разделитель - запятая)</String>
 	<String ID="FileTypeDescriptionKML">Запись в формате .kml</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">Журнал полёта в .xml</String>
@@ -1064,7 +1073,7 @@
 
 	<String ID="TTDisplayCockpitInstruments">Отображать приборы в кокпите</String>
 	<String ID="TTDrawHeight">Отображать высоту объектов</String>
-	<String ID="TTDrawDirection">Отображать направление выбранных объектов</String>
+	<String ID="TTDrawLocalVectors">Display Selected Objects Vectors</String>
 	<String ID="TTDrawIDs">Отображать ID объектов</String>
 	<String ID="TTDrawThreats">Отображать эффективную дальность поражения ПВО</String>
 	<String ID="TTDrawRadarLocks">Отображать захват радаром (при доступности)</String>

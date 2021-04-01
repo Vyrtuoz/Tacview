@@ -105,6 +105,7 @@
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Affiche le terrain avec un thème de couleur a fort contraste</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Textures personnalisées</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Afficher toutes les textures déclarées dans CustomTextureList.xml</String>
+	<String ID="OptionsDisplayControlsPositionText">Afficher la position des contrôles</String>
 	<String ID="OptionsAlwaysDisplayBullseyeText">Toujours afficher le Bullseye</String>
 	<String ID="OptionsAlwaysDisplayBullseyeHelp">Toujours afficher le Bullseye dans la vue 3D</String>
 	<String ID="OptionsAutoHideCoordinatesText">Cacher automatiquement les coordonnées</String>
@@ -224,6 +225,11 @@
 	<String ID="DefineControlHelp">Assigne un contrôle clavier ou joystick à cette commande</String>
 	<String ID="LaserPointerHelp">Affiche un pointeur laser pour mettre souligner des objets pendant un debriefing en ligne</String>
 	<String ID="MousePositionHelp">Affiche la latitude, longitude et position bullseye du curseur de la souris</String>
+
+	<String ID="DrawHeadingText">Cap</String>
+	<String ID="DrawCourseText">Course</String>
+	<String ID="DrawLiftVectorText">Portance</String>
+	<String ID="DrawPilotLineOfSightText">Ligne de vue du pilote</String>
 
 	<String ID="SelectedObjectsTelemetryText">Etiquettes objets sélectionnés</String>
 	<String ID="AircraftTelemetryText">Etiquettes aéronefs non sélectionnés</String>
@@ -358,6 +364,8 @@
 
 	<String ID="AOAHelp">Angle d'attaque</String>
 	<String ID="AOAText">Angle d'attaque (AOA)</String>
+	<String ID="AOSHelp">Angle de glissade</String>
+	<String ID="AOSText">Angle de glissade (AOS)</String>
 	<String ID="GHelp">Accélération par rapport à une chute libre</String>
 	<String ID="GText">G-Force (G)</String>
 	<String ID="LatGHelp">Accélération par rapport à l’axe latéral</String>
@@ -867,8 +875,8 @@
 	<String ID="HomeToolDemoWarningManyDays">Cet outil est disponible dans <a href="cmd:RegisterCmd">Tacview Standard</a>. Vous pouvez l'essayer pendant encore {0} jours.</String>
 	<String ID="HomeToolDemoExpired">Vous devez <a href="cmd:RegisterCmd">passer Tacview Standard</a> ou supérieur pour utiliser cet outil.</String>
 	<String ID="StrategicViewDemoWarning">Cette vue stratégique est disponible dans Tacview Advanced.</String>
-	<String ID="ExpiredCommercialLicenseAnnual">Votre licence Tacview Enterprise a expiré le {0}, vous ne pouvez&#10;PAS UTILISER cette version dans un environnement commercial ou institutionnel.</String>
-	<String ID="ExpiredCommercialLicensePerpetual">Votre support de Tacview Enterprise a expiré le {0},&#10;Veuillez nous contacter si vous souhaites utiliser cette nouvelle version.</String>
+	<String ID="ExpiredCommercialLicenseAnnual">Votre licence annuelle de Tacview Enterprise a expiré le {0}, vous ne pouvez PAS UTILISER cette version dans un environnement commercial ou institutionnel.</String>
+	<String ID="ExpiredCommercialLicensePerpetual">Le support et mises à jour pour votre licence perpétuelle de Tacview Enterprise c’est terminé le {0}. Veuillez réinstaller une version publiée avant cette date ou contactez-nous pour étendre votre support et mises à jour.</String>
 
 	<!-- Units -->
 	<String ID="UnitLabelASL">Altitude ASL ({0})</String>
@@ -913,7 +921,7 @@
 	<String ID="InvalidShortcutText">Impossible de trouver dans cette mission les objets et l'heure contenus dans ce raccourci. Assurez-vous d'avoir ouvert le bon fichier et d'avoir copié/collé l'intégralité du raccourci.</String>
 
 	<String ID="AboutTitle">A propos de Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2020, Raia Software. Tous droits réservés.&#10;Ce logiciel est protégé par les lois internationales sur le copyright.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2021, Raia Software. Tous droits réservés.&#10;Ce logiciel est protégé par les lois internationales sur le copyright.</String>
 
 	<String ID="LoadingInProgressShort">Chargement...</String>
 	<String ID="LoadingInProgress">Chargement de '{0}'</String>
@@ -940,6 +948,7 @@
 	<String ID="FileTypeDescriptionGPX">Enregistrements de coordonnées GPS</String>
 	<String ID="FileTypeDescriptionVHS">Enregistrements de Falcon 4.0</String>
 	<String ID="FileTypeDescriptionMAVLink">Télémétrie MAVLink</String>
+	<String ID="FileTypeDescriptionIGC">Télémétrie Commission internationale de vol à voile</String>
 	<String ID="FileTypeDescriptionCSV">Fichiers CSV (comma-separated values)</String>
 	<String ID="FileTypeDescriptionKML">Vols enregistrés en KML (Keyhole Markup Language)</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">Journal de vol au format XML</String>
@@ -1063,7 +1072,7 @@
 
 	<String ID="TTDisplayCockpitInstruments">Afficher les instruments cockpit</String>
 	<String ID="TTDrawHeight">Afficher la hauteur des objets</String>
-	<String ID="TTDrawDirection">Afficher la direction des objets sélectionnés</String>
+	<String ID="TTDrawLocalVectors">Afficher les vecteurs des objets sélectionnés</String>
 	<String ID="TTDrawIDs">Afficher les IDs des objets</String>
 	<String ID="TTDrawThreats">Afficher la portée létale des SAM et AAA</String>
 	<String ID="TTDrawRadarLocks">Afficher les accrochages radar (lorsque disponible)</String>

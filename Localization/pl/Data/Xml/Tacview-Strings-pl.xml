@@ -105,6 +105,7 @@
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Wyświetl teren w wysokim kontrascie</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Własne tekstury</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Wyświetl wszystkie tekstury dzefiniowane w CustomTextureList.xml</String>
+	<String ID="OptionsDisplayControlsPositionText">Display Controls Position</String>
 	<String ID="OptionsAlwaysDisplayBullseyeText">Zawsze pokazuj Bullseye</String>
 	<String ID="OptionsAlwaysDisplayBullseyeHelp">Zawsze pokazju Bullseye w widoku 3D</String>
 	<String ID="OptionsAutoHideCoordinatesText">Auto ukrywanie koordynatów</String>
@@ -224,6 +225,11 @@
 	<String ID="DefineControlHelp">Przypisz klawisz joysticka lub klawiatury do tej komendy</String>
 	<String ID="LaserPointerHelp">Pokarz laserowy wskażnik, aby uwydatnić obiekt podczas odprawy online</String>
 	<String ID="MousePositionHelp">Pokarz szerokość, długość geograficzną i pozycję bullseye kursora myszki</String>
+
+	<String ID="DrawHeadingText">Heading</String>
+	<String ID="DrawCourseText">Course</String>
+	<String ID="DrawLiftVectorText">Lift</String>
+	<String ID="DrawPilotLineOfSightText">Pilot Line of Sight</String>
 
 	<String ID="SelectedObjectsTelemetryText">Etykiety wybranych objektów</String>
 	<String ID="AircraftTelemetryText">Etykiety niewybranych samolotów</String>
@@ -358,6 +364,8 @@
 
 	<String ID="AOAHelp">Kąt natarcia</String>
 	<String ID="AOAText">Kąt natarcia (AOA)</String>
+	<String ID="AOSHelp">Angle of sideslip</String>
+	<String ID="AOSText">Angle of Sideslip (AOS)</String>
 	<String ID="GHelp">Przyspieszenie względem swobodnego spadku</String>
 	<String ID="GText">Przyspieszenie G (G)</String>
 	<String ID="LatGHelp">Przyspieszenie względem osi bocznej</String>
@@ -867,8 +875,8 @@
 	<String ID="HomeToolDemoWarningManyDays">This tool is available in <a href="cmd:RegisterCmd">Tacview Standard</a>. You can try it for {0} days.</String>
 	<String ID="HomeToolDemoExpired">You must <a href="cmd:RegisterCmd">upgrade your license</a> to Tacview Standard or above to use this tool.</String>
 	<String ID="StrategicViewDemoWarning">This Strategic View is available in Tacview Advanced.</String>
-	<String ID="ExpiredCommercialLicenseAnnual">Your Tacview Enterprise has expired on {0},&#10;DO NOT use this version in commercial and institutional environment.</String>
-	<String ID="ExpiredCommercialLicensePerpetual">Your Tacview Enterprise support has expired on {0},&#10;Please contact us if you want to use this new version.</String>
+	<String ID="ExpiredCommercialLicenseAnnual">Your Tacview Enterprise annual license has expired on {0},&#10;DO NOT use this version in commercial and institutional environment.</String>
+	<String ID="ExpiredCommercialLicensePerpetual">Your Tacview Enterprise perpetual license updates and support has ended on {0}. Please reinstall a version published prior to that date or contact us to extend your support and updates.</String>
 
 	<!-- Units -->
 	<String ID="UnitLabelASL">ASL Altitude ({0})</String>
@@ -913,7 +921,7 @@
 	<String ID="InvalidShortcutText">Cannot find in the current mission the objects and time referenced by this shortcut. Make sure you have opened the right file and copy/pasted the whole shortcut.</String>
 
 	<String ID="AboutTitle">About Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2020, Raia Software. All Rights Reserved.&#10;This computer program is protected by copyright law and international treaties.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2021, Raia Software. All Rights Reserved.&#10;This computer program is protected by copyright law and international treaties.</String>
 
 	<String ID="LoadingInProgressShort">Loading...</String>
 	<String ID="LoadingInProgress">Loading '{0}'</String>
@@ -940,6 +948,7 @@
 	<String ID="FileTypeDescriptionGPX">GPS Exchange Format</String>
 	<String ID="FileTypeDescriptionVHS">Falcon 4.0 Flight Recordings</String>
 	<String ID="FileTypeDescriptionMAVLink">MAVLink telemetry</String>
+	<String ID="FileTypeDescriptionIGC">International Gliding Commission telemetry</String>
 	<String ID="FileTypeDescriptionCSV">Comma-separated values</String>
 	<String ID="FileTypeDescriptionKML">Keyhole Markup Language</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">XML Flight Log</String>
@@ -1063,7 +1072,7 @@
 
 	<String ID="TTDisplayCockpitInstruments">Display Cockpit Instruments</String>
 	<String ID="TTDrawHeight">Display Objects Height</String>
-	<String ID="TTDrawDirection">Display Selected Objects Direction</String>
+	<String ID="TTDrawLocalVectors">Display Selected Objects Vectors</String>
 	<String ID="TTDrawIDs">Display Objects IDs</String>
 	<String ID="TTDrawThreats">Display SAM/AAA Lethal Range</String>
 	<String ID="TTDrawRadarLocks">Display Radar Locks (when available)</String>

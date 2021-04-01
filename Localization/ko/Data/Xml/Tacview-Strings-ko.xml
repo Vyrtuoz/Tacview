@@ -106,6 +106,7 @@
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Display the terrain with a high contrast color scheme</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Custom textures</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Display all the textures declared in CustomTextureList.xml</String>
+	<String ID="OptionsDisplayControlsPositionText">Display Controls Position</String>
 	<String ID="OptionsAlwaysDisplayBullseyeText">Always Display Bullseye</String>
 	<String ID="OptionsAlwaysDisplayBullseyeHelp">Always display Bullseye in the 3D view</String>
 	<String ID="OptionsAutoHideCoordinatesText">Auto Hide Coordinates</String>
@@ -225,6 +226,11 @@
 	<String ID="DefineControlHelp">Assign custom joystick or keyboard input to this command</String>
 	<String ID="LaserPointerHelp">Display a laser pointer to highlight objects during an online debriefing</String>
 	<String ID="MousePositionHelp">Display latitude, longitude and bullseye position of the mouse cursor</String>
+
+	<String ID="DrawHeadingText">Heading</String>
+	<String ID="DrawCourseText">Course</String>
+	<String ID="DrawLiftVectorText">Lift</String>
+	<String ID="DrawPilotLineOfSightText">Pilot Line of Sight</String>
 
 	<String ID="SelectedObjectsTelemetryText">선택 된 오브젝트의 라벨</String>
 	<String ID="AircraftTelemetryText">선택되지 않은 기체의 라벨</String>
@@ -359,6 +365,8 @@
 
 	<String ID="AOAHelp">받음각</String>
 	<String ID="AOAText">받음각 (AOA)</String>
+	<String ID="AOSHelp">Angle of sideslip</String>
+	<String ID="AOSText">Angle of Sideslip (AOS)</String>
 	<String ID="GHelp">자유낙하 대비 가속도</String>
 	<String ID="GText">지-포스 (G)</String>
 	<String ID="LatGHelp">Acceleration relative to lateral axis</String>
@@ -905,8 +913,8 @@
 	<String ID="ExpiredCommercialLicensePerpetual">Your Tacview Enterprise support has expired on {0},&#10;Please contact us if you want to use this new version.</String>
 -->
 	<String ID="StrategicViewDemoWarning">This Strategic View is available in Tacview Advanced.</String>
-	<String ID="ExpiredCommercialLicenseAnnual">Your Tacview Enterprise has expired on {0},&#10;DO NOT use this version in commercial and institutional environment.</String>
-	<String ID="ExpiredCommercialLicensePerpetual">Your Tacview Enterprise support has expired on {0},&#10;Please contact us if you want to use this new version.</String>
+	<String ID="ExpiredCommercialLicenseAnnual">Your Tacview Enterprise annual license has expired on {0},&#10;DO NOT use this version in commercial and institutional environment.</String>
+	<String ID="ExpiredCommercialLicensePerpetual">Your Tacview Enterprise perpetual license updates and support has ended on {0}. Please reinstall a version published prior to that date or contact us to extend your support and updates.</String>
 
 	<!-- Units -->
 <!--
@@ -980,7 +988,7 @@
 	<String ID="InvalidShortcutText">미션 내에 현재의 단축키가 지정 된 오브젝트나 시간을 찾을 수 없습니다. 정상적인 파일을 열었는지, 그리고 단축키가 정상적으로 복사/붙이기 되었는지 확인하시기 바랍니다.</String>
 
 	<String ID="AboutTitle">택뷰에 대하여</String>
-	<String ID="AboutCopyright">Copyright © 2006-2020, Raia Software. All Rights Reserved.&#10;이 컴퓨터 프로그램은 국제규약의 저작권 법에 의해 보호받고 있습니다.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2021, Raia Software. All Rights Reserved.&#10;이 컴퓨터 프로그램은 국제규약의 저작권 법에 의해 보호받고 있습니다.</String>
 
 	<String ID="LoadingInProgressShort">로딩...</String>
 	<String ID="LoadingInProgress">로딩 '{0}'</String>
@@ -1007,6 +1015,7 @@
 	<String ID="FileTypeDescriptionGPX">GPS 변환 파일</String>
 	<String ID="FileTypeDescriptionVHS">팰콘 4.0 비행 기록</String>
 	<String ID="FileTypeDescriptionMAVLink">MAVLink 텔레메트리</String>
+	<String ID="FileTypeDescriptionIGC">International Gliding Commission telemetry</String>
 	<String ID="FileTypeDescriptionCSV">CSV (콤마로 구분된 값) 파일</String>
 	<String ID="FileTypeDescriptionKML">키홀 마크업 언어 (KML) 포맷의 비행 기록</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">XML 비행 로그</String>
@@ -1138,7 +1147,7 @@
 
 	<String ID="TTDisplayCockpitInstruments">Display Cockpit Instruments</String>
 	<String ID="TTDrawHeight">오브젝트의 높이 보여주기</String>
-	<String ID="TTDrawDirection">선택된 오브젝트의 방향 보여주기</String>
+	<String ID="TTDrawLocalVectors">Display Selected Objects Vectors</String>
 	<String ID="TTDrawIDs">오브젝트 ID 보여주기</String>
 	<String ID="TTDrawThreats">SAM/AAA의 위협거리 보여주기</String>
 	<String ID="TTDrawRadarLocks">레이더 락 보여주기 (가능 할 경우)</String>

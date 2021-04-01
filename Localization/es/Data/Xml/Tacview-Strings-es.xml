@@ -106,6 +106,7 @@
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Mostrar el terreno con un esquema de colores de alto contraste</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Textura Personalizada</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Mostrar todas las texturas indicadas en CustomTextureList.xml</String>
+	<String ID="OptionsDisplayControlsPositionText">Display Controls Position</String>
 	<String ID="OptionsAlwaysDisplayBullseyeText">Siempre mostrar Bullseye</String>
 	<String ID="OptionsAlwaysDisplayBullseyeHelp">Mostrar siempre el Bullseye en la vista 3D</String>
 	<String ID="OptionsAutoHideCoordinatesText">Auto Hide Coordinates</String>
@@ -225,6 +226,11 @@
 	<String ID="DefineControlHelp">Asignar una tcla del teclado o boton del joystick a este comando</String>
 	<String ID="LaserPointerHelp">Mostrar un puntero laser para remarcar objetos en un debriefing online</String>
 	<String ID="MousePositionHelp">Mostrar latitud, longitud y posicion bullseye del cursor del raton</String>
+
+	<String ID="DrawHeadingText">Heading</String>
+	<String ID="DrawCourseText">Course</String>
+	<String ID="DrawLiftVectorText">Lift</String>
+	<String ID="DrawPilotLineOfSightText">Pilot Line of Sight</String>
 
 	<String ID="SelectedObjectsTelemetryText">Etiquetas de los objetos seleccionados</String>
 	<String ID="AircraftTelemetryText">Etiquetas de los objetos no seleccionados</String>
@@ -359,6 +365,8 @@
 
 	<String ID="AOAHelp">Angulo de ataque</String>
 	<String ID="AOAText">Angulo de ataque (AOA)</String>
+	<String ID="AOSHelp">Angle of sideslip</String>
+	<String ID="AOSText">Angle of Sideslip (AOS)</String>
 	<String ID="GHelp">Aceleración relativa a la caída libre</String>
 	<String ID="GText">Fuerzas G (G)</String>
 	<String ID="LatGHelp">Aceleración relativa al eje lateral</String>
@@ -914,7 +922,7 @@
 	<String ID="InvalidShortcutText">No es posible encontrar en la misión actual los objetos y tiempos de referencia del acceso directo. Asegúrese de haber abierto el archivo correcto y haber copiado/pegado el acceso directo entero.</String>
 
 	<String ID="AboutTitle">Sobre Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2020, Raia Software. Todos los derechos reservados.&#10;Este programa informático está protegido por las leyes de copyright y la ley internacional de tratados.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2021, Raia Software. Todos los derechos reservados.&#10;Este programa informático está protegido por las leyes de copyright y la ley internacional de tratados.</String>
 
 	<String ID="LoadingInProgressShort">Cargando...</String>
 	<String ID="LoadingInProgress">Cargando '{0}'</String>
@@ -941,6 +949,7 @@
 	<String ID="FileTypeDescriptionGPX">Formato GPS Excange</String>
 	<String ID="FileTypeDescriptionVHS">Falcon 4.0 Grabación de vuelo</String>
 	<String ID="FileTypeDescriptionMAVLink">MAVLink telemetría</String>
+	<String ID="FileTypeDescriptionIGC">International Gliding Commission telemetry</String>
 	<String ID="FileTypeDescriptionCSV">Valores separados por coma</String>
 	<String ID="FileTypeDescriptionKML">Keyhole Markup Lenguaje</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">Registro de vuelo XML</String>
@@ -1064,7 +1073,7 @@
 
 	<String ID="TTDisplayCockpitInstruments">Mostrar los instrumentos de cabina</String>
 	<String ID="TTDrawHeight">Mostrar altura de objetos</String>
-	<String ID="TTDrawDirection">Mostrar dirección de los objetos seleccionados</String>
+	<String ID="TTDrawLocalVectors">Display Selected Objects Vectors</String>
 	<String ID="TTDrawIDs">Mostrar ID de objetos</String>
 	<String ID="TTDrawThreats">Mostrar rango letal SAM/AAA</String>
 	<String ID="TTDrawRadarLocks">Mostrar blocajes radar (Cuando disponible)</String>

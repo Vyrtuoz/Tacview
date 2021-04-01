@@ -106,6 +106,7 @@
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Display the terrain with a high contrast color scheme</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Custom textures</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Display all the textures declared in CustomTextureList.xml</String>
+	<String ID="OptionsDisplayControlsPositionText">Display Controls Position</String>
 	<String ID="OptionsAlwaysDisplayBullseyeText">Always Display Bullseye</String>
 	<String ID="OptionsAlwaysDisplayBullseyeHelp">Always display Bullseye in the 3D view</String>
 	<String ID="OptionsAutoHideCoordinatesText">Auto Hide Coordinates</String>
@@ -225,6 +226,11 @@
 	<String ID="DefineControlHelp">Assign custom joystick or keyboard input to this command</String>
 	<String ID="LaserPointerHelp">Display a laser pointer to highlight objects during an online debriefing</String>
 	<String ID="MousePositionHelp">Display latitude, longitude and bullseye position of the mouse cursor</String>
+
+	<String ID="DrawHeadingText">Heading</String>
+	<String ID="DrawCourseText">Course</String>
+	<String ID="DrawLiftVectorText">Lift</String>
+	<String ID="DrawPilotLineOfSightText">Pilot Line of Sight</String>
 
 	<String ID="SelectedObjectsTelemetryText">תוויות אובייקט שנבחרו</String>
 	<String ID="AircraftTelemetryText">תוויות אוביקט שלא נבחרו</String>
@@ -359,6 +365,8 @@
 
 	<String ID="AOAHelp">זווית התקפה</String>
 	<String ID="AOAText">(AOA) זווית התקפה</String>
+	<String ID="AOSHelp">Angle of sideslip</String>
+	<String ID="AOSText">Angle of Sideslip (AOS)</String>
 	<String ID="GHelp">תאוצה ביחס לכבידת כדור הארץ</String>
 	<String ID="GText">(G) תאוצת כבידה</String>
 	<String ID="LatGHelp">Acceleration relative to lateral axis</String>
@@ -868,8 +876,8 @@
 	<String ID="HomeToolDemoWarningManyDays">.הינך מוזמן לנסות אותו עוד {0} ימים .Tacview כלי זה זמין בגרסה הביתית של</String>
 	<String ID="HomeToolDemoExpired">עליך לשדרג לגרסה ביתית או מקצועית של התוכנה, ע"מ להשתמש בכלי זה</String>
 	<String ID="StrategicViewDemoWarning">תצוגת עולם זמינה רק בגרסה המקצועית</String>
-	<String ID="ExpiredCommercialLicenseAnnual">Your Tacview Enterprise has expired on {0},&#10;DO NOT use this version in commercial and institutional environment.</String>
-	<String ID="ExpiredCommercialLicensePerpetual">Your Tacview Enterprise support has expired on {0},&#10;Please contact us if you want to use this new version.</String>
+	<String ID="ExpiredCommercialLicenseAnnual">Your Tacview Enterprise annual license has expired on {0},&#10;DO NOT use this version in commercial and institutional environment.</String>
+	<String ID="ExpiredCommercialLicensePerpetual">Your Tacview Enterprise perpetual license updates and support has ended on {0}. Please reinstall a version published prior to that date or contact us to extend your support and updates.</String>
 
 	<!-- Units -->
 	<String ID="UnitLabelASL">ASL Altitude ({0})</String>
@@ -914,7 +922,7 @@
 	<String ID="InvalidShortcutText">האובייקט ו/או הזמן המבוקש בקיצור הדרך לא נמצאו בקובץ. אנא וודא כי מדובר בקובץ הנכון וכי העתקת את קיצור הדרך כשורה</String>
 
 	<String ID="AboutTitle">Tacview אודות</String>
-	<String ID="AboutCopyright">Copyright © 2006-2020, Raia Software. All Rights Reserved.&#10;This computer program is protected by copyright law and international treaties.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2021, Raia Software. All Rights Reserved.&#10;This computer program is protected by copyright law and international treaties.</String>
 	
 	<String ID="LoadingInProgressShort">...טוען</String>
 	<String ID="LoadingInProgress">'{0}' טוען</String>
@@ -941,6 +949,7 @@
 	<String ID="FileTypeDescriptionGPX">GPS eXchange קבצי</String>
 	<String ID="FileTypeDescriptionVHS">Falcon 4.0 הקלטות</String>
 	<String ID="FileTypeDescriptionMAVLink">MAVLink telemetry</String>
+	<String ID="FileTypeDescriptionIGC">International Gliding Commission telemetry</String>
 	<String ID="FileTypeDescriptionCSV">CSV (Comma-separated values) files</String>
 	<String ID="FileTypeDescriptionKML">KML הקלטות בפורמט</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">XML יומן טיסות בפורמט</String>
@@ -1064,7 +1073,7 @@
 
 	<String ID="TTDisplayCockpitInstruments">Display Cockpit Instruments</String>
 	<String ID="TTDrawHeight">הצג גבהי אובייקט</String>
-	<String ID="TTDrawDirection">הצג כיווני האובייקטים הנבחרים</String>
+	<String ID="TTDrawLocalVectors">Display Selected Objects Vectors</String>
 	<String ID="TTDrawIDs">של האובייקטים ID הצג</String>
 	<String ID="TTDrawThreats">SAM/AAA הצג שטח איום של</String>
 	<String ID="TTDrawRadarLocks">הצג נעילות מכ"ם (כאשר קיימות)</String>
