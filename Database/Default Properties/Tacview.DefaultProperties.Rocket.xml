@@ -268,4 +268,15 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Rocket.SNEB68" Base="Rocket.Light">
+		<Criteria>
+			<Name>SNEB68</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SNEB68</ShortName>
+			<LongName>SNEB68</LongName>
+			<FullName>SNEB68</FullName>
+		</Properties>
+	</DefaultProperties>
+
 </DefaultPropertiesCollection>

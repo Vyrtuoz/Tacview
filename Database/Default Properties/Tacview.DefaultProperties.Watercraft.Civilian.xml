@@ -66,4 +66,16 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Watercraft.HandyWind" Base="Watercraft.Heavy">
+		<Criteria>
+			<Name>HandyWind</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Handy Wind</ShortName>
+			<LongName>Handy Wind</LongName>
+			<FullName>Handy Wind</FullName>
+			<Shape>Watercraft.Cargo.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 </DefaultPropertiesCollection>

@@ -100,6 +100,7 @@
 			<Name>ZU-23-2</Name>
 			<Name>ZU-23 Closed</Name>		<!-- DCS 2.5.5 -->
 			<Name>ZU-23 Emplacement</Name>	<!-- DCS 2.5.5 -->
+			<Name>ZU-23 Closed Insurgent</Name>	<!-- DCS 2.6 -->
 		</Criteria>
 		<Properties>
 			<ShortName>ZU-23-2</ShortName>
@@ -109,7 +110,21 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="AntiAircraft.ZSU-23-4" Base="AntiAircraft.ZU-23">
+	<DefaultProperties Id="AntiAircraft.ZSU-57-2" Base="AntiAircraft.ZU-23">
+		<Criteria>
+			<Name>Sparka</Name>
+			<Name>ZSU-57-2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ZSU-57-2</ShortName>
+			<LongName>ZSU-57-2 Sparka</LongName>
+			<FullName>ZSU-57-2 Sparka</FullName>
+			<EngagementRange>3500</EngagementRange>
+			<VerticalEngagementRange>2500</VerticalEngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.ZSU-23-4" Base="AntiAircraft.ZSU-57-2">
 		<Criteria>
 			<Name>Shilka</Name>
 			<Name>ZSU-23-4</Name>
@@ -128,6 +143,7 @@
 			<Name>Ural ZU-23-2</Name>
 			<Name>Ural-375 ZU-23</Name>
 			<Name>Ural-375 ZU-23-2</Name>
+			<Name>ZU-23 Insurgent</Name>	<!-- DCS 2.6 -->
 		</Criteria>
 		<Properties>
 			<ShortName>ZU-23-2</ShortName>

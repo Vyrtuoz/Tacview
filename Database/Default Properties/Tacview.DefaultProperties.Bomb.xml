@@ -458,6 +458,17 @@
 
 	<!-- Eastern Bombs -->
 
+	<DefaultProperties Id="Bomb.200A" Base="Bomb.Durandal">
+		<Criteria>
+			<Name>Type 200A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Type 200A</ShortName>
+			<LongName>Type 200A</LongName>
+			<FullName>Type 200A</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Bomb.FAB50" Base="Bomb.Unguided">
 		<Criteria>
 			<Name>FAB 50</Name>
@@ -572,6 +583,17 @@
 	</DefaultProperties>
 
 	<!-- EU Bombs -->
+
+	<DefaultProperties Id="Bomb.Durandal" Base="Bomb.Unguided">
+		<Criteria>
+			<Name>Durandal</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Durandal</ShortName>
+			<LongName>Durandal</LongName>
+			<FullName>Matra Durandal</FullName>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="Bomb.BL755" Base="Bomb.Cluster">
 		<Criteria>

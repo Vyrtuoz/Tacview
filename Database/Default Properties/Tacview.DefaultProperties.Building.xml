@@ -50,13 +50,13 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Building.DoublePylon.40m.Blue" Base="Building.DoublePylon">
+	<DefaultProperties Id="Building.DoublePylon.40m.Red" Base="Building.DoublePylon">
 		<!-- https://www.digitalcombatsimulator.com/fr/files/3196986/ -->
 		<Criteria>
-			<Name>40m Blue</Name>
+			<Name>40m Red</Name>
 		</Criteria>
 		<Properties>
-			<Color>Blue</Color>
+			<Color>Red</Color>
 			<Shape>Building.DoublePylon.40m.obj</Shape>
 		</Properties>
 	</DefaultProperties>

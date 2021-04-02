@@ -841,23 +841,26 @@
 			<Name>Grouse</Name>
 			<Name>SA-18</Name>
 			<Name>SA-18 Grouse</Name>
+			<Name>Igla manpad INS</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SA-18</ShortName>
 			<LongName>SA-18 Grouse</LongName>
 			<FullName>SA-18 Grouse</FullName>
-			<EngagementRange>3000</EngagementRange>
+			<EngagementRange>4000</EngagementRange>
 		</Properties>
 	</DefaultProperties>
 
 	<DefaultProperties Id="AntiAircraft.SAM.SA-18.Support" Base="AntiAircraft.Infantry">
 		<Criteria>
-			<Name>SA18 comm</Name>		<!-- DCS World -->
+			<Name>SA-18 comm</Name>		<!-- DCS World -->
+			<Name>Igla comm</Name>		<!-- DCS World -->
 		</Criteria>
 		<Properties>
 			<ShortName>Infantry</ShortName>
 			<LongName>SA-18 Support</LongName>
 			<FullName>SA-18 Support</FullName>
+			<Shape>Core.Infantry.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

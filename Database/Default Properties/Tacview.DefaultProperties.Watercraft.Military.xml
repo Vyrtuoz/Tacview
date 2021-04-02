@@ -105,6 +105,20 @@
 		</Properties>
 	</DefaultProperties>
 
+	<!-- North American Destroyers -->
+
+	<DefaultProperties Id="Watercraft.ArleighBurke" Base="Watercraft.Destroyer">
+		<Criteria>
+			<Name>Burke</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Burke</ShortName>
+			<LongName>Arleigh Burke</LongName>
+			<FullName>USS Arleigh Burke</FullName>
+			<Shape>Watercraft.CG-47.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- North American Aircraft Carriers -->
 
 	<DefaultProperties Id="Watercraft.CV-41" Base="Watercraft.AircraftCarrier">
@@ -771,6 +785,20 @@
 			<FullName>Jiangkai II (Type 054A)</FullName>
 			<EngagementRange>49000</EngagementRange>
 			<Shape>Watercraft.Type 054A.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Type071" Base="Watercraft.Frigate">
+		<Criteria>
+			<Name>071</Name>
+			<Name>Yuzhao</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Yuzhao</ShortName>
+			<LongName>Yuzhao</LongName>
+			<FullName>Yuzhao (Type 071)</FullName>
+			<EngagementRange>3000</EngagementRange>
+			<Shape>Watercraft.Type 052D.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

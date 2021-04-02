@@ -28,6 +28,12 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.GA.Glider" Base="FixedWing.GA">
+		<Criteria>
+			<Name>glider</Name>
+		</Criteria>
+		<Properties>
+			<Shape>FixedWing.DuoDiscus.obj</Shape>
+		</Properties>
 	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.GA.Glider.Taildragger" Base="FixedWing.GA">
@@ -1100,6 +1106,54 @@
 	</DefaultProperties>
 
 	<!-- EU Civilian fixed-wing aircraft -->
+
+	<DefaultProperties Id="FixedWing.SZD-54" Base="FixedWing.GA.Glider.Taildragger">
+		<Criteria>
+			<Name>SZD-54</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SZD-54</ShortName>
+			<LongName>SZD-54 Perkoz</LongName>
+			<FullName>Allstar SZD-54 Perkoz</FullName>
+			<Shape>FixedWing.DuoDiscus.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.LAK-17" Base="FixedWing.GA.Glider.Taildragger">
+		<Criteria>
+			<Name>LAK-17</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>LAK-17</ShortName>
+			<LongName>LAK-17</LongName>
+			<FullName>LAK-17</FullName>
+			<Shape>FixedWing.DuoDiscus.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.LAK-17B" Base="FixedWing.LAK-17">
+		<Criteria>
+			<Name>LAK-17B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>LAK-17B</ShortName>
+			<LongName>LAK-17B</LongName>
+			<FullName>LAK-17B</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.LS8" Base="FixedWing.GA.Glider.Taildragger">
+		<Criteria>
+			<Name>LS8</Name>
+			<Name>LS_8</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>LS8</ShortName>
+			<LongName>LS8</LongName>
+			<FullName>Rolladen-Schneider LS8</FullName>
+			<Shape>FixedWing.DuoDiscus.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.ASK21" Base="FixedWing.GA.Glider.Taildragger">
 		<Criteria>

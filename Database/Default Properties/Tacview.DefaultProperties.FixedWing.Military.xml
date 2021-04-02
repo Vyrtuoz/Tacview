@@ -126,6 +126,7 @@
 			<Name>C-130</Name>
 			<Name>C-130 Hercules</Name>
 			<Name>Lockheed C-130</Name>
+			<Name>Hercules</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>C-130</ShortName>
@@ -1918,6 +1919,19 @@
 
 	<!-- EU Europe Military Fixed-wing aircraft -->
 
+	<DefaultProperties Id="FixedWing.BAE.Hawk" Base="FixedWing.Trainer.Jet">
+		<Criteria>
+			<Name>BAE Hawk</Name>
+			<Name>Hawk</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Hawk</ShortName>
+			<LongName>BAE Hawk</LongName>
+			<FullName>BAE Systems Hawk</FullName>
+			<Shape>FixedWing.BAE.Hawk.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.Br.1150" Base="FixedWing.P-3">
 		<Criteria>
 			<Name>Br.1150</Name>
@@ -2023,39 +2037,6 @@
 			<LongName>Sopwith Camel</LongName>
 			<FullName>Sopwith Camel</FullName>
 			<Shape>FixedWing.CAML.obj</Shape>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="FixedWing.C-101" Base="FixedWing.Trainer.Jet">
-		<Criteria>
-			<Name>C-101</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>C-101</ShortName>
-			<LongName>CASA C-101</LongName>
-			<FullName>CASA C-101 Aviojet</FullName>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="FixedWing.C-101CC" Base="FixedWing.C-101">
-		<Criteria>
-			<Name>C-101CC</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>C-101CC</ShortName>
-			<LongName>CASA C-101CC</LongName>
-			<FullName>CASA C-101CC Aviojet</FullName>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="FixedWing.C-101EB" Base="FixedWing.C-101">
-		<Criteria>
-			<Name>C-101EB</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>C-101EB</ShortName>
-			<LongName>CASA C-101EB</LongName>
-			<FullName>CASA C-101EB Aviojet</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -2884,6 +2865,19 @@
 			<ShortName>Hurricane</ShortName>
 			<LongName>Hurricane</LongName>
 			<FullName>Hawker Hurricane</FullName>
+			<Shape>FixedWing.Hurricane.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Hurricane.Mk II" Base="FixedWing.Hurricane">
+		<Criteria>
+			<Name>Hurricane Mk II</Name>
+			<Name>Hurricane Mk.II</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Hurricane</ShortName>
+			<LongName>Hurricane Mk II</LongName>
+			<FullName>Hawker Hurricane Mk II</FullName>
 		</Properties>
 	</DefaultProperties>
 

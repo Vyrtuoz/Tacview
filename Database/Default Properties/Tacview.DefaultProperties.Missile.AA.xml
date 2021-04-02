@@ -488,6 +488,34 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.AA.R-24R" Base="Missile.AA.AIM-7">
+		<Criteria>
+			<Name>R-24R</Name>
+			<Name>P_24R</Name>		<!-- DCS World -->
+			<Name>AA-7</Name>
+			<Name>Apex</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-24R</ShortName>
+			<LongName>R-24R (AA-7 Apex)</LongName>
+			<FullName>Vympel R-24R (AA-7 Apex)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-24T" Base="Missile.AA.AIM-7">
+		<Criteria>
+			<Name>R-24T</Name>
+			<Name>P_24T</Name>		<!-- DCS World -->
+			<Name>AA-7</Name>
+			<Name>Apex</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-24T</ShortName>
+			<LongName>R-24T (AA-7 Apex)</LongName>
+			<FullName>Vympel R-24T (AA-7 Apex)</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.AA.R-27" Base="Missile.AA">
 		<Criteria>
 			<Name>R-27</Name>
@@ -669,6 +697,7 @@
 	<DefaultProperties Id="Missile.AA.R-73" Base="Missile.AA.IR">
 		<Criteria>
 			<Name>R-73</Name>
+			<Name>P_73</Name>
 			<Name>AA-11</Name>
 			<Name>AA-11 Archer</Name>
 			<Name>AA-11 Archer R-73</Name>

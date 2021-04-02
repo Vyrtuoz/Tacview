@@ -403,6 +403,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.AS.RB15F" Base="Missile.AS.AGM-84">
+		<Criteria>
+			<Name>Rb 15F</Name>
+			<Name>Robot 15F</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>RBS-15F</ShortName>
+			<LongName>Robotsystem 15F</LongName>
+			<FullName>Robotsystem 15F</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.AG.RB75" Base="Missile.AG.AGM-65">
 		<Criteria>
 			<Name>RB-75</Name>
@@ -498,15 +510,50 @@
 
 	<!-- Asia -->
 
-	<DefaultProperties Id="Missile.AG.YJ-7" Base="Missile.AG">
+	<DefaultProperties Id="Missile.AG.YJ-7" Base="Missile.AG.AGM-65">
 		<Criteria>
 			<Name>YJ-7</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>YJ-7</ShortName>
+			<LongName>YJ-7 (C-701)</LongName>
+			<FullName>YingJi-7 (C-701)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.YJ-7IR" Base="Missile.AG.YJ-7">
+		<Criteria>
+			<Name>YJ-7IR</Name>
+			<Name>C-701IR</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C-701IR</ShortName>
+			<LongName>YJ-7IR (C-701IR)</LongName>
+			<FullName>YingJi-7 (C-701IR)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.LS-6-500" Base="Missile.AG">
+		<Criteria>
+			<Name>LS-6-500</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>LS-6-500</ShortName>
+			<LongName>LS-6-500</LongName>
+			<FullName>LS-6-500</FullName>
+			<Shape>Missile.SOM.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.YJ-7T" Base="Missile.AG.YJ-7">
+		<Criteria>
+			<Name>YJ-7T</Name>
 			<Name>C-701T</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>C-701T</ShortName>
-			<LongName>C-701T (YJ-7)</LongName>
-			<FullName>C-701T (YJ-7)</FullName>
+			<LongName>C-701T (YJ-7T)</LongName>
+			<FullName>C-701T (YJ-7T)</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -575,6 +622,17 @@
 			<ShortName>C-802AK</ShortName>
 			<LongName>C-802AK</LongName>
 			<FullName>C-802AK</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AS.CM-802AKG" Base="Missile.AS.C-802AK">
+		<Criteria>
+			<Name>CM-802AKG</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CM-802AKG</ShortName>
+			<LongName>CM-802AKG</LongName>
+			<FullName>CM-802AKG</FullName>
 		</Properties>
 	</DefaultProperties>
 

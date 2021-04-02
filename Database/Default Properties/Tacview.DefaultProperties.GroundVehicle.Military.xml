@@ -75,6 +75,25 @@
 		</Properties>
 	</DefaultProperties>
 
+	<!-- North American Military Trucks -->
+
+	<DefaultProperties Id="Vehicle.Truck.M809" Base="Vehicle.Military.Truck">
+		<Properties>
+			<Shape>Vehicle.Truck.Ural.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Truck.M818" Base="Vehicle.Truck.M809">
+		<Criteria>
+			<Name>M 818</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M818</ShortName>
+			<LongName>M818</LongName>
+			<FullName>M818</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- North American Military APC -->
 
 	<DefaultProperties Id="Vehicle.APC.M113" Base="Vehicle.Military.APC">
@@ -168,6 +187,17 @@
 	<DefaultProperties Id="Vehicle.Truck.Ural" Base="Vehicle.Military.Truck">
 		<Properties>
 			<Shape>Vehicle.Truck.Ural.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Truck.KrAZ-6322" Base="Vehicle.Truck.Ural">
+		<Criteria>
+			<Name>KrAZ-6322</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>KrAZ-6322</ShortName>
+			<LongName>KrAZ-6322</LongName>
+			<FullName>KrAZ-6322</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -300,6 +330,17 @@
 			<LongName>BTR-80</LongName>
 			<FullName>BTR-80</FullName>
 			<Shape>Vehicle.APC.BTR-80.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.APC.BTR-82A" Base="Vehicle.APC.BTR-80">
+		<Criteria>
+			<Name>BTR-82A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BTR-82A</ShortName>
+			<LongName>BTR-82A</LongName>
+			<FullName>BTR-82A</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -464,6 +505,28 @@
 	</DefaultProperties>
 
 	<!-- European Tanks -->
+
+	<DefaultProperties Id="Vehicle.Truck.Bedford MW" Base="Vehicle.Military.Truck">
+		<Criteria>
+			<Name>Bedford MW</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MW</ShortName>
+			<LongName>Bedford MW</LongName>
+			<FullName>Bedford MW</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Truck.Bedford MWD" Base="Vehicle.Truck.Bedford MW">
+		<Criteria>
+			<Name>Bedford MWD</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MWD</ShortName>
+			<LongName>Bedford MWD</LongName>
+			<FullName>Bedford MWD</FullName>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="Vehicle.Tank.PanzerIII" Base="Vehicle.Military.Tank">
 		<Criteria>
@@ -695,6 +758,17 @@
 			<LongName>T-80U</LongName>
 			<FullName>T-80U</FullName>
 			<Shape>Vehicle.Tank.T-80U.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.T-90" Base="Vehicle.Tank.T-80U">
+		<Criteria>
+			<Name>T-90</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>T-90</ShortName>
+			<LongName>T-90</LongName>
+			<FullName>T-90</FullName>
 		</Properties>
 	</DefaultProperties>
 

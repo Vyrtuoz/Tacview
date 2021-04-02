@@ -69,9 +69,20 @@
 			<Name>M-16</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>M-16</ShortName>
-			<LongName>M-16 Infantry</LongName>
-			<FullName>M-16 Infantry</FullName>
+			<ShortName>M16</ShortName>
+			<LongName>M16 Infantry</LongName>
+			<FullName>M16 Infantry</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Other.M4" Base="Other.M-16">
+		<Criteria>
+			<Name>M4</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M4</ShortName>
+			<LongName>M4 Infantry</LongName>
+			<FullName>M4 Infantry</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -132,17 +143,6 @@
 			<ShortName>LAU-68</ShortName>
 			<LongName>LAU-68</LongName>
 			<FullName>LAU-68</FullName>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="Container.RocketPod.LUA-3" Base="Container.RocketPod">
-		<Criteria>
-			<Name>LAU-3</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>LAU-3</ShortName>
-			<LongName>LAU-3</LongName>
-			<FullName>LAU-3</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -274,6 +274,7 @@
 	<DefaultProperties Id="Container.DropTank.800L" Base="Container.DropTank">
 		<Criteria>
 			<Name>800L Tank</Name>
+			<Name>tank 800 l</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>Drop Tank</ShortName>
@@ -336,6 +337,106 @@
 			<ShortName>Drop Tank</ShortName>
 			<LongName>1500L Drop Tank</LongName>
 			<FullName>1500L Drop Tank</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Military Parachute -->
+
+	<!-- This is an addon from Asta to support DCS World Hercules parachute boxes -->
+
+	<DefaultProperties Id="Other.Hercules.Parachutist" Base="Core.Bomb">
+		<Criteria>
+			<Name>Squad 30 x Soldier [7950lb]</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Parachutist</ShortName>
+			<LongName>Parachutist</LongName>
+			<FullName>Parachutist</FullName>
+			<Shape>Other.Hercules.Parachutist.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Other.Hercules.Container.Parachute" Base="Core.Bomb">
+		<Criteria>
+			<Name>APC M1043 HMMWV Armament Air [7023lb]</Name>
+			<Name>ATGM M1045 HMMWV TOW Air [7183lb]</Name>
+			<Name>AAA Vulcan M163 Air [21666lb]</Name>
+			<Name>APC LAV-25 Air [22520lb]</Name>
+			<Name>M1025 HMMWV Air [6160lb]</Name>
+			<Name>SAM Avenger M1097 Air [7200lb]</Name>
+			<Name>APC Cobra Air [10912lb]</Name>
+			<Name>APC M113 Air [21624lb]</Name>
+			<Name>ARV BRDM-2 Air [12320lb]</Name>
+			<Name>APC BTR-80 Air [23936lb]</Name>
+			<Name>SAM ROLAND ADS [34720lb]</Name>
+			<Name>Transport UAZ-469 Air [3747lb]</Name>
+			<Name>Transport Tigr Air [15900lb]</Name>
+			<Name>SAM CHAPARRAL Air [21624lb]</Name>
+			<Name>IFV BMD-1 Air [18040lb]</Name>
+			<Name>IFV BTR-D Air [18040lb]</Name>
+			<Name>ART 2S9 NONA Air [19140lb]</Name>
+			<Name>APC MTLB Air [26400lb]</Name>
+			<Name>Generic Crate [20000lb]</Name>
+			<Name>EWR SBORKA Air [21624lb]</Name>
+			<Name>APC BTR-82A Air [24998lb]</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Airdrop</ShortName>
+			<LongName>Airdrop</LongName>
+			<FullName>Airdrop</FullName>
+			<Shape>Other.Hercules.Container.Parachute.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Other.Hercules.Container.NoParachute" Base="Core.Bomb">
+		<Criteria>
+			<Name>APC M1043 HMMWV Armament Skid [6912lb]</Name>
+			<Name>ATGM M1045 HMMWV TOW Skid [7073lb]</Name>
+			<Name>AAA Vulcan M163 Skid [21577lb]</Name>
+			<Name>APC M1126 Stryker ICV [29542lb]</Name>
+			<Name>SPG M1128 Stryker MGS [33036lb]</Name>
+			<Name>ATGM M1134 Stryker [30337lb]</Name>
+			<Name>APC LAV-25 Skid [22514lb]</Name>
+			<Name>M1025 HMMWV Skid [6050lb]</Name>
+			<Name>SAM Avenger M1097 Skid [7090lb]</Name>
+			<Name>APC Cobra Skid [10802lb]</Name>
+			<Name>APC M113 Skid [21494lb]</Name>
+			<Name>Tanker M978 HEMTT [34000lb]</Name>
+			<Name>HEMTT TFFT [34400lb]</Name>
+			<Name>IFV M2A2 Bradley [34720lb]</Name>
+			<Name>IFV MCV-80 [34720lb]</Name>
+			<Name>IFV BMP-1 [23232lb]</Name>
+			<Name>IFV BMP-2 [25168lb]</Name>
+			<Name>IFV BMP-3 [32912lb]</Name>
+			<Name>ARV BRDM-2 Skid [12210lb]</Name>
+			<Name>APC BTR-80 Skid [23826lb]</Name>
+			<Name>SAM ROLAND ADS [34720lb]</Name>
+			<Name>SAM ROLAND LN [34720b]</Name>
+			<Name>SAM SA-13 STRELA [21624lb]</Name>
+			<Name>AAA ZSU-23-4 Shilka [32912lb]</Name>
+			<Name>SAM SA-19 Tunguska 2S6 [34720lb]</Name>
+			<Name>Transport UAZ-469 Skid [3630lb]</Name>
+			<Name>Transport URAL-375 [14815lb]</Name>
+			<Name>Transport M818 [16000lb]</Name>
+			<Name>Transport Tigr Skid [15730lb]</Name>
+			<Name>AAA GEPARD [34720lb]</Name>
+			<Name>SAM CHAPARRAL Skid [21516lb]</Name>
+			<Name>SAM LINEBACKER [34720lb]</Name>
+			<Name>IFV MARDER [34720lb]</Name>
+			<Name>IFV TPZ FUCH [33440lb]</Name>
+			<Name>IFV BMD-1 Skid [17930lb]</Name>
+			<Name>IFV BTR-D Skid [17930lb]</Name>
+			<Name>ART 2S9 NONA Skid [19030lb]</Name>
+			<Name>ART GVOZDIKA [34720lb]</Name>
+			<Name>APC MTLB Skid [26290lb]</Name>
+			<Name>EWR SBORKA Skid [21624lb]</Name>
+			<Name>APC BTR-82A Skid [24888lb]</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Container</ShortName>
+			<LongName>Container</LongName>
+			<FullName>Container</FullName>
+			<Shape>Other.Hercules.Container.NoParachute.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
