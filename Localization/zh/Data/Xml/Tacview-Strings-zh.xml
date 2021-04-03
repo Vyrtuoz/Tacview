@@ -106,7 +106,7 @@
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">使用高对比度配色方案显示地形</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">自定义纹理</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">显示CustomTextureList.xml中声明的所有纹理</String>
-	<String ID="OptionsDisplayControlsPositionText">Display Controls Position</String>
+	<String ID="OptionsDisplayControlsPositionText">显示控制器位置</String>
 	<String ID="OptionsAlwaysDisplayBullseyeText">总是显示靶眼</String>
 	<String ID="OptionsAlwaysDisplayBullseyeHelp">总是在3D视野里显示靶眼</String>
 	<String ID="OptionsAutoHideCoordinatesText">自动隐藏坐标</String>
@@ -227,10 +227,10 @@
 	<String ID="LaserPointerHelp">在联机任务报告期间显示用于突出显示物体的激光指针</String>
 	<String ID="MousePositionHelp">显示鼠标光标的纬度、经度和靶眼位置</String>
 
-	<String ID="DrawHeadingText">Heading</String>
-	<String ID="DrawCourseText">Course</String>
-	<String ID="DrawLiftVectorText">Lift</String>
-	<String ID="DrawPilotLineOfSightText">Pilot Line of Sight</String>
+	<String ID="DrawHeadingText">航向</String>
+	<String ID="DrawCourseText">航线</String>
+	<String ID="DrawLiftVectorText">升力</String>
+	<String ID="DrawPilotLineOfSightText">飞行员视线</String>
 
 	<String ID="SelectedObjectsTelemetryText">已选物体标签</String>
 	<String ID="AircraftTelemetryText">未选飞机标签</String>
@@ -365,8 +365,8 @@
 
 	<String ID="AOAHelp">迎角</String>
 	<String ID="AOAText">迎角 (AOA)</String>
-	<String ID="AOSHelp">Angle of sideslip</String>
-	<String ID="AOSText">Angle of Sideslip (AOS)</String>
+	<String ID="AOSHelp">侧滑角</String>
+	<String ID="AOSText">侧滑角 (AOS)</String>
 	<String ID="GHelp">作用在航空器上的合力与航空器重力之比</String>
 	<String ID="GText">过载 (G)</String>
 	<String ID="LatGHelp">相对于横轴的加速度</String>
@@ -911,9 +911,9 @@
 	<String ID="HomeToolDemoExpired">你必须<a href="cmd:RegisterCmd">升级你的许可</a>至标准版或高级版方可使用此工具。</String>
 <!--
 	Chinese characters are not yet supported in the 3D view
-	<String ID="StrategicViewDemoWarning">战略视角可在高级版Tacview内使用。&#10;你可以试用{0}天。</String>
-	<String ID="ExpiredCommercialLicenseAnnual">你的企业版许可已于 {0} 过期，&#10;不要在商业和制度环境下使用此版本。</String>
-	<String ID="ExpiredCommercialLicensePerpetual">你的Tacview企业版支持到期于 {0},&#10;如果你希望使用此新版本，请联系我们。</String>
+	<String ID="StrategicViewDemoWarning">战略视角可在高级版Tacview内使用。</String>
+	<String ID="ExpiredCommercialLicenseAnnual">您的Tacview企业年度许可证已于{0},&#10;请勿在商业和机构环境中使用此版本。</String>
+	<String ID="ExpiredCommercialLicensePerpetual">您的Tacview企业永久许可证更新和支持已于{0}结束。请重新安装在此日期之前发布的版本，或与我们联系以扩展您的支持和更新。</String>
 -->
 	<String ID="StrategicViewDemoWarning">This Strategic View is available in Tacview Advanced.</String>
 	<String ID="ExpiredCommercialLicenseAnnual">Your Tacview Enterprise annual license has expired on {0},&#10;DO NOT use this version in commercial and institutional environment.</String>
@@ -1018,7 +1018,7 @@
 	<String ID="FileTypeDescriptionGPX">GPS eXchange文件</String>
 	<String ID="FileTypeDescriptionVHS">Falcon 4.0飞行记录</String>
 	<String ID="FileTypeDescriptionMAVLink">MAVLink遥测</String>
-	<String ID="FileTypeDescriptionIGC">International Gliding Commission telemetry</String>
+	<String ID="FileTypeDescriptionIGC">国际滑翔委员会遥测</String>
 	<String ID="FileTypeDescriptionCSV">CSV（逗号分隔值）文件</String>
 	<String ID="FileTypeDescriptionKML">Keyhole标记语言（KML）格式的飞行记录</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">XML任务报告</String>
@@ -1150,7 +1150,7 @@
 
 	<String ID="TTDisplayCockpitInstruments">显示驾驶舱仪表</String>
 	<String ID="TTDrawHeight">显示物体离地高度</String>
-	<String ID="TTDrawLocalVectors">Display Selected Objects Vectors</String>
+	<String ID="TTDrawLocalVectors">显示已选物体矢量</String>
 	<String ID="TTDrawIDs">显示物体图标</String>
 	<String ID="TTDrawThreats">显示预警雷达和防空系统有效范围</String>
 	<String ID="TTDrawRadarLocks">显示雷达锁定（当可用时）</String>
