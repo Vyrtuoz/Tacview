@@ -111,6 +111,7 @@
 	<String ID="OptionsAutoHideCoordinatesText">Cacher automatiquement les coordonnées</String>
 	<String ID="OptionsAutoHideCoordinatesHelp">Masquer automatiquement les coordonnées latitude/longitude lorsque des coordonnées bullseye sont présentes</String>
 	<String ID="OptionsUIScaleText">Echelle interface utilisateur</String>
+	<String ID="OptionsCockpitText">Cockpit</String>
 
 	<String ID="OptionsTerrainText">Terrain</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Auto)</String>
@@ -340,6 +341,11 @@
 	<String ID="AxisNoneText">Désactivé</String>
 
 	<!-- Telemetry -->
+
+	<String ID="DisplayObjectNameText">Nom de l’objet</String>
+	<String ID="DisplayPilotNameText">Nom du pilote</String>
+	<String ID="DisplayLabelText">Label</String>
+
 	<String ID="ATCHelp">Etiquette style trafic aérien: altitude/100, vitesse verticale et vitesse sol/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
 	<String ID="ATCMachHelp">Etiquette style trafic aérien: altitude/100, vitesse verticale et vitesse en mach</String>
@@ -535,6 +541,8 @@
 
 	<String ID="ADSBTelemetryTitle">Télémétrie ADS-B</String>
 	<String ID="ADSBTelemetryIntro">Ecoute les signaux radio ADS-B 1090MHz pour afficher les aéronefs des alentour en temps réel !</String>
+	<String ID="ADSBTelemetryRecordingConnecting">Recherche d’un périphérique&#xA;radio ADS-B {0}</String>
+	<String ID="ADSBTelemetryRecordingProgress">Enregistrement ADS-B depuis {0}&#xA;{1}</String>
 
 	<String ID="AddEditObjectAddTitle">Créer un nouvel objet</String>
 	<String ID="AddEditObjectEditTitle">Editer les propriétés d’un objet</String>

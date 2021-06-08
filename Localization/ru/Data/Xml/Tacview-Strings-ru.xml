@@ -112,6 +112,7 @@
 	<String ID="OptionsAutoHideCoordinatesText">Auto Hide Coordinates</String>
 	<String ID="OptionsAutoHideCoordinatesHelp">Auto hide latitude/longitude coordinates whenever bullseye coordinates are present</String>
 	<String ID="OptionsUIScaleText">UI Scaling</String>
+	<String ID="OptionsCockpitText">Cockpit</String>
 
 	<String ID="OptionsTerrainText">Ландшафт</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Авто)</String>
@@ -341,6 +342,11 @@
 	<String ID="AxisNoneText">Отключено</String>
 
 	<!-- Telemetry -->
+
+	<String ID="DisplayObjectNameText">Object Name</String>
+	<String ID="DisplayPilotNameText">Pilot Name</String>
+	<String ID="DisplayLabelText">Label</String>
+
 	<String ID="ATCHelp">ATC - подобная телеметрия: высота/100, вертикальная скорость и наземная скорость/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
 	<String ID="ATCMachHelp">ATC like telemetry: altitude/100, vertical speed, and mach number</String>
@@ -536,6 +542,8 @@
 
 	<String ID="ADSBTelemetryTitle">ADS-B Telemetry</String>
 	<String ID="ADSBTelemetryIntro">Listens to 1090MHz ADS-B radio signals to display aircraft around you in real-time!</String>
+	<String ID="ADSBTelemetryRecordingConnecting">Looking for&#xA;ADS-B radio device {0}</String>
+	<String ID="ADSBTelemetryRecordingProgress">Recording ADS-B from {0}&#xA;{1}</String>
 
 	<String ID="AddEditObjectAddTitle">Создать новый объект</String>
 	<String ID="AddEditObjectEditTitle">Редактировать свойства объекта</String>

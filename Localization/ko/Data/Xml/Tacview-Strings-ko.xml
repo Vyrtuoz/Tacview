@@ -112,6 +112,7 @@
 	<String ID="OptionsAutoHideCoordinatesText">Auto Hide Coordinates</String>
 	<String ID="OptionsAutoHideCoordinatesHelp">Auto hide latitude/longitude coordinates whenever bullseye coordinates are present</String>
 	<String ID="OptionsUIScaleText">UI Scaling</String>
+	<String ID="OptionsCockpitText">Cockpit</String>
 
 	<String ID="OptionsTerrainText">지형</String>
 	<String ID="OptionsTerrainAutoText">(&amp;자동)</String>
@@ -341,6 +342,11 @@
 	<String ID="AxisNoneText">사용안함</String>
 
 	<!-- Telemetry -->
+
+	<String ID="DisplayObjectNameText">Object Name</String>
+	<String ID="DisplayPilotNameText">Pilot Name</String>
+	<String ID="DisplayLabelText">Label</String>
+
 	<String ID="ATCHelp">텔레메트리같은 ATC: 고도/100, 수직속도, 그리고 지상속도/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
 	<String ID="ATCMachHelp">ATC like telemetry: altitude/100, vertical speed, and mach number</String>
@@ -552,6 +558,8 @@
 
 	<String ID="ADSBTelemetryTitle">ADS-B Telemetry</String>
 	<String ID="ADSBTelemetryIntro">Listens to 1090MHz ADS-B radio signals to display aircraft around you in real-time!</String>
+	<String ID="ADSBTelemetryRecordingConnecting">Looking for&#xA;ADS-B radio device {0}</String>
+	<String ID="ADSBTelemetryRecordingProgress">Recording ADS-B from {0}&#xA;{1}</String>
 
 	<String ID="AddEditObjectAddTitle">신규 오브젝트 생성</String>
 	<String ID="AddEditObjectEditTitle">오브젝트 속성 편집</String>

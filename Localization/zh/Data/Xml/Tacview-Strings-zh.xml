@@ -112,6 +112,7 @@
 	<String ID="OptionsAutoHideCoordinatesText">自动隐藏坐标</String>
 	<String ID="OptionsAutoHideCoordinatesHelp">每当出现靶眼坐标时，自动隐藏纬度/经度坐标</String>
 	<String ID="OptionsUIScaleText">用户界面缩放</String>
+	<String ID="OptionsCockpitText">Cockpit</String>
 
 	<String ID="OptionsTerrainText">地形</String>
 	<String ID="OptionsTerrainAutoText">（&amp;自动）</String>
@@ -341,6 +342,11 @@
 	<String ID="AxisNoneText">禁用</String>
 
 	<!-- Telemetry -->
+
+	<String ID="DisplayObjectNameText">Object Name</String>
+	<String ID="DisplayPilotNameText">Pilot Name</String>
+	<String ID="DisplayLabelText">Label</String>
+
 	<String ID="ATCHelp">ATC风格遥测：高度/100、垂直速度和地速/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
 	<String ID="ATCMachHelp">ATC风格遥测：高度/100、垂直速度和马赫数</String>
@@ -553,6 +559,8 @@
 
 	<String ID="ADSBTelemetryTitle">ADS-B遥测</String>
 	<String ID="ADSBTelemetryIntro">收听1090MHz的ADS-B无线电信号，实时显示您周围的航空器！</String>
+	<String ID="ADSBTelemetryRecordingConnecting">Looking for&#xA;ADS-B radio device {0}</String>
+	<String ID="ADSBTelemetryRecordingProgress">Recording ADS-B from {0}&#xA;{1}</String>
 
 	<String ID="AddEditObjectAddTitle">创建一个新物体</String>
 	<String ID="AddEditObjectEditTitle">编辑物体属性</String>
