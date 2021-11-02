@@ -82,6 +82,14 @@
 	<String ID="AnalysisDisplayMedia3Help">显示或隐藏音频/视频窗口 #3</String>
 	<String ID="AnalysisDisplayMedia4Text">媒体 &amp;4</String>
 	<String ID="AnalysisDisplayMedia4Help">显示或隐藏音频/视频窗口 #4</String>
+	<String ID="AnalysisDisplayMedia5Text">媒体 &amp;5</String>
+	<String ID="AnalysisDisplayMedia5Help">显示或隐藏音频/视频窗口 #5</String>
+	<String ID="AnalysisDisplayMedia6Text">媒体 &amp;6</String>
+	<String ID="AnalysisDisplayMedia6Help">显示或隐藏音频/视频窗口 #6</String>
+	<String ID="AnalysisDisplayMedia7Text">媒体 &amp;7</String>
+	<String ID="AnalysisDisplayMedia7Help">显示或隐藏音频/视频窗口 #7</String>
+	<String ID="AnalysisDisplayMedia8Text">媒体 &amp;8</String>
+	<String ID="AnalysisDisplayMedia8Help">显示或隐藏音频/视频窗口 #8</String>
 
 	<String ID="DebriefingMenuTooltip">任务报告</String>
 	<String ID="DebriefingMenuHelp">任务报告工具</String>
@@ -113,6 +121,8 @@
 	<String ID="OptionsAutoHideCoordinatesHelp">每当出现靶眼坐标时，自动隐藏纬度/经度坐标</String>
 	<String ID="OptionsUIScaleText">用户界面缩放</String>
 	<String ID="OptionsCockpitText">驾驶舱</String>
+	<String ID="OptionsAnticipatoryTrailText">Anticipatory Trail</String>
+	<String ID="OptionsAnticipatoryTrailDisabled">Disabled</String>
 
 	<String ID="OptionsTerrainText">地形</String>
 	<String ID="OptionsTerrainAutoText">（&amp;自动）</String>
@@ -559,8 +569,20 @@
 
 	<String ID="ADSBTelemetryTitle">ADS-B遥测</String>
 	<String ID="ADSBTelemetryIntro">收听1090MHz的ADS-B无线电信号，实时显示您周围的航空器！</String>
+<!--
+	Chinese text is not yet supported in the 3D view.
 	<String ID="ADSBTelemetryRecordingConnecting">寻找&#xA;ADS-B无线电设备{0}</String>
 	<String ID="ADSBTelemetryRecordingProgress">从{0}&#xA;{1}录入ADS-B</String>
+-->
+	<String ID="ADSBTelemetryRecordingConnecting">Looking for&#xA;ADS-B radio device {0}</String>
+	<String ID="ADSBTelemetryRecordingProgress">Recording ADS-B from {0}&#xA;{1}</String>
+	<String ID="ADSBTelemetryOperationFailed">Cannot find any supported USB radio device to read ADS-B signal. Check https://www.rtl-sdr.com for a list of RTL2832U compatible radio equipment, and make sure WinUSB is properly installed from https://zadig.akeo.ie</String>
+	<String ID="ADSBTelemetryExplanation">To record ADS-B radio signal in real-time, you need:&#xA;
+• RTL2832U compatible USB radio dongle (https://www.rtl-sdr.com)
+• 1090MHz antenna
+• 1090MHz ADS-B filter (optional)
+• WinUSB drivers for your dongle (https://zadig.akeo.ie)&#xA;
+Make sure everything is properly connected to your computer and configured, then click connect!</String>
 
 	<String ID="AddEditObjectAddTitle">创建一个新物体</String>
 	<String ID="AddEditObjectEditTitle">编辑物体属性</String>
@@ -637,20 +659,11 @@
 	<String ID="ProfilerProfileMainLoopAutoHelp">自动查找最慢的帧及其瓶颈</String>
 
 	<!-- Add On Strings -->
-	<String ID="AddOnTitleTelemetry0">遥测1</String>
-	<String ID="AddOnTitleTelemetry1">遥测2</String>
-	<String ID="AddOnTitleTelemetry2">遥测3</String>
-	<String ID="AddOnTitleTelemetry3">遥测4</String>
-	<String ID="AddOnTitleRawTelemetry0">原始遥测 1</String>
-	<String ID="AddOnTitleRawTelemetry1">原始遥测 2</String>
-	<String ID="AddOnTitleChart0">图表1</String>
-	<String ID="AddOnTitleChart1">图表2</String>
-	<String ID="AddOnTitleChart2">图表3</String>
-	<String ID="AddOnTitleChart3">图表4</String>
-	<String ID="AddOnTitleMedia1">媒体 1</String>
-	<String ID="AddOnTitleMedia2">媒体 2</String>
-	<String ID="AddOnTitleMedia3">媒体 3</String>
-	<String ID="AddOnTitleMedia4">媒体 4</String>
+
+	<String ID="AddOnTitleTelemetry">遥测 {0}</String>
+	<String ID="AddOnTitleRawTelemetry">原始遥测 {0}</String>
+	<String ID="AddOnTitleChart">图表 {0}</String>
+	<String ID="AddOnTitleMedia">媒体 {0}</String>
 	<String ID="UnsupportedMediaNotification">不支持的媒体文件。</String>
 	<String ID="UnsupportedMediaLink">尝试安装解码包。</String>
 
@@ -682,10 +695,7 @@
 	<String ID="AddOnTitleEventsLog">飞行日志</String>
 	<String ID="AddOnTitleShotLog">事件日志</String>
 	<String ID="AddOnTitleControlsList">控制列表</String>
-	<String ID="AddOnTitleRemoteControl0">遥控1</String>
-	<String ID="AddOnTitleRemoteControl1">遥控2</String>
-	<String ID="AddOnTitleRemoteControl2">遥控3</String>
-	<String ID="AddOnTitleRemoteControl3">遥控4</String>
+	<String ID="AddOnTitleRemoteControl">遥控{0}</String>
 	<String ID="AddOnTitleCommandLineOptionsList">命令行选项</String>
 	<String ID="AddOnTitleUserLicenseAgreement">用户许可协议</String>
 	<String ID="AddOnTitleDebugLog">调试日志</String>
@@ -742,6 +752,7 @@
 	<String ID="CmdResourceFolderHelp">声明存储Tacview资源的附加自定义目录</String>
 	<String ID="CmdAddOnsFolderHelp">声明从何处加载加载项的附加自定义文件夹</String>
 	<String ID="CmdReadOnlyHelp">禁用插件和导出功能</String>
+	<String ID="CmdMaxFrameRateHelp">Limits the maximum frame rate to reduce CPU usage as well as power consumption.</String>
 
 	<String ID="Selection">选择</String>
 	<String ID="TimeControl">时间控制</String>
@@ -888,6 +899,7 @@
 -->
 	<String ID="HostLabel">(host)</String>
 	<String ID="InstructorLabel">(instructor)</String>
+	<String ID="HostInstructorLabel">(host/instructor)</String>
 	<String ID="UnknownIPAddress">(未知)</String>
 <!--
 	Chinese characters are not yet supported in the 3D view
@@ -895,9 +907,9 @@
 	<String ID="OnlineDebriefingClientJoiningTitle">连接到任务报告……</String>
 	<String ID="OnlineDebriefingClientTitle">连接到{0}任务报告</String>
 -->
-	<String ID="OnlineDebriefingHostTitle">Hosting {0} Debriefing</String>
+	<String ID="OnlineDebriefingHostTitle">Hosting {0}</String>
 	<String ID="OnlineDebriefingClientJoiningTitle">Connecting to debriefing...</String>
-	<String ID="OnlineDebriefingClientTitle">Connected to {0} Debriefing</String>
+	<String ID="OnlineDebriefingClientTitle">Connected to {0}</String>
 
 	<!-- Misc -->
 	<String ID="DemoEditionShortOneDay">演示版（{0}天剩余）</String>

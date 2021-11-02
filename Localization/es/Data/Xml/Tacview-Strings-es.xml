@@ -28,7 +28,7 @@
 	<String ID="RecordingMenuHelp">Configurar los datos de vuelo a grabar</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Telemetría en tiempo real...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">Grabar un vuelo actualmente en proceso</String>
-	<String ID="RecordingADSBTelemetryCmdText">ADS-B Telemetry...</String>
+	<String ID="RecordingADSBTelemetryCmdText">ADS-B Radio Telemetry...</String>
 	<String ID="RecordingADSBTelemetryCmdHelp">Record ADS-B telemetry over the air</String>
 	<String ID="RecordingRemoteControl0Text">Control remoto 1</String>
 	<String ID="RecordingRemoteControl1Text">Control remoto 2</String>
@@ -82,6 +82,14 @@
 	<String ID="AnalysisDisplayMedia3Help">Mostrar u ocultar la ventana de audio/video #3</String>
 	<String ID="AnalysisDisplayMedia4Text">Media &amp;4</String>
 	<String ID="AnalysisDisplayMedia4Help">Mostrar u ocultar la ventana de audio/video #4</String>
+	<String ID="AnalysisDisplayMedia5Text">Media &amp;5</String>
+	<String ID="AnalysisDisplayMedia5Help">Mostrar u ocultar la ventana de audio/video #5</String>
+	<String ID="AnalysisDisplayMedia6Text">Media &amp;6</String>
+	<String ID="AnalysisDisplayMedia6Help">Mostrar u ocultar la ventana de audio/video #6</String>
+	<String ID="AnalysisDisplayMedia7Text">Media &amp;7</String>
+	<String ID="AnalysisDisplayMedia7Help">Mostrar u ocultar la ventana de audio/video #7</String>
+	<String ID="AnalysisDisplayMedia8Text">Media &amp;8</String>
+	<String ID="AnalysisDisplayMedia8Help">Mostrar u ocultar la ventana de audio/video #8</String>
 
 	<String ID="DebriefingMenuTooltip">Debriefing</String>
 	<String ID="DebriefingMenuHelp">Herramientas de Debriefing</String>
@@ -113,6 +121,8 @@
 	<String ID="OptionsAutoHideCoordinatesHelp">Auto hide latitude/longitude coordinates whenever bullseye coordinates are present</String>
 	<String ID="OptionsUIScaleText">Ajuste de tamaño de la UI</String>
 	<String ID="OptionsCockpitText">Cockpit</String>
+	<String ID="OptionsAnticipatoryTrailText">Anticipatory Trail</String>
+	<String ID="OptionsAnticipatoryTrailDisabled">Disabled</String>
 
 	<String ID="OptionsTerrainText">Terreno</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Automático)</String>
@@ -540,10 +550,17 @@
 	<String ID="RealTimeTelemetryDisconnect">Desconectar</String>
 	<String ID="RealTimeTelemetryAutoReconnect">Auto Reconectar</String>
 
-	<String ID="ADSBTelemetryTitle">ADS-B Telemetry</String>
+	<String ID="ADSBTelemetryTitle">ADS-B Radio Telemetry</String>
 	<String ID="ADSBTelemetryIntro">Listens to 1090MHz ADS-B radio signals to display aircraft around you in real-time!</String>
 	<String ID="ADSBTelemetryRecordingConnecting">Looking for&#xA;ADS-B radio device {0}</String>
 	<String ID="ADSBTelemetryRecordingProgress">Recording ADS-B from {0}&#xA;{1}</String>
+	<String ID="ADSBTelemetryOperationFailed">Cannot find any supported USB radio device to read ADS-B signal. Check https://www.rtl-sdr.com for a list of RTL2832U compatible radio equipment, and make sure WinUSB is properly installed from https://zadig.akeo.ie</String>
+	<String ID="ADSBTelemetryExplanation">To record ADS-B radio signal in real-time, you need:&#xA;
+• RTL2832U compatible USB radio dongle (https://www.rtl-sdr.com)
+• 1090MHz antenna
+• 1090MHz ADS-B filter (optional)
+• WinUSB drivers for your dongle (https://zadig.akeo.ie)&#xA;
+Make sure everything is properly connected to your computer and configured, then click connect!</String>
 
 	<String ID="AddEditObjectAddTitle">Crear nuevo objeto</String>
 	<String ID="AddEditObjectEditTitle">Editar propiedades del objeto</String>
@@ -620,20 +637,11 @@
 	<String ID="ProfilerProfileMainLoopAutoHelp">Encontrar automaticamente el frame mas lento en el cuello de botella</String>
 
 	<!-- Add On Strings -->
-	<String ID="AddOnTitleTelemetry0">Telemetría 1</String>
-	<String ID="AddOnTitleTelemetry1">Telemetría 2</String>
-	<String ID="AddOnTitleTelemetry2">Telemetría 3</String>
-	<String ID="AddOnTitleTelemetry3">Telemetría 4</String>
-	<String ID="AddOnTitleRawTelemetry0">Telemetría en bruto 1</String>
-	<String ID="AddOnTitleRawTelemetry1">Telemetría en bruto 2</String>
-	<String ID="AddOnTitleChart0">Grafico 1</String>
-	<String ID="AddOnTitleChart1">Grafico 2</String>
-	<String ID="AddOnTitleChart2">Grafico 3</String>
-	<String ID="AddOnTitleChart3">Grafico 4</String>
-	<String ID="AddOnTitleMedia1">Media 1</String>
-	<String ID="AddOnTitleMedia2">Media 2</String>
-	<String ID="AddOnTitleMedia3">Media 3</String>
-	<String ID="AddOnTitleMedia4">Media 4</String>
+
+	<String ID="AddOnTitleTelemetry">Telemetría {0}</String>
+	<String ID="AddOnTitleRawTelemetry">Telemetría en bruto {0}</String>
+	<String ID="AddOnTitleChart">Grafico {0}</String>
+	<String ID="AddOnTitleMedia">Media {0}</String>
 	<String ID="UnsupportedMediaNotification">Archivo multimedia no compatible.</String>
 	<String ID="UnsupportedMediaLink">Intenta instalar un paquete de códecs.</String>
 
@@ -665,10 +673,7 @@
 	<String ID="AddOnTitleEventsLog">Registro de vuelo</String>
 	<String ID="AddOnTitleShotLog">Registro de eventos</String>
 	<String ID="AddOnTitleControlsList">Lista de control</String>
-	<String ID="AddOnTitleRemoteControl0">Control remoto 1</String>
-	<String ID="AddOnTitleRemoteControl1">Control remoto 2</String>
-	<String ID="AddOnTitleRemoteControl2">Control remoto 3</String>
-	<String ID="AddOnTitleRemoteControl3">Control remoto 4</String>
+	<String ID="AddOnTitleRemoteControl">Control remoto {0}</String>
 	<String ID="AddOnTitleCommandLineOptionsList">Opciones de línea de comandos</String>
 	<String ID="AddOnTitleUserLicenseAgreement">Acuerdo de licencia de usuario</String>
 	<String ID="AddOnTitleDebugLog">Registro de errores</String>
@@ -721,10 +726,11 @@
 	<String ID="CmdRegisterUserProductKeyHelp">Activa el Tacview para el usuario actual con la Key indicada.</String>
 	<String ID="CmdRegisterSystemProductKeyHelp">Activa Tacview para todo el sistema con la Key indicada.</String>
 	<String ID="CmdRegisterSessionProductKeyHelp">Activa Tacview, para la sesion actual, con la Key indicada.</String>
-	<String ID="CmdDisplayFrameRateHelp">Mostrar los frame-rate en la vista 3D</String>
-	<String ID="CmdResourceFolderHelp">Declarar un directorio personalado donde se almacenen los recursos del TacView</String>
-	<String ID="CmdAddOnsFolderHelp">Declares an additional custom folder from where to load add-ons</String>
-	<String ID="CmdReadOnlyHelp">Deshabilitar addons y exportar capacidades</String>
+	<String ID="CmdDisplayFrameRateHelp">Mostrar los frame-rate en la vista 3D.</String>
+	<String ID="CmdResourceFolderHelp">Declarar un directorio personalado donde se almacenen los recursos del TacView.</String>
+	<String ID="CmdAddOnsFolderHelp">Declares an additional custom folder from where to load add-ons.</String>
+	<String ID="CmdReadOnlyHelp">Deshabilitar addons y exportar capacidades.</String>
+	<String ID="CmdMaxFrameRateHelp">Limits the maximum frame rate to reduce CPU usage as well as power consumption.</String>
 
 	<String ID="Selection">Selección</String>
 	<String ID="TimeControl">Control de tiempo</String>
@@ -860,10 +866,11 @@
 	<!-- Online Debriefing -->
 	<String ID="HostLabel">(Anfitrión)</String>
 	<String ID="InstructorLabel">(Instructor)</String>
+	<String ID="HostInstructorLabel">(Anfitrión/Instructor)</String>
 	<String ID="UnknownIPAddress">(Desconocido)</String>
-	<String ID="OnlineDebriefingHostTitle">Hosteando {0} Debriefing</String>
+	<String ID="OnlineDebriefingHostTitle">Hosteando {0}</String>
 	<String ID="OnlineDebriefingClientJoiningTitle">Conectando al debriefing...</String>
-	<String ID="OnlineDebriefingClientTitle">Conectado a {0} Debriefing</String>
+	<String ID="OnlineDebriefingClientTitle">Conectado a {0}</String>
 
 	<!-- Misc -->
 	<String ID="DemoEditionShortOneDay">Demo ({0} día restante)</String>
@@ -1029,9 +1036,9 @@
 	<String ID="EventLogRadarOnLabel">Radar-ON</String>
 	<String ID="EventLogRadarOffLabel">Radar-OFF</String>
 	<String ID="EventLogTimeoutLabel">Timeout {2}</String>
-	<String ID="EventLogTimeoutAtLabel">Timeout at {1} {2}</String>
+	<String ID="EventLogTimeoutAtLabel">Timeout @ {1} {2}</String>
 	<String ID="EventLogTimeoutWeaponLabel">Timeout {0} {2}</String>
-	<String ID="EventLogTimeoutWeaponAtLabel">Timeout {0} at {1} {2}</String>
+	<String ID="EventLogTimeoutWeaponAtLabel">Timeout {0} @ {1} {2}</String>
 
 	<String ID="StatusPlay">REPRODUCIR</String>
 	<String ID="StatusPlaySpeed">REPRODUCIR &#2;×{0:g}</String>

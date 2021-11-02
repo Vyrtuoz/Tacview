@@ -28,7 +28,7 @@
 	<String ID="RecordingMenuHelp">비행 데이터 기록 설정하기</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;실시간 텔레메트리...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">현재 진행중인 비행을 녹화하기</String>
-	<String ID="RecordingADSBTelemetryCmdText">ADS-B Telemetry...</String>
+	<String ID="RecordingADSBTelemetryCmdText">ADS-B Radio Telemetry...</String>
 	<String ID="RecordingADSBTelemetryCmdHelp">Record ADS-B telemetry over the air</String>
 	<String ID="RecordingRemoteControl0Text">원격 컨트롤 1</String>
 	<String ID="RecordingRemoteControl1Text">원격 컨트롤 2</String>
@@ -82,6 +82,14 @@
 	<String ID="AnalysisDisplayMedia3Help">Show or hide audio/video window #3</String>
 	<String ID="AnalysisDisplayMedia4Text">Media &amp;4</String>
 	<String ID="AnalysisDisplayMedia4Help">Show or hide audio/video window #4</String>
+	<String ID="AnalysisDisplayMedia5Text">Media &amp;5</String>
+	<String ID="AnalysisDisplayMedia5Help">Show or hide audio/video window #5</String>
+	<String ID="AnalysisDisplayMedia6Text">Media &amp;6</String>
+	<String ID="AnalysisDisplayMedia6Help">Show or hide audio/video window #6</String>
+	<String ID="AnalysisDisplayMedia7Text">Media &amp;7</String>
+	<String ID="AnalysisDisplayMedia7Help">Show or hide audio/video window #7</String>
+	<String ID="AnalysisDisplayMedia8Text">Media &amp;8</String>
+	<String ID="AnalysisDisplayMedia8Help">Show or hide audio/video window #8</String>
 
 	<String ID="DebriefingMenuTooltip">디브리핑</String>
 	<String ID="DebriefingMenuHelp">디브리핑 도구</String>
@@ -113,6 +121,8 @@
 	<String ID="OptionsAutoHideCoordinatesHelp">Auto hide latitude/longitude coordinates whenever bullseye coordinates are present</String>
 	<String ID="OptionsUIScaleText">UI Scaling</String>
 	<String ID="OptionsCockpitText">Cockpit</String>
+	<String ID="OptionsAnticipatoryTrailText">Anticipatory Trail</String>
+	<String ID="OptionsAnticipatoryTrailDisabled">Disabled</String>
 
 	<String ID="OptionsTerrainText">지형</String>
 	<String ID="OptionsTerrainAutoText">(&amp;자동)</String>
@@ -556,10 +566,17 @@
 	<String ID="RealTimeTelemetryDisconnect">접속해제</String>
 	<String ID="RealTimeTelemetryAutoReconnect">Auto Reconnect</String>
 
-	<String ID="ADSBTelemetryTitle">ADS-B Telemetry</String>
+	<String ID="ADSBTelemetryTitle">ADS-B Radio Telemetry</String>
 	<String ID="ADSBTelemetryIntro">Listens to 1090MHz ADS-B radio signals to display aircraft around you in real-time!</String>
 	<String ID="ADSBTelemetryRecordingConnecting">Looking for&#xA;ADS-B radio device {0}</String>
 	<String ID="ADSBTelemetryRecordingProgress">Recording ADS-B from {0}&#xA;{1}</String>
+	<String ID="ADSBTelemetryOperationFailed">Cannot find any supported USB radio device to read ADS-B signal. Check https://www.rtl-sdr.com for a list of RTL2832U compatible radio equipment, and make sure WinUSB is properly installed from https://zadig.akeo.ie</String>
+	<String ID="ADSBTelemetryExplanation">To record ADS-B radio signal in real-time, you need:&#xA;
+• RTL2832U compatible USB radio dongle (https://www.rtl-sdr.com)
+• 1090MHz antenna
+• 1090MHz ADS-B filter (optional)
+• WinUSB drivers for your dongle (https://zadig.akeo.ie)&#xA;
+Make sure everything is properly connected to your computer and configured, then click connect!</String>
 
 	<String ID="AddEditObjectAddTitle">신규 오브젝트 생성</String>
 	<String ID="AddEditObjectEditTitle">오브젝트 속성 편집</String>
@@ -636,20 +653,11 @@
 	<String ID="ProfilerProfileMainLoopAutoHelp">Automatically find the slowest frame and its bottleneck</String>
 
 	<!-- Add On Strings -->
-	<String ID="AddOnTitleTelemetry0">텔레메트리 1</String>
-	<String ID="AddOnTitleTelemetry1">텔레메트리 2</String>
-	<String ID="AddOnTitleTelemetry2">텔레메트리 3</String>
-	<String ID="AddOnTitleTelemetry3">텔레메트리 4</String>
-	<String ID="AddOnTitleRawTelemetry0">Raw 텔레메트리 1</String>
-	<String ID="AddOnTitleRawTelemetry1">Raw 텔레메트리 2</String>
-	<String ID="AddOnTitleChart0">챠트 1</String>
-	<String ID="AddOnTitleChart1">챠트 2</String>
-	<String ID="AddOnTitleChart2">챠트 3</String>
-	<String ID="AddOnTitleChart3">챠트 4</String>
-	<String ID="AddOnTitleMedia1">Media 1</String>
-	<String ID="AddOnTitleMedia2">Media 2</String>
-	<String ID="AddOnTitleMedia3">Media 3</String>
-	<String ID="AddOnTitleMedia4">Media 4</String>
+
+	<String ID="AddOnTitleTelemetry">텔레메트리 {0}</String>
+	<String ID="AddOnTitleRawTelemetry">Raw 텔레메트리 {0}</String>
+	<String ID="AddOnTitleChart">챠트 {0}</String>
+	<String ID="AddOnTitleMedia">Media {0}</String>
 	<String ID="UnsupportedMediaNotification">Unsupported media file.</String>
 	<String ID="UnsupportedMediaLink">Try to install a codec pack.</String>
 
@@ -681,10 +689,7 @@
 	<String ID="AddOnTitleEventsLog">비행 로그</String>
 	<String ID="AddOnTitleShotLog">Event Log</String>
 	<String ID="AddOnTitleControlsList">컨트롤 목록</String>
-	<String ID="AddOnTitleRemoteControl0">원격 컨트롤0</String>
-	<String ID="AddOnTitleRemoteControl1">원격 컨트롤1</String>
-	<String ID="AddOnTitleRemoteControl2">원격 컨트롤2</String>
-	<String ID="AddOnTitleRemoteControl3">원격 컨트롤3</String>
+	<String ID="AddOnTitleRemoteControl">원격 컨트롤{0}</String>
 	<String ID="AddOnTitleCommandLineOptionsList">명령줄 옵션</String>
 	<String ID="AddOnTitleUserLicenseAgreement">유저 라이센스 동의서</String>
 	<String ID="AddOnTitleDebugLog">디버그 로그</String>
@@ -737,10 +742,11 @@
 	<String ID="CmdRegisterUserProductKeyHelp">Activate Tacview for the current user with the provided key.</String>
 	<String ID="CmdRegisterSystemProductKeyHelp">Activate Tacview for the entire system with the provided key.</String>
 	<String ID="CmdRegisterSessionProductKeyHelp">Activate Tacview, for the current session only, with the provided key.</String>
-	<String ID="CmdDisplayFrameRateHelp">Display the frame-rate in the 3D view</String>
-	<String ID="CmdResourceFolderHelp">Declare additional custom directory where Tacview resources are stored</String>
-	<String ID="CmdAddOnsFolderHelp">Declares an additional custom folder from where to load add-ons</String>
-	<String ID="CmdReadOnlyHelp">Disable addons and export capabilities</String>
+	<String ID="CmdDisplayFrameRateHelp">Display the frame-rate in the 3D view.</String>
+	<String ID="CmdResourceFolderHelp">Declare additional custom directory where Tacview resources are stored.</String>
+	<String ID="CmdAddOnsFolderHelp">Declares an additional custom folder from where to load add-ons.</String>
+	<String ID="CmdReadOnlyHelp">Disable addons and export capabilities.</String>
+	<String ID="CmdMaxFrameRateHelp">Limits the maximum frame rate to reduce CPU usage as well as power consumption.</String>
 
 	<String ID="Selection">선택항목</String>
 	<String ID="TimeControl">시간 컨트롤</String>
@@ -885,6 +891,7 @@
 -->
 	<String ID="HostLabel">(host)</String>
 	<String ID="InstructorLabel">(instructor)</String>
+	<String ID="HostInstructorLabel">(host/instructor)</String>
 	<String ID="UnknownIPAddress">(익명)</String>
 <!--
 	Korean characters are not yet supported in the 3D view
@@ -892,9 +899,9 @@
 	<String ID="OnlineDebriefingClientJoiningTitle">디브리핑에 연결 중...</String>
 	<String ID="OnlineDebriefingClientTitle">디브리핑에 &#2;{0}&#1; 연결되었습니다</String>
 -->
-	<String ID="OnlineDebriefingHostTitle">Hosting {0} Debriefing</String>
+	<String ID="OnlineDebriefingHostTitle">Hosting {0}</String>
 	<String ID="OnlineDebriefingClientJoiningTitle">Connecting to debriefing...</String>
-	<String ID="OnlineDebriefingClientTitle">Connected to {0} Debriefing</String>
+	<String ID="OnlineDebriefingClientTitle">Connected to {0}</String>
 
 	<!-- Misc -->
 	<String ID="DemoEditionShortOneDay">데모 ({0} 일 남음)</String>
@@ -1095,9 +1102,9 @@
 	<String ID="EventLogRadarOnLabel">Radar-ON</String>
 	<String ID="EventLogRadarOffLabel">Radar-OFF</String>
 	<String ID="EventLogTimeoutLabel">Timeout {2}</String>
-	<String ID="EventLogTimeoutAtLabel">Timeout at {1} {2}</String>
+	<String ID="EventLogTimeoutAtLabel">Timeout @ {1} {2}</String>
 	<String ID="EventLogTimeoutWeaponLabel">Timeout {0} {2}</String>
-	<String ID="EventLogTimeoutWeaponAtLabel">Timeout {0} at {1} {2}</String>
+	<String ID="EventLogTimeoutWeaponAtLabel">Timeout {0} @ {1} {2}</String>
 
 <!--
 	Korean characters are not yet supported in the 3D view
