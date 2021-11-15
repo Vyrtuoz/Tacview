@@ -133,6 +133,20 @@
 			<Shape>Watercraft.CV-41.obj</Shape>
 		</Properties>
 	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.CVN-59" Base="Watercraft.AircraftCarrier">
+		<Criteria>
+			<Name>Forrestal</Name>
+			<Name>USS Forrestal</Name>
+			<Name>Forrestal</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CVN-59</ShortName>
+			<LongName>CVN-59 Forrestal</LongName>
+			<FullName>USS Forrestal (CVN-59)</FullName>
+			<Shape>Watercraft.CVN-59.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 	
 	<DefaultProperties Id="Watercraft.CVN-65" Base="Watercraft.AircraftCarrier">
 		<Criteria>
@@ -686,8 +700,8 @@
 		</Criteria>
 		<Properties>
 			<ShortName>Tonnerre</ShortName>
-			<LongName>L9014	Tonnerre</LongName>
-			<FullName>L9014	Tonnerre</FullName>
+			<LongName>L9014 Tonnerre</LongName>
+			<FullName>L9014 Tonnerre</FullName>
 		</Properties>
 	</DefaultProperties>
 

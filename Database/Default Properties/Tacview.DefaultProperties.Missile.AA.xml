@@ -474,6 +474,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.AA.Meteor" Base="Missile.AA.Radar">
+		<Criteria>
+			<Name>Meteor</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Meteor</ShortName>
+			<LongName>Meteor</LongName>
+			<FullName>Meteor</FullName>
+			<Shape>Missile.Meteor.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+
 	<!-- Eastern AA Missiles -->
 
 	<DefaultProperties Id="Missile.AA.RS-2US" Base="Missile.AA">
@@ -488,31 +500,65 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Missile.AA.R-24R" Base="Missile.AA.AIM-7">
+	<DefaultProperties Id="Missile.AA.R-23" Base="Missile.AA.AIM-7">
 		<Criteria>
-			<Name>R-24R</Name>
-			<Name>P_24R</Name>		<!-- DCS World -->
+			<Name>R-23</Name>
 			<Name>AA-7</Name>
-			<Name>Apex</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>R-24R</ShortName>
-			<LongName>R-24R (AA-7 Apex)</LongName>
-			<FullName>Vympel R-24R (AA-7 Apex)</FullName>
+			<ShortName>R-23</ShortName>
+			<LongName>R-23 (AA-7 Apex)</LongName>
+			<FullName>Vympel R-23 (AA-7 Apex)</FullName>
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Missile.AA.R-24T" Base="Missile.AA.AIM-7">
+	<DefaultProperties Id="Missile.AA.R-23R" Base="Missile.AA.R-23">
+		<Criteria>
+			<Name>R-23R</Name>
+			<Name>AA-7A</Name>		<!-- Falcon -->
+			<Name>P_23R</Name>		<!-- DCS World -->
+		</Criteria>
+		<Properties>
+			<ShortName>R-23R</ShortName>
+			<LongName>R-23R (AA-7A Apex)</LongName>
+			<FullName>Vympel R-23R (AA-7A Apex)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-23T" Base="Missile.AA.R-23">
+		<Criteria>
+			<Name>R-23T</Name>
+			<Name>AA-7B</Name>		<!-- Falcon -->
+			<Name>P_23T</Name>		<!-- DCS World -->
+		</Criteria>
+		<Properties>
+			<ShortName>R-23T</ShortName>
+			<LongName>R-23T (AA-7B Apex)</LongName>
+			<FullName>Vympel R-23T (AA-7B Apex)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-24R" Base="Missile.AA.R-23R">
+		<Criteria>
+			<Name>R-24R</Name>
+			<Name>P_24R</Name>		<!-- DCS World -->
+		</Criteria>
+		<Properties>
+			<ShortName>R-24R</ShortName>
+			<LongName>R-24R (AA-7A Apex)</LongName>
+			<FullName>Vympel R-24R (AA-7A Apex)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-24T" Base="Missile.AA.R-23T">
 		<Criteria>
 			<Name>R-24T</Name>
 			<Name>P_24T</Name>		<!-- DCS World -->
-			<Name>AA-7</Name>
-			<Name>Apex</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>R-24T</ShortName>
-			<LongName>R-24T (AA-7 Apex)</LongName>
-			<FullName>Vympel R-24T (AA-7 Apex)</FullName>
+			<LongName>R-24T (AA-7B Apex)</LongName>
+			<FullName>Vympel R-24T (AA-7B Apex)</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -533,6 +579,7 @@
 	<DefaultProperties Id="Missile.AA.R-27R" Base="Missile.AA.R-27">
 		<Criteria>
 			<Name>R-27R</Name>
+			<Name>P_27P</Name>
 			<Name>AA-10A</Name>
 			<Name>AA-10 Alamo-A</Name>
 		</Criteria>
@@ -546,6 +593,7 @@
 	<DefaultProperties Id="Missile.AA.R-27T" Base="Missile.AA.R-27">
 		<Criteria>
 			<Name>R-27T</Name>
+			<Name>P_27T</Name>
 			<Name>AA-10B</Name>
 			<Name>AA-10 Alamo-B</Name>
 		</Criteria>
@@ -559,6 +607,7 @@
 	<DefaultProperties Id="Missile.AA.R-27ER" Base="Missile.AA.R-27R">
 		<Criteria>
 			<Name>R-27ER</Name>
+			<Name>P_27PE</Name>
 			<Name>AA-10C</Name>
 			<Name>AA-10 Alamo-C</Name>
 		</Criteria>
@@ -572,6 +621,7 @@
 	<DefaultProperties Id="Missile.AA.R-27ET" Base="Missile.AA.R-27T">
 		<Criteria>
 			<Name>R-27ET</Name>
+			<Name>P_27TE</Name>
 			<Name>AA-10D</Name>
 			<Name>AA-10 Alamo-D</Name>
 		</Criteria>
@@ -670,6 +720,7 @@
 	<DefaultProperties Id="Missile.AA.R-60" Base="Missile.AA.IR">
 		<Criteria>
 			<Name>R-60</Name>
+			<Name>P_60</Name>			<!-- DCS 2.7.0.5659 -->
 			<Name>AA-8</Name>
 			<Name>AA-8 Aphid</Name>
 			<Name>AA-8 Aphid-A</Name>
@@ -725,6 +776,7 @@
 	<DefaultProperties Id="Missile.AA.R-77" Base="Missile.AA.Radar">
 		<Criteria>
 			<Name>R-77</Name>
+			<Name>P_77</Name>
 			<Name>AA-12</Name>
 			<Name>AA-12 Adder</Name>
 		</Criteria>

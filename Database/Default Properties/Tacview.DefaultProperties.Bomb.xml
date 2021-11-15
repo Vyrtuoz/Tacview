@@ -234,6 +234,29 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Bomb.BLU-108" Base="Bomb.CBU-97">
+		<Criteria>
+			<Name>BLU-108</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BLU-108</ShortName>
+			<LongName>BLU-108</LongName>
+			<FullName>BLU-108</FullName>
+			<Shape>Bomb.Bomblet.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.BLU-108.Cluster" Base="Bomb.BLU-108">
+		<Criteria>
+			<Name>BLU-108 Cluster</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BLU-108 Cluster</ShortName>
+			<LongName>BLU-108 Cluster</LongName>
+			<FullName>BLU-108 Cluster</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Bomb.CBU-99" Base="Bomb.CBU-97">
 		<!-- This is the dispenser which should be called: SUU-75 -->
 		<Criteria>
@@ -255,6 +278,18 @@
 			<LongName>CBU-99 Cluster</LongName>
 			<FullName>CBU-99 Cluster</FullName>
 			<Shape>Bomb.Bomblet.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.CBU-105" Base="Bomb.CBU-97">
+		<!-- This is the dispenser -->
+		<Criteria>
+			<Name>CBU-105</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CBU-105</ShortName>
+			<LongName>CBU-105 SFW</LongName>
+			<FullName>CBU-105 Sensor Fuzed Weapon</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -662,7 +697,7 @@
 		</Criteria>
 		<Properties>
 			<ShortName>BK90</ShortName>
-			<LongName>BK90 MJ1 (cluster)</LongName>
+			<LongName>BK90 MJ1 (HE cluster)</LongName>
 			<FullName>Bombkapsel 90 (BK90 MJ1 cluster)</FullName>
 		</Properties>
 	</DefaultProperties>
@@ -674,7 +709,7 @@
 		</Criteria>
 		<Properties>
 			<ShortName>BK90</ShortName>
-			<LongName>BK90 MJ2 (cluster)</LongName>
+			<LongName>BK90 MJ2 (AP cluster)</LongName>
 			<FullName>Bombkapsel 90 (BK90 MJ2 cluster)</FullName>
 		</Properties>
 	</DefaultProperties>
@@ -686,7 +721,7 @@
 		</Criteria>
 		<Properties>
 			<ShortName>BK90</ShortName>
-			<LongName>BK90 MJ1-MJ2 (cluster)</LongName>
+			<LongName>BK90 MJ1-MJ2 (HE/AP cluster)</LongName>
 			<FullName>Bombkapsel 90 (BK90 MJ1-MJ2 cluster)</FullName>
 		</Properties>
 	</DefaultProperties>

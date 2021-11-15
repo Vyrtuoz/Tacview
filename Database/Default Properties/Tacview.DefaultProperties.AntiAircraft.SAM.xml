@@ -417,6 +417,17 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="AntiAircraft.SAM.Crotale NG" Base="AntiAircraft.SAM.Crotale">
+		<Criteria>
+			<Name>Crotale NG</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Crotale NG</ShortName>
+			<LongName>Crotale NG</LongName>
+			<FullName>Crotale NG</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- Eastern SAM -->
 
 	<DefaultProperties Id="AntiAircraft.SAM.SA-2.SR" Base="AntiAircraft.SAM.SearchRadar.Truck">
@@ -437,6 +448,7 @@
 			<Name>SA-2 Launcher</Name>	<!-- SuperBug -->
 			<Name>SA-2 LN</Name>
 			<Name>S-75M</Name>
+			<Name>SA-2 (S-75)</Name>	<!-- Falcon BMS Launcher-->
 		</Criteria>
 		<Properties>
 			<ShortName>SA-2</ShortName>
@@ -479,6 +491,7 @@
 			<Name>5P73</Name>
 			<Name>5p73 s-125 ln</Name>
 			<Name>SA-3 LN</Name>
+			<Name>SA-3 (S-125)</Name>	<!-- Falcon BMS Launcher-->
 		</Criteria>
 		<Properties>
 			<ShortName>SA-3</ShortName>
@@ -623,6 +636,7 @@
 			<Name>SA-8</Name>
 			<Name>SA-8 Gecko</Name>
 			<Name>Osa 9A33</Name>		<!-- DCS World 2.2 -->
+			<Name>SA-8 (9K33)</Name>	<!-- Falcon BMS Launcher-->
 		</Criteria>
 		<Properties>
 			<ShortName>SA-8</ShortName>
@@ -636,6 +650,7 @@
 		<Criteria>
 			<Name>9P31</Name>
 			<Name>Strela-1 9P31</Name>
+			<Name>9K31</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SA-9</ShortName>
@@ -683,6 +698,7 @@
 	<DefaultProperties Id="AntiAircraft.SAM.SA-10.5P85C" Base="AntiAircraft.SAM.Launcher.Russian">
 		<Criteria>
 			<Name>S-300PS 5P85C ln</Name>
+			<Name>SA-10 (S-300P)</Name>	<!-- Falcon BMS Launcher-->
 		</Criteria>
 		<Properties>
 			<ShortName>SA-10</ShortName>
@@ -745,6 +761,7 @@
 		<Criteria>
 			<Name>SA-11 Buk LN 9A310M1</Name>
 			<Name>SA-11 LN</Name>
+			<Name>SA-11 (9K37M1)</Name>		<!--Falcon BMS Launcher -->
 		</Criteria>
 		<Properties>
 			<ShortName>SA-11</ShortName>
@@ -791,6 +808,7 @@
 	<DefaultProperties Id="AntiAircraft.SAM.SA-15.9K330" Base="AntiAircraft.SAM.Launcher.Russian">
 		<Criteria>
 			<Name>Tor 9A331</Name>		<!-- DCS World 2.2 -->
+			<Name>SA-15 (9K330)</Name>	<!-- Falcon BMS Launcher -->
 		</Criteria>
 		<Properties>
 			<ShortName>SA-15</ShortName>

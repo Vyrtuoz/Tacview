@@ -78,4 +78,19 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Watercraft.Seawise Giant" Base="Watercraft.Tanker">
+		<Criteria>
+			<Name>Seawise_Giant</Name>
+			<Name>Oppama</Name>
+			<Name>Happy Giant</Name>
+			<Name>Jahre Viking</Name>
+			<Name>Knock Nevis</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Seawise Giant</ShortName>
+			<LongName>Seawise Giant</LongName>
+			<FullName>Seawise Giant</FullName>
+			<Shape>Watercraft.Seawise Giant.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 </DefaultPropertiesCollection>

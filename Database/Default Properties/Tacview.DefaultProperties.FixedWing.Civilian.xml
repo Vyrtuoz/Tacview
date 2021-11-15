@@ -29,7 +29,7 @@
 
 	<DefaultProperties Id="FixedWing.GA.Glider" Base="FixedWing.GA">
 		<Criteria>
-			<Name>glider</Name>
+			<Name>Glider</Name>
 		</Criteria>
 		<Properties>
 			<Shape>FixedWing.DuoDiscus.obj</Shape>
@@ -61,6 +61,9 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.GA.SingleEngine.HighWing.Tricycle" Base="FixedWing.GA">
+		<Criteria>
+			<Name>Small Plane</Name>
+		</Criteria>
 		<Properties>
 			<Shape>FixedWing.C172.obj</Shape>
 		</Properties>
@@ -82,6 +85,10 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.GA.Jet" Base="FixedWing.GA">
+		<Criteria>
+			<Name>Jet</Name>
+			<Name>Medium Plane</Name>
+		</Criteria>
 		<Properties>
 			<Shape>FixedWing.LJ45.obj</Shape>
 		</Properties>
@@ -100,6 +107,9 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.Heavy.TwinProp" Base="FixedWing.Heavy.Prop">
+		<Properties>
+			<Shape>FixedWing.DHC-8-Q300.obj</Shape>
+		</Properties>
 	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.Heavy.Jet" Base="FixedWing.Heavy">
@@ -109,6 +119,9 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.Heavy.Jet.TwinEngines" Base="FixedWing.Heavy.Jet">
+		<Criteria>
+			<Name>Large Plane</Name>
+		</Criteria>
 		<Properties>
 			<Shape>FixedWing.A320.obj</Shape>
 		</Properties>
@@ -118,8 +131,23 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.Heavy.Jet.FourEngines" Base="FixedWing.Heavy.Jet">
+		<Criteria>
+			<Name>Heavy Plane</Name>
+		</Criteria>
 		<Properties>
 			<Shape>FixedWing.B707-300B.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.P3D.Airliner" Base="FixedWing.Heavy">
+		<Criteria>
+			<Name>Airliner</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Airliner</ShortName>
+			<LongName>Airliner</LongName>
+			<FullName>Airliner</FullName>
+			<Shape>FixedWing.A320.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -252,7 +280,20 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.F90" Base="FixedWing.GA.TwinEngine.LowWing.Tricycle">
+	<DefaultProperties Id="FixedWing.C90" Base="FixedWing.GA.TwinEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>Beechcraft C90</Name>
+			<Name>King Air C90</Name>
+			<Name>C90 Beech</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C90</ShortName>
+			<LongName>King Air C90</LongName>
+			<FullName>King Air C90</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.F90" Base="FixedWing.C90">
 		<Criteria>
 			<Name>Beechcraft F90</Name>
 			<Name>King Air F90</Name>
@@ -264,17 +305,44 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.B100" Base="FixedWing.C90">
+		<Criteria>
+			<Name>B100</Name>
+			<Name>Beechcraft B100</Name>
+			<Name>King Air B100</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B100</ShortName>
+			<LongName>King Air B100</LongName>
+			<FullName>King Air B100</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.BE20" Base="FixedWing.GA.TwinEngine.LowWing.Tricycle">
 		<Criteria>
 			<Name>BE20</Name>
+			<Name>B200</Name>
 			<Name>Beechcraft BE20</Name>
 			<Name>King Air 200</Name>
+			<Name>200 Beech</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>BE20</ShortName>
 			<LongName>Super King Air 200</LongName>
 			<FullName>Beechcraft Super King Air 200</FullName>
 			<Shape>FixedWing.BE20.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B300" Base="FixedWing.BE20">
+		<Criteria>
+			<Name>B300</Name>
+			<Name>King Air 350</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B300</ShortName>
+			<LongName>King Air 350</LongName>
+			<FullName>Beechcraft King Air 350</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -303,14 +371,28 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.C152" Base="FixedWing.GA.SingleEngine.HighWing.Tricycle">
+	<DefaultProperties Id="FixedWing.C150" Base="FixedWing.GA.SingleEngine.HighWing.Tricycle">
+		<Criteria>
+			<Name>C150</Name>
+			<Name>Cessna 150</Name>
+			<Name>150 Cessna</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C150</ShortName>
+			<LongName>Cessna 150</LongName>
+			<FullName>Cessna 150</FullName>
+			<Shape>FixedWing.C152.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C152" Base="FixedWing.C150">
 		<Criteria>
 			<Name>C152</Name>
 			<Name>Cessna 152</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>C152</ShortName>
-			<LongName>C152</LongName>
+			<LongName>Cessna 152</LongName>
 			<FullName>Cessna 152</FullName>
 			<Shape>FixedWing.C152.obj</Shape>
 		</Properties>
@@ -321,6 +403,7 @@
 			<Name>C172</Name>
 			<Name>C-172</Name>
 			<Name>C172 Skyhawk</Name>
+			<Name>172 Cessna</Name>
 			<Name>Cessna 172</Name>
 			<Name>Cessna Skyhawk</Name>
 		</Criteria>
@@ -329,6 +412,17 @@
 			<LongName>C172 Skyhawk</LongName>
 			<FullName>Cessna 172 Skyhawk</FullName>
 			<Shape>FixedWing.C172.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C172M" Base="FixedWing.C172">
+		<Criteria>
+			<Name>C-172M</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C172M</ShortName>
+			<LongName>C172M Skyhawk</LongName>
+			<FullName>Cessna 172M Skyhawk</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -364,6 +458,7 @@
 
 	<DefaultProperties Id="FixedWing.C182" Base="FixedWing.C172">
 		<Criteria>
+			<Name>182</Name>
 			<Name>C182</Name>
 			<Name>Cessna 182</Name>
 		</Criteria>
@@ -431,6 +526,7 @@
 	<DefaultProperties Id="FixedWing.C208" Base="FixedWing.GA.SingleEngine.HighWing.Tricycle">
 		<Criteria>
 			<Name>C208</Name>
+			<Name>208 Cessna</Name>
 			<Name>Cessna 208</Name>
 			<Name>Cessna Caravan</Name>
 			<Name>Caravan</Name>
@@ -445,6 +541,7 @@
 	<DefaultProperties Id="FixedWing.C208B" Base="FixedWing.C208">
 		<Criteria>
 			<Name>C208B</Name>
+			<Name>208B Cessna</Name>
 			<Name>Cessna 208B</Name>
 			<Name>Cessna Grand Caravan</Name>
 		</Criteria>
@@ -527,7 +624,19 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.C421C" Base="FixedWing.GA.TwinEngine.LowWing.Tricycle">
+	<DefaultProperties Id="FixedWing.C421B" Base="FixedWing.GA.TwinEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>421B</Name>
+			<Name>Cessna 421B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C421B</ShortName>
+			<LongName>421B Golden Eagle</LongName>
+			<FullName>Cessna 421B Golden Eagle</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C421C" Base="FixedWing.C421B">
 		<Criteria>
 			<Name>C421C</Name>
 			<Name>Cessna 421C</Name>
@@ -539,7 +648,33 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.CJ4" Base="FixedWing.GA.TwinJet.Tail">
+	<DefaultProperties Id="FixedWing.CJ2" Base="FixedWing.GA.TwinJet.Tail">
+		<Criteria>
+			<Name>525A</Name>
+			<Name>CJ2</Name>
+			<Name>Cessna CJ2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CJ2</ShortName>
+			<LongName>Cessna Citation CJ2</LongName>
+			<FullName>Cessna Citation CJ2</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.CJ3" Base="FixedWing.CJ2">
+		<Criteria>
+			<Name>525B</Name>
+			<Name>CJ3</Name>
+			<Name>Cessna CJ3</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CJ3</ShortName>
+			<LongName>Cessna Citation CJ3</LongName>
+			<FullName>Cessna Citation CJ3</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.CJ4" Base="FixedWing.CJ3">
 		<Criteria>
 			<Name>CJ4</Name>
 			<Name>Cessna CJ4</Name>
@@ -607,6 +742,20 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.DA42" Base="FixedWing.DA40">
+		<Criteria>
+			<Name>DA42</Name>
+			<Name>DA42 Twin Star</Name>
+			<Name>Diamond DA42</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>DA42</ShortName>
+			<LongName>DA42 Twin Star</LongName>
+			<FullName>Diamond DA42 Twin Star</FullName>
+			<Shape>FixedWing.DA42.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.DA62" Base="FixedWing.DA40">
 		<Criteria>
 			<Name>DA62</Name>
@@ -656,12 +805,59 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.ERJ170" Base="FixedWing.Heavy.Jet.TwinEngines">
+		<Criteria>
+			<Name>ERJ 170</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ERJ 170</ShortName>
+			<LongName>Embraer ERJ 170</LongName>
+			<FullName>Embraer ERJ 170</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.ERJ170-200" Base="FixedWing.ERJ170">
+		<Criteria>
+			<Name>ERJ 170-200</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ERJ 170-200</ShortName>
+			<LongName>Embraer ERJ 170-200</LongName>
+			<FullName>Embraer ERJ 170-200</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.EMB545" Base="FixedWing.GA.TwinJet.Tail">
+		<Criteria>
+			<Name>EMB-545</Name>
+			<Name>Embraer 45</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>EMB-545</ShortName>
+			<LongName>Embraer EMB-545</LongName>
+			<FullName>Embraer Legacy 450 (EMB-545)</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.BoltonEdge" Base="FixedWing.Edge 540">
 		<Criteria>
 			<Name>Bolton Edge</Name>
 		</Criteria>
 		<Properties>
 			<Pilot>Cristian Bolton</Pilot>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.1124A" Base="FixedWing.GA.TwinJet.Tail">
+		<Criteria>
+			<Name>1124A</Name>
+			<Name>Westwind 1124A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>1124A</ShortName>
+			<LongName>Westwind 1124A</LongName>
+			<FullName>IAI Westwind 1124A</FullName>
+			<Shape>FixedWing.LJ45.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -675,6 +871,30 @@
 			<LongName>Gulfstream G550</LongName>
 			<FullName>Gulfstream G550</FullName>
 			<Shape>FixedWing.G550.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.G650" Base="FixedWing.G550">
+		<Criteria>
+			<Name>G650</Name>
+			<Name>Gulfstream G650</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>G550</ShortName>
+			<LongName>Gulfstream G550</LongName>
+			<FullName>Gulfstream G550</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.G650ER" Base="FixedWing.G650">
+		<Criteria>
+			<Name>G650ER</Name>
+			<Name>Gulfstream G650ER</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>G650ER</ShortName>
+			<LongName>Gulfstream G650ER</LongName>
+			<FullName>Gulfstream G650ER</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -694,6 +914,7 @@
 		<Criteria>
 			<Name>LJ45</Name>
 			<Name>Learjet 45</Name>
+			<Name>45 Learjet</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>LJ45</ShortName>
@@ -743,7 +964,7 @@
 		</Criteria>
 		<Properties>
 			<ShortName>M-7-260C</ShortName>
-			<LongName>M-7-260C</LongName>
+			<LongName>Maule M-7-260C</LongName>
 			<FullName>Maule M-7-260C</FullName>
 		</Properties>
 	</DefaultProperties>
@@ -755,7 +976,7 @@
 		</Criteria>
 		<Properties>
 			<ShortName>M20</ShortName>
-			<LongName>M20</LongName>
+			<LongName>Mooney M20</LongName>
 			<FullName>Mooney M20</FullName>
 			<Shape>FixedWing.M20.obj</Shape>
 		</Properties>
@@ -768,7 +989,7 @@
 		</Criteria>
 		<Properties>
 			<ShortName>M20M</ShortName>
-			<LongName>M20M</LongName>
+			<LongName>Mooney M20M</LongName>
 			<FullName>Mooney M20M</FullName>
 		</Properties>
 	</DefaultProperties>
@@ -780,7 +1001,7 @@
 		</Criteria>
 		<Properties>
 			<ShortName>M20M</ShortName>
-			<LongName>M20M Bravo</LongName>
+			<LongName>Mooney M20M Bravo</LongName>
 			<FullName>Mooney M20M Bravo</FullName>
 		</Properties>
 	</DefaultProperties>
@@ -792,7 +1013,7 @@
 		</Criteria>
 		<Properties>
 			<ShortName>M20TN</ShortName>
-			<LongName>M20TN Acclaim</LongName>
+			<LongName>Mooney M20TN Acclaim</LongName>
 			<FullName>Mooney M20TN Acclaim</FullName>
 		</Properties>
 	</DefaultProperties>
@@ -945,6 +1166,18 @@
 			<ShortName>PA-38</ShortName>
 			<LongName>PA-38 Tomahawk</LongName>
 			<FullName>Piper PA-38 Tomahawk</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.PA-44" Base="FixedWing.GA.TwinEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>PA-44</Name>
+			<Name>Seminole</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PA-44</ShortName>
+			<LongName>PA-44 Seminole</LongName>
+			<FullName>Piper PA-44 Seminole</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -1268,6 +1501,41 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.EA500" Base="FixedWing.GA.TwinJet.Tail">
+		<Criteria>
+			<Name>EA500</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>EA500</ShortName>
+			<LongName>Eclipse 500</LongName>
+			<FullName>Eclipse Aerospace EA500</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.F2000" Base="FixedWing.GA.TwinJet.Tail">
+		<Criteria>
+			<Name>F2000</Name>
+			<Name>Falcon 2000</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F2000</ShortName>
+			<LongName>Dassault Falcon 2000</LongName>
+			<FullName>Dassault Falcon 2000</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.F2000EX" Base="FixedWing.F2000">
+		<Criteria>
+			<Name>F2000EX</Name>
+			<Name>Falcon 2000EX</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F2000EX</ShortName>
+			<LongName>Dassault Falcon 2000EX</LongName>
+			<FullName>Dassault Falcon 2000EX</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.Ju 52" Base="FixedWing.GA.TwinEngine.LowWing.Tricycle">
 		<Criteria>
 			<Name>Ju 52</Name>
@@ -1350,18 +1618,6 @@
 
 	<!-- North American Civilian Heavy aircraft -->
 
-	<DefaultProperties Id="FixedWing.DC-10" Base="FixedWing.Heavy.Jet.ThreeEngines">
-		<Criteria>
-			<Name>DC-10</Name>
-			<Name>McDonnell Douglas DC-1</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>DC-10</ShortName>
-			<LongName>DC-10</LongName>
-			<FullName>McDonnell Douglas DC-10</FullName>
-		</Properties>
-	</DefaultProperties>
-
 	<DefaultProperties Id="FixedWing.B707" Base="FixedWing.Heavy.Jet.FourEngines">
 		<Criteria>
 			<Name>B707</Name>
@@ -1407,6 +1663,7 @@
 
 	<DefaultProperties Id="FixedWing.B737" Base="FixedWing.Heavy.Jet.TwinEngines">
 		<Criteria>
+			<Name>737</Name>
 			<Name>B737</Name>
 		</Criteria>
 		<Properties>
@@ -1417,7 +1674,90 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.B738" Base="FixedWing.B737">
+	<DefaultProperties Id="FixedWing.B731" Base="FixedWing.B737">
+		<Criteria>
+			<Name>B731</Name>
+			<Name>737-100</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B731</ShortName>
+			<LongName>Boeing 737-100</LongName>
+			<FullName>Boeing 737-100</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B732" Base="FixedWing.B731">
+		<Criteria>
+			<Name>B732</Name>
+			<Name>737-200</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B732</ShortName>
+			<LongName>Boeing 737-200</LongName>
+			<FullName>Boeing 737-200</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B733" Base="FixedWing.B732">
+		<Criteria>
+			<Name>B733</Name>
+			<Name>737-300</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B733</ShortName>
+			<LongName>Boeing 737-300</LongName>
+			<FullName>Boeing 737-300</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B734" Base="FixedWing.B733">
+		<Criteria>
+			<Name>B734</Name>
+			<Name>737-400</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B734</ShortName>
+			<LongName>Boeing 737-400</LongName>
+			<FullName>Boeing 737-400</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B735" Base="FixedWing.B734">
+		<Criteria>
+			<Name>B735</Name>
+			<Name>737-500</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B735</ShortName>
+			<LongName>Boeing 737-500</LongName>
+			<FullName>Boeing 737-500</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B736" Base="FixedWing.B735">
+		<Criteria>
+			<Name>B736</Name>
+			<Name>737-600</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B736</ShortName>
+			<LongName>Boeing 737-600</LongName>
+			<FullName>Boeing 737-600</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B737-700" Base="FixedWing.B736">
+		<Criteria>
+			<Name>737-700</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B737</ShortName>
+			<LongName>Boeing 737-700</LongName>
+			<FullName>Boeing 737-700</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B738" Base="FixedWing.B737-700">
 		<Criteria>
 			<Name>B738</Name>
 			<Name>737-800</Name>
@@ -1429,9 +1769,22 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.B739" Base="FixedWing.B738">
+		<Criteria>
+			<Name>B739</Name>
+			<Name>737-900</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B739</ShortName>
+			<LongName>Boeing 737-900</LongName>
+			<FullName>Boeing 737-900</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.B38M" Base="FixedWing.B737">
 		<Criteria>
 			<Name>B38M</Name>
+			<Name>737-8</Name>
 			<Name>B737 MAX 8</Name>
 		</Criteria>
 		<Properties>
@@ -1444,6 +1797,7 @@
 
 	<DefaultProperties Id="FixedWing.B747" Base="FixedWing.B737">
 		<Criteria>
+			<Name>747</Name>
 			<Name>B747</Name>
 			<Name>Boeing 747</Name>
 		</Criteria>
@@ -1457,6 +1811,7 @@
 
 	<DefaultProperties Id="FixedWing.B748" Base="FixedWing.B747">
 		<Criteria>
+			<Name>747-8</Name>
 			<Name>B747-8</Name>
 			<Name>B748</Name>
 			<Name>Boeing 747-8</Name>
@@ -1481,15 +1836,120 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.B77W" Base="FixedWing.B38M">
+	<DefaultProperties Id="FixedWing.B757" Base="FixedWing.B737">
+		<Criteria>
+			<Name>757</Name>
+			<Name>B757</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B757</ShortName>
+			<LongName>Boeing 757</LongName>
+			<FullName>Boeing 757</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B767" Base="FixedWing.B707">
+		<Criteria>
+			<Name>B767</Name>
+			<Name>767</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B767</ShortName>
+			<LongName>Boeing 767</LongName>
+			<FullName>Boeing 767</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B777" Base="FixedWing.B38M">
+		<Criteria>
+			<Name>B777</Name>
+			<Name>777</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B777</ShortName>
+			<LongName>Boeing 777</LongName>
+			<FullName>Boeing 777</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B77W" Base="FixedWing.B777">
 		<Criteria>
 			<Name>B77W</Name>
 			<Name>777-300ER</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>B77W</ShortName>
-			<LongName>BOEING 777-300ER</LongName>
-			<FullName>BOEING 777-300ER</FullName>
+			<LongName>Boeing 777-300ER</LongName>
+			<FullName>Boeing 777-300ER</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B777-333" Base="FixedWing.B77W">
+		<Criteria>
+			<Name>777-333ER</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B777</ShortName>
+			<LongName>Boeing 777-333ER</LongName>
+			<FullName>Boeing 777-333ER</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B787" Base="FixedWing.B767">
+		<Criteria>
+			<Name>B787</Name>
+			<Name>787</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B787</ShortName>
+			<LongName>Boeing 787</LongName>
+			<FullName>Boeing 787</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B787-8" Base="FixedWing.B787">
+		<Criteria>
+			<Name>B787-8</Name>
+			<Name>787-8</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B787-8</ShortName>
+			<LongName>Boeing 787-8</LongName>
+			<FullName>Boeing 787-8</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B787-10" Base="FixedWing.B787-8">
+		<Criteria>
+			<Name>B787-10</Name>
+			<Name>787-10</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B787-10</ShortName>
+			<LongName>Boeing 787-10</LongName>
+			<FullName>Boeing 787-10</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.BD-100" Base="FixedWing.GA.TwinJet.Tail">
+		<Criteria>
+			<Name>BD-100</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BD-100</ShortName>
+			<LongName>Challenger 300</LongName>
+			<FullName>Bombardier Challenger 300</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.CL600" Base="FixedWing.GA.TwinJet.Tail">
+		<Criteria>
+			<Name>CL-600</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CL-600</ShortName>
+			<LongName>Bombardier CL-600</LongName>
+			<FullName>Bombardier CL-600</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -1516,7 +1976,20 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.DHC-8-100" Base="FixedWing.Heavy.TwinProp">
+	<DefaultProperties Id="FixedWing.DHC-8" Base="FixedWing.Heavy.TwinProp">
+		<Criteria>
+			<Name>DHC-8</Name>
+			<Name>Dash 8</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>DHC-8</ShortName>
+			<LongName>Bombardier Dash 8</LongName>
+			<FullName>Bombardier Dash 8</FullName>
+			<Shape>FixedWing.DHC-8-Q300.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.DHC-8-100" Base="FixedWing.DHC-8">
 		<Criteria>
 			<Name>DHC-8-100</Name>
 			<Name>Dash 8-100</Name>
@@ -1563,6 +2036,54 @@
 			<LongName>Bombardier Q300</LongName>
 			<FullName>Bombardier Dash 8-Q300</FullName>
 			<Shape>FixedWing.DHC-8-Q300.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.DHC-8-400" Base="FixedWing.DHC-8-300">
+		<Criteria>
+			<Name>DHC-8-400</Name>
+			<Name>Dash 8-400</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>DHC-8-400</ShortName>
+			<LongName>Bombardier Dash 8-400</LongName>
+			<FullName>Bombardier Dash 8-400</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.DHC-8-402" Base="FixedWing.DHC-8-400">
+		<Criteria>
+			<Name>DHC-8-402</Name>
+			<Name>Dash 8-402</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>DHC-8-402</ShortName>
+			<LongName>Bombardier Dash 8-402</LongName>
+			<FullName>Bombardier Dash 8-402</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.DC-10" Base="FixedWing.Heavy.Jet.ThreeEngines">
+		<Criteria>
+			<Name>DC-10</Name>
+			<Name>McDonnell Douglas DC-1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>DC-10</ShortName>
+			<LongName>DC-10</LongName>
+			<FullName>McDonnell Douglas DC-10</FullName>
+			<Shape>FixedWing.MD-80.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.MD-10" Base="FixedWing.DC-10">
+		<Criteria>
+			<Name>MD-10</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MD-10</ShortName>
+			<LongName>MD-10</LongName>
+			<FullName>McDonnell Douglas MD-10</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -1617,13 +2138,35 @@
 
 	<!-- EU Heavy Planes -->
 
+	<DefaultProperties Id="FixedWing.A220" Base="FixedWing.A319">
+		<Criteria>
+			<Name>A220</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A220</ShortName>
+			<LongName>Airbus A220</LongName>
+			<FullName>Airbus A220</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.A319" Base="FixedWing.A320">
+		<Criteria>
+			<Name>A319</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A319</ShortName>
+			<LongName>Airbus A319</LongName>
+			<FullName>Airbus A319</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.A320" Base="FixedWing.Heavy.Jet.TwinEngines">
 		<Criteria>
 			<Name>A320</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>A320</ShortName>
-			<LongName>A320</LongName>
+			<LongName>Airbus A320</LongName>
 			<FullName>Airbus A320</FullName>
 			<Shape>FixedWing.A320.obj</Shape>
 		</Properties>
@@ -1636,7 +2179,7 @@
 		</Criteria>
 		<Properties>
 			<ShortName>A320</ShortName>
-			<LongName>A320neo</LongName>
+			<LongName>Airbus A320neo</LongName>
 			<FullName>Airbus A320neo</FullName>
 		</Properties>
 	</DefaultProperties>
@@ -1647,8 +2190,113 @@
 		</Criteria>
 		<Properties>
 			<ShortName>A321</ShortName>
-			<LongName>A321</LongName>
+			<LongName>Airbus A321</LongName>
 			<FullName>Airbus A321</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.A300" Base="FixedWing.Heavy.Jet.TwinEngines">
+		<Criteria>
+			<Name>A300</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A300</ShortName>
+			<LongName>Airbus A300</LongName>
+			<FullName>Airbus A300</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.A330" Base="FixedWing.A321">
+		<Criteria>
+			<Name>330</Name>
+			<Name>A330</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A330</ShortName>
+			<LongName>Airbus A330</LongName>
+			<FullName>Airbus A330</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.A330-303" Base="FixedWing.A330">
+		<Criteria>
+			<Name>330-303</Name>
+			<Name>A330-303</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A330</ShortName>
+			<LongName>Airbus A330-303</LongName>
+			<FullName>Airbus A330-303</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.A350" Base="FixedWing.A330">
+		<Criteria>
+			<Name>A350</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A350</ShortName>
+			<LongName>Airbus A350</LongName>
+			<FullName>Airbus A350</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.A340" Base="FixedWing.A330">
+		<Criteria>
+			<Name>A340</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A340</ShortName>
+			<LongName>Airbus A340</LongName>
+			<FullName>Airbus A340</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.A340-200" Base="FixedWing.A340">
+		<Criteria>
+			<Name>A342</Name>
+			<Name>A340-200</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A342</ShortName>
+			<LongName>Airbus A340-200</LongName>
+			<FullName>Airbus A340-200</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.A340-300" Base="FixedWing.A340">
+		<Criteria>
+			<Name>A343</Name>
+			<Name>A340-300</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A343</ShortName>
+			<LongName>Airbus A340-300</LongName>
+			<FullName>Airbus A340-300</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.A340-500" Base="FixedWing.A340">
+		<Criteria>
+			<Name>A345</Name>
+			<Name>A340-500</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A345</ShortName>
+			<LongName>Airbus A340-500</LongName>
+			<FullName>Airbus A340-500</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.A340-600" Base="FixedWing.A340">
+		<Criteria>
+			<Name>A346</Name>
+			<Name>A340-600</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A346</ShortName>
+			<LongName>Airbus A340-600</LongName>
+			<FullName>Airbus A340-600</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -1658,7 +2306,7 @@
 		</Criteria>
 		<Properties>
 			<ShortName>A380</ShortName>
-			<LongName>A380</LongName>
+			<LongName>Airbus A380</LongName>
 			<FullName>Airbus A380</FullName>
 		</Properties>
 	</DefaultProperties>
@@ -1670,20 +2318,20 @@
 		</Criteria>
 		<Properties>
 			<ShortName>A388</ShortName>
-			<LongName>A388</LongName>
+			<LongName>Airbus A388</LongName>
 			<FullName>Airbus A388</FullName>
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.P3D.Airliner" Base="FixedWing.Heavy">
+	<DefaultProperties Id="FixedWing.DO328" Base="FixedWing.Heavy.TwinProp">
 		<Criteria>
-			<Name>Airliner</Name>
+			<Name>D328</Name>
+			<Name>Dornier 328</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>Airliner</ShortName>
-			<LongName>Airliner</LongName>
-			<FullName>Airliner</FullName>
-			<Shape>FixedWing.A320.obj</Shape>
+			<ShortName>D328</ShortName>
+			<LongName>Dornier 328</LongName>
+			<FullName>Dornier 328</FullName>
 		</Properties>
 	</DefaultProperties>
 

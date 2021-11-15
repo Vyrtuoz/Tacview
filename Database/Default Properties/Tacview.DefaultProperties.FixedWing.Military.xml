@@ -136,7 +136,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.C-135" Base="FixedWing.Military.Transport">
+	<DefaultProperties Id="FixedWing.C-135" Base="FixedWing.B707">
 		<Criteria>
 			<Name>C-135</Name>
 			<Name>C-135 Stratolifter</Name>
@@ -469,6 +469,32 @@
 			<ShortName>E-3A</ShortName>
 			<LongName>E-3A Sentry</LongName>
 			<FullName>Boeing E-3A Sentry</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.E-3C" Base="FixedWing.E-3A">
+		<Criteria>
+			<Name>E-3C</Name>
+			<Name>E-3C Sentry</Name>
+			<Name>Boeing E-3C</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>E-3C</ShortName>
+			<LongName>E-3C Sentry</LongName>
+			<FullName>Boeing E-3C Sentry</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.E-3F" Base="FixedWing.E-3C">
+		<Criteria>
+			<Name>E-3F</Name>
+			<Name>E-3F Sentry</Name>
+			<Name>Boeing E-3F</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>E-3F</ShortName>
+			<LongName>E-3F Sentry</LongName>
+			<FullName>Boeing E-3F Sentry</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -1290,6 +1316,7 @@
 			<Name>VFA-105</Name>
 			<Name>VFA-106</Name>
 			<Name>VFA-115</Name>
+			<Name>VFA-115 Eagles</Name>
 			<Name>VFA-122</Name>
 			<Name>VFA-136</Name>
 			<Name>VFA-137</Name>
@@ -1902,6 +1929,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.T-45" Base="FixedWing.BAE.Hawk">
+		<Criteria>
+			<Name>T-45</Name>
+			<Name>Goshawk</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>T-45</ShortName>
+			<LongName>T-45 Goshawk</LongName>
+			<FullName>McDonnell Douglas T-45 Goshawk</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.T6II" Base="FixedWing.Trainer.Prop">
 		<Criteria>
 			<Name>TEX2</Name>
@@ -1942,6 +1981,18 @@
 			<LongName>Br.1150 Atlantic</LongName>
 			<FullName>Breguet Br.1150 Atlantic</FullName>
 			<Shape>FixedWing.Br.1150.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Br.14" Base="FixedWing.Fighter.Biplane">
+		<Criteria>
+			<Name>Breuget 14.B2</Name>
+			<Name>Breguet 14</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Breguet 14</ShortName>
+			<LongName>Breguet 14.B2</LongName>
+			<FullName>Breguet 14.B2</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -2012,6 +2063,8 @@
 			<ShortName>D.V</ShortName>
 			<LongName>Albatros D.V</LongName>
 			<FullName>Albatros D.V</FullName>
+			<!-- Tacview Extended Models by Richard Cook 2021-->
+			<Shape>FixedWing.Albatros D.Va.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2024,6 +2077,8 @@
 			<ShortName>D.Va</ShortName>
 			<LongName>Albatros D.Va</LongName>
 			<FullName>Albatros D.Va</FullName>
+			<!-- Tacview Extended Models by Richard Cook 2021-->
+			<Shape>FixedWing.Albatros D.Va.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2087,6 +2142,8 @@
 			<ShortName>Pfalz D.III</ShortName>
 			<LongName>Pfalz D.III</LongName>
 			<FullName>Pfalz D.III</FullName>
+			<!-- Tacview Extended Models by Richard Cook 2021-->
+			<Shape>FixedWing.Pfalz D.IIIa.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2098,6 +2155,21 @@
 			<ShortName>Pfalz D.IIIa</ShortName>
 			<LongName>Pfalz D.IIIa</LongName>
 			<FullName>Pfalz D.IIIa</FullName>
+			<!-- Tacview Extended Models by Richard Cook 2021-->
+			<Shape>FixedWing.Pfalz D.IIIa.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+		<DefaultProperties Id="FixedWing.Pfalz.D.XII" Base="FixedWing.Pfalz.D.III">
+		<Criteria>
+			<Name>Pfalz D.XII</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Pfalz D.XII</ShortName>
+			<LongName>Pfalz D.XII</LongName>
+			<FullName>Pfalz D.XII</FullName>
+			<!-- Tacview Extended Models by Richard Cook 2021-->
+			<Shape>FixedWing.Pfalz D.IIIa.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2109,6 +2181,8 @@
 			<ShortName>S.E.5</ShortName>
 			<LongName>Royal Aircraft Factory S.E.5</LongName>
 			<FullName>Royal Aircraft Factory S.E.5</FullName>
+			<!-- Tacview Extended Models by Richard Cook 2021-->
+			<Shape>FixedWing.S.E.5a.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2120,6 +2194,8 @@
 			<ShortName>S.E.5a</ShortName>
 			<LongName>Royal Aircraft Factory S.E.5a</LongName>
 			<FullName>Royal Aircraft Factory S.E.5a</FullName>
+			<!-- Tacview Extended Models by Richard Cook 2021-->
+			<Shape>FixedWing.S.E.5a.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2133,6 +2209,8 @@
 			<ShortName>Dolphin</ShortName>
 			<LongName>Sopwith Dolphin</LongName>
 			<FullName>Sopwith 5F.1 Dolphin</FullName>
+			<!-- Tacview Extended Models by Richard Cook 2021-->
+			<Shape>FixedWing.Dolphin.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2378,6 +2456,8 @@
 			<ShortName>F.2B</ShortName>
 			<LongName>Bristol F.2B</LongName>
 			<FullName>Bristol F.2B Fighter</FullName>
+			<!-- Tacview Extended Models by Richard Cook 2021-->
+			<Shape>FixedWing.Bristol Fighter.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2390,6 +2470,8 @@
 			<ShortName>F.2B</ShortName>
 			<LongName>Bristol F.2B (F.II)</LongName>
 			<FullName>Bristol F.2B (F.II)</FullName>
+			<!-- Tacview Extended Models by Richard Cook 2021-->
+			<Shape>FixedWing.Bristol Fighter.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2402,6 +2484,8 @@
 			<ShortName>F.2B</ShortName>
 			<LongName>Bristol F.2B (F.III)</LongName>
 			<FullName>Bristol F.2B (F.III)</FullName>
+			<!-- Tacview Extended Models by Richard Cook 2021-->
+			<Shape>FixedWing.Bristol Fighter.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2561,6 +2645,8 @@
 			<ShortName>D.VII</ShortName>
 			<LongName>Fokker D.VII</LongName>
 			<FullName>Fokker D.VII</FullName>
+			<!-- Tacview Extended Models by Richard Cook 2021-->
+			<Shape>FixedWing.Fokker D.VII.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2573,6 +2659,8 @@
 			<ShortName>D.VII(F)</ShortName>
 			<LongName>Fokker D.VII(F)</LongName>
 			<FullName>Fokker D.VII(F)</FullName>
+			<!-- Tacview Extended Models by Richard Cook 2021-->
+			<Shape>FixedWing.Fokker D.VII.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2585,6 +2673,8 @@
 			<ShortName>CL.II</ShortName>
 			<LongName>Halberstadt CL.II</LongName>
 			<FullName>Halberstadt CL.II</FullName>
+			<!-- Tacview Extended Models by Richard Cook 2021-->
+			<Shape>FixedWing.Halberstadt CL.II.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2598,6 +2688,8 @@
 			<ShortName>CL.IIa</ShortName>
 			<LongName>Halberstadt CL.IIa</LongName>
 			<FullName>Halberstadt CL.IIa</FullName>
+			<!-- Tacview Extended Models by Richard Cook 2021-->
+			<Shape>FixedWing.Halberstadt CL.II.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2807,6 +2899,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.Rafale.M" Base="FixedWing.Rafale">
+		<Criteria>
+			<Name>Rafale M</Name>
+			<Name>Dassault Rafale M</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Rafale</ShortName>
+			<LongName>Rafale M</LongName>
+			<FullName>Dassault Rafale M</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.SPAD.13" Base="FixedWing.Fighter.Biplane">
 		<Criteria>
 			<Name>SPAD 13</Name>
@@ -2816,6 +2920,8 @@
 			<ShortName>S.XIII</ShortName>
 			<LongName>SPAD S.XIII</LongName>
 			<FullName>SPAD S.XIII</FullName>
+			<!-- Tacview Extended Models by Richard Cook 2021-->
+			<Shape>FixedWing.SPAD S.XIII.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2828,6 +2934,8 @@
 			<ShortName>S.XIII C1</ShortName>
 			<LongName>SPAD S.XIII C1</LongName>
 			<FullName>SPAD S.XIII C1</FullName>
+			<!-- Tacview Extended Models by Richard Cook 2021-->
+			<Shape>FixedWing.SPAD S.XIII.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -3270,6 +3378,17 @@
 			<ShortName>L-39ZA</ShortName>
 			<LongName>L-39ZA Albatros</LongName>
 			<FullName>Aero L-39ZA Albatros</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.L-159" Base="FixedWing.L-39">
+		<Criteria>
+			<Name>L-159</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>L-159</ShortName>
+			<LongName>L-159 Alca</LongName>
+			<FullName>Aero L-159 Alca</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -3952,6 +4071,7 @@
 			<Name>S-32</Name>
 			<Name>S-37</Name>
 			<Name>Berkut</Name>
+			<Name>Firkin</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>Su-47</ShortName>
@@ -3964,14 +4084,15 @@
 	<DefaultProperties Id="FixedWing.Su-57" Base="FixedWing.Fighter.Jet">
 		<Criteria>
 			<Name>Su-57</Name>
+			<Name>Felon</Name>
 			<Name>Су-57</Name>
 			<Name>T-50</Name>
 			<Name>Sukhoi Su-57</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>Su-57</ShortName>
-			<LongName>Su-57</LongName>
-			<FullName>Sukhoi Su-57</FullName>
+			<LongName>Su-57 Felon</LongName>
+			<FullName>Sukhoi Su-57 Felon</FullName>
 			<Shape>FixedWing.Su-57.obj</Shape>
 		</Properties>
 	</DefaultProperties>

@@ -201,6 +201,50 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Vehicle.Truck.KrAZ-255" Base="Vehicle.Truck.Ural">
+		<Criteria>
+			<Name>KrAZ-255</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>KrAZ-255</ShortName>
+			<LongName>KrAZ-255</LongName>
+			<FullName>KrAZ-255</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Truck.KrAZ-255B" Base="Vehicle.Truck.KrAZ-255">
+		<Criteria>
+			<Name>KrAZ-255B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>KrAZ-255B</ShortName>
+			<LongName>KrAZ-255B</LongName>
+			<FullName>KrAZ-255B</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Truck.KrAz-F-255B" Base="Vehicle.Truck.KrAZ-255B">
+		<Criteria>
+			<Name>KrAz F 255B</Name>	<!-- Falcon BMS -->
+		</Criteria>
+		<Properties>
+			<ShortName>KrAz F 255B</ShortName>
+			<LongName>KrAz F 255B</LongName>
+			<FullName>KrAz F 255B</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Truck.KrAz-T-255B" Base="Vehicle.Truck.KrAZ-255B">
+		<Criteria>
+			<Name>KrAz T 255B</Name>	<!-- Falcon BMS -->
+		</Criteria>
+		<Properties>
+			<ShortName>KrAz T 255B</ShortName>
+			<LongName>KrAz T 255B</LongName>
+			<FullName>KrAz T 255B</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Vehicle.Truck.ZIL-131" Base="Vehicle.Truck.Ural">
 	</DefaultProperties>
 
@@ -356,6 +400,17 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Vehicle.APC.BMP-1KSh" Base="Vehicle.APC.BMP-1">
+		<Criteria>
+			<Name>BMP-1KSh</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BMP-1</ShortName>
+			<LongName>BMP-1KSh</LongName>
+			<FullName>BMP-1KSh</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Vehicle.APC.BMP-2" Base="Vehicle.APC.BMP-1">
 		<Criteria>
 			<Name>BMP-2</Name>
@@ -504,6 +559,21 @@
 		</Properties>
 	</DefaultProperties>
 
+	<!-- European Trucks -->
+
+	<DefaultProperties Id="Vehicle.Truck.Leyland 3 Ton RAF" Base="Vehicle.Military.Truck">
+		<!-- Tacview Extended Models by Richard Cook 2021-->
+		<Criteria>
+			<Name>Leyland 3 Ton RAF</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Leyland 3 Ton</ShortName>
+			<LongName>Leyland 3 Ton RAF</LongName>
+			<FullName>Leyland 3 Ton RAF</FullName>
+			<Shape>Vehicle.Truck.Leyland 3 ton.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- European Tanks -->
 
 	<DefaultProperties Id="Vehicle.Truck.Bedford MW" Base="Vehicle.Military.Truck">
@@ -525,6 +595,19 @@
 			<ShortName>MWD</ShortName>
 			<LongName>Bedford MWD</LongName>
 			<FullName>Bedford MWD</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Mark V (male)" Base="Vehicle.Military.Tank">
+		<!-- Tacview Extended Models by Richard Cook 2021-->
+		<Criteria>
+			<Name>Mark V (male)</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Tank Mk V(m)</ShortName>
+			<LongName>Tank Mk V Male</LongName>
+			<FullName>Tank Mark V Male</FullName>
+			<Shape>Vehicle.Tank.Mark V (male).obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

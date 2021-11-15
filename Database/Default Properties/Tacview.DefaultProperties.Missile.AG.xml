@@ -481,7 +481,7 @@
 		</Criteria>
 		<Properties>
 			<ShortName>BK90</ShortName>
-			<LongName>BK90 MJ1</LongName>
+			<LongName>BK90 MJ1 (HE)</LongName>
 			<FullName>Bombkapsel 90 (BK90 MJ1)</FullName>
 		</Properties>
 	</DefaultProperties>
@@ -492,7 +492,7 @@
 		</Criteria>
 		<Properties>
 			<ShortName>BK90</ShortName>
-			<LongName>BK90 MJ2</LongName>
+			<LongName>BK90 MJ2 (AP)</LongName>
 			<FullName>Bombkapsel 90 (BK90 MJ2)</FullName>
 		</Properties>
 	</DefaultProperties>
@@ -503,7 +503,7 @@
 		</Criteria>
 		<Properties>
 			<ShortName>BK90</ShortName>
-			<LongName>BK90 MJ1-MJ2</LongName>
+			<LongName>BK90 MJ1-MJ2 (HE/AP)</LongName>
 			<FullName>Bombkapsel 90 (BK90 MJ1-MJ2)</FullName>
 		</Properties>
 	</DefaultProperties>

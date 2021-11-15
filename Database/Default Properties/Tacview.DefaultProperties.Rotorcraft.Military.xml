@@ -147,6 +147,19 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Rotorcraft.CH-146" Base="Rotorcraft.Bell 412EP">
+		<Criteria>
+			<Name>Griffon</Name>
+			<Name>CH-146</Name>
+			<Name>CH-146 Griffon</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CH-146</ShortName>
+			<LongName>CH-146 Griffon</LongName>
+			<FullName>Bell CH-146 Griffon</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Rotorcraft.UH-1" Base="Rotorcraft.Transport">
 		<Criteria>
 			<Name>Iroquois</Name>
@@ -183,6 +196,18 @@
 			<ShortName>UH-1H</ShortName>
 			<LongName>UH-1H Huey</LongName>
 			<FullName>Bell UH-1H Huey</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.UH-1N" Base="Rotorcraft.UH-1">
+		<Criteria>
+			<Name>UH-1N</Name>
+			<Name>Bell UH-1N</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>UH-1N</ShortName>
+			<LongName>UH-1N Twin Huey</LongName>
+			<FullName>Bell UH-1N Twin Huey</FullName>
 		</Properties>
 	</DefaultProperties>
 
