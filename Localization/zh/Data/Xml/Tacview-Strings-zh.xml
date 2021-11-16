@@ -121,8 +121,8 @@
 	<String ID="OptionsAutoHideCoordinatesHelp">每当出现靶眼坐标时，自动隐藏纬度/经度坐标</String>
 	<String ID="OptionsUIScaleText">用户界面缩放</String>
 	<String ID="OptionsCockpitText">驾驶舱</String>
-	<String ID="OptionsAnticipatoryTrailText">Anticipatory Trail</String>
-	<String ID="OptionsAnticipatoryTrailDisabled">Disabled</String>
+	<String ID="OptionsAnticipatoryTrailText">预期轨迹</String>
+	<String ID="OptionsAnticipatoryTrailDisabled">禁用</String>
 
 	<String ID="OptionsTerrainText">地形</String>
 	<String ID="OptionsTerrainAutoText">（&amp;自动）</String>
@@ -577,12 +577,12 @@
 	<String ID="ADSBTelemetryRecordingConnecting">Looking for&#xA;ADS-B radio device {0}</String>
 	<String ID="ADSBTelemetryRecordingProgress">Recording ADS-B from {0}&#xA;{1}</String>
 	<String ID="ADSBTelemetryOperationFailed">Cannot find any supported USB radio device to read ADS-B signal. Check https://www.rtl-sdr.com for a list of RTL2832U compatible radio equipment, and make sure WinUSB is properly installed from https://zadig.akeo.ie</String>
-	<String ID="ADSBTelemetryExplanation">To record ADS-B radio signal in real-time, you need:&#xA;
-• RTL2832U compatible USB radio dongle (https://www.rtl-sdr.com)
-• 1090MHz antenna
-• 1090MHz ADS-B filter (optional)
-• WinUSB drivers for your dongle (https://zadig.akeo.ie)&#xA;
-Make sure everything is properly connected to your computer and configured, then click connect!</String>
+	<String ID="ADSBTelemetryExplanation">要实时记录ADS-B无线电信号，您需要：&#xA;
+• RTL2832U兼容的USB无线电加密狗（https://www.rtl-sdr.com）
+• 1090MHz天线
+• 1090MHz ADS-B滤波器（可选）
+• 为您的加密狗提供WinUSB驱动（https://zadig.akeo.ie）&#xA;
+确保所有的设备都正确地连接到您的电脑并进行了配置，然后点击连接！</String>
 
 	<String ID="AddEditObjectAddTitle">创建一个新物体</String>
 	<String ID="AddEditObjectEditTitle">编辑物体属性</String>
@@ -752,7 +752,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="CmdResourceFolderHelp">声明存储Tacview资源的附加自定义目录</String>
 	<String ID="CmdAddOnsFolderHelp">声明从何处加载加载项的附加自定义文件夹</String>
 	<String ID="CmdReadOnlyHelp">禁用插件和导出功能</String>
-	<String ID="CmdMaxFrameRateHelp">Limits the maximum frame rate to reduce CPU usage as well as power consumption.</String>
+	<String ID="CmdMaxFrameRateHelp">限制最大帧率，以减少CPU的使用率以及功耗。</String>
 
 	<String ID="Selection">选择</String>
 	<String ID="TimeControl">时间控制</String>
