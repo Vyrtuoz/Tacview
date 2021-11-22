@@ -28,8 +28,8 @@
 	<String ID="RecordingMenuHelp">Configurar los datos de vuelo a grabar</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Telemetría en tiempo real...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">Grabar un vuelo actualmente en proceso</String>
-	<String ID="RecordingADSBTelemetryCmdText">ADS-B Radio Telemetry...</String>
-	<String ID="RecordingADSBTelemetryCmdHelp">Record ADS-B telemetry over the air</String>
+	<String ID="RecordingADSBTelemetryCmdText">Radio telemetría ADS-B...</String>
+	<String ID="RecordingADSBTelemetryCmdHelp">Grabar Telemetría ADS-B en el aire</String>
 	<String ID="RecordingRemoteControl0Text">Control remoto 1</String>
 	<String ID="RecordingRemoteControl1Text">Control remoto 2</String>
 	<String ID="RecordingRemoteControl2Text">Control remoto 3</String>
@@ -117,12 +117,12 @@
 	<String ID="OptionsDisplayControlsPositionText">Display Controls Position</String>
 	<String ID="OptionsAlwaysDisplayBullseyeText">Siempre mostrar Bullseye</String>
 	<String ID="OptionsAlwaysDisplayBullseyeHelp">Mostrar siempre el Bullseye en la vista 3D</String>
-	<String ID="OptionsAutoHideCoordinatesText">Auto Hide Coordinates</String>
-	<String ID="OptionsAutoHideCoordinatesHelp">Auto hide latitude/longitude coordinates whenever bullseye coordinates are present</String>
+	<String ID="OptionsAutoHideCoordinatesText">Auto ocultar coordenadas</String>
+	<String ID="OptionsAutoHideCoordinatesHelp">Auto ocultar coordenadas latitude/longitude cuandolas coordenadas del bullseye esten presentes</String>
 	<String ID="OptionsUIScaleText">Ajuste de tamaño de la UI</String>
-	<String ID="OptionsCockpitText">Cockpit</String>
-	<String ID="OptionsAnticipatoryTrailText">Anticipatory Trail</String>
-	<String ID="OptionsAnticipatoryTrailDisabled">Disabled</String>
+	<String ID="OptionsCockpitText">Cabina</String>
+	<String ID="OptionsAnticipatoryTrailText">Sendero anticipado</String>
+	<String ID="OptionsAnticipatoryTrailDisabled">Desactivado</String>
 
 	<String ID="OptionsTerrainText">Terreno</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Automático)</String>
@@ -238,10 +238,10 @@
 	<String ID="LaserPointerHelp">Mostrar un puntero laser para remarcar objetos en un debriefing online</String>
 	<String ID="MousePositionHelp">Mostrar latitud, longitud y posicion bullseye del cursor del raton</String>
 
-	<String ID="DrawHeadingText">Heading</String>
-	<String ID="DrawCourseText">Course</String>
-	<String ID="DrawLiftVectorText">Lift</String>
-	<String ID="DrawPilotLineOfSightText">Pilot Line of Sight</String>
+	<String ID="DrawHeadingText">Rumbo</String>
+	<String ID="DrawCourseText">Curso</String>
+	<String ID="DrawLiftVectorText">Sustentacion</String>
+	<String ID="DrawPilotLineOfSightText">Linea de visión del piloto</String>
 
 	<String ID="SelectedObjectsTelemetryText">Etiquetas de los objetos seleccionados</String>
 	<String ID="AircraftTelemetryText">Etiquetas de los objetos no seleccionados</String>
@@ -249,8 +249,8 @@
 	<String ID="LabelOnAllGroundObjectsHelp">Mostrar todas las etiquetas de los objetos terrestres en adición a las amenazas antiaéreas</String>
 	<String ID="ForceSelectedObjetsLabelsText">Forzar etiquetas de objetos seleccionados</String>
 	<String ID="ForceSelectedObjetsLabelsHelp">Mostrar siempre etiquetas de objetos de selección independientemente de la preferencia global</String>
-	<String ID="DeclutterUnselectedAircraftTelemetryText">Declutter Unselected Aircraft Telemetry</String>
-	<String ID="DeclutterUnselectedAircraftTelemetryHelp">Select this option to declutter a large battlefield</String>
+	<String ID="DeclutterUnselectedAircraftTelemetryText">Quitar telemetria de aviones no seleccionados</String>
+	<String ID="DeclutterUnselectedAircraftTelemetryHelp">Selecciona esta opcion para mejorar la visivilidad en escenarios con mucha accion</String>
 
 	<String ID="LabelsScaleText">Escala de etiquetado</String>
 	<String ID="ScaleAutoText">Automático</String>
@@ -353,9 +353,9 @@
 
 	<!-- Telemetry -->
 
-	<String ID="DisplayObjectNameText">Object Name</String>
-	<String ID="DisplayPilotNameText">Pilot Name</String>
-	<String ID="DisplayLabelText">Label</String>
+	<String ID="DisplayObjectNameText">Nombre del objeto</String>
+	<String ID="DisplayPilotNameText">Nombre del piloto</String>
+	<String ID="DisplayLabelText">Etiqueta</String>
 
 	<String ID="ATCHelp">Telemetría como ATC: Altitud/100, velocidad vertical y velocidad terrestre/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
@@ -381,8 +381,8 @@
 
 	<String ID="AOAHelp">Angulo de ataque</String>
 	<String ID="AOAText">Angulo de ataque (AOA)</String>
-	<String ID="AOSHelp">Angle of sideslip</String>
-	<String ID="AOSText">Angle of Sideslip (AOS)</String>
+	<String ID="AOSHelp">Angulo de derrape</String>
+	<String ID="AOSText">Angulo de derrape (AOS)</String>
 	<String ID="GHelp">Aceleración relativa a la caída libre</String>
 	<String ID="GText">Fuerzas G (G)</String>
 	<String ID="LatGHelp">Aceleración relativa al eje lateral</String>
@@ -437,8 +437,8 @@
 	<String ID="NavaidsLabelsAlwaysHelp">Mostrar todas las etiquetas de ayuda a la navegación</String>
 	<String ID="NavaidsLabelsSelectedOnlyText">Solo seleccionadas</String>
 	<String ID="NavaidsLabelsSelectedOnlyHelp">Mostrar todas las etiquetas solo para las ayudas a la navegacion seleccionadas</String>
-	<String ID="DisplayRadarLocksLabelsText">Display Labels</String>
-	<String ID="DisplayRadarLocksLabelsHelp">Display detailed lock information when available</String>
+	<String ID="DisplayRadarLocksLabelsText">Mostrar etiquetas</String>
+	<String ID="DisplayRadarLocksLabelsHelp">Muestra información detallada sobre el bloqueo cuando esté disponible</String>
 
 	<String ID="AbsoluteTimeHelp">Tiempo absoluto</String>
 	<String ID="AbsoluteTimeText">Tiempo</String>
@@ -550,17 +550,17 @@
 	<String ID="RealTimeTelemetryDisconnect">Desconectar</String>
 	<String ID="RealTimeTelemetryAutoReconnect">Auto Reconectar</String>
 
-	<String ID="ADSBTelemetryTitle">ADS-B Radio Telemetry</String>
-	<String ID="ADSBTelemetryIntro">Listens to 1090MHz ADS-B radio signals to display aircraft around you in real-time!</String>
-	<String ID="ADSBTelemetryRecordingConnecting">Looking for&#xA;ADS-B radio device {0}</String>
-	<String ID="ADSBTelemetryRecordingProgress">Recording ADS-B from {0}&#xA;{1}</String>
-	<String ID="ADSBTelemetryOperationFailed">Cannot find any supported USB radio device to read ADS-B signal. Check https://www.rtl-sdr.com for a list of RTL2832U compatible radio equipment, and make sure WinUSB is properly installed from https://zadig.akeo.ie</String>
-	<String ID="ADSBTelemetryExplanation">To record ADS-B radio signal in real-time, you need:&#xA;
+	<String ID="ADSBTelemetryTitle">Radio telemetria ADS-B</String>
+	<String ID="ADSBTelemetryIntro">¡Escucha señales de radio ADS-B de 1090MHz para mostrar los aviones a tu alrededor en tiempo real!</String>
+	<String ID="ADSBTelemetryRecordingConnecting">Buscando &#xA;dispositivo de radio ADS-B {0}</String>
+	<String ID="ADSBTelemetryRecordingProgress">Grabando ADS-B desde {0}&#xA;{1}</String>
+	<String ID="ADSBTelemetryOperationFailed">No se encontro ningon dispositivo USB de radio para leerla señal ADS-B. Comprueba https://www.rtl-sdr.com para la lista de equipos de radio compatibles RTL2832U, y asegurate de que WinUSB esta instalado desde https://zadig.akeo.ie</String>
+	<String ID="ADSBTelemetryExplanation">Grabar señal de radio ADS-B en tiempo real, necesitas:&#xA;
 • RTL2832U compatible USB radio dongle (https://www.rtl-sdr.com)
-• 1090MHz antenna
-• 1090MHz ADS-B filter (optional)
+• 1090MHz antena
+• 1090MHz filtro ADS-B  (opcional)
 • WinUSB drivers for your dongle (https://zadig.akeo.ie)&#xA;
-Make sure everything is properly connected to your computer and configured, then click connect!</String>
+Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡despues pulsa en conectar!</String>
 
 	<String ID="AddEditObjectAddTitle">Crear nuevo objeto</String>
 	<String ID="AddEditObjectEditTitle">Editar propiedades del objeto</String>
@@ -728,9 +728,9 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="CmdRegisterSessionProductKeyHelp">Activa Tacview, para la sesion actual, con la Key indicada.</String>
 	<String ID="CmdDisplayFrameRateHelp">Mostrar los frame-rate en la vista 3D.</String>
 	<String ID="CmdResourceFolderHelp">Declarar un directorio personalado donde se almacenen los recursos del TacView.</String>
-	<String ID="CmdAddOnsFolderHelp">Declares an additional custom folder from where to load add-ons.</String>
+	<String ID="CmdAddOnsFolderHelp">Declara un directorio adicional donde cargar los add-ons.</String>
 	<String ID="CmdReadOnlyHelp">Deshabilitar addons y exportar capacidades.</String>
-	<String ID="CmdMaxFrameRateHelp">Limits the maximum frame rate to reduce CPU usage as well as power consumption.</String>
+	<String ID="CmdMaxFrameRateHelp">Limita el numero maximo de frame rate para reducir el uso de CPU asi como el consumo.</String>
 
 	<String ID="Selection">Selección</String>
 	<String ID="TimeControl">Control de tiempo</String>
@@ -861,7 +861,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="BrowseExportPathFolderHelp">Por favor elija donde grabar los archivos .acmi para el usuario actual.</String>
 	<String ID="Falcon4TheaterFilter">Falcon 4.0 Teatro:</String>
 	<String ID="AddOnGetExistingFolderNameHelp">Elija una carpeta existente</String>
-	<String ID="AddOnGetNewFolderNameHelp">Por fabor elija una carpeta existente o una nueva</String>
+	<String ID="AddOnGetNewFolderNameHelp">Por favor elija una carpeta existente o una nueva</String>
 
 	<!-- Online Debriefing -->
 	<String ID="HostLabel">(Anfitrión)</String>
