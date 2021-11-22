@@ -14,85 +14,85 @@ msgstr ""
 "X-Generator: Poedit 2.4.1\n"
 
 msgid "Tacview Module Enabled"
-msgstr ""
+msgstr "Modulo Tacview Activado"
 
 msgid "Flight Data Recording"
-msgstr ""
+msgstr "Registro de datos de vuelo"
 
 msgid "Enabled"
-msgstr ""
+msgstr "Activar"
 
 msgid "Single-Player Flights"
-msgstr ""
+msgstr "Vuelos Un solo jugador"
 
 msgid "Multiplayer Flights – As Client"
-msgstr ""
+msgstr "Vuelos multijugador - Como cliente"
 
 msgid "Multiplayer Flights – As Host"
-msgstr ""
+msgstr "Vuelos multijugador - Como Host"
 
 msgid "Bookmark Injection Shortcut"
-msgstr ""
+msgstr "Poner marca de atajo"
 
 msgid "Auto Discard Flights"
-msgstr ""
+msgstr "Descartar vuelos automaticamente"
 
 msgid "Advanced Options"
-msgstr ""
+msgstr "Opciones avanzadas"
 
 msgid "Debug Mode"
 msgstr "Modo de depuración"
 
 msgid "Tools"
-msgstr ""
+msgstr "Herramientas"
 
 msgid "Terrain Export"
 msgstr "Exportación de terreno"
 
 msgid "NOTICE: LONG OPERATION!"
-msgstr ""
+msgstr "Notica: Operacion larga"
 
 msgid "DO NOT forget to disable this option after successful export."
 msgstr "NO olvide desactivar esta opción después de exportar con éxito."
 
 msgid "Real-Time Telemetry"
-msgstr ""
+msgstr "Telemetría en tiempo real"
 
 msgid "TCP Port (default 42674)"
-msgstr ""
+msgstr "TCP Port (Defecto 42674)"
 
 msgid "Password"
-msgstr ""
+msgstr "Contraseña"
 
 msgid "NOTE: Host password prioritized in multiplayer."
-msgstr ""
+msgstr "Nota: Prioridad de contraseña de host en multijugador."
 
 msgid "Remote Control"
-msgstr ""
+msgstr "Control remoto"
 
 msgid "TCP Port (default 42675)"
-msgstr ""
+msgstr "TCP Port (defecto 42675)"
 
 msgid "Do not record any data"
-msgstr ""
+msgstr "No grabar ningun dato"
 
 msgid "Record local player only"
-msgstr ""
+msgstr "Grabar solo datos locales del jugador"
 
 msgid "Record all available data"
-msgstr ""
+msgstr "Guardar todos los datos disponibles"
 
 msgid "Record one file per client"
-msgstr ""
+msgstr "Grabar un archivo por cliente"
 
 msgid "Disabled (default)"
-msgstr ""
+msgstr "deshabilitado (por defecto) "
 
 msgid "Minimal"
-msgstr ""
+msgstr "Minimo"
 
 msgid "Full "
-msgstr ""
+msgstr "Maximo"
 
 msgid "Predefined Terrain"
 msgstr "Terreno predefinido"
@@ -101,13 +101,13 @@ msgid "Unknown Terrain"
 msgstr "Terreno desconocido"
 
 msgid "never"
-msgstr ""
+msgstr "nunca"
 
 msgid "shorter than 10 sec (default)"
-msgstr ""
+msgstr "menos de 10 segundos (por defecto)"
 
 msgid "shorter than 1 min"
-msgstr ""
+msgstr "menos de 1 minuto"
 
 msgid "shorter than 5 min"
-msgstr ""
+msgstr "menos de 5 minutos"
