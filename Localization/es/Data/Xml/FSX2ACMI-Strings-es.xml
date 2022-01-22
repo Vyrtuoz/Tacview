@@ -10,7 +10,7 @@
 	<String ID="StatusSimConnectNotInstalled">SimConnect no detectado.&#10;Asegurese que Microsoft Flight&#160;Simulator&#160;X o Lockheed&#160;Martin Prepar3D esté instalado en su ordenador.</String>
 	<String ID="StatusWaitingForSimConnectFSX">{0} está listo!&#10;Puedes ejecutar Microsoft Flight&#160;Simulator&#160;X&#10;or Lockheed&#160;Martin Prepar3D.</String>
 	<String ID="StatusWaitingForSimConnectMSFS">{0} está listo!&#10;Puedes ejecutar Microsoft Flight&#160;Simulator.</String>
-	<String ID="StatusWaitingForSimConnectWrongVersion">Please make sure you are using a version of Flight&#160;Simulator supported by {0}.</String>
+	<String ID="StatusWaitingForSimConnectWrongVersion">Asegurese que esta usando una version de Flight&#160;Simulator compatible con {0}.</String>
 	<String ID="StatusWaitingForSimConnectFailed">Error al guardar el último vuelo...&#10;Antes de reiniciar el simulador, comprobar que hay espacio suficiente en el disco duro.</String>
 	<String ID="StatusWaitingForSimConnectSucceeded">¡El último vuelo se grabó satisfactoriamente!&#10;Ya se puede cerrar {0} o reiniciar el simulador para grabar otro vuelo.</String>
 	<String ID="StatusConnectedToSimConnect">{0} está conectado al simulador.&#10;Ya se puede comenzar el vuelo,&#10;se guardará automáticamente.</String>
