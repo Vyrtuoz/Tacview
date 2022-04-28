@@ -91,8 +91,8 @@ msgstr "已禁用（默认）"
 msgid "Minimal"
 msgstr "最小"
 
-msgid "Full"
-msgstr "完整"
+msgid "Full "
+msgstr "完整 "
 
 msgid "Predefined Terrain"
 msgstr "预定义地形"

@@ -91,7 +91,7 @@ msgstr ""
 msgid "Minimal"
 msgstr ""
 
-msgid "Full"
+msgid "Full "
 msgstr ""
 
 msgid "Predefined Terrain"
