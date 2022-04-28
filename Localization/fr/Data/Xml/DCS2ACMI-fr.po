@@ -91,7 +91,7 @@ msgstr "Désactivé (par défaut)"
 msgid "Minimal"
 msgstr "Minimal"
 
-msgid "Full "
+msgid "Full"
 msgstr "Complet"
 
 msgid "Predefined Terrain"

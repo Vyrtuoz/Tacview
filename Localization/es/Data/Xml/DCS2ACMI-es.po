@@ -50,7 +50,7 @@ msgid "Terrain Export"
 msgstr "Exportación de terreno"
 
 msgid "NOTICE: LONG OPERATION!"
-msgstr "Notica: Operacion larga"
+msgstr "Notica: Operacion larga!"
 
 msgid "DO NOT forget to disable this option after successful export."
 msgstr "NO olvide desactivar esta opción después de exportar con éxito."
@@ -86,12 +86,12 @@ msgid "Record one file per client"
 msgstr "Grabar un archivo por cliente"
 
 msgid "Disabled (default)"
-msgstr "deshabilitado (por defecto) "
+msgstr "Deshabilitado (por defecto)"
 
 msgid "Minimal"
 msgstr "Minimo"
 
-msgid "Full "
+msgid "Full"
 msgstr "Maximo"
 
 msgid "Predefined Terrain"
