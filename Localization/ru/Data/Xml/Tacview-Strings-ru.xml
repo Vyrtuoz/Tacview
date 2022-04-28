@@ -130,6 +130,8 @@
 	<String ID="OptionsTerrainGenericHelp">Использовать ландшафт из '{0}'</String>
 	<String ID="OptionsTerrainTextRealWorld">Реалистичный ландшафт</String>
 	<String ID="OptionsTerrainHelpRealWorld">Использовать реалистичный ландшафт (на базе данных топографической программы НАСА)</String>
+	<String ID="OptionsTerrainTextARMA">ARMA</String>
+	<String ID="OptionsTerrainHelpARMA">Use terrain from the latest version of ARMA</String>
 	<String ID="OptionsTerrainTextDCSWorld">DCS World</String>
 	<String ID="OptionsTerrainHelpDCSWorld">Использовать ландшафт из крайней версии DCS World</String>
 	<String ID="OptionsTerrainTextEECH">Разорванное небо: Ка-52 против Команча</String>
@@ -937,7 +939,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="InvalidShortcutText">Невозможно найти объекты и время, на которые ссылается данный ярлык. Убедитесь, что открыт требуемый файл и целиком скопирован / метка вставлена.</String>
 
 	<String ID="AboutTitle">О программе Tacview</String>
-	<String ID="AboutCopyright">© 2006-2021, Raia Software. Все права защищены.&#10;Данное ПО защищено авторским правом и международными соглашениями.</String>
+	<String ID="AboutCopyright">© 2006-2022, Raia Software. Все права защищены.&#10;Данное ПО защищено авторским правом и международными соглашениями.</String>
 
 	<String ID="LoadingInProgressShort">Загрузка...</String>
 	<String ID="LoadingInProgress">Загружаем '{0}'</String>

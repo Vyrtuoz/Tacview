@@ -129,6 +129,8 @@
 	<String ID="OptionsTerrainGenericHelp">Utiliser le terrain de '{0}'</String>
 	<String ID="OptionsTerrainTextRealWorld">Terrain Réel</String>
 	<String ID="OptionsTerrainHelpRealWorld">Utiliser le terrain réel issu de la mission de topographie radar de la NASA</String>
+	<String ID="OptionsTerrainTextARMA">ARMA</String>
+	<String ID="OptionsTerrainHelpARMA">Utiliser le dernier terrain d’ARMA</String>
 	<String ID="OptionsTerrainTextDCSWorld">DCS World</String>
 	<String ID="OptionsTerrainHelpDCSWorld">Utiliser le dernier terrain de DCS World</String>
 	<String ID="OptionsTerrainTextEECH">Enemy Engaged: Comanche vs Hokum</String>
@@ -936,7 +938,7 @@ Assurez-vous que tout est correctement connecté et configuré, puis cliquez sur
 	<String ID="InvalidShortcutText">Impossible de trouver dans cette mission les objets et l'heure contenus dans ce raccourci. Assurez-vous d'avoir ouvert le bon fichier et d'avoir copié/collé l'intégralité du raccourci.</String>
 
 	<String ID="AboutTitle">A propos de Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2021, Raia Software. Tous droits réservés.&#10;Ce logiciel est protégé par les lois internationales sur le copyright.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2022, Raia Software. Tous droits réservés.&#10;Ce logiciel est protégé par les lois internationales sur le copyright.</String>
 
 	<String ID="LoadingInProgressShort">Chargement...</String>
 	<String ID="LoadingInProgress">Chargement de '{0}'</String>

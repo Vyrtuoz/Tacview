@@ -130,6 +130,8 @@
 	<String ID="OptionsTerrainGenericHelp">Utilizzare terreno da '{0}'</String>
 	<String ID="OptionsTerrainTextRealWorld">Terreno reale</String>
 	<String ID="OptionsTerrainHelpRealWorld">Utilizzare terreni reali della terra dalle Mission Radar Topografiche del Shuttle della NASA</String>
+	<String ID="OptionsTerrainTextARMA">ARMA</String>
+	<String ID="OptionsTerrainHelpARMA">Use terrain from the latest version of ARMA</String>
 	<String ID="OptionsTerrainTextDCSWorld">DCS World</String>
 	<String ID="OptionsTerrainHelpDCSWorld">Utilizzare il terreno dell'ultima versione di DCS World</String>
 	<String ID="OptionsTerrainTextEECH">Enemy Engaged: Comanche vs Hokum</String>
@@ -937,7 +939,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="InvalidShortcutText">Non riesco a trovare nella missione corrente gli oggetti e il tempo a cui fa riferimento questa scorciatoia. Assicurarsi di aver aperto il file giusto e copia/incolla tutta la scorciatoia.</String>
 
 	<String ID="AboutTitle">Riguardo Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2021, Raia Software. Tutti i diritti riservati.&#10;Questo programma è protetto da copyright e dai trattati internazionali.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2022, Raia Software. Tutti i diritti riservati.&#10;Questo programma è protetto da copyright e dai trattati internazionali.</String>
 
 	<String ID="LoadingInProgressShort">Caricamento...</String>
 	<String ID="LoadingInProgress">Caricamento '{0}'</String>

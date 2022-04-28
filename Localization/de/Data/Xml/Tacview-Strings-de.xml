@@ -130,6 +130,8 @@
 	<String ID="OptionsTerrainGenericHelp">Benutze Gelände von '{0}'</String>
 	<String ID="OptionsTerrainTextRealWorld">Reales Gelände</String>
 	<String ID="OptionsTerrainHelpRealWorld">Benutze reales Erdtopographie der NASA Shuttle Radar Topographie Mission</String>
+	<String ID="OptionsTerrainTextARMA">ARMA</String>
+	<String ID="OptionsTerrainHelpARMA">Use terrain from the latest version of ARMA</String>
 	<String ID="OptionsTerrainTextDCSWorld">DCS World</String>
 	<String ID="OptionsTerrainHelpDCSWorld">Benutze Gelände der neuesten Version von DCS World</String>
 	<String ID="OptionsTerrainTextEECH">Enemy Engaged: Comanche vs Hokum</String>
@@ -938,7 +940,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="InvalidShortcutText">Kann in der aktuellen Mission die Objekte und Zeitreferenz nicht finden, auf die sich dieses Tastenkürzel bezieht. Vergewissern Sie sich, dass Sie die richtige Datei geöffnet und das komplette Tastaturkürzel kopiert und eingefügt haben.</String>
 
 	<String ID="AboutTitle">Über Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2021, Raia Software. All Rights Reserved.&#10;Diese Software ist durch Urheberrechte und internationale Verträge geschützt.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2022, Raia Software. All Rights Reserved.&#10;Diese Software ist durch Urheberrechte und internationale Verträge geschützt.</String>
 
 	<String ID="LoadingInProgressShort">Lade...</String>
 	<String ID="LoadingInProgress">Lade '{0}'</String>

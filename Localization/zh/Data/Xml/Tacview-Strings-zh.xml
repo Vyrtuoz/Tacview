@@ -130,6 +130,8 @@
 	<String ID="OptionsTerrainGenericHelp">使用'{0}'地形</String>
 	<String ID="OptionsTerrainTextRealWorld">真实世界</String>
 	<String ID="OptionsTerrainHelpRealWorld">使用来自美国宇航局航天飞机雷达地形测绘任务的地形数据</String>
+	<String ID="OptionsTerrainTextARMA">ARMA</String>
+	<String ID="OptionsTerrainHelpARMA">Use terrain from the latest version of ARMA</String>
 	<String ID="OptionsTerrainTextDCSWorld">DCS World</String>
 	<String ID="OptionsTerrainHelpDCSWorld">使用'DCS World'地形</String>
 	<String ID="OptionsTerrainTextEECH">Enemy Engaged: Comanche vs Hokum</String>
@@ -1011,7 +1013,7 @@
 	<String ID="InvalidShortcutText">在当前任务里无法通过快捷方式找到物体和时间参考。请确认打开了正确的文件且复制/粘贴了整个快捷方式。</String>
 
 	<String ID="AboutTitle">关于Tacview</String>
-	<String ID="AboutCopyright">版权© 2006-2021, Raia Software. 保留所有权利。&#10;此计算机程序受到版权法和国际协约保护。</String>
+	<String ID="AboutCopyright">版权© 2006-2022, Raia Software. 保留所有权利。&#10;此计算机程序受到版权法和国际协约保护。</String>
 
 	<String ID="LoadingInProgressShort">载入...</String>
 	<String ID="LoadingInProgress">载入'{0}'</String>

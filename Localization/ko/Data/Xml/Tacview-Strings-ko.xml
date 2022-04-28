@@ -130,6 +130,8 @@
 	<String ID="OptionsTerrainGenericHelp">'{0}' 에서 부터 지형을 사용</String>
 	<String ID="OptionsTerrainTextRealWorld">실제 지형</String>
 	<String ID="OptionsTerrainHelpRealWorld">나사의 셔틀 레이더 토포그레피 미션에서 얻은 지구의 실제 지형 사용하기</String>
+	<String ID="OptionsTerrainTextARMA">ARMA</String>
+	<String ID="OptionsTerrainHelpARMA">Use terrain from the latest version of ARMA</String>
 	<String ID="OptionsTerrainTextDCSWorld">DCS 월드</String>
 	<String ID="OptionsTerrainHelpDCSWorld">DCS 월드 최신 버전의 지형 사용하기</String>
 	<String ID="OptionsTerrainTextEECH">Enemy Engaged: 코만치 vs 호컴</String>
@@ -1003,7 +1005,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="InvalidShortcutText">미션 내에 현재의 단축키가 지정 된 오브젝트나 시간을 찾을 수 없습니다. 정상적인 파일을 열었는지, 그리고 단축키가 정상적으로 복사/붙이기 되었는지 확인하시기 바랍니다.</String>
 
 	<String ID="AboutTitle">택뷰에 대하여</String>
-	<String ID="AboutCopyright">Copyright © 2006-2021, Raia Software. All Rights Reserved.&#10;이 컴퓨터 프로그램은 국제규약의 저작권 법에 의해 보호받고 있습니다.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2022, Raia Software. All Rights Reserved.&#10;이 컴퓨터 프로그램은 국제규약의 저작권 법에 의해 보호받고 있습니다.</String>
 
 	<String ID="LoadingInProgressShort">로딩...</String>
 	<String ID="LoadingInProgress">로딩 '{0}'</String>
