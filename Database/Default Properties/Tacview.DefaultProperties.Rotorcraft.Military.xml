@@ -159,6 +159,42 @@
 			<FullName>Bell CH-146 Griffon</FullName>
 		</Properties>
 	</DefaultProperties>
+	
+	<DefaultProperties Id="Rotorcraft.MH-6" Base="Core.Rotorcraft">
+		<Criteria>
+			<Name>MH-6</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MH-6</ShortName>
+			<LongName>MH-6 Little Bird</LongName>
+			<FullName>MH-6 Little Bird</FullName>
+			<Shape>Rotorcraft.MD 500.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="Rotorcraft.MH-9" Base="Rotorcraft.MH-6">	<!-- ARMA 3 -->
+		<Criteria>
+			<Name>MH-9</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MH-9</ShortName>
+			<LongName>MH-9 Hummingbird</LongName>
+			<FullName>MH-9 Hummingbird</FullName>
+			<Shape>Rotorcraft.MD 500.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="Rotorcraft.MD 500" Base="Rotorcraft.MH-6">
+		<Criteria>
+			<Name>MD 500</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MD 500</ShortName>
+			<LongName>MD Helicopters MD 500</LongName>
+			<FullName>MD Helicopters MD 500</FullName>
+			<Shape>Rotorcraft.MD 500.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="Rotorcraft.UH-1" Base="Rotorcraft.Transport">
 		<Criteria>
@@ -222,6 +258,17 @@
 			<LongName>UH-60 Black Hawk</LongName>
 			<FullName>Sikorsky UH-60 Black Hawk</FullName>
 			<Shape>Rotorcraft.UH-60.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="Rotorcraft.UH-80" Base="Rotorcraft.UH-60"> <!-- ARMA 3 -->
+		<Criteria>
+			<Name>UH-80</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>UH-80</ShortName>
+			<LongName>UH-80 Ghost Hawk</LongName>
+			<FullName>UH-80 Ghost Hawk</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -351,6 +398,17 @@
 			<LongName>NHIndustries NH90</LongName>
 			<FullName>NHIndustries NH90</FullName>
 			<Shape>Rotorcraft.NH90.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="Rotorcraft.CH-49" Base="Rotorcraft.NH90">
+		<Criteria>
+			<Name>CH-49</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CH-49</ShortName>
+			<LongName>CH-49 Mohawk</LongName>
+			<FullName>CH-49 Mohawk</FullName>
 		</Properties>
 	</DefaultProperties>
 

@@ -68,6 +68,29 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.SAM.MIM-23" Base="Missile.SAM">
+		<Criteria>
+			<Name>MIM-23</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MIM-23</ShortName>
+			<LongName>MIM-23</LongName>
+			<FullName>MIM-23</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.SAM.MIM-23B" Base="Missile.SAM.MIM-23">
+		<Criteria>
+			<Name>MIM-23B</Name>
+			<Name>HAWK_RAKETA</Name>	<!-- DCS WORLD -->
+		</Criteria>
+		<Properties>
+			<ShortName>MIM-23B</ShortName>
+			<LongName>MIM-23B</LongName>
+			<FullName>MIM-23B</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.SAM.MIM-72A" Base="Missile.AA.AIM-9D">
 		<Criteria>
 			<Name>MIM-72A</Name>

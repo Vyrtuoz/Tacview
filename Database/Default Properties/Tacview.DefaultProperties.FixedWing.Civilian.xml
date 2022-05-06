@@ -208,6 +208,17 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.TBM.700" Base="FixedWing.TBM">
+		<Criteria>
+			<Name>TBM 700</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>TBM 700</ShortName>
+			<LongName>TBM 700</LongName>
+			<FullName>Daher TBM 700</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.TBM.930" Base="FixedWing.TBM">
 		<Criteria>
 			<Name>TBM 930</Name>
@@ -1242,6 +1253,30 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.RV-9" Base="FixedWing.RV-7">
+		<Criteria>
+			<Name>RV-9</Name>
+			<Name>Van's RV-9</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>RV-9</ShortName>
+			<LongName>Van's RV-9</LongName>
+			<FullName>Van's RV-9</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.RV-9A" Base="FixedWing.RV-9">
+		<Criteria>
+			<Name>RV-9A</Name>
+			<Name>Van's RV-9A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>RV-9A</ShortName>
+			<LongName>Van's RV-9A</LongName>
+			<FullName>Van's RV-9A</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.S2S" Base="FixedWing.GA.SingleEngine.Biplane.Taildragger">
 		<Criteria>
 			<Name>S2S</Name>
@@ -1262,6 +1297,19 @@
 			<ShortName>Savage Cub</ShortName>
 			<LongName>Savage Cub</LongName>
 			<FullName>Zlin Aviation Savage Cub</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.SF50" Base="FixedWing.GA.Jet">
+		<Criteria>
+			<Name>SF50</Name>
+			<Name>SF-50</Name>
+			<Name>Vision Jet</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SF50</ShortName>
+			<LongName>Vision SF50</LongName>
+			<FullName>Cirrus Vision SF50</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -1805,7 +1853,47 @@
 			<ShortName>B747</ShortName>
 			<LongName>Boeing 747</LongName>
 			<FullName>Boeing 747</FullName>
-			<Shape>FixedWing.B747-200.obj</Shape>
+			<Shape>FixedWing.B747.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.B747-200" Base="FixedWing.B747">
+		<Criteria>
+			<Name>747-200</Name>
+			<Name>B747-200</Name>
+			<Name>Boeing 747-200</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B747-200</ShortName>
+			<LongName>Boeing 747-200</LongName>
+			<FullName>Boeing 747-200</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.B747-300" Base="FixedWing.B747-200">
+		<Criteria>
+			<Name>747-300</Name>
+			<Name>B747-300</Name>
+			<Name>Boeing 747-300</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B747-300</ShortName>
+			<LongName>Boeing 747-300</LongName>
+			<FullName>Boeing 747-300</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.B747-400" Base="FixedWing.B747-300">
+		<Criteria>
+			<Name>747-400</Name>
+			<Name>B747-400</Name>
+			<Name>Boeing 747-400</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B747-400</ShortName>
+			<LongName>Boeing 747-400</LongName>
+			<FullName>Boeing 747-400</FullName>
+			<Shape>FixedWing.B747-400.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -1857,6 +1945,7 @@
 			<ShortName>B767</ShortName>
 			<LongName>Boeing 767</LongName>
 			<FullName>Boeing 767</FullName>
+			<Shape>FixedWing.B767.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -1904,6 +1993,7 @@
 			<ShortName>B787</ShortName>
 			<LongName>Boeing 787</LongName>
 			<FullName>Boeing 787</FullName>
+			<Shape>FixedWing.B787.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2203,6 +2293,21 @@
 			<ShortName>A300</ShortName>
 			<LongName>Airbus A300</LongName>
 			<FullName>Airbus A300</FullName>
+			<Shape>FixedWing.A300-600ST.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.A300-600ST" Base="FixedWing.A300">
+		<Criteria>
+			<Name>A300-600ST</Name>
+			<Name>Super Transporter</Name>
+			<Name>Beluga</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A300</ShortName>
+			<LongName>A300 Beluga</LongName>
+			<FullName>Airbus A300-600ST Beluga</FullName>
+			<Shape>FixedWing.A300-600ST.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2249,6 +2354,7 @@
 			<ShortName>A340</ShortName>
 			<LongName>Airbus A340</LongName>
 			<FullName>Airbus A340</FullName>
+			<Shape>FixedWing.A340.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2308,6 +2414,7 @@
 			<ShortName>A380</ShortName>
 			<LongName>Airbus A380</LongName>
 			<FullName>Airbus A380</FullName>
+			<Shape>FixedWing.A380.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

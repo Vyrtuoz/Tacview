@@ -67,6 +67,29 @@
 	</DefaultProperties>
 
 	<!-- North American Military Transport Fixed-wing aircraft -->
+	
+	<DefaultProperties Id="FixedWing.C-47" Base="FixedWing.Military.Transport">
+		<Criteria>
+			<Name>C-47</Name>
+			<Name>Skytrain</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C-47</ShortName>
+			<LongName>C-47 Skytrain</LongName>
+			<FullName>Douglas C-47 Skytrain</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.C-47A" Base="FixedWing.C-47">
+		<Criteria>
+			<Name>C-47A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C-47A</ShortName>
+			<LongName>C-47A Skytrain</LongName>
+			<FullName>Douglas C-47A Skytrain</FullName>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.L-5" Base="FixedWing.Military.Transport">
 		<Criteria>
@@ -609,8 +632,21 @@
 			<Shape>FixedWing.P-3.obj</Shape>
 		</Properties>
 	</DefaultProperties>
+	
+	
+	<DefaultProperties Id="FixedWing.A-12-Lockheed" Base="FixedWing.Military.Recon">
+		<Criteria>
+			<Name>Lockheed A-12</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A-12</ShortName>
+			<LongName>Lockheed A-12</LongName>
+			<FullName>Lockheed A-12</FullName>
+			<Shape>FixedWing.SR-71.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.SR-71" Base="FixedWing.Military.Recon">
+	<DefaultProperties Id="FixedWing.SR-71" Base="FixedWing.A-12-Lockheed">
 		<Criteria>
 			<Name>SR-71</Name>
 			<Name>SR-71 Blackbird</Name>
@@ -626,6 +662,29 @@
 	</DefaultProperties>
 
 	<!-- North American Military Fixed-wing aircraft -->
+	
+	<DefaultProperties Id="FixedWing.A-12-Shrike" Base="FixedWing.GroundAttack">
+		<Criteria>
+			<Name>A-12 Shrike</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A-12</ShortName>
+			<LongName>A-12 Shrike</LongName>
+			<FullName>Curtiss A-12 Shrike</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.A-12-Avenger" Base="FixedWing.Bomber.Jet">
+		<Criteria>
+			<Name>A-12 Avenger</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A-12</ShortName>
+			<LongName>A-12 Avenger II</LongName>
+			<FullName>McDonnell Douglas A-12 Avenger II</FullName>
+			<Shape>FixedWing.A-12-Avenger.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.S-3A" Base="FixedWing.Bomber.Jet">
 		<Criteria>
@@ -893,6 +952,29 @@
 			<FullName>Boeing B-17G Flying Fortress</FullName>
 		</Properties>
 	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.B-25" Base="FixedWing.Bomber.TwinProp">
+		<Criteria>
+			<Name>B-25</Name>
+			<Name>Mitchell</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B-25</ShortName>
+			<LongName>B-25 Mitchell</LongName>
+			<FullName>North American B-25 Mitchell</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.B-25D" Base="FixedWing.B-25">
+		<Criteria>
+			<Name>B-25D</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B-25D</ShortName>
+			<LongName>B-25D Mitchell</LongName>
+			<FullName>North American B-25D Mitchell</FullName>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.B-52" Base="FixedWing.Bomber.Jet">
 		<Criteria>
@@ -931,6 +1013,19 @@
 			<ShortName>B-52H</ShortName>
 			<LongName>B-52H Stratofortress</LongName>
 			<FullName>Boeing B-52H Stratofortress</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.A-37" Base="FixedWing.Trainer.Jet">
+		<Criteria>
+			<Name>A-37</Name>
+			<Name>Dragonfly</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A-37</ShortName>
+			<LongName>Cessna A-37</LongName>
+			<FullName>Cessna A-37 Dragonfly</FullName>
+			<Shape>FixedWing.A-37.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -1877,6 +1972,32 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.P-51B" Base="FixedWing.P-51">
+		<Criteria>
+			<Name>P-51B</Name>
+			<Name>P-51B Mustang</Name>
+			<Name>North American P-51B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>P-51B</ShortName>
+			<LongName>P-51B Mustang</LongName>
+			<FullName>North American P-51B Mustang</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.P-51B-5" Base="FixedWing.P-51B">
+		<Criteria>
+			<Name>P-51B-5</Name>
+			<Name>P-51B-5 Mustang</Name>
+			<Name>North American P-51B-5</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>P-51B</ShortName>
+			<LongName>P-51B-5 Mustang</LongName>
+			<FullName>North American P-51B-5 Mustang</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.P-51D" Base="FixedWing.P-51">
 		<Criteria>
 			<Name>P-51D</Name>
@@ -2767,7 +2888,31 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.Mirage F1" Base="FixedWing.Fighter.Jet">
+	<DefaultProperties Id="FixedWing.Mirage III" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>Mirage III</Name>
+			<Name>Dassault Mirage III</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MIII</ShortName>
+			<LongName>Mirage III</LongName>
+			<FullName>Dassault Mirage III</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Cheetah" Base="FixedWing.Mirage III">
+		<Criteria>
+			<Name>Cheetah</Name>
+			<Name>Atlas Cheetah</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Cheetah</ShortName>
+			<LongName>Atlas Cheetah</LongName>
+			<FullName>Atlas Cheetah</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Mirage F1" Base="FixedWing.Mirage III">
 		<Criteria>
 			<Name>Mirage F1</Name>
 			<Name>Dassault Mirage F1</Name>
@@ -3322,9 +3467,20 @@
 			<Name>Ju 88 A-4</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>Ju 88 A-4</ShortName>
+			<ShortName>Ju 88</ShortName>
 			<LongName>Ju 88 A-4</LongName>
 			<FullName>Junkers Ju 88 A-4</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.Ju 88.C-6" Base="FixedWing.Ju 88.A-4">
+		<Criteria>
+			<Name>Ju 88 C-6</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Ju 88</ShortName>
+			<LongName>Ju 88 C-6</LongName>
+			<FullName>Junkers Ju 88 C-6</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -3389,6 +3545,17 @@
 			<ShortName>L-159</ShortName>
 			<LongName>L-159 Alca</LongName>
 			<FullName>Aero L-159 Alca</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.A-143" Base="FixedWing.L-159">	<!-- ARMA 3 -->
+		<Criteria>
+			<Name>A-143</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A-143</ShortName>
+			<LongName>A-143 Buzzard</LongName>
+			<FullName>A-143 Buzzard</FullName>
 		</Properties>
 	</DefaultProperties>
 

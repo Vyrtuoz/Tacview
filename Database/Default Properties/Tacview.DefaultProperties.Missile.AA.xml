@@ -486,6 +486,53 @@
 		</Properties>
 	</DefaultProperties>	
 
+	<DefaultProperties Id="Missile.AA.MICA" Base="Missile.AA">
+		<Criteria>
+			<Name>MICA</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MICA</ShortName>
+			<LongName>MICA</LongName>
+			<FullName>MICA</FullName>
+			<Shape>Missile.MICA.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.MICA.IR" Base="Missile.AA.IR">
+		<Criteria>
+			<Name>MICA IR</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MICA</ShortName>
+			<LongName>MICA IR</LongName>
+			<FullName>MICA IR</FullName>
+			<Shape>Missile.MICA.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.MICA.RF" Base="Missile.AA.Radar">
+		<Criteria>
+			<Name>MICA RF</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MICA</ShortName>
+			<LongName>MICA RF</LongName>
+			<FullName>MICA RF</FullName>
+			<Shape>Missile.MICA.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.MICA.ME" Base="Missile.AA.MICA.RF">
+		<Criteria>
+			<Name>MICA ME</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MICA</ShortName>
+			<LongName>MICA ME</LongName>
+			<FullName>MICA ME</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- Eastern AA Missiles -->
 
 	<DefaultProperties Id="Missile.AA.RS-2US" Base="Missile.AA">
