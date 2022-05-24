@@ -114,7 +114,7 @@
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Mostrar el terreno con un esquema de colores de alto contraste</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Textura Personalizada</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Mostrar todas las texturas indicadas en CustomTextureList.xml</String>
-	<String ID="OptionsDisplayControlsPositionText">Display Controls Position</String>
+	<String ID="OptionsDisplayControlsPositionText">Mostras posicion de los controles</String>
 	<String ID="OptionsAlwaysDisplayBullseyeText">Siempre mostrar Bullseye</String>
 	<String ID="OptionsAlwaysDisplayBullseyeHelp">Mostrar siempre el Bullseye en la vista 3D</String>
 	<String ID="OptionsAutoHideCoordinatesText">Auto ocultar coordenadas</String>
@@ -131,7 +131,7 @@
 	<String ID="OptionsTerrainTextRealWorld">Terreno real</String>
 	<String ID="OptionsTerrainHelpRealWorld">Usar datos de terreno reales de la misión topográfica por radar de la NASA</String>
 	<String ID="OptionsTerrainTextARMA">ARMA</String>
-	<String ID="OptionsTerrainHelpARMA">Use terrain from the latest version of ARMA</String>
+	<String ID="OptionsTerrainHelpARMA">Usar el terreno de la ultima version de ARMA</String>
 	<String ID="OptionsTerrainTextDCSWorld">DCS World</String>
 	<String ID="OptionsTerrainHelpDCSWorld">Usar el terreno de la última versión de DCS World</String>
 	<String ID="OptionsTerrainTextEECH">Enemy Engaged: Comanche vs Hokum</String>
@@ -723,7 +723,7 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="CmdVBOOffHelp">Deshabilita el buffer de los vértices de objetos para evitar CTDs en algunas ATI en configuración CrossFire.</String>
 	<String ID="CmdDebugModeHelp">Muestra la información de errores para ayudar a solucionar problemas.</String>
 	<String ID="CmdConfigSetHelp">Almacena las preferencias del usuario en un conjunto específico para cada instancia de Tacview.</String>	
-	<String ID="CmdSaveConfigHelp">To prevent Tacview from saving UI settings on exit.</String>
+	<String ID="CmdSaveConfigHelp">Prevenir que Tacview guarde la configuracion de la UI al salir.</String>
 	<String ID="CmdAuthenticateHelp">Retorna el valor de -1 al llamante  para comprobar si todos los archivos son autenticos.</String>
 	<String ID="CmdRegisterUserProductKeyHelp">Activa el Tacview para el usuario actual con la Key indicada.</String>
 	<String ID="CmdRegisterSystemProductKeyHelp">Activa Tacview para todo el sistema con la Key indicada.</String>
@@ -978,10 +978,10 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="FileTypeDescriptionTacview7z">Datos de telemetria Tacview comprimidos formato 7z</String>
 	<String ID="FileTypeDescriptionZip">Datos de telemetria en archivo ZIP</String>
 	<String ID="FileTypeDescription7z">Datos de telemetria en archivo 7z</String>
-	<String ID="FileTypeDescriptionMediaMany">Media Files</String>
-	<String ID="FileTypeDescriptionAudioFiles">Audio Files</String>
-	<String ID="FileTypeDescriptionVideoFiles">Video Files</String>
-	<String ID="FileTypeDescriptionFIT">Flexible and Interoperable Data Transfer</String>
+	<String ID="FileTypeDescriptionMediaMany">Archivos Media</String>
+	<String ID="FileTypeDescriptionAudioFiles">Archivos de audio</String>
+	<String ID="FileTypeDescriptionVideoFiles">Archivos de video</String>
+	<String ID="FileTypeDescriptionFIT">Datos de transeferncia flexible e interoperable</String>
 	<String ID="TypeColumn">Tipo</String>
 	<String ID="TimeColumn">Tiempo</String>
 	<String ID="EventColumn">Evento</String>
