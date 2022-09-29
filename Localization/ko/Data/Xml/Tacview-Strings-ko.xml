@@ -28,7 +28,7 @@
 	<String ID="RecordingMenuHelp">비행 데이터 기록 설정하기</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;실시간 텔레메트리...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">현재 진행중인 비행을 녹화하기</String>
-	<String ID="RecordingADSBTelemetryCmdText">ADS-B Radio Telemetry...</String>
+	<String ID="RecordingADSBTelemetryCmdText">ADS-B 라디오 텔레메트리...</String>
 	<String ID="RecordingADSBTelemetryCmdHelp">Record ADS-B telemetry over the air</String>
 	<String ID="RecordingRemoteControl0Text">원격 컨트롤 1</String>
 	<String ID="RecordingRemoteControl1Text">원격 컨트롤 2</String>
@@ -46,14 +46,14 @@
 	<String ID="AnalysisPropertiesHelp">비행 기록의 설정값을 보이거나 숨기기</String>
 	<String ID="AnalysisEventLogText">&amp;비행 로그</String>
 	<String ID="AnalysisEventLogHelp">비행기록의 로그를 보이거나 숨기기</String>
-	<String ID="AnalysisShotLogText">Event Log</String>
-	<String ID="AnalysisShotLogHelp">Show or hide the event log</String>
-	<String ID="AnalysisDisplayControlBarText">Playback Control Bar</String>
-	<String ID="AnalysisDisplayControlBarHelp">Show or hide playback control bar</String>
-	<String ID="AnalysisActiveObjectListText">Active Objects List</String>
-	<String ID="AnalysisActiveObjectListHelp">Show or hide the list of active objects</String>
-	<String ID="AnalysisTimeJumpText">Time Jump</String>
-	<String ID="AnalysisTimeJumpHelp">Show or hide the tool to jump to specific time</String>
+	<String ID="AnalysisShotLogText">이벤트 로그</String>
+	<String ID="AnalysisShotLogHelp">이벤트 로그를 보이거나 숨기기</String>
+	<String ID="AnalysisDisplayControlBarText">플레이벡 컨트롤 바(Control Bar)</String>
+	<String ID="AnalysisDisplayControlBarHelp">플레이백 컨트롤 바를 보이거나 숨기기</String>
+	<String ID="AnalysisActiveObjectListText">활성화 된 오브젝트들 리스트</String>
+	<String ID="AnalysisActiveObjectListHelp">활성화 된 오브젝트들의 리스트 보이거나 숨기기</String>
+	<String ID="AnalysisTimeJumpText">타임 점프</String>
+	<String ID="AnalysisTimeJumpHelp">특정 시간대로 점프하기 위한 툴 보이거나 숨기기</String>
 	<String ID="AnalysisDisplayTelemetry0Text">텔레메트리 &amp;1</String>
 	<String ID="AnalysisDisplayTelemetry0Help">텔레메트리 윈도우 #1을 보이거나 숨기기</String>
 	<String ID="AnalysisDisplayTelemetry1Text">텔레메트리 &amp;2</String>
@@ -75,21 +75,21 @@
 	<String ID="AnalysisDisplayChart4Text">챠트 &amp;4</String>
 	<String ID="AnalysisDisplayChart4Help">챠트 윈도우 #4를 보이거나 숨기기</String>
 	<String ID="AnalysisDisplayMedia1Text">Media &amp;1</String>
-	<String ID="AnalysisDisplayMedia1Help">Show or hide audio/video window #1</String>
+	<String ID="AnalysisDisplayMedia1Help">오디오/비디오 윈도우 보이거나 숨기기 #1</String>
 	<String ID="AnalysisDisplayMedia2Text">Media &amp;2</String>
-	<String ID="AnalysisDisplayMedia2Help">Show or hide audio/video window #2</String>
+	<String ID="AnalysisDisplayMedia2Help">오디오/비디오 윈도우 보이거나 숨기기 #2</String>
 	<String ID="AnalysisDisplayMedia3Text">Media &amp;3</String>
-	<String ID="AnalysisDisplayMedia3Help">Show or hide audio/video window #3</String>
+	<String ID="AnalysisDisplayMedia3Help">오디오/비디오 윈도우 보이거나 숨기기 #3</String>
 	<String ID="AnalysisDisplayMedia4Text">Media &amp;4</String>
-	<String ID="AnalysisDisplayMedia4Help">Show or hide audio/video window #4</String>
+	<String ID="AnalysisDisplayMedia4Help">오디오/비디오 윈도우 보이거나 숨기기 #4</String>
 	<String ID="AnalysisDisplayMedia5Text">Media &amp;5</String>
-	<String ID="AnalysisDisplayMedia5Help">Show or hide audio/video window #5</String>
+	<String ID="AnalysisDisplayMedia5Help">오디오/비디오 윈도우 보이거나 숨기기 #5</String>
 	<String ID="AnalysisDisplayMedia6Text">Media &amp;6</String>
-	<String ID="AnalysisDisplayMedia6Help">Show or hide audio/video window #6</String>
+	<String ID="AnalysisDisplayMedia6Help">오디오/비디오 윈도우 보이거나 숨기기 #6</String>
 	<String ID="AnalysisDisplayMedia7Text">Media &amp;7</String>
-	<String ID="AnalysisDisplayMedia7Help">Show or hide audio/video window #7</String>
+	<String ID="AnalysisDisplayMedia7Help">오디오/비디오 윈도우 보이거나 숨기기 #7</String>
 	<String ID="AnalysisDisplayMedia8Text">Media &amp;8</String>
-	<String ID="AnalysisDisplayMedia8Help">Show or hide audio/video window #8</String>
+	<String ID="AnalysisDisplayMedia8Help">오디오/비디오 윈도우 보이거나 숨기기 #8</String>
 
 	<String ID="DebriefingMenuTooltip">디브리핑</String>
 	<String ID="DebriefingMenuHelp">디브리핑 도구</String>
@@ -110,7 +110,7 @@
 	<String ID="OptionsTerrainDisplayModeFlatHelp">가독성을 높이기 위하여 지형을 평평하게 보기</String>
 	<String ID="OptionsTerrainDisplayModeEmptyText">&amp;빈 공간</String>
 	<String ID="OptionsTerrainDisplayModeEmptyHelp">가독성을 더 높이기 위하여 지형을 빈 공간으로 보이게 하기</String>
-	<String ID="OptionsTerrainDisplayModeHighContrastText">High-Contrast</String>
+	<String ID="OptionsTerrainDisplayModeHighContrastText">높은 콘트라스트 (High-Contrast)</String>
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">Display the terrain with a high contrast color scheme</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Custom textures</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Display all the textures declared in CustomTextureList.xml</String>
@@ -879,11 +879,11 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="ExportGroupMisc">Miscellaneous</String>
 
 	<!-- Additional Dialogs Strings -->
-	<String ID="BrowseDCSWorldFolderHelp">'DCS 월드' 설치 폴더를 선택하여 주시기 바랍니다.</String>
-	<String ID="BrowseExportPathFolderHelp">현재 사용 유저용 .acmi 저장 폴더를 선택 해 주시기 바랍니다.</String>
+	<String ID="BrowseDCSWorldFolderHelp">'DCS 월드' 설치 폴더를 선택하여 주시기 바랍니다</String>
+	<String ID="BrowseExportPathFolderHelp">현재 사용 유저용 .acmi 저장 폴더를 선택 해 주시기 바랍니다</String>
 	<String ID="Falcon4TheaterFilter">팰콘 4.0 전장:</String>
-	<String ID="AddOnGetExistingFolderNameHelp">Please choose an existing folder</String>
-	<String ID="AddOnGetNewFolderNameHelp">Please choose a new or existing folder</String>
+	<String ID="AddOnGetExistingFolderNameHelp">기존에 있던 폴더를 선택 해 주시기 바랍니다</String>
+	<String ID="AddOnGetNewFolderNameHelp">신규 폴더나 기존의 폴더를 선택 해 주시기 바랍니다</String>
 
 	<!-- Online Debriefing -->
 <!--
@@ -891,9 +891,9 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="HostLabel">(호스트)</String>
 	<String ID="InstructorLabel">(교관)</String>
 -->
-	<String ID="HostLabel">(host)</String>
-	<String ID="InstructorLabel">(instructor)</String>
-	<String ID="HostInstructorLabel">(host/instructor)</String>
+	<String ID="HostLabel">(호스트)</String>
+	<String ID="InstructorLabel">(교관)</String>
+	<String ID="HostInstructorLabel">(호스트/교관)</String>
 	<String ID="UnknownIPAddress">(익명)</String>
 <!--
 	Korean characters are not yet supported in the 3D view
@@ -901,20 +901,20 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="OnlineDebriefingClientJoiningTitle">디브리핑에 연결 중...</String>
 	<String ID="OnlineDebriefingClientTitle">디브리핑에 &#2;{0}&#1; 연결되었습니다</String>
 -->
-	<String ID="OnlineDebriefingHostTitle">Hosting {0}</String>
-	<String ID="OnlineDebriefingClientJoiningTitle">Connecting to debriefing...</String>
-	<String ID="OnlineDebriefingClientTitle">Connected to {0}</String>
+	<String ID="OnlineDebriefingHostTitle">호스팅 {0}</String>
+	<String ID="OnlineDebriefingClientJoiningTitle">디브리핑에 연결 중...</String>
+	<String ID="OnlineDebriefingClientTitle">{0} 에 연결 중</String>
 
 	<!-- Misc -->
 	<String ID="DemoEditionShortOneDay">데모 ({0} 일 남음)</String>
 	<String ID="DemoEditionShortManyDays">데모 ({0} 일 남음)</String>
 	<String ID="DemoEditionOneDay">{0} 데모, {1} 일 남음</String>
 	<String ID="DemoEditionManyDays">{0} 데모, {1} 일 남음</String>
-	<String ID="FreeEdition">{0} Starter</String>
-	<String ID="HomeEdition">{0} Standard</String>
-	<String ID="ProfessionalEdition">{0} Advanced</String>
-	<String ID="CommercialEditionAnnual">{0} Enterprise (expires on {1})</String>
-	<String ID="CommercialEditionPerpetual">{0} Enterprise (support ends on {1})</String>
+	<String ID="FreeEdition">{0} 스타터 (Starter)</String>
+	<String ID="HomeEdition">{0} 스탠다드 (Standard)</String>
+	<String ID="ProfessionalEdition">{0} 어드밴스드 (Advanced)</String>
+	<String ID="CommercialEditionAnnual">{0} 엔터프라이즈 (Enterprise) (expires on {1})</String>
+	<String ID="CommercialEditionPerpetual">{0} 엔터프라이즈 (Enterprise) (support ends on {1})</String>
 	<String ID="32bitEdition">32-bit</String>
 	<String ID="64bitEdition">64-bit</String>
 	<String ID="ProfessionalToolDemoWarningOneDay">이 툴은 <a href="cmd:RegisterCmd">택뷰 프로페셔널 에디션</a>에서 사용이 가능합니다. {0} 일간 더 사용해 보실 수 있습니다.</String>
@@ -929,7 +929,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="ExpiredCommercialLicenseAnnual">Your Enterprise license as expired on {0},&#10;DO NOT use this version in commercial and institutional environments.</String>
 	<String ID="ExpiredCommercialLicensePerpetual">Your Tacview Enterprise support has expired on {0},&#10;Please contact us if you want to use this new version.</String>
 -->
-	<String ID="StrategicViewDemoWarning">This Strategic View is available in Tacview Advanced.</String>
+	<String ID="StrategicViewDemoWarning">전략 (strategic) 뷰의 경우 택뷰 어드밴스드에서 사용이 가능합니다..</String>
 	<String ID="ExpiredCommercialLicenseAnnual">Your Tacview Enterprise annual license has expired on {0},&#10;DO NOT use this version in commercial and institutional environment.</String>
 	<String ID="ExpiredCommercialLicensePerpetual">Your Tacview Enterprise perpetual license updates and support has ended on {0}. Please reinstall a version published prior to that date or contact us to extend your support and updates.</String>
 
