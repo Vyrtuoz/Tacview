@@ -28,6 +28,8 @@
 	<String ID="RecordingMenuHelp">Einstellen der Flugdatenaufzeichnungseinstellungen</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Echtzeit-Telemetrie...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">Aufnahme eines gerade stattfindenden Fluges</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4 Real-Time Telemetry...</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Record a flight currently in progress in Falcon 4 &amp; BMS</String>
 	<String ID="RecordingADSBTelemetryCmdText">ADS-B Radio Telemetry...</String>
 	<String ID="RecordingADSBTelemetryCmdHelp">Record ADS-B telemetry over the air</String>
 	<String ID="RecordingRemoteControl0Text">Fernsteuerung 1</String>
@@ -123,6 +125,8 @@
 	<String ID="OptionsCockpitText">Cockpit</String>
 	<String ID="OptionsAnticipatoryTrailText">Anticipatory Trail</String>
 	<String ID="OptionsAnticipatoryTrailDisabled">Disabled</String>
+	<String ID="OptionsRealTimeTelemetryLagText">Real-time Telemetry Lag</String>
+	<String ID="OptionsRealTimeTelemetryLagDefault">(default)</String>
 
 	<String ID="OptionsTerrainText">Gelände</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Auto)</String>
@@ -433,6 +437,10 @@
 	<String ID="RollText">Rollen</String>
 	<String ID="PitchHelp">Flugzeug Steigverhalten</String>
 	<String ID="PitchText">Steigung</String>
+	<String ID="HeartRateHelp">Pilot heart rate in beats per minute</String>
+	<String ID="HeartRateText">Heart Rate</String>
+	<String ID="SpO2Help">Percentage of blood that is saturated with oxygen</String>
+	<String ID="SpO2Text">SpO2</String>
 
 	<String ID="NavaidsLabelsText">Navaids Labels</String>
 	<String ID="NavaidsLabelsAlwaysText">Always</String>
@@ -541,8 +549,8 @@
 	<String ID="RealTimeTelemetryPort">Datenrekorder Port :</String>
 	<String ID="RealTimeTelemetryWarningClient">Nur die "advanced version" von Tacview kann Echtzeit-Telemetrie aufnehmen.</String>
 	<String ID="RealTimeTelemetryPasswordTip">Ein Passwort könnte nötig sein, um einer privaten Sitzung beizutreten</String>
-	<String ID="RealTimeTelemetryRecordingConnecting">Warte auf {1}&#xA;{0}</String>
-	<String ID="RealTimeTelemetryRecordingProgress">Aufnahme von {1}&#xA;{0}</String>
+	<String ID="RealTimeTelemetryRecordingConnecting">{1} Warte auf {0}</String>
+	<String ID="RealTimeTelemetryRecordingProgress">{1} Aufnahme von {0}</String>
 	<String ID="RealTimeTelemetryOperationCompleted">Echtzeit-Telemetrieaufnahme abgeschlossen.</String>
 	<String ID="RealTimeTelemetryOperationFailed">Konnte Echtzeit-Telemetrie nicht mit angegebener Hostadresse verbinden.</String>
 	<String ID="RealTimeTelemetryUnsupportedOperation">Echtzeit-Telemetrie nicht mit Host-Exporter kompatibel.</String>
@@ -551,6 +559,15 @@
 	<String ID="RealTimeTelemetryConnect">Verbinde</String>
 	<String ID="RealTimeTelemetryDisconnect">Verbindung trennen</String>
 	<String ID="RealTimeTelemetryAutoReconnect">Automatisches Wiederverbinden</String>
+
+	<String ID="Falcon4RealTimeTelemetryTitle">Falcon 4 Real-time Telemetry</String>
+	<String ID="Falcon4RealTimeTelemetryIntro">Import Falcon 4 *.flt files to review telemetry data in real-time!</String>
+	<String ID="Falcon4RealTimeTelemetryInstructions">As soon as your Falcon 4 flight has started, press the [F] key to start recording data.&#xA;Falcon will generate *.flt files which will be read by Tacview and displayed in real-time in the 3D view.&#xA;&#xA;*** NOTES ***&#xA;&#xA;&#x2022; You might want to force Falcon to inject colors and callsigns by pressing twice the [F] key during the flight.&#xA;&#x2022; Starting with BMS 4.36 Update 1, you need to set g_bTacviewAcmi 0 in "Falcon BMS User.cfg" file to create *.flt files.</String>
+	<String ID="Falcon4RealTimeTelemetryDirectoryLabel">Falcon 4.0 Acmi folders:</String>
+	<String ID="Falcon4RealTimeTelemetryFiles">Falcon 4 *.flt files</String>
+	<String ID="BrowseFalcon4ACMIDirectoryHelp">Please select the Acmi folder where Falcon 4.0 stores its VHS And FLT files.</String>
+	<String ID="RealTimeTelemetryStartRecording">Start Recording</String>
+	<String ID="RealTimeTelemetryStopRecording">Stop Recording</String>
 
 	<String ID="ADSBTelemetryTitle">ADS-B Radio Telemetry</String>
 	<String ID="ADSBTelemetryIntro">Listens to 1090MHz ADS-B radio signals to display aircraft around you in real-time!</String>
@@ -690,7 +707,6 @@ Make sure everything is properly connected to your computer and configured, then
 
 	<String ID="DebugEventTime">Zeit</String>
 	<String ID="DebugEventLevel">Ebene</String>
-	<String ID="DebugEventModule">Modul</String>
 	<String ID="DebugEventMessage">Nachricht</String>
 
 	<String ID="EventsProfilerNames">Ereignis</String>
@@ -709,7 +725,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="CommandLineBehavior">Allgemeines Verhalten</String>
 	<String ID="CommandLineSpecial">Erweiterte Optionen</String>
 	<String ID="CmdOpenHelp">Öffne eine existierende Flugaufnahme.</String>
-	<String ID="CmdOpenMediaHelp">Open a media file in the corresponding window (1 to 4).</String>
+	<String ID="CmdOpenMediaHelp">Open a media file in the corresponding window (1 to 8).</String>
 	<String ID="CmdMergeHelp">Füge eine existierende Flugaufnahme mit allen Daten aktuell geladenen Daten zusammen</String>
 	<String ID="CmdSaveHelp">Speichere Flugaufnahme in ein hochkomprimiertes Format.</String>
 	<String ID="CmdExportFlightLogHelp">Exportiere das Fluglog als eine XML oder CSV Datei.</String>
@@ -930,6 +946,8 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="UnitLabelPitch">Steugen ({0})</String>
 	<String ID="UnitLabelFuel">Treibstoff ({0})</String>
 	<String ID="UnitLabelFuelFlow">Treibstofffluß ({0})</String>
+	<String ID="UnitLabelHeartRate">Heart Rate (BPM)</String>
+	<String ID="UnitLabelSpO2">SpO2 (%)</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -940,7 +958,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="InvalidShortcutText">Kann in der aktuellen Mission die Objekte und Zeitreferenz nicht finden, auf die sich dieses Tastenkürzel bezieht. Vergewissern Sie sich, dass Sie die richtige Datei geöffnet und das komplette Tastaturkürzel kopiert und eingefügt haben.</String>
 
 	<String ID="AboutTitle">Über Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2022, Raia Software. All Rights Reserved.&#10;Diese Software ist durch Urheberrechte und internationale Verträge geschützt.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2023, Raia Software. All Rights Reserved.&#10;Diese Software ist durch Urheberrechte und internationale Verträge geschützt.</String>
 
 	<String ID="LoadingInProgressShort">Lade...</String>
 	<String ID="LoadingInProgress">Lade '{0}'</String>
@@ -966,6 +984,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="FileTypeDescriptionNMEA0183">GPS NMEA 0183 log files</String>
 	<String ID="FileTypeDescriptionGPX">GPS Austausch Format</String>
 	<String ID="FileTypeDescriptionVHS">Falcon 4.0 Flugaufzeichnung</String>
+	<String ID="FileTypeDescriptionFLT">Falcon 4.0 Temporary Flight Recordings</String>
 	<String ID="FileTypeDescriptionMAVLink">MAVLink Telemetrie</String>
 	<String ID="FileTypeDescriptionIGC">International Gliding Commission telemetry</String>
 	<String ID="FileTypeDescriptionCSV">Komma-separierte Werte</String>

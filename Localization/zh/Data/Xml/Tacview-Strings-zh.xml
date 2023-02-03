@@ -28,6 +28,8 @@
 	<String ID="RecordingMenuHelp">设置飞行数据记录</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;实时遥测...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">记录当前正在进行的飞行</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4 Real-Time Telemetry...</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Record a flight currently in progress in Falcon 4 &amp; BMS</String>
 	<String ID="RecordingADSBTelemetryCmdText">ADS-B遥测...</String>
 	<String ID="RecordingADSBTelemetryCmdHelp">记录空中ADS-B遥测数据</String>
 	<String ID="RecordingRemoteControl0Text">遥控1</String>
@@ -123,6 +125,8 @@
 	<String ID="OptionsCockpitText">驾驶舱</String>
 	<String ID="OptionsAnticipatoryTrailText">预期轨迹</String>
 	<String ID="OptionsAnticipatoryTrailDisabled">禁用</String>
+	<String ID="OptionsRealTimeTelemetryLagText">Real-time Telemetry Lag</String>
+	<String ID="OptionsRealTimeTelemetryLagDefault">(default)</String>
 
 	<String ID="OptionsTerrainText">地形</String>
 	<String ID="OptionsTerrainAutoText">（&amp;自动）</String>
@@ -433,6 +437,10 @@
 	<String ID="RollText">滚转</String>
 	<String ID="PitchHelp">航空器俯仰姿态</String>
 	<String ID="PitchText">俯仰</String>
+	<String ID="HeartRateHelp">Pilot heart rate in beats per minute</String>
+	<String ID="HeartRateText">Heart Rate</String>
+	<String ID="SpO2Help">Percentage of blood that is saturated with oxygen</String>
+	<String ID="SpO2Text">SpO2</String>
 
 	<String ID="NavaidsLabelsText">助航标签</String>
 	<String ID="NavaidsLabelsAlwaysText">总是</String>
@@ -549,8 +557,8 @@
 	<String ID="RealTimeTelemetryPort">数据记录器端口：</String>
 	<String ID="RealTimeTelemetryWarningClient">仅有高级版Tacview可以记录实时遥测。</String>
 	<String ID="RealTimeTelemetryPasswordTip">可能需要密码来加入私有会话</String>
-	<String ID="RealTimeTelemetryRecordingConnecting">Waiting for {1}&#xA;{0}</String>
-	<String ID="RealTimeTelemetryRecordingProgress">Recording from {1}&#xA;{0}</String>
+	<String ID="RealTimeTelemetryRecordingConnecting">{1} Waiting for {0}</String>
+	<String ID="RealTimeTelemetryRecordingProgress">{1} Recording from {0}</String>
 	<String ID="RealTimeTelemetryOperationCompleted">Real-time telemetry recording complete.</String>
 	<String ID="RealTimeTelemetryOperationFailed">Failed to connect real-time telemetry to given host address.</String>
 	<String ID="RealTimeTelemetryUnsupportedOperation">Real-time telemetry not compatible with the host exporter.</String>
@@ -568,6 +576,15 @@
 	<String ID="RealTimeTelemetryConnect">连接</String>
 	<String ID="RealTimeTelemetryDisconnect">断开连接</String>
 	<String ID="RealTimeTelemetryAutoReconnect">自动重新连接</String>
+
+	<String ID="Falcon4RealTimeTelemetryTitle">Falcon 4 Real-time Telemetry</String>
+	<String ID="Falcon4RealTimeTelemetryIntro">Import Falcon 4 *.flt files to review telemetry data in real-time!</String>
+	<String ID="Falcon4RealTimeTelemetryInstructions">As soon as your Falcon 4 flight has started, press the [F] key to start recording data.&#xA;Falcon will generate *.flt files which will be read by Tacview and displayed in real-time in the 3D view.&#xA;&#xA;*** NOTES ***&#xA;&#xA;&#x2022; You might want to force Falcon to inject colors and callsigns by pressing twice the [F] key during the flight.&#xA;&#x2022; Starting with BMS 4.36 Update 1, you need to set g_bTacviewAcmi 0 in "Falcon BMS User.cfg" file to create *.flt files.</String>
+	<String ID="Falcon4RealTimeTelemetryDirectoryLabel">Falcon 4.0 Acmi folders	:</String>
+	<String ID="Falcon4RealTimeTelemetryFiles">Falcon 4 *.flt files</String>
+	<String ID="BrowseFalcon4ACMIDirectoryHelp">Please select the Acmi folder where Falcon 4.0 stores its VHS And FLT files.</String>
+	<String ID="RealTimeTelemetryStartRecording">Start Recording</String>
+	<String ID="RealTimeTelemetryStopRecording">Stop Recording</String>
 
 	<String ID="ADSBTelemetryTitle">ADS-B遥测</String>
 	<String ID="ADSBTelemetryIntro">收听1090MHz的ADS-B无线电信号，实时显示您周围的航空器！</String>
@@ -712,7 +729,6 @@
 
 	<String ID="DebugEventTime">时间</String>
 	<String ID="DebugEventLevel">等级</String>
-	<String ID="DebugEventModule">模块</String>
 	<String ID="DebugEventMessage">消息</String>
 
 	<String ID="EventsProfilerNames">事件</String>
@@ -731,7 +747,7 @@
 	<String ID="CommandLineBehavior">通用行为</String>
 	<String ID="CommandLineSpecial">高级选项</String>
 	<String ID="CmdOpenHelp">打开现存的飞行记录。</String>
-	<String ID="CmdOpenMediaHelp">在相应的窗口中打开媒体文件（1至4）。</String>
+	<String ID="CmdOpenMediaHelp">在相应的窗口中打开媒体文件（1至8）。</String>
 	<String ID="CmdMergeHelp">合并现存飞行记录与当前所有载入数据。</String>
 	<String ID="CmdSaveHelp">保存飞行记录为高压缩格式。</String>
 	<String ID="CmdExportFlightLogHelp">导出飞行日志为XML或CSV文件。</String>
@@ -1003,6 +1019,8 @@
 	<String ID="UnitLabelPitch">Pitch ({0})</String>
 	<String ID="UnitLabelFuel">Fuel ({0})</String>
 	<String ID="UnitLabelFuelFlow">Fuel Flow ({0})</String>
+	<String ID="UnitLabelHeartRate">Heart Rate (BPM)</String>
+	<String ID="UnitLabelSpO2">SpO2 (%)</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -1013,7 +1031,7 @@
 	<String ID="InvalidShortcutText">在当前任务里无法通过快捷方式找到物体和时间参考。请确认打开了正确的文件且复制/粘贴了整个快捷方式。</String>
 
 	<String ID="AboutTitle">关于Tacview</String>
-	<String ID="AboutCopyright">版权© 2006-2022, Raia Software. 保留所有权利。&#10;此计算机程序受到版权法和国际协约保护。</String>
+	<String ID="AboutCopyright">版权© 2006-2023, Raia Software. 保留所有权利。&#10;此计算机程序受到版权法和国际协约保护。</String>
 
 	<String ID="LoadingInProgressShort">载入...</String>
 	<String ID="LoadingInProgress">载入'{0}'</String>
@@ -1039,6 +1057,7 @@
 	<String ID="FileTypeDescriptionNMEA0183">GPS NMEA 0183日志文件</String>
 	<String ID="FileTypeDescriptionGPX">GPS eXchange文件</String>
 	<String ID="FileTypeDescriptionVHS">Falcon 4.0飞行记录</String>
+	<String ID="FileTypeDescriptionFLT">Falcon 4.0 Temporary Flight Recordings</String>
 	<String ID="FileTypeDescriptionMAVLink">MAVLink遥测</String>
 	<String ID="FileTypeDescriptionIGC">国际滑翔委员会遥测</String>
 	<String ID="FileTypeDescriptionCSV">CSV（逗号分隔值）文件</String>

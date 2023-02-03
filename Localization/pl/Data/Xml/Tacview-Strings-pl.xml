@@ -27,6 +27,8 @@
 	<String ID="RecordingMenuHelp">Ustawienia nagrań lotu</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">Telemetria czasu &amp;rzeczywistego...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">Nagraj lot, który jest obecnie w toku</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4 Real-Time Telemetry...</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Record a flight currently in progress in Falcon 4 &amp; BMS</String>
 	<String ID="RecordingADSBTelemetryCmdText">ADS-B Radio Telemetry...</String>
 	<String ID="RecordingADSBTelemetryCmdHelp">Record ADS-B telemetry over the air</String>
 	<String ID="RecordingRemoteControl0Text">Zdalna kontrola 1</String>
@@ -122,6 +124,8 @@
 	<String ID="OptionsCockpitText">Cockpit</String>
 	<String ID="OptionsAnticipatoryTrailText">Anticipatory Trail</String>
 	<String ID="OptionsAnticipatoryTrailDisabled">Disabled</String>
+	<String ID="OptionsRealTimeTelemetryLagText">Real-time Telemetry Lag</String>
+	<String ID="OptionsRealTimeTelemetryLagDefault">(default)</String>
 
 	<String ID="OptionsTerrainText">Teren</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Auto)</String>
@@ -432,6 +436,10 @@
 	<String ID="RollText">Obrót</String>
 	<String ID="PitchHelp">Stosunek pułapu samolotu</String>
 	<String ID="PitchText">Pułap</String>
+	<String ID="HeartRateHelp">Pilot heart rate in beats per minute</String>
+	<String ID="HeartRateText">Heart Rate</String>
+	<String ID="SpO2Help">Percentage of blood that is saturated with oxygen</String>
+	<String ID="SpO2Text">SpO2</String>
 
 	<String ID="NavaidsLabelsText">Etykiety pomocy nawigacyjnej</String>
 	<String ID="NavaidsLabelsAlwaysText">Zawsze</String>
@@ -540,8 +548,8 @@
 	<String ID="RealTimeTelemetryPort">Port dla danych :</String>
 	<String ID="RealTimeTelemetryWarningClient">Tylko Tacview Advanced może nagrywać telemetrię czasu rzeczywistego.</String>
 	<String ID="RealTimeTelemetryPasswordTip">Hasło może być wymagane, aby podłączyć się do prywatnej sesji</String>
-	<String ID="RealTimeTelemetryRecordingConnecting">Czekam na {1}&#xA;{0}</String>
-	<String ID="RealTimeTelemetryRecordingProgress">Nagrywam z {1}&#xA;{0}</String>
+	<String ID="RealTimeTelemetryRecordingConnecting">{1} Czekam na {0}</String>
+	<String ID="RealTimeTelemetryRecordingProgress">{1} Nagrywam z {0}</String>
 	<String ID="RealTimeTelemetryOperationCompleted">Nagranie telemetrii zakończone.</String>
 	<String ID="RealTimeTelemetryOperationFailed">Błąd połączenia do adresu z telemetrią czasu rzeczywistego.</String>
 	<String ID="RealTimeTelemetryUnsupportedOperation">Telemetria czasu rzeczywistego nie jest kompatybilna z danymi wyeksportowanymi.</String>
@@ -550,6 +558,15 @@
 	<String ID="RealTimeTelemetryConnect">Połącz</String>
 	<String ID="RealTimeTelemetryDisconnect">Rozłącz</String>
 	<String ID="RealTimeTelemetryAutoReconnect">Auto połączenie</String>
+
+	<String ID="Falcon4RealTimeTelemetryTitle">Falcon 4 Real-time Telemetry</String>
+	<String ID="Falcon4RealTimeTelemetryIntro">Import Falcon 4 *.flt files to review telemetry data in real-time!</String>
+	<String ID="Falcon4RealTimeTelemetryInstructions">As soon as your Falcon 4 flight has started, press the [F] key to start recording data.&#xA;Falcon will generate *.flt files which will be read by Tacview and displayed in real-time in the 3D view.&#xA;&#xA;*** NOTES ***&#xA;&#xA;&#x2022; You might want to force Falcon to inject colors and callsigns by pressing twice the [F] key during the flight.&#xA;&#x2022; Starting with BMS 4.36 Update 1, you need to set g_bTacviewAcmi 0 in "Falcon BMS User.cfg" file to create *.flt files.</String>
+	<String ID="Falcon4RealTimeTelemetryDirectoryLabel">Falcon 4.0 Acmi folders:</String>
+	<String ID="Falcon4RealTimeTelemetryFiles">Falcon 4 *.flt files</String>
+	<String ID="BrowseFalcon4ACMIDirectoryHelp">Please select the Acmi folder where Falcon 4.0 stores its VHS And FLT files.</String>
+	<String ID="RealTimeTelemetryStartRecording">Start Recording</String>
+	<String ID="RealTimeTelemetryStopRecording">Stop Recording</String>
 
 	<String ID="ADSBTelemetryTitle">ADS-B Radio Telemetry</String>
 	<String ID="ADSBTelemetryIntro">Listens to 1090MHz ADS-B radio signals to display aircraft around you in real-time!</String>
@@ -689,7 +706,6 @@ Make sure everything is properly connected to your computer and configured, then
 
 	<String ID="DebugEventTime">Time</String>
 	<String ID="DebugEventLevel">Level</String>
-	<String ID="DebugEventModule">Module</String>
 	<String ID="DebugEventMessage">Message</String>
 
 	<String ID="EventsProfilerNames">Event</String>
@@ -708,7 +724,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="CommandLineBehavior">General Behavior</String>
 	<String ID="CommandLineSpecial">Advanced Options</String>
 	<String ID="CmdOpenHelp">Open an existing flight recording.</String>
-	<String ID="CmdOpenMediaHelp">Open a media file in the corresponding window (1 to 4).</String>
+	<String ID="CmdOpenMediaHelp">Open a media file in the corresponding window (1 to 8).</String>
 	<String ID="CmdMergeHelp">Merge an existing flight recording with all the data currently loaded.</String>
 	<String ID="CmdSaveHelp">Save flight recording in highly compressed format.</String>
 	<String ID="CmdExportFlightLogHelp">Export flight log as a XML or CSV File.</String>
@@ -928,6 +944,8 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="UnitLabelPitch">Pitch ({0})</String>
 	<String ID="UnitLabelFuel">Fuel ({0})</String>
 	<String ID="UnitLabelFuelFlow">Fuel Flow ({0})</String>
+	<String ID="UnitLabelHeartRate">Heart Rate (BPM)</String>
+	<String ID="UnitLabelSpO2">SpO2 (%)</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -938,12 +956,12 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="InvalidShortcutText">Cannot find in the current mission the objects and time referenced by this shortcut. Make sure you have opened the right file and copy/pasted the whole shortcut.</String>
 
 	<String ID="AboutTitle">About Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2022, Raia Software. All Rights Reserved.&#10;This computer program is protected by copyright law and international treaties.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2023, Raia Software. All Rights Reserved.&#10;This computer program is protected by copyright law and international treaties.</String>
 
 	<String ID="LoadingInProgressShort">Loading...</String>
 	<String ID="LoadingInProgress">Loading '{0}'</String>
 	<String ID="DataMergeInProgress">Merging '{0}'</String>
-	<String ID="DataAnalysisInProgress">Analysing data...</String>
+	<String ID="DataAnalysisInProgress">Analyzing data...</String>
 	<String ID="SavingInProgressShort">Saving...</String>
 	<String ID="SavingInProgress">Saving '{0}'</String>
 
@@ -964,6 +982,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="FileTypeDescriptionNMEA0183">GPS NMEA 0183 log files</String>
 	<String ID="FileTypeDescriptionGPX">GPS Exchange Format</String>
 	<String ID="FileTypeDescriptionVHS">Falcon 4.0 Flight Recordings</String>
+	<String ID="FileTypeDescriptionFLT">Falcon 4.0 Temporary Flight Recordings</String>
 	<String ID="FileTypeDescriptionMAVLink">MAVLink telemetry</String>
 	<String ID="FileTypeDescriptionIGC">International Gliding Commission telemetry</String>
 	<String ID="FileTypeDescriptionCSV">Comma-separated values</String>
@@ -1093,7 +1112,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="TTDrawIDs">Display Objects IDs</String>
 	<String ID="TTDrawThreats">Display SAM/AAA Lethal Range</String>
 	<String ID="TTDrawRadarLocks">Display Radar Locks (when available)</String>
-	<String ID="TTDrawAutoScaleUp">Scale-up automatically distant objects</String>
+	<String ID="TTDrawAutoScaleUp">Automatically scale-up distant objects</String>
 	<String ID="TTShare">Share Shortcuts</String>
 	<String ID="TTTakeControl">Take Control (Online Debriefing)</String>
 
