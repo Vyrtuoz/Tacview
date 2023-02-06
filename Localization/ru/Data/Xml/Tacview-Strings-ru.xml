@@ -28,6 +28,8 @@
 	<String ID="RecordingMenuHelp">Задать свойства записи полета</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Телеметрия в реальном времени...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">Записать текущий полет</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4 Real-Time Telemetry...</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Record a flight currently in progress in Falcon 4 &amp; BMS</String>
 	<String ID="RecordingADSBTelemetryCmdText">ADS-B радио телеметрия...</String>
 	<String ID="RecordingADSBTelemetryCmdHelp">Записывать ADS-B телеметрию в воздухе</String>
 	<String ID="RecordingRemoteControl0Text">Удаленное управление 1</String>
@@ -123,6 +125,8 @@
 	<String ID="OptionsCockpitText">Кокпит</String>
 	<String ID="OptionsAnticipatoryTrailText">Предполагаемый след</String>
 	<String ID="OptionsAnticipatoryTrailDisabled">Отключен</String>
+	<String ID="OptionsRealTimeTelemetryLagText">Real-time Telemetry Lag</String>
+	<String ID="OptionsRealTimeTelemetryLagDefault">(default)</String>
 
 	<String ID="OptionsTerrainText">Ландшафт</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Авто)</String>
@@ -224,7 +228,7 @@
 	<String ID="DogfightModeLookAtText">Вид на цель</String>
 	<String ID="DogfightModeLookAtHelp">Камера сфокусирована на вторичном объекте</String>
 	<String ID="DogfightModeLookForwardText">Вид вперед</String>
-	<String ID="DogfightModeLookForwardHelp">Камера сфокусирована вперед по направлению движения  первичного объекта</String>
+	<String ID="DogfightModeLookForwardHelp">Камера сфокусирована вперед по направлению движения первичного объекта</String>
 
 	<String ID="InsertBookmarkText">&amp;Добавить метку</String>
 	<String ID="InsertBookmarkHelp">Создать и добавить метку в события на шкале времени</String>
@@ -433,6 +437,10 @@
 	<String ID="RollText">Крен</String>
 	<String ID="PitchHelp">Положение ЛА по тангажу</String>
 	<String ID="PitchText">Тангаж</String>
+	<String ID="HeartRateHelp">Pilot heart rate in beats per minute</String>
+	<String ID="HeartRateText">Heart Rate</String>
+	<String ID="SpO2Help">Percentage of blood that is saturated with oxygen</String>
+	<String ID="SpO2Text">SpO2</String>
 
 	<String ID="NavaidsLabelsText">Метки нав. средств</String>
 	<String ID="NavaidsLabelsAlwaysText">Всегда</String>
@@ -541,8 +549,8 @@
 	<String ID="RealTimeTelemetryPort">Порт самописца:</String>
 	<String ID="RealTimeTelemetryWarningClient">Опция записи телеметрии в реальном времени доступна только для версии Advanced.</String>
 	<String ID="RealTimeTelemetryPasswordTip">Для присоединения к приватному каналу может потребоваться пароль</String>
-	<String ID="RealTimeTelemetryRecordingConnecting">Ожидаем {1}&#xA;{0}</String>
-	<String ID="RealTimeTelemetryRecordingProgress">Ведется запись из {1}&#xA;{0}</String>
+	<String ID="RealTimeTelemetryRecordingConnecting">{1} Ожидаем {0}</String>
+	<String ID="RealTimeTelemetryRecordingProgress">{1} Ведется запись из {0}</String>
 	<String ID="RealTimeTelemetryOperationCompleted">Запись телеметрии реального времени завершена.</String>
 	<String ID="RealTimeTelemetryOperationFailed">Не удалось подключить телеметрию реального времени к заданному хост-адресу.</String>
 	<String ID="RealTimeTelemetryUnsupportedOperation">Телоеметрия реального времени несовместима с хост-экспортером.</String>
@@ -551,6 +559,15 @@
 	<String ID="RealTimeTelemetryConnect">Подключиться</String>
 	<String ID="RealTimeTelemetryDisconnect">Отключиться</String>
 	<String ID="RealTimeTelemetryAutoReconnect">Автоподключение</String>
+
+	<String ID="Falcon4RealTimeTelemetryTitle">Falcon 4 Real-time Telemetry</String>
+	<String ID="Falcon4RealTimeTelemetryIntro">Import Falcon 4 *.flt files to review telemetry data in real-time!</String>
+	<String ID="Falcon4RealTimeTelemetryInstructions">As soon as your Falcon 4 flight has started, press the [F] key to start recording data.&#xA;Falcon will generate *.flt files which will be read by Tacview and displayed in real-time in the 3D view.&#xA;&#xA;*** NOTES ***&#xA;&#xA;&#x2022; You might want to force Falcon to inject colors and callsigns by pressing twice the [F] key during the flight.&#xA;&#x2022; Starting with BMS 4.36 Update 1, you need to set g_bTacviewAcmi 0 in "Falcon BMS User.cfg" file to create *.flt files.</String>
+	<String ID="Falcon4RealTimeTelemetryDirectoryLabel">Falcon 4.0 Acmi folders:</String>
+	<String ID="Falcon4RealTimeTelemetryFiles">Falcon 4 *.flt files</String>
+	<String ID="BrowseFalcon4ACMIDirectoryHelp">Please select the Acmi folder where Falcon 4.0 stores its VHS And FLT files.</String>
+	<String ID="RealTimeTelemetryStartRecording">Start Recording</String>
+	<String ID="RealTimeTelemetryStopRecording">Stop Recording</String>
 
 	<String ID="ADSBTelemetryTitle">ADS-B радиотелеметрия</String>
 	<String ID="ADSBTelemetryIntro">Слушает 1090MHz ADS-B радиосигналы, отображая ЛА вокруг вас в реальном времени!</String>
@@ -602,7 +619,7 @@
 	<String ID="TimelessValue">(Безвременной объект)</String>
 
 	<String ID="TimeShiftTitle">Перемещение по времени</String>
-	<String ID="TimeShiftSubTitle">Исправить телеметрическое время выбранного объекта,либо включить режим двойника, чтобы сравнить характеристики.</String>
+	<String ID="TimeShiftSubTitle">Исправить телеметрическое время выбранного объекта, либо включить режим двойника, чтобы сравнить характеристики.</String>
 	<String ID="TimeShiftFirstSampleTime">Время первого сэмпла: {0}</String>
 	<String ID="TimeShiftDaysOffset">Дней</String>
 	<String ID="TimeShiftHoursOffset">Часов</String>
@@ -690,7 +707,6 @@
 
 	<String ID="DebugEventTime">Время</String>
 	<String ID="DebugEventLevel">Уровень</String>
-	<String ID="DebugEventModule">Модуль</String>
 	<String ID="DebugEventMessage">Сообщение</String>
 
 	<String ID="EventsProfilerNames">Событие</String>
@@ -709,7 +725,7 @@
 	<String ID="CommandLineBehavior">Общее поведение</String>
 	<String ID="CommandLineSpecial">Дополнительные опции</String>
 	<String ID="CmdOpenHelp">Открыть существующую запись.</String>
-	<String ID="CmdOpenMediaHelp">Открыть медиафайл в соответствующем окне (1 - 4).</String>
+	<String ID="CmdOpenMediaHelp">Открыть медиафайл в соответствующем окне (1 - 8).</String>
 	<String ID="CmdMergeHelp">Объединить существующую запись со всеми текущими данными.</String>
 	<String ID="CmdSaveHelp">Сохранить запись в формате с высоким сжатием.</String>
 	<String ID="CmdExportFlightLogHelp">Экспортировать журнал в виде .xml или .csv.</String>
@@ -929,6 +945,8 @@
 	<String ID="UnitLabelPitch">Тангаж ({0})</String>
 	<String ID="UnitLabelFuel">Топливо ({0})</String>
 	<String ID="UnitLabelFuelFlow">Расход топлива ({0})</String>
+	<String ID="UnitLabelHeartRate">Heart Rate (BPM)</String>
+	<String ID="UnitLabelSpO2">SpO2 (%)</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -939,7 +957,7 @@
 	<String ID="InvalidShortcutText">Невозможно найти объекты и время, на которые ссылается данный ярлык. Убедитесь, что открыт требуемый файл и целиком скопирован/метка вставлена.</String>
 
 	<String ID="AboutTitle">О программе Tacview</String>
-	<String ID="AboutCopyright">© 2006-2022, Raia Software. Все права защищены.&#10;Данное ПО защищено авторским правом и международными соглашениями.</String>
+	<String ID="AboutCopyright">© 2006-2023, Raia Software. Все права защищены.&#10;Данное ПО защищено авторским правом и международными соглашениями.</String>
 
 	<String ID="LoadingInProgressShort">Загрузка...</String>
 	<String ID="LoadingInProgress">Загружаем '{0}'</String>
@@ -964,7 +982,8 @@
 	<String ID="FileTypeDescriptionKMLStaticObjects">Статические объекты KML</String>
 	<String ID="FileTypeDescriptionNMEA0183">Лог-файлы GPS NMEA 0183</String>
 	<String ID="FileTypeDescriptionGPX">Файлы обмена GPS</String>
-	<String ID="FileTypeDescriptionVHS">Записи полета Falcon 4.0</String>
+	<String ID="FileTypeDescriptionVHS">Записи полёта Falcon 4.0</String>
+	<String ID="FileTypeDescriptionFLT">Falcon 4.0 Temporary Flight Recordings</String>
 	<String ID="FileTypeDescriptionMAVLink">Телеметрия MAVLink</String>
 	<String ID="FileTypeDescriptionIGC">Телеметрия международной комиссии по планеризму</String>
 	<String ID="FileTypeDescriptionCSV">CSV файлы (разделитель - запятая)</String>

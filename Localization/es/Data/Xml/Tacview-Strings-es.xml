@@ -28,6 +28,8 @@
 	<String ID="RecordingMenuHelp">Configurar los datos de vuelo a grabar</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Telemetría en tiempo real...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">Grabar un vuelo actualmente en proceso</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4 Real-Time Telemetry...</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Record a flight currently in progress in Falcon 4 &amp; BMS</String>
 	<String ID="RecordingADSBTelemetryCmdText">Radio telemetría ADS-B...</String>
 	<String ID="RecordingADSBTelemetryCmdHelp">Grabar Telemetría ADS-B en el aire</String>
 	<String ID="RecordingRemoteControl0Text">Control remoto 1</String>
@@ -123,6 +125,8 @@
 	<String ID="OptionsCockpitText">Cabina</String>
 	<String ID="OptionsAnticipatoryTrailText">Sendero anticipado</String>
 	<String ID="OptionsAnticipatoryTrailDisabled">Desactivado</String>
+	<String ID="OptionsRealTimeTelemetryLagText">Real-time Telemetry Lag</String>
+	<String ID="OptionsRealTimeTelemetryLagDefault">(default)</String>
 
 	<String ID="OptionsTerrainText">Terreno</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Automático)</String>
@@ -433,6 +437,10 @@
 	<String ID="RollText">Alabeo</String>
 	<String ID="PitchHelp">Actitud de cabezeo del avion</String>
 	<String ID="PitchText">Cabeceo</String>
+	<String ID="HeartRateHelp">Pilot heart rate in beats per minute</String>
+	<String ID="HeartRateText">Heart Rate</String>
+	<String ID="SpO2Help">Percentage of blood that is saturated with oxygen</String>
+	<String ID="SpO2Text">SpO2</String>
 
 	<String ID="NavaidsLabelsText">Etiquetas de ayuda a la navegación</String>
 	<String ID="NavaidsLabelsAlwaysText">Siempre</String>
@@ -541,8 +549,8 @@
 	<String ID="RealTimeTelemetryPort">Puerto del grabador :</String>
 	<String ID="RealTimeTelemetryWarningClient">Solo la versión profesional de Tacview puede grabar telemetría en tiempo real.</String>
 	<String ID="RealTimeTelemetryPasswordTip">Se requiere una contraseña para unirse a la sesion</String>
-	<String ID="RealTimeTelemetryRecordingConnecting">Esperando por {1}&#xA;{0}</String>
-	<String ID="RealTimeTelemetryRecordingProgress">Grabando desde {1}&#xA;{0}</String>
+	<String ID="RealTimeTelemetryRecordingConnecting">{1} Esperando por {0}</String>
+	<String ID="RealTimeTelemetryRecordingProgress">{1} Grabando desde {0}</String>
 	<String ID="RealTimeTelemetryOperationCompleted">Grabacion de telemetria en tiempo real completada.</String>
 	<String ID="RealTimeTelemetryOperationFailed">Fallo al conectar con la direccion del host/anfitrion de telemetria en tiempo real.</String>
 	<String ID="RealTimeTelemetryUnsupportedOperation">Telemetria en tiempo real no compatible con el exportador host/anfitrion.</String>
@@ -552,6 +560,15 @@
 	<String ID="RealTimeTelemetryDisconnect">Desconectar</String>
 	<String ID="RealTimeTelemetryAutoReconnect">Auto Reconectar</String>
 
+	<String ID="Falcon4RealTimeTelemetryTitle">Falcon 4 Real-time Telemetry</String>
+	<String ID="Falcon4RealTimeTelemetryIntro">Import Falcon 4 *.flt files to review telemetry data in real-time!</String>
+	<String ID="Falcon4RealTimeTelemetryInstructions">As soon as your Falcon 4 flight has started, press the [F] key to start recording data.&#xA;Falcon will generate *.flt files which will be read by Tacview and displayed in real-time in the 3D view.&#xA;&#xA;*** NOTES ***&#xA;&#xA;&#x2022; You might want to force Falcon to inject colors and callsigns by pressing twice the [F] key during the flight.&#xA;&#x2022; Starting with BMS 4.36 Update 1, you need to set g_bTacviewAcmi 0 in "Falcon BMS User.cfg" file to create *.flt files.</String>
+	<String ID="Falcon4RealTimeTelemetryDirectoryLabel">Falcon 4.0 Acmi folders:</String>
+	<String ID="Falcon4RealTimeTelemetryFiles">Falcon 4 *.flt files</String>
+	<String ID="BrowseFalcon4ACMIDirectoryHelp">Please select the Acmi folder where Falcon 4.0 stores its VHS And FLT files.</String>
+	<String ID="RealTimeTelemetryStartRecording">Start Recording</String>
+	<String ID="RealTimeTelemetryStopRecording">Stop Recording</String>
+
 	<String ID="ADSBTelemetryTitle">Radio telemetria ADS-B</String>
 	<String ID="ADSBTelemetryIntro">¡Escucha señales de radio ADS-B de 1090MHz para mostrar los aviones a tu alrededor en tiempo real!</String>
 	<String ID="ADSBTelemetryRecordingConnecting">Buscando &#xA;dispositivo de radio ADS-B {0}</String>
@@ -560,7 +577,7 @@
 	<String ID="ADSBTelemetryExplanation">Grabar señal de radio ADS-B en tiempo real, necesitas:&#xA;
 • RTL2832U compatible USB radio dongle (https://www.rtl-sdr.com)
 • 1090MHz antena
-• 1090MHz filtro ADS-B  (opcional)
+• 1090MHz filtro ADS-B (opcional)
 • WinUSB drivers for your dongle (https://zadig.akeo.ie)&#xA;
 Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡despues pulsa en conectar!</String>
 
@@ -690,7 +707,6 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 
 	<String ID="DebugEventTime">Tiempo</String>
 	<String ID="DebugEventLevel">Nivel</String>
-	<String ID="DebugEventModule">Modulo</String>
 	<String ID="DebugEventMessage">Mensaje</String>
 
 	<String ID="EventsProfilerNames">Evento</String>
@@ -709,7 +725,7 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="CommandLineBehavior">Comportamiento general</String>
 	<String ID="CommandLineSpecial">Opciones avanzadas</String>
 	<String ID="CmdOpenHelp">Abrir un archive existente.</String>
-	<String ID="CmdOpenMediaHelp">Open a media file in the corresponding window (1 to 4).</String>
+	<String ID="CmdOpenMediaHelp">Open a media file in the corresponding window (1 to 8).</String>
 	<String ID="CmdMergeHelp">Mezclar un archivo existente con los datos actualmente cargados...</String>
 	<String ID="CmdSaveHelp">Guardar el vuelo en un formato de alta compresión.</String>
 	<String ID="CmdExportFlightLogHelp">Exportar el registro de vuelo como archive XML o CSV.</String>
@@ -724,7 +740,7 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="CmdDebugModeHelp">Muestra la información de errores para ayudar a solucionar problemas.</String>
 	<String ID="CmdConfigSetHelp">Almacena las preferencias del usuario en un conjunto específico para cada instancia de Tacview.</String>	
 	<String ID="CmdSaveConfigHelp">Prevenir que Tacview guarde la configuracion de la UI al salir.</String>
-	<String ID="CmdAuthenticateHelp">Retorna el valor de -1 al llamante  para comprobar si todos los archivos son autenticos.</String>
+	<String ID="CmdAuthenticateHelp">Retorna el valor de -1 al llamante para comprobar si todos los archivos son autenticos.</String>
 	<String ID="CmdRegisterUserProductKeyHelp">Activa el Tacview para el usuario actual con la Key indicada.</String>
 	<String ID="CmdRegisterSystemProductKeyHelp">Activa Tacview para todo el sistema con la Key indicada.</String>
 	<String ID="CmdRegisterSessionProductKeyHelp">Activa Tacview, para la sesion actual, con la Key indicada.</String>
@@ -929,6 +945,8 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="UnitLabelPitch">Pitch ({0})</String>
 	<String ID="UnitLabelFuel">Fuel ({0})</String>
 	<String ID="UnitLabelFuelFlow">Flujo de combustible ({0})</String>
+	<String ID="UnitLabelHeartRate">Heart Rate (BPM)</String>
+	<String ID="UnitLabelSpO2">SpO2 (%)</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -939,7 +957,7 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="InvalidShortcutText">No es posible encontrar en la misión actual los objetos y tiempos de referencia del acceso directo. Asegúrese de haber abierto el archivo correcto y haber copiado/pegado el acceso directo entero.</String>
 
 	<String ID="AboutTitle">Sobre Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2022, Raia Software. Todos los derechos reservados.&#10;Este programa informático está protegido por las leyes de copyright y la ley internacional de tratados.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2023, Raia Software. Todos los derechos reservados.&#10;Este programa informático está protegido por las leyes de copyright y la ley internacional de tratados.</String>
 
 	<String ID="LoadingInProgressShort">Cargando...</String>
 	<String ID="LoadingInProgress">Cargando '{0}'</String>
@@ -965,6 +983,7 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="FileTypeDescriptionNMEA0183">GPS NMEA 0183 archivos de registro</String>
 	<String ID="FileTypeDescriptionGPX">Formato GPS Excange</String>
 	<String ID="FileTypeDescriptionVHS">Falcon 4.0 Grabación de vuelo</String>
+	<String ID="FileTypeDescriptionFLT">Falcon 4.0 Temporary Flight Recordings</String>
 	<String ID="FileTypeDescriptionMAVLink">MAVLink telemetría</String>
 	<String ID="FileTypeDescriptionIGC">International Gliding Commission telemetry</String>
 	<String ID="FileTypeDescriptionCSV">Valores separados por coma</String>
