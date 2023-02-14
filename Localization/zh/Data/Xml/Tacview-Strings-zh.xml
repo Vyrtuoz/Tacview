@@ -182,6 +182,12 @@
 	<String ID="OptionsPositionFormatDMSHelp">度，分，秒</String>
 	<String ID="OptionsPositionFormatMGRSHelp">军事网格参考系统</String>
 
+	<String ID="OptionsNorthReferenceText">North Reference</String>
+	<String ID="OptionsNorthReferenceTrueText">True</String>
+	<String ID="OptionsNorthReferenceTrueHelp">Use geographic north as the heading reference</String>
+	<String ID="OptionsNorthReferenceMagneticText">Magnetic</String>
+	<String ID="OptionsNorthReferenceMagneticHelp">Use the magnetic declination for the current location</String>
+
 	<String ID="OptionsTimeFormatText">时间偏移</String>
 
 	<String ID="OptionsPositionAlwaysDisplayedText">总是显示</String>

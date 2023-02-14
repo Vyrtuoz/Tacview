@@ -182,6 +182,12 @@
 	<String ID="OptionsPositionFormatDMSHelp">Градусы, минуты, секунды</String>
 	<String ID="OptionsPositionFormatMGRSHelp">Военная система прямоугольных координат (MGRS)</String>
 
+	<String ID="OptionsNorthReferenceText">North Reference</String>
+	<String ID="OptionsNorthReferenceTrueText">True</String>
+	<String ID="OptionsNorthReferenceTrueHelp">Use geographic north as the heading reference</String>
+	<String ID="OptionsNorthReferenceMagneticText">Magnetic</String>
+	<String ID="OptionsNorthReferenceMagneticHelp">Use the magnetic declination for the current location</String>
+
 	<String ID="OptionsTimeFormatText">Смещение по времени</String>
 
 	<String ID="OptionsPositionAlwaysDisplayedText">Всегда отображать</String>

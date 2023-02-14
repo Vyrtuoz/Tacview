@@ -181,6 +181,12 @@
 	<String ID="OptionsPositionFormatDMSHelp">Degrés, minutes, secondes</String>
 	<String ID="OptionsPositionFormatMGRSHelp">Système de référence de carroyage militaire</String>
 
+	<String ID="OptionsNorthReferenceText">Nord de référence</String>
+	<String ID="OptionsNorthReferenceTrueText">Vrai</String>
+	<String ID="OptionsNorthReferenceTrueHelp">Utilise le nord géographique comme référence de cap</String>
+	<String ID="OptionsNorthReferenceMagneticText">Magnétique</String>
+	<String ID="OptionsNorthReferenceMagneticHelp">Utilise la déclinaison magnétique de l’emplacement actuel</String>
+
 	<String ID="OptionsTimeFormatText">Décalage Horaire</String>
 
 	<String ID="OptionsPositionAlwaysDisplayedText">Toujours affichée</String>
