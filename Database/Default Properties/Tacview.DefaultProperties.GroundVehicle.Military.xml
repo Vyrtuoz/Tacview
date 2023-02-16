@@ -25,6 +25,9 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="Vehicle.Military.APC" Base="Vehicle.Military">
+		<Properties>
+			<Shape>Vehicle.APC.BTR-80.obj</Shape>
+		</Properties>
 	</DefaultProperties>
 
 	<DefaultProperties Id="Vehicle.Military.Tank" Base="Vehicle.Military">
@@ -94,11 +97,23 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Vehicle.Truck.M978" Base="Vehicle.Truck.Tanker">
+		<Criteria>
+			<Name>M 978</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M978</ShortName>
+			<LongName>M978</LongName>
+			<FullName>M978 Tanker</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- North American Military APC -->
 
 	<DefaultProperties Id="Vehicle.APC.M113" Base="Vehicle.Military.APC">
 		<Criteria>
 			<Name>M113</Name>
+			<Name>M-113</Name>	<!-- DCS 2.8.2 -->
 		</Criteria>
 		<Properties>
 			<ShortName>M113</ShortName>
@@ -144,7 +159,31 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Vehicle.Car.PickupDShK" Base="Vehicle.Civilian.Pickup">
+		<Criteria>
+			<Name>tt_DSHK</Name>
+			<Name>HL_DSHK</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Pickup</ShortName>
+			<LongName>DShK Pickup</LongName>
+			<FullName>DShK Pickup</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- Eastern Military Trucks -->
+
+	<DefaultProperties Id="Vehicle.Car.HL_KORD" Base="Vehicle.Civilian.Pickup">
+		<Criteria>
+			<Name>HL_KORD</Name>
+			<Name>tt_KORD</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Pickup</ShortName>
+			<LongName>KORD Pickup</LongName>
+			<FullName>KORD Pickup</FullName>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="Vehicle.Truck.ATZ-10" Base="Vehicle.Military.Tanker">
 		<Criteria>
@@ -154,6 +193,17 @@
 			<ShortName>ATZ-10</ShortName>
 			<LongName>ATZ-10</LongName>
 			<FullName>ATZ-10</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Truck.ATZ-5" Base="Vehicle.Military.Tanker">
+		<Criteria>
+			<Name>ATZ-5</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ATZ-5</ShortName>
+			<LongName>ATZ-5</LongName>
+			<FullName>ATZ-5</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -246,6 +296,14 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="Vehicle.Truck.ZIL-131" Base="Vehicle.Truck.Ural">
+		<Criteria>
+			<Name>ZIL-131</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ZIL-131</ShortName>
+			<LongName>ZIL-131</LongName>
+			<FullName>ZIL-131</FullName>
+		</Properties>
 	</DefaultProperties>
 
 	<DefaultProperties Id="Vehicle.Truck.ZIL-131KUNG" Base="Vehicle.Truck.ZIL-131">
@@ -283,6 +341,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Vehicle.Truck.ZIL-135" Base="Vehicle.Military.Truck">
+		<Criteria>
+			<Name>ZIL-135</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ZIL-135</ShortName>
+			<LongName>ZIL-135</LongName>
+			<FullName>ZIL-135</FullName>
+			<Shape>Vehicle.Truck.Kamaz.Dump.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Vehicle.Truck.Ural-375" Base="Vehicle.Truck.Ural">
 		<Criteria>
 			<Name>Ural-375</Name>
@@ -291,6 +361,7 @@
 			<ShortName>Ural-375</ShortName>
 			<LongName>Ural-375</LongName>
 			<FullName>Ural-375</FullName>
+			<Shape>Vehicle.Truck.Kamaz.Command.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -461,6 +532,18 @@
 
 	<!-- North American Tanks -->
 
+	<DefaultProperties Id="Vehicle.Tank.M60" Base="Vehicle.Military.Tank">
+		<Criteria>
+			<Name>M60</Name>
+			<Name>M-60</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M60</ShortName>
+			<LongName>M60</LongName>
+			<FullName>M60</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Vehicle.Tank.M2" Base="Vehicle.Military.Tank">
 		<Criteria>
 			<Name>M-2 Bradley</Name>
@@ -574,8 +657,6 @@
 		</Properties>
 	</DefaultProperties>
 
-	<!-- European Tanks -->
-
 	<DefaultProperties Id="Vehicle.Truck.Bedford MW" Base="Vehicle.Military.Truck">
 		<Criteria>
 			<Name>Bedford MW</Name>
@@ -597,6 +678,8 @@
 			<FullName>Bedford MWD</FullName>
 		</Properties>
 	</DefaultProperties>
+
+	<!-- European Tanks -->
 
 	<DefaultProperties Id="Mark V (male)" Base="Vehicle.Military.Tank">
 		<!-- Tacview Extended Models by Richard Cook 2021-->
@@ -687,6 +770,39 @@
 			<LongName>Leclerc</LongName>
 			<FullName>Leclerc</FullName>
 			<Shape>Vehicle.Tank.Leclerc.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.Cobra" Base="Vehicle.Military.APC">
+		<Criteria>
+			<Name>Cobra</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Cobra</ShortName>
+			<LongName>Cobra</LongName>
+			<FullName>Otokar Cobra</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.MCV80" Base="Vehicle.Military.APC">
+		<Criteria>
+			<Name>MCV-80</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MCV-80</ShortName>
+			<LongName>MCV-80</LongName>
+			<FullName>MCV-80 Warrior</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.M1126" Base="Vehicle.Military.APC">
+		<Criteria>
+			<Name>M1126</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M1126</ShortName>
+			<LongName>M1126 Stryker</LongName>
+			<FullName>M1126 Stryker</FullName>
 		</Properties>
 	</DefaultProperties>
 

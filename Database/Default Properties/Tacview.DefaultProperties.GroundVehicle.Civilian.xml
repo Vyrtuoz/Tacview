@@ -10,6 +10,9 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="Vehicle.Civilian.Car" Base="Vehicle.Civilian">
+		<Properties>
+			<Shape>Vehicle.Car.SUV.obj</Shape>
+		</Properties>
 	</DefaultProperties>
 
 	<DefaultProperties Id="Vehicle.Civilian.Truck" Base="Vehicle.Civilian">
@@ -50,6 +53,41 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Vehicle.Truck.GAZ-3308" Base="Vehicle.Truck.GAZ-66">
+		<Criteria>
+			<Name>Gaz-3308</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>GAZ-3308</ShortName>
+			<LongName>GAZ-3308</LongName>
+			<FullName>GAZ-3308</FullName>
+			<Shape>Vehicle.Truck.Kamaz.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Truck.MAZ-6303" Base="Vehicle.Civilian.Truck">
+		<Criteria>
+			<Name>MAZ-6303</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MAZ-6303</ShortName>
+			<LongName>MAZ-6303</LongName>
+			<FullName>MAZ-6303</FullName>
+			<Shape>Vehicle.Truck.Kamaz.Dump.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Truck.ZIL4331" Base="Vehicle.Civilian.Truck">
+		<Criteria>
+			<Name>ZIL-4331</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ZIL-4331</ShortName>
+			<LongName>ZIL-4331</LongName>
+			<FullName>ZIL-4331</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Vehicle.Truck.Tanker" Base="Vehicle.Civilian.Tanker">
 		<Criteria>
 			<Name>Fuel Truck</Name>
@@ -70,6 +108,45 @@
 			<LongName>Kamaz</LongName>
 			<FullName>Kamaz</FullName>
 			<Shape>Vehicle.Truck.Kamaz.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Truck.Komatsu" Base="Vehicle.Civilian.Truck">
+		<Criteria>
+			<Name>Komatsu</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Komatsu</ShortName>
+			<LongName>Komatsu</LongName>
+			<FullName>Komatsu</FullName>
+			<Shape>Vehicle.Truck.Komatsu.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Eastern Civilian Cars -->
+
+	<DefaultProperties Id="Vehicle.Car.VAZ" Base="Vehicle.Civilian.Car">
+		<Criteria>
+			<Name>VAZ</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>VAZ</ShortName>
+			<LongName>VAZ Car</LongName>
+			<FullName>VAZ Car</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Western Cars -->
+
+	<DefaultProperties Id="Vehicle.Car.LandRover109" Base="Vehicle.Military.Car">
+		<Criteria>
+			<Name>Land Rover 109</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>LR 109</ShortName>
+			<LongName>Land Rover 109</LongName>
+			<FullName>Land Rover 109</FullName>
+			<Shape>Vehicle.Car.Humvee.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

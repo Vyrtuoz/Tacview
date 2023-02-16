@@ -24,6 +24,23 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Core.Shell.Flak" Base="Core.Shell">
+		<Criteria>
+			<Type>Shell</Type>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Heavy+Shell</AdditionalType>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Europe FLAK Shells -->
+	
+	<DefaultProperties Id="Shell.QF94.HE" Base="Core.Shell.Flak">
+		<Criteria>
+			<Name>QF94_AA_HE</Name>
+		</Criteria>
+	</DefaultProperties>
+
 	<!-- North American Artillery Shells -->
 
 	<DefaultProperties Id="Shell.M185.155" Base="Core.Shell.Artillery">
@@ -80,19 +97,49 @@
 		</Criteria>
 	</DefaultProperties>
 
-	<!-- North American Tank Shells -->
+	<!-- Western Tank Shells -->
 
-	<DefaultProperties Id="Shell.120.M256.HE" Base="Core.Shell.Artillery">
+	<DefaultProperties Id="Shell.120.M68.105.HE" Base="Core.Shell.Tank">
+		<Criteria>
+			<Name>M68_105_HE</Name>
+		</Criteria>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Shell.120.M68.105.AP" Base="Core.Shell.Tank">
+		<Criteria>
+			<Name>M68_105_AP</Name>
+		</Criteria>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Shell.120.M256.HE" Base="Core.Shell.Tank">
 		<Criteria>
 			<Name>M256_120_HE</Name>
 		</Criteria>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Shell.120.M256.AP" Base="Core.Shell.Tank">
+		<Criteria>
+			<Name>M256_120_AP</Name>
+		</Criteria>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Shell.L23A1.APFSDS.AP" Base="Core.Shell.Tank">
+		<Criteria>
+			<Name>L23A1_APFSDS</Name>
+		</Criteria>
+	</DefaultProperties>
+
 	<!-- Eastern Tank Shells -->
 
-	<DefaultProperties Id="Shell.125.2A46M.HE" Base="Core.Shell.Artillery">
+	<DefaultProperties Id="Shell.125.2A46M.HE" Base="Core.Shell.Tank">
 		<Criteria>
 			<Name>2A46M_125_HE</Name>
+		</Criteria>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Shell.73.2A28" Base="Core.Shell.Tank">
+		<Criteria>
+			<Name>2A28_73</Name>	<!-- from BMP 1 -->
 		</Criteria>
 	</DefaultProperties>
 

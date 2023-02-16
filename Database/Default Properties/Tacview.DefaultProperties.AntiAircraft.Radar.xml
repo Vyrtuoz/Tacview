@@ -11,6 +11,9 @@
 	<!-- Core Declarations -->
 
 	<DefaultProperties Id="AntiAircraft.Radar" Base="Core.AntiAircraft">
+		<Properties>
+			<Shape>AntiAircraft.SAM.SA-3.SNR-125.obj</Shape>
+		</Properties>
 	</DefaultProperties>
 
 	<!-- Eastern Radar -->
@@ -58,6 +61,19 @@
 			<Name>P-15</Name>
 			<LongName>P-15 Flat Face</LongName>
 			<FullName>P-15 Flat Face (1RL13)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Western Radar -->
+
+	<DefaultProperties Id="AntiAircraft.FPS-117" Base="AntiAircraft.Radar">
+		<Criteria>
+			<Name>FPS-117</Name>
+		</Criteria>
+		<Properties>
+			<Name>FPS-117</Name>
+			<LongName>AN/FPS-117</LongName>
+			<FullName>AN/FPS-117</FullName>
 		</Properties>
 	</DefaultProperties>
 

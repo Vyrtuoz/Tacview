@@ -339,7 +339,30 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Bomb.GBU-38" Base="Bomb.Guided">
+	<DefaultProperties Id="Bomb.GBU-31" Base="Bomb.Guided">
+		<Criteria>
+			<Name>GBU-31</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>GBU-31</ShortName>
+			<LongName>GBU-31 JDAM</LongName>
+			<FullName>GBU-31 JDAM (Mk84)</FullName>
+			<Shape>Core.Bomb.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.GBU-32" Base="Bomb.GBU-31">
+		<Criteria>
+			<Name>GBU-32</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>GBU-32</ShortName>
+			<LongName>GBU-32 JDAM</LongName>
+			<FullName>GBU-32 JDAM (Mk82)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.GBU-38" Base="Bomb.GBU-32">
 		<Criteria>
 			<Name>GBU-38</Name>
 			<Name>JDAM</Name>
@@ -347,7 +370,7 @@
 		<Properties>
 			<ShortName>GBU-38</ShortName>
 			<LongName>GBU-38 JDAM</LongName>
-			<FullName>GBU-38 JDAM</FullName>
+			<FullName>GBU-38 JDAM (Mk82)</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -783,6 +806,61 @@
 			<ShortName>Lysbomb</ShortName>
 			<LongName>Lysbomb m/71</LongName>
 			<FullName>Lysbomb 80kg m/71 Illumination Bomb</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.SAMP125LD" Base="Bomb.Unguided">
+		<Criteria>
+			<Name>SAMP-125 LD</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SAMP125LD</ShortName>
+			<LongName>SAMP-125 LD</LongName>
+			<FullName>SAMP-125 Low Drag</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.SAMP250HD" Base="Bomb.Unguided">
+		<Criteria>
+			<Name>SAMP-250 HD</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SAMP250HD</ShortName>
+			<LongName>SAMP-250 HD</LongName>
+			<FullName>SAMP-250 High Drag</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.SAMP250LD" Base="Bomb.Unguided">
+		<Criteria>
+			<Name>SAMP-250 LD</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SAMP250LD</ShortName>
+			<LongName>SAMP-250 LD</LongName>
+			<FullName>SAMP-250 Low Drag</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.SAMP400HD" Base="Bomb.Unguided">
+		<Criteria>
+			<Name>SAMP-400 HD</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SAMP400HD</ShortName>
+			<LongName>SAMP-400 HD</LongName>
+			<FullName>SAMP-400 High Drag</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.SAMP400LD" Base="Bomb.Unguided">
+		<Criteria>
+			<Name>SAMP-400 LD</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SAMP400LD</ShortName>
+			<LongName>SAMP-400 LD</LongName>
+			<FullName>SAMP-400 Low Drag</FullName>
 		</Properties>
 	</DefaultProperties>
 

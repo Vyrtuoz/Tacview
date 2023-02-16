@@ -660,6 +660,45 @@
 			<Shape>FixedWing.SR-71.obj</Shape>
 		</Properties>
 	</DefaultProperties>
+		
+	<DefaultProperties Id="FixedWing.SR-72" Base="FixedWing.SR-71">
+		<Criteria>
+			<Name>SR-72</Name>
+			<Name>Lockheed SR-72</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SR-72</ShortName>
+			<LongName>Lockheed Martin SR-72</LongName>
+			<FullName>Lockheed Martin SR-72</FullName>
+			<Shape>FixedWing.SR-72.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.Darkstar" Base="FixedWing.SR-72">		
+		<Criteria>
+			<Name>Experimental Darkstar Asobo</Name>	<!-- MSFS -->
+			<Name>Darkstar</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Darkstar</ShortName>
+			<LongName>Darkstar</LongName>
+			<FullName>Darkstar</FullName>
+			<Shape>FixedWing.SR-72.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+	
+	<DefaultProperties Id="FixedWing.U-2" Base="FixedWing.Military.Recon">
+		<Criteria>
+			<Name>U-2</Name>
+			<Name>Lockheed U-2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>U-2</ShortName>
+			<LongName>Lockheed U-2</LongName>
+			<FullName>Lockheed U-2</FullName>
+			<Shape>FixedWing.U-2.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 
 	<!-- North American Military Fixed-wing aircraft -->
 	
@@ -962,6 +1001,7 @@
 			<ShortName>B-25</ShortName>
 			<LongName>B-25 Mitchell</LongName>
 			<FullName>North American B-25 Mitchell</FullName>
+			<Shape>FixedWing.B-25.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 	
@@ -1268,7 +1308,7 @@
 	<DefaultProperties Id="FixedWing.F-16" Base="FixedWing.Fighter.Jet">
 		<Criteria>
 			<Name>F-16</Name>
-			<Name>F-16 Fighting Falcon</Name>
+			<Name>F-16 Falcon</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>F-16</ShortName>
@@ -1281,7 +1321,7 @@
 	<DefaultProperties Id="FixedWing.F-16A" Base="FixedWing.F-16">
 		<Criteria>
 			<Name>F-16A</Name>
-			<Name>F-16A Fighting Falcon</Name>
+			<Name>F-16A Falcon</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>F-16A</ShortName>
@@ -1290,10 +1330,22 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.F-16AM" Base="FixedWing.F-16A">
+		<Criteria>
+			<Name>F-16AM</Name>
+			<Name>F-16AM Falcon</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F-16AM</ShortName>
+			<LongName>F-16AM Fighting Falcon</LongName>
+			<FullName>General Dynamics F-16AM Fighting Falcon</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.F-16C" Base="FixedWing.F-16A">
 		<Criteria>
 			<Name>F-16C</Name>
-			<Name>F-16C Fighting Falcon</Name>
+			<Name>F-16C Falcon</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>F-16C</ShortName>
@@ -1305,7 +1357,7 @@
 	<DefaultProperties Id="FixedWing.F-16C-30" Base="FixedWing.F-16C">
 		<Criteria>
 			<Name>F-16C-30</Name>
-			<Name>F-16C-30 Fighting Falcon</Name>
+			<Name>F-16C-30 Falcon</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>F-16C-30</ShortName>
@@ -1317,7 +1369,7 @@
 	<DefaultProperties Id="FixedWing.F-16C-52" Base="FixedWing.F-16C">
 		<Criteria>
 			<Name>F-16C-52</Name>
-			<Name>F-16C-52 Fighting Falcon</Name>
+			<Name>F-16C-52 Falcon</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>F-16C-52</ShortName>
@@ -1329,7 +1381,7 @@
 	<DefaultProperties Id="FixedWing.F-16CM-52" Base="FixedWing.F-16C-52">
 		<Criteria>
 			<Name>F-16CM-52</Name>
-			<Name>F-16CM-52 Fighting Falcon</Name>
+			<Name>F-16CM-52 Falcon</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>F-16CM-52</ShortName>
@@ -1338,15 +1390,27 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.F-16AM" Base="FixedWing.F-16A">
+	<DefaultProperties Id="FixedWing.F-16D" Base="FixedWing.F-16C">
 		<Criteria>
-			<Name>F-16AM</Name>
-			<Name>F-16AM Fighting Falcon</Name>
+			<Name>F-16D</Name>
+			<Name>F-16D Falcon</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>F-16AM</ShortName>
-			<LongName>F-16AM Fighting Falcon</LongName>
-			<FullName>General Dynamics F-16AM Fighting Falcon</FullName>
+			<ShortName>F-16D</ShortName>
+			<LongName>F-16D Fighting Falcon</LongName>
+			<FullName>General Dynamics F-16D Fighting Falcon</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.F-16DJ" Base="FixedWing.F-16D">
+		<Criteria>
+			<Name>F-16DJ</Name>
+			<Name>F-16DJ Falcon</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F-16DJ</ShortName>
+			<LongName>F-16DJ Fighting Falcon</LongName>
+			<FullName>General Dynamics F-16DJ Fighting Falcon</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -2076,6 +2140,34 @@
 			<Shape>FixedWing.Tex2.obj</Shape>
 		</Properties>
 	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.YF-23" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>YF-23</Name>
+			<Name>Northrop YF-23</Name>
+			<Name>Black Widow II</Name>
+			<Name>Gray Ghost</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>YF-23</ShortName>
+			<LongName>Northrop YF-23</LongName>
+			<FullName>Northrop/McDonnell Douglas YF-23</FullName>
+			<Shape>FixedWing.YF-23A.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.YF-23A" Base="FixedWing.YF-23">
+		<Criteria>
+			<Name>YF-23A</Name>
+			<Name>Northrop YF-23A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>YF-23A</ShortName>
+			<LongName>Northrop YF-23A</LongName>
+			<FullName>Northrop/McDonnell Douglas YF-23A</FullName>
+			<Shape>FixedWing.YF-23A.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 
 	<!-- EU Europe Military Fixed-wing aircraft -->
 
@@ -2088,7 +2180,7 @@
 			<ShortName>Hawk</ShortName>
 			<LongName>BAE Hawk</LongName>
 			<FullName>BAE Systems Hawk</FullName>
-			<Shape>FixedWing.BAE.Hawk.obj</Shape>
+			<Shape>FixedWing.Hawk.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2374,6 +2466,19 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.JA37" Base="FixedWing.AJ37">
+		<Criteria>
+			<Name>JA 37</Name>
+			<Name>JA 37 Viggen</Name>
+			<Name>Saab JA 37</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>JA 37</ShortName>
+			<LongName>JA 37 Viggen</LongName>
+			<FullName>Saab JA 37 Viggen</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.AJS37" Base="FixedWing.AJ37">
 		<Criteria>
 			<Name>AJS 37</Name>
@@ -2607,6 +2712,18 @@
 			<FullName>Bristol F.2B (F.III)</FullName>
 			<!-- Tacview Extended Models by Richard Cook 2021-->
 			<Shape>FixedWing.Bristol Fighter.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Me 410" Base="FixedWing.Bomber.TwinProp">
+		<Criteria>
+			<Name>Me 410</Name>
+			<Name>Messerschmitt Me 410</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Me 410</ShortName>
+			<LongName>Me 410 Hornisse</LongName>
+			<FullName>Messerschmitt Me 410 Hornisse</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -2888,6 +3005,39 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.MB-339A" Base="FixedWing.MB-339">
+		<Criteria>
+			<Name>MB-339A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MB-339A</ShortName>
+			<LongName>Aermacchi MB-339A</LongName>
+			<FullName>Aermacchi MB-339A</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.MB-339PAN" Base="FixedWing.MB-339A">
+		<Criteria>
+			<Name>MB-339PAN</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MB-339PAN</ShortName>
+			<LongName>Aermacchi MB-339PAN</LongName>
+			<FullName>Aermacchi MB-339PAN</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.MB-339APAN" Base="FixedWing.MB-339PAN">
+		<Criteria>
+			<Name>MB-339APAN</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MB-339A/PAN</ShortName>
+			<LongName>Aermacchi MB-339A/PAN</LongName>
+			<FullName>Aermacchi MB-339A/PAN</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.Mirage III" Base="FixedWing.Fighter.Jet">
 		<Criteria>
 			<Name>Mirage III</Name>
@@ -2914,6 +3064,7 @@
 
 	<DefaultProperties Id="FixedWing.Mirage F1" Base="FixedWing.Mirage III">
 		<Criteria>
+			<Name>F1</Name>
 			<Name>Mirage F1</Name>
 			<Name>Dassault Mirage F1</Name>
 		</Criteria>
@@ -2922,6 +3073,129 @@
 			<LongName>Mirage F1</LongName>
 			<FullName>Dassault Mirage F1</FullName>
 			<Shape>FixedWing.Mirage F1.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Mirage F1B" Base="FixedWing.Mirage F1">
+		<Criteria>
+			<Name>F1B</Name>
+			<Name>Mirage F1 B</Name>
+			<Name>Dassault Mirage F1 B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F1B</ShortName>
+			<LongName>Mirage F1 B</LongName>
+			<FullName>Dassault Mirage F1 B</FullName>
+			<Shape>FixedWing.Mirage F1B.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Mirage F1BE" Base="FixedWing.Mirage F1B">
+		<Criteria>
+			<Name>F1BE</Name>
+			<Name>Mirage F1 BE</Name>
+			<Name>Dassault Mirage F1 BE</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F1BE</ShortName>
+			<LongName>Mirage F1 BE</LongName>
+			<FullName>Dassault Mirage F1 BE</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Mirage F1C" Base="FixedWing.Mirage F1">
+		<Criteria>
+			<Name>F1</Name>
+			<Name>Mirage F1 C</Name>
+			<Name>Dassault Mirage F1 C</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F1C</ShortName>
+			<LongName>Mirage F1 C</LongName>
+			<FullName>Dassault Mirage F1 C</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Mirage F1CR" Base="FixedWing.Mirage F1C">
+		<Criteria>
+			<Name>F1CR</Name>
+			<Name>Mirage F1 CR</Name>
+			<Name>Dassault Mirage F1 CR</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F1CR</ShortName>
+			<LongName>Mirage F1 CR</LongName>
+			<FullName>Dassault Mirage F1 CR</FullName>
+			<Shape>FixedWing.Mirage F1E.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Mirage F1CT" Base="FixedWing.Mirage F1C">
+		<Criteria>
+			<Name>F1CT</Name>
+			<Name>Mirage F1 CT</Name>
+			<Name>Dassault Mirage F1 CT</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F1CT</ShortName>
+			<LongName>Mirage F1 CT</LongName>
+			<FullName>Dassault Mirage F1 CT</FullName>
+			<Shape>FixedWing.Mirage F1E.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Mirage F1CE" Base="FixedWing.Mirage F1C">
+		<Criteria>
+			<Name>F1CE</Name>
+			<Name>Mirage F1 CE</Name>
+			<Name>Dassault Mirage F1 CE</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F1CE</ShortName>
+			<LongName>Mirage F1 CE</LongName>
+			<FullName>Dassault Mirage F1 CE</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Mirage F1E" Base="FixedWing.Mirage F1">
+		<Criteria>
+			<Name>F1E</Name>
+			<Name>Mirage F1 E</Name>
+			<Name>Dassault Mirage F1 E</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F1E</ShortName>
+			<LongName>Mirage F1 E</LongName>
+			<FullName>Dassault Mirage F1 E</FullName>
+			<Shape>FixedWing.Mirage F1E.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Mirage F1EE" Base="FixedWing.Mirage F1E">
+		<Criteria>
+			<Name>F1EE</Name>
+			<Name>Mirage F1 EE</Name>
+			<Name>Dassault Mirage F1 EE</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F1EE</ShortName>
+			<LongName>Mirage F1 EE</LongName>
+			<FullName>Dassault Mirage F1 EE</FullName>
+			<Shape>FixedWing.Mirage F1E.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Mirage F1M" Base="FixedWing.Mirage F1CE">
+		<Criteria>
+			<Name>F1M</Name>
+			<Name>Mirage F1 M</Name>
+			<Name>Dassault Mirage F1 M</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F1M</ShortName>
+			<LongName>Mirage F1 M</LongName>
+			<FullName>Dassault Mirage F1 M</FullName>
+			<Shape>FixedWing.Mirage F1E.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -3220,7 +3494,31 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.Tempest" Base="FixedWing.Fighter.Prop">
+	<DefaultProperties Id="FixedWing.HawkerTyphoon" Base="FixedWing.Fighter.Prop">
+		<Criteria>
+			<Name>Hawker Typhoon</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Typhoon</ShortName>
+			<LongName>Hawker Typhoon</LongName>
+			<FullName>Hawker Typhoon</FullName>
+			<Shape>FixedWing.Tempest.Mk.V.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.HawkerTyphoon.Mk.Ib" Base="FixedWing.HawkerTyphoon">
+		<Criteria>
+			<Name>Hawker Typhoon Mk.Ib</Name>
+			<Name>Typhoon Mk.Ib</Name>
+		</Criteria>
+		<Properties>		
+			<ShortName>Typhoon</ShortName>
+			<LongName>Hawker Typhoon</LongName>
+			<FullName>Hawker Typhoon Mk.Ib</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.Tempest" Base="FixedWing.HawkerTyphoon">
 		<Criteria>
 			<Name>Tempest</Name>
 			<Name>Hawker Tempest</Name>
@@ -3232,7 +3530,7 @@
 			<Shape>FixedWing.Tempest.Mk.V.obj</Shape>
 		</Properties>
 	</DefaultProperties>
-
+	
 	<DefaultProperties Id="FixedWing.Tempest.Mk.V" Base="FixedWing.Tempest">
 		<Criteria>
 			<Name>Tempest Mk.V</Name>
@@ -3419,6 +3717,7 @@
 			<ShortName>Il-28</ShortName>
 			<LongName>Il-28 Beagle</LongName>
 			<FullName>Ilyushin Il-28 Beagle</FullName>
+			<Shape>FixedWing.Il-28.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -4173,6 +4472,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.Su-30SM" Base="FixedWing.Su-30">
+		<Criteria>
+			<Name>Su-30SM</Name>
+			<Name>Flanker-H</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Su-30SM</ShortName>
+			<LongName>Su-30SM Flanker-H</LongName>
+			<FullName>Sukhoi Su-30SM Flanker-H</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.Su-33" Base="FixedWing.Su-27">
 		<Criteria>
 			<Name>Su-33</Name>
@@ -4203,6 +4514,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.Su-27M" Base="FixedWing.Su-27">
+		<Criteria>
+			<Name>Su-27M</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Su-27M</ShortName>
+			<LongName>Su-27M Flanker-E</LongName>
+			<FullName>Sukhoi Su-27M Flanker-E</FullName>
+			<Shape>FixedWing.Su-33.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.Su-35" Base="FixedWing.Su-27">
 		<Criteria>
 			<Name>Su-35</Name>
@@ -4214,7 +4537,6 @@
 			<ShortName>Su-35</ShortName>
 			<LongName>Su-35 Flanker-E</LongName>
 			<FullName>Sukhoi Su-35 Flanker-E</FullName>
-			<Shape>FixedWing.Su-33.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -4228,6 +4550,35 @@
 			<ShortName>Su-35S</ShortName>
 			<LongName>Su-35S Flanker-E</LongName>
 			<FullName>Sukhoi Su-35S Flanker-E</FullName>
+			<Shape>FixedWing.Su-27.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Su-35UB" Base="FixedWing.Su-35">
+		<Criteria>
+			<Name>Su-35UB</Name>
+			<Name>Su-35UB Flanker-E</Name>
+			<Name>Sukhoi Su-35EB</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Su-35EB</ShortName>
+			<LongName>Su-35EB Flanker-E</LongName>
+			<FullName>Sukhoi Su-35EB Flanker-E</FullName>
+			<Shape>FixedWing.Su-30.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Su-37" Base="FixedWing.Su-27M">
+		<Criteria>
+			<Name>Su-37</Name>
+			<Name>Su-37 Flanker-F</Name>
+			<Name>Sukhoi Su-37</Name>
+			<Name>Flanker-F</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Su-37</ShortName>
+			<LongName>Su-37 Flanker-F</LongName>
+			<FullName>Sukhoi Su-37 Flanker-F</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -4273,6 +4624,7 @@
 			<ShortName>Tu-16</ShortName>
 			<LongName>Tu-16 Badger</LongName>
 			<FullName>Tupolev Tu-16 Badger</FullName>
+			<Shape>FixedWing.Tu-16.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -4475,6 +4827,42 @@
 	</DefaultProperties>
 
 	<!-- Asian Military Fixed-wing aircraft -->
+	
+	<DefaultProperties Id="FixedWing.H-6" Base="FixedWing.Tu-16">
+		<Criteria>
+			<Name>H-6</Name>
+			<Name>Xian H-6</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>H-6</ShortName>
+			<LongName>Xian H-6</LongName>
+			<FullName>Xian H-6</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.H-6J" Base="FixedWing.H-6">
+		<Criteria>
+			<Name>H-6J</Name>
+			<Name>Xian H-6J</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>H-6J</ShortName>
+			<LongName>Xian H-6J</LongName>
+			<FullName>Xian H-6J</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.J-6" Base="FixedWing.MiG-19">
+		<Criteria>
+			<Name>J-6</Name>
+			<Name>Shenyang J-6</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>J-6</ShortName>
+			<LongName>J-6 Farmer</LongName>
+			<FullName>Shenyang J-6 Farmer</FullName>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.J-10" Base="FixedWing.Fighter.Jet">
 		<Criteria>
@@ -4536,6 +4924,22 @@
 			<ShortName>J-20</ShortName>
 			<LongName>Chengdu J-20</LongName>
 			<FullName>Chengdu J-20 Mighty Dragon</FullName>
+			<Shape>FixedWing.J-20.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+		
+	<DefaultProperties Id="FixedWing.JH-7" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>JH-7</Name>
+			<Name>Xi'an JH-7</Name>
+			<Name>FBC-1 Flying Leopard</Name>
+			<Name>Flounder</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>JH-7</ShortName>
+			<LongName>JH-7 Flounder</LongName>
+			<FullName>Xi'an JH-7 Flounder</FullName>
+			<Shape>FixedWing.JH-7.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

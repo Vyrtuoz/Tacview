@@ -232,7 +232,7 @@
 			<ShortName>SA341</ShortName>
 			<LongName>SA 341 Gazelle</LongName>
 			<FullName>Aérospatiale SA 341 Gazelle</FullName>
-			<Shape>Rotorcraft.SA 341G.obj</Shape>
+			<Shape>Rotorcraft.SA341G.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -244,7 +244,7 @@
 			<ShortName>SA341G</ShortName>
 			<LongName>SA 341G Gazelle</LongName>
 			<FullName>Aérospatiale SA 341G Gazelle</FullName>
-			<Shape>Rotorcraft.SA 341G.obj</Shape>
+			<Shape>Rotorcraft.SA341G.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

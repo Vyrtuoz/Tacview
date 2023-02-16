@@ -137,7 +137,7 @@
 			<ShortName>Stinger</ShortName>
 			<LongName>FIM-92 Stinger</LongName>
 			<FullName>FIM-92 Stinger</FullName>
-			<EngagementRange>3800</EngagementRange>
+			<EngagementRange>4200</EngagementRange>
 		</Properties>
 	</DefaultProperties>
 
@@ -218,9 +218,20 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="AntiAircraft.SAM.MIM-104.AMG" Base="AntiAircraft.SAM.SearchRadar.Truck">
+	<DefaultProperties Id="AntiAircraft.SAM.MIM-104.AMG.SAM" Base="AntiAircraft.SAM.SearchRadar.Truck">
 		<Criteria>
 			<Name>Patriot AMG</Name>	<!-- DCS World 2.2 -->
+		</Criteria>
+		<Properties>
+			<ShortName>MIM-104 Patriot</ShortName>
+			<LongName>MIM-104 Patriot (AMG SR)</LongName>
+			<FullName>MIM-104 Patriot (AMG Search Radar)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.MIM-104.AMG.Truck" Base="Vehicle.Military.Truck">
+		<Criteria>
+			<Name>Patriot AMG</Name>	<!-- DCS World 2.7.18 -->
 		</Criteria>
 		<Properties>
 			<ShortName>MIM-104 Patriot</ShortName>
@@ -454,6 +465,7 @@
 			<ShortName>SA-2</ShortName>
 			<LongName>SA-2 Guideline (LN)</LongName>
 			<FullName>SA-2 Guideline (S-75 Launcher)</FullName>
+			<Shape>AntiAircraft.SAM.SA-2.LN.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

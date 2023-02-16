@@ -22,7 +22,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<!-- EU Anti-Aircraft Artillery -->
+	<!-- EU Flak -->
 
 	<DefaultProperties Id="AntiAircraft.Flak.Kdo.​Ger.40" Base="AntiAircraft.Support.Infantry">
 		<Criteria>
@@ -147,6 +147,22 @@
 		</Properties>
 	</DefaultProperties>
 
-	<!-- Russian Flak/AAA -->
+	<DefaultProperties Id="AntiAircraft.Flak.QF37" Base="AntiAircraft.Flak">
+		<Criteria>
+			<Name>QF_37_AA</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>QF 3.7</ShortName>
+			<LongName>QF 3.7</LongName>
+			<FullName>QF 3.7-inch AA gun</FullName>
+		</Properties>
+		<Properties>
+			<EngagementRange>4000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- US Flak -->
+
+	<!-- Russian Flak -->
 
 </DefaultPropertiesCollection>

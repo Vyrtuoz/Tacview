@@ -72,6 +72,22 @@
 
 	<!-- Eastern Surface Missiles -->
 
+	<DefaultProperties Id="Missile.Surface.9M14" Base="Missile.Surface.Wire">
+		<Criteria>
+			<Name>9M14</Name>
+			<Name>Malyutka</Name>
+			<Name>MALUTKA</Name>	<!-- DCS 2.8.1 -->
+			<Name>Sagger</Name>
+			<Name>AT-3</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AT-3</ShortName>
+			<LongName>AT-3 Sagger (9M14)</LongName>
+			<FullName>AT-3 Sagger (9M14 Malyutka)</FullName>
+			<Shape>Rocket.Hydra 70.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.Surface.9M113" Base="Missile.Surface.Wire">
 		<Criteria>
 			<Name>9M113</Name>

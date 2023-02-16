@@ -49,6 +49,34 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="AntiAircraft.Flak.M1_37mm" Base="AntiAircraft.AAA">
+		<Criteria>
+			<Name>M1 37mm</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M1 37mm</ShortName>
+			<LongName>M1 37mm</LongName>
+			<FullName>37 mm gun M1</FullName>
+		</Properties>
+		<Properties>
+			<EngagementRange>4800</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.Flak.M45Quadmount" Base="AntiAircraft.AAA">
+		<Criteria>
+			<Name>M45 Quadmount</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M45 Quadmount</ShortName>
+			<LongName>M45 Quadmount</LongName>
+			<FullName>M45 Quadmount</FullName>
+		</Properties>
+		<Properties>
+			<EngagementRange>1800</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- European Anti-Aircraft Artillery -->
 
 	<DefaultProperties Id="AntiAircraft.Bofors.40" Base="AntiAircraft.AAA">
@@ -92,6 +120,18 @@
 		</Criteria>
 		<Properties>
 			<EngagementRange>2500</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.ZU-23.Pickup" Base="AntiAircraft.ZU-23">
+		<Criteria>
+			<Name>tt_ZU-23</Name>	<!-- DCS 2.8.2 -->
+		</Criteria>
+		<Properties>
+			<ShortName>ZU-23</ShortName>
+			<LongName>ZU-23</LongName>
+			<FullName>ZU-23 Pickup</FullName>
+			<Shape>Vehicle.Car.Pickup.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -150,6 +190,18 @@
 			<LongName>ZU-23-2 (Ural-375)</LongName>
 			<FullName>Ural-375 ZU-23-2</FullName>
 			<Shape>AntiAircraft.AAA.ZSU-23-2.Ural.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.HL_ZU-23" Base="AntiAircraft.ZU-23">
+		<Criteria>
+			<Name>HL_ZU-23</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ZU-23</ShortName>
+			<LongName>ZU-23 Pickup</LongName>
+			<FullName>ZU-23 Pickup</FullName>
+			<Shape>Vehicle.Car.Pickup.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

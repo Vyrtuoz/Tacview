@@ -697,6 +697,19 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.SR22" Base="FixedWing.GA.SingleEngine.LowWing.Tricycle">
+		<Criteria>
+			<Name>SR22</Name>
+			<Name>Cirrus SR22</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SR22</ShortName>
+			<LongName>Cirrus SR22</LongName>
+			<FullName>Cirrus SR22</FullName>
+			<Shape>FixedWing.DA20.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.DV20" Base="FixedWing.GA.SingleEngine.LowWing.Tricycle">
 		<Criteria>
 			<Name>DV20</Name>
@@ -1423,7 +1436,33 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.LS8" Base="FixedWing.GA.Glider.Taildragger">
+	<DefaultProperties Id="FixedWing.LS4" Base="FixedWing.GA.Glider.Taildragger">
+		<Criteria>
+			<Name>LS4</Name>
+			<Name>LS 4</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>LS4</ShortName>
+			<LongName>LS4</LongName>
+			<FullName>Rolladen-Schneider LS4</FullName>
+			<Shape>FixedWing.DuoDiscus.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.LS4a" Base="FixedWing.LS4">
+		<Criteria>
+			<Name>LS4-a</Name>
+			<Name>LS 4a</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>LS4-a</ShortName>
+			<LongName>LS4-a</LongName>
+			<FullName>Rolladen-Schneider LS4-a</FullName>
+			<Shape>FixedWing.DuoDiscus.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.LS8" Base="FixedWing.LS4">
 		<Criteria>
 			<Name>LS8</Name>
 			<Name>LS_8</Name>
@@ -2252,6 +2291,7 @@
 
 	<DefaultProperties Id="FixedWing.A320" Base="FixedWing.Heavy.Jet.TwinEngines">
 		<Criteria>
+			<Name>A-320</Name>
 			<Name>A320</Name>
 		</Criteria>
 		<Properties>

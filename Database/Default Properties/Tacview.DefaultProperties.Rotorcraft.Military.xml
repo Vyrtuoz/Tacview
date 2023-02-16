@@ -119,6 +119,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Rotorcraft.CH-47" Base="Rotorcraft.Transport">
+		<Criteria>
+			<Name>CH-47</Name>
+			<Name>Chinook</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CH-47</ShortName>
+			<LongName>CH-47 Chinook</LongName>
+			<FullName>Boeing CH-47 Chinook</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Rotorcraft.CH-53" Base="Rotorcraft.Transport">
 		<Criteria>
 			<Name>Sea Stallion</Name>
@@ -421,7 +433,7 @@
 			<ShortName>SA 330</ShortName>
 			<LongName>SA 330 Puma</LongName>
 			<FullName>Aérospatiale SA 330 Puma</FullName>
-			<Shape>Rotocraft.SA330.obj</Shape>
+			<Shape>Rotorcraft.SA330.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -461,7 +473,7 @@
 			<ShortName>SA342</ShortName>
 			<LongName>SA 342 Gazelle</LongName>
 			<FullName>Aérospatiale SA 342 Gazelle</FullName>
-			<Shape>Rotorcraft.SA 342M.obj</Shape>
+			<Shape>Rotorcraft.SA342M.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -472,7 +484,7 @@
 		<Properties>
 			<ShortName>SA342M</ShortName>
 			<LongName>SA 342M Gazelle</LongName>
-			<FullName>Aérospatiale SA 342M Gazelle</FullName>
+			<FullName>Aérospatiale SA342M Gazelle</FullName>
 		</Properties>
 	</DefaultProperties>
 

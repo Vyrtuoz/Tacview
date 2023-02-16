@@ -45,7 +45,7 @@
 	<DefaultProperties Id="Watercraft.Submarine" Base="Core.Submarine">
 	</DefaultProperties>
 
-	<!-- North Transports -->
+	<!-- North American Transports -->
 
 	<DefaultProperties Id="Watercraft.LST-1" Base="Watercraft.LST">
 		<Criteria>
@@ -95,6 +95,7 @@
 			<Name>CG-47</Name>
 			<Name>Ticonderoga</Name>
 			<Name>TICONDEROG</Name>		<!-- DCS World 2.5 -->
+			<Name>Ticon CLS</Name>		<!-- BMS 4.36 -->
 		</Criteria>
 		<Properties>
 			<ShortName>CG-47</ShortName>
@@ -446,6 +447,72 @@
 			<LongName>Type S130</LongName>
 			<FullName>Schnellboot Type S130</FullName>
 			<Shape>Watercraft.Type S130.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Frigate.P265" Base="Watercraft.Corvette">
+		<Criteria>
+			<Name>P265</Name>
+			<Name>Dumbarton Castle</Name>
+			<Name>Castle</Name>	<!-- DCS World 2.8 -->
+		</Criteria>
+		<Properties>
+			<ShortName>P265</ShortName>
+			<LongName>Dumbarton Castle</LongName>
+			<FullName>Dumbarton Castle (P265)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Frigate.F12" Base="Watercraft.Frigate">
+		<Criteria>
+			<Name>F12</Name>
+			<Name>Achilles</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F12</ShortName>
+			<LongName>HMS Achilles</LongName>
+			<FullName>HMS Achilles (F12)</FullName>
+			<EngagementRange>7500</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Frigate.F57" Base="Watercraft.Frigate.F12">
+		<Criteria>
+			<Name>F57</Name>
+			<Name>Andromeda</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F57</ShortName>
+			<LongName>HMS Andromeda</LongName>
+			<FullName>HMS Andromeda (F57)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Frigate.F72" Base="Watercraft.Frigate.F57">
+		<Criteria>
+			<Name>F72</Name>
+			<Name>Ariadne</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F72</ShortName>
+			<LongName>HMS Ariadne</LongName>
+			<FullName>HMS Ariadne (F72)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Russian Transports -->
+
+	<DefaultProperties Id="Watercraft.Ropucha" Base="Watercraft.LST">
+		<Criteria>
+			<Name>Ropucha</Name>
+			<Name>Project 775</Name>
+			<Name>BDK 775</Name>	<!-- DCS 2.8.2 -->
+		</Criteria>
+		<Properties>
+			<ShortName>Ropucha</ShortName>
+			<LongName>Project 775 Ropucha</LongName>
+			<FullName>Project 775 Ropucha</FullName>
+			<EngagementRange>5500</EngagementRange>
 		</Properties>
 	</DefaultProperties>
 

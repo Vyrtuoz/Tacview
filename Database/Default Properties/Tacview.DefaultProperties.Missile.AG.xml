@@ -15,6 +15,9 @@
 	<DefaultProperties Id="Missile.AG.Radar" Base="Missile.AG">
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.AG.Wire" Base="Missile.AG">
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.AG.Radio" Base="Missile.AG">
 	</DefaultProperties>
 
@@ -41,15 +44,27 @@
 
 	<!-- North American Air to Ground Missiles -->
 
-	<DefaultProperties Id="Missile.ARM.AGM-122" Base="Missile.AA.AIM-9C">
+	<DefaultProperties Id="Missile.AG.AGM-45" Base="Missile.AG">
 		<Criteria>
-			<Name>AGM-122</Name>
-			<Name>AGM-122 Sidearm</Name>
+			<Name>AGM-45</Name>
+			<Name>AGM-45 Shrike</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>AGM-122</ShortName>
-			<LongName>AGM-122 Sidearm</LongName>
-			<FullName>AGM-122 Sidearm</FullName>
+			<ShortName>AGM-45</ShortName>
+			<LongName>AGM-45 Shrike</LongName>
+			<FullName>AGM-45 Shrike</FullName>
+			<Shape>Missile.AGM-88.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.AGM-45A" Base="Missile.AG.AGM-45">
+		<Criteria>
+			<Name>AGM-45A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGM-45A</ShortName>
+			<LongName>AGM-45A Shrike</LongName>
+			<FullName>AGM-45A Shrike</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -246,6 +261,54 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.AG.AGM-114" Base="Missile.AG">
+		<Criteria>
+			<Name>AGM-114</Name>
+			<Name>Hellfire</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGM-114</ShortName>
+			<LongName>AGM-114 Hellfire</LongName>
+			<FullName>AGM-114 Hellfire</FullName>
+			<Shape>Core.Missile.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.AGM-114K" Base="Missile.AG.AGM-114">
+		<Criteria>
+			<Name>AGM-114K</Name>
+			<Name>Hellfire I</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGM-114K</ShortName>
+			<LongName>AGM-114K Hellfire II</LongName>
+			<FullName>AGM-114K Hellfire II</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.ARM.AGM-122" Base="Missile.AA.AIM-9C">
+		<Criteria>
+			<Name>AGM-122</Name>
+			<Name>AGM-122 Sidearm</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGM-122</ShortName>
+			<LongName>AGM-122 Sidearm</LongName>
+			<FullName>AGM-122 Sidearm</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.ARM.AGM-154" Base="Missile.AG.SOM">
+		<Criteria>
+			<Name>AGM-154</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGM-154</ShortName>
+			<LongName>AGM-154 JSOW</LongName>
+			<FullName>AGM-154 Joint Standoff Weapon (JSOW)</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- Eastern Air to Ground Missiles -->
 
 	<DefaultProperties Id="Missile.AG.GB-6" Base="Missile.AG.SOM">
@@ -292,6 +355,54 @@
 			<ShortName>AT-6</ShortName>
 			<LongName>AT-6 Spiral (9K114)</LongName>
 			<FullName>AT-6 Spiral (9K114 Shturm)</FullName>
+			<Shape>Rocket.Hydra 70.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.AT-9" Base="Missile.AG.AT-6">
+		<Criteria>
+			<Name>9M120</Name>
+			<Name>Ataka</Name>
+			<Name>AT-9</Name>
+			<Name>Spiral-2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AT-9</ShortName>
+			<LongName>AT-9 Spiral-2 (9M120)</LongName>
+			<FullName>AT-9 Spiral-2 (9M120 Ataka)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.9M120F" Base="Missile.AG.AT-9">
+		<Criteria>
+			<Name>9M120F</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AT-9</ShortName>
+			<LongName>AT-9 Spiral-2 (9M120F)</LongName>
+			<FullName>AT-9 Spiral-2 (9M120F Ataka)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.9M120M" Base="Missile.AG.AT-9">
+		<Criteria>
+			<Name>9M120M</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AT-9</ShortName>
+			<LongName>AT-9 Spiral-2 (9M120M)</LongName>
+			<FullName>AT-9 Spiral-2 (9M120M Ataka)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.9M220" Base="Missile.AG.AT-9">
+		<Criteria>
+			<Name>9M220</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AT-9</ShortName>
+			<LongName>AT-9 Spiral-2 (9M220)</LongName>
+			<FullName>AT-9 Spiral-2 (9M220 Ataka)</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -354,11 +465,14 @@
 			<Name>9K121 Vikhr</Name>
 			<Name>Vikhr</Name>
 			<Name>Vikhr-M</Name>			<!-- Typo from DCS 2.5.5.33184 -->
+			<Name>AT-16</Name>
+			<Name>Scallion</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>Vikhr</ShortName>
 			<LongName>9K121 Vikhr</LongName>
-			<FullName>9K121 Vikhr</FullName>
+			<FullName>9K121 Vikhr (AT-16)</FullName>
+			<Shape>Rocket.Hydra 70.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

@@ -270,12 +270,34 @@
 
 	<DefaultProperties Id="Rocket.SNEB68" Base="Rocket.Light">
 		<Criteria>
-			<Name>SNEB68</Name>
+			<Name>SNEB 68</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SNEB68</ShortName>
-			<LongName>SNEB68</LongName>
-			<FullName>SNEB68</FullName>
+			<LongName>SNEB 68</LongName>
+			<FullName>SNEB Type 68</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rocket.SNEB251" Base="Rocket.Light">
+		<Criteria>
+			<Name>SNEB 251</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SNEB251</ShortName>
+			<LongName>SNEB 251</LongName>
+			<FullName>SNEB Type 251</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rocket.SNEB256" Base="Rocket.Light">
+		<Criteria>
+			<Name>SNEB 256</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SNEB256</ShortName>
+			<LongName>SNEB 256</LongName>
+			<FullName>SNEB Type 256</FullName>
 		</Properties>
 	</DefaultProperties>
 

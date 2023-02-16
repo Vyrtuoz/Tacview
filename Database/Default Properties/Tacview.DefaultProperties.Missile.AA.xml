@@ -219,6 +219,17 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.AA.AIM-9JULI" Base="Missile.AA.AIM-9L">
+		<Criteria>
+			<Name>AIM-9 JULI</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AIM-9JULI</ShortName>
+			<LongName>AIM-9 JULI Sidewinder</LongName>
+			<FullName>AIM-9 JULI Sidewinder</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.AA.RB74" Base="Missile.AA.AIM-9L">
 		<Criteria>
 			<Name>RB 74</Name>	<!-- Viggen -->
@@ -449,28 +460,68 @@
 
 	<!-- EU AA Missiles -->
 
-	<DefaultProperties Id="Missile.AA.R550Mk2" Base="Missile.AA.IR">
+	<DefaultProperties Id="Missile.AA.R530" Base="Missile.AA.Radar">
 		<Criteria>
-			<Name>R550</Name>
-			<Name>Magic II</Name>
-			<Name>M.Magic</Name>		<!-- DCS World Mirage 2000C -->
+			<Name>R530</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>R550</ShortName>
-			<LongName>R550 Magic II</LongName>
-			<FullName>Matra R550 Magic II</FullName>
+			<ShortName>R530</ShortName>
+			<LongName>R530</LongName>
+			<FullName>Matra R530D</FullName>
+			<Shape>Missile.R530.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Missile.AA.R530D" Base="Missile.AA.Radar">
+	<DefaultProperties Id="Missile.AA.R530F" Base="Missile.AA.R530">
 		<Criteria>
-			<Name>S530D</Name>			<!-- DCS World Mirage 2000C -->
+			<Name>R530F</Name>
+			<Name>R-530F</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R530F</ShortName>
+			<LongName>R530F</LongName>
+			<FullName>Matra R530F</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.S530D" Base="Missile.AA.R530">
+		<Criteria>
+			<Name>S530D</Name>
+			<!-- DCS World Mirage 2000C -->
 			<Name>Super 530 D</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>S530D</ShortName>
 			<LongName>Super 530D</LongName>
 			<FullName>Matra Super 530D</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R550Mk1" Base="Missile.AA.IR">
+		<Criteria>
+			<Name>R550</Name>
+			<Name>R 550 M1</Name>		<!-- DCS World Mirage F-1 -->
+			<Name>Magic 1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R550</ShortName>
+			<LongName>R550 Magic 1</LongName>
+			<FullName>Matra R550 Magic 1</FullName>
+			<Shape>Missile.R550.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R550Mk2" Base="Missile.AA.R550Mk1">
+		<Criteria>
+			<Name>R550 M2</Name>
+			<Name>Magic 2</Name>
+			<Name>Magic II</Name>
+			<Name>M.Magic</Name>		<!-- DCS World Mirage 2000C -->
+		</Criteria>
+		<Properties>
+			<ShortName>R550</ShortName>
+			<LongName>R550 Magic 2</LongName>
+			<FullName>Matra R550 Magic 2</FullName>
 		</Properties>
 	</DefaultProperties>
 

@@ -61,6 +61,13 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Other.JTAC" Base="Core.Infantry">
+		<Criteria>
+			<Name>JTAC</Name>
+			<Type>Ground</Type>			<!-- DCS 2.8: Ground+AntiAircraft -->
+		</Criteria>
+	</DefaultProperties>
+
 	<!-- North American Infantry -->
 
 	<DefaultProperties Id="Other.M-16" Base="Core.Infantry">
@@ -217,6 +224,7 @@
 	<DefaultProperties Id="Container.DropTank.PTB-400" Base="Container.DropTank">
 		<Criteria>
 			<Name>PTB-400</Name>
+			<Name>fuel tank f-4 w</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>Drop Tank</ShortName>
@@ -228,6 +236,7 @@
 	<DefaultProperties Id="Container.DropTank.PTB-760" Base="Container.DropTank">
 		<Criteria>
 			<Name>PTB-760</Name>
+			<Name>fuel tank f-4 f</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>Drop Tank</ShortName>
