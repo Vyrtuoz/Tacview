@@ -28,8 +28,8 @@
 	<String ID="RecordingMenuHelp">设置飞行数据记录</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;实时遥测...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">记录当前正在进行的飞行</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4 Real-Time Telemetry...</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Record a flight currently in progress in Falcon 4 &amp; BMS</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4实时遥测...</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">在Falcon 4 &amp; BMS中记录当前正在进行的飞行</String>
 	<String ID="RecordingADSBTelemetryCmdText">ADS-B遥测...</String>
 	<String ID="RecordingADSBTelemetryCmdHelp">记录空中ADS-B遥测数据</String>
 	<String ID="RecordingRemoteControl0Text">遥控1</String>
@@ -125,8 +125,8 @@
 	<String ID="OptionsCockpitText">驾驶舱</String>
 	<String ID="OptionsAnticipatoryTrailText">预期轨迹</String>
 	<String ID="OptionsAnticipatoryTrailDisabled">禁用</String>
-	<String ID="OptionsRealTimeTelemetryLagText">Real-time Telemetry Lag</String>
-	<String ID="OptionsRealTimeTelemetryLagDefault">(default)</String>
+	<String ID="OptionsRealTimeTelemetryLagText">实时遥测延迟</String>
+	<String ID="OptionsRealTimeTelemetryLagDefault">(默认)</String>
 
 	<String ID="OptionsTerrainText">地形</String>
 	<String ID="OptionsTerrainAutoText">（&amp;自动）</String>
@@ -182,11 +182,11 @@
 	<String ID="OptionsPositionFormatDMSHelp">度，分，秒</String>
 	<String ID="OptionsPositionFormatMGRSHelp">军事网格参考系统</String>
 
-	<String ID="OptionsNorthReferenceText">North Reference</String>
-	<String ID="OptionsNorthReferenceTrueText">True</String>
-	<String ID="OptionsNorthReferenceTrueHelp">Use geographic north as the heading reference</String>
-	<String ID="OptionsNorthReferenceMagneticText">Magnetic</String>
-	<String ID="OptionsNorthReferenceMagneticHelp">Use the magnetic declination for the current location</String>
+	<String ID="OptionsNorthReferenceText">北向基准</String>
+	<String ID="OptionsNorthReferenceTrueText">真</String>
+	<String ID="OptionsNorthReferenceTrueHelp">使用地理上的北作为航向基准</String>
+	<String ID="OptionsNorthReferenceMagneticText">磁</String>
+	<String ID="OptionsNorthReferenceMagneticHelp">使用当前位置的磁偏角</String>
 
 	<String ID="OptionsTimeFormatText">时间偏移</String>
 
@@ -443,9 +443,9 @@
 	<String ID="RollText">滚转</String>
 	<String ID="PitchHelp">航空器俯仰姿态</String>
 	<String ID="PitchText">俯仰</String>
-	<String ID="HeartRateHelp">Pilot heart rate in beats per minute</String>
-	<String ID="HeartRateText">Heart Rate</String>
-	<String ID="SpO2Help">Percentage of blood that is saturated with oxygen</String>
+	<String ID="HeartRateHelp">飞行员的心率，以每分钟为单位</String>
+	<String ID="HeartRateText">心率</String>
+	<String ID="SpO2Help">血液中氧饱和度的百分比</String>
 	<String ID="SpO2Text">SpO2</String>
 
 	<String ID="NavaidsLabelsText">助航标签</String>
@@ -583,14 +583,14 @@
 	<String ID="RealTimeTelemetryDisconnect">断开连接</String>
 	<String ID="RealTimeTelemetryAutoReconnect">自动重新连接</String>
 
-	<String ID="Falcon4RealTimeTelemetryTitle">Falcon 4 Real-time Telemetry</String>
-	<String ID="Falcon4RealTimeTelemetryIntro">Import Falcon 4 *.flt files to review telemetry data in real-time!</String>
-	<String ID="Falcon4RealTimeTelemetryInstructions">As soon as your Falcon 4 flight has started, press the [F] key to start recording data.&#xA;Falcon will generate *.flt files which will be read by Tacview and displayed in real-time in the 3D view.&#xA;&#xA;*** NOTES ***&#xA;&#xA;&#x2022; You might want to force Falcon to inject colors and callsigns by pressing twice the [F] key during the flight.&#xA;&#x2022; Starting with BMS 4.36 Update 1, you need to set g_bTacviewAcmi 0 in "Falcon BMS User.cfg" file to create *.flt files.</String>
-	<String ID="Falcon4RealTimeTelemetryDirectoryLabel">Falcon 4.0 Acmi folders	:</String>
-	<String ID="Falcon4RealTimeTelemetryFiles">Falcon 4 *.flt files</String>
-	<String ID="BrowseFalcon4ACMIDirectoryHelp">Please select the Acmi folder where Falcon 4.0 stores its VHS And FLT files.</String>
-	<String ID="RealTimeTelemetryStartRecording">Start Recording</String>
-	<String ID="RealTimeTelemetryStopRecording">Stop Recording</String>
+	<String ID="Falcon4RealTimeTelemetryTitle">Falcon 4实时遥测</String>
+	<String ID="Falcon4RealTimeTelemetryIntro">导入Falcon 4 *.flt文件，实时查看遥测数据！</String>
+	<String ID="Falcon4RealTimeTelemetryInstructions">当你的Falcon 4飞行开始后，按[F]键开始记录数据。&#xA;Falcon将产生*.flt文件，这些文件将被Tacview读取并在3D视图中实时显示。 &#xA;&#xA;***注意 ***&#xA;&#xA;&#x2022; 你可能想在飞行过程中按两次[F]键，强制Falcon注入颜色和呼号。&#xA;&#x2022; 从BMS 4.36更新1开始，你需要在 "Falcon BMS User.cfg" 文件中设置g_bTacviewAcmi 0来创建*.flt文件。</String>
+	<String ID="Falcon4RealTimeTelemetryDirectoryLabel">Falcon 4.0 Acmi文件夹：</String>
+	<String ID="Falcon4RealTimeTelemetryFiles">Falcon 4 *.flt文件</String>
+	<String ID="BrowseFalcon4ACMIDirectoryHelp">请选择Falcon 4.0存储VHS和FLT文件的Acmi文件夹。</String>
+	<String ID="RealTimeTelemetryStartRecording">开始记录</String>
+	<String ID="RealTimeTelemetryStopRecording">停止记录</String>
 
 	<String ID="ADSBTelemetryTitle">ADS-B遥测</String>
 	<String ID="ADSBTelemetryIntro">收听1090MHz的ADS-B无线电信号，实时显示您周围的航空器！</String>
@@ -1063,7 +1063,7 @@
 	<String ID="FileTypeDescriptionNMEA0183">GPS NMEA 0183日志文件</String>
 	<String ID="FileTypeDescriptionGPX">GPS eXchange文件</String>
 	<String ID="FileTypeDescriptionVHS">Falcon 4.0飞行记录</String>
-	<String ID="FileTypeDescriptionFLT">Falcon 4.0 Temporary Flight Recordings</String>
+	<String ID="FileTypeDescriptionFLT">Falcon 4.0临时飞行记录</String>
 	<String ID="FileTypeDescriptionMAVLink">MAVLink遥测</String>
 	<String ID="FileTypeDescriptionIGC">国际滑翔委员会遥测</String>
 	<String ID="FileTypeDescriptionCSV">CSV（逗号分隔值）文件</String>
