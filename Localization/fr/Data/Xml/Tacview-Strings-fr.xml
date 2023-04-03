@@ -232,7 +232,7 @@
 	<String ID="DogfightModeCenteredHelp">Centre la caméra entre les objets sélectionnés</String>
 	<String ID="DogfightModeLookAtText">Regarder cible</String>
 	<String ID="DogfightModeLookAtHelp">Pointer la caméra en direction de l’objet secondaire</String>
-	<String ID="DogfightModeLookForwardText">Regarder vers avant</String>
+	<String ID="DogfightModeLookForwardText">Regarder vers l’avant</String>
 	<String ID="DogfightModeLookForwardHelp">Pointe la caméra dans la même direction que l’objet principal</String>
 
 	<String ID="InsertBookmarkText">&amp;Insérer signet</String>
