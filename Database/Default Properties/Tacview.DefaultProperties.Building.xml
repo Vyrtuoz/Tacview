@@ -131,6 +131,7 @@
 		<!-- https://www.digitalcombatsimulator.com/fr/files/3196986/ -->
 		<Criteria>
 			<Name>25m Blue</Name>
+			<Name>Airshow Cone</Name>
 		</Criteria>
 		<Properties>
 			<Color>Blue</Color>

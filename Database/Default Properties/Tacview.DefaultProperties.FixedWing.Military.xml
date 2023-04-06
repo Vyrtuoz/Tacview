@@ -2171,6 +2171,18 @@
 
 	<!-- EU Europe Military Fixed-wing aircraft -->
 
+	<DefaultProperties Id="FixedWing.Ar.234" Base="FixedWing.Bomber.Jet">
+		<Criteria>
+			<Name>Ar 234</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Ar 234</ShortName>
+			<LongName>Ar 234B-2</LongName>
+			<FullName>Arado Ar 234B-2</FullName>
+			<Shape>FixedWing.He 111.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+	
 	<DefaultProperties Id="FixedWing.BAE.Hawk" Base="FixedWing.Trainer.Jet">
 		<Criteria>
 			<Name>BAE Hawk</Name>

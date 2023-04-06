@@ -171,6 +171,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Vehicle.Car.PickupB8M1" Base="Vehicle.Civilian.Pickup">
+		<Criteria>
+			<Name>tt_B8M1</Name>
+			<Name>HL_B8M1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Pickup</ShortName>
+			<LongName>B-8M1 Pickup</LongName>
+			<FullName>B-8M1 Pickup</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- Eastern Military Trucks -->
 
 	<DefaultProperties Id="Vehicle.Car.HL_KORD" Base="Vehicle.Civilian.Pickup">
@@ -185,14 +197,14 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Vehicle.Truck.ATZ-10" Base="Vehicle.Military.Tanker">
+	<DefaultProperties Id="Vehicle.Truck.ATZ-4-131" Base="Vehicle.Military.Tanker">
 		<Criteria>
-			<Name>ATZ-10</Name>
+			<Name>ATZ-4-131</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>ATZ-10</ShortName>
-			<LongName>ATZ-10</LongName>
-			<FullName>ATZ-10</FullName>
+			<ShortName>ATZ-4-131</ShortName>
+			<LongName>ATZ-4-131</LongName>
+			<FullName>ATZ-4-131 Tanker</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -215,6 +227,17 @@
 			<ShortName>ATMZ-5</ShortName>
 			<LongName>ATMZ-5</LongName>
 			<FullName>ATMZ-5</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Truck.ATZ-10" Base="Vehicle.Military.Tanker">
+		<Criteria>
+			<Name>ATZ-10</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ATZ-10</ShortName>
+			<LongName>ATZ-10</LongName>
+			<FullName>ATZ-10</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -803,6 +826,17 @@
 			<ShortName>M1126</ShortName>
 			<LongName>M1126 Stryker</LongName>
 			<FullName>M1126 Stryker</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.M1134" Base="Vehicle.Military.APC">
+		<Criteria>
+			<Name>M1134</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M1134</ShortName>
+			<LongName>M1134 Stryker</LongName>
+			<FullName>M1134 Stryker</FullName>
 		</Properties>
 	</DefaultProperties>
 

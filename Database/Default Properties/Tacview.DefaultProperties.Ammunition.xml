@@ -6,6 +6,12 @@
 
 	<!-- Core Declarations -->
 
+	<DefaultProperties Id="Core.Shell.Grenade" Base="Core.Shell">
+		<Properties>
+			<AdditionalType>Heavy+Shell</AdditionalType>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Core.Shell.Artillery" Base="Core.Shell">
 		<Criteria>
 			<Type>Shell</Type>
@@ -141,6 +147,19 @@
 		<Criteria>
 			<Name>2A28_73</Name>	<!-- from BMP 1 -->
 		</Criteria>
+	</DefaultProperties>
+
+	<!-- Eastern Grenades -->
+
+	<DefaultProperties Id="Grenade.VOG17" Base="Core.Shell.Grenade">
+		<Criteria>
+			<Name>VOG17</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>VOG-17</ShortName>
+			<LongName>VOG-17 Grenade</LongName>
+			<FullName>VOG-17 Grenade</FullName>
+		</Properties>
 	</DefaultProperties>
 
 </DefaultPropertiesCollection>

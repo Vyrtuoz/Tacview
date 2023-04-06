@@ -93,4 +93,18 @@
 			<Shape>Watercraft.Seawise Giant.obj</Shape>
 		</Properties>
 	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.MV Tilde" Base="Watercraft.Tanker">
+		<Criteria>
+			<Name>Tilde Supply</Name>
+			<Name>MV Tilde</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MV Tilde</ShortName>
+			<LongName>MV Tilde</LongName>
+			<FullName>MV Tilde Supply Boat</FullName>
+			<Shape>Watercraft.Cargo.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 </DefaultPropertiesCollection>

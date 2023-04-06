@@ -1550,6 +1550,30 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.CAP20" Base="FixedWing.CAP10">
+		<Criteria>
+			<Name>CAP 20</Name>
+			<Name>Mudry CAP 20</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CAP 20</ShortName>
+			<LongName>Mudry CAP 20</LongName>
+			<FullName>Mudry CAP 20</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.CAP21" Base="FixedWing.CAP20">
+		<Criteria>
+			<Name>CAP 21</Name>
+			<Name>Mudry CAP 21</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CAP 21</ShortName>
+			<LongName>Mudry CAP 21</LongName>
+			<FullName>Mudry CAP 21</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.EA300" Base="FixedWing.GA.SingleEngine.LowWing.Taildragger">
 		<Criteria>
 			<Name>EA300</Name>
@@ -2333,7 +2357,7 @@
 			<ShortName>A300</ShortName>
 			<LongName>Airbus A300</LongName>
 			<FullName>Airbus A300</FullName>
-			<Shape>FixedWing.A300-600ST.obj</Shape>
+			<Shape>FixedWing.B767.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 	

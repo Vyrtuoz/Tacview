@@ -117,6 +117,7 @@
 			<LongName>Arleigh Burke</LongName>
 			<FullName>USS Arleigh Burke</FullName>
 			<Shape>Watercraft.CG-47.obj</Shape>
+			<EngagementRange>55000</EngagementRange>
 		</Properties>
 	</DefaultProperties>
 
@@ -450,6 +451,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Watercraft.FAC.LaCombattanteIIa" Base="Watercraft.Corvette">
+		<Criteria>
+			<Name>La Combattante II</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>P214</ShortName>
+			<LongName>La Combattante IIa</LongName>
+			<FullName>La Combattante IIa</FullName>
+			<EngagementRange>3300</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Watercraft.Frigate.P265" Base="Watercraft.Corvette">
 		<Criteria>
 			<Name>P265</Name>
@@ -460,6 +473,8 @@
 			<ShortName>P265</ShortName>
 			<LongName>Dumbarton Castle</LongName>
 			<FullName>Dumbarton Castle (P265)</FullName>
+			<EngagementRange>2300</EngagementRange>
+			<Shape>Watercraft.F710.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

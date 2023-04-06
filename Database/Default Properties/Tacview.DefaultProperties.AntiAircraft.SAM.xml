@@ -39,9 +39,9 @@
 	</DefaultProperties>
 
 	<DefaultProperties Id="AntiAircraft.SAM.Control" Base="AntiAircraft.SAM">
-	</DefaultProperties>
-
-	<DefaultProperties Id="AntiAircraft.SAM.Control.Truck" Base="Vehicle.Military.Truck">
+		<Properties>
+			<Shape>Vehicle.Truck.Kamaz.Command.obj</Shape>
+		</Properties>
 	</DefaultProperties>
 
 	<DefaultProperties Id="AntiAircraft.SAM.SearchRadar" Base="AntiAircraft.SAM">
@@ -112,6 +112,7 @@
 			<LongName>M6 Linebacker</LongName>
 			<FullName>M6 Linebacker</FullName>
 			<EngagementRange>4250</EngagementRange>
+			<Shape>AntiAircraft.AAA.ZSU-23-4.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -172,7 +173,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="AntiAircraft.SAM.MIM-104.AN/MSQ-104" Base="AntiAircraft.SAM.Control.Truck">
+	<DefaultProperties Id="AntiAircraft.SAM.MIM-104.AN/MSQ-104" Base="AntiAircraft.SAM.Control">
 		<Criteria>
 			<Name>Patriot cp</Name>		<!-- DCS World 2.2 -->
 		</Criteria>
@@ -680,7 +681,18 @@
 		<Properties>
 			<ShortName>SA-10</ShortName>
 			<LongName>SA-10 Grumble (CP)</LongName>
-			<FullName>SA-10 Grumble (S-300PS 54K6 Control)</FullName>
+			<FullName>SA-10 Grumble (S-300PS 54K6 Command Post)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-10.54K6E" Base="AntiAircraft.SAM.SA-10.54K6">
+		<Criteria>
+			<Name>54K6E</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-10</ShortName>
+			<LongName>SA-10 Grumble (CP)</LongName>
+			<FullName>SA-10 Grumble (S-300PS 54K6E Command Post)</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -697,13 +709,27 @@
 
 	<DefaultProperties Id="AntiAircraft.SAM.SA-10.64H6E" Base="AntiAircraft.SAM.SearchRadar">
 		<Criteria>
-			<Name>S-300PS 64H6E sr</Name>
+			<Name>S-300PS 64H6E sr</Name>	<!-- Cyrillic Typo in DCS World -->
 			<Name>SA-10 SR</Name>
+			<Name>64N6E</Name>
+			<Name>Big Bird</Name>			<!-- Falcon 4 BMS -->
 		</Criteria>
 		<Properties>
 			<ShortName>SA-10</ShortName>
 			<LongName>SA-10 Grumble (SR)</LongName>
-			<FullName>SA-10 Grumble (S-300PS 64H6E Search Radar)</FullName>
+			<FullName>SA-10 Grumble (S-300PS 64N6E Search Radar)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-10.76N6" Base="AntiAircraft.SAM.SearchRadar">
+		<Criteria>
+			<Name>Clam Shell</Name>	<!-- BMS -->
+			<Name>76N6</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-10</ShortName>
+			<LongName>SA-10 Grumble (SR)</LongName>
+			<FullName>SA-10 Grumble (S-300PS 76N6 Search Radar)</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -740,6 +766,19 @@
 			<ShortName>SA-10</ShortName>
 			<LongName>SA-10 Grumble (TR)</LongName>
 			<FullName>SA-10 Grumble (S-300PS 40B6M Tracking Radar)</FullName>
+			<EngagementRange>55000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-10.30N6" Base="AntiAircraft.SAM.TrackingRadar">
+		<Criteria>
+			<Name>Flap Lid</Name>
+			<Name>30N6</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-10</ShortName>
+			<LongName>SA-10 Grumble (TR)</LongName>
+			<FullName>SA-10 Grumble (S-300PS 30N6 Tracking Radar)</FullName>
 			<EngagementRange>55000</EngagementRange>
 		</Properties>
 	</DefaultProperties>

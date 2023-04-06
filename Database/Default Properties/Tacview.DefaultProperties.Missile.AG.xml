@@ -419,6 +419,32 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.AG.Kh-25" Base="Missile.AG.Laser">
+		<Criteria>
+			<Name>Kh-25</Name>
+			<Name>Х-25</Name>	<!-- Russian X -->
+			<Name>X_25</Name>
+			<Name>Karen</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Kh-25</ShortName>
+			<LongName>Kh-25 Karen</LongName>
+			<FullName>Kh-25 Karen (AS-10)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.Kh-25ML" Base="Missile.AG.Kh-25">
+		<Criteria>
+			<Name>Kh-25ML</Name>
+			<Name>X_25ML</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Kh-25ML</ShortName>
+			<LongName>Kh-25ML Karen</LongName>
+			<FullName>Kh-25ML Karen (AS-10)</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.AG.Kh-29" Base="Missile.AG.Laser">
 		<Criteria>
 			<Name>Kh-29</Name>

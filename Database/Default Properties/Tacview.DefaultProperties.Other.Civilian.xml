@@ -34,6 +34,20 @@
 		</Properties>
 	</DefaultProperties>
 
+	<!-- Locations -->
+
+	<DefaultProperties Id="Location.Airdrome" Base="Core.Default">
+		<Criteria>
+			<Type>Ground+Static+Building+Aerodrome</Type>
+			<Name>fakefield</Name>	<!-- IL-2 -->
+		</Criteria>
+		<Properties>
+			<ShortName>#</ShortName>
+			<LongName>Airfield</LongName>
+			<FullName>Airfield</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- Buildings -->
 
 	<DefaultProperties Id="Building.OilPlatform" Base="Other.Sea.Platform">
