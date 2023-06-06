@@ -847,8 +847,8 @@
 	<String ID="AntiCheatIncompletePlayback">主机已延迟设置此文件的回放延迟 {0} 分钟。最后 {1} 分钟无法重看。</String>
 -->
 	<String ID="LowEndOpenGL">Please update your graphics card driver</String>
-	<String ID="AntiCheatCannotPlayback">Playback of this file has been delayed by {0} minutes by the host. There is not enough time recorded to playback any data.</String>
-	<String ID="AntiCheatIncompletePlayback">Playback of this file has been delayed by {0} minutes by the host. The last {1} minute(s) cannot be reviewed.</String>
+	<String ID="AntiCheatCannotPlayback">Playback of this file has been delayed by {0} minute(s) by the host. There is not enough time recorded to playback any data.</String>
+	<String ID="AntiCheatIncompletePlayback">Playback of this file has been delayed by {0} minute(s) by the host. The last {1} minute(s) cannot be reviewed.</String>
 	<String ID="AuthenticationComplete">This file is authentic, it has not been altered since its recording.</String>
 	<String ID="AuthenticationIncomplete">This file is authentic, except for the last {0} seconds which cannot be validated.</String>
 

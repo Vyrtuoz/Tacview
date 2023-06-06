@@ -818,8 +818,8 @@ Assurez-vous que tout est correctement connecté et configuré, puis cliquez sur
 	<String ID="FlightSimHookTooltipMessage">Lorsque cette icone est visible, tous les vols sont automatiquement enregistrés par votre simulateur de vol. Il n'est pas nécessaire de garder Tacview ouvert pendant que vous volez.</String>
 	<String ID="FlightRecordingEmptyNotification">Cet enregistrement est vide.</String>
 	<String ID="LowEndOpenGL">Veuillez mettre à jour vos pilotes de carte graphique</String>
-	<String ID="AntiCheatCannotPlayback">L’analyse de ce fichier a été retardée de {0} minutes par l’hôte. Il n’y a pas suffisamment de temps enregistré pour revoir des données.</String>
-	<String ID="AntiCheatIncompletePlayback">L’analyse de ce fichier a été retardée de {0} minutes par l’hôte. Les dernières {1} minute(s) ne peuvent pas être revues.</String>
+	<String ID="AntiCheatCannotPlayback">L’analyse de ce fichier a été retardée de {0} minute(s) par l’hôte. Il n’y a pas suffisamment de temps enregistré pour revoir des données.</String>
+	<String ID="AntiCheatIncompletePlayback">L’analyse de ce fichier a été retardée de {0} minute(s) par l’hôte. Les dernières {1} minute(s) ne peuvent pas être revues.</String>
 	<String ID="AuthenticationComplete">Ce fichier est authentique, il n’a pas été modifié depuis son enregistrement.</String>
 	<String ID="AuthenticationIncomplete">Ce fichier est authentique, excepté les dernières {0} secondes qui ne peuvent être validées.</String>
 
