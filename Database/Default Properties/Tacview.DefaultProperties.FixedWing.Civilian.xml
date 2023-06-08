@@ -304,6 +304,20 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.C90B" Base="FixedWing.C90">
+		<Criteria>
+			<Name>Beechcraft C90B</Name>
+			<Name>King Air C90B</Name>
+			<Name>C90B Beech</Name>
+			<Name>C90B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C90B</ShortName>
+			<LongName>King Air C90B</LongName>
+			<FullName>King Air C90B</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.F90" Base="FixedWing.C90">
 		<Criteria>
 			<Name>Beechcraft F90</Name>
@@ -694,6 +708,18 @@
 			<ShortName>CJ4</ShortName>
 			<LongName>Cessna Citation CJ4</LongName>
 			<FullName>Cessna Citation CJ4</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.C750" Base="FixedWing.CJ3">
+		<Criteria>
+			<Name>Citation X</Name>
+			<Name>Cessna Citation X</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C750</ShortName>
+			<LongName>Cessna Citation X</LongName>
+			<FullName>Cessna Citation X</FullName>
 		</Properties>
 	</DefaultProperties>
 

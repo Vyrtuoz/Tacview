@@ -132,6 +132,7 @@
 	<DefaultProperties Id="Shell.L23A1.APFSDS.AP" Base="Core.Shell.Tank">
 		<Criteria>
 			<Name>L23A1_APFSDS</Name>
+			<Name>L23_120_AP</Name>
 		</Criteria>
 	</DefaultProperties>
 

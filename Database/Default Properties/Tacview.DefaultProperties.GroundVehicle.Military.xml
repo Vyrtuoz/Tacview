@@ -839,6 +839,42 @@
 			<FullName>M1134 Stryker</FullName>
 		</Properties>
 	</DefaultProperties>
+	
+	<DefaultProperties Id="Vehicle.Tank.Schneider CA1" Base="Vehicle.Military.Tank">
+		<Criteria>
+			<Name>Schneider CA 1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CA1</ShortName>
+			<LongName>Schneider CA1</LongName>
+			<FullName>Schneider CA1</FullName>
+			<Shape>Vehicle.Tank.Schneider CA1.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="Vehicle.Tank.Sturmpanzerwagen A7V" Base="Vehicle.Military.Tank">
+		<Criteria>
+			<Name>Sturmpanzerwagen A7V</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A7V</ShortName>
+			<LongName>Sturmpanzerwagen A7V</LongName>
+			<FullName>Sturmpanzerwagen A7V</FullName>
+			<Shape>Vehicle.Tank.A7V.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Tank.Challenger2" Base="Vehicle.Military.Tank">
+		<Criteria>
+			<Name>Challenger 2</Name>
+			<Name>FV4034</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>FV4034</ShortName>
+			<LongName>Challenger 2</LongName>
+			<FullName>FV4034 Challenger 2</FullName>
+		</Properties>
+	</DefaultProperties>
 
 	<!-- Eastern Tanks -->
 
@@ -864,7 +900,7 @@
 			<FullName>KV-1S</FullName>
 		</Properties>
 	</DefaultProperties>
-
+	
 	<DefaultProperties Id="Vehicle.Tank.SU-122" Base="Vehicle.Tank.T-34">
 		<Criteria>
 			<Name>SU-122</Name>

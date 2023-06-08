@@ -802,6 +802,43 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.A-6" Base="FixedWing.GroundAttack">
+		<Criteria>
+			<Name>A-6</Name>
+			<Name>Intruder</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A-6</ShortName>
+			<LongName>A-6 Intruder</LongName>
+			<FullName>Grumman A-6 Intruder</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.EA-6A" Base="FixedWing.A-6">
+		<Criteria>
+			<Name>EA-6A</Name>
+			<Name>EA-6A Intruder</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>EA-6A</ShortName>
+			<LongName>EA-6A Intruder</LongName>
+			<FullName>Grumman EA-6A Intruder</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.EA-6B" Base="FixedWing.EA-6A">
+		<Criteria>
+			<Name>EA-6B</Name>
+			<Name>Prowler</Name>
+			<Name>EA-6B Prowler</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>EA-6B</ShortName>
+			<LongName>EA-6B Prowler</LongName>
+			<FullName>Northrop Grumman EA-6B Prowler</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.A-7" Base="FixedWing.GroundAttack">
 		<Criteria>
 			<Name>A-7</Name>
@@ -1502,6 +1539,18 @@
 			<ShortName>F/A-18F</ShortName>
 			<LongName>F/A-18F Super Hornet</LongName>
 			<FullName>Boeing F/A-18F Super Hornet</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.EA-18G" Base="FixedWing.F-18F">
+		<Criteria>
+			<Name>EA-18G</Name>
+			<Name>Growler</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>EA-18G</ShortName>
+			<LongName>EA-18G Growler</LongName>
+			<FullName>Boeing EA-18G Growler</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -3276,6 +3325,29 @@
 			<FullName>Dassault Mirage 2000D</FullName>
 		</Properties>
 	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.Nieuport 28" Base="FixedWing.Fighter.Biplane">
+		<Criteria>
+			<Name>Nieuport 28</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Nieuport 28</ShortName>
+			<LongName>Nieuport 28</LongName>
+			<FullName>Nieuport 28</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.Nieuport 28 C.1" Base="FixedWing.Nieuport 28">
+		<Criteria>
+			<Name>Nieuport 28 C.1</Name>
+			<Name>Nieuport 28.C1</Name>	<!-- IL-2 -->
+		</Criteria>
+		<Properties>
+			<ShortName>Nieuport 28</ShortName>
+			<LongName>Nieuport 28 C.1</LongName>
+			<FullName>Nieuport 28 C.1</FullName>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.PC-7" Base="FixedWing.Trainer.Prop">
 		<Criteria>
@@ -3339,6 +3411,32 @@
 			<ShortName>Rafale</ShortName>
 			<LongName>Rafale M</LongName>
 			<FullName>Dassault Rafale M</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.SPAD.S.VII" Base="FixedWing.Fighter.Biplane">
+		<Criteria>
+			<Name>SPAD S.VII</Name>
+			<Name>SPAD 7</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>S.VII</ShortName>
+			<LongName>SPAD S.VII</LongName>
+			<FullName>SPAD S.VII</FullName>
+			<!-- Tacview Extended Models by Richard Cook 2021-->
+			<Shape>FixedWing.SPAD S.XIII.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.SPAD S.VII C.1" Base="FixedWing.SPAD.S.VII">
+		<Criteria>
+			<Name>SPAD S.VII C.1</Name>
+			<Name>SPAD 7.C1</Name>	<!-- IL-2 -->
+		</Criteria>
+		<Properties>
+			<ShortName>S.VII</ShortName>
+			<LongName>SPAD S.VII C.1</LongName>
+			<FullName>SPAD S.VII C.1</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -3454,6 +3552,19 @@
 			<ShortName>C.200</ShortName>
 			<LongName>C.200 Saetta</LongName>
 			<FullName>Macchi C.200 Saetta</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.Sk 60" Base="FixedWing.Trainer.Jet">
+		<Criteria>
+			<Name>Sk 60</Name>
+			<Name>SK-60</Name>	<!--DCS World -->
+		</Criteria>
+		<Properties>
+			<ShortName>Sk 60</ShortName>
+			<LongName>Saab Sk 60</LongName>
+			<FullName>Saab Sk 60</FullName>
+			<Shape>FixedWing.Sk 60.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

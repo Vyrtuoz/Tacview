@@ -16,7 +16,7 @@
 	</DefaultProperties>
 
 	<!-- North American Helicopters -->
-
+	
 	<DefaultProperties Id="Rotorcraft.Bell 206" Base="Rotorcraft.Transport">
 		<Criteria>
 			<Name>JetRanger</Name>
@@ -179,6 +179,20 @@
 			<LongName>AS355 Écureuil 2</LongName>
 			<FullName>Eurocopter AS355 Écureuil 2</FullName>
 			<Shape>Rotorcraft.AS350.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="Rotorcraft.AW139" Base="Core.Rotorcraft">
+		<Criteria>
+			<Name>AW139</Name>
+			<Name>AgustaWestland AW139</Name>
+			<Name>Leonardo AW139</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AW139</ShortName>
+			<LongName>Leonardo AW139</LongName>
+			<FullName>Leonardo AW139</FullName>
+			<Shape>Rotorcraft.S-76.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
