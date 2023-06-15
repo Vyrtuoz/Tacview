@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 
 <!-- Tacview Traditional Chinese (繁體中文) Text -->
 <!-- Translation by 張炯 'Billeinstein'-->
@@ -21,11 +21,17 @@
 	<String ID="FileExportText">匯出</String>
 	<String ID="FileExportFlightLogText">匯出飛行&amp;日誌...</String>
 	<String ID="FileExportFlightLogHelp">匯出飛行日誌為XML檔</String>
+	<String ID="FileExportTelemetryText">Export Telemetry...</String>
+	<String ID="FileExportTelemetryHelp">Export telemetry in the file format of your choice</String>
 
 	<String ID="RecordingMenuTooltip">記錄</String>
 	<String ID="RecordingMenuHelp">設置飛行資料記錄</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;即時遙測...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">記錄當前正在進行的飛行</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4 Real-Time Telemetry...</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Record a flight currently in progress in Falcon 4 &amp; BMS</String>
+	<String ID="RecordingADSBTelemetryCmdText">ADS-B Radio Telemetry...</String>
+	<String ID="RecordingADSBTelemetryCmdHelp">Record ADS-B telemetry over the air</String>
 	<String ID="RecordingRemoteControl0Text">遙控1</String>
 	<String ID="RecordingRemoteControl1Text">遙控2</String>
 	<String ID="RecordingRemoteControl2Text">遙控3</String>
@@ -42,6 +48,14 @@
 	<String ID="AnalysisPropertiesHelp">顯示或隱藏飛行記錄屬性</String>
 	<String ID="AnalysisEventLogText">&amp;飛行記日誌</String>
 	<String ID="AnalysisEventLogHelp">顯示或隱藏飛行記錄飛行日誌</String>
+	<String ID="AnalysisShotLogText">Event Log</String>
+	<String ID="AnalysisShotLogHelp">Show or hide the event log</String>
+	<String ID="AnalysisDisplayControlBarText">Playback Control Bar</String>
+	<String ID="AnalysisDisplayControlBarHelp">Show or hide playback control bar</String>
+	<String ID="AnalysisActiveObjectListText">Active Objects List</String>
+	<String ID="AnalysisActiveObjectListHelp">Show or hide the list of active objects</String>
+	<String ID="AnalysisTimeJumpText">Time Jump</String>
+	<String ID="AnalysisTimeJumpHelp">Show or hide the tool to jump to specific time</String>
 	<String ID="AnalysisDisplayTelemetry0Text">遙測&amp;1</String>
 	<String ID="AnalysisDisplayTelemetry0Help">顯示或隱藏遙測視窗#1</String>
 	<String ID="AnalysisDisplayTelemetry1Text">遙測&amp;2</String>
@@ -70,6 +84,14 @@
 	<String ID="AnalysisDisplayMedia3Help">顯示或隱藏音訊/視頻視窗 #3</String>
 	<String ID="AnalysisDisplayMedia4Text">媒體 &amp;4</String>
 	<String ID="AnalysisDisplayMedia4Help">顯示或隱藏音訊/視頻視窗 #4</String>
+	<String ID="AnalysisDisplayMedia5Text">媒體 &amp;5</String>
+	<String ID="AnalysisDisplayMedia5Help">顯示或隱藏音訊/視頻視窗 #5</String>
+	<String ID="AnalysisDisplayMedia6Text">媒體 &amp;6</String>
+	<String ID="AnalysisDisplayMedia6Help">顯示或隱藏音訊/視頻視窗 #6</String>
+	<String ID="AnalysisDisplayMedia7Text">媒體 &amp;7</String>
+	<String ID="AnalysisDisplayMedia7Help">顯示或隱藏音訊/視頻視窗 #7</String>
+	<String ID="AnalysisDisplayMedia8Text">媒體 &amp;8</String>
+	<String ID="AnalysisDisplayMedia8Help">顯示或隱藏音訊/視頻視窗 #8</String>
 
 	<String ID="DebriefingMenuTooltip">任務報告</String>
 	<String ID="DebriefingMenuHelp">任務報告工具</String>
@@ -94,6 +116,17 @@
 	<String ID="OptionsTerrainDisplayModeHighContrastHelp">使用高對比配色方案顯示地形</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">自訂紋理</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">顯示CustomTextureList.xml中聲明的所有紋理</String>
+	<String ID="OptionsDisplayControlsPositionText">Display Controls Position</String>
+	<String ID="OptionsAlwaysDisplayBullseyeText">Always Display Bullseye</String>
+	<String ID="OptionsAlwaysDisplayBullseyeHelp">Always display Bullseye in the 3D view</String>
+	<String ID="OptionsAutoHideCoordinatesText">Auto Hide Coordinates</String>
+	<String ID="OptionsAutoHideCoordinatesHelp">Auto hide latitude/longitude coordinates whenever bullseye coordinates are present</String>
+	<String ID="OptionsUIScaleText">UI Scaling</String>
+	<String ID="OptionsCockpitText">Cockpit</String>
+	<String ID="OptionsAnticipatoryTrailText">Anticipatory Trail</String>
+	<String ID="OptionsAnticipatoryTrailDisabled">Disabled</String>
+	<String ID="OptionsRealTimeTelemetryLagText">Real-time Telemetry Lag</String>
+	<String ID="OptionsRealTimeTelemetryLagDefault">(default)</String>
 
 	<String ID="OptionsTerrainText">地形</String>
 	<String ID="OptionsTerrainAutoText">（&amp;自動）</String>
@@ -101,6 +134,8 @@
 	<String ID="OptionsTerrainGenericHelp">使用'{0}'地形</String>
 	<String ID="OptionsTerrainTextRealWorld">真實世界</String>
 	<String ID="OptionsTerrainHelpRealWorld">使用來自美國宇航局太空梭雷達地形測繪任務的地形資料</String>
+	<String ID="OptionsTerrainTextARMA">ARMA</String>
+	<String ID="OptionsTerrainHelpARMA">Use terrain from the latest version of ARMA</String>
 	<String ID="OptionsTerrainTextDCSWorld">DCS World</String>
 	<String ID="OptionsTerrainHelpDCSWorld">使用'DCS World'地形</String>
 	<String ID="OptionsTerrainTextEECH">Enemy Engaged: Comanche vs Hokum</String>
@@ -147,6 +182,17 @@
 	<String ID="OptionsPositionFormatDMSHelp">度，分，秒</String>
 	<String ID="OptionsPositionFormatMGRSHelp">軍事網格參考系統</String>
 
+	<String ID="OptionsNorthReferenceText">North Reference</String>
+	<String ID="OptionsNorthReferenceTrueText">True</String>
+	<String ID="OptionsNorthReferenceTrueHelp">Use geographic north as the heading reference</String>
+	<String ID="OptionsNorthReferenceMagneticText">Magnetic</String>
+	<String ID="OptionsNorthReferenceMagneticHelp">Use the magnetic declination for the current location</String>
+
+	<String ID="OptionsTimeFormatText">Time Offset</String>
+
+	<String ID="OptionsPositionAlwaysDisplayedText">Always Displayed</String>
+	<String ID="OptionsPositionAlwaysDisplayedHelp">When hidden, press SHIFT to display current position in top left corner of the 3D view.</String>
+
 	<String ID="AspectAngleLeft">L</String>
 	<String ID="AspectAngleRight">R</String>
 
@@ -159,16 +205,36 @@
 	<String ID="OptionsRemoveObjectHelp">從世界裡刪除已選物體</String>
 	<String ID="TimeShiftObjectText">時間移動...</String>
 	<String ID="TimeShiftObjectHelp">修正已選物體的遙測時間</String>
+	<String ID="AddObjectText">Add Object...</String>
+	<String ID="AddObjectHelp">Create new object at the mouse cursor location</String>
+	<String ID="EditObjectText">Edit Object...</String>
+	<String ID="EditObjectHelp">Edit object properties</String>
+	<String ID="RemoveObjectText">Remove Object</String>
+	<String ID="RemoveObjectHelp">Remove object from the world</String>
+
+	<String ID="OptionsTrimBeforeText">Trim Before...</String>
+	<String ID="OptionsTrimBeforeHelp">Delete all telemetry data before the current point in time</String>
+	<String ID="OptionsTrimAfterText">Trim After...</String>
+	<String ID="OptionsTrimAfterHelp">Delete all telemetry beyond the current point in time</String>
+
+	<String ID="PauseOnEventCmdText">Pause on Event</String>
+	<String ID="PauseOnEventCmdHelp">Automatically pause the playback at each event time in the event log</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;關聯acmi文件至Tacview</String>
 	<String ID="OptionsAssociateFileTypesHelp">在Windows裡按兩下acmi飛行記錄檔時用Tacview打開。</String>
-	<String ID="OptionsTrackIRCmdText">TrackIR</String>
-	<String ID="OptionsTrackIRCmdHelp">在駕駛艙視野裡啟用TrackIR</String>
+	<String ID="OptionsCockpitViewCmdText">Cockpit View</String>
+	<String ID="OptionsCockpitViewCmdHelp">Display cockpit view looking forward at the HUD</String>
+	<String ID="OptionsPilotViewCmdText">Pilot View</String>
+	<String ID="OptionsPilotViewCmdHelp">Animate the cockpit view based on pilot head movements (when data available)</String>
+	<String ID="OptionsTrackIRViewCmdText">TrackIR</String>
+	<String ID="OptionsTrackIRViewCmdHelp">在駕駛艙視野裡啟用TrackIR</String>
 
 	<String ID="DogfightModeCenteredText">居中</String>
 	<String ID="DogfightModeCenteredHelp">把攝像機劇中到已選物體中間</String>
 	<String ID="DogfightModeLookAtText">注視目標</String>
 	<String ID="DogfightModeLookAtHelp">攝像機會保持注視次要目標</String>
+	<String ID="DogfightModeLookForwardText">Look Forward</String>
+	<String ID="DogfightModeLookForwardHelp">The camera will keep looking in the forward direction of the primary object</String>
 
 	<String ID="InsertBookmarkText">&amp;插入書簽</String>
 	<String ID="InsertBookmarkHelp">在事件和時間線裡創建並插入書簽</String>
@@ -181,23 +247,26 @@
 	<String ID="AttractAttentionHelp">吸引觀察者注意力到特定物體</String>
 	<String ID="DefineControlText">分配輸入</String>
 	<String ID="DefineControlHelp">為此命令分配自訂搖杆或鍵盤輸入</String>
+	<String ID="LaserPointerHelp">Display a laser pointer to highlight objects during an online debriefing</String>
+	<String ID="MousePositionHelp">Display latitude, longitude and bullseye position of the mouse cursor</String>
+
+	<String ID="DrawHeadingText">Heading</String>
+	<String ID="DrawCourseText">Course</String>
+	<String ID="DrawLiftVectorText">Lift</String>
+	<String ID="DrawPilotLineOfSightText">Pilot Line of Sight</String>
 
 	<String ID="SelectedObjectsTelemetryText">已選物體標籤</String>
-	<String ID="AircraftsTelemetryText">未選飛機標籤</String>
+	<String ID="AircraftTelemetryText">未選飛機標籤</String>
 	<String ID="LabelOnAllGroundObjectsText">標籤所有地面物體</String>
 	<String ID="LabelOnAllGroundObjectsHelp">在所有地面物體及防空威脅上顯示標籤</String>
 	<String ID="ForceSelectedObjetsLabelsText">強制已選物體標籤</String>
 	<String ID="ForceSelectedObjetsLabelsHelp">忽略全域設置總是顯示已選物體標籤</String>
+	<String ID="DeclutterUnselectedAircraftTelemetryText">Declutter Unselected Aircraft Telemetry</String>
+	<String ID="DeclutterUnselectedAircraftTelemetryHelp">Select this option to declutter a large battlefield</String>
 
 	<String ID="LabelsScaleText">標籤大小</String>
 	<String ID="ScaleAutoText">自動</String>
 	<String ID="ScaleAutoHelp">大小會根據視口的尺寸變化</String>
-	<String ID="Scale1Text">小</String>
-	<String ID="Scale1Help">默認比例</String>
-	<String ID="Scale2Text">中</String>
-	<String ID="Scale2Help">是默認尺寸的兩倍</String>
-	<String ID="Scale3Text">大</String>
-	<String ID="Scale3Help">是默認尺寸的四倍</String>
 
 	<String ID="HelpMenuTooltip">幫助</String>
 	<String ID="HelpMenuHelp">顯示關於此程式的説明和通用資訊</String>
@@ -277,14 +346,6 @@
 	<String ID="ChartZoomOutHelp">顯示更多資料</String>
 	<String ID="ChartZoomInTooltip">放大</String>
 	<String ID="ChartZoomInHelp">顯示更多細節</String>
-	<String ID="ChartExportTelemetryTooltip">匯出</String>
-	<String ID="ChartExportTelemetryHelp">匯出遙測資料作為可由其他工具讀取的檔</String>
-	<String ID="ExportTelemetryText">輸出遙測</String>
-	<String ID="ExportTelemetryHelp">輸出圖表為CSV檔案格式</String>
-	<String ID="ExportTelemetryPositionText">包含位置</String>
-	<String ID="ExportTelemetryPositionHelp">在輸出資料裡包含航空器位置</String>
-	<String ID="ExportTelemetryRotationText">包含旋轉</String>
-	<String ID="ExportTelemetryRotationHelp">在輸出資料裡包含航空器旋轉</String>
 
 	<String ID="ChartAltitudeSpeedHelp">標準高度/速度圖表</String>
 	<String ID="ChartAltitudeSpeedText">高度/速度</String>
@@ -303,8 +364,15 @@
 	<String ID="AxisNoneText">禁用</String>
 
 	<!-- Telemetry -->
+
+	<String ID="DisplayObjectNameText">Object Name</String>
+	<String ID="DisplayPilotNameText">Pilot Name</String>
+	<String ID="DisplayLabelText">Label</String>
+
 	<String ID="ATCHelp">ATC風格遙測：高度/100、垂直速度和地速/10</String>
 	<String ID="ATCText">ATC (ASL+VS+GS)</String>
+	<String ID="ATCMachHelp">ATC like telemetry: altitude/100, vertical speed, and mach number</String>
+	<String ID="ATCMachText">ATC (ASL+VS+Mach)</String>
 	<String ID="RegistrationHelp">航空器註冊編號（機尾編號）</String>
 	<String ID="RegistrationText">註冊編號</String>
 	<String ID="SquawkHelp">應答器編碼</String>
@@ -325,8 +393,14 @@
 
 	<String ID="AOAHelp">迎角</String>
 	<String ID="AOAText">迎角 (AOA)</String>
+	<String ID="AOSHelp">Angle of sideslip</String>
+	<String ID="AOSText">Angle of Sideslip (AOS)</String>
 	<String ID="GHelp">作用在航空器上的合力與航空器重力之比</String>
 	<String ID="GText">超載 (G)</String>
+	<String ID="LatGHelp">Acceleration relative to lateral axis</String>
+	<String ID="LatGText">Lateral G-Force (LatG)</String>
+	<String ID="LonGHelp">Acceleration relative to longitudinal axis</String>
+	<String ID="LonGText">Longitudinal G-Force (LonG)</String>
 	<String ID="RollRateHelp">單位時間滾轉角度</String>
 	<String ID="RollRateText">滾轉率 (RRT)</String>
 	<String ID="TurnRateHelp">單位時間轉彎角度</String>
@@ -357,8 +431,6 @@
 	<String ID="TRKText">航跡 (TRK)</String>
 	<String ID="FlightPathAngleHelp">航空器真坡角</String>
 	<String ID="FlightPathAngleText">飛行路徑角</String>
-	<String ID="FuelFlowWeightText">燃油流量（重量）</String>
-	<String ID="FuelFlowVolumeText">燃油流量（體積）</String>
 	<String ID="DistanceAirHelp">覆蓋的空中距離</String>
 	<String ID="DistanceAirText">距離 (空中)</String>
 	<String ID="DistanceGroundHelp">覆蓋的地面距離</String>
@@ -369,6 +441,18 @@
 	<String ID="RollText">滾轉</String>
 	<String ID="PitchHelp">航空器俯仰姿態</String>
 	<String ID="PitchText">俯仰</String>
+	<String ID="HeartRateHelp">Pilot heart rate in beats per minute</String>
+	<String ID="HeartRateText">Heart Rate</String>
+	<String ID="SpO2Help">Percentage of blood that is saturated with oxygen</String>
+	<String ID="SpO2Text">SpO2</String>
+
+	<String ID="NavaidsLabelsText">Navaids Labels</String>
+	<String ID="NavaidsLabelsAlwaysText">Always</String>
+	<String ID="NavaidsLabelsAlwaysHelp">Display all navaids labels</String>
+	<String ID="NavaidsLabelsSelectedOnlyText">Selected Only</String>
+	<String ID="NavaidsLabelsSelectedOnlyHelp">Display labels only for selected navaids</String>
+	<String ID="DisplayRadarLocksLabelsText">Display Labels</String>
+	<String ID="DisplayRadarLocksLabelsHelp">Display detailed lock information when available</String>
 
 	<String ID="AbsoluteTimeHelp">絕對時間</String>
 	<String ID="AbsoluteTimeText">時間</String>
@@ -416,17 +500,22 @@
 <!--
 	Chinese characters are not yet supported in the 3D view
 	<String ID="OnlineDebriefingDataMismatch">部分資料丟失：是否載入這個任務報告正確的檔？</String>
+	<String ID="OnlineDebriefingStatusConnecting">尋找會議，請稍候……</String>
+	<String ID="OnlineDebriefingStatusFailedToJoin">⚠ 連接失敗，請檢查位址和埠號。</String>
+	<String ID="OnlineDebriefingStatusFailedToHost">⚠ 主持會議失敗。在同一台電腦上使用不同的埠來主持多個會議。</String>
+	<String ID="OnlineDebriefingStatusInvalidProtocol">⚠ 協定不支援。是否使用與主機相同版本的Tacview？</String>
+	<String ID="OnlineDebriefingStatusInvalidPassword">⚠ 密碼無效。有沒有嘗試使用複製/粘貼密碼來避免拼寫錯誤？</String>
 	<String ID="OnlineDebriefingHostTip">Shift+左擊一個物體來吸引觀看者的注意力</String>
 	<String ID="OnlineDebriefingClientTip">按Alt+回車切換到全屏模式</String>
 	<String ID="OnlineDebriefingControlGivenTip">{0} 當前臨時掌管報告</String>
 	<String ID="OnlineDebriefingControlReceivedTip">您臨時掌管報告</String>
 -->
 	<String ID="OnlineDebriefingDataMismatch">Some data is missing; did you load the right file for this debriefing?</String>
-	<String ID="OnlineDebriefingStatusConnecting">尋找會議，請稍候……</String>
-	<String ID="OnlineDebriefingStatusFailedToJoin">⚠ 連接失敗，請檢查位址和埠號。</String>
-	<String ID="OnlineDebriefingStatusFailedToHost">⚠ 主持會議失敗。在同一台電腦上使用不同的埠來主持多個會議。</String>
-	<String ID="OnlineDebriefingStatusInvalidProtocol">⚠ 協定不支援。是否使用與主機相同版本的Tacview？</String>
-	<String ID="OnlineDebriefingStatusInvalidPassword">⚠ 密碼無效。有沒有嘗試使用複製/粘貼密碼來避免拼寫錯誤？</String>
+	<String ID="OnlineDebriefingStatusConnecting">Looking for host, please wait...</String>
+	<String ID="OnlineDebriefingStatusFailedToJoin">⚠ Failed to connect, please check the address and port number.</String>
+	<String ID="OnlineDebriefingStatusFailedToHost">⚠ Failed to host session. Use a different port to host multiple sessions on the same computer.</String>
+	<String ID="OnlineDebriefingStatusInvalidProtocol">⚠ Protocol not supported. Are you using the same version of Tacview as the host?</String>
+	<String ID="OnlineDebriefingStatusInvalidPassword">⚠ Invalid password. Have you tried to copy/paste the password to avoid any misspelling?</String>
 	<String ID="OnlineDebriefingHostTip">Shift+Click an object to attract viewers' attention</String>
 	<String ID="OnlineDebriefingClientTip">Press Alt+Enter to switch to fullscreen mode</String>
 	<String ID="OnlineDebriefingControlGivenTip">{0} is temporarily in charge of the debriefing</String>
@@ -495,8 +584,28 @@
 	<String ID="RealTimeTelemetryNotSynchronized">當前重播與即時遙測不同步。</String>
 	<String ID="RealTimeTelemetryConnect">連接</String>
 	<String ID="RealTimeTelemetryDisconnect">斷開連接</String>
-	<String ID="RealTimeTelemetryDisconnect">斷開連接</String>
 	<String ID="RealTimeTelemetryAutoReconnect">自動重新連接</String>
+
+	<String ID="Falcon4RealTimeTelemetryTitle">Falcon 4 Real-time Telemetry</String>
+	<String ID="Falcon4RealTimeTelemetryIntro">Import Falcon 4 *.flt files to review telemetry data in real-time!</String>
+	<String ID="Falcon4RealTimeTelemetryInstructions">As soon as your Falcon 4 flight has started, press the [F] key to start recording data.&#xA;Falcon will generate *.flt files which will be read by Tacview and displayed in real-time in the 3D view.&#xA;&#xA;*** NOTES ***&#xA;&#xA;&#x2022; You might want to force Falcon to inject colors and callsigns by pressing twice the [F] key during the flight.&#xA;&#x2022; Starting with BMS 4.36 Update 1, you need to set g_bTacviewAcmi 0 in "Falcon BMS User.cfg" file to create *.flt files.</String>
+	<String ID="Falcon4RealTimeTelemetryDirectoryLabel">Falcon 4.0 Acmi folders:</String>
+	<String ID="Falcon4RealTimeTelemetryFiles">Falcon 4 *.flt files</String>
+	<String ID="BrowseFalcon4ACMIDirectoryHelp">Please select the Acmi folder where Falcon 4.0 stores its VHS And FLT files.</String>
+	<String ID="RealTimeTelemetryStartRecording">Start Recording</String>
+	<String ID="RealTimeTelemetryStopRecording">Stop Recording</String>
+
+	<String ID="ADSBTelemetryTitle">ADS-B Radio Telemetry</String>
+	<String ID="ADSBTelemetryIntro">Listens to 1090MHz ADS-B radio signals to display aircraft around you in real-time!</String>
+	<String ID="ADSBTelemetryRecordingConnecting">Looking for&#xA;ADS-B radio device {0}</String>
+	<String ID="ADSBTelemetryRecordingProgress">Recording ADS-B from {0}&#xA;{1}</String>
+	<String ID="ADSBTelemetryOperationFailed">Cannot find any supported USB radio device to read ADS-B signal. Check https://www.rtl-sdr.com for a list of RTL2832U compatible radio equipment, and make sure WinUSB is properly installed from https://zadig.akeo.ie</String>
+	<String ID="ADSBTelemetryExplanation">To record ADS-B radio signal in real-time, you need:&#xA;
+• RTL2832U compatible USB radio dongle (https://www.rtl-sdr.com)
+• 1090MHz antenna
+• 1090MHz ADS-B filter (optional)
+• WinUSB drivers for your dongle (https://zadig.akeo.ie)&#xA;
+Make sure everything is properly connected to your computer and configured, then click connect!</String>
 
 	<String ID="AddEditObjectAddTitle">創建一個新物體</String>
 	<String ID="AddEditObjectEditTitle">編輯物體屬性</String>
@@ -504,21 +613,25 @@
 	<String ID="AddEditObjectId">ID</String>
 	<String ID="AddEditObjectTime">時間</String>
 	<String ID="AddEditObjectName">名稱</String>
+	<String ID="AddEditObjectCallSign">CallSign</String>
 	<String ID="AddEditObjectPilot">駕駛員</String>
 	<String ID="AddEditObjectGroup">群組</String>
 	<String ID="AddEditObjectType">類型</String>
 	<String ID="AddEditObjectPosition">位置</String>
 	<String ID="AddEditObjectColor">顏色</String>
 	<String ID="AddEditObjectCoalition">陣營</String>
+	<String ID="AddEditObjectEngagementRange">Engagement Range</String>
 	<String ID="AutoValue">(自動)</String>
 	<String ID="CurrentTimeValue">(現在)</String>
 	<String ID="NoTypeValue">(無)</String>
 	<String ID="NoNameValue">(無)</String>
 	<String ID="NoColorValue">(無)</String>
 	<String ID="NoCoalitionValue">(無)</String>
+	<String ID="DefaultEngagementRangeValue">(default)</String>
 	<String ID="BullseyeType">(靶眼)</String>
 	<String ID="FixedWingType">(固定翼航空器)</String>
 	<String ID="RotorcraftType">(旋翼機)</String>
+	<String ID="SpacecraftType">(Spacecraft)</String>
 	<String ID="MissileType">(導彈)</String>
 	<String ID="BombType">(炸彈)</String>
 	<String ID="AntiAircraftType">(防空: AAA/SAM)</String>
@@ -527,13 +640,16 @@
 	<String ID="SubmarineType">(潛艇)</String>
 	<String ID="InfantryType">(步兵)</String>
 	<String ID="BuildingType">(建築)</String>
+	<String ID="WaypointType">(Waypoint)</String>
+	<String ID="GroundVehicleType">(Ground Vehicle)</String>
 	<String ID="TimelessValue">(永久物體)</String>
 
 	<String ID="TimeShiftTitle">時間移動</String>
 	<String ID="TimeShiftSubTitle">修正遙測時間或使用幻象模式來對比性能。</String>
 	<String ID="TimeShiftFirstSampleTime">首要樣本時間: {0}</String>
-	<String ID="TimeShiftOffsetInHours">偏移小時數</String>
-	<String ID="TimeShiftOffsetInSeconds">偏移秒數</String>
+	<String ID="TimeShiftDaysOffset">Days</String>
+	<String ID="TimeShiftHoursOffset">Hours</String>
+	<String ID="TimeShiftSecondsOffset">Seconds</String>
 	<String ID="TimeShiftDragToShift">點擊並拖動進行平滑時間移動</String>
 
 	<String ID="ButtonHelp">按下想用的控制設備來使用此命令。</String>
@@ -562,22 +678,14 @@
 	<String ID="ProfilerResetZoomHelp">在螢幕上顯示整個配置</String>
 	<String ID="ProfilerProfileMemoryTooltip">配置記憶體 (F18)</String>
 	<String ID="ProfilerProfileMemoryHelp">配置當前記憶體使用</String>
+	<String ID="ProfilerProfileMainLoopAutoTooltip">Auto Profile Main Loop (F18)</String>
+	<String ID="ProfilerProfileMainLoopAutoHelp">Automatically find the slowest frame and its bottleneck</String>
 
 	<!-- Add On Strings -->
-	<String ID="AddOnTitleTelemetry0">遙測1</String>
-	<String ID="AddOnTitleTelemetry1">遙測2</String>
-	<String ID="AddOnTitleTelemetry2">遙測3</String>
-	<String ID="AddOnTitleTelemetry3">遙測4</String>
-	<String ID="AddOnTitleRawTelemetry0">原始遙測 1</String>
-	<String ID="AddOnTitleRawTelemetry1">原始遙測 2</String>
-	<String ID="AddOnTitleChart0">圖表1</String>
-	<String ID="AddOnTitleChart1">圖表2</String>
-	<String ID="AddOnTitleChart2">圖表3</String>
-	<String ID="AddOnTitleChart3">圖表4</String>
-	<String ID="AddOnTitleMedia1">媒體 1</String>
-	<String ID="AddOnTitleMedia2">媒體 2</String>
-	<String ID="AddOnTitleMedia3">媒體 3</String>
-	<String ID="AddOnTitleMedia4">媒體 4</String>
+	<String ID="AddOnTitleTelemetry">遙測{0}</String>
+	<String ID="AddOnTitleRawTelemetry">原始遙測{0}</String>
+	<String ID="AddOnTitleChart">圖表{0}</String>
+	<String ID="AddOnTitleMedia">媒體{0}</String>
 	<String ID="UnsupportedMediaNotification">不支援的媒體檔。</String>
 	<String ID="UnsupportedMediaLink">嘗試安裝解碼包。</String>
 
@@ -607,11 +715,9 @@
 	<String ID="CommentsProperty">注釋</String>
 
 	<String ID="AddOnTitleEventsLog">飛行日誌</String>
+	<String ID="AddOnTitleShotLog">Event Log</String>
 	<String ID="AddOnTitleControlsList">控制列表</String>
-	<String ID="AddOnTitleRemoteControl0">遙控1</String>
-	<String ID="AddOnTitleRemoteControl1">遙控2</String>
-	<String ID="AddOnTitleRemoteControl2">遙控3</String>
-	<String ID="AddOnTitleRemoteControl3">遙控4</String>
+	<String ID="AddOnTitleRemoteControl">遙控{0}</String>
 	<String ID="AddOnTitleCommandLineOptionsList">命令列選項</String>
 	<String ID="AddOnTitleUserLicenseAgreement">用戶授權合約</String>
 	<String ID="AddOnTitleDebugLog">調試日誌</String>
@@ -619,10 +725,13 @@
 	<String ID="AddOnTitleFunctionsProfiler">功能配置器</String>
 	<String ID="AddOnTitleGraphicalProfiler">圖像配置器</String>
 	<String ID="AddOnTitleMemoryProfiler">記憶體配置器</String>
+	<String ID="AddOnTitleActiveObjectList">Active Objects</String>
+	<String ID="AddOnTitlePlaybackControlBar">Playback Control Bar</String>
+	<String ID="AddOnTitleTimeJump">Time Jump</String>
+	<String ID="TimeJumpSetTime">Go!</String>
 
 	<String ID="DebugEventTime">時間</String>
 	<String ID="DebugEventLevel">等級</String>
-	<String ID="DebugEventModule">模組</String>
 	<String ID="DebugEventMessage">消息</String>
 
 	<String ID="EventsProfilerNames">事件</String>
@@ -641,10 +750,12 @@
 	<String ID="CommandLineBehavior">通用行為</String>
 	<String ID="CommandLineSpecial">高級選項</String>
 	<String ID="CmdOpenHelp">打開現存的飛行記錄。</String>
+	<String ID="CmdOpenMediaHelp">Open a media file in the corresponding window (1 to 8).</String>
 	<String ID="CmdMergeHelp">合併現存飛行記錄與當前所有載入資料。</String>
 	<String ID="CmdSaveHelp">保存飛行記錄為高壓縮格式。</String>
 	<String ID="CmdExportFlightLogHelp">匯出飛行日誌為XML或CSV檔。</String>
 	<String ID="CmdFalcon4TheaterHelp">設置Falcon 4.0戰區使用VHS檔。(Aegean, Balkan, Israel, Korea...)</String>
+	<String ID="CmdFullscreenHelp">Starts Tacview in Fullscreen mode.</String>
 	<String ID="CmdQuietHelp">Tacview將執行所有指定操作然後不顯示任何視窗退出。</String>
 	<String ID="CmdConnectRealTimeTelemetryHelp">使用最後已知的參數連接即時遙測。</String>
 	<String ID="CmdConnectRemoteControlHelp">使用最後已知的參數連接特定遙控。</String>
@@ -653,9 +764,16 @@
 	<String ID="CmdVBOOffHelp">禁用頂點緩衝區物體以避免在一些ATI交火配置上崩潰。</String>
 	<String ID="CmdDebugModeHelp">顯示調試資訊以説明修補錯誤。</String>
 	<String ID="CmdConfigSetHelp">為每個Tacview實例以特定組合存儲使用者偏好設置。</String>
+	<String ID="CmdSaveConfigHelp">To prevent Tacview from saving UI settings on exit.</String>
 	<String ID="CmdAuthenticateHelp">如果所有打開的檔都是認證的，返回詢問-1。</String>
 	<String ID="CmdRegisterUserProductKeyHelp">為當前用戶使用提供的秘鑰啟動Tacveiw。</String>
 	<String ID="CmdRegisterSystemProductKeyHelp">為整個系統使用提供的秘鑰啟動Tacview。</String>
+	<String ID="CmdRegisterSessionProductKeyHelp">Activate Tacview, for the current session only, with the provided key.</String>
+	<String ID="CmdDisplayFrameRateHelp">Display the frame-rate in the 3D view.</String>
+	<String ID="CmdResourceFolderHelp">Declare additional custom directory where Tacview resources are stored.</String>
+	<String ID="CmdAddOnsFolderHelp">Declares an additional custom folder from where to load add-ons.</String>
+	<String ID="CmdReadOnlyHelp">Disable addons and export capabilities.</String>
+	<String ID="CmdMaxFrameRateHelp">Limits the maximum frame rate to reduce CPU usage as well as power consumption.</String>
 
 	<String ID="Selection">選擇</String>
 	<String ID="TimeControl">時間控制</String>
@@ -673,6 +791,7 @@
 	<String ID="ControlsCtrlRightClick">[Ctrl] + [滑鼠右鍵]</String>
 	<String ID="ControlsDoubleClick">[按兩下滑鼠左鍵]</String>
 	<String ID="ControlsLeftRight">[左方向鍵] / [右方向鍵]</String>
+	<String ID="ControlsPageUpDown">([Ctrl] / [Shift] +) [⇞] / [⇟]</String>
 	<String ID="ControlsMouseLeftDrag">[滑鼠左鍵] + {拖拽}</String>
 	<String ID="ControlsMouseRightDrag">[滑鼠右鍵] + {拖拽}</String>
 	<String ID="ControlsMouseWheel">[滑鼠滾輪滾動]</String>
@@ -681,9 +800,17 @@
 	<String ID="ControlsShiftLeftClick">[Shift] + [滑鼠左鍵]</String>
 	<String ID="ControlsShiftMove">[Shift] + {方向鍵}</String>
 	<String ID="ControlsSpaceBar">[空白鍵]</String>
-	<String ID="ControlsAltReturn">[Alt] + [Return]</String>
+	<String ID="ControlsAltEnter">[Alt] + [Enter]</String>
 	<String ID="ControlsCtrlC">[Ctrl] + [C]</String>
 	<String ID="ControlsCtrlV">[Ctrl] + [V]</String>
+	<String ID="ControlsPlaybackFasterShortcut">[↑]</String>
+	<String ID="ControlsPlaybackSlowerShortcut">[↓]</String>
+	<String ID="ControlsSwitchPlaybackSpeedShortcut">[NUM *]</String>
+	<String ID="ControlsPreviousEventShortcut">[Ctrl] + [←]</String>
+	<String ID="ControlsNextEventShortcut">[Ctrl] + [→]</String>
+	<String ID="LaserPointerShortcut">[Shift] + {Mouse}</String>
+	<String ID="MousePositionShortcut">[Shift] + [Ctrl] + {Mouse}</String>
+	<String ID="ControlsDeselectObjects">[Ctrl] + [N]</String>
 
 	<String ID="ControlsBackwardForward">時間倒退/前進</String>
 	<String ID="ControlsSelectEvent">前往事件並選擇關聯物體</String>
@@ -697,6 +824,10 @@
 	<String ID="ControlsSelectSecondaryObject">在3D視野裡選擇次物體</String>
 	<String ID="ControlsZoomInOut">視場縮放</String>
 	<String ID="ControlsToggleFullScreen">開關全屏模式</String>
+	<String ID="ControlsPlaybackSlowerHelp">Playback slower</String>
+	<String ID="ControlsPlaybackFasterHelp">Playback faster</String>
+	<String ID="ControlsSwitchPlaybackSpeedHelp">Switch playback speed</String>
+	<String ID="ControlsDeselectObjectsHelp">Deselect primary and secondary objects</String>
 
 	<!-- Additional Tooltips -->
 	<String ID="UpdateAvailableTooltip">有新版本Tacview可用！</String>
@@ -713,8 +844,8 @@
 	<String ID="AntiCheatIncompletePlayback">主機已延遲設置此檔的重播延遲 {0} 分鐘。最後 {1} 分鐘無法重看。</String>
 -->
 	<String ID="LowEndOpenGL">Please update your graphics card driver</String>
-	<String ID="AntiCheatCannotPlayback">Playback of this file has been delayed by {0} minutes by the host. There is not enough time recorded to playback any data.</String>
-	<String ID="AntiCheatIncompletePlayback">Playback of this file has been delayed by {0} minutes by the host. The last {1} minute(s) cannot be reviewed.</String>
+	<String ID="AntiCheatCannotPlayback">Playback of this file has been delayed by {0} minute(s) by the host. There is not enough time recorded to playback any data.</String>
+	<String ID="AntiCheatIncompletePlayback">Playback of this file has been delayed by {0} minute(s) by the host. The last {1} minute(s) cannot be reviewed.</String>
 	<String ID="AuthenticationComplete">This file is authentic, it has not been altered since its recording.</String>
 	<String ID="AuthenticationIncomplete">This file is authentic, except for the last {0} seconds which cannot be validated.</String>
 
@@ -723,7 +854,10 @@
 	<String ID="SaveButton">&amp;保存</String>
 	<String ID="DontSaveButton">&amp;不保存</String>
 	<String ID="IL2SturmovikIsRunningText">為了確保公平遊戲避免作弊，請在使用Tacview前關閉IL-2 Sturmovik。</String>
+	<String ID="RemoveObjectConfirmation">Are you sure you want to remove the object [{0}] from the telemetry data?</String>
 	<String ID="OK">&amp;確定</String>
+	<String ID="TrimBeforeConfirmation">Are you sure you want to remove all telemetry data before {0}?</String>
+	<String ID="TrimAfterConfirmation">Are you sure you want to remove all telemetry beyond {0}?</String>
 
 	<!-- Dialogs Boxes Strings -->
 	<String ID="LicenseTitle">Tacview授權合約</String>
@@ -731,10 +865,13 @@
 	<String ID="LicenseAccept">&amp;接受</String>
 	<String ID="LicenseDecline">&amp;拒絕</String>
 	<String ID="RegisterTitle">註冊你的Tacview軟體副本</String>
+	<String ID="UpgradeToAdvancedTitle">Upgrade to Tacview Advanced</String>
 	<String ID="UpgradeTitle">升級Tacview至高級版</String>
 	<String ID="RegisterSubTitle">輸入你的產品金鑰</String>
-	<String ID="RegisterComment">要註冊你的產品和解鎖高級功能，請輸入Email中收到的25字元金鑰。如果還沒有產品金鑰，你可以購買一個新的。</String>
-	<String ID="UpgradeComment">要升級你的產品和解鎖高級功能，請輸入Email中收到的25字元Tacview高級版金鑰。如果還沒有高級版金鑰，你可以購買一個新的。</String>
+	<String ID="RegisterComment">To register your product and unlock advanced features, enter the 25-character key you have received by email. If you do not have a product key yet, you can buy a new one.</String>
+	<String ID="RegisterCommentSteam">If you already own a product key, enter it here. Otherwise, use the link below to purchase an upgrade.</String>
+	<String ID="UpgradeComment">To upgrade your product and unlock advanced features, enter the 25-character Tacview Advanced key you have received by email. If you do not have a Tacview Advanced product key yet, you can buy a new one.</String>
+	<String ID="UpgradeCommentSteam">If you already own a Tacview Advanced product key, enter it here. Otherwise, use the link below to purchase an upgrade.</String>
 	<String ID="RegisterExample">示例：</String>
 	<String ID="RegisterProductKey">產品金鑰：</String>
 	<String ID="RegisterBuyProductKey">連線購買新產品金鑰</String>
@@ -743,33 +880,55 @@
 	<String ID="RegistrationSucceededComment">你的軟體副本已經註冊。請妥善保存你的產品金鑰，將來你可能需要重新安裝Tacview。&#10;&#10;除了許多獨有的高級功能外，你現在享有優先技術支援以及特許管道獲得未來Tacview 2.x的更新和預覽。</String>
 	<String ID="RegistrationSucceededURL">瞭解更多關於使用註冊版本Tacview的優點</String>
 	<String ID="RequireHomeLicenseText">要使用此版本的Tacview，你需要註冊你的軟體副本。</String>
-	<String ID="RequireProfessionalLicenseText">要使用此版本的Tacview，你需要高級版許可。</String>
+	<String ID="RequireProfessionalLicenseText">To use this feature or version of Tacview you need a Tacview Advanced license.</String>
 	<String ID="RegisterUserProductKey">註冊用戶</String>
 	<String ID="RegisterSystemProductKey">註冊系統</String>
+	<String ID="Export">Export...</String>
+
+	<!-- Telemetry Export -->
+	<String ID="ExportTitle">Telemetry Export</String>
+	<String ID="ExportSubTitle">Export telemetry data in a file readable by other tools. Properties are expressed in meters and degrees. The accuracy of calculated properties depends on recorded data availability and precision.</String>
+	<String ID="ExportSelectionLabel">Export the following properties for:</String>
+	<String ID="ExportMainObject">Main object only</String>
+	<String ID="ExportSelectedObjects">All selected objects</String>
+	<String ID="ExportAllObjets">All objects</String>
+	<String ID="ExportSamplingRate">Sampling rate (Hz):</String>
+	<String ID="ExportAll">All</String>
+	<String ID="ExportNone">None</String>
+	<String ID="ExportRecordedProperties">Recorded Properties</String>
+	<String ID="ExportCalculatedProperties">Calculated Properties</String>
+	<String ID="ExportNumericProperties">Numeric Properties</String>
+	<String ID="ExportTextProperties">Text Properties</String>
+	<String ID="ExportGroupGeneral">General</String>
+	<String ID="ExportGroupPerformance">Performance</String>
+	<String ID="ExportGroupEnergy">Energy</String>
+	<String ID="ExportGroupFuel">Fuel</String>
+	<String ID="ExportGroupMisc">Miscellaneous</String>
 
 	<!-- Additional Dialogs Strings -->
 	<String ID="BrowseDCSWorldFolderHelp">請選擇'DCS World'安裝資料夾</String>
 	<String ID="BrowseExportPathFolderHelp">請選擇當前使用者存儲.acmi檔的位置</String>
 	<String ID="Falcon4TheaterFilter">Falcon 4.0戰區：</String>
+	<String ID="AddOnGetExistingFolderNameHelp">Please choose an existing folder</String>
+	<String ID="AddOnGetNewFolderNameHelp">Please choose a new or existing folder</String>
 
 	<!-- Online Debriefing -->
 <!--
 	Chinese characters are not yet supported in the 3D view
 	<String ID="HostLabel">(主機)</String>
 	<String ID="InstructorLabel">(教練)</String>
--->
-	<String ID="HostLabel">(host)</String>
-	<String ID="InstructorLabel">(instructor)</String>
 	<String ID="UnknownIPAddress">(未知)</String>
-<!--
-	Chinese characters are not yet supported in the 3D view
 	<String ID="OnlineDebriefingHostTitle">主持&#2;{0}&#1;任務報告</String>
 	<String ID="OnlineDebriefingClientJoiningTitle">連接到任務報告……</String>
 	<String ID="OnlineDebriefingClientTitle">連接到&#2;{0}&#1;任務報告</String>
 -->
-	<String ID="OnlineDebriefingHostTitle">Hosting &#2;{0}&#1; Debriefing</String>
+	<String ID="HostLabel">(host)</String>
+	<String ID="InstructorLabel">(instructor)</String>
+	<String ID="HostInstructorLabel">(host/instructor)</String>
+	<String ID="UnknownIPAddress">(unknown)</String>
+	<String ID="OnlineDebriefingHostTitle">Hosting {0}</String>
 	<String ID="OnlineDebriefingClientJoiningTitle">Connecting to debriefing...</String>
-	<String ID="OnlineDebriefingClientTitle">Connected to &#2;{0}&#1; Debriefing</String>
+	<String ID="OnlineDebriefingClientTitle">Connected to {0}</String>
 
 	<!-- Misc -->
 	<String ID="DemoEditionShortOneDay">展示版本（{0}天剩餘）</String>
@@ -795,9 +954,9 @@
 	<String ID="ExpiredCommercialLicenseAnnual">你的企業版許可已於 {0} 過期，&#10;不要在商業和制度環境下使用此版本。</String>
 	<String ID="ExpiredCommercialLicensePerpetual">你的Tacview企業版支持到期於 {0},&#10;如果你希望使用此新版本，請聯繫我們。</String>
 -->
-	<String ID="StrategicViewDemoWarning">This Strategic View is available in Tacview Professional.</String>
-	<String ID="ExpiredCommercialLicenseAnnual">Your Tacview Enterprise has expired on {0},&#10;DO NOT use this version in commercial and institutional environment.</String>
-	<String ID="ExpiredCommercialLicensePerpetual">Your Tacview Enterprise support has expired on {0},&#10;Please contact us if you want to use this new version.</String>
+	<String ID="StrategicViewDemoWarning">This Strategic View is available in Tacview Advanced.</String>
+	<String ID="ExpiredCommercialLicenseAnnual">Your Tacview Enterprise annual license has expired on {0},&#10;DO NOT use this version in commercial and institutional environment.</String>
+	<String ID="ExpiredCommercialLicensePerpetual">Your Tacview Enterprise perpetual license updates and support has ended on {0}. Please reinstall a version published prior to that date or contact us to extend your support and updates.</String>
 
 	<!-- Units -->
 <!--
@@ -840,8 +999,11 @@
 	<String ID="UnitLabelMachNumber">Mach</String>
 	<String ID="UnitLabelAbsoluteAOA">AOA (°)</String>
 	<String ID="UnitLabelIndicatedAOA">AOA (°)</String>
+	<String ID="UnitLabelIndicatedAOS">AOS (°)</String>
 	<String ID="UnitLabelAbsoluteG">g-force (G)</String>
-	<String ID="UnitLabelIndicatedG">g-force (G)</String>
+	<String ID="UnitLabelIndicatedVerticalG">g-force (G)</String>
+	<String ID="UnitLabelIndicatedLateralG">Lateral g-force (G)</String>
+	<String ID="UnitLabelIndicatedLongitudinalG">Longitudinal g-force (G)</String>
 	<String ID="UnitLabelRollRate">Roll Rate (°/s)</String>
 	<String ID="UnitLabelTurnRate">Turn Rate (°/s)</String>
 	<String ID="UnitLabelTurnRadius">Turn Radius ({0})</String>
@@ -857,6 +1019,8 @@
 	<String ID="UnitLabelPitch">Pitch ({0})</String>
 	<String ID="UnitLabelFuel">Fuel ({0})</String>
 	<String ID="UnitLabelFuelFlow">Fuel Flow ({0})</String>
+	<String ID="UnitLabelHeartRate">Heart Rate (BPM)</String>
+	<String ID="UnitLabelSpO2">SpO2 (%)</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -867,7 +1031,7 @@
 	<String ID="InvalidShortcutText">在當前任務裡無法通過快捷方式找到物體和時間參考。請確認打開了正確的檔且複製/粘貼了整個快捷方式。</String>
 
 	<String ID="AboutTitle">關於Tacview</String>
-	<String ID="AboutCopyright">版權© 2006-2018, Raia Software. 保留所有權利。&#10;此電腦程式受到版權法和國際協約保護。</String>
+	<String ID="AboutCopyright">版權© 2006-2023, Raia Software. 保留所有權利。&#10;此電腦程式受到版權法和國際協約保護。</String>
 
 	<String ID="LoadingInProgressShort">載入...</String>
 	<String ID="LoadingInProgress">載入'{0}'</String>
@@ -886,13 +1050,16 @@
 	<String ID="NoRecentDocuments">（無新文檔）</String>
 	<String ID="FileTypeDescriptionAnyTelemetryFile">任何遙測資料</String>
 	<String ID="FileTypeDescriptionTacviewText">Tacview文本遙測資料</String>
+	<String ID="FileTypeDescriptionTacviewTextZip">Compressed Tacview Text Telemetry Data</String>
 	<String ID="FileTypeDescriptionTacviewBinary">Tacview二進位遙測資料</String>
 	<String ID="FileTypeDescriptionGAEText">GAE分散式交互模擬文本資料</String>
 	<String ID="FileTypeDescriptionKMLStaticObjects">Keyhole標記語言靜態物件</String>
 	<String ID="FileTypeDescriptionNMEA0183">GPS NMEA 0183日誌檔</String>
 	<String ID="FileTypeDescriptionGPX">GPS eXchange文件</String>
 	<String ID="FileTypeDescriptionVHS">Falcon 4.0飛行記錄</String>
+	<String ID="FileTypeDescriptionFLT">Falcon 4.0 Temporary Flight Recordings</String>
 	<String ID="FileTypeDescriptionMAVLink">MAVLink遙測</String>
+	<String ID="FileTypeDescriptionIGC">International Gliding Commission telemetry</String>
 	<String ID="FileTypeDescriptionCSV">CSV（逗號分隔值）文件</String>
 	<String ID="FileTypeDescriptionKML">Keyhole標記語言（KML）格式的飛行記錄</String>
 	<String ID="FileTypeDescriptionXMLFlightLog">XML任務報告</String>
@@ -905,6 +1072,9 @@
 	<String ID="FileTypeDescriptionZip">遙測資料ZIP存檔</String>
 	<String ID="FileTypeDescription7z">遙測資料7z存檔</String>
 	<String ID="FileTypeDescriptionMediaMany">媒體文件</String>
+	<String ID="FileTypeDescriptionAudioFiles">Audio Files</String>
+	<String ID="FileTypeDescriptionVideoFiles">Video Files</String>
+	<String ID="FileTypeDescriptionFIT">Flexible and Interoperable Data Transfer</String>
 	<String ID="TypeColumn">類型</String>
 	<String ID="TimeColumn">時間</String>
 	<String ID="EventColumn">事件</String>
@@ -912,6 +1082,9 @@
 	<String ID="LogLevelInfo">信息</String>
 	<String ID="LogLevelWarning">警報</String>
 	<String ID="LogLevelError">錯誤</String>
+	<String ID="EventTime">Time</String>
+	<String ID="EventCallSign">Call Sign</String>
+	<String ID="EventDescription">Event Description</String>
 
 	<!-- Flight Recording Strings -->
 	<String ID="ObjectNameShrapnel">子母彈</String>
@@ -948,6 +1121,20 @@
 	<String ID="EventHasBeenDestroyed">{0}被摧毀</String>
 	<String ID="EventHasBeenDestroyedBy">{0}被{1}摧毀</String>
 
+	<String ID="EventLogHasLeftTheArea">has left the area</String>
+	<String ID="EventLogHasBeenDestroyed">has been destroyed</String>
+	<String ID="EventLogHasBeenDestroyedBy">has been destroyed by {0}</String>
+	<String ID="EventLogTakeoff">Takeoff</String>
+	<String ID="EventLogLanding">Landing</String>
+	<String ID="EventLogDisabledLabel">Kill Removed</String>
+	<String ID="EventLogEnabledLabel">Alive</String>
+	<String ID="EventLogRadarOnLabel">Radar-ON</String>
+	<String ID="EventLogRadarOffLabel">Radar-OFF</String>
+	<String ID="EventLogTimeoutLabel">Timeout {2}</String>
+	<String ID="EventLogTimeoutAtLabel">Timeout @ {1} {2}</String>
+	<String ID="EventLogTimeoutWeaponLabel">Timeout {0} {2}</String>
+	<String ID="EventLogTimeoutWeaponAtLabel">Timeout {0} @ {1} {2}</String>
+
 <!--
 	Chinese characters are not yet supported in the 3D view
 	<String ID="StatusPlay">播放</String>
@@ -957,10 +1144,11 @@
 	<String ID="StatusPause">暫停</String>
 -->
 	<String ID="StatusPlay">PLAY</String>
-	<String ID="StatusPlayFast">PLAY &#2;×{0:g}</String>
+	<String ID="StatusPlaySpeed">PLAY &#2;×{0:g}</String>
 	<String ID="StatusRewind">REWIND</String>
-	<String ID="StatusRewindFast">REWIND &#2;×{0:g}</String>
+	<String ID="StatusRewindSpeed">REWIND &#2;×{0:g}</String>
 	<String ID="StatusPause">PAUSE</String>
+	<String ID="StatusPauseSpeed">PAUSE &#2;×{0:g}</String>
 
 	<!-- Error Messages -->
 	<String ID="ErrorUnknown">未知錯誤發生 0x{0,08:X}</String>
@@ -992,6 +1180,9 @@
 	<String ID="TTFaster">加快</String>
 	<String ID="TTEnd">至結束</String>
 	<String ID="TTOneFrame">逐幀顯示</String>
+	<String ID="TTPreviousEvent">Jump to previous event</String>
+	<String ID="TTNextEvent">Jump to next event</String>
+	<String ID="TTSyncRealTimeTelemetry">Go to end / Synchronize with real-time telemetry</String>
 
 	<String ID="TTViewCockpit">座艙視野 (F5)</String>
 	<String ID="TTViewExternal">外部視野 (F6)</String>
@@ -1000,7 +1191,7 @@
 
 	<String ID="TTDisplayCockpitInstruments">顯示駕駛艙儀錶</String>
 	<String ID="TTDrawHeight">顯示物體離地高度</String>
-	<String ID="TTDrawDirection">顯示被選物體正前方指向</String>
+	<String ID="TTDrawLocalVectors">Display Selected Objects Vectors</String>
 	<String ID="TTDrawIDs">顯示物體圖示</String>
 	<String ID="TTDrawThreats">顯示預警雷達和防空系統有效範圍</String>
 	<String ID="TTDrawRadarLocks">顯示雷達鎖定（當可用時）</String>
