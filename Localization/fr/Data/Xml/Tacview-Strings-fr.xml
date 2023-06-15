@@ -430,8 +430,6 @@
 	<String ID="TRKText">Cap (TRK)</String>
 	<String ID="FlightPathAngleHelp">Angle de la pente suivie par l’avion</String>
 	<String ID="FlightPathAngleText">Angle trajectoire de vol</String>
-	<String ID="FuelFlowWeightText">Débit de carburant (poids)</String>
-	<String ID="FuelFlowVolumeText">Débit de carburant (volume)</String>
 	<String ID="DistanceAirHelp">Distance parcourue (air)</String>
 	<String ID="DistanceAirText">Distance (air)</String>
 	<String ID="DistanceGroundHelp">Distance parcourue (sol)</String>

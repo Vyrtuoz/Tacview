@@ -431,8 +431,6 @@
 	<String ID="TRKText">Spur (TRK)</String>
 	<String ID="FlightPathAngleHelp">Wahrer Luftfahrzeugsneigungswinkel</String>
 	<String ID="FlightPathAngleText">Flugpfadwinkel</String>
-	<String ID="FuelFlowWeightText">Treibstofffluß (Gewicht)</String>
-	<String ID="FuelFlowVolumeText">Treibstofffluß (Größe)</String>
 	<String ID="DistanceAirHelp">Abgedeckte Luftstrecke</String>
 	<String ID="DistanceAirText">Strecke (Luft)</String>
 	<String ID="DistanceGroundHelp">Abgedeckte Bodenstrecke</String>

@@ -431,8 +431,6 @@
 	<String ID="TRKText">Запись (TRK)</String>
 	<String ID="FlightPathAngleHelp">Истинный угол наклона ЛА</String>
 	<String ID="FlightPathAngleText">Путевой угол траектории</String>
-	<String ID="FuelFlowWeightText">Расход топлива(вес)</String>
-	<String ID="FuelFlowVolumeText">Расход топлива(объем)</String>
 	<String ID="DistanceAirHelp">Пройденное воздушное расстояние</String>
 	<String ID="DistanceAirText">Расстояние (возд.)</String>
 	<String ID="DistanceGroundHelp">Пройденное истинное расстояние</String>

@@ -431,8 +431,6 @@
 	<String ID="TRKText">航迹 (TRK)</String>
 	<String ID="FlightPathAngleHelp">航空器真坡角</String>
 	<String ID="FlightPathAngleText">飞行路径角</String>
-	<String ID="FuelFlowWeightText">燃油流量（重量）</String>
-	<String ID="FuelFlowVolumeText">燃油流量（体积）</String>
 	<String ID="DistanceAirHelp">覆盖的空中距离</String>
 	<String ID="DistanceAirText">距离 (空中)</String>
 	<String ID="DistanceGroundHelp">覆盖的地面距离</String>

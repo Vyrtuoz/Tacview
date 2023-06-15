@@ -431,8 +431,6 @@
 	<String ID="TRKText">(TRK) מסלול אמיתי</String>
 	<String ID="FlightPathAngleHelp">זוית נתיב הטיסה בהתאם לשיפוע המטוס</String>
 	<String ID="FlightPathAngleText">(FPA) זוית נתיב טיסה</String>
-	<String ID="FuelFlowWeightText">Fuel flow (weight)</String>
-	<String ID="FuelFlowVolumeText">Fuel flow (volume)</String>
 	<String ID="DistanceAirHelp">מרחק אווירי מכוסה</String>
 	<String ID="DistanceAirText">מרחק אווירי</String>
 	<String ID="DistanceGroundHelp">מרחק קרקעי מכוסה</String>

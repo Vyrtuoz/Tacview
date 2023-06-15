@@ -431,8 +431,6 @@
 	<String ID="TRKText">트랙 (TRK)</String>
 	<String ID="FlightPathAngleHelp">기체 트루 슬로프 각도</String>
 	<String ID="FlightPathAngleText">비행 경로 각도</String>
-	<String ID="FuelFlowWeightText">Fuel flow (weight)</String>
-	<String ID="FuelFlowVolumeText">Fuel flow (volume)</String>
 	<String ID="DistanceAirHelp">커버 된 공역</String>
 	<String ID="DistanceAirText">거리 (공중)</String>
 	<String ID="DistanceGroundHelp">커버 된 지역 거리</String>

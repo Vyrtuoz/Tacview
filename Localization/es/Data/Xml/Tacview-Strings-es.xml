@@ -431,8 +431,6 @@
 	<String ID="TRKText">Seguimiento (TRK)</String>
 	<String ID="FlightPathAngleHelp">Angulo verdadero de pendiente</String>
 	<String ID="FlightPathAngleText">Angulo de director de vuelo</String>
-	<String ID="FuelFlowWeightText">Flujo de combustible (peso)</String>
-	<String ID="FuelFlowVolumeText">Flujo de combustible (volumen)</String>
 	<String ID="DistanceAirHelp">Distancia aérea recorrida</String>
 	<String ID="DistanceAirText">Distancia (Aérea)</String>
 	<String ID="DistanceGroundHelp">Distancia terrestre recorrida</String>

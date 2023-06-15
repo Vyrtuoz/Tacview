@@ -430,8 +430,6 @@
 	<String ID="TRKText">Track (TRK)</String>
 	<String ID="FlightPathAngleHelp">Aircraft true slope angle</String>
 	<String ID="FlightPathAngleText">Flight Path Angle</String>
-	<String ID="FuelFlowWeightText">Fuel flow (weight)</String>
-	<String ID="FuelFlowVolumeText">Fuel flow (volume)</String>
 	<String ID="DistanceAirHelp">Covered air distance</String>
 	<String ID="DistanceAirText">Distance (Air)</String>
 	<String ID="DistanceGroundHelp">Covered ground distance</String>

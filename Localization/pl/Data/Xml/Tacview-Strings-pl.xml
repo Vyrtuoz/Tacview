@@ -430,8 +430,6 @@
 	<String ID="TRKText">Ścieżka (TRK)</String>
 	<String ID="FlightPathAngleHelp">Prawdziwy kąt nachylenia samolotu</String>
 	<String ID="FlightPathAngleText">Kąt toru lotu</String>
-	<String ID="FuelFlowWeightText">Przpeływ paliwa (waga)</String>
-	<String ID="FuelFlowVolumeText">Przepływ paliwa (objętość)</String>
 	<String ID="DistanceAirHelp">Pokonany dystans</String>
 	<String ID="DistanceAirText">Wystans (w powietrzu)</String>
 	<String ID="DistanceGroundHelp">Pokonany dystans na ziemi</String>
