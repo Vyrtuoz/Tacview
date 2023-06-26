@@ -14,100 +14,100 @@ msgstr ""
 "X-Generator: Poedit 2.0.7\n"
 
 msgid "Tacview Module Enabled"
-msgstr ""
+msgstr "已啟用 Tacview 模組"
 
 msgid "Flight Data Recording"
-msgstr ""
+msgstr "飛行數據記錄"
 
 msgid "Enabled"
-msgstr ""
+msgstr "啟用"
 
 msgid "Single-Player Flights"
-msgstr ""
+msgstr "單人飛行"
 
 msgid "Multiplayer Flights – As Client"
-msgstr ""
+msgstr "多人飛行 - 作為用戶端"
 
 msgid "Multiplayer Flights – As Host"
-msgstr ""
+msgstr "多人飛行 – 作為伺服器"
 
 msgid "Bookmark Injection Shortcut"
-msgstr ""
+msgstr "書籤加入快捷"
 
 msgid "Auto Discard Flights"
-msgstr ""
+msgstr "自動放棄航班"
 
 msgid "Advanced Options"
-msgstr ""
+msgstr "高級選項"
 
 msgid "Debug Mode"
 msgstr "調試模式"
 
 msgid "Tools"
-msgstr ""
+msgstr "工具"
 
 msgid "Terrain Export"
-msgstr ""
+msgstr "地形匯出"
 
 msgid "NOTICE: LONG OPERATION!"
-msgstr ""
+msgstr "注意：長時間運行！"
 
 msgid "DO NOT forget to disable this option after successful export."
 msgstr "不要忘記在成功輸出後禁用此選項。"
 
 msgid "Real-Time Telemetry"
-msgstr ""
+msgstr "即時遙測"
 
 msgid "TCP Port (default 42674)"
-msgstr ""
+msgstr "TCP 連接埠（預設為 42674）"
 
 msgid "Password"
-msgstr ""
+msgstr "密碼"
 
 msgid "NOTE: Host password prioritized in multiplayer."
-msgstr ""
+msgstr "注意：主機密碼在多人遊戲中優先。"
 
 msgid "Remote Control"
-msgstr ""
+msgstr "遙控"
 
 msgid "TCP Port (default 42675)"
-msgstr ""
+msgstr "TCP 連接埠（預設 42675）"
 
 msgid "Do not record any data"
-msgstr ""
+msgstr "不記錄任何數據"
 
 msgid "Record local player only"
-msgstr ""
+msgstr "僅紀錄本地使用者"
 
 msgid "Record all available data"
-msgstr ""
+msgstr "記錄所有可用數據"
 
 msgid "Record one file per client"
-msgstr ""
+msgstr "每個客戶端錄製一個檔"
 
 msgid "Disabled (default)"
-msgstr ""
+msgstr "已關閉（預設）"
 
 msgid "Minimal"
-msgstr ""
+msgstr "最小"
 
 msgid "Full "
-msgstr ""
+msgstr "滿"
 
 msgid "Predefined Terrain"
-msgstr ""
+msgstr "預定義地形"
 
 msgid "Unknown Terrain"
 msgstr "未知地形"
 
 msgid "never"
-msgstr ""
+msgstr "從不"
 
 msgid "shorter than 10 sec (default)"
-msgstr ""
+msgstr "短於 10 秒（預設）"
 
 msgid "shorter than 1 min"
-msgstr ""
+msgstr "短於 1 分鐘"
 
 msgid "shorter than 5 min"
-msgstr ""
+msgstr "短於 5 分鐘"
