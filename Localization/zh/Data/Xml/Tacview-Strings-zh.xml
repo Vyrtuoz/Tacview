@@ -918,20 +918,18 @@
 	Chinese characters are not yet supported in the 3D view
 	<String ID="HostLabel">(主机)</String>
 	<String ID="InstructorLabel">(教练)</String>
--->
-	<String ID="HostLabel">(host)</String>
-	<String ID="InstructorLabel">(instructor)</String>
-	<String ID="HostInstructorLabel">(host/instructor)</String>
-	<String ID="UnknownIPAddress">(未知)</String>
-<!--
-	Chinese characters are not yet supported in the 3D view
 	<String ID="OnlineDebriefingHostTitle">主持{0}任务报告</String>
 	<String ID="OnlineDebriefingClientJoiningTitle">连接到任务报告……</String>
 	<String ID="OnlineDebriefingClientTitle">连接到{0}任务报告</String>
 -->
+	<String ID="HostLabel">(host)</String>
+	<String ID="InstructorLabel">(instructor)</String>
+	<String ID="HostInstructorLabel">(host/instructor)</String>
 	<String ID="OnlineDebriefingHostTitle">Hosting {0}</String>
 	<String ID="OnlineDebriefingClientJoiningTitle">Connecting to debriefing...</String>
 	<String ID="OnlineDebriefingClientTitle">Connected to {0}</String>
+
+	<String ID="UnknownIPAddress">(未知)</String>
 
 	<!-- Misc -->
 	<String ID="DemoEditionShortOneDay">演示版（{0}天剩余）</String>

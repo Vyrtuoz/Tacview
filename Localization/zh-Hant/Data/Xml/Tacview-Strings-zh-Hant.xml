@@ -566,8 +566,8 @@
 	<String ID="RealTimeTelemetryPort">資料記錄器埠：</String>
 	<String ID="RealTimeTelemetryWarningClient">僅有高級版Tacview可以記錄即時遙測。</String>
 	<String ID="RealTimeTelemetryPasswordTip">可能需要密碼來加入私有會話</String>
-	<String ID="RealTimeTelemetryRecordingConnecting">Waiting for {0} {1}</String>
-	<String ID="RealTimeTelemetryRecordingProgress">Recording from {0} {1}</String>
+	<String ID="RealTimeTelemetryRecordingConnecting">{1} Waiting for {0}</String>
+	<String ID="RealTimeTelemetryRecordingProgress">{1} Recording from {0}</String>
 	<String ID="RealTimeTelemetryOperationCompleted">Real-time telemetry recording complete.</String>
 	<String ID="RealTimeTelemetryOperationFailed">Failed to connect real-time telemetry to given host address.</String>
 	<String ID="RealTimeTelemetryUnsupportedOperation">Real-time telemetry not compatible with the host exporter.</String>
@@ -917,7 +917,6 @@ Make sure everything is properly connected to your computer and configured, then
 	Chinese characters are not yet supported in the 3D view
 	<String ID="HostLabel">(主機)</String>
 	<String ID="InstructorLabel">(教練)</String>
-	<String ID="UnknownIPAddress">(未知)</String>
 	<String ID="OnlineDebriefingHostTitle">主持&#2;{0}&#1;任務報告</String>
 	<String ID="OnlineDebriefingClientJoiningTitle">連接到任務報告……</String>
 	<String ID="OnlineDebriefingClientTitle">連接到&#2;{0}&#1;任務報告</String>
@@ -925,10 +924,11 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="HostLabel">(host)</String>
 	<String ID="InstructorLabel">(instructor)</String>
 	<String ID="HostInstructorLabel">(host/instructor)</String>
-	<String ID="UnknownIPAddress">(unknown)</String>
 	<String ID="OnlineDebriefingHostTitle">Hosting {0}</String>
 	<String ID="OnlineDebriefingClientJoiningTitle">Connecting to debriefing...</String>
 	<String ID="OnlineDebriefingClientTitle">Connected to {0}</String>
+
+	<String ID="UnknownIPAddress">(未知)</String>
 
 	<!-- Misc -->
 	<String ID="DemoEditionShortOneDay">展示版本（{0}天剩餘）</String>
