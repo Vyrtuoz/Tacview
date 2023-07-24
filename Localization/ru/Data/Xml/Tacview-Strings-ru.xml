@@ -316,8 +316,10 @@
 	<String ID="ObjectsInfoCmdRelativeBearingNavHelp">Отображать расстояние и относительный курс (в 2D) между выбранными объектами</String>
 	<String ID="ObjectsInfoCmdRelativeBearingCombatText">Расстояние/Относительный курс (Боевой/3D)</String>
 	<String ID="ObjectsInfoCmdRelativeBearingCombatHelp">Отображать расстояние и относительный курс (в 3D) между выбранными объектами</String>
-	<String ID="ObjectsInfoCmdAspectAngleText">Расстояние/Угловое положение</String>
-	<String ID="ObjectsInfoCmdAspectAngleHelp">Отображать значение угла (хвост цели - летательный аппарат игрока)</String>
+	<String ID="ObjectsInfoCmdAspectAngleCompactText">Расстояние/Угловое положение (compact)</String>
+	<String ID="ObjectsInfoCmdAspectAngleCompactHelp">Отображать значение угла (хвост цели - летательный аппарат игрока)</String>
+	<String ID="ObjectsInfoCmdAspectAngleDetailedText">Расстояние/Угловое положение (detailed)</String>
+	<String ID="ObjectsInfoCmdAspectAngleDetailedHelp">Отображать значение угла (хвост цели - летательный аппарат игрока)</String>
 	<String ID="ObjectsInfoCmdDisplayObjectsInfoText">Отображать в 3D</String>
 	<String ID="ObjectsInfoCmdDisplayObjectsInfoHelp">Отображать информацию о выбранных аппаратах в 3D виде</String>
 	<String ID="ObjectsInfoCmdLineOfSightRateText">Расстояние/Угловая скорость линии визирования</String>

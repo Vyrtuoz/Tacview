@@ -316,8 +316,10 @@
 	<String ID="ObjectsInfoCmdRelativeBearingNavHelp">Muestra el rango y el rumbo relativo 2D entre los objetos seleccionados</String>
 	<String ID="ObjectsInfoCmdRelativeBearingCombatText">Rango / Rumbo relativo (Combate/3D)</String>
 	<String ID="ObjectsInfoCmdRelativeBearingCombatHelp">Muestra el rango y el rumbo relativo 3D entre los objetos seleccionados</String>
-	<String ID="ObjectsInfoCmdAspectAngleText">Rango / Aspecto</String>
-	<String ID="ObjectsInfoCmdAspectAngleHelp">Muestra el número de grados medidos desde la cola del objetivo a tu avión</String>
+	<String ID="ObjectsInfoCmdAspectAngleCompactText">Rango / Aspecto (compact)</String>
+	<String ID="ObjectsInfoCmdAspectAngleCompactHelp">Muestra el número de grados medidos desde la cola del objetivo a tu avión</String>
+	<String ID="ObjectsInfoCmdAspectAngleDetailedText">Rango / Aspecto (detailed)</String>
+	<String ID="ObjectsInfoCmdAspectAngleDetailedHelp">Muestra el número de grados medidos desde la cola del objetivo a tu avión</String>
 	<String ID="ObjectsInfoCmdDisplayObjectsInfoText">Mostrar vistas 3D</String>
 	<String ID="ObjectsInfoCmdDisplayObjectsInfoHelp">Muestra la información del objeto seleccionado en la vista 3D</String>
 	<String ID="ObjectsInfoCmdLineOfSightRateText">Rango / Línea de visión</String>

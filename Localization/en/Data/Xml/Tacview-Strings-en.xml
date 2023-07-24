@@ -315,8 +315,10 @@
 	<String ID="ObjectsInfoCmdRelativeBearingNavHelp">Display range and relative 2D bearing between selected objects</String>
 	<String ID="ObjectsInfoCmdRelativeBearingCombatText">Range / Relative Bearing (Combat/3D)</String>
 	<String ID="ObjectsInfoCmdRelativeBearingCombatHelp">Display range and relative 3D bearing between selected objects</String>
-	<String ID="ObjectsInfoCmdAspectAngleText">Range / Aspect Angle</String>
-	<String ID="ObjectsInfoCmdAspectAngleHelp">Display number of degrees measured from the tail of a target to your aircraft</String>
+	<String ID="ObjectsInfoCmdAspectAngleCompactText">Range / Aspect Angle (compact)</String>
+	<String ID="ObjectsInfoCmdAspectAngleCompactHelp">Display number of degrees measured from the tail of a target to your aircraft</String>
+	<String ID="ObjectsInfoCmdAspectAngleDetailedText">Range / Aspect Angle (detailed)</String>
+	<String ID="ObjectsInfoCmdAspectAngleDetailedHelp">Display number of degrees measured from the tail of a target to your aircraft</String>
 	<String ID="ObjectsInfoCmdDisplayObjectsInfoText">Display in 3D view</String>
 	<String ID="ObjectsInfoCmdDisplayObjectsInfoHelp">Display selected objects info in the 3D view</String>
 	<String ID="ObjectsInfoCmdLineOfSightRateText">Range / Line of Sight Rate</String>

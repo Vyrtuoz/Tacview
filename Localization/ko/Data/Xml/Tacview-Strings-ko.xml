@@ -316,8 +316,10 @@
 	<String ID="ObjectsInfoCmdRelativeBearingNavHelp">선택된 오브젝트들의 거리와 2D 상대방위 보여주기</String>
 	<String ID="ObjectsInfoCmdRelativeBearingCombatText">거리 / 상대방위 (전투/3D)</String>
 	<String ID="ObjectsInfoCmdRelativeBearingCombatHelp">선택된 오브젝트들의 거리와 3D 상대방위 보여주기</String>
-	<String ID="ObjectsInfoCmdAspectAngleText">거리 / 측면각</String>
-	<String ID="ObjectsInfoCmdAspectAngleHelp">선택된 기체의 거리 및 상대 기체의 6시와 내 기체의 헤딩의 차이각을 보여주기</String>
+	<String ID="ObjectsInfoCmdAspectAngleCompactText">거리 / 측면각 (compact)</String>
+	<String ID="ObjectsInfoCmdAspectAngleCompactHelp">선택된 기체의 거리 및 상대 기체의 6시와 내 기체의 헤딩의 차이각을 보여주기</String>
+	<String ID="ObjectsInfoCmdAspectAngleDetailedText">거리 / 측면각 (detailed)</String>
+	<String ID="ObjectsInfoCmdAspectAngleDetailedHelp">선택된 기체의 거리 및 상대 기체의 6시와 내 기체의 헤딩의 차이각을 보여주기</String>
 	<String ID="ObjectsInfoCmdDisplayObjectsInfoText">3D 뷰로 보여주기</String>
 	<String ID="ObjectsInfoCmdDisplayObjectsInfoHelp">3D 뷰에서 선택된 오브젝트의 정보를 보여주기</String>
 	<String ID="ObjectsInfoCmdLineOfSightRateText">거리 / 시선각속도(LOS rate)</String>

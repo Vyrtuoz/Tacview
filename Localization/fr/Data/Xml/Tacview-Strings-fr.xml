@@ -315,8 +315,10 @@
 	<String ID="ObjectsInfoCmdRelativeBearingNavHelp">Affiche la distance et le relèvement relatif 2D entre les objets sélectionnés</String>
 	<String ID="ObjectsInfoCmdRelativeBearingCombatText">Distance / Relèvement relatif (Combat/3D)</String>
 	<String ID="ObjectsInfoCmdRelativeBearingCombatHelp">Affiche la distance et le relèvement relatif 3D entre les objets sélectionnés</String>
-	<String ID="ObjectsInfoCmdAspectAngleText">Distance/ Angle d'aspect</String>
-	<String ID="ObjectsInfoCmdAspectAngleHelp">Affiche l'angle formé depuis la queue de l'ennemi par rapport à vous</String>
+	<String ID="ObjectsInfoCmdAspectAngleCompactText">Distance/ Angle d'aspect (compact)</String>
+	<String ID="ObjectsInfoCmdAspectAngleCompactHelp">Affiche l'angle formé depuis la queue de l'ennemi par rapport à vous</String>
+	<String ID="ObjectsInfoCmdAspectAngleDetailedText">Distance/ Angle d'aspect (détaillé)</String>
+	<String ID="ObjectsInfoCmdAspectAngleDetailedHelp">Affiche l'angle formé depuis la queue de l'ennemi par rapport à vous</String>
 	<String ID="ObjectsInfoCmdDisplayObjectsInfoText">Afficher dans la vue 3D</String>
 	<String ID="ObjectsInfoCmdDisplayObjectsInfoHelp">Afficher les informations des objets sélectionnés dans la vue 3D</String>
 	<String ID="ObjectsInfoCmdLineOfSightRateText">Distance / Taux de ligne de visée</String>

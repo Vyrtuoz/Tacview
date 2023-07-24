@@ -315,8 +315,10 @@
 	<String ID="ObjectsInfoCmdRelativeBearingNavHelp">Wyświetl zasięg i względny kurs 2D pomiędzy wybranymi obiektami</String>
 	<String ID="ObjectsInfoCmdRelativeBearingCombatText">Zasięg / Względny kurs (Walka/3D)</String>
 	<String ID="ObjectsInfoCmdRelativeBearingCombatHelp">Wyświetl zasięg i względny kurs 3D pomiędzy wybranymi obiektami</String>
-	<String ID="ObjectsInfoCmdAspectAngleText">Zasięg / Kąt widzenia</String>
-	<String ID="ObjectsInfoCmdAspectAngleHelp">Wyświetl ilość stopni mierzoną od ogona celu to twojego samolotu</String>
+	<String ID="ObjectsInfoCmdAspectAngleCompactText">Zasięg / Kąt widzenia (compact)</String>
+	<String ID="ObjectsInfoCmdAspectAngleCompactHelp">Wyświetl ilość stopni mierzoną od ogona celu to twojego samolotu</String>
+	<String ID="ObjectsInfoCmdAspectAngleDetailedText">Zasięg / Kąt widzenia (detailed)</String>
+	<String ID="ObjectsInfoCmdAspectAngleDetailedHelp">Wyświetl ilość stopni mierzoną od ogona celu to twojego samolotu</String>
 	<String ID="ObjectsInfoCmdDisplayObjectsInfoText">Wyświetl w widoku 3D</String>
 	<String ID="ObjectsInfoCmdDisplayObjectsInfoHelp">Wyświetl informacje o wybranych obiektach w widoku 3D</String>
 	<String ID="ObjectsInfoCmdLineOfSightRateText">Zasięg / Linia wzroku</String>

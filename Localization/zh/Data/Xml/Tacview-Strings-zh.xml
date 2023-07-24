@@ -316,8 +316,10 @@
 	<String ID="ObjectsInfoCmdRelativeBearingNavHelp">显示被选物体之间的距离和相对2D方位</String>
 	<String ID="ObjectsInfoCmdRelativeBearingCombatText">距离/目标相对方位（战斗/3D）</String>
 	<String ID="ObjectsInfoCmdRelativeBearingCombatHelp">显示被选物体之间的距离和相对3D方位</String>
-	<String ID="ObjectsInfoCmdAspectAngleText">距离/目标进入角</String>
-	<String ID="ObjectsInfoCmdAspectAngleHelp">显示从目标的尾部到你的航空器的度数</String>
+	<String ID="ObjectsInfoCmdAspectAngleCompactText">距离/目标进入角 (compact)</String>
+	<String ID="ObjectsInfoCmdAspectAngleCompactHelp">显示从目标的尾部到你的航空器的度数</String>
+	<String ID="ObjectsInfoCmdAspectAngleDetailedText">距离/目标进入角 (detailed)</String>
+	<String ID="ObjectsInfoCmdAspectAngleDetailedHelp">显示从目标的尾部到你的航空器的度数</String>
 	<String ID="ObjectsInfoCmdDisplayObjectsInfoText">在3D视野中显示</String>
 	<String ID="ObjectsInfoCmdDisplayObjectsInfoHelp">在3D视野中显示被选物体的信息</String>
 	<String ID="ObjectsInfoCmdLineOfSightRateText">距离/视线角速度</String>

@@ -316,8 +316,10 @@
 	<String ID="ObjectsInfoCmdRelativeBearingNavHelp">הצג טווח וכיוון יחסי (דו-מימדי לניווט) בין האוביקטים שנבחרו</String>
 	<String ID="ObjectsInfoCmdRelativeBearingCombatText">כיוון יחסי (תלת-מימדי) / טווח</String>
 	<String ID="ObjectsInfoCmdRelativeBearingCombatHelp">הצג טווח וכיוון יחסי (תלת-מימדי לקרב אוויר) בין האוביקטים שנבחרו</String>
-	<String ID="ObjectsInfoCmdAspectAngleText">זווית אספקט / טווח</String>
-	<String ID="ObjectsInfoCmdAspectAngleHelp">הצג טווח וזווית אספקט בין האוביקטים שנבחרו</String>
+	<String ID="ObjectsInfoCmdAspectAngleCompactText">זווית אספקט / טווח (compact)</String>
+	<String ID="ObjectsInfoCmdAspectAngleCompactHelp">הצג טווח וזווית אספקט בין האוביקטים שנבחרו</String>
+	<String ID="ObjectsInfoCmdAspectAngleDetailedText">זווית אספקט / טווח (detailed)</String>
+	<String ID="ObjectsInfoCmdAspectAngleDetailedHelp">הצג טווח וזווית אספקט בין האוביקטים שנבחרו</String>
 	<String ID="ObjectsInfoCmdDisplayObjectsInfoText">הצג בתצוגה הגרפית</String>
 	<String ID="ObjectsInfoCmdDisplayObjectsInfoHelp">הצג נתונים נבחרים של האויבקטים בתצוגה הגרפית</String>
 	<String ID="ObjectsInfoCmdLineOfSightRateText">קו שיעור ראיה / טווח</String>

@@ -316,8 +316,10 @@
 	<String ID="ObjectsInfoCmdRelativeBearingNavHelp">Mostra Distanza e Bearing Relativo 2D tra gli oggetti selezionati</String>
 	<String ID="ObjectsInfoCmdRelativeBearingCombatText">Distanza / Bearing Relativo (Combattimento/3D)</String>
 	<String ID="ObjectsInfoCmdRelativeBearingCombatHelp">Mostra Distanza e Bearing Relativo 3D tra gli oggetti selezionati</String>
-	<String ID="ObjectsInfoCmdAspectAngleText">Distanza / Angolo d'Aspetto</String>
-	<String ID="ObjectsInfoCmdAspectAngleHelp">Mostra numero dei gradi misurati dalla coda dell' obiettivo al tuo aereo</String>
+	<String ID="ObjectsInfoCmdAspectAngleCompactText">Distanza / Angolo d'Aspetto (compact)</String>
+	<String ID="ObjectsInfoCmdAspectAngleCompactHelp">Mostra numero dei gradi misurati dalla coda dell' obiettivo al tuo aereo</String>
+	<String ID="ObjectsInfoCmdAspectAngleDetailedText">Distanza / Angolo d'Aspetto (detailed)</String>
+	<String ID="ObjectsInfoCmdAspectAngleDetailedHelp">Mostra numero dei gradi misurati dalla coda dell' obiettivo al tuo aereo</String>
 	<String ID="ObjectsInfoCmdDisplayObjectsInfoText">Mostra in vista 3D</String>
 	<String ID="ObjectsInfoCmdDisplayObjectsInfoHelp">Mostra le informazioni degli oggetti selezionati nella vista 3D</String>
 	<String ID="ObjectsInfoCmdLineOfSightRateText">Distanza / Rateo della Linea di Vista</String>

@@ -316,8 +316,10 @@
 	<String ID="ObjectsInfoCmdRelativeBearingNavHelp">Anzeigen der Reichweite und des realtiven 2D Bearings zwischen den gewählten Objekten</String>
 	<String ID="ObjectsInfoCmdRelativeBearingCombatText">Reichweite / Relatives Bearing (Combat/3D)</String>
 	<String ID="ObjectsInfoCmdRelativeBearingCombatHelp">Anzeigen der Reichweite und des realtiven 3D Bearings zwischen den gewählten Objekten</String>
-	<String ID="ObjectsInfoCmdAspectAngleText">Reichweite / Aspektwinkel</String>
-	<String ID="ObjectsInfoCmdAspectAngleHelp">Anzeigen der Gradanzahl gemessen am Ende des Ziels zu deinem Flugzeug</String>
+	<String ID="ObjectsInfoCmdAspectAngleCompactText">Reichweite / Aspektwinkel (compact)</String>
+	<String ID="ObjectsInfoCmdAspectAngleCompactHelp">Anzeigen der Gradanzahl gemessen am Ende des Ziels zu deinem Flugzeug</String>
+	<String ID="ObjectsInfoCmdAspectAngleDetailedText">Reichweite / Aspektwinkel (detailed)</String>
+	<String ID="ObjectsInfoCmdAspectAngleDetailedHelp">Anzeigen der Gradanzahl gemessen am Ende des Ziels zu deinem Flugzeug</String>
 	<String ID="ObjectsInfoCmdDisplayObjectsInfoText">Anzeige in 3D Sicht</String>
 	<String ID="ObjectsInfoCmdDisplayObjectsInfoHelp">Anzeigen der gewählten Objektinfos in der 3D-Ansicht</String>
 	<String ID="ObjectsInfoCmdLineOfSightRateText">Reichweite / "Line of Sight" Rate</String>
