@@ -763,6 +763,7 @@
 	<String ID="CmdConnectRealTimeTelemetryHelp">使用最后已知的参数连接实时遥测。</String>
 	<String ID="CmdConnectRemoteControlHelp">使用最后已知的参数连接特定遥控。</String>
 	<String ID="CmdQuitHelp">Tacview将在所有指定操作完成后关闭。</String>
+	<String ID="CmdSetTimeHelp">Seek to the given ISO-formatted time. Load telemetry data first.</String>
 	<String ID="CmdDataCollectionHelp">可用于禁用匿名数据收集。</String>
 	<String ID="CmdVBOOffHelp">禁用顶点缓冲区物体以避免在一些ATI交火配置上崩溃。</String>
 	<String ID="CmdDebugModeHelp">显示调试信息以帮助修补错误。</String>
@@ -1035,7 +1036,7 @@
 	<String ID="InvalidShortcutText">在当前任务里无法通过快捷方式找到物体和时间参考。请确认打开了正确的文件且复制/粘贴了整个快捷方式。</String>
 
 	<String ID="AboutTitle">关于Tacview</String>
-	<String ID="AboutCopyright">版权© 2006-2023, Raia Software. 保留所有权利。&#10;此计算机程序受到版权法和国际协约保护。</String>
+	<String ID="AboutCopyright">版权© 2006-2024, Raia Software. 保留所有权利。&#10;此计算机程序受到版权法和国际协约保护。</String>
 
 	<String ID="LoadingInProgressShort">载入...</String>
 	<String ID="LoadingInProgress">载入'{0}'</String>

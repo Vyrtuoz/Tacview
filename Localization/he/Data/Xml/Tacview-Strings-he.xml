@@ -741,6 +741,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="CmdConnectRealTimeTelemetryHelp">Connect real-time telemetry using the last known parameters.</String>
 	<String ID="CmdConnectRemoteControlHelp">Connect specified remote control using the last known parameters.</String>
 	<String ID="CmdQuitHelp">סגירת התוכנה לאחר ביצוע הפעולות הנדרשות</String>
+	<String ID="CmdSetTimeHelp">Seek to the given ISO-formatted time. Load telemetry data first.</String>
 	<String ID="CmdDataCollectionHelp">Disables anonymous data collection.</String>
 	<String ID="CmdVBOOffHelp">ATI למניעת קריסה בחלק מכרטיסי VBO בטל</String>
 	<String ID="CmdDebugModeHelp">מציג נתוני תקלות לפתרון בעיות</String>
@@ -963,7 +964,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="InvalidShortcutText">האובייקט ו/או הזמן המבוקש בקיצור הדרך לא נמצאו בקובץ. אנא וודא כי מדובר בקובץ הנכון וכי העתקת את קיצור הדרך כשורה</String>
 
 	<String ID="AboutTitle">Tacview אודות</String>
-	<String ID="AboutCopyright">Copyright © 2006-2023, Raia Software. All Rights Reserved.&#10;This computer program is protected by copyright law and international treaties.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2024, Raia Software. All Rights Reserved.&#10;This computer program is protected by copyright law and international treaties.</String>
 	
 	<String ID="LoadingInProgressShort">...טוען</String>
 	<String ID="LoadingInProgress">'{0}' טוען</String>

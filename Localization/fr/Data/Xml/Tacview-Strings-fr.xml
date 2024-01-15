@@ -740,6 +740,7 @@ Assurez-vous que tout est correctement connecté et configuré, puis cliquez sur
 	<String ID="CmdConnectRealTimeTelemetryHelp">Connecte la télémétrie temps-réel en utilisant les derniers paramètres connus.</String>
 	<String ID="CmdConnectRemoteControlHelp">Connecte la télécommande spécifiéee en utilisant les derniers paramètres connus.</String>
 	<String ID="CmdQuitHelp">Tacview se fermera après que toutes les autres opérations aient été exécutées.</String>
+	<String ID="CmdSetTimeHelp">Aller au temps indiqué au format ISO. Chargez d'abord les données de télémétrie.</String>
 	<String ID="CmdDataCollectionHelp">Désactive la collecte de données anonyme.</String>
 	<String ID="CmdVBOOffHelp">Désactive les Vertex Buffer Objects pour éviter des plantages avec certaines configurations CrossFire d'ATI.</String>
 	<String ID="CmdDebugModeHelp">Affiche des informations de débogage pour aider à corriger des bugs.</String>
@@ -962,7 +963,7 @@ Assurez-vous que tout est correctement connecté et configuré, puis cliquez sur
 	<String ID="InvalidShortcutText">Impossible de trouver dans cette mission les objets et l'heure contenus dans ce raccourci. Assurez-vous d'avoir ouvert le bon fichier et d'avoir copié/collé l'intégralité du raccourci.</String>
 
 	<String ID="AboutTitle">A propos de Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2023, Raia Software. Tous droits réservés.&#10;Ce logiciel est protégé par les lois internationales sur le copyright.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2024, Raia Software. Tous droits réservés.&#10;Ce logiciel est protégé par les lois internationales sur le copyright.</String>
 
 	<String ID="LoadingInProgressShort">Chargement...</String>
 	<String ID="LoadingInProgress">Chargement de '{0}'</String>

@@ -741,6 +741,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="CmdConnectRealTimeTelemetryHelp">Connect real-time telemetry using the last known parameters.</String>
 	<String ID="CmdConnectRemoteControlHelp">Connect specified remote control using the last known parameters.</String>
 	<String ID="CmdQuitHelp">Tacview verrà chiuso dopo che tutte le altre operazioni previste saranno state completate.</String>
+	<String ID="CmdSetTimeHelp">Seek to the given ISO-formatted time. Load telemetry data first.</String>
 	<String ID="CmdDataCollectionHelp">Disables anonymous data collection.</String>
 	<String ID="CmdVBOOffHelp">Disabilita Vertex Buffer Objects al fine di evitare problemi in alcune configurazioni ATI CrossFire.</String>
 	<String ID="CmdDebugModeHelp">Mostra informazioni di debug per aiutare a risolvere eventuali bug.</String>
@@ -963,7 +964,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="InvalidShortcutText">Non riesco a trovare nella missione corrente gli oggetti e il tempo a cui fa riferimento questa scorciatoia. Assicurarsi di aver aperto il file giusto e copia/incolla tutta la scorciatoia.</String>
 
 	<String ID="AboutTitle">Riguardo Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2023, Raia Software. Tutti i diritti riservati.&#10;Questo programma è protetto da copyright e dai trattati internazionali.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2024, Raia Software. Tutti i diritti riservati.&#10;Questo programma è protetto da copyright e dai trattati internazionali.</String>
 
 	<String ID="LoadingInProgressShort">Caricamento...</String>
 	<String ID="LoadingInProgress">Caricamento '{0}'</String>

@@ -762,6 +762,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="CmdConnectRealTimeTelemetryHelp">使用最後已知的參數連接即時遙測。</String>
 	<String ID="CmdConnectRemoteControlHelp">使用最後已知的參數連接特定遙控。</String>
 	<String ID="CmdQuitHelp">Tacview將在所有指定操作完成後關閉。</String>
+	<String ID="CmdSetTimeHelp">Seek to the given ISO-formatted time. Load telemetry data first.</String>
 	<String ID="CmdDataCollectionHelp">可用於禁用匿名資料收集。</String>
 	<String ID="CmdVBOOffHelp">禁用頂點緩衝區物體以避免在一些ATI交火配置上崩潰。</String>
 	<String ID="CmdDebugModeHelp">顯示調試資訊以説明修補錯誤。</String>
@@ -1033,7 +1034,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="InvalidShortcutText">在當前任務裡無法通過快捷方式找到物體和時間參考。請確認打開了正確的檔且複製/粘貼了整個快捷方式。</String>
 
 	<String ID="AboutTitle">關於Tacview</String>
-	<String ID="AboutCopyright">版權© 2006-2023, Raia Software. 保留所有權利。&#10;此電腦程式受到版權法和國際協約保護。</String>
+	<String ID="AboutCopyright">版權© 2006-2024, Raia Software. 保留所有權利。&#10;此電腦程式受到版權法和國際協約保護。</String>
 
 	<String ID="LoadingInProgressShort">載入...</String>
 	<String ID="LoadingInProgress">載入'{0}'</String>
