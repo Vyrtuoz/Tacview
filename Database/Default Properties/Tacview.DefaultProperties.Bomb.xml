@@ -351,6 +351,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Bomb.GBU-31V3B" Base="Bomb.GBU-31">
+		<Criteria>
+			<Name>GBU-31 V 3 B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>GBU-31</ShortName>
+			<LongName>GBU-31 (V)3/B JDAM</LongName>
+			<FullName>GBU-31 (V)3/B JDAM (BLU-109/B)</FullName>
+			<Shape>Core.Bomb.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Bomb.GBU-32" Base="Bomb.GBU-31">
 		<Criteria>
 			<Name>GBU-32</Name>
@@ -383,6 +395,28 @@
 			<ShortName>GBU-53/B</ShortName>
 			<LongName>GBU-53/B</LongName>
 			<FullName>GBU-53/B StormBreaker</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.GBU-54" Base="Bomb.GBU-38">
+		<Criteria>
+			<Name>GBU-54</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>GBU-54</ShortName>
+			<LongName>GBU-54 JDAM</LongName>
+			<FullName>GBU-54 JDAM (Mk84)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Bomb.GBU-54V1B" Base="Bomb.GBU-54">
+		<Criteria>
+			<Name>GBU-54 V 1 B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>GBU-54</ShortName>
+			<LongName>GBU-54 (V)1/B JDAM</LongName>
+			<FullName>GBU-54 (V)1/B JDAM (Mk84)</FullName>
 		</Properties>
 	</DefaultProperties>
 

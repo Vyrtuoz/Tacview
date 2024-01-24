@@ -221,6 +221,17 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Container.DropTank.RP35" Base="Container.DropTank">
+		<Criteria>
+			<Name>RP35 Fuel Tank</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Drop Tank</ShortName>
+			<LongName>RP35 Drop Tank</LongName>
+			<FullName>RP35 Drop Tank</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Container.DropTank.PTB-400" Base="Container.DropTank">
 		<Criteria>
 			<Name>PTB-400</Name>

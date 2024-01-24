@@ -301,4 +301,15 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Rocket.SNEB257" Base="Rocket.SNEB256">
+		<Criteria>
+			<Name>SNEB 257</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SNEB257</ShortName>
+			<LongName>SNEB 257</LongName>
+			<FullName>SNEB Type 257</FullName>
+		</Properties>
+	</DefaultProperties>
+
 </DefaultPropertiesCollection>

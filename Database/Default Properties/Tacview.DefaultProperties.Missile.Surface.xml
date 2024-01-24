@@ -21,6 +21,12 @@
 	<DefaultProperties Id="Missile.Surface.Optical" Base="Missile.Surface">
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.Surface.Cruise" Base="Missile.Surface">
+		<Properties>
+			<Shape>Missile.KH-101.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- North American Surface Missiles -->
 
 	<DefaultProperties Id="Missile.Surface.BGM71A" Base="Missile.Surface.Optical">
@@ -65,6 +71,61 @@
 			<ShortName>BGM-71D</ShortName>
 			<LongName>BGM-71D TOW-2</LongName>
 			<FullName>BGM-71D TOW-2</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.Surface.BGM109" Base="Missile.Surface.Cruise">
+		<Criteria>
+			<Name>BGM-109</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BGM-109</ShortName>
+			<LongName>BGM-109 Tomahawk</LongName>
+			<FullName>BGM-109 Tomahawk</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.Surface.BGM109A" Base="Missile.Surface.BGM109">
+		<Criteria>
+			<Name>BGM-109A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BGM-109A</ShortName>
+			<LongName>BGM-109A Tomahawk</LongName>
+			<FullName>BGM-109A Tomahawk (TLAM-N)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.Surface.BGM109B" Base="Missile.Surface.BGM109A">
+		<Criteria>
+			<Name>BGM-109B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BGM-109B</ShortName>
+			<LongName>BGM-109B Tomahawk</LongName>
+			<FullName>BGM-109B Tomahawk (TASM)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.Surface.BGM109C" Base="Missile.Surface.BGM109B">
+		<Criteria>
+			<Name>BGM-109C</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BGM-109C</ShortName>
+			<LongName>BGM-109C Tomahawk</LongName>
+			<FullName>BGM-109C Tomahawk (TLAM-C)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.Surface.BGM109D" Base="Missile.Surface.BGM109C">
+		<Criteria>
+			<Name>BGM-109D</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>BGM-109D</ShortName>
+			<LongName>BGM-109D Tomahawk</LongName>
+			<FullName>BGM-109D Tomahawk (TLAM-D)</FullName>
 		</Properties>
 	</DefaultProperties>
 

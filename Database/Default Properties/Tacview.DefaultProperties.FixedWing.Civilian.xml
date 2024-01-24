@@ -53,6 +53,12 @@
 			<Shape>FixedWing.EA300.obj</Shape>
 		</Properties>
 	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.GA.TwinEngine.LowWing.Taildragger" Base="FixedWing.GA">
+		<Properties>
+			<Shape>FixedWing.DC-3.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.GA.SingleEngine.Biplane.Taildragger" Base="FixedWing.GA">
 		<Properties>
@@ -1538,6 +1544,28 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.DuoDiscus2" Base="FixedWing.DuoDiscus">
+		<Criteria>
+			<Name>Discus-2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Discus-2</ShortName>
+			<LongName>Discus-2</LongName>
+			<FullName>Schempp-Hirth Discus-2</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.DuoDiscus2c" Base="FixedWing.DuoDiscus2">
+		<Criteria>
+			<Name>Discus-2c</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Discus-2c</ShortName>
+			<LongName>Discus-2c</LongName>
+			<FullName>Schempp-Hirth Discus-2c</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.DR400" Base="FixedWing.GA.SingleEngine.LowWing.Tricycle">
 		<Criteria>
 			<Name>DR400</Name>
@@ -2245,13 +2273,26 @@
 	<DefaultProperties Id="FixedWing.DC-10" Base="FixedWing.Heavy.Jet.ThreeEngines">
 		<Criteria>
 			<Name>DC-10</Name>
-			<Name>McDonnell Douglas DC-1</Name>
+			<Name>McDonnell Douglas DC-10</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>DC-10</ShortName>
 			<LongName>DC-10</LongName>
 			<FullName>McDonnell Douglas DC-10</FullName>
 			<Shape>FixedWing.MD-80.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.DC-3" Base="FixedWing.GA.TwinEngine.LowWing.Taildragger">
+		<Criteria>
+			<Name>DC-3</Name>
+			<Name>Douglas DC-3</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>DC-3</ShortName>
+			<LongName>DC-3</LongName>
+			<FullName>McDonnell Douglas DC-3</FullName>
+			<Shape>FixedWing.DC-3.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

@@ -438,6 +438,7 @@
 	<DefaultProperties Id="Missile.AA.ADM-141" Base="Missile.AA">
 		<Criteria>
 			<Name>ADM-141</Name>
+			<Name>ADM_141</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>ADM-141</ShortName>
@@ -450,6 +451,7 @@
 	<DefaultProperties Id="Missile.AA.ADM-141A" Base="Missile.AA.ADM-141">
 		<Criteria>
 			<Name>ADM-141A</Name>
+			<Name>ADM_141A</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>ADM-141A</ShortName>
@@ -552,6 +554,7 @@
 	<DefaultProperties Id="Missile.AA.MICA.IR" Base="Missile.AA.IR">
 		<Criteria>
 			<Name>MICA IR</Name>
+			<Name>MICA_T</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>MICA</ShortName>
@@ -564,6 +567,7 @@
 	<DefaultProperties Id="Missile.AA.MICA.RF" Base="Missile.AA.Radar">
 		<Criteria>
 			<Name>MICA RF</Name>
+			<Name>MICA_R</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>MICA</ShortName>
@@ -595,6 +599,77 @@
 			<ShortName>RS-2US</ShortName>
 			<LongName>RS-2US (AA-1 Alkali)</LongName>
 			<FullName>Kaliningrad RS-2US (AA-1 Alkali)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-3" Base="Missile.AA.IR">
+		<Criteria>
+			<Name>R-3</Name>
+			<Name>AA-2</Name>
+			<Name>AA-2 Atoll</Name>
+			<Name>K-13</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-3</ShortName>
+			<LongName>R-3 (AA-2 Atoll)</LongName>
+			<FullName>Vympel R-3 (AA-2 Atoll)</FullName>
+			<Shape>Missile.R-60.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-3S" Base="Missile.AA.R-3">
+		<Criteria>
+			<Name>R-3S</Name>
+			<Name>AA-2A</Name>
+			<Name>AA-2A Atoll</Name>
+			<Name>K-13A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-3S</ShortName>
+			<LongName>R-3S (AA-2A Atoll)</LongName>
+			<FullName>Vympel R-3S (AA-2A Atoll)</FullName>
+			<Shape>Missile.AIM-9M.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-3R" Base="Missile.AA.R-3S">
+		<Criteria>
+			<Name>R-3R</Name>
+			<Name>K-13R</Name>
+			<Name>AA-2D</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-3R</ShortName>
+			<LongName>R-3R (AA-2D Atoll)</LongName>
+			<FullName>Vympel R-3R (AA-2D Atoll)</FullName>
+			<Shape>Missile.AIM-9M.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-13M" Base="Missile.AA.R-3S">
+		<Criteria>
+			<Name>R-13M</Name>
+			<Name>K-13M</Name>
+			<Name>AA-2C</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-13M</ShortName>
+			<LongName>R-13M (AA-2C Atoll)</LongName>
+			<FullName>Vympel R-13M (AA-2C Atoll)</FullName>
+			<Shape>Missile.AIM-9M.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AA.R-13M1" Base="Missile.AA.R-13M">
+		<Criteria>
+			<Name>R-13M1</Name>
+			<Name>K-13M1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R-13M1</ShortName>
+			<LongName>R-13M1 (AA-2C Atoll)</LongName>
+			<FullName>Vympel R-13M1 (AA-2C Atoll)</FullName>
+			<Shape>Missile.AIM-9M.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -733,6 +808,7 @@
 	<DefaultProperties Id="Missile.AA.R-33" Base="Missile.AA.Radar">
 		<Criteria>
 			<Name>R-33</Name>
+			<Name>P_33</Name>
 			<Name>AA-9</Name>
 			<Name>AA-9 Amos</Name>
 		</Criteria>
@@ -744,74 +820,40 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Missile.AA.R-3" Base="Missile.AA.IR">
+	<DefaultProperties Id="Missile.AA.R-33E" Base="Missile.AA.R-33">
 		<Criteria>
-			<Name>R-3</Name>
-			<Name>AA-2</Name>
-			<Name>AA-2 Atoll</Name>
-			<Name>K-13</Name>
+			<Name>R-33E</Name>
+			<Name>P_33E</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>R-3</ShortName>
-			<LongName>R-3 (AA-2 Atoll)</LongName>
-			<FullName>Vympel R-3 (AA-2 Atoll)</FullName>
-			<Shape>Missile.R-60.obj</Shape>
+			<ShortName>R-33E</ShortName>
+			<LongName>R-33E (AA-9 Amos)</LongName>
+			<FullName>Vympel R-33E (AA-9 Amos)</FullName>
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Missile.AA.R-3S" Base="Missile.AA.R-3">
+	<DefaultProperties Id="Missile.AA.R-40R" Base="Missile.AA.R-33">
 		<Criteria>
-			<Name>R-3S</Name>
-			<Name>AA-2A</Name>
-			<Name>AA-2A Atoll</Name>
-			<Name>K-13A</Name>
+			<Name>R-40R</Name>
+			<Name>P_40R</Name>			<!-- DCS 2.7.0.5659 -->
 		</Criteria>
 		<Properties>
-			<ShortName>R-3S</ShortName>
-			<LongName>R-3S (AA-2A Atoll)</LongName>
-			<FullName>Vympel R-3S (AA-2A Atoll)</FullName>
-			<Shape>Missile.AIM-9M.obj</Shape>
+			<ShortName>R-40R</ShortName>
+			<LongName>R-40R Acrid</LongName>
+			<FullName>R-40R Acrid (AA-6)</FullName>
+			<Shape>Missile.9M330.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Missile.AA.R-3R" Base="Missile.AA.R-3S">
+	<DefaultProperties Id="Missile.AA.R-40T" Base="Missile.AA.R-40R">
 		<Criteria>
-			<Name>R-3R</Name>
-			<Name>K-13R</Name>
-			<Name>AA-2D</Name>
+			<Name>R-40T</Name>
+			<Name>P_40T</Name>			<!-- DCS 2.7.0.5659 -->
 		</Criteria>
 		<Properties>
-			<ShortName>R-3R</ShortName>
-			<LongName>R-3R (AA-2D Atoll)</LongName>
-			<FullName>Vympel R-3R (AA-2D Atoll)</FullName>
-			<Shape>Missile.AIM-9M.obj</Shape>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="Missile.AA.R-13M" Base="Missile.AA.R-3S">
-		<Criteria>
-			<Name>R-13M</Name>
-			<Name>K-13M</Name>
-			<Name>AA-2C</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>R-13M</ShortName>
-			<LongName>R-13M (AA-2C Atoll)</LongName>
-			<FullName>Vympel R-13M (AA-2C Atoll)</FullName>
-			<Shape>Missile.AIM-9M.obj</Shape>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="Missile.AA.R-13M1" Base="Missile.AA.R-13M">
-		<Criteria>
-			<Name>R-13M1</Name>
-			<Name>K-13M1</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>R-13M1</ShortName>
-			<LongName>R-13M1 (AA-2C Atoll)</LongName>
-			<FullName>Vympel R-13M1 (AA-2C Atoll)</FullName>
-			<Shape>Missile.AIM-9M.obj</Shape>
+			<ShortName>R-40T</ShortName>
+			<LongName>R-40T Acrid</LongName>
+			<FullName>R-40T Acrid (AA-6)</FullName>
 		</Properties>
 	</DefaultProperties>
 

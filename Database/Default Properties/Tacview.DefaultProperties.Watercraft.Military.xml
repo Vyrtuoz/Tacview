@@ -515,6 +515,32 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Watercraft.Frigate.Type23" Base="Watercraft.Frigate">
+		<Criteria>
+			<Name>Type 23</Name>
+			<Name>Duke Class</Name>
+			<Type>Sea+Warship</Type>
+		</Criteria>
+		<Properties>
+			<ShortName>Type 23</ShortName>
+			<LongName>Type 23</LongName>
+			<FullName>Type 23 (Duke class)</FullName>
+			<EngagementRange>50000</EngagementRange>	<!-- As seen in CMO -->
+			<Shape>Watercraft.Type23.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Frigate.Type23.Norfolk" Base="Watercraft.Frigate.Type23">
+		<Criteria>
+			<Name>Norfolk</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>HMS Norfolk</ShortName>
+			<LongName>HMS Norfolk</LongName>
+			<FullName>HMS Norfolk (Type 23)</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- Russian Transports -->
 
 	<DefaultProperties Id="Watercraft.Ropucha" Base="Watercraft.LST">
@@ -618,7 +644,7 @@
 			<LongName>Moskva</LongName>
 			<FullName>Moskva</FullName>
 			<Shape>Watercraft.Moskva.obj</Shape>
-			<EngagementRange>60000</EngagementRange>	<!-- Tested with DCS 2.5.5.35461 -->
+			<EngagementRange>48000</EngagementRange>	<!-- Tested with DCS 2.8.8.43704 -->
 		</Properties>
 	</DefaultProperties>
 
@@ -800,6 +826,21 @@
 	</DefaultProperties>
 
 	<!-- EU Aircraft Carriers -->
+	
+	<DefaultProperties Id="Watercraft.HMS Invincible" Base="Watercraft.AircraftCarrier">
+		<Criteria>
+			<Name>HMS Invincible</Name>
+			<Name>Invincible</Name>
+			<Name>R05</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>R05</ShortName>
+			<LongName>HMS Invincible</LongName>
+			<FullName>HMS Invincible</FullName>
+			<Shape>Watercraft.Admiral Kuznetsov.obj</Shape>
+			<EngagementRange>35000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="Watercraft.R91" Base="Watercraft.AircraftCarrier">
 		<Criteria>
@@ -813,7 +854,7 @@
 			<FullName>Charles de Gaulle (R91)</FullName>
 			<Shape>Watercraft.R91.obj</Shape>
 		</Properties>
-	</DefaultProperties>
+	</DefaultProperties>	
 
 	<!-- China -->
 

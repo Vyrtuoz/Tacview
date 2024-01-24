@@ -128,6 +128,18 @@
 			<ShortName>CH-47</ShortName>
 			<LongName>CH-47 Chinook</LongName>
 			<FullName>Boeing CH-47 Chinook</FullName>
+			<Shape>Rotorcraft.Chinook.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.CH-47D" Base="Rotorcraft.CH-47">
+		<Criteria>
+			<Name>CH-47D</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CH-47D</ShortName>
+			<LongName>CH-47D Chinook</LongName>
+			<FullName>Boeing CH-47D Chinook</FullName>
 		</Properties>
 	</DefaultProperties>
 

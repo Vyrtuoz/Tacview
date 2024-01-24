@@ -44,7 +44,7 @@
 
 	<!-- North American Air to Ground Missiles -->
 
-	<DefaultProperties Id="Missile.AG.AGM-45" Base="Missile.AG">
+	<DefaultProperties Id="Missile.AG.AGM-45" Base="Missile.ARM">
 		<Criteria>
 			<Name>AGM-45</Name>
 			<Name>AGM-45 Shrike</Name>
@@ -214,7 +214,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Missile.AG.AGM-88" Base="Missile.AG">
+	<DefaultProperties Id="Missile.AG.AGM-88" Base="Missile.ARM">
 		<Criteria>
 			<Name>AGM-88</Name>
 			<Name>AGM-88 HARM</Name>
@@ -472,6 +472,30 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.AG.Kh-31P" Base="Missile.ARM">
+		<Criteria>
+			<Name>Kh-31P</Name>
+			<Name>X_31P</Name>	<!-- Russian X -->
+		</Criteria>
+		<Properties>
+			<ShortName>Kh-31P</ShortName>
+			<LongName>Kh-31P Krypton</LongName>
+			<FullName>Kh-31P Krypton (AS-17)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Missile.AG.Kh-58" Base="Missile.ARM">
+		<Criteria>
+			<Name>Kh-58</Name>
+			<Name>X_58</Name>	<!-- Russian X -->
+		</Criteria>
+		<Properties>
+			<ShortName>Kh-58</ShortName>
+			<LongName>Kh-58 Kilter</LongName>
+			<FullName>Kh-58 Kilter (AS-11)</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.AG.Kh-101" Base="Missile.AG.Cruise">
 		<Criteria>
 			<Name>Kh-101</Name>
@@ -603,14 +627,28 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Missile.AG.KEPD350" Base="Missile.AG.Cruise">
+		<Criteria>
+			<Name>KEPD 350</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>KEPD 350</ShortName>
+			<LongName>Taurus KEPD 350</LongName>
+			<FullName>Taurus KEPD 350</FullName>
+			<Shape>Missile.SOM.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Missile.AG.BK90" Base="Missile.AG">
 		<Criteria>
 			<Name>BK90</Name>
+			<Name>DWS 39</Name>
+			<Name>Mjölner</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>BK90</ShortName>
 			<LongName>BK90</LongName>
-			<FullName>Bombkapsel 90 (BK90)</FullName>
+			<FullName>BK90 Mjölner (DWS 39)</FullName>
 			<Shape>Missile.SOM.obj</Shape>
 		</Properties>
 	</DefaultProperties>
@@ -622,7 +660,7 @@
 		<Properties>
 			<ShortName>BK90</ShortName>
 			<LongName>BK90 MJ1 (HE)</LongName>
-			<FullName>Bombkapsel 90 (BK90 MJ1)</FullName>
+			<FullName>BK90 Mjölner (MJ1)</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -633,7 +671,7 @@
 		<Properties>
 			<ShortName>BK90</ShortName>
 			<LongName>BK90 MJ2 (AP)</LongName>
-			<FullName>Bombkapsel 90 (BK90 MJ2)</FullName>
+			<FullName>BK90 Mjölner (MJ2)</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -644,7 +682,7 @@
 		<Properties>
 			<ShortName>BK90</ShortName>
 			<LongName>BK90 MJ1-MJ2 (HE/AP)</LongName>
-			<FullName>Bombkapsel 90 (BK90 MJ1-MJ2)</FullName>
+			<FullName>BK90 Mjölner (MJ1-MJ2)</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -785,6 +823,40 @@
 			<LongName>BRM1 90mm</LongName>
 			<FullName>BRM1 90mm</FullName>
 			<Shape>Rocket.Hydra 70.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rocket.AGR-20" Base="Missile.AG.Laser">
+		<Criteria>
+			<Name>AGR-20</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGR-20</ShortName>
+			<LongName>AGR-20</LongName>
+			<FullName>AGR-20</FullName>
+			<Shape>Rocket.Hydra 70.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rocket.AGR-20.M282" Base="Rocket.AGR-20">
+		<Criteria>
+			<Name>AGR 20 M282</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M282</ShortName>
+			<LongName>AGR-20 M282</LongName>
+			<FullName>AGR-20 M282</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rocket.AGR-20A" Base="Rocket.AGR-20">
+		<Criteria>
+			<Name>AGR 20A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AGR-20A</ShortName>
+			<LongName>AGR-20A</LongName>
+			<FullName>AGR-20A</FullName>
 		</Properties>
 	</DefaultProperties>
 

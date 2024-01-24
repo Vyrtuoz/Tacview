@@ -68,7 +68,7 @@
 
 	<!-- North American Military Transport Fixed-wing aircraft -->
 	
-	<DefaultProperties Id="FixedWing.C-47" Base="FixedWing.Military.Transport">
+	<DefaultProperties Id="FixedWing.C-47" Base="FixedWing.DC-3">
 		<Criteria>
 			<Name>C-47</Name>
 			<Name>Skytrain</Name>
@@ -311,6 +311,18 @@
 			<ShortName>An-30M</ShortName>
 			<LongName>An-30M Clank</LongName>
 			<FullName>Antonov An-30M Clank</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.Li-2" Base="FixedWing.DC-3">
+		<Criteria>
+			<Name>Li-2</Name>
+			<Name>Lisunov Li-2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Li-2</ShortName>
+			<LongName>Lisunov Li-2</LongName>
+			<FullName>Lisunov Li-2</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -2368,6 +2380,31 @@
 			<Shape>FixedWing.CAML.obj</Shape>
 		</Properties>
 	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.IAR 80" Base="FixedWing.Fighter.Prop">
+		<Criteria>
+			<Name>IAR 80</Name>
+			<Name>I.A.R. 80</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>IAR 80</ShortName>
+			<LongName>IAR 80</LongName>
+			<FullName>IAR 80</FullName>
+			<Shape>FixedWing.Fw 190.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.IAR 80A" Base="FixedWing.IAR 80">
+		<Criteria>
+			<Name>IAR 80A</Name>
+			<Name>I.A.R. 80-A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>IAR 80A</ShortName>
+			<LongName>IAR 80A</LongName>
+			<FullName>IAR 80A</FullName>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.Mosquito" Base="FixedWing.Fighter.TwinProp">
 		<Criteria>
@@ -2649,6 +2686,28 @@
 			<FullName>Messerschmitt Bf 109 G-6</FullName>
 		</Properties>
 	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.Bf 109.G-6AS" Base="FixedWing.Bf 109.G-6">
+		<Criteria>
+			<Name>Bf 109 G-6AS</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Bf 109 G-6</ShortName>
+			<LongName>Messerschmitt Bf 109 G-6AS</LongName>
+			<FullName>Messerschmitt Bf 109 G-6AS</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.Bf 109.G-6 Late" Base="FixedWing.Bf 109.G-6">
+		<Criteria>
+			<Name>Bf 109 G-6 Late</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Bf 109 G-6</ShortName>
+			<LongName>Messerschmitt Bf 109 G-6 Late</LongName>
+			<FullName>Messerschmitt Bf 109 G-6 Late</FullName>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.Bf 109.G-14" Base="FixedWing.Bf 109">
 		<Criteria>
@@ -2785,6 +2844,19 @@
 			<ShortName>Me 410</ShortName>
 			<LongName>Me 410 Hornisse</LongName>
 			<FullName>Messerschmitt Me 410 Hornisse</FullName>
+			<Shape>FixedWing.Ju 88.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.Me 410 A-1" Base="FixedWing.Me 410">
+		<Criteria>
+			<Name>Me 410 A-1</Name>
+			<Name>Messerschmitt Me 410 A-1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Me 410</ShortName>
+			<LongName>Me 410 Hornisse A-1</LongName>
+			<FullName>Messerschmitt Me 410 Hornisse A-1</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -2898,6 +2970,18 @@
 			<FullName>Focke-Wulf Fw 190 A-5 Würger</FullName>
 		</Properties>
 	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.Fw 190 A-6" Base="FixedWing.Fw 190 A">
+		<Criteria>
+			<Name>Fw 190 A-6</Name>
+			<Name>Fw 190 A-6 Würger</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Fw 190 A-6</ShortName>
+			<LongName>Fw 190 A-6 Würger</LongName>
+			<FullName>Focke-Wulf Fw 190 A-6 Würger</FullName>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.Fw 190 A-8" Base="FixedWing.Fw 190 A">
 		<Criteria>
@@ -2917,7 +3001,7 @@
 			<Name>Fw 190 D Dora</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>Fw 190 D Dora</ShortName>
+			<ShortName>Fw 190 D</ShortName>
 			<LongName>Fw 190 D Dora</LongName>
 			<FullName>Focke-Wulf Fw 190 D Dora</FullName>
 		</Properties>
@@ -2929,7 +3013,7 @@
 			<Name>Fw 190 D-9 Dora</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>Fw 190 D-9 Dora</ShortName>
+			<ShortName>Fw 190 D-9</ShortName>
 			<LongName>Fw 190 D-9 Dora</LongName>
 			<FullName>Focke-Wulf Fw 190 D-9 Dora</FullName>
 		</Properties>
@@ -3616,6 +3700,30 @@
 			<FullName>Supermarine Spitfire Mk.IXe</FullName>
 		</Properties>
 	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.Spitfire.Mk.XIV" Base="FixedWing.Spitfire">
+		<Criteria>
+			<Name>Spitfire Mk.XIV</Name>
+			<Name>Supermarine Spitfire Mk.XIV</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Spitfire</ShortName>
+			<LongName>Spitfire Mk.XIV</LongName>
+			<FullName>Supermarine Spitfire Mk.XIV</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.Spitfire.Mk.XIVe" Base="FixedWing.Spitfire.Mk.XIV">
+		<Criteria>
+			<Name>Spitfire Mk.XIVe</Name>
+			<Name>Supermarine Spitfire Mk.XIVe</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Spitfire</ShortName>
+			<LongName>Spitfire Mk.XIVe</LongName>
+			<FullName>Supermarine Spitfire Mk.XIVe</FullName>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.HawkerTyphoon" Base="FixedWing.Fighter.Prop">
 		<Criteria>
@@ -3991,6 +4099,54 @@
 			<LongName>La-5</LongName>
 			<FullName>Lavochkin La-5</FullName>
 			<Shape>FixedWing.La-5.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.La-5F" Base="FixedWing.La-5">
+		<Criteria>
+			<Name>La-5F</Name>
+			<Name>Lavochkin La-5F</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>La-5F</ShortName>
+			<LongName>La-5F</LongName>
+			<FullName>Lavochkin La-5F</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.La-5F ser.38" Base="FixedWing.La-5F">
+		<Criteria>
+			<Name>La-5F ser.38</Name>
+			<Name>Lavochkin La-5F ser.38</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>La-5F</ShortName>
+			<LongName>La-5F ser.38</LongName>
+			<FullName>Lavochkin La-5F ser.38</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.La-5FN" Base="FixedWing.La-5F">
+		<Criteria>
+			<Name>La-5FN</Name>
+			<Name>Lavochkin La-5FN</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>La-5FN</ShortName>
+			<LongName>La-5FN</LongName>
+			<FullName>Lavochkin La-5FN</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.La-5FN ser.2" Base="FixedWing.La-5FN">
+		<Criteria>
+			<Name>La-5FN ser.2</Name>
+			<Name>Lavochkin La-5FN ser.2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>La-5FN</ShortName>
+			<LongName>La-5FN ser.2</LongName>
+			<FullName>Lavochkin La-5FN ser.2</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -4935,6 +5091,42 @@
 			<FullName>Yakovlev Yak-7B ser.36</FullName>
 		</Properties>
 	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.Yak-9" Base="FixedWing.Yak-7B">
+		<Criteria>
+			<Name>Yak-9</Name>
+			<Name>Yakovlev Yak-9</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Yak-9</ShortName>
+			<LongName>Yak-9</LongName>
+			<FullName>Yakovlev Yak-9</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.Yak-9T" Base="FixedWing.Yak-9">
+		<Criteria>
+			<Name>Yak-9T</Name>
+			<Name>Yakovlev Yak-9T</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Yak-9T</ShortName>
+			<LongName>Yak-9T</LongName>
+			<FullName>Yakovlev Yak-9T</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.Yak-9T.1" Base="FixedWing.Yak-9T">
+		<Criteria>
+			<Name>Yak-9T ser.1</Name>
+			<Name>Yakovlev Yak-9T ser.1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Yak-9T</ShortName>
+			<LongName>Yak-9T ser.1</LongName>
+			<FullName>Yakovlev Yak-9T ser.1</FullName>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="FixedWing.Yak-52" Base="FixedWing.Fighter.Prop">
 		<Criteria>
@@ -4950,6 +5142,33 @@
 	</DefaultProperties>
 
 	<!-- Asian Military Fixed-wing aircraft -->
+	
+	<DefaultProperties Id="FixedWing.B5N" Base="Core.FixedWing">
+		<Criteria>
+			<Name>B5N</Name>
+			<Name>Nakajima B5N</Name>
+			<Name>Kate</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B5N</ShortName>
+			<LongName>B5N Kate</LongName>
+			<FullName>Nakajima B5N Kate</FullName>
+			<Shape>FixedWing.Yak-1.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.B5N2" Base="FixedWing.B5N">
+		<Criteria>
+			<Name>B5N2</Name>
+			<Name>Nakajima B5N2</Name>
+			<Name>Kate</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B5N2</ShortName>
+			<LongName>B5N2 Kate</LongName>
+			<FullName>Nakajima B5N2 Kate</FullName>
+		</Properties>
+	</DefaultProperties>
 	
 	<DefaultProperties Id="FixedWing.H-6" Base="FixedWing.Tu-16">
 		<Criteria>

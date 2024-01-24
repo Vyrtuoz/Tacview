@@ -138,5 +138,14 @@
 			<Shape>Building.SinglePylon.25m.obj</Shape>
 		</Properties>
 	</DefaultProperties>
+		
+	<DefaultProperties Id="Building.RenoPylon" Base="Building.Pylon">
+		<Criteria>
+			<Name>Reno Pylon</Name>
+		</Criteria>
+		<Properties>
+			<Shape>Building.RenoPylon.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 
 </DefaultPropertiesCollection>

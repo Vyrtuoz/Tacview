@@ -196,6 +196,18 @@
 			<FullName>KORD Pickup</FullName>
 		</Properties>
 	</DefaultProperties>
+	
+	<DefaultProperties Id="Vehicle.Truck.AA-7.2/60" Base="Vehicle.Military.Truck">
+		<Criteria>
+			<Name>AA8</Name>	<!-- DCS World -->
+			<Name>AA-7.2/60</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AA-7.2/60</ShortName>
+			<LongName>AA-7.2/60</LongName>
+			<FullName>Firefighter Vehicle AA-7.2/60</FullName>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="Vehicle.Truck.ATZ-4-131" Base="Vehicle.Military.Tanker">
 		<Criteria>
@@ -238,6 +250,17 @@
 			<ShortName>ATZ-10</ShortName>
 			<LongName>ATZ-10</LongName>
 			<FullName>ATZ-10</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="Vehicle.Truck.ATZ-60" Base="Vehicle.Military.Tanker">
+		<Criteria>
+			<Name>ATZ-60</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ATZ-60</ShortName>
+			<LongName>ATZ-60</LongName>
+			<FullName>ATZ-60</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -315,6 +338,17 @@
 			<ShortName>KrAz T 255B</ShortName>
 			<LongName>KrAz T 255B</LongName>
 			<FullName>KrAz T 255B</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="Vehicle.Truck.TZ-22-KrAZ" Base="Vehicle.Military.Tanker">
+		<Criteria>
+			<Name>TZ-22_KrAZ</Name>	<!-- DCS World -->
+		</Criteria>
+		<Properties>
+			<ShortName>TZ-22</ShortName>
+			<LongName>TZ-22 KrAZ</LongName>
+			<FullName>TZ-22 KrAZ</FullName>
 		</Properties>
 	</DefaultProperties>
 

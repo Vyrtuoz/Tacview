@@ -169,7 +169,7 @@
 			<ShortName>MIM-104 Patriot</ShortName>
 			<LongName>MIM-104 Patriot (AN/MPQ-53 STR)</LongName>
 			<FullName>MIM-104 Patriot (AN/MPQ-53 Search &amp; Tracking Radar)</FullName>
-			<EngagementRange>90000</EngagementRange>
+			<EngagementRange>58000</EngagementRange>	<!-- DCS 2.8.8 -->
 		</Properties>
 	</DefaultProperties>
 
@@ -294,6 +294,51 @@
 			<ShortName>MIM-23 Hawk</ShortName>
 			<LongName>MIM-23 Hawk (PCP CT)</LongName>
 			<FullName>MIM-23 Hawk (PCP Control)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.NASAMS.CP" Base="AntiAircraft.SAM.Control">
+		<Criteria>
+			<Name>NASAMS_Command_Post</Name>		<!-- DCS World 2.8 -->
+		</Criteria>
+		<Properties>
+			<ShortName>NASAMS</ShortName>
+			<LongName>NASAMS CP</LongName>
+			<FullName>NASAMS (Command Post)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.NASAMS.LN.B" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>NASAMS_LN_B</Name>				<!-- DCS World 2.8 -->
+		</Criteria>
+		<Properties>
+			<ShortName>NASAMS</ShortName>
+			<LongName>NASAMS LN</LongName>
+			<FullName>NASAMS (Launcher AIM-120B)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.NASAMS.LN.C" Base="AntiAircraft.SAM.NASAMS.LN.B">
+		<Criteria>
+			<Name>NASAMS_LN_C</Name>				<!-- DCS World 2.8 -->
+		</Criteria>
+		<Properties>
+			<ShortName>NASAMS</ShortName>
+			<LongName>NASAMS LN</LongName>
+			<FullName>NASAMS (Launcher AIM-120C)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.NASAMS.ST.MPQ64F1" Base="AntiAircraft.SAM.SearchAndTrackingRadar">
+		<Criteria>
+			<Name>NASAMS_Radar_MPQ64F1</Name>		<!-- DCS World 2.8 -->
+		</Criteria>
+		<Properties>
+			<ShortName>NASAMS</ShortName>
+			<LongName>NASAMS MPQ64F1</LongName>
+			<FullName>NASAMS MPQ64F1 (Search &amp; Tracking Radar)</FullName>
+			<EngagementRange>10000</EngagementRange>
 		</Properties>
 	</DefaultProperties>
 
@@ -970,6 +1015,18 @@
 			<ShortName>HQ-7 LN</ShortName>
 			<LongName>HQ-7 LN</LongName>
 			<FullName>HQ-7 (Launcher)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.HQ-7.LN.EO" Base="AntiAircraft.SAM.HQ-7.LN">
+		<Criteria>
+			<Name>HQ-7 LN EO</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>HQ-7 LN</ShortName>
+			<LongName>HQ-7 LN EO</LongName>
+			<FullName>HQ-7 (Electro-Optic Launcher)</FullName>
+			<EngagementRange>5000</EngagementRange>
 		</Properties>
 	</DefaultProperties>
 
