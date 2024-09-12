@@ -50,6 +50,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Vehicle.Military.Artillery" Base="Vehicle.Military">
+		<Properties>
+			<Shape>Core.Artillery.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Artillery.SelfPropelled" Base="Vehicle.Military.Artillery">
+		<Properties>
+			<Shape>Vehicle.Artillery.M109.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- North American Military Cars -->
 
 	<DefaultProperties Id="Vehicle.Car.Jeep" Base="Vehicle.Military.Car">
@@ -456,6 +468,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Vehicle.Military.Truck.CJ10" Base="Vehicle.Military.Truck.Launcher">
+		<Criteria>
+			<Name>CJ-10</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CJ-10</ShortName>
+			<LongName>TEL CJ-10</LongName>
+			<FullName>TEL Changjian-10</FullName>
+			<Shape>Vehicle.Truck.TEL.CJ-10.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- Eastern Military Armoured personnel carrier (APC) -->
 
 	<DefaultProperties Id="Vehicle.APC.BA-64" Base="Vehicle.Military.APC">
@@ -584,6 +608,53 @@
 			<LongName>BRDM-2</LongName>
 			<FullName>BRDM-2</FullName>
 			<Shape>Vehicle.APC.BRDM-2.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- North American Artillery -->
+
+	<DefaultProperties Id="Vehicle.Artillery.L118" Base="Vehicle.Military.Artillery">
+		<Criteria>
+			<Name>L118</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>L118</ShortName>
+			<LongName>L118</LongName>
+			<FullName>L118 light gun</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Artillery.M109" Base="Vehicle.Artillery.SelfPropelled">
+		<Criteria>
+			<Name>M109</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M109</ShortName>
+			<LongName>M109</LongName>
+			<FullName>M109 howitzer</FullName>
+			<Shape>Vehicle.Artillery.M109.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Artillery.M777" Base="Vehicle.Military.Artillery">
+		<Criteria>
+			<Name>M777</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M777</ShortName>
+			<LongName>M777</LongName>
+			<FullName>M777 howitzer</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Artillery.M777A2" Base="Vehicle.Artillery.M777">
+		<Criteria>
+			<Name>M777A2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M777A2</ShortName>
+			<LongName>M777A2</LongName>
+			<FullName>M777A2 howitzer</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -1072,6 +1143,20 @@
 			<ShortName>T-90</ShortName>
 			<LongName>T-90</LongName>
 			<FullName>T-90</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Russian Artillery -->
+
+	<DefaultProperties Id="Vehicle.Artillery.2S19" Base="Vehicle.Artillery.SelfPropelled">
+		<Criteria>
+			<Name>2S19</Name>
+			<Name>SAU Msta</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>2S19</ShortName>
+			<LongName>2S19</LongName>
+			<FullName>2S19 Msta-S</FullName>
 		</Properties>
 	</DefaultProperties>
 

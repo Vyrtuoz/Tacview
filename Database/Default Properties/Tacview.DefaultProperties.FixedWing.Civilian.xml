@@ -1074,6 +1074,17 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.PA-18" Base="FixedWing.GA.SingleEngine.HighWing.Taildragger">
+		<Criteria>
+			<Name>PA-18</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PA-18</ShortName>
+			<LongName>PA-18 Super Cub</LongName>
+			<FullName>Piper PA-18 Super Cub</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.PA-28" Base="FixedWing.GA.SingleEngine.LowWing.Tricycle">
 		<Criteria>
 			<Name>PA-28</Name>

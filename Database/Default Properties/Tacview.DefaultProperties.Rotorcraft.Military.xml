@@ -143,6 +143,17 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Rotorcraft.CH-47F" Base="Rotorcraft.CH-47D">
+		<Criteria>
+			<Name>CH-47F</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>CH-47F</ShortName>
+			<LongName>CH-47F Chinook</LongName>
+			<FullName>Boeing CH-47F Chinook</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Rotorcraft.CH-53" Base="Rotorcraft.Transport">
 		<Criteria>
 			<Name>Sea Stallion</Name>
@@ -350,13 +361,14 @@
 
 	<DefaultProperties Id="Rotorcraft.OH-58D" Base="Rotorcraft.OH-58">
 		<Criteria>
+			<Name>Kiowa Warrior</Name>
 			<Name>OH-58D</Name>
 			<Name>Bell OH-58D</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>OH-58D</ShortName>
-			<LongName>OH-58D Kiowa</LongName>
-			<FullName>Bell OH-58 KiowaD</FullName>
+			<LongName>OH-58D Kiowa Warrior</LongName>
+			<FullName>Bell OH-58D Kiowa Warrior</FullName>
 		</Properties>
 	</DefaultProperties>
 

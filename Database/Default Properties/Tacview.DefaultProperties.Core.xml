@@ -197,6 +197,17 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Core.Vehicle" Base="Core.Default">
+		<Criteria>
+			<Type>Vehicle</Type>
+			<Name>*</Name>
+		</Criteria>
+		<Properties>
+			<AdditionalType>Vehicle</AdditionalType>
+			<Shape>Core.Vehicle.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Core.Armor" Base="Core.Vehicle">
 		<Criteria>
 			<Type>Armor</Type>
@@ -215,17 +226,6 @@
 		<Properties>
 			<AdditionalType>AntiAircraft</AdditionalType>
 			<Shape>AntiAircraft.AAA.ZSU-23-4.obj</Shape>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="Core.Vehicle" Base="Core.Default">
-		<Criteria>
-			<Type>Vehicle</Type>
-			<Name>*</Name>
-		</Criteria>
-		<Properties>
-			<AdditionalType>Vehicle</AdditionalType>
-			<Shape>Core.Vehicle.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

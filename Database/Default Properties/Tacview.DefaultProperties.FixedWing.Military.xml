@@ -1014,6 +1014,19 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.B-21" Base="FixedWing.B-2">
+		<Criteria>
+			<Name>B-21</Name>
+			<Name>B-21 Raider</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B-21</ShortName>
+			<LongName>B-21 Raider</LongName>
+			<FullName>Northrop Grumman B-21 Raider</FullName>
+			<Shape>FixedWing.B-21.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.B-17" Base="FixedWing.Bomber.QuadProp">
 		<Criteria>
 			<Name>B-17</Name>

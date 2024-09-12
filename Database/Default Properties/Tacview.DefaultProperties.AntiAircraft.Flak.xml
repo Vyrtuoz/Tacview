@@ -24,15 +24,15 @@
 
 	<!-- EU Flak -->
 
-	<DefaultProperties Id="AntiAircraft.Flak.Kdo.​Ger.40" Base="AntiAircraft.Support.Infantry">
+	<DefaultProperties Id="AntiAircraft.Flak.Kdo.Ger.40" Base="AntiAircraft.Support.Infantry">
 		<Criteria>
 			<Name>Kommandogerät 40</Name>
-			<Name>Kdo.​Ger.40</Name>
+			<Name>Kdo.Ger.40</Name>
 			<Name>KDO_Mod40</Name>
 		</Criteria>
 		<Properties>
-			<ShortName>Kdo.​Ger.40</ShortName>
-			<LongName>Kdo.​Ger.40</LongName>
+			<ShortName>Kdo.Ger.40</ShortName>
+			<LongName>Kdo.Ger.40</LongName>
 			<FullName>Kommandogerät 40</FullName>
 		</Properties>
 	</DefaultProperties>
