@@ -162,13 +162,13 @@
 	<String ID="OptionsMetricAirplaneUnitsText">Metrisch - Luftfahrzeug</String>
 	<String ID="OptionsMetricAirplaneUnitsHelp">Geschwindigkeit(GS): km/h - Vertikale GS: m/min - Höhe: m - Entfernung: km</String>
 
-	<String ID="OptionsImperialDataAnalysisMIUnitsText">Impirische - Daten Analyse (mi)</String>
+	<String ID="OptionsImperialDataAnalysisMIUnitsText">Imperial - Daten Analyse (mi)</String>
 	<String ID="OptionsImperialDataAnalysisMIUnitsHelp">Geschwindigkeit(GS): mph - Vertikale GS: ft/min - Höhe: ft - Entfernung: ft</String>
-	<String ID="OptionsImperialDataAnalysisNMUnitsText">Impirische - Daten Analyse (nm)</String>
+	<String ID="OptionsImperialDataAnalysisNMUnitsText">Imperial - Daten Analyse (nm)</String>
 	<String ID="OptionsImperialDataAnalysisNMUnitsHelp">Geschwindigkeit(GS): kts - Vertikale GS: ft/min - Höhe: ft - Entfernung: ft</String>
-	<String ID="OptionsImperialAircraftMIUnitsText">Impirisch - Luftfahrzeug (mi)</String>
+	<String ID="OptionsImperialAircraftMIUnitsText">Imperial - Luftfahrzeug (mi)</String>
 	<String ID="OptionsImperialAircraftMIUnitsHelp">Geschwindigkeit(GS): mph - Vertikale GS: ft/min - Höhe: ft - Entfernung: mi &amp; ft</String>
-	<String ID="OptionsImperialAircraftNMUnitsText">Impirisch - Luftfahrzeug (nm)</String>
+	<String ID="OptionsImperialAircraftNMUnitsText">Imperial - Luftfahrzeug (nm)</String>
 	<String ID="OptionsImperialAircraftNMUnitsHelp">Geschwindigkeit(GS): kts - Vertikale GS: ft/min - Höhe: ft - Entfernung: nm &amp; ft</String>
 	<String ID="OptionsDistanceAutoSwitch0Text">Entfernungen nicht auf Fuß umschalten</String>
 	<String ID="OptionsDistanceAutoSwitch0Help">Nicht auf Fuß umschalten unter einer bestimmten Entfernung</String>
