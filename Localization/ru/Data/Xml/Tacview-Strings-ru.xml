@@ -28,8 +28,8 @@
 	<String ID="RecordingMenuHelp">Задать свойства записи полета</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Телеметрия в реальном времени...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">Записать текущий полет</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4 Real-Time Telemetry...</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Record a flight currently in progress in Falcon 4 &amp; BMS</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4.0 Legacy Real-Time Telemetry...</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Record a flight currently in progress in older versions of Falcon 4</String>
 	<String ID="RecordingADSBTelemetryCmdText">ADS-B радио телеметрия...</String>
 	<String ID="RecordingADSBTelemetryCmdHelp">Записывать ADS-B телеметрию в воздухе</String>
 	<String ID="RecordingRemoteControl0Text">Удаленное управление 1</String>
@@ -46,10 +46,10 @@
 	<String ID="AnalysisMenuHelp">Инструменты</String>
 	<String ID="AnalysisPropertiesText">&amp;Свойства</String>
 	<String ID="AnalysisPropertiesHelp">Показать/скрыть свойства записи полета</String>
-	<String ID="AnalysisEventLogText">&amp;Журнал полета</String>
-	<String ID="AnalysisEventLogHelp">Показать/скрыть журнал файла записи полета</String>
-	<String ID="AnalysisShotLogText">Лог событий</String>
-	<String ID="AnalysisShotLogHelp">Показать/спрятать лог событий</String>
+	<String ID="AnalysisFlightLogText">&amp;Журнал полета</String>
+	<String ID="AnalysisFlightLogHelp">Показать/скрыть журнал файла записи полета</String>
+	<String ID="AnalysisEventLogText">Лог событий</String>
+	<String ID="AnalysisEventLogHelp">Показать/спрятать лог событий</String>
 	<String ID="AnalysisDisplayControlBarText">Панель управления воспроизведением</String>
 	<String ID="AnalysisDisplayControlBarHelp">Показывать/скрывать панель управления вопроизведением</String>
 	<String ID="AnalysisActiveObjectListText">Список активных объектов</String>
@@ -76,6 +76,14 @@
 	<String ID="AnalysisDisplayChart3Help">Показать/скрыть окно с графиком #3</String>
 	<String ID="AnalysisDisplayChart4Text">Графики &amp;4</String>
 	<String ID="AnalysisDisplayChart4Help">Показать/скрыть окно с графиком #4</String>
+	<String ID="AnalysisDisplayChart5Text">Графики &amp;5</String>
+	<String ID="AnalysisDisplayChart5Help">Показать/скрыть окно с графиком #5</String>
+	<String ID="AnalysisDisplayChart6Text">Графики &amp;6</String>
+	<String ID="AnalysisDisplayChart6Help">Показать/скрыть окно с графиком #6</String>
+	<String ID="AnalysisDisplayChart7Text">Графики &amp;7</String>
+	<String ID="AnalysisDisplayChart7Help">Показать/скрыть окно с графиком #7</String>
+	<String ID="AnalysisDisplayChart8Text">Графики &amp;8</String>
+	<String ID="AnalysisDisplayChart8Help">Показать/скрыть окно с графиком #8</String>
 	<String ID="AnalysisDisplayMedia1Text">Медиа &amp;1</String>
 	<String ID="AnalysisDisplayMedia1Help">Показать/скрыть аудио/видео окно #1</String>
 	<String ID="AnalysisDisplayMedia2Text">Медиа &amp;2</String>
@@ -144,6 +152,8 @@
 	<String ID="OptionsTerrainHelpFalcon4">Использовать ландшафт из "Falcon 4.0"</String>
 	<String ID="OptionsTerrainTextIL2">Ил-2 Штурмовик</String>
 	<String ID="OptionsTerrainHelpIL2">Использовать ландшафт из "Ил-2 Штурмовик"</String>
+	<String ID="OptionsTerrainTextNuclearOption">Nuclear Option</String>
+	<String ID="OptionsTerrainHelpNuclearOption">Use terrain from Nuclear Option</String>
 
 	<String ID="OptionsLanguageText">Язык</String>
 	<String ID="OptionsLanguageAutoText">(&amp;Авто)</String>
@@ -219,6 +229,8 @@
 
 	<String ID="PauseOnEventCmdText">Пауза по событию</String>
 	<String ID="PauseOnEventCmdHelp">Автоматически ставить на паузу воспроизведение по каждому событию в логе</String>
+	<String ID="DisplayEventOnPauseCmdText">Show Event in 3D View</String>
+	<String ID="DisplayEventOnPauseCmdHelp">Display in the 3D view, the event which has triggerd the pause</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Ассоциировать .acmi файлы с Tacview</String>
 	<String ID="OptionsAssociateFileTypesHelp">Позволяет открывать .acmi файлы в программе Tacview по двойному щелчку мыши (Windows OS)</String>
@@ -240,6 +252,8 @@
 	<String ID="InsertBookmarkHelp">Создать и добавить метку в события на шкале времени</String>
 	<String ID="RemoveBookmarkText">&amp;Удалить метку</String>
 	<String ID="RemoveBookmarkHelp">Удалить текущую метку</String>
+	<String ID="RemoveEventText">&amp;Remove Event</String>
+	<String ID="RemoveEventHelp">Delete this event</String>
 	<String ID="ShareCopyShortcutText">&amp;Копировать метку&#9;(Ctrl+C)</String>
 	<String ID="ShareCopyShortcutHelp">Создать метку для текущего вида, чтобы поделиться с друзьями</String>
 	<String ID="SharePasteShortcutText">&amp;Вставить метку&#9;(Ctrl+V)</String>
@@ -443,6 +457,18 @@
 	<String ID="RollText">Крен</String>
 	<String ID="PitchHelp">Положение ЛА по тангажу</String>
 	<String ID="PitchText">Тангаж</String>
+	<String ID="LocalizerLateralDeviationText">Lateral Deviation</String>
+	<String ID="LocalizerLateralDeviationHelp">How far the aircraft is from the runway centerline, left or right.</String>
+	<String ID="LocalizerAngularDeviationText">Localizer Angle</String>
+	<String ID="LocalizerAngularDeviationHelp">The angle difference from the runway centerline.</String>
+	<String ID="GlideslopeVerticalDeviationText">Vertical Deviation</String>
+	<String ID="GlideslopeVerticalDeviationHelp">How far the aircraft is above or below the glideslope.</String>
+	<String ID="GlideslopeAngularDeviationText">Glideslope Angle</String>
+	<String ID="GlideslopeAngularDeviationHelp">The angle difference from the perfect descent path.</String>
+	<String ID="Glideslope30Text">3° Glideslope</String>
+	<String ID="Glideslope30Help">Draws a standard 3-degree glideslope coming from the secondary object.</String>
+	<String ID="Glideslope35Text">3.5° Glideslope</String>
+	<String ID="Glideslope35Help">Draws a 3.5-degree glideslope used for aircraft carriers, coming from the secondary object.</String>
 	<String ID="HeartRateHelp">Pilot heart rate in beats per minute</String>
 	<String ID="HeartRateText">Heart Rate</String>
 	<String ID="SpO2Help">Percentage of blood that is saturated with oxygen</String>
@@ -695,8 +721,8 @@
 	<String ID="DebriefingProperty">Дебрифинг</String>
 	<String ID="CommentsProperty">Комментарии</String>
 
-	<String ID="AddOnTitleEventsLog">Журнал полета</String>
-	<String ID="AddOnTitleShotLog">Журнал событий</String>
+	<String ID="AddOnTitleFlightLog">Журнал полета</String>
+	<String ID="AddOnTitleEventLog">Журнал событий</String>
 	<String ID="AddOnTitleControlsList">Управление</String>
 	<String ID="AddOnTitleRemoteControl">Удаленное управление {0}</String>
 	<String ID="AddOnTitleCommandLineOptionsList">Опции командной строки</String>
@@ -752,6 +778,7 @@
 	<String ID="CmdRegisterSystemProductKeyHelp">Активировать Tacview для всей системы с помощью ключа.</String>
 	<String ID="CmdRegisterSessionProductKeyHelp">Активировать Tacview только для текущей сессии с помощью ключа.</String>
 	<String ID="CmdDisplayFrameRateHelp">Отображать fps в 3D режиме.</String>
+	<String ID="CmdMSAAHelp">Disable Multi-Sample Anti-Aliasing for better performance on less powerful graphics cards.</String>
 	<String ID="CmdResourceFolderHelp">Задать отдельную директорию для ресурсов Tacview.</String>
 	<String ID="CmdAddOnsFolderHelp">Задает отдельную директорию для загрузки дополнений.</String>
 	<String ID="CmdReadOnlyHelp">Отключить дополнения и функции экспорта.</String>
@@ -878,6 +905,7 @@
 	<String ID="ExportGroupGeneral">Общие</String>
 	<String ID="ExportGroupPerformance">Производительность</String>
 	<String ID="ExportGroupEnergy">Энергия</String>
+	<String ID="ExportGroupNav">Navigation</String>
 	<String ID="ExportGroupFuel">Топливо</String>
 	<String ID="ExportGroupMisc">Разное</String>
 
@@ -952,6 +980,10 @@
 	<String ID="UnitLabelPitch">Тангаж ({0})</String>
 	<String ID="UnitLabelFuel">Топливо ({0})</String>
 	<String ID="UnitLabelFuelFlow">Расход топлива ({0})</String>
+	<String ID="UnitLabelLocalizerLateralDeviation">Localizer Deviation ({0})</String>
+	<String ID="UnitLabelLocalizerAngularDeviation">Localizer Deviation (°)</String>
+	<String ID="UnitLabelGlideslopeVerticalDeviation">Glideslope Deviation ({0})</String>
+	<String ID="UnitLabelGlideslopeAngularDeviation">Glideslope Deviation (°)</String>
 	<String ID="UnitLabelHeartRate">Heart Rate (BPM)</String>
 	<String ID="UnitLabelSpO2">SpO2 (%)</String>
 
@@ -964,7 +996,7 @@
 	<String ID="InvalidShortcutText">Невозможно найти объекты и время, на которые ссылается данный ярлык. Убедитесь, что открыт требуемый файл и целиком скопирован/метка вставлена.</String>
 
 	<String ID="AboutTitle">О программе Tacview</String>
-	<String ID="AboutCopyright">© 2006-2024, Raia Software. Все права защищены.&#10;Данное ПО защищено авторским правом и международными соглашениями.</String>
+	<String ID="AboutCopyright">© 2006-2025, Raia Software. Все права защищены.&#10;Данное ПО защищено авторским правом и международными соглашениями.</String>
 
 	<String ID="LoadingInProgressShort">Загрузка...</String>
 	<String ID="LoadingInProgress">Загружаем '{0}'</String>

@@ -28,8 +28,8 @@
 	<String ID="RecordingMenuHelp">비행 데이터 기록 설정하기</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;실시간 텔레메트리...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">현재 진행중인 비행을 녹화하기</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4 Real-Time Telemetry...</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Record a flight currently in progress in Falcon 4 &amp; BMS</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4.0 Legacy Real-Time Telemetry...</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Record a flight currently in progress in older versions of Falcon 4</String>
 	<String ID="RecordingADSBTelemetryCmdText">ADS-B 라디오 텔레메트리...</String>
 	<String ID="RecordingADSBTelemetryCmdHelp">Record ADS-B telemetry over the air</String>
 	<String ID="RecordingRemoteControl0Text">원격 컨트롤 1</String>
@@ -46,10 +46,10 @@
 	<String ID="AnalysisMenuHelp">분석 도구</String>
 	<String ID="AnalysisPropertiesText">&amp;설정</String>
 	<String ID="AnalysisPropertiesHelp">비행 기록의 설정값을 보이거나 숨기기</String>
-	<String ID="AnalysisEventLogText">&amp;비행 로그</String>
-	<String ID="AnalysisEventLogHelp">비행기록의 로그를 보이거나 숨기기</String>
-	<String ID="AnalysisShotLogText">이벤트 로그</String>
-	<String ID="AnalysisShotLogHelp">이벤트 로그를 보이거나 숨기기</String>
+	<String ID="AnalysisFlightLogText">&amp;비행 로그</String>
+	<String ID="AnalysisFlightLogHelp">비행기록의 로그를 보이거나 숨기기</String>
+	<String ID="AnalysisEventLogText">이벤트 로그</String>
+	<String ID="AnalysisEventLogHelp">이벤트 로그를 보이거나 숨기기</String>
 	<String ID="AnalysisDisplayControlBarText">플레이벡 컨트롤 바(Control Bar)</String>
 	<String ID="AnalysisDisplayControlBarHelp">플레이백 컨트롤 바를 보이거나 숨기기</String>
 	<String ID="AnalysisActiveObjectListText">활성화 된 오브젝트들 리스트</String>
@@ -76,6 +76,14 @@
 	<String ID="AnalysisDisplayChart3Help">챠트 윈도우 #3을 보이거나 숨기기</String>
 	<String ID="AnalysisDisplayChart4Text">챠트 &amp;4</String>
 	<String ID="AnalysisDisplayChart4Help">챠트 윈도우 #4를 보이거나 숨기기</String>
+	<String ID="AnalysisDisplayChart5Text">챠트 &amp;5</String>
+	<String ID="AnalysisDisplayChart5Help">챠트 윈도우 #5을 보이거나 숨기기</String>
+	<String ID="AnalysisDisplayChart6Text">챠트 &amp;6</String>
+	<String ID="AnalysisDisplayChart6Help">챠트 윈도우 #6를 보이거나 숨기기</String>
+	<String ID="AnalysisDisplayChart7Text">챠트 &amp;7</String>
+	<String ID="AnalysisDisplayChart7Help">챠트 윈도우 #7을 보이거나 숨기기</String>
+	<String ID="AnalysisDisplayChart8Text">챠트 &amp;8</String>
+	<String ID="AnalysisDisplayChart8Help">챠트 윈도우 #8를 보이거나 숨기기</String>
 	<String ID="AnalysisDisplayMedia1Text">Media &amp;1</String>
 	<String ID="AnalysisDisplayMedia1Help">오디오/비디오 윈도우 보이거나 숨기기 #1</String>
 	<String ID="AnalysisDisplayMedia2Text">Media &amp;2</String>
@@ -144,6 +152,8 @@
 	<String ID="OptionsTerrainHelpFalcon4">팰콘 4.0의 지형 사용하기</String>
 	<String ID="OptionsTerrainTextIL2">IL-2 Sturmovik</String>
 	<String ID="OptionsTerrainHelpIL2">Displays terrain from IL-2 Sturmovik</String>
+	<String ID="OptionsTerrainTextNuclearOption">Nuclear Option</String>
+	<String ID="OptionsTerrainHelpNuclearOption">Use terrain from Nuclear Option</String>
 
 	<String ID="OptionsLanguageText">언어</String>
 	<String ID="OptionsLanguageAutoText">(&amp;자동)</String>
@@ -219,6 +229,8 @@
 
 	<String ID="PauseOnEventCmdText">Pause on Event</String>
 	<String ID="PauseOnEventCmdHelp">Automatically pause the playback at each event time in the event log</String>
+	<String ID="DisplayEventOnPauseCmdText">Show Event in 3D View</String>
+	<String ID="DisplayEventOnPauseCmdHelp">Display in the 3D view, the event which has triggerd the pause</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;택뷰를 acmi 파일과 연동하기</String>
 	<String ID="OptionsAssociateFileTypesHelp">윈도우 내에서 비행기록 파일을 더블 클릭하였을 때, 택뷰에서 해당 파일을 열어준다.</String>
@@ -240,6 +252,8 @@
 	<String ID="InsertBookmarkHelp">북마크를 이벤트와 타임라인에 생성하거나 삽입하도록 해 준다.</String>
 	<String ID="RemoveBookmarkText">&amp;북마크 제거</String>
 	<String ID="RemoveBookmarkHelp">이 북마크를 제거한다.</String>
+	<String ID="RemoveEventText">&amp;Remove Event</String>
+	<String ID="RemoveEventHelp">Delete this event</String>
 	<String ID="ShareCopyShortcutText">&amp;복사 단축키&#9;(Ctrl+C)</String>
 	<String ID="ShareCopyShortcutHelp">현재 뷰의 단축키를 생성하여, 상대방과 이것을 공유할 수 있음.</String>
 	<String ID="SharePasteShortcutText">&amp;붙이기 단축키&#9;(Ctrl+V)</String>
@@ -443,6 +457,18 @@
 	<String ID="RollText">롤</String>
 	<String ID="PitchHelp">기체 피치 상태</String>
 	<String ID="PitchText">피치</String>
+	<String ID="LocalizerLateralDeviationText">Lateral Deviation</String>
+	<String ID="LocalizerLateralDeviationHelp">How far the aircraft is from the runway centerline, left or right.</String>
+	<String ID="LocalizerAngularDeviationText">Localizer Angle</String>
+	<String ID="LocalizerAngularDeviationHelp">The angle difference from the runway centerline.</String>
+	<String ID="GlideslopeVerticalDeviationText">Vertical Deviation</String>
+	<String ID="GlideslopeVerticalDeviationHelp">How far the aircraft is above or below the glideslope.</String>
+	<String ID="GlideslopeAngularDeviationText">Glideslope Angle</String>
+	<String ID="GlideslopeAngularDeviationHelp">The angle difference from the perfect descent path.</String>
+	<String ID="Glideslope30Text">3° Glideslope</String>
+	<String ID="Glideslope30Help">Draws a standard 3-degree glideslope coming from the secondary object.</String>
+	<String ID="Glideslope35Text">3.5° Glideslope</String>
+	<String ID="Glideslope35Help">Draws a 3.5-degree glideslope used for aircraft carriers, coming from the secondary object.</String>
 	<String ID="HeartRateHelp">Pilot heart rate in beats per minute</String>
 	<String ID="HeartRateText">Heart Rate</String>
 	<String ID="SpO2Help">Percentage of blood that is saturated with oxygen</String>
@@ -711,8 +737,8 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="DebriefingProperty">디브리핑</String>
 	<String ID="CommentsProperty">코멘트</String>
 
-	<String ID="AddOnTitleEventsLog">비행 로그</String>
-	<String ID="AddOnTitleShotLog">Event Log</String>
+	<String ID="AddOnTitleFlightLog">비행 로그</String>
+	<String ID="AddOnTitleEventLog">Event Log</String>
 	<String ID="AddOnTitleControlsList">컨트롤 목록</String>
 	<String ID="AddOnTitleRemoteControl">원격 컨트롤{0}</String>
 	<String ID="AddOnTitleCommandLineOptionsList">명령줄 옵션</String>
@@ -768,6 +794,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="CmdRegisterSystemProductKeyHelp">Activate Tacview for the entire system with the provided key.</String>
 	<String ID="CmdRegisterSessionProductKeyHelp">Activate Tacview, for the current session only, with the provided key.</String>
 	<String ID="CmdDisplayFrameRateHelp">Display the frame-rate in the 3D view.</String>
+	<String ID="CmdMSAAHelp">Disable Multi-Sample Anti-Aliasing for better performance on less powerful graphics cards.</String>
 	<String ID="CmdResourceFolderHelp">Declare additional custom directory where Tacview resources are stored.</String>
 	<String ID="CmdAddOnsFolderHelp">Declares an additional custom folder from where to load add-ons.</String>
 	<String ID="CmdReadOnlyHelp">Disable addons and export capabilities.</String>
@@ -886,7 +913,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="ExportSubTitle">Export telemetry data in a file readable by other tools. Properties are expressed in meters and degrees. The accuracy of calculated properties depends on recorded data availability and precision.</String>
 	<String ID="ExportSelectionLabel">Export the following properties for:</String>
 	<String ID="ExportMainObject">Main object only</String>
-	<String ID="ExportSelectedObjects">All selected objects</String>
+	<String ID="ExportSelectedObjects">Selected objects</String>
 	<String ID="ExportAllObjets">All objects</String>
 	<String ID="ExportSamplingRate">Sampling rate (Hz):</String>
 	<String ID="ExportAll">All</String>
@@ -898,6 +925,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="ExportGroupGeneral">General</String>
 	<String ID="ExportGroupPerformance">Performance</String>
 	<String ID="ExportGroupEnergy">Energy</String>
+	<String ID="ExportGroupNav">Navigation</String>
 	<String ID="ExportGroupFuel">Fuel</String>
 	<String ID="ExportGroupMisc">Miscellaneous</String>
 
@@ -1020,6 +1048,10 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="UnitLabelPitch">Pitch ({0})</String>
 	<String ID="UnitLabelFuel">Fuel ({0})</String>
 	<String ID="UnitLabelFuelFlow">Fuel Flow ({0})</String>
+	<String ID="UnitLabelLocalizerLateralDeviation">Localizer Deviation ({0})</String>
+	<String ID="UnitLabelLocalizerAngularDeviation">Localizer Deviation (°)</String>
+	<String ID="UnitLabelGlideslopeVerticalDeviation">Glideslope Deviation ({0})</String>
+	<String ID="UnitLabelGlideslopeAngularDeviation">Glideslope Deviation (°)</String>
 	<String ID="UnitLabelHeartRate">Heart Rate (BPM)</String>
 	<String ID="UnitLabelSpO2">SpO2 (%)</String>
 
@@ -1032,7 +1064,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="InvalidShortcutText">미션 내에 현재의 단축키가 지정 된 오브젝트나 시간을 찾을 수 없습니다. 정상적인 파일을 열었는지, 그리고 단축키가 정상적으로 복사/붙이기 되었는지 확인하시기 바랍니다.</String>
 
 	<String ID="AboutTitle">택뷰에 대하여</String>
-	<String ID="AboutCopyright">Copyright © 2006-2024, Raia Software. All Rights Reserved.&#10;이 컴퓨터 프로그램은 국제규약의 저작권 법에 의해 보호받고 있습니다.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2025, Raia Software. All Rights Reserved.&#10;이 컴퓨터 프로그램은 국제규약의 저작권 법에 의해 보호받고 있습니다.</String>
 
 	<String ID="LoadingInProgressShort">로딩...</String>
 	<String ID="LoadingInProgress">로딩 '{0}'</String>

@@ -111,3 +111,18 @@ msgstr "短于1分钟"
 
 msgid "shorter than 5 min"
 msgstr "短于5分钟"
+
+msgid "Data Capture Mode"
+msgstr ""
+
+msgid "Accurate (slow)"
+msgstr ""
+
+msgid "Balanced (default)"
+msgstr ""
+
+msgid "Fast (lower accuracy)"
+msgstr ""
+
+msgid "Record Simulation Pauses"
+msgstr ""

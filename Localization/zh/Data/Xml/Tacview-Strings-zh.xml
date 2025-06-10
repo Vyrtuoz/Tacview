@@ -28,8 +28,8 @@
 	<String ID="RecordingMenuHelp">设置飞行数据记录</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;实时遥测...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">记录当前正在进行的飞行</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4实时遥测...</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">在Falcon 4 &amp; BMS中记录当前正在进行的飞行</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4.0 Legacy Real-Time Telemetry...</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Record a flight currently in progress in older versions of Falcon 4</String>
 	<String ID="RecordingADSBTelemetryCmdText">ADS-B遥测...</String>
 	<String ID="RecordingADSBTelemetryCmdHelp">记录空中ADS-B遥测数据</String>
 	<String ID="RecordingRemoteControl0Text">遥控1</String>
@@ -46,10 +46,10 @@
 	<String ID="AnalysisMenuHelp">分析工具</String>
 	<String ID="AnalysisPropertiesText">&amp;属性</String>
 	<String ID="AnalysisPropertiesHelp">显示或隐藏飞行记录属性</String>
-	<String ID="AnalysisEventLogText">&amp;飞行日志</String>
-	<String ID="AnalysisEventLogHelp">显示或隐藏飞行记录飞行日志</String>
-	<String ID="AnalysisShotLogText">事件日志</String>
-	<String ID="AnalysisShotLogHelp">显示或隐藏事件日志</String>
+	<String ID="AnalysisFlightLogText">&amp;飞行日志</String>
+	<String ID="AnalysisFlightLogHelp">显示或隐藏飞行记录飞行日志</String>
+	<String ID="AnalysisEventLogText">事件日志</String>
+	<String ID="AnalysisEventLogHelp">显示或隐藏事件日志</String>
 	<String ID="AnalysisDisplayControlBarText">播放控制栏</String>
 	<String ID="AnalysisDisplayControlBarHelp">显示或隐藏播放控制栏</String>
 	<String ID="AnalysisActiveObjectListText">活动物体列表</String>
@@ -76,6 +76,14 @@
 	<String ID="AnalysisDisplayChart3Help">显示或隐藏图表窗口#3</String>
 	<String ID="AnalysisDisplayChart4Text">图表&amp;4</String>
 	<String ID="AnalysisDisplayChart4Help">显示或隐藏图表窗口#4</String>
+	<String ID="AnalysisDisplayChart5Text">图表&amp;5</String>
+	<String ID="AnalysisDisplayChart5Help">显示或隐藏图表窗口#5</String>
+	<String ID="AnalysisDisplayChart6Text">图表&amp;6</String>
+	<String ID="AnalysisDisplayChart6Help">显示或隐藏图表窗口#6</String>
+	<String ID="AnalysisDisplayChart7Text">图表&amp;7</String>
+	<String ID="AnalysisDisplayChart7Help">显示或隐藏图表窗口#7</String>
+	<String ID="AnalysisDisplayChart8Text">图表&amp;8</String>
+	<String ID="AnalysisDisplayChart8Help">显示或隐藏图表窗口#8</String>
 	<String ID="AnalysisDisplayMedia1Text">媒体 &amp;1</String>
 	<String ID="AnalysisDisplayMedia1Help">显示或隐藏音频/视频窗口 #1</String>
 	<String ID="AnalysisDisplayMedia2Text">媒体 &amp;2</String>
@@ -144,6 +152,8 @@
 	<String ID="OptionsTerrainHelpFalcon4">使用Falcon 4.0地形</String>
 	<String ID="OptionsTerrainTextIL2">IL-2 Sturmovik</String>
 	<String ID="OptionsTerrainHelpIL2">显示IL-2 Sturmovik地形</String>
+	<String ID="OptionsTerrainTextNuclearOption">Nuclear Option</String>
+	<String ID="OptionsTerrainHelpNuclearOption">Use terrain from Nuclear Option</String>
 
 	<String ID="OptionsLanguageText">语言选择</String>
 	<String ID="OptionsLanguageAutoText">（&amp;自动）</String>
@@ -219,6 +229,8 @@
 
 	<String ID="PauseOnEventCmdText">在事件处暂停</String>
 	<String ID="PauseOnEventCmdHelp">在射击日志的每个事件处暂停播放</String>
+	<String ID="DisplayEventOnPauseCmdText">Show Event in 3D View</String>
+	<String ID="DisplayEventOnPauseCmdHelp">Display in the 3D view, the event which has triggerd the pause</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;关联acmi文件至Tacview</String>
 	<String ID="OptionsAssociateFileTypesHelp">在Windows里双击acmi飞行记录文件时用Tacview打开。</String>
@@ -240,6 +252,8 @@
 	<String ID="InsertBookmarkHelp">在事件和时间线里创建并插入书签</String>
 	<String ID="RemoveBookmarkText">&amp;删除书签</String>
 	<String ID="RemoveBookmarkHelp">删除这个书签</String>
+	<String ID="RemoveEventText">&amp;Remove Event</String>
+	<String ID="RemoveEventHelp">Delete this event</String>
 	<String ID="ShareCopyShortcutText">&amp;复制快捷方式&#9;(Ctrl+C)</String>
 	<String ID="ShareCopyShortcutHelp">创建当前视角的快捷方式，可以与朋友分享</String>
 	<String ID="SharePasteShortcutText">&amp;粘贴快捷方式&#9;(Ctrl+V)</String>
@@ -443,6 +457,18 @@
 	<String ID="RollText">滚转</String>
 	<String ID="PitchHelp">航空器俯仰姿态</String>
 	<String ID="PitchText">俯仰</String>
+	<String ID="LocalizerLateralDeviationText">Lateral Deviation</String>
+	<String ID="LocalizerLateralDeviationHelp">How far the aircraft is from the runway centerline, left or right.</String>
+	<String ID="LocalizerAngularDeviationText">Localizer Angle</String>
+	<String ID="LocalizerAngularDeviationHelp">The angle difference from the runway centerline.</String>
+	<String ID="GlideslopeVerticalDeviationText">Vertical Deviation</String>
+	<String ID="GlideslopeVerticalDeviationHelp">How far the aircraft is above or below the glideslope.</String>
+	<String ID="GlideslopeAngularDeviationText">Glideslope Angle</String>
+	<String ID="GlideslopeAngularDeviationHelp">The angle difference from the perfect descent path.</String>
+	<String ID="Glideslope30Text">3° Glideslope</String>
+	<String ID="Glideslope30Help">Draws a standard 3-degree glideslope coming from the secondary object.</String>
+	<String ID="Glideslope35Text">3.5° Glideslope</String>
+	<String ID="Glideslope35Help">Draws a 3.5-degree glideslope used for aircraft carriers, coming from the secondary object.</String>
 	<String ID="HeartRateHelp">飞行员的心率，以每分钟为单位</String>
 	<String ID="HeartRateText">心率</String>
 	<String ID="SpO2Help">血液中氧饱和度的百分比</String>
@@ -717,8 +743,8 @@
 	<String ID="DebriefingProperty">任务报告</String>
 	<String ID="CommentsProperty">注释</String>
 
-	<String ID="AddOnTitleEventsLog">飞行日志</String>
-	<String ID="AddOnTitleShotLog">事件日志</String>
+	<String ID="AddOnTitleFlightLog">飞行日志</String>
+	<String ID="AddOnTitleEventLog">事件日志</String>
 	<String ID="AddOnTitleControlsList">控制列表</String>
 	<String ID="AddOnTitleRemoteControl">遥控{0}</String>
 	<String ID="AddOnTitleCommandLineOptionsList">命令行选项</String>
@@ -774,6 +800,7 @@
 	<String ID="CmdRegisterSystemProductKeyHelp">为整个系统使用提供的秘钥激活Tacview。</String>
 	<String ID="CmdRegisterSessionProductKeyHelp">只为当前会话使用秘钥激活Tacview。</String>
 	<String ID="CmdDisplayFrameRateHelp">在3D窗口里显示帧率</String>
+	<String ID="CmdMSAAHelp">Disable Multi-Sample Anti-Aliasing for better performance on less powerful graphics cards.</String>
 	<String ID="CmdResourceFolderHelp">声明存储Tacview资源的附加自定义目录</String>
 	<String ID="CmdAddOnsFolderHelp">声明从何处加载加载项的附加自定义文件夹</String>
 	<String ID="CmdReadOnlyHelp">禁用插件和导出功能</String>
@@ -906,6 +933,7 @@
 	<String ID="ExportGroupGeneral">通用</String>
 	<String ID="ExportGroupPerformance">性能</String>
 	<String ID="ExportGroupEnergy">能量</String>
+	<String ID="ExportGroupNav">Navigation</String>
 	<String ID="ExportGroupFuel">燃油</String>
 	<String ID="ExportGroupMisc">其他</String>
 
@@ -1024,6 +1052,10 @@
 	<String ID="UnitLabelPitch">Pitch ({0})</String>
 	<String ID="UnitLabelFuel">Fuel ({0})</String>
 	<String ID="UnitLabelFuelFlow">Fuel Flow ({0})</String>
+	<String ID="UnitLabelLocalizerLateralDeviation">Localizer Deviation ({0})</String>
+	<String ID="UnitLabelLocalizerAngularDeviation">Localizer Deviation (°)</String>
+	<String ID="UnitLabelGlideslopeVerticalDeviation">Glideslope Deviation ({0})</String>
+	<String ID="UnitLabelGlideslopeAngularDeviation">Glideslope Deviation (°)</String>
 	<String ID="UnitLabelHeartRate">Heart Rate (BPM)</String>
 	<String ID="UnitLabelSpO2">SpO2 (%)</String>
 
@@ -1036,7 +1068,7 @@
 	<String ID="InvalidShortcutText">在当前任务里无法通过快捷方式找到物体和时间参考。请确认打开了正确的文件且复制/粘贴了整个快捷方式。</String>
 
 	<String ID="AboutTitle">关于Tacview</String>
-	<String ID="AboutCopyright">版权© 2006-2024, Raia Software. 保留所有权利。&#10;此计算机程序受到版权法和国际协约保护。</String>
+	<String ID="AboutCopyright">版权© 2006-2025, Raia Software. 保留所有权利。&#10;此计算机程序受到版权法和国际协约保护。</String>
 
 	<String ID="LoadingInProgressShort">载入...</String>
 	<String ID="LoadingInProgress">载入'{0}'</String>

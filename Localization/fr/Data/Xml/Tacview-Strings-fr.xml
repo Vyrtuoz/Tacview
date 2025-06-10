@@ -27,8 +27,8 @@
 	<String ID="RecordingMenuHelp">Définir les paramètres d'enregistrement des vols</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Télémétrie en temps-réel...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">Enregistrer un vol actuellement en cours</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Télémétrie en temps-réel pour Falcon 4...</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Enregistrer un vol actuellement en cours dans Falcon 4 &amp; BMS</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Ancienne télémétrie en temps-réel pour Falcon 4.0...</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Enregistrer un vol actuellement en cours dans les anciennes versions de Falcon 4</String>
 	<String ID="RecordingADSBTelemetryCmdText">Télémétrie ADS-B radio...</String>
 	<String ID="RecordingADSBTelemetryCmdHelp">Enregistrer télémétrie ADS-B à l’aide un récepteur radio</String>
 	<String ID="RecordingRemoteControl0Text">Télécommande 1</String>
@@ -45,10 +45,10 @@
 	<String ID="AnalysisMenuHelp">Outils d'analyse</String>
 	<String ID="AnalysisPropertiesText">&amp;Propriétés</String>
 	<String ID="AnalysisPropertiesHelp">Afficher ou masquer les propriétés de l'enregistrement de vol</String>
-	<String ID="AnalysisEventLogText">&amp;Journal de vol</String>
-	<String ID="AnalysisEventLogHelp">Afficher ou masquer le journal de vol</String>
-	<String ID="AnalysisShotLogText">Journal d’évènements</String>
-	<String ID="AnalysisShotLogHelp">Afficher ou masquer le journal des évènements</String>
+	<String ID="AnalysisFlightLogText">&amp;Journal de vol</String>
+	<String ID="AnalysisFlightLogHelp">Afficher ou masquer le journal de vol</String>
+	<String ID="AnalysisEventLogText">Journal d’évènements</String>
+	<String ID="AnalysisEventLogHelp">Afficher ou masquer le journal des évènements</String>
 	<String ID="AnalysisDisplayControlBarText">Contrôles de lecture</String>
 	<String ID="AnalysisDisplayControlBarHelp">Afficher ou masquer la barre de contrôle de lecture</String>
 	<String ID="AnalysisActiveObjectListText">Liste objets actifs</String>
@@ -75,6 +75,14 @@
 	<String ID="AnalysisDisplayChart3Help">Afficher ou masquer la fenêtre du graphique nº3</String>
 	<String ID="AnalysisDisplayChart4Text">Graphique &amp;4</String>
 	<String ID="AnalysisDisplayChart4Help">Afficher ou masquer la fenêtre du graphique nº4</String>
+	<String ID="AnalysisDisplayChart5Text">Graphique &amp;5</String>
+	<String ID="AnalysisDisplayChart5Help">Afficher ou masquer la fenêtre du graphique nº5</String>
+	<String ID="AnalysisDisplayChart6Text">Graphique &amp;6</String>
+	<String ID="AnalysisDisplayChart6Help">Afficher ou masquer la fenêtre du graphique nº6</String>
+	<String ID="AnalysisDisplayChart7Text">Graphique &amp;7</String>
+	<String ID="AnalysisDisplayChart7Help">Afficher ou masquer la fenêtre du graphique nº7</String>
+	<String ID="AnalysisDisplayChart8Text">Graphique &amp;8</String>
+	<String ID="AnalysisDisplayChart8Help">Afficher ou masquer la fenêtre du graphique nº8</String>
 	<String ID="AnalysisDisplayMedia1Text">Média &amp;1</String>
 	<String ID="AnalysisDisplayMedia1Help">Afficher ou masquer la fenêtre audio/vidéo nº1</String>
 	<String ID="AnalysisDisplayMedia2Text">Média &amp;2</String>
@@ -143,6 +151,8 @@
 	<String ID="OptionsTerrainHelpFalcon4">Utiliser le terrain de Falcon 4.0</String>
 	<String ID="OptionsTerrainTextIL2">IL-2 Sturmovik</String>
 	<String ID="OptionsTerrainHelpIL2">Affiche le terrain d'IL-2 Sturmovik</String>
+	<String ID="OptionsTerrainTextNuclearOption">Nuclear Option</String>
+	<String ID="OptionsTerrainHelpNuclearOption">Utiliser le dernier terrain de Nuclear Option</String>
 
 	<String ID="OptionsLanguageText">Langue</String>
 	<String ID="OptionsLanguageAutoText">(&amp;Auto)</String>
@@ -218,6 +228,8 @@
 
 	<String ID="PauseOnEventCmdText">Pauser sur évènement</String>
 	<String ID="PauseOnEventCmdHelp">Pause automatiquement la lecture à chaque évènement dans le log d’éléments</String>
+	<String ID="DisplayEventOnPauseCmdText">Afficher évènement dans la vue 3D</String>
+	<String ID="DisplayEventOnPauseCmdHelp">Afficher dans la vue 3D l'événement qui a déclenché la pause</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Associer Tacview aux fichiers acmi</String>
 	<String ID="OptionsAssociateFileTypesHelp">Permet d'ouvrir les enregistrements de vol avec Tacview lorsque l'on clique dessus depuis Windows</String>
@@ -239,6 +251,8 @@
 	<String ID="InsertBookmarkHelp">Crée et insère un signet dans la liste d'évènements et la barre de temps</String>
 	<String ID="RemoveBookmarkText">&amp;Retirer signet</String>
 	<String ID="RemoveBookmarkHelp">Efface ce signet</String>
+	<String ID="RemoveEventText">&amp;Retirer évènement</String>
+	<String ID="RemoveEventHelp">Efface cet évènement</String>
 	<String ID="ShareCopyShortcutText">&amp;Copier raccourci&#9;(Ctrl+C)</String>
 	<String ID="ShareCopyShortcutHelp">Crée un lien de cette vue que vous pouvez partager avec vos amis</String>
 	<String ID="SharePasteShortcutText">Co&amp;ller raccourci&#9;(Ctrl+V)</String>
@@ -442,6 +456,18 @@
 	<String ID="RollText">Roulis</String>
 	<String ID="PitchHelp">Inclinaison en tangage de l’aéronef</String>
 	<String ID="PitchText">Tangage</String>
+	<String ID="LocalizerLateralDeviationText">Déviation latérale</String>
+	<String ID="LocalizerLateralDeviationHelp">Distance de l'avion par rapport à l'axe central de la piste, à gauche ou à droite.</String>
+	<String ID="LocalizerAngularDeviationText">Angle de déviation</String>
+	<String ID="LocalizerAngularDeviationHelp">L'angle de déviation par rapport à l'axe central de la piste.</String>
+	<String ID="GlideslopeVerticalDeviationText">Déviation verticale</String>
+	<String ID="GlideslopeVerticalDeviationHelp">Distance de l'avion au-dessus ou en dessous du plan de descente.</String>
+	<String ID="GlideslopeAngularDeviationText">Angle du plan de descente</String>
+	<String ID="GlideslopeAngularDeviationHelp">L'angle de déviation par rapport à la trajectoire de descente idéale.</String>
+	<String ID="Glideslope30Text">Plan de descente de 3°</String>
+	<String ID="Glideslope30Help">Trace un plan de descente standard de 3 degrés provenant de l'objet secondaire.</String>
+	<String ID="Glideslope35Text">Plan de descente de 3.5°</String>
+	<String ID="Glideslope35Help">Trace un plan de descente de 3.5 degrés utilisé pour les porte-avions, provenant de l'objet secondaire.</String>
 	<String ID="HeartRateHelp">Fréquence cardiaque du pilote en nombre de pulsations par minute</String>
 	<String ID="HeartRateText">Heart Rate</String>
 	<String ID="SpO2Help">Pourcentage de sang saturé d’oxygène</String>
@@ -694,8 +720,8 @@ Assurez-vous que tout est correctement connecté et configuré, puis cliquez sur
 	<String ID="DebriefingProperty">Débriefing</String>
 	<String ID="CommentsProperty">Commentaires</String>
 
-	<String ID="AddOnTitleEventsLog">Journal de Vol</String>
-	<String ID="AddOnTitleShotLog">Journal d’évènements</String>
+	<String ID="AddOnTitleFlightLog">Journal de Vol</String>
+	<String ID="AddOnTitleEventLog">Journal d’évènements</String>
 	<String ID="AddOnTitleControlsList">Liste des contrôles</String>
 	<String ID="AddOnTitleRemoteControl">Télécommande {0}</String>
 	<String ID="AddOnTitleCommandLineOptionsList">Options de la ligne de commande</String>
@@ -751,6 +777,7 @@ Assurez-vous que tout est correctement connecté et configuré, puis cliquez sur
 	<String ID="CmdRegisterSystemProductKeyHelp">Active Tacview pour tout le système avec la clé de produit fournie.</String>
 	<String ID="CmdRegisterSessionProductKeyHelp">Active Tacview avec la clé de produit fournie, uniquement pour la session courante.</String>
 	<String ID="CmdDisplayFrameRateHelp">Affiche le nombre d’images par seconde dans la vue 3D.</String>
+	<String ID="CmdMSAAHelp">Désactiver l'anti-aliasing pour améliorer les performances sur les cartes graphiques moins puissantes.</String>
 	<String ID="CmdResourceFolderHelp">Déclare un dossier où se trouve des ressources additionnelles pour Tacview.</String>
 	<String ID="CmdAddOnsFolderHelp">Déclare un dossier supplémentaire depuis lequel seront chargé des add-ons.</String>
 	<String ID="CmdReadOnlyHelp">Désactive les addons et options d’export.</String>
@@ -828,7 +855,7 @@ Assurez-vous que tout est correctement connecté et configuré, puis cliquez sur
 	<String ID="SaveFileRequestText">Souhaitez-vous enregistrer les modifications apportées à '{0}'&#160;?</String>
 	<String ID="SaveButton">&amp;Enregistrer</String>
 	<String ID="DontSaveButton">&amp;Ne pas enregistrer</String>
-	<String ID="IL2SturmovikIsRunningText">Afin d’assurer un jeu équitable et prévenir la triche, veuillez fermer IL-2 Sturmovik avant d’utiliser Tacview.</String>
+	<String ID="IL2SturmovikIsRunningText">Afin d’assurer un jeu équitable et de prévenir la triche, veuillez fermer IL-2 Sturmovik avant d’utiliser Tacview.</String>
 	<String ID="RemoveObjectConfirmation">Etes-vous certain de vouloir supprimer l’objet [{0}] des données de télémétrie ?</String>
 	<String ID="OK">&amp;OK</String>
 	<String ID="TrimBeforeConfirmation">Etes-vous certain de vouloir supprimer toutes les données de télémétrie qui précèdent {0} ?</String>
@@ -865,7 +892,7 @@ Assurez-vous que tout est correctement connecté et configuré, puis cliquez sur
 	<String ID="ExportSubTitle">Exporter les données de télémétrie dans un fichier lisible par d'autres outils. Les propriétés sont exprimées en mètres et degrés. L’exactitude des propriétés calculées dépend de la disponibilité et précision des données mesurées.</String>
 	<String ID="ExportSelectionLabel">Exporter les propriétés suivantes pour :</String>
 	<String ID="ExportMainObject">Uniquement l’objet principal</String>
-	<String ID="ExportSelectedObjects">Tous les objets sélectionnés</String>
+	<String ID="ExportSelectedObjects">Objets sélectionnés</String>
 	<String ID="ExportAllObjets">Tous les objets</String>
 	<String ID="ExportSamplingRate">Taux d’échantillonnage (Hz) :</String>
 	<String ID="ExportAll">Toutes</String>
@@ -877,6 +904,7 @@ Assurez-vous que tout est correctement connecté et configuré, puis cliquez sur
 	<String ID="ExportGroupGeneral">Général</String>
 	<String ID="ExportGroupPerformance">Performance</String>
 	<String ID="ExportGroupEnergy">Energie</String>
+	<String ID="ExportGroupNav">Navigation</String>
 	<String ID="ExportGroupFuel">Carburant</String>
 	<String ID="ExportGroupMisc">Divers</String>
 
@@ -951,6 +979,10 @@ Assurez-vous que tout est correctement connecté et configuré, puis cliquez sur
 	<String ID="UnitLabelPitch">Tangage ({0})</String>
 	<String ID="UnitLabelFuel">Carburant ({0})</String>
 	<String ID="UnitLabelFuelFlow">Débit de carburant ({0})</String>
+	<String ID="UnitLabelLocalizerLateralDeviation">Écart axe de piste ({0})</String>
+	<String ID="UnitLabelLocalizerAngularDeviation">Angle axe de piste (°)</String>
+	<String ID="UnitLabelGlideslopeVerticalDeviation">Écart pente descente ({0})</String>
+	<String ID="UnitLabelGlideslopeAngularDeviation">Angle pente descente (°)</String>
 	<String ID="UnitLabelHeartRate">Fréquence cardiaque (BPM)</String>
 	<String ID="UnitLabelSpO2">SpO2 (%)</String>
 
@@ -963,7 +995,7 @@ Assurez-vous que tout est correctement connecté et configuré, puis cliquez sur
 	<String ID="InvalidShortcutText">Impossible de trouver dans cette mission les objets et l'heure contenus dans ce raccourci. Assurez-vous d'avoir ouvert le bon fichier et d'avoir copié/collé l'intégralité du raccourci.</String>
 
 	<String ID="AboutTitle">A propos de Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2024, Raia Software. Tous droits réservés.&#10;Ce logiciel est protégé par les lois internationales sur le copyright.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2025, Raia Software. Tous droits réservés.&#10;Ce logiciel est protégé par les lois internationales sur le copyright.</String>
 
 	<String ID="LoadingInProgressShort">Chargement...</String>
 	<String ID="LoadingInProgress">Chargement de '{0}'</String>

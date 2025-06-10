@@ -111,3 +111,15 @@ msgstr ""
 
 msgid "shorter than 5 min"
 msgstr ""
+
+msgid "Data Capture Mode"
+msgstr ""
+
+msgid "Accurate (slow)"
+msgstr ""
+
+msgid "Balanced (default)"
+msgstr ""
+
+msgid "Fast (lower accuracy)"
+msgstr ""

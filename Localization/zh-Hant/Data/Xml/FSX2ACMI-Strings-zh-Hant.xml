@@ -6,8 +6,11 @@
 <Resources Language="zh-Hant">
 
 	<!-- Status -->
+
 	<String ID="StatusSimConnectNotInstalled">未發現模擬飛行軟體連接。&#10;請確認完整的微軟模擬&#160;飛行&#160;X或洛克希德&#160;馬丁Prepar3D在電腦上安裝正確。</String>
-	<String ID="StatusWaitingForSimConnect">FSX2ACMI準備就緒！&#10;現在可以啟動微軟模擬&#160;飛行&#160;X或洛克希德&#160;馬丁Prepar3D。</String>
+	<String ID="StatusWaitingForSimConnectFSX">{0} is ready!&#10;You can now launch Microsoft Flight&#160;Simulator&#160;X&#10;or Lockheed&#160;Martin Prepar3D.</String>
+	<String ID="StatusWaitingForSimConnectMSFS">{0} is ready!&#10;You can now launch Microsoft Flight&#160;Simulator.</String>
+	<String ID="StatusWaitingForSimConnectWrongVersion">Please make sure you are using a version of Flight&#160;Simulator supported by {0}.</String>
 	<String ID="StatusWaitingForSimConnectFailed">本次飛行記錄失敗...&#10;重新開機模擬軟體前，請確認硬碟上有足夠的空間。</String>
 	<String ID="StatusWaitingForSimConnectSucceeded">本次飛行成功記錄！&#10;現在可以關閉FSX2ACMI或者重新開機模擬軟體以記錄另一次飛行。</String>
 	<String ID="StatusConnectedToSimConnect">FSX2ACMI已連接模擬軟體。&#10;現在可以開始飛行，&#10;它將被自動記錄。</String>
@@ -18,12 +21,14 @@
 	<String ID="StatusRecordingFlightSucceeded">本次飛行成功記錄！&#10;FSX2ACMI正在記錄一次新的飛行，直到關閉FSX2ACMI、關閉模擬軟體或開始另一次飛行。</String>
 
 	<!-- Controls -->
+
 	<String ID="ObjectsCountFormat">{0} 物體</String>
 	<String ID="UpdateSpeedFormat">{0} ms // {1} ms</String>
 	<String ID="ACMIFilesFolder">Tacview ACMI 文件</String>
 	<String ID="IntroductionText">用於Tacview的&#160;微軟模擬飛行記錄器</String>
 
 	<!-- Options -->
+
 	<String ID="AutoLaunchText">自動&amp;啟動</String>
 	<String ID="AutoQuitText">自動&amp;退出</String>
 

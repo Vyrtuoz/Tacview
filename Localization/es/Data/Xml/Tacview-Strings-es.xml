@@ -28,8 +28,8 @@
 	<String ID="RecordingMenuHelp">Configurar los datos de vuelo a grabar</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Telemetría en tiempo real...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">Grabar un vuelo actualmente en proceso</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4 Real-Time Telemetry...</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Record a flight currently in progress in Falcon 4 &amp; BMS</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4.0 Legacy Real-Time Telemetry...</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Record a flight currently in progress in older versions of Falcon 4</String>
 	<String ID="RecordingADSBTelemetryCmdText">Radio telemetría ADS-B...</String>
 	<String ID="RecordingADSBTelemetryCmdHelp">Grabar Telemetría ADS-B en el aire</String>
 	<String ID="RecordingRemoteControl0Text">Control remoto 1</String>
@@ -46,10 +46,10 @@
 	<String ID="AnalysisMenuHelp">Herramientas de análisis</String>
 	<String ID="AnalysisPropertiesText">&amp;Propiedades</String>
 	<String ID="AnalysisPropertiesHelp">Mostrar u ocultar propiedades de grabación de vuelo</String>
-	<String ID="AnalysisEventLogText">&amp;Registro de vuelo</String>
-	<String ID="AnalysisEventLogHelp">Mostrar u ocultar registro de datos de vuelo</String>
-	<String ID="AnalysisShotLogText">Registro de eventos</String>
-	<String ID="AnalysisShotLogHelp">Muestra u oculta el registro de eventos</String>
+	<String ID="AnalysisFlightLogText">&amp;Registro de vuelo</String>
+	<String ID="AnalysisFlightLogHelp">Mostrar u ocultar registro de datos de vuelo</String>
+	<String ID="AnalysisEventLogText">Registro de eventos</String>
+	<String ID="AnalysisEventLogHelp">Muestra u oculta el registro de eventos</String>
 	<String ID="AnalysisDisplayControlBarText">Barra de control de reproducción</String>
 	<String ID="AnalysisDisplayControlBarHelp">Muestra u oculta la barra de reproducción</String>
 	<String ID="AnalysisActiveObjectListText">Lista de objetos activos</String>
@@ -76,6 +76,14 @@
 	<String ID="AnalysisDisplayChart3Help">Mostrar u ocultar grafico 3</String>
 	<String ID="AnalysisDisplayChart4Text">Grafico &amp;4</String>
 	<String ID="AnalysisDisplayChart4Help">Mostrar u ocultar grafico 4</String>
+	<String ID="AnalysisDisplayChart5Text">Grafico &amp;5</String>
+	<String ID="AnalysisDisplayChart5Help">Mostrar u ocultar grafico 5</String>
+	<String ID="AnalysisDisplayChart6Text">Grafico &amp;6</String>
+	<String ID="AnalysisDisplayChart6Help">Mostrar u ocultar grafico 6</String>
+	<String ID="AnalysisDisplayChart7Text">Grafico &amp;7</String>
+	<String ID="AnalysisDisplayChart7Help">Mostrar u ocultar grafico 7</String>
+	<String ID="AnalysisDisplayChart8Text">Grafico &amp;8</String>
+	<String ID="AnalysisDisplayChart8Help">Mostrar u ocultar grafico 8</String>
 	<String ID="AnalysisDisplayMedia1Text">Media &amp;1</String>
 	<String ID="AnalysisDisplayMedia1Help">Mostrar u ocultar la ventana de audio/video #1</String>
 	<String ID="AnalysisDisplayMedia2Text">Media &amp;2</String>
@@ -144,6 +152,8 @@
 	<String ID="OptionsTerrainHelpFalcon4">Usar terreno de Falcon 4.0</String>
 	<String ID="OptionsTerrainTextIL2">IL-2 Sturmovik</String>
 	<String ID="OptionsTerrainHelpIL2">Mostrar terreno desde IL-2 Sturmovik</String>
+	<String ID="OptionsTerrainTextNuclearOption">Nuclear Option</String>
+	<String ID="OptionsTerrainHelpNuclearOption">Use terrain from Nuclear Option</String>
 
 	<String ID="OptionsLanguageText">Lenguaje</String>
 	<String ID="OptionsLanguageAutoText">(&amp;Automático)</String>
@@ -219,6 +229,8 @@
 
 	<String ID="PauseOnEventCmdText">Pausar en evento</String>
 	<String ID="PauseOnEventCmdHelp">Pausar la reproducion en cada evento del registro de eventos</String>
+	<String ID="DisplayEventOnPauseCmdText">Show Event in 3D View</String>
+	<String ID="DisplayEventOnPauseCmdHelp">Display in the 3D view, the event which has triggerd the pause</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Asociar Tacview con los archivos acmi</String>
 	<String ID="OptionsAssociateFileTypesHelp">Habilita que Tacview abra en windows los archivos de vuelo con doble click</String>
@@ -240,6 +252,8 @@
 	<String ID="InsertBookmarkHelp">Crea e inserta una marca en eventos y línea de tiempo</String>
 	<String ID="RemoveBookmarkText">&amp;Borrar marca</String>
 	<String ID="RemoveBookmarkHelp">Borra una marca</String>
+	<String ID="RemoveEventText">&amp;Remove Event</String>
+	<String ID="RemoveEventHelp">Delete this event</String>
 	<String ID="ShareCopyShortcutText">&amp;Copiar acceso directo&#9;(Ctrl+C)</String>
 	<String ID="ShareCopyShortcutHelp">Crea un acceso directo a la vista actual para compartir con tus amigos</String>
 	<String ID="SharePasteShortcutText">&amp;Pegar acceso directo&#9;(Ctrl+V)</String>
@@ -443,6 +457,18 @@
 	<String ID="RollText">Alabeo</String>
 	<String ID="PitchHelp">Actitud de cabezeo del avion</String>
 	<String ID="PitchText">Cabeceo</String>
+	<String ID="LocalizerLateralDeviationText">Lateral Deviation</String>
+	<String ID="LocalizerLateralDeviationHelp">How far the aircraft is from the runway centerline, left or right.</String>
+	<String ID="LocalizerAngularDeviationText">Localizer Angle</String>
+	<String ID="LocalizerAngularDeviationHelp">The angle difference from the runway centerline.</String>
+	<String ID="GlideslopeVerticalDeviationText">Vertical Deviation</String>
+	<String ID="GlideslopeVerticalDeviationHelp">How far the aircraft is above or below the glideslope.</String>
+	<String ID="GlideslopeAngularDeviationText">Glideslope Angle</String>
+	<String ID="GlideslopeAngularDeviationHelp">The angle difference from the perfect descent path.</String>
+	<String ID="Glideslope30Text">3° Glideslope</String>
+	<String ID="Glideslope30Help">Draws a standard 3-degree glideslope coming from the secondary object.</String>
+	<String ID="Glideslope35Text">3.5° Glideslope</String>
+	<String ID="Glideslope35Help">Draws a 3.5-degree glideslope used for aircraft carriers, coming from the secondary object.</String>
 	<String ID="HeartRateHelp">Pilot heart rate in beats per minute</String>
 	<String ID="HeartRateText">Heart Rate</String>
 	<String ID="SpO2Help">Percentage of blood that is saturated with oxygen</String>
@@ -695,8 +721,8 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="DebriefingProperty">Debriefing</String>
 	<String ID="CommentsProperty">Comentarios</String>
 
-	<String ID="AddOnTitleEventsLog">Registro de vuelo</String>
-	<String ID="AddOnTitleShotLog">Registro de eventos</String>
+	<String ID="AddOnTitleFlightLog">Registro de vuelo</String>
+	<String ID="AddOnTitleEventLog">Registro de eventos</String>
 	<String ID="AddOnTitleControlsList">Lista de control</String>
 	<String ID="AddOnTitleRemoteControl">Control remoto {0}</String>
 	<String ID="AddOnTitleCommandLineOptionsList">Opciones de línea de comandos</String>
@@ -752,6 +778,7 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="CmdRegisterSystemProductKeyHelp">Activa Tacview para todo el sistema con la Key indicada.</String>
 	<String ID="CmdRegisterSessionProductKeyHelp">Activa Tacview, para la sesion actual, con la Key indicada.</String>
 	<String ID="CmdDisplayFrameRateHelp">Mostrar los frame-rate en la vista 3D.</String>
+	<String ID="CmdMSAAHelp">Disable Multi-Sample Anti-Aliasing for better performance on less powerful graphics cards.</String>
 	<String ID="CmdResourceFolderHelp">Declarar un directorio personalado donde se almacenen los recursos del TacView.</String>
 	<String ID="CmdAddOnsFolderHelp">Declara un directorio adicional donde cargar los add-ons.</String>
 	<String ID="CmdReadOnlyHelp">Deshabilitar addons y exportar capacidades.</String>
@@ -878,6 +905,7 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="ExportGroupGeneral">General</String>
 	<String ID="ExportGroupPerformance">Rendimiento</String>
 	<String ID="ExportGroupEnergy">Energía</String>
+	<String ID="ExportGroupNav">Navigation</String>
 	<String ID="ExportGroupFuel">Combustible</String>
 	<String ID="ExportGroupMisc">Miscelánea</String>
 
@@ -952,6 +980,10 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="UnitLabelPitch">Pitch ({0})</String>
 	<String ID="UnitLabelFuel">Fuel ({0})</String>
 	<String ID="UnitLabelFuelFlow">Flujo de combustible ({0})</String>
+	<String ID="UnitLabelLocalizerLateralDeviation">Localizer Deviation ({0})</String>
+	<String ID="UnitLabelLocalizerAngularDeviation">Localizer Deviation (°)</String>
+	<String ID="UnitLabelGlideslopeVerticalDeviation">Glideslope Deviation ({0})</String>
+	<String ID="UnitLabelGlideslopeAngularDeviation">Glideslope Deviation (°)</String>
 	<String ID="UnitLabelHeartRate">Heart Rate (BPM)</String>
 	<String ID="UnitLabelSpO2">SpO2 (%)</String>
 
@@ -964,7 +996,7 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="InvalidShortcutText">No es posible encontrar en la misión actual los objetos y tiempos de referencia del acceso directo. Asegúrese de haber abierto el archivo correcto y haber copiado/pegado el acceso directo entero.</String>
 
 	<String ID="AboutTitle">Sobre Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2024, Raia Software. Todos los derechos reservados.&#10;Este programa informático está protegido por las leyes de copyright y la ley internacional de tratados.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2025, Raia Software. Todos los derechos reservados.&#10;Este programa informático está protegido por las leyes de copyright y la ley internacional de tratados.</String>
 
 	<String ID="LoadingInProgressShort">Cargando...</String>
 	<String ID="LoadingInProgress">Cargando '{0}'</String>
