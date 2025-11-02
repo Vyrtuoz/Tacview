@@ -113,16 +113,16 @@ msgid "shorter than 5 min"
 msgstr "menos de 5 minutos"
 
 msgid "Data Capture Mode"
-msgstr ""
+msgstr "Modo de captura de datos"
 
 msgid "Accurate (slow)"
-msgstr ""
+msgstr "Preciso (Lento)"
 
 msgid "Balanced (default)"
-msgstr ""
+msgstr "Balanceado (Por defecto)"
 
 msgid "Fast (lower accuracy)"
-msgstr ""
+msgstr "Rapido (poca precison)"
 
 msgid "Record Simulation Pauses"
-msgstr ""
+msgstr "Recordar pausas en la simulacion"
