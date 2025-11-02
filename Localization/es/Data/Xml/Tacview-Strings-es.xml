@@ -28,8 +28,8 @@
 	<String ID="RecordingMenuHelp">Configurar los datos de vuelo a grabar</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Telemetría en tiempo real...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">Grabar un vuelo actualmente en proceso</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4.0 Legacy Real-Time Telemetry...</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Record a flight currently in progress in older versions of Falcon 4</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4.0 Legacy Telemetría en tiempo real...</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Grabar vuelo actualmente en progreso de una version de Falcon 4 anterior</String>
 	<String ID="RecordingADSBTelemetryCmdText">Radio telemetría ADS-B...</String>
 	<String ID="RecordingADSBTelemetryCmdHelp">Grabar Telemetría ADS-B en el aire</String>
 	<String ID="RecordingRemoteControl0Text">Control remoto 1</String>
@@ -133,8 +133,8 @@
 	<String ID="OptionsCockpitText">Cabina</String>
 	<String ID="OptionsAnticipatoryTrailText">Sendero anticipado</String>
 	<String ID="OptionsAnticipatoryTrailDisabled">Desactivado</String>
-	<String ID="OptionsRealTimeTelemetryLagText">Real-time Telemetry Lag</String>
-	<String ID="OptionsRealTimeTelemetryLagDefault">(default)</String>
+	<String ID="OptionsRealTimeTelemetryLagText">Telemetíia en tiempo real Lag</String>
+	<String ID="OptionsRealTimeTelemetryLagDefault">(por defecto)</String>
 
 	<String ID="OptionsTerrainText">Terreno</String>
 	<String ID="OptionsTerrainAutoText">(&amp;Automático)</String>
@@ -152,8 +152,8 @@
 	<String ID="OptionsTerrainHelpFalcon4">Usar terreno de Falcon 4.0</String>
 	<String ID="OptionsTerrainTextIL2">IL-2 Sturmovik</String>
 	<String ID="OptionsTerrainHelpIL2">Mostrar terreno desde IL-2 Sturmovik</String>
-	<String ID="OptionsTerrainTextNuclearOption">Nuclear Option</String>
-	<String ID="OptionsTerrainHelpNuclearOption">Use terrain from Nuclear Option</String>
+	<String ID="OptionsTerrainTextNuclearOption">Opcion Nuclear</String>
+	<String ID="OptionsTerrainHelpNuclearOption">Usar el terreno desde la opcion Nuclear</String>
 
 	<String ID="OptionsLanguageText">Lenguaje</String>
 	<String ID="OptionsLanguageAutoText">(&amp;Automático)</String>
@@ -192,11 +192,11 @@
 	<String ID="OptionsPositionFormatDMSHelp">Grados, minutos, segundos</String>
 	<String ID="OptionsPositionFormatMGRSHelp">Malla de referencia militar</String>
 
-	<String ID="OptionsNorthReferenceText">North Reference</String>
-	<String ID="OptionsNorthReferenceTrueText">True</String>
-	<String ID="OptionsNorthReferenceTrueHelp">Use geographic north as the heading reference</String>
-	<String ID="OptionsNorthReferenceMagneticText">Magnetic</String>
-	<String ID="OptionsNorthReferenceMagneticHelp">Use the magnetic declination for the current location</String>
+	<String ID="OptionsNorthReferenceText">Referencia Norte</String>
+	<String ID="OptionsNorthReferenceTrueText">Verdadero</String>
+	<String ID="OptionsNorthReferenceTrueHelp">Usar el norte geografico como rumbo de referencia</String>
+	<String ID="OptionsNorthReferenceMagneticText">Magnetico</String>
+	<String ID="OptionsNorthReferenceMagneticHelp">Usar la declinacion magnetica para la posicion actual</String>
 
 	<String ID="OptionsTimeFormatText">Desplazamiento de tiempo (UTC)</String>
 
@@ -229,8 +229,8 @@
 
 	<String ID="PauseOnEventCmdText">Pausar en evento</String>
 	<String ID="PauseOnEventCmdHelp">Pausar la reproducion en cada evento del registro de eventos</String>
-	<String ID="DisplayEventOnPauseCmdText">Show Event in 3D View</String>
-	<String ID="DisplayEventOnPauseCmdHelp">Display in the 3D view, the event which has triggerd the pause</String>
+	<String ID="DisplayEventOnPauseCmdText">Mostrar enventos enm la vista 3D</String>
+	<String ID="DisplayEventOnPauseCmdHelp">Mostrar en la vista 3d, el evento que ha activado la pausa</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;Asociar Tacview con los archivos acmi</String>
 	<String ID="OptionsAssociateFileTypesHelp">Habilita que Tacview abra en windows los archivos de vuelo con doble click</String>
@@ -252,8 +252,8 @@
 	<String ID="InsertBookmarkHelp">Crea e inserta una marca en eventos y línea de tiempo</String>
 	<String ID="RemoveBookmarkText">&amp;Borrar marca</String>
 	<String ID="RemoveBookmarkHelp">Borra una marca</String>
-	<String ID="RemoveEventText">&amp;Remove Event</String>
-	<String ID="RemoveEventHelp">Delete this event</String>
+	<String ID="RemoveEventText">&amp;Borrar evento</String>
+	<String ID="RemoveEventHelp">Borrar el evento</String>
 	<String ID="ShareCopyShortcutText">&amp;Copiar acceso directo&#9;(Ctrl+C)</String>
 	<String ID="ShareCopyShortcutHelp">Crea un acceso directo a la vista actual para compartir con tus amigos</String>
 	<String ID="SharePasteShortcutText">&amp;Pegar acceso directo&#9;(Ctrl+V)</String>
@@ -457,21 +457,21 @@
 	<String ID="RollText">Alabeo</String>
 	<String ID="PitchHelp">Actitud de cabezeo del avion</String>
 	<String ID="PitchText">Cabeceo</String>
-	<String ID="LocalizerLateralDeviationText">Lateral Deviation</String>
-	<String ID="LocalizerLateralDeviationHelp">How far the aircraft is from the runway centerline, left or right.</String>
-	<String ID="LocalizerAngularDeviationText">Localizer Angle</String>
-	<String ID="LocalizerAngularDeviationHelp">The angle difference from the runway centerline.</String>
-	<String ID="GlideslopeVerticalDeviationText">Vertical Deviation</String>
-	<String ID="GlideslopeVerticalDeviationHelp">How far the aircraft is above or below the glideslope.</String>
-	<String ID="GlideslopeAngularDeviationText">Glideslope Angle</String>
-	<String ID="GlideslopeAngularDeviationHelp">The angle difference from the perfect descent path.</String>
+	<String ID="LocalizerLateralDeviationText">Desviación lateral</String>
+	<String ID="LocalizerLateralDeviationHelp">Como de lejos esta el avion con respecto al centro de la pista, izquierda o derecha.</String>
+	<String ID="LocalizerAngularDeviationText">Angula del localizador</String>
+	<String ID="LocalizerAngularDeviationHelp">El angulo de diferencia con respecto al centro de la pista.</String>
+	<String ID="GlideslopeVerticalDeviationText">Desviación vertical</String>
+	<String ID="GlideslopeVerticalDeviationHelp">Como de lejos esta el avion por arriba o por abajo de la senda de planeo.</String>
+	<String ID="GlideslopeAngularDeviationText">Angulo de senda de planeo</String>
+	<String ID="GlideslopeAngularDeviationHelp">El angulo de diferencia con respecto al angulo perfecto de la senda.</String>
 	<String ID="Glideslope30Text">3° Glideslope</String>
-	<String ID="Glideslope30Help">Draws a standard 3-degree glideslope coming from the secondary object.</String>
+	<String ID="Glideslope30Help">Dibuja una senda de planeo de 3 grados saliendo del objeto secundario.</String>
 	<String ID="Glideslope35Text">3.5° Glideslope</String>
-	<String ID="Glideslope35Help">Draws a 3.5-degree glideslope used for aircraft carriers, coming from the secondary object.</String>
-	<String ID="HeartRateHelp">Pilot heart rate in beats per minute</String>
-	<String ID="HeartRateText">Heart Rate</String>
-	<String ID="SpO2Help">Percentage of blood that is saturated with oxygen</String>
+	<String ID="Glideslope35Help">Dibuja una senda de 3.5 grados tipicamente usada en portaviones, saliendo desde el objeto secundario.</String>
+	<String ID="HeartRateHelp">Latido del corazon del piloto en beats por minuto</String>
+	<String ID="HeartRateText">Latido del corazon</String>
+	<String ID="SpO2Help">Porcentaje de sangre saturada por oxigenon</String>
 	<String ID="SpO2Text">SpO2</String>
 
 	<String ID="NavaidsLabelsText">Etiquetas de ayuda a la navegación</String>
@@ -592,14 +592,14 @@
 	<String ID="RealTimeTelemetryDisconnect">Desconectar</String>
 	<String ID="RealTimeTelemetryAutoReconnect">Auto Reconectar</String>
 
-	<String ID="Falcon4RealTimeTelemetryTitle">Falcon 4 Real-time Telemetry</String>
-	<String ID="Falcon4RealTimeTelemetryIntro">Import Falcon 4 *.flt files to review telemetry data in real-time!</String>
-	<String ID="Falcon4RealTimeTelemetryInstructions">As soon as your Falcon 4 flight has started, press the [F] key to start recording data.&#xA;Falcon will generate *.flt files which will be read by Tacview and displayed in real-time in the 3D view.&#xA;&#xA;*** NOTES ***&#xA;&#xA;&#x2022; You might want to force Falcon to inject colors and callsigns by pressing twice the [F] key during the flight.&#xA;&#x2022; Starting with BMS 4.36 Update 1, you need to set g_bTacviewAcmi 0 in "Falcon BMS User.cfg" file to create *.flt files.</String>
-	<String ID="Falcon4RealTimeTelemetryDirectoryLabel">Falcon 4.0 Acmi folders:</String>
+	<String ID="Falcon4RealTimeTelemetryTitle">Falcon 4 Telemetría en tiempo real</String>
+	<String ID="Falcon4RealTimeTelemetryIntro">Importar Falcon 4 *.flt archivos para revisar la telemetría en tiempo real!</String>
+	<String ID="Falcon4RealTimeTelemetryInstructions">Tan pronto como empiece tu vuelo de Falcon 4, presiona [F] para empezar a grabar los datos.&#xA;Falcon generará *.flt archivos los cuales Tacview mostraran en tiempo real.&#xA;&#xA;*** NOTAS ***&#xA;&#xA;&#x2022; Si quieres ver callsings y los colores de los bandos pulsa dos veces la tecla [F] durante el vuelo.&#xA;&#x2022; Empezando en BMS 4.36 Update 1, necesitas poner set g_bTacviewAcmi 0 en "Falcon BMS User.cfg" para crear los archivos *.flt.</String>
+	<String ID="Falcon4RealTimeTelemetryDirectoryLabel">Falcon 4.0 Acmi Carpetas:</String>
 	<String ID="Falcon4RealTimeTelemetryFiles">Falcon 4 *.flt files</String>
-	<String ID="BrowseFalcon4ACMIDirectoryHelp">Please select the Acmi folder where Falcon 4.0 stores its VHS And FLT files.</String>
-	<String ID="RealTimeTelemetryStartRecording">Start Recording</String>
-	<String ID="RealTimeTelemetryStopRecording">Stop Recording</String>
+	<String ID="BrowseFalcon4ACMIDirectoryHelp">Porfavor seleccione la carpeta ACMI donde Falcon 4.0 almacena sus archivos VHS y FLT.</String>
+	<String ID="RealTimeTelemetryStartRecording">Empezar a grabar</String>
+	<String ID="RealTimeTelemetryStopRecording">Parar de grabar</String>
 
 	<String ID="ADSBTelemetryTitle">Radio telemetria ADS-B</String>
 	<String ID="ADSBTelemetryIntro">¡Escucha señales de radio ADS-B de 1090MHz para mostrar los aviones a tu alrededor en tiempo real!</String>
@@ -757,17 +757,17 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="CommandLineBehavior">Comportamiento general</String>
 	<String ID="CommandLineSpecial">Opciones avanzadas</String>
 	<String ID="CmdOpenHelp">Abrir un archive existente.</String>
-	<String ID="CmdOpenMediaHelp">Open a media file in the corresponding window (1 to 8).</String>
+	<String ID="CmdOpenMediaHelp">Abrir un archivo de media en la ventana correspondiente (1 to 8).</String>
 	<String ID="CmdMergeHelp">Mezclar un archivo existente con los datos actualmente cargados...</String>
 	<String ID="CmdSaveHelp">Guardar el vuelo en un formato de alta compresión.</String>
 	<String ID="CmdExportFlightLogHelp">Exportar el registro de vuelo como archive XML o CSV.</String>
 	<String ID="CmdFalcon4TheaterHelp">Configurar el teatro de Falcon 4.0 para usar con los archivos VHS. (Aegean, Balkan, Israel, Korea...)</String>
-	<String ID="CmdFullscreenHelp">Starts Tacview in Fullscreen mode.</String>
+	<String ID="CmdFullscreenHelp">Empezar Tacview en modo pantalla completa.</String>
 	<String ID="CmdQuietHelp">Tacview ejecutara los comandos especificados y después saldrá sin mostrar ninguna ventana.</String>
 	<String ID="CmdConnectRealTimeTelemetryHelp">Conectar telemetría en tiempo real usando los últimos parámetros conocidos.</String>
 	<String ID="CmdConnectRemoteControlHelp">Conectar el control remoto con los últimos parámetros conocidos.</String>
 	<String ID="CmdQuitHelp">Tacview se cerrara después de que se hayan completado las operaciones.</String>
-	<String ID="CmdSetTimeHelp">Seek to the given ISO-formatted time. Load telemetry data first.</String>
+	<String ID="CmdSetTimeHelp">Buscar para el archivo ISO-formatted time. Cargar telemetria primero.</String>
 	<String ID="CmdDataCollectionHelp">Deshabilitar recopilación anónima de datos.</String>
 	<String ID="CmdVBOOffHelp">Deshabilita el buffer de los vértices de objetos para evitar CTDs en algunas ATI en configuración CrossFire.</String>
 	<String ID="CmdDebugModeHelp">Muestra la información de errores para ayudar a solucionar problemas.</String>
@@ -778,7 +778,7 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="CmdRegisterSystemProductKeyHelp">Activa Tacview para todo el sistema con la Key indicada.</String>
 	<String ID="CmdRegisterSessionProductKeyHelp">Activa Tacview, para la sesion actual, con la Key indicada.</String>
 	<String ID="CmdDisplayFrameRateHelp">Mostrar los frame-rate en la vista 3D.</String>
-	<String ID="CmdMSAAHelp">Disable Multi-Sample Anti-Aliasing for better performance on less powerful graphics cards.</String>
+	<String ID="CmdMSAAHelp">Deshabilitar Multi-Sample Anti-Aliasing para mejor rendimiento para targetas graficas mas antiguas.</String>
 	<String ID="CmdResourceFolderHelp">Declarar un directorio personalado donde se almacenen los recursos del TacView.</String>
 	<String ID="CmdAddOnsFolderHelp">Declara un directorio adicional donde cargar los add-ons.</String>
 	<String ID="CmdReadOnlyHelp">Deshabilitar addons y exportar capacidades.</String>
@@ -841,7 +841,7 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<!-- Additional Tooltips -->
 	<String ID="UpdateAvailableTooltip">Nueva versión de Tacview disponible</String>
 	<String ID="DCSWorldHookedSmallTooltip">El grabador de vuelos de 'DCS World' está activado</String>
-	<String ID="TwitterLinkTooltip">Twitter</String>
+	<String ID="TwitterLinkTooltip">Twitter - Actual X -</String>
 	<String ID="FacebookLinkTooltip">Facebook</String>
 	<String ID="FlightSimHookTooltipTitle">Ya puede cerrar Tacview</String>
 	<String ID="FlightSimHookTooltipMessage">Cuando este icono es visible todos los vuelos son automáticamente grabados por tu simulador de vuelo.&#10; No es necesario tener Tacview en funcionamiento mientras estas volando.</String>
@@ -980,11 +980,11 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="UnitLabelPitch">Pitch ({0})</String>
 	<String ID="UnitLabelFuel">Fuel ({0})</String>
 	<String ID="UnitLabelFuelFlow">Flujo de combustible ({0})</String>
-	<String ID="UnitLabelLocalizerLateralDeviation">Localizer Deviation ({0})</String>
-	<String ID="UnitLabelLocalizerAngularDeviation">Localizer Deviation (°)</String>
-	<String ID="UnitLabelGlideslopeVerticalDeviation">Glideslope Deviation ({0})</String>
-	<String ID="UnitLabelGlideslopeAngularDeviation">Glideslope Deviation (°)</String>
-	<String ID="UnitLabelHeartRate">Heart Rate (BPM)</String>
+	<String ID="UnitLabelLocalizerLateralDeviation">Desviacion del localizador ({0})</String>
+	<String ID="UnitLabelLocalizerAngularDeviation">Desviacion del localizador (°)</String>
+	<String ID="UnitLabelGlideslopeVerticalDeviation">Desviacion de senda de planeo ({0})</String>
+	<String ID="UnitLabelGlideslopeAngularDeviation">Desviacion de senda de planeo (°)</String>
+	<String ID="UnitLabelHeartRate">Pulso (BPM)</String>
 	<String ID="UnitLabelSpO2">SpO2 (%)</String>
 
 	<!-- **** Not certified below **** -->
@@ -1091,7 +1091,7 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="EventLogHasBeenDestroyedBy">ha sido destruido por {0}</String>
 	<String ID="EventLogTakeoff">Despegó</String>
 	<String ID="EventLogLanding">Aterrizó</String>
-	<String ID="EventLogDisabledLabel">Kill Removed</String>
+	<String ID="EventLogDisabledLabel">Quitar Kill</String>
 	<String ID="EventLogEnabledLabel">Vivo</String>
 	<String ID="EventLogRadarOnLabel">Radar-ON</String>
 	<String ID="EventLogRadarOffLabel">Radar-OFF</String>
