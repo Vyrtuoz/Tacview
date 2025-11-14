@@ -1,12 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<DefaultPropertiesCollection LoadingOrder="0.1">
+<DefaultPropertiesCollection Priority="0.1">
 
 	<!-- Core Declarations -->
+
+	<DefaultProperties Id="Building.Sea.Platform" Base="Core.Building">
+		<Criteria>
+			<Type>Building</Type>
+		</Criteria>
+		<Properties>
+			<Shape>Building.OilPlatform.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Buildings -->
+
+	<DefaultProperties Id="Building.OilPlatform" Base="Building.Sea.Platform">
+		<Criteria>
+			<Name>Oil Rig</Name>
+			<Name>Oil Platform</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Platform</ShortName>
+			<LongName>Oil Platform</LongName>
+			<FullName>Oil Platform</FullName>
+			<Shape>Building.OilPlatform.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Building.OilPlatform.Aerodrome" Base="Building.OilPlatform">
+		<Criteria>
+			<Name>Oil Rig</Name>
+			<Type>Aerodrome</Type>
+		</Criteria>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Building.GasPlatform" Base="Building.Sea.Platform">
+		<Criteria>
+			<Name>Gas Platform</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Platform</ShortName>
+			<LongName>Gas Platform</LongName>
+			<FullName>Gas Platform</FullName>
+			<Shape>Building.GasPlatform.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Building.GasPlatform.Aerodrome" Base="Building.GasPlatform">
+		<Criteria>
+			<Name>Gas Platform</Name>
+			<Type>Aerodrome</Type>
+		</Criteria>
+	</DefaultProperties>
 
 	<!--
 		http://virtualairrace.com/vars-pylons-mod/
 		We are using a generic type for pylons, because
-		the addon for DCS is using the wrong type of object.
+		the add-on for DCS is using the wrong type of object.
 	-->
 
 	<DefaultProperties Id="Building.Pylon" Base="Core.Default">
@@ -138,7 +188,7 @@
 			<Shape>Building.SinglePylon.25m.obj</Shape>
 		</Properties>
 	</DefaultProperties>
-		
+
 	<DefaultProperties Id="Building.RenoPylon" Base="Building.Pylon">
 		<Criteria>
 			<Name>Reno Pylon</Name>

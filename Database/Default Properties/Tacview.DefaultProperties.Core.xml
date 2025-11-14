@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<DefaultPropertiesCollection LoadingOrder="0.0">
+<DefaultPropertiesCollection Priority="0.0">
 
 	<!--
 
@@ -126,6 +126,7 @@
 		</Criteria>
 		<Properties>
 			<AdditionalType>Shell</AdditionalType>
+			<Shape>Core.Empty.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -137,6 +138,7 @@
 		</Criteria>
 		<Properties>
 			<AdditionalType>Bullet</AdditionalType>
+			<Shape>Core.Empty.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -220,7 +222,7 @@
 
 	<DefaultProperties Id="Core.AntiAircraft" Base="Core.Vehicle">
 		<Criteria>
-			<Type>AntiAircraft</Type>
+			<Type>Ground+AntiAircraft</Type>
 			<Name>*</Name>
 		</Criteria>
 		<Properties>

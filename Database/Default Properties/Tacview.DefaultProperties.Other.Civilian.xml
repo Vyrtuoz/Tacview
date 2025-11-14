@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<DefaultPropertiesCollection LoadingOrder="0.1">
+<DefaultPropertiesCollection Priority="0.1">
 
 	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
 	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
@@ -7,16 +7,6 @@
 	<!-- Core Declarations -->
 
 	<DefaultProperties Id="Other.Sea.Biologic" Base="Core.Biologic">
-	</DefaultProperties>
-
-	<DefaultProperties Id="Other.Sea.Platform" Base="Core.Building">
-		<Criteria>
-			<Type>Building</Type>
-			<Type>Aerodrome</Type>
-		</Criteria>
-		<Properties>
-			<Shape>Building.OilPlatform.obj</Shape>
-		</Properties>
 	</DefaultProperties>
 
 	<!-- Sea Animals -->
@@ -45,33 +35,6 @@
 			<ShortName>#</ShortName>
 			<LongName>Airfield</LongName>
 			<FullName>Airfield</FullName>
-		</Properties>
-	</DefaultProperties>
-
-	<!-- Buildings -->
-
-	<DefaultProperties Id="Building.OilPlatform" Base="Other.Sea.Platform">
-		<Criteria>
-			<Name>Oil Rig</Name>
-			<Name>Oil Platform</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>Platform</ShortName>
-			<LongName>Oil Platform</LongName>
-			<FullName>Oil Platform</FullName>
-			<Shape>Building.OilPlatform.obj</Shape>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="Building.GasPlatform" Base="Other.Sea.Platform">
-		<Criteria>
-			<Name>Gas Platform</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>Platform</ShortName>
-			<LongName>Gas Platform</LongName>
-			<FullName>Gas Platform</FullName>
-			<Shape>Building.GasPlatform.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

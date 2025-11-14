@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<DefaultPropertiesCollection LoadingOrder="0.1">
+<DefaultPropertiesCollection Priority="0.1">
 
 	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
 	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
@@ -880,6 +880,17 @@
 			<ShortName>ERJ 170-200</ShortName>
 			<LongName>Embraer ERJ 170-200</LongName>
 			<FullName>Embraer ERJ 170-200</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.E190" Base="FixedWing.ERJ170">
+		<Criteria>
+			<Name>E190</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>E190</ShortName>
+			<LongName>Embraer E190</LongName>
+			<FullName>Embraer E190</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -2315,6 +2326,18 @@
 			<ShortName>MD-10</ShortName>
 			<LongName>MD-10</LongName>
 			<FullName>McDonnell Douglas MD-10</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.MD-11" Base="FixedWing.MD-10">
+		<Criteria>
+			<Name>MD-11</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MD-11</ShortName>
+			<LongName>MD-11</LongName>
+			<FullName>McDonnell Douglas MD-11</FullName>
+			<Shape>FixedWing.MD-11.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 

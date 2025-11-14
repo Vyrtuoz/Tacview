@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<DefaultPropertiesCollection LoadingOrder="0.1">
+<DefaultPropertiesCollection Priority="0.1">
 
 	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
 	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
@@ -605,6 +605,19 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.MQ-28" Base="FixedWing.Military.Drone">
+		<Criteria>
+			<Name>MQ-28</Name>
+			<Name>MQ-28 Ghost Bat</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MQ-28</ShortName>
+			<LongName>MQ-28 Ghost Bat</LongName>
+			<FullName>Boeing MQ-28 Ghost Bat</FullName>
+			<Shape>FixedWing.MQ-28.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.BQM-74" Base="FixedWing.Military.Drone">
 		<Criteria>
 			<Name>BQM-74</Name>
@@ -737,31 +750,6 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.S-3A" Base="FixedWing.Bomber.Jet">
-		<Criteria>
-			<Name>S-3A</Name>
-			<Name>S-3A Viking</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>S-3A</ShortName>
-			<LongName>S-3A Viking</LongName>
-			<FullName>Lockheed S-3A Viking</FullName>
-			<Shape>FixedWing.ES-3A.obj</Shape>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="FixedWing.S-3B" Base="FixedWing.S-3A">
-		<Criteria>
-			<Name>S-3B</Name>
-			<Name>S-3B Viking</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>S-3B</ShortName>
-			<LongName>S-3B Viking</LongName>
-			<FullName>Lockheed S-3B Viking</FullName>
-		</Properties>
-	</DefaultProperties>
-
 	<DefaultProperties Id="FixedWing.ES-3A" Base="FixedWing.S-3A">
 		<Criteria>
 			<Name>ES-3A</Name>
@@ -823,31 +811,6 @@
 			<ShortName>A-6</ShortName>
 			<LongName>A-6 Intruder</LongName>
 			<FullName>Grumman A-6 Intruder</FullName>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="FixedWing.EA-6A" Base="FixedWing.A-6">
-		<Criteria>
-			<Name>EA-6A</Name>
-			<Name>EA-6A Intruder</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>EA-6A</ShortName>
-			<LongName>EA-6A Intruder</LongName>
-			<FullName>Grumman EA-6A Intruder</FullName>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="FixedWing.EA-6B" Base="FixedWing.EA-6A">
-		<Criteria>
-			<Name>EA-6B</Name>
-			<Name>Prowler</Name>
-			<Name>EA-6B Prowler</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>EA-6B</ShortName>
-			<LongName>EA-6B Prowler</LongName>
-			<FullName>Northrop Grumman EA-6B Prowler</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -1078,6 +1041,40 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.B-26" Base="FixedWing.Bomber.TwinProp">
+		<Criteria>
+			<Name>B-26</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B-26</ShortName>
+			<LongName>B-26 Marauder</LongName>
+			<FullName>Martin B-26 Marauder</FullName>
+			<Shape>FixedWing.A-20.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B-26B" Base="FixedWing.B-26">
+		<Criteria>
+			<Name>B-26B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B-26B</ShortName>
+			<LongName>B-26B Marauder</LongName>
+			<FullName>Martin B-26B Marauder</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B-26B-55" Base="FixedWing.B-26B">
+		<Criteria>
+			<Name>B-26B-55</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B-26B-55</ShortName>
+			<LongName>B-26B-55 Marauder</LongName>
+			<FullName>Martin B-26B-55 Marauder</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.B-52" Base="FixedWing.Bomber.Jet">
 		<Criteria>
 			<Name>B-52</Name>
@@ -1128,6 +1125,97 @@
 			<LongName>Cessna A-37</LongName>
 			<FullName>Cessna A-37 Dragonfly</FullName>
 			<Shape>FixedWing.A-37.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.EA-6A" Base="FixedWing.A-6">
+		<Criteria>
+			<Name>EA-6A</Name>
+			<Name>EA-6A Intruder</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>EA-6A</ShortName>
+			<LongName>EA-6A Intruder</LongName>
+			<FullName>Grumman EA-6A Intruder</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.EA-6B" Base="FixedWing.EA-6A">
+		<Criteria>
+			<Name>EA-6B</Name>
+			<Name>Prowler</Name>
+			<Name>EA-6B Prowler</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>EA-6B</ShortName>
+			<LongName>EA-6B Prowler</LongName>
+			<FullName>Northrop Grumman EA-6B Prowler</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.EA-18G" Base="FixedWing.F-18F">
+		<Criteria>
+			<Name>EA-18G</Name>
+			<Name>Growler</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>EA-18G</ShortName>
+			<LongName>EA-18G Growler</LongName>
+			<FullName>Boeing EA-18G Growler</FullName>
+		</Properties>
+	</DefaultProperties>
+
+
+
+	<DefaultProperties Id="FixedWing.EF-18" Base="FixedWing.F-18">
+		<Criteria>
+			<Name>EF-18</Name>
+			<Name>EF-18 Hornet</Name>
+			<Name>McDonnell Douglas EF-18</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>EF-18</ShortName>
+			<LongName>EF-18 Hornet</LongName>
+			<FullName>McDonnell Douglas EF-18 Hornet</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.EF-18A" Base="FixedWing.F-18A">
+		<Criteria>
+			<Name>EF-18A</Name>
+			<Name>EF-18A Hornet</Name>
+			<Name>McDonnell Douglas EF-18A</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>EF-18A</ShortName>
+			<LongName>EF-18A Hornet</LongName>
+			<FullName>McDonnell Douglas EF-18A Hornet</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.EF-18A+" Base="FixedWing.EF-18A">
+		<Criteria>
+			<Name>EF-18A+</Name>
+			<Name>EF-18A+ Hornet</Name>
+			<Name>McDonnell Douglas EF-18A+</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>EF-18A+</ShortName>
+			<LongName>EF-18A+ Hornet</LongName>
+			<FullName>McDonnell Douglas EF-18A+ Hornet</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.EF-18M" Base="FixedWing.EF-18A+">
+		<Criteria>
+			<Name>EF-18M</Name>
+			<Name>EF-18M Hornet</Name>
+			<Name>McDonnell Douglas EF-18M</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>EF-18M</ShortName>
+			<LongName>EF-18M Hornet</LongName>
+			<FullName>McDonnell Douglas EF-18M Hornet</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -1479,8 +1567,8 @@
 	<DefaultProperties Id="FixedWing.F-18" Base="FixedWing.Fighter.Jet">
 		<Criteria>
 			<Name>F-18</Name>
-			<Name>F/A-18</Name>
-			<Name>F/A-18 Hornet</Name>
+			<Name>FA-18</Name>
+			<Name>FA-18 Hornet</Name>
 			<Name>McDonnell Douglas F/A-18</Name>
 		</Criteria>
 		<Properties>
@@ -1494,8 +1582,8 @@
 	<DefaultProperties Id="FixedWing.F-18A" Base="FixedWing.F-18">
 		<Criteria>
 			<Name>F-18A</Name>
-			<Name>F/A-18A</Name>
-			<Name>F/A-18A Hornet</Name>
+			<Name>FA-18A</Name>
+			<Name>FA-18A Hornet</Name>
 			<Name>McDonnell Douglas F/A-18A</Name>
 		</Criteria>
 		<Properties>
@@ -1508,8 +1596,8 @@
 	<DefaultProperties Id="FixedWing.F-18C" Base="FixedWing.F-18A">
 		<Criteria>
 			<Name>F-18C</Name>
-			<Name>F/A-18C</Name>
-			<Name>F/A-18C Hornet</Name>
+			<Name>FA-18C</Name>
+			<Name>FA-18C Hornet</Name>
 			<Name>McDonnell Douglas F/A-18C</Name>
 		</Criteria>
 		<Properties>
@@ -1523,8 +1611,8 @@
 	<DefaultProperties Id="FixedWing.F-18E" Base="FixedWing.F-18C">
 		<Criteria>
 			<Name>F-18E</Name>
-			<Name>F/A-18E</Name>
-			<Name>F/A-18E Hornet</Name>
+			<Name>FA-18E</Name>
+			<Name>FA-18E Hornet</Name>
 			<Name>Boeing F/A-18E</Name>
 			<!-- FSX Superbug Aliases -->
 			<Name>Flight Test Aircraft E</Name>
@@ -1558,7 +1646,7 @@
 	<DefaultProperties Id="FixedWing.F-18F" Base="FixedWing.F-18E">
 		<Criteria>
 			<Name>F-18F</Name>
-			<Name>F/A-18F</Name>
+			<Name>FA-18F</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>F/A-18F</ShortName>
@@ -1567,71 +1655,7 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="FixedWing.EA-18G" Base="FixedWing.F-18F">
-		<Criteria>
-			<Name>EA-18G</Name>
-			<Name>Growler</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>EA-18G</ShortName>
-			<LongName>EA-18G Growler</LongName>
-			<FullName>Boeing EA-18G Growler</FullName>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="FixedWing.EF-18" Base="FixedWing.F-18">
-		<Criteria>
-			<Name>EF-18</Name>
-			<Name>EF-18 Hornet</Name>
-			<Name>McDonnell Douglas EF-18</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>EF-18</ShortName>
-			<LongName>EF-18 Hornet</LongName>
-			<FullName>McDonnell Douglas EF-18 Hornet</FullName>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="FixedWing.EF-18A" Base="FixedWing.F-18A">
-		<Criteria>
-			<Name>EF-18A</Name>
-			<Name>EF-18A Hornet</Name>
-			<Name>McDonnell Douglas EF-18A</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>EF-18A</ShortName>
-			<LongName>EF-18A Hornet</LongName>
-			<FullName>McDonnell Douglas EF-18A Hornet</FullName>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="FixedWing.EF-18A+" Base="FixedWing.EF-18A">
-		<Criteria>
-			<Name>EF-18A+</Name>
-			<Name>EF-18A+ Hornet</Name>
-			<Name>McDonnell Douglas EF-18A+</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>EF-18A+</ShortName>
-			<LongName>EF-18A+ Hornet</LongName>
-			<FullName>McDonnell Douglas EF-18A+ Hornet</FullName>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="FixedWing.EF-18M" Base="FixedWing.EF-18A+">
-		<Criteria>
-			<Name>EF-18M</Name>
-			<Name>EF-18M Hornet</Name>
-			<Name>McDonnell Douglas EF-18M</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>EF-18M</ShortName>
-			<LongName>EF-18M Hornet</LongName>
-			<FullName>McDonnell Douglas EF-18M Hornet</FullName>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="FixedWing.F-22" Base="FixedWing.Fighter.Jet">
+		<DefaultProperties Id="FixedWing.F-22" Base="FixedWing.Fighter.Jet">
 		<Criteria>
 			<Name>F-22</Name>
 			<Name>F-22 Raptor</Name>
@@ -1877,6 +1901,20 @@
 			<ShortName>F-117A</ShortName>
 			<LongName>F-117A Nighthawk</LongName>
 			<FullName>Lockheed F-117A Nighthawk</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.F4F" Base="FixedWing.Fighter.Prop">
+		<Criteria>
+			<Name>F4F</Name>
+			<Name>F4F-3</Name>
+			<Name>F4F-4</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F4F</ShortName>
+			<LongName>F4F Wildcat</LongName>
+			<FullName>Grumman F4F Wildcat</FullName>
+			<Shape>FixedWing.Yak-1.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
@@ -2161,6 +2199,69 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.PBY" Base="FixedWing.Bomber.TwinProp">
+		<Criteria>
+			<Name>PBY</Name>
+			<Name>PBY-5</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PBY</ShortName>
+			<LongName>PBY Catalina</LongName>
+			<FullName>Consolidated PBY Catalina</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.S-3A" Base="FixedWing.Bomber.Jet">
+		<Criteria>
+			<Name>S-3A</Name>
+			<Name>S-3A Viking</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>S-3A</ShortName>
+			<LongName>S-3A Viking</LongName>
+			<FullName>Lockheed S-3A Viking</FullName>
+			<Shape>FixedWing.ES-3A.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.S-3B" Base="FixedWing.S-3A">
+		<Criteria>
+			<Name>S-3B</Name>
+			<Name>S-3B Viking</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>S-3B</ShortName>
+			<LongName>S-3B Viking</LongName>
+			<FullName>Lockheed S-3B Viking</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.SBD" Base="FixedWing.Fighter.Prop">
+		<Criteria>
+			<Name>SBD</Name>
+			<Name>SBD-3</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SBD</ShortName>
+			<LongName>SBD Dauntless</LongName>
+			<FullName>Douglas SBD Dauntless</FullName>
+			<Shape>FixedWing.Yak-52.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.SOC" Base="FixedWing.Fighter.Prop">
+		<Criteria>
+			<Name>SOC</Name>
+			<Name>SOC-1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SOC</ShortName>
+			<LongName>SOC Seagull</LongName>
+			<FullName>Curtiss SOC Seagull</FullName>
+			<Shape>FixedWing.C182.Float.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.TF-51D" Base="FixedWing.P-51D">
 		<Criteria>
 			<Name>TF-51D</Name>
@@ -2214,7 +2315,46 @@
 			<Shape>FixedWing.Tex2.obj</Shape>
 		</Properties>
 	</DefaultProperties>
-	
+
+	<DefaultProperties Id="FixedWing.TBD" Base="FixedWing.Fighter.Prop">
+		<Criteria>
+			<Name>TBD</Name>
+			<Name>TBD-1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>TBD</ShortName>
+			<LongName>TBD Devastator</LongName>
+			<FullName>Douglas TBD Devastator</FullName>
+			<Shape>FixedWing.Yak-52.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.X1" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>X-1</Name>
+			<Name>XS-1</Name>
+			<Name>Bell X-1</Name>
+			<Name>Bell Model 44</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>X-1</ShortName>
+			<LongName>Bell X-1</LongName>
+			<FullName>Bell X-1</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.X15" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>X-15</Name>
+			<Name>North American X-15</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>X-15</ShortName>
+			<LongName>North American X-15</LongName>
+			<FullName>North American X-15</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.YF-23" Base="FixedWing.Fighter.Jet">
 		<Criteria>
 			<Name>YF-23</Name>
@@ -2523,6 +2663,28 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.F.E.2" Base="FixedWing.Fighter.Biplane">
+		<Criteria>
+			<Name>F.E.2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F.E.2</ShortName>
+			<LongName>Royal Aircraft Factory F.E.2</LongName>
+			<FullName>Royal Aircraft Factory F.E.2</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.F.E.2b" Base="FixedWing.F.E.2">
+		<Criteria>
+			<Name>F.E.2b</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F.E.2b</ShortName>
+			<LongName>Royal Aircraft Factory F.E.2b</LongName>
+			<FullName>Royal Aircraft Factory F.E.2b</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.Dolphin" Base="FixedWing.Fighter.Biplane">
 		<Criteria>
 			<Name>Dolphin</Name>
@@ -2535,6 +2697,42 @@
 			<FullName>Sopwith 5F.1 Dolphin</FullName>
 			<!-- Tacview Extended Models by Richard Cook 2021-->
 			<Shape>FixedWing.Dolphin.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Sopwith Strutter" Base="FixedWing.Fighter.Biplane">
+		<Criteria>
+			<Name>Strutter</Name>
+			<Name>Sopwith Strutter</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Strutter</ShortName>
+			<LongName>Sopwith Strutter</LongName>
+			<FullName>Sopwith Strutter</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Sopwith Pup" Base="FixedWing.Fighter.Biplane">
+		<Criteria>
+			<Name>Pup</Name>
+			<Name>Sopwith Pup</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Pup</ShortName>
+			<LongName>Sopwith Pup</LongName>
+			<FullName>Sopwith Pup</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Sopwith Triplane" Base="FixedWing.Fighter.Triplane">
+		<Criteria>
+			<Name>Triplane</Name>
+			<Name>Sopwith Triplane</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Sopwith</ShortName>
+			<LongName>Sopwith Triplane</LongName>
+			<FullName>Sopwith Triplane</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -2848,6 +3046,20 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.L-29" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>L-29</Name>
+			<Name>L-29 Delfin</Name>
+			<Name>Aero L-29 Delfín</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>L-29</ShortName>
+			<LongName>L-29 Delfín</LongName>
+			<FullName>Aero L-29 Delfín</FullName>
+			<Shape>FixedWing.L-29.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.Me 410" Base="FixedWing.Bomber.TwinProp">
 		<Criteria>
 			<Name>Me 410</Name>
@@ -2935,6 +3147,18 @@
 			<FullName>Macchi C.202 (Series VIII) Folgore</FullName>
 		</Properties>
 	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.DFW C.V" Base="FixedWing.Fighter.Biplane">
+		<Criteria>
+			<Name>DFW C.V</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>DFW C.V</ShortName>
+			<LongName>DFW C.V</LongName>
+			<FullName>DFW C.V</FullName>
+		</Properties>
+	</DefaultProperties>
+	
 	<DefaultProperties Id="FixedWing.Fw 190" Base="FixedWing.Fighter.Prop">
 		<Criteria>
 			<Name>Fw 190</Name>
@@ -3420,6 +3644,29 @@
 			<ShortName>M2000D</ShortName>
 			<LongName>Mirage 2000D</LongName>
 			<FullName>Dassault Mirage 2000D</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.Nieuport 17" Base="FixedWing.Fighter.Biplane">
+		<Criteria>
+			<Name>Nieuport 17</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Nieuport 17</ShortName>
+			<LongName>Nieuport 17</LongName>
+			<FullName>Nieuport 17</FullName>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.Nieuport 17 C.1" Base="FixedWing.Nieuport 17">
+		<Criteria>
+			<Name>Nieuport 17 C.1</Name>
+			<Name>Nieuport 17.C1</Name>	<!-- IL-2 -->
+		</Criteria>
+		<Properties>
+			<ShortName>Nieuport 17</ShortName>
+			<LongName>Nieuport 17 C.1</LongName>
+			<FullName>Nieuport 17 C.1</FullName>
 		</Properties>
 	</DefaultProperties>
 	
@@ -5010,6 +5257,19 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.Tu-160" Base="FixedWing.Tu-22M">
+		<Criteria>
+			<Name>Tu-160</Name>
+			<Name>Tu-160 Blackjack</Name>
+			<Name>Tupolev Tu-160</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Tu-160</ShortName>
+			<LongName>Tu-160 Blackjack</LongName>
+			<FullName>Tupolev Tu-160 Blackjack</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.Yak-1" Base="FixedWing.Fighter.Prop">
 		<Criteria>
 			<Name>Yak-1</Name>
@@ -5155,8 +5415,35 @@
 	</DefaultProperties>
 
 	<!-- Asian Military Fixed-wing aircraft -->
+
+	<DefaultProperties Id="FixedWing.A6M" Base="FixedWing.Fighter.Prop">
+		<Criteria>
+			<Name>A6M</Name>
+			<Name>A6M2</Name>
+			<Name>A6M2-21</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A6M</ShortName>
+			<LongName>A6M Zero</LongName>
+			<FullName>Mitsubishi A6M Zero</FullName>
+			<Shape>FixedWing.Yak-1.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	
-	<DefaultProperties Id="FixedWing.B5N" Base="Core.FixedWing">
+	<DefaultProperties Id="FixedWing.A6M2-N" Base="FixedWing.Fighter.Prop">
+		<Criteria>
+			<Name>A6M2-N</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A6M2-N</ShortName>
+			<LongName>A6M2-N Rufe</LongName>
+			<FullName>Mitsubishi A6M2-N Rufe</FullName>
+			<Shape>FixedWing.C182.Float.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.B5N" Base="FixedWing.Fighter.Prop">
 		<Criteria>
 			<Name>B5N</Name>
 			<Name>Nakajima B5N</Name>
@@ -5164,22 +5451,74 @@
 		</Criteria>
 		<Properties>
 			<ShortName>B5N</ShortName>
-			<LongName>B5N Kate</LongName>
+			<LongName>Nakajima B5N</LongName>
 			<FullName>Nakajima B5N Kate</FullName>
-			<Shape>FixedWing.Yak-1.obj</Shape>
+			<Shape>FixedWing.Yak-52.obj</Shape>
 		</Properties>
 	</DefaultProperties>
-	
+
 	<DefaultProperties Id="FixedWing.B5N2" Base="FixedWing.B5N">
 		<Criteria>
 			<Name>B5N2</Name>
 			<Name>Nakajima B5N2</Name>
-			<Name>Kate</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>B5N2</ShortName>
-			<LongName>B5N2 Kate</LongName>
+			<LongName>Nakajima B5N2</LongName>
 			<FullName>Nakajima B5N2 Kate</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.D3A" Base="FixedWing.Fighter.Prop">
+		<Criteria>
+			<Name>D3A</Name>
+			<Name>D3A1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>D3A</ShortName>
+			<LongName>Aichi D3A</LongName>
+			<FullName>Aichi D3A Val</FullName>
+			<Shape>FixedWing.Yak-52.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="FixedWing.E13A" Base="FixedWing.Fighter.Prop">
+		<Criteria>
+			<Name>E13A</Name>
+			<Name>E13A1</Name>
+			<Name>E13A1a</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>E13A</ShortName>
+			<LongName>Aichi E13A</LongName>
+			<FullName>Aichi E13A Jake</FullName>
+			<Shape>FixedWing.C182.Float.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.F1M" Base="FixedWing.Fighter.Prop">
+		<Criteria>
+			<Name>F1M</Name>
+			<Name>F1M2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F1M</ShortName>
+			<LongName>Mitsubishi F1M</LongName>
+			<FullName>Mitsubishi F1M Pete</FullName>
+			<Shape>FixedWing.C182.Float.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.G4M" Base="FixedWing.Bomber.TwinProp">
+		<Criteria>
+			<Name>G4M</Name>
+			<Name>G4M1</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>G4M</ShortName>
+			<LongName>Mitsubishi G4M</LongName>
+			<FullName>Mitsubishi G4M Betty</FullName>
+			<Shape>FixedWing.Mosquito.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 	
@@ -5204,6 +5543,18 @@
 			<ShortName>H-6J</ShortName>
 			<LongName>Xian H-6J</LongName>
 			<FullName>Xian H-6J</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.H6K" Base="FixedWing.Bomber.QuadProp">
+		<Criteria>
+			<Name>H6K</Name>
+			<Name>H6K2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>H6K</ShortName>
+			<LongName>Kawanishi H6K</LongName>
+			<FullName>Kawanishi H6K Mavis</FullName>
 		</Properties>
 	</DefaultProperties>
 	
@@ -5410,5 +5761,8 @@
 			<FullName>Vanduul Blade</FullName>
 		</Properties>
 	</DefaultProperties>
+	
+
+
 
 </DefaultPropertiesCollection>

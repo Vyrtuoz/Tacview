@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<DefaultPropertiesCollection LoadingOrder="0.1">
+<DefaultPropertiesCollection Priority="0.1">
 
 	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
 	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
@@ -869,7 +869,7 @@
 	<DefaultProperties Id="AntiAircraft.SAM.SA-13.9K35" Base="AntiAircraft.SAM.Launcher.Russian">
 		<Criteria>
 			<Name>SA-13</Name>
-			<Name>Strela-10M3</Name>		<!-- DCS World 2.2 -->
+			<Name>Strela-10</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>SA-13</ShortName>
@@ -877,6 +877,15 @@
 			<FullName>SA-13 Gopher (9K35 Strela-10)</FullName>
 			<EngagementRange>4200</EngagementRange>
 			<Shape>AntiAircraft.SAM.SA-13.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-13.9K35M3" Base="AntiAircraft.SAM.SA-13.9K35">
+		<Criteria>
+			<Name>Strela-10M3</Name>		<!-- DCS World 2.2 -->
+		</Criteria>
+		<Properties>
+			<FullName>SA-13 Gopher (9K35M3 Strela-10)</FullName>
 		</Properties>
 	</DefaultProperties>
 

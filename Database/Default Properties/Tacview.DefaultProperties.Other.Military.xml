@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<DefaultPropertiesCollection LoadingOrder="0.1">
+<DefaultPropertiesCollection Priority="0.1">
 
 	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
 	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
@@ -362,7 +362,7 @@
 
 	<!-- Military Parachute -->
 
-	<!-- This is an addon from Asta to support DCS World Hercules parachute boxes -->
+	<!-- This is an add-on from Asta to support DCS World Hercules parachute boxes -->
 
 	<DefaultProperties Id="Other.Hercules.Parachutist" Base="Core.Bomb">
 		<Criteria>
