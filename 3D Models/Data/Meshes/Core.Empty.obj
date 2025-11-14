@@ -1,0 +1,4 @@
+# Dummy mesh for bullet trails only
+
+o EmptyObject
+v 0.0 0.0 0.0
