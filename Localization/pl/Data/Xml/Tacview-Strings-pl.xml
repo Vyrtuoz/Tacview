@@ -149,6 +149,8 @@
 	<String ID="OptionsTerrainHelpEECH">Użyj terenu z EECH (Enemy Engaged: Comanche vs Hokum)</String>
 	<String ID="OptionsTerrainTextFalcon4">Falcon 4.0</String>
 	<String ID="OptionsTerrainHelpFalcon4">Użyj terenu z Falcon 4.0</String>
+	<String ID="OptionsTerrainTextBMS">Falcon BMS</String>
+	<String ID="OptionsTerrainHelpBMS">Use terrain from Falcon BMS 4.38+</String>
 	<String ID="OptionsTerrainTextIL2">IL-2 Sturmovik</String>
 	<String ID="OptionsTerrainHelpIL2">Wyświetl teren z IL-2 Sturmovik</String>
 	<String ID="OptionsTerrainTextNuclearOption">Nuclear Option</String>
@@ -760,6 +762,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="CmdMergeHelp">Merge an existing flight recording with all the data currently loaded.</String>
 	<String ID="CmdSaveHelp">Save flight recording in highly compressed format.</String>
 	<String ID="CmdExportFlightLogHelp">Export flight log as a XML or CSV File.</String>
+	<String ID="CmdExportTelemetryHelp">Export telemetry as a CSV File.</String>
 	<String ID="CmdFalcon4TheaterHelp">Set Falcon 4.0 theater to use for VHS files. (Aegean, Balkan, Israel, Korea...)</String>
 	<String ID="CmdFullscreenHelp">Starts Tacview in Fullscreen mode.</String>
 	<String ID="CmdQuietHelp">Tacview will execute all specified operations then exit without displaying any window.</String>
@@ -1114,7 +1117,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="LoadingErrorInvalidFormat">Invalid file format.¤'{1}' is not a flight recording or it is not well formatted.</String>
 	<String ID="LoadingErrorInvalidObject">Invalid file.¤'{1}' seems to have been corrupted.</String>
 	<String ID="LoadingErrorOutOfMemory">Out of memory.¤Try to close some applications then retry.¤(This flight recording may also be too huge.)</String>
-	<String ID="LoadingErrorNotSupported">The file format of '{1}' is not supported.¤Check &lt;a href="http://tacview.net"&gt;the official website&lt;/a&gt; to know if there is a newer version of Tacview or another edition which can read this file.</String>
+	<String ID="LoadingErrorNotSupported">The file format of '{1}' is not supported.¤Check &lt;a href="https://tacview.net"&gt;the official website&lt;/a&gt; to know if there is a newer version of Tacview or another edition which can read this file.</String>
 	<String ID="LoadingErrorMissingParameter">Invalid file format.¤One required parameter is missing.</String>
 	<String ID="LoadingErrorInvalidParameter">Invalid file format.¤Some parameters are invalid.</String>
 	<String ID="LoadingErrorOutOfSpace">Unsupported file format.¤'{1}' may be created with a newer version of Tacview.</String>

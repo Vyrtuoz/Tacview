@@ -150,6 +150,8 @@
 	<String ID="OptionsTerrainHelpEECH">EECH (코만치 vs 호컴) 지형 사용하기</String>
 	<String ID="OptionsTerrainTextFalcon4">팰콘 4.0</String>
 	<String ID="OptionsTerrainHelpFalcon4">팰콘 4.0의 지형 사용하기</String>
+	<String ID="OptionsTerrainTextBMS">Falcon BMS</String>
+	<String ID="OptionsTerrainHelpBMS">Use terrain from Falcon BMS 4.38+</String>
 	<String ID="OptionsTerrainTextIL2">IL-2 Sturmovik</String>
 	<String ID="OptionsTerrainHelpIL2">Displays terrain from IL-2 Sturmovik</String>
 	<String ID="OptionsTerrainTextNuclearOption">Nuclear Option</String>
@@ -777,6 +779,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="CmdMergeHelp">현재 열려진 데이터에 기존 비행기록을 병합시킵니다.</String>
 	<String ID="CmdSaveHelp">고효율 압축 포맷으로 비행기록을 저장함</String>
 	<String ID="CmdExportFlightLogHelp">비행로그를 XML이나 CSV 파일로 익스포트 합니다.</String>
+	<String ID="CmdExportTelemetryHelp">Export telemetry as a CSV File.</String>
 	<String ID="CmdFalcon4TheaterHelp">VHS 파일용 팰콘 4.0 전장 셋 (에게해, 발칸, 이스라엘, 코리아...)</String>
 	<String ID="CmdFullscreenHelp">Starts Tacview in Fullscreen mode.</String>
 	<String ID="CmdQuietHelp">택뷰가 지정된 작업을 모두 수행 한 후 다른 윈도우를 표시하지 않은 채 종료됩니다.</String>
@@ -1191,7 +1194,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="LoadingErrorInvalidFormat">올바르지 않은 파일 포맷입니다.¤'{1}'(은)는 포맷이 잘못되었거나 비행기록 파일이 아닙니다.</String>
 	<String ID="LoadingErrorInvalidObject">올바르지 않은 파일입니다.¤'{1}'(은)는 파일에 문제가 있는 듯 합니다.</String>
 	<String ID="LoadingErrorOutOfMemory">메모리가 부족합니다.¤다른 응용프로그램을 종료 후 다시 시도 해 주시기 바랍니다.¤(혹은 비행기록 파일이 너무 클 수도 있습니다.)</String>
-	<String ID="LoadingErrorNotSupported">파일포맷 '{1}' (은)는 지원되지 않습니다.¤공식 웹사이트인 &lt;a href="http://tacview.net"&gt;를 방문하셔서 &lt;/a&gt; 새 버전이나 이 파일을 지원할 수 있는 다른 에디션이 있는지 확인 해 보시기 바랍니다.</String>
+	<String ID="LoadingErrorNotSupported">파일포맷 '{1}' (은)는 지원되지 않습니다.¤공식 웹사이트인 &lt;a href="https://tacview.net"&gt;를 방문하셔서 &lt;/a&gt; 새 버전이나 이 파일을 지원할 수 있는 다른 에디션이 있는지 확인 해 보시기 바랍니다.</String>
 	<String ID="LoadingErrorMissingParameter">파일 포맷이 올바르지 않습니다.¤파라미터 중 하나가 없습니다.</String>
 	<String ID="LoadingErrorInvalidParameter">파일 포맷이 올바르지 않습니다.¤몇 개의 파라미터가 올바른 값이 아닙니다.</String>
 	<String ID="LoadingErrorOutOfSpace">지원되지 않는 파일 포맷입니다.¤'{1}'(은)는 새 버전의 택뷰에서 제작되었을 수 있습니다.</String>

@@ -150,6 +150,8 @@
 	<String ID="OptionsTerrainHelpEECH">Benutze Gelände von EECH (Enemy Engaged: Comanche vs Hokum)</String>
 	<String ID="OptionsTerrainTextFalcon4">Falcon 4.0</String>
 	<String ID="OptionsTerrainHelpFalcon4">Benutze Gelände von Falcon 4.0</String>
+	<String ID="OptionsTerrainTextBMS">Falcon BMS</String>
+	<String ID="OptionsTerrainHelpBMS">Use terrain from Falcon BMS 4.38+</String>
 	<String ID="OptionsTerrainTextIL2">IL-2 Sturmovik</String>
 	<String ID="OptionsTerrainHelpIL2">Zeigt das Gelände von IL-2 Sturmovik an</String>
 	<String ID="OptionsTerrainTextNuclearOption">Nuclear Option</String>
@@ -761,6 +763,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="CmdMergeHelp">Füge eine existierende Flugaufnahme mit allen Daten aktuell geladenen Daten zusammen</String>
 	<String ID="CmdSaveHelp">Speichere Flugaufnahme in ein hochkomprimiertes Format.</String>
 	<String ID="CmdExportFlightLogHelp">Exportiere das Fluglog als eine XML oder CSV Datei.</String>
+	<String ID="CmdExportTelemetryHelp">Export telemetry as a CSV File.</String>
 	<String ID="CmdFalcon4TheaterHelp">Wähle Falcon 4.0 Schauplatz für VHS Dateien. (Aegean, Balkan, Israel, Korea...)</String>
 	<String ID="CmdFullscreenHelp">Starts Tacview in Fullscreen mode.</String>
 	<String ID="CmdQuietHelp">Tacview wird alle genannten Operationen ausführen und dann ohne ein Fenster anzuzeigen sich schließen.</String>
@@ -1116,7 +1119,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="LoadingErrorInvalidFormat">Ungültiges Dateiformat.¤'{1}' ist keine Flugaufzeichnung oder nicht richtig Formatiert.</String>
 	<String ID="LoadingErrorInvalidObject">Ungültige Datei.¤'{1}' scheint beschädigt zu sein.</String>
 	<String ID="LoadingErrorOutOfMemory">Nicht genügend Arbeitsspeicher.¤Versuchen Sie einige Anwendungen zu schließen und versuchen Sie es erneut.¤(Diese Flugaufzeichnung könnte auch zu groß sein.)</String>
-	<String ID="LoadingErrorNotSupported">Das Dateiformat von '{1}' wird nicht unterstützt.¤Überprüfen Sie auch &lt;a href="http://tacview.net"&gt;the official website&lt;/a&gt; um zu erfahren, ob es eine neuere Version von Tacview oder eine andere Edition, welche dieses Datei lesen kann, vorhanden ist.</String>
+	<String ID="LoadingErrorNotSupported">Das Dateiformat von '{1}' wird nicht unterstützt.¤Überprüfen Sie auch &lt;a href="https://tacview.net"&gt;the official website&lt;/a&gt; um zu erfahren, ob es eine neuere Version von Tacview oder eine andere Edition, welche dieses Datei lesen kann, vorhanden ist.</String>
 	<String ID="LoadingErrorMissingParameter">Ungültiges Dateiformat.¤Ein erforderlicher Parameter fehlt.</String>
 	<String ID="LoadingErrorInvalidParameter">Ungültiges Dateiformat.¤Einige Parameter sind ungültig.</String>
 	<String ID="LoadingErrorOutOfSpace">Nicht unterstütztes Dateiformat.¤'{1}' könnte mit einer neueren Version von Tacview erstellt worden sein.</String>

@@ -150,6 +150,8 @@
 	<String ID="OptionsTerrainHelpEECH">Enemy Engaged: Comanche vs Hokum הצג תוואי שטח של</String>
 	<String ID="OptionsTerrainTextFalcon4">Falcon 4.0</String>
 	<String ID="OptionsTerrainHelpFalcon4">Falcon 4.0 הצג תוואי שטח של</String>
+	<String ID="OptionsTerrainTextBMS">Falcon BMS</String>
+	<String ID="OptionsTerrainHelpBMS">Use terrain from Falcon BMS 4.38+</String>
 	<String ID="OptionsTerrainTextIL2">IL-2 Sturmovik</String>
 	<String ID="OptionsTerrainHelpIL2">Displays terrain from IL-2 Sturmovik</String>
 	<String ID="OptionsTerrainTextNuclearOption">Nuclear Option</String>
@@ -761,6 +763,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="CmdMergeHelp">מזג קובץ הקלטה קיים עם הנתונים שנטענו</String>
 	<String ID="CmdSaveHelp">שמור קובץ טיסה שפורמט בגודל מוקטן</String>
 	<String ID="CmdExportFlightLogHelp">CSV או XML ייצא יומן טיסה לקובץ בפורמט</String>
+	<String ID="CmdExportTelemetryHelp">Export telemetry as a CSV File.</String>
 	<String ID="CmdFalcon4TheaterHelp">(Aegean, Balkan, Israel, Korea...) VHS לשימוש בקבצי Falcon 4.0 הגדר זירת</String>
 	<String ID="CmdFullscreenHelp">Starts Tacview in Fullscreen mode.</String>
 	<String ID="CmdQuietHelp">ביצוע הפעולות הנדרשות ללא הצגת פלט כלשהו</String>

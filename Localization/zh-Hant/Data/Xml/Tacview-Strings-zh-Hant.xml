@@ -150,6 +150,8 @@
 	<String ID="OptionsTerrainHelpEECH">使用EECH(Enemy Engaged: Comanche vs Hokum)地形</String>
 	<String ID="OptionsTerrainTextFalcon4">Falcon 4.0</String>
 	<String ID="OptionsTerrainHelpFalcon4">使用Falcon 4.0地形</String>
+	<String ID="OptionsTerrainTextBMS">Falcon BMS</String>
+	<String ID="OptionsTerrainHelpBMS">Use terrain from Falcon BMS 4.38+</String>
 	<String ID="OptionsTerrainTextIL2">IL-2 Sturmovik</String>
 	<String ID="OptionsTerrainHelpIL2">顯示IL-2 Sturmovik地形</String>
 	<String ID="OptionsTerrainTextNuclearOption">Nuclear Option</String>
@@ -782,6 +784,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="CmdMergeHelp">合併現存飛行記錄與當前所有載入資料。</String>
 	<String ID="CmdSaveHelp">保存飛行記錄為高壓縮格式。</String>
 	<String ID="CmdExportFlightLogHelp">匯出飛行日誌為XML或CSV檔。</String>
+	<String ID="CmdExportTelemetryHelp">Export telemetry as a CSV File.</String>
 	<String ID="CmdFalcon4TheaterHelp">設置Falcon 4.0戰區使用VHS檔。(Aegean, Balkan, Israel, Korea...)</String>
 	<String ID="CmdFullscreenHelp">Starts Tacview in Fullscreen mode.</String>
 	<String ID="CmdQuietHelp">Tacview將執行所有指定操作然後不顯示任何視窗退出。</String>
@@ -1193,7 +1196,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="LoadingErrorInvalidFormat">無效檔案格式。¤'{1}'不是飛行記錄或者格式不正確。</String>
 	<String ID="LoadingErrorInvalidObject">無效檔。¤'{1}'貌似已損壞。</String>
 	<String ID="LoadingErrorOutOfMemory">記憶體耗盡。¤請關閉一些應用程式然後重試。¤（此飛行記錄可能過大。）</String>
-	<String ID="LoadingErrorNotSupported">不支持'{1}'的檔案格式。¤檢查&lt;a href="http://tacview.net"&gt;官方網站&lt;/a&gt;以確認是否有更新版本的Tacview，或者其他可讀取此檔的版本。</String>
+	<String ID="LoadingErrorNotSupported">不支持'{1}'的檔案格式。¤檢查&lt;a href="https://tacview.net"&gt;官方網站&lt;/a&gt;以確認是否有更新版本的Tacview，或者其他可讀取此檔的版本。</String>
 	<String ID="LoadingErrorMissingParameter">無效檔案格式。¤丟失一個必須的參量。</String>
 	<String ID="LoadingErrorInvalidParameter">無效檔案格式。¤一些參量無效。</String>
 	<String ID="LoadingErrorOutOfSpace">不支持的檔案格式。¤'{1}'可能有更新版本的Tacview創建。</String>
