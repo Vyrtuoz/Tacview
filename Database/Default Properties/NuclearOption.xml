@@ -1,0 +1,1289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DefaultPropertiesCollection Priority="1.0">
+  <DefaultProperties Id="Shell_76mm_guided" Base="Core.Shell">
+    <Criteria>
+      <Name>Shell_76mm_guided</Name>
+      <Name>Shell_76mm_guided</Name>
+      <Name>76mm Guided Shell</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>SHL</ShortName>
+      <LongName>76mm Guided Shell</LongName>
+      <FullName>76mm Guided Shell</FullName>
+      <Shape>Shell_76mm_guided.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="AAM2" Base="Core.Missile">
+    <Criteria>
+      <Name>AAM2</Name>
+      <Name>AAM2</Name>
+      <Name>AAM-29 Scythe</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MSL</ShortName>
+      <LongName>AAM-29 Scythe</LongName>
+      <FullName>AAM-29 Scythe</FullName>
+      <Shape>AAM2.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="AAM4" Base="Core.Missile">
+    <Criteria>
+      <Name>AAM4</Name>
+      <Name>AAM4</Name>
+      <Name>AAM-36 Scimitar</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MSL</ShortName>
+      <LongName>AAM-36 Scimitar</LongName>
+      <FullName>AAM-36 Scimitar</FullName>
+      <Shape>AAM4.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="SPAAG1" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>SPAAG1</Name>
+      <Name>SPAAG1</Name>
+      <Name>AeroSentry SPAAG</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>SPAAG</ShortName>
+      <LongName>AeroSentry SPAAG</LongName>
+      <FullName>AeroSentry SPAAG</FullName>
+      <Shape>SPAAG1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="6x6_1_AA" Base="Vehicle.Military.APC">
+    <Criteria>
+      <Name>6x6_1_AA</Name>
+      <Name>6x6_1_AA</Name>
+      <Name>AFV6 AA</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>AA</ShortName>
+      <LongName>AFV6 AA</LongName>
+      <FullName>AFV6 AA</FullName>
+      <Shape>6x6_1_AA.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="6x6_1_APC" Base="Vehicle.Military.APC">
+    <Criteria>
+      <Name>6x6_1_APC</Name>
+      <Name>6x6_1_APC</Name>
+      <Name>AFV6 APC</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>APC</ShortName>
+      <LongName>AFV6 APC</LongName>
+      <FullName>AFV6 APC</FullName>
+      <Shape>6x6_1_APC.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="6x6_1_AT" Base="Vehicle.Military.APC">
+    <Criteria>
+      <Name>6x6_1_AT</Name>
+      <Name>6x6_1_AT</Name>
+      <Name>AFV6 AT</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>AT</ShortName>
+      <LongName>AFV6 AT</LongName>
+      <FullName>AFV6 AT</FullName>
+      <Shape>6x6_1_AT.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="6x6_1_IFV" Base="Vehicle.Military.APC">
+    <Criteria>
+      <Name>6x6_1_IFV</Name>
+      <Name>6x6_1_IFV</Name>
+      <Name>AFV6 IFV</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>IFV</ShortName>
+      <LongName>AFV6 IFV</LongName>
+      <FullName>AFV6 IFV</FullName>
+      <Shape>6x6_1_IFV.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="AFV8_APC" Base="Vehicle.Military.APC">
+    <Criteria>
+      <Name>AFV8_APC</Name>
+      <Name>AFV8_APC</Name>
+      <Name>AFV8 APC</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>APC</ShortName>
+      <LongName>AFV8 APC</LongName>
+      <FullName>AFV8 APC</FullName>
+      <Shape>AFV8_APC.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="AFV8_IFV" Base="Vehicle.Military.APC">
+    <Criteria>
+      <Name>AFV8_IFV</Name>
+      <Name>AFV8_IVF</Name>
+      <Name>AFV8 IFV</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>IFV</ShortName>
+      <LongName>AFV8 IFV</LongName>
+      <FullName>AFV8 IFV</FullName>
+      <Shape>AFV8_IFV.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="AFV8_SAM" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>AFV8_SAM</Name>
+      <Name>AFV8_SAM</Name>
+      <Name>AFV8 Mobile Air Defense</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>SAM IR</ShortName>
+      <LongName>AFV8 Mobile Air Defense</LongName>
+      <FullName>AFV8 Mobile Air Defense</FullName>
+      <Shape>AFV8_SAM.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="AGM1" Base="Core.Missile">
+    <Criteria>
+      <Name>AGM1</Name>
+      <Name>AGM1</Name>
+      <Name>AGM-48</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MSL</ShortName>
+      <LongName>AGM-48</LongName>
+      <FullName>AGM-48</FullName>
+      <Shape>AGM1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="AGM_heavy" Base="Core.Missile">
+    <Criteria>
+      <Name>AGM_heavy</Name>
+      <Name>AGM_heavy</Name>
+      <Name>AGM-68</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MSL</ShortName>
+      <LongName>AGM-68</LongName>
+      <FullName>AGM-68</FullName>
+      <Shape>AGM_heavy.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="AShM2" Base="Core.Missile">
+    <Criteria>
+      <Name>AShM2</Name>
+      <Name>AShM2</Name>
+      <Name>AGM-99</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MSL</ShortName>
+      <LongName>AGM-99</LongName>
+      <FullName>AGM-99</FullName>
+      <Shape>AShM2.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Rocket1" Base="Core.Missile">
+    <Criteria>
+      <Name>Rocket1</Name>
+      <Name>Rocket1</Name>
+      <Name>AGR-18 Lynchpin</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MSL</ShortName>
+      <LongName>AGR-18 Lynchpin</LongName>
+      <FullName>AGR-18 Lynchpin</FullName>
+      <Shape>Rocket1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Rocket2" Base="Core.Missile">
+    <Criteria>
+      <Name>Rocket2</Name>
+      <Name>Rocket2</Name>
+      <Name>AGR-24 Kingpin</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MSL</ShortName>
+      <LongName>AGR-24 Kingpin</LongName>
+      <FullName>AGR-24 Kingpin</FullName>
+      <Shape>Rocket2.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="AIR-2_Genie" Base="Core.Missile">
+    <Criteria>
+      <Name>AIR-2_Genie</Name>
+      <Name>AIR-2_Genie</Name>
+      <Name>AIR-2 Genie</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MSL</ShortName>
+      <LongName>AIR-2 Genie</LongName>
+      <FullName>AIR-2 Genie</FullName>
+      <Shape>AIR-2_Genie.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="revetment1" Base="Core.Default">
+    <Criteria>
+      <Name>revetment1</Name>
+      <Name>revetment1</Name>
+      <Name>Aircraft Revetment</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>REV</ShortName>
+      <LongName>Aircraft Revetment</LongName>
+      <FullName>Aircraft Revetment</FullName>
+      <Shape>revetment1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="CruiseMissile1" Base="Core.Missile">
+    <Criteria>
+      <Name>CruiseMissile1</Name>
+      <Name>CruiseMissile1</Name>
+      <Name>ALM-C450</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MSL</ShortName>
+      <LongName>ALM-C450</LongName>
+      <FullName>ALM-C450</FullName>
+      <Shape>CruiseMissile1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="CruiseMissile20kt" Base="Core.Missile">
+    <Criteria>
+      <Name>CruiseMissile20kt</Name>
+      <Name>CruiseMissile20kt</Name>
+      <Name>ALND-4 (20kt)</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MSL</ShortName>
+      <LongName>ALND-4 (20kt)</LongName>
+      <FullName>ALND-4 (20kt)</FullName>
+      <Shape>CruiseMissile20kt.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="AssaultCarrier1" Base="Watercraft.Military">
+    <Criteria>
+      <Name>AssaultCarrier1</Name>
+      <Name>AssaultCarrier1</Name>
+      <Name>Annex Class Carrier</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>SHP</ShortName>
+      <LongName>Annex Class Carrier</LongName>
+      <FullName>Annex Class Carrier</FullName>
+      <Shape>AssaultCarrier1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="ARM1" Base="Core.Missile">
+    <Criteria>
+      <Name>ARM1</Name>
+      <Name>ARM1</Name>
+      <Name>ARAD-116</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MSL</ShortName>
+      <LongName>ARAD-116</LongName>
+      <FullName>ARAD-116</FullName>
+      <Shape>ARM1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="AShM1" Base="Core.Missile">
+    <Criteria>
+      <Name>AShM1</Name>
+      <Name>AShM1</Name>
+      <Name>AShM-300</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MSL</ShortName>
+      <LongName>AShM-300</LongName>
+      <FullName>AShM-300</FullName>
+      <Shape>AShM1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="AGM2" Base="Core.Missile">
+    <Criteria>
+      <Name>AGM2</Name>
+      <Name>AGM2</Name>
+      <Name>ATP-1</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MSL</ShortName>
+      <LongName>ATP-1</LongName>
+      <FullName>ATP-1</FullName>
+      <Shape>AGM2.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="COIN" Base="FixedWing.Fighter.TwinProp">
+    <Criteria>
+      <Name>COIN</Name>
+      <Name>CI-22</Name>
+      <Name>CI-22 Cricket</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>CI-22</ShortName>
+      <LongName>CI-22 Cricket</LongName>
+      <FullName>CI-22 Cricket</FullName>
+      <Shape>COIN.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="controlTower1" Base="Core.Default">
+    <Criteria>
+      <Name>controlTower1</Name>
+      <Name>ControlTower1</Name>
+      <Name>Control Tower</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>TWR</ShortName>
+      <LongName>Control Tower</LongName>
+      <FullName>Control Tower</FullName>
+      <Shape>controlTower1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="bomb_demolition" Base="Bomb.Glider">
+    <Criteria>
+      <Name>bomb_demolition</Name>
+      <Name>Bomb_demolition</Name>
+      <Name>Demolition Bomb</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>BOMB</ShortName>
+      <LongName>Demolition Bomb</LongName>
+      <FullName>Demolition Bomb</FullName>
+      <Shape>bomb_demolition.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Destroyer1" Base="Watercraft.Military">
+    <Criteria>
+      <Name>Destroyer1</Name>
+      <Name>Destroyer1</Name>
+      <Name>Dynamo Class Destroyer</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>SHP</ShortName>
+      <LongName>Dynamo Class Destroyer</LongName>
+      <FullName>Dynamo Class Destroyer</FullName>
+      <Shape>Destroyer1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="enrichmentPlant1" Base="Core.Default">
+    <Criteria>
+      <Name>enrichmentPlant1</Name>
+      <Name>EnrichmentPlant1</Name>
+      <Name>Enrichment Plant</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>BLD</ShortName>
+      <LongName>Enrichment Plant</LongName>
+      <FullName>Enrichment Plant</FullName>
+      <Shape>enrichmentPlant1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="EW1" Base="FixedWing.Fighter.Jet">
+    <Criteria>
+      <Name>EW1</Name>
+      <Name>EW1</Name>
+      <Name>EW-25 Medusa</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>EW-25</ShortName>
+      <LongName>EW-25 Medusa</LongName>
+      <FullName>EW-25 Medusa</FullName>
+      <Shape>EW1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="SPAAG2" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>SPAAG2</Name>
+      <Name>SPAAG2</Name>
+      <Name>FGA-57 Anvil</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>SPAAG</ShortName>
+      <LongName>FGA-57 Anvil</LongName>
+      <FullName>FGA-57 Anvil</FullName>
+      <Shape>SPAAG2.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Platform_flat" Base="Core.Default">
+    <Criteria>
+      <Name>Platform_flat</Name>
+      <Name>PlatformFlat</Name>
+      <Name>Flat Platform</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>BLD</ShortName>
+      <LongName>Flat Platform</LongName>
+      <FullName>Flat Platform</FullName>
+      <Shape>Platform_flat.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Fighter1" Base="FixedWing.Fighter.Jet">
+    <Criteria>
+      <Name>Fighter1</Name>
+      <Name>FS-12</Name>
+      <Name>FS-12 Revoker</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>FS-12</ShortName>
+      <LongName>FS-12 Revoker</LongName>
+      <FullName>FS-12 Revoker</FullName>
+      <Shape>Fighter1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="SmallFighter1" Base="FixedWing.Fighter.Jet">
+    <Criteria>
+      <Name>SmallFighter1</Name>
+      <Name>SmallFighter1</Name>
+      <Name>FS-20 Vortex</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>FS-20</ShortName>
+      <LongName>FS-20 Vortex</LongName>
+      <FullName>FS-20 Vortex</FullName>
+      <Shape>SmallFighter1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="bomb_penetrator1" Base="Bomb.Glider">
+    <Criteria>
+      <Name>bomb_penetrator1</Name>
+      <Name>Bomb_penetrator1</Name>
+      <Name>GPO-2P Auger</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>BOMB</ShortName>
+      <LongName>GPO-2P Auger</LongName>
+      <FullName>GPO-2P Auger</FullName>
+      <Shape>bomb_penetrator1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="bomb500" Base="Bomb.Glider">
+    <Criteria>
+      <Name>bomb500</Name>
+      <Name>Bomb500</Name>
+      <Name>GPO-500</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>BOMB</ShortName>
+      <LongName>GPO-500</LongName>
+      <FullName>GPO-500</FullName>
+      <Shape>bomb500.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="nuclearBomb1" Base="Bomb.Glider">
+    <Criteria>
+      <Name>nuclearBomb1</Name>
+      <Name>NuclearBomb1</Name>
+      <Name>GPO-N (1.5kt)</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>BOMB</ShortName>
+      <LongName>GPO-N (1.5kt)</LongName>
+      <FullName>GPO-N (1.5kt)</FullName>
+      <Shape>nuclearBomb1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="nuclearBomb1_strategic" Base="Bomb.Glider">
+    <Criteria>
+      <Name>nuclearBomb1_strategic</Name>
+      <Name>NuclearBomb1_strategic</Name>
+      <Name>GPO-N (250kt)</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>BOMB</ShortName>
+      <LongName>GPO-N (250kt)</LongName>
+      <FullName>GPO-N (250kt)</FullName>
+      <Shape>nuclearBomb1_strategic.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Missile_G2G" Base="Core.Missile">
+    <Criteria>
+      <Name>Missile_G2G</Name>
+      <Name>GTG1</Name>
+      <Name>Ground-to-ground missile</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MSL</ShortName>
+      <LongName>Ground-to-ground missile</LongName>
+      <FullName>Ground-to-ground missile</FullName>
+      <Shape>Missile_G2G.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="shelter1" Base="Core.Default">
+    <Criteria>
+      <Name>shelter1</Name>
+      <Name>shelter1</Name>
+      <Name>Hardened Aircraft Shelter</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>HGR-H</ShortName>
+      <LongName>Hardened Aircraft Shelter</LongName>
+      <FullName>Hardened Aircraft Shelter</FullName>
+      <Shape>shelter1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Helipad" Base="Core.Default">
+    <Criteria>
+      <Name>Helipad</Name>
+      <Name>helipad1</Name>
+      <Name>Helipad</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>HPAD</ShortName>
+      <LongName>Helipad</LongName>
+      <FullName>Helipad</FullName>
+      <Shape>Helipad.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="HLT-L" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>HLT-L</Name>
+      <Name>HLT-L</Name>
+      <Name>HLT Flatbed</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>HLT</ShortName>
+      <LongName>HLT Flatbed</LongName>
+      <FullName>HLT Flatbed</FullName>
+      <Shape>HLT-L.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="HLT-FT" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>HLT-FT</Name>
+      <Name>HLT-FT</Name>
+      <Name>HLT Fuel Tanker</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>HLT</ShortName>
+      <LongName>HLT Fuel Tanker</LongName>
+      <FullName>HLT Fuel Tanker</FullName>
+      <Shape>HLT-FT.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="HLT-M" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>HLT-M</Name>
+      <Name>HLT-M</Name>
+      <Name>HLT Munitions Truck</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>HLT</ShortName>
+      <LongName>HLT Munitions Truck</LongName>
+      <FullName>HLT Munitions Truck</FullName>
+      <Shape>HLT-M.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="HLT-R" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>HLT-R</Name>
+      <Name>HLT-R</Name>
+      <Name>HLT Radar Truck</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>RDR</ShortName>
+      <LongName>HLT Radar Truck</LongName>
+      <FullName>HLT Radar Truck</FullName>
+      <Shape>HLT-R.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="HLT-T" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>HLT-T</Name>
+      <Name>HLT-T</Name>
+      <Name>HLT Tractor</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>HLT</ShortName>
+      <LongName>HLT Tractor</LongName>
+      <FullName>HLT Tractor</FullName>
+      <Shape>HLT-T.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="FleetCarrier1" Base="Watercraft.Military">
+    <Criteria>
+      <Name>FleetCarrier1</Name>
+      <Name>FleetCarrier1</Name>
+      <Name>Hyperion Class Carrier</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>SHP</ShortName>
+      <LongName>Hyperion Class Carrier</LongName>
+      <FullName>Hyperion Class Carrier</FullName>
+      <Shape>FleetCarrier1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="SAM_IR1" Base="Core.Missile">
+    <Criteria>
+      <Name>SAM_IR1</Name>
+      <Name>SAM_IR1</Name>
+      <Name>IRM-S1</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MSL</ShortName>
+      <LongName>IRM-S1</LongName>
+      <FullName>IRM-S1</FullName>
+      <Shape>SAM_IR1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="AAM3" Base="Core.Missile">
+    <Criteria>
+      <Name>AAM3</Name>
+      <Name>AAM3</Name>
+      <Name>IRM-S2</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MSL</ShortName>
+      <LongName>IRM-S2</LongName>
+      <FullName>IRM-S2</FullName>
+      <Shape>AAM3.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Multirole1" Base="FixedWing.Fighter.Jet">
+    <Criteria>
+      <Name>Multirole1</Name>
+      <Name>Multirole1</Name>
+      <Name>KR-67 Ifrit</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>KR-67</ShortName>
+      <LongName>KR-67 Ifrit</LongName>
+      <FullName>KR-67 Ifrit</FullName>
+      <Shape>Multirole1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="factory_large" Base="Core.Default">
+    <Criteria>
+      <Name>factory_large</Name>
+      <Name>FactoryLarge</Name>
+      <Name>Large Factory</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>FAC</ShortName>
+      <LongName>Large Factory</LongName>
+      <FullName>Large Factory</FullName>
+      <Shape>factory_large.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Platform_large" Base="Core.Default">
+    <Criteria>
+      <Name>Platform_large</Name>
+      <Name>PlatformLarge</Name>
+      <Name>Large Platform</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>BLD</ShortName>
+      <LongName>Large Platform</LongName>
+      <FullName>Large Platform</FullName>
+      <Shape>Platform_large.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="LightTruck1_AA" Base="Vehicle.Military.APC">
+    <Criteria>
+      <Name>LightTruck1_AA</Name>
+      <Name>LightTruck1_AA</Name>
+      <Name>LCV25 AA</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>LCV25</ShortName>
+      <LongName>LCV25 AA</LongName>
+      <FullName>LCV25 AA</FullName>
+      <Shape>LightTruck1_AA.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="LightTruck1_AT" Base="Vehicle.Military.APC">
+    <Criteria>
+      <Name>LightTruck1_AT</Name>
+      <Name>LightTruck1_AT</Name>
+      <Name>LCV25 AT</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>LCV25</ShortName>
+      <LongName>LCV25 AT</LongName>
+      <FullName>LCV25 AT</FullName>
+      <Shape>LightTruck1_AT.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="LCV45" Base="Vehicle.Military.APC">
+    <Criteria>
+      <Name>LCV45</Name>
+      <Name>LCV45</Name>
+      <Name>LCV45 Recon Truck</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>LCV45</ShortName>
+      <LongName>LCV45 Recon Truck</LongName>
+      <FullName>LCV45 Recon Truck</FullName>
+      <Shape>LCV45.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Linebreaker_APC" Base="Vehicle.Military.APC">
+    <Criteria>
+      <Name>Linebreaker_APC</Name>
+      <Name>LinebreakerAPC</Name>
+      <Name>Linebreaker APC</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>APC</ShortName>
+      <LongName>Linebreaker APC</LongName>
+      <FullName>Linebreaker APC</FullName>
+      <Shape>Linebreaker_APC.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Linebreaker_IFV" Base="Vehicle.Military.APC">
+    <Criteria>
+      <Name>Linebreaker_IFV</Name>
+      <Name>LinebreakerIFV</Name>
+      <Name>Linebreaker IFV</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>IFV</ShortName>
+      <LongName>Linebreaker IFV</LongName>
+      <FullName>Linebreaker IFV</FullName>
+      <Shape>Linebreaker_IFV.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Linebreaker_SAM" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>Linebreaker_SAM</Name>
+      <Name>LinebreakerSAM</Name>
+      <Name>Linebreaker SAM</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>SAM IR</ShortName>
+      <LongName>Linebreaker SAM</LongName>
+      <FullName>Linebreaker SAM</FullName>
+      <Shape>Linebreaker_SAM.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="hangar_med" Base="Core.Default">
+    <Criteria>
+      <Name>hangar_med</Name>
+      <Name>hangar_med</Name>
+      <Name>Medium Aircraft Hangar</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>HGR-M</ShortName>
+      <LongName>Medium Aircraft Hangar</LongName>
+      <FullName>Medium Aircraft Hangar</FullName>
+      <Shape>hangar_med.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="AAM1" Base="Core.Missile">
+    <Criteria>
+      <Name>AAM1</Name>
+      <Name>AAM1</Name>
+      <Name>MMR-S3</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MSL</ShortName>
+      <LongName>MMR-S3</LongName>
+      <FullName>MMR-S3</FullName>
+      <Shape>AAM1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="MunitionsContainer1" Base="Core.Default">
+    <Criteria>
+      <Name>MunitionsContainer1</Name>
+      <Name>MunitionsContainer1</Name>
+      <Name>Munitions Container</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>CTNR</ShortName>
+      <LongName>Munitions Container</LongName>
+      <FullName>Munitions Container</FullName>
+      <Shape>MunitionsContainer1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="NavalSupplyContainer1" Base="Core.Default">
+    <Criteria>
+      <Name>NavalSupplyContainer1</Name>
+      <Name>NavalSupplyContainer1</Name>
+      <Name>Naval Container</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>CTNR</ShortName>
+      <LongName>Naval Container</LongName>
+      <FullName>Naval Container</FullName>
+      <Shape>NavalSupplyContainer1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="LandingCraft1" Base="Watercraft.Military">
+    <Criteria>
+      <Name>LandingCraft1</Name>
+      <Name>LandingCraft1</Name>
+      <Name>OTB-31 landing craft</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>LCAC</ShortName>
+      <LongName>OTB-31 landing craft</LongName>
+      <FullName>OTB-31 landing craft</FullName>
+      <Shape>LandingCraft1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="bomb_125_1" Base="Bomb.Glider">
+    <Criteria>
+      <Name>bomb_125_1</Name>
+      <Name>Bomb_125_1</Name>
+      <Name>PAB-125</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>BOMB</ShortName>
+      <LongName>PAB-125</LongName>
+      <FullName>PAB-125</FullName>
+      <Shape>bomb_125_1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="bomb_250_1" Base="Bomb.Glider">
+    <Criteria>
+      <Name>bomb_250_1</Name>
+      <Name>Bomb_250_1</Name>
+      <Name>PAB-250</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>BOMB</ShortName>
+      <LongName>PAB-250</LongName>
+      <FullName>PAB-250</FullName>
+      <Shape>bomb_250_1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="bomb_glide1" Base="Bomb.Glider">
+    <Criteria>
+      <Name>bomb_glide1</Name>
+      <Name>Bomb_glide1</Name>
+      <Name>PAB-80LR</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>BOMB</ShortName>
+      <LongName>PAB-80LR</LongName>
+      <FullName>PAB-80LR</FullName>
+      <Shape>bomb_glide1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="ballisticMissile1_tacNuke" Base="Core.Missile">
+    <Criteria>
+      <Name>ballisticMissile1_tacNuke</Name>
+      <Name>ballisticMissile1_tacNuke</Name>
+      <Name>Piledriver TBM (20kt)</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MSL</ShortName>
+      <LongName>Piledriver TBM (20kt)</LongName>
+      <FullName>Piledriver TBM (20kt)</FullName>
+      <Shape>ballisticMissile1_tacNuke.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="ballisticMissile1" Base="Core.Missile">
+    <Criteria>
+      <Name>ballisticMissile1</Name>
+      <Name>ballisticMissile1</Name>
+      <Name>Piledriver TBM (HE)</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MSL</ShortName>
+      <LongName>Piledriver TBM (HE)</LongName>
+      <FullName>Piledriver TBM (HE)</FullName>
+      <Shape>ballisticMissile1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="pillbox" Base="Core.Default">
+    <Criteria>
+      <Name>pillbox</Name>
+      <Name>Pillbox</Name>
+      <Name>Pillbox</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>BNKR</ShortName>
+      <LongName>Pillbox</LongName>
+      <FullName>Pillbox</FullName>
+      <Shape>pillbox.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="pilotDismounted" Base="Core.Default">
+    <Criteria>
+      <Name>pilotDismounted</Name>
+      <Name>PilotDismounted</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>PILOT</ShortName>
+      <LongName>Pilot</LongName>
+      <FullName>Pilot</FullName>
+      <Shape>pilotDismounted.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="radarStation1" Base="Core.Default">
+    <Criteria>
+      <Name>radarStation1</Name>
+      <Name>RadarStation1</Name>
+      <Name>Radar Station</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>RDR</ShortName>
+      <LongName>Radar Station</LongName>
+      <FullName>Radar Station</FullName>
+      <Shape>radarStation1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="SAM_Radar1" Base="Core.Missile">
+    <Criteria>
+      <Name>SAM_Radar1</Name>
+      <Name>SAM_Radar1</Name>
+      <Name>RAM-45</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MSL</ShortName>
+      <LongName>RAM-45</LongName>
+      <FullName>RAM-45</FullName>
+      <Shape>SAM_Radar1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="refinery_main" Base="Core.Default">
+    <Criteria>
+      <Name>refinery_main</Name>
+      <Name>Refinery</Name>
+      <Name>Refinery Structure</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>BLD</ShortName>
+      <LongName>Refinery Structure</LongName>
+      <FullName>Refinery Structure</FullName>
+      <Shape>refinery_main.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="AttackHelo1" Base="Rotorcraft.Attack">
+    <Criteria>
+      <Name>AttackHelo1</Name>
+      <Name>AttackHelo1</Name>
+      <Name>SAH-46 Chicane</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>SAH-46</ShortName>
+      <LongName>SAH-46 Chicane</LongName>
+      <FullName>SAH-46 Chicane</FullName>
+      <Shape>AttackHelo1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Darkreach" Base="FixedWing.Bomber.Jet">
+    <Criteria>
+      <Name>Darkreach</Name>
+      <Name>SFB</Name>
+      <Name>SFB-81 Darkreach</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>SFB-81</ShortName>
+      <LongName>SFB-81 Darkreach</LongName>
+      <FullName>SFB-81 Darkreach</FullName>
+      <Shape>Darkreach.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Corvette1" Base="Watercraft.Military">
+    <Criteria>
+      <Name>Corvette1</Name>
+      <Name>Corvette1</Name>
+      <Name>Shard Class Corvette</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>SHP</ShortName>
+      <LongName>Shard Class Corvette</LongName>
+      <FullName>Shard Class Corvette</FullName>
+      <Shape>Corvette1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Platform_slope" Base="Core.Default">
+    <Criteria>
+      <Name>Platform_slope</Name>
+      <Name>PlatformSlope</Name>
+      <Name>Sloped Platform</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>BLD</ShortName>
+      <LongName>Sloped Platform</LongName>
+      <FullName>Sloped Platform</FullName>
+      <Shape>Platform_slope.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="Platform_small" Base="Core.Default">
+    <Criteria>
+      <Name>Platform_small</Name>
+      <Name>PlatformSmall</Name>
+      <Name>Small Platform</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>BLD</ShortName>
+      <LongName>Small Platform</LongName>
+      <FullName>Small Platform</FullName>
+      <Shape>Platform_small.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="MBT1" Base="Vehicle.Military.Tank">
+    <Criteria>
+      <Name>MBT1</Name>
+      <Name>MBT1</Name>
+      <Name>Spearhead MBT</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MBT</ShortName>
+      <LongName>Spearhead MBT</LongName>
+      <FullName>Spearhead MBT</FullName>
+      <Shape>MBT1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="storageTank" Base="Core.Default">
+    <Criteria>
+      <Name>storageTank</Name>
+      <Name>StorageTank</Name>
+      <Name>Storage Tank</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>BLD</ShortName>
+      <LongName>Storage Tank</LongName>
+      <FullName>Storage Tank</FullName>
+      <Shape>storageTank.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="SAM_Radar2" Base="Core.Missile">
+    <Criteria>
+      <Name>SAM_Radar2</Name>
+      <Name>SAM_Radar2</Name>
+      <Name>StratoLance R9</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MSL</ShortName>
+      <LongName>StratoLance R9</LongName>
+      <FullName>StratoLance R9</FullName>
+      <Shape>SAM_Radar2.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="SAMTrailer1" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>SAMTrailer1</Name>
+      <Name>SAMTrailer1</Name>
+      <Name>StratoLance R9 Launcher</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>SAM R</ShortName>
+      <LongName>StratoLance R9 Launcher</LongName>
+      <FullName>StratoLance R9 Launcher</FullName>
+      <Shape>SAMTrailer1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="trainer" Base="FixedWing.Fighter.Jet">
+    <Criteria>
+      <Name>trainer</Name>
+      <Name>Trainer</Name>
+      <Name>T/A-30 Compass</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>T/A-30</ShortName>
+      <LongName>T/A-30 Compass</LongName>
+      <FullName>T/A-30 Compass</FullName>
+      <Shape>trainer.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="RadarSAM1" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>RadarSAM1</Name>
+      <Name>RadarSam1</Name>
+      <Name>T9K41 Boltstrike</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>SAM R</ShortName>
+      <LongName>T9K41 Boltstrike</LongName>
+      <FullName>T9K41 Boltstrike</FullName>
+      <Shape>RadarSAM1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="AShM3" Base="Core.Missile">
+    <Criteria>
+      <Name>AShM3</Name>
+      <Name>AShM3</Name>
+      <Name>Tusko-B (HE)</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MSL</ShortName>
+      <LongName>Tusko-B (HE)</LongName>
+      <FullName>Tusko-B (HE)</FullName>
+      <Shape>AShM3.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="MBT" Base="Vehicle.Military.Tank">
+    <Criteria>
+      <Name>MBT</Name>
+      <Name>MBT</Name>
+      <Name>Type-12 MBT</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>MBT</ShortName>
+      <LongName>Type-12 MBT</LongName>
+      <FullName>Type-12 MBT</FullName>
+      <Shape>MBT.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="VehicleDepot1" Base="Core.Default">
+    <Criteria>
+      <Name>VehicleDepot1</Name>
+      <Name>VehicleDepot1</Name>
+      <Name>Vehicle Depot</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>BLD</ShortName>
+      <LongName>Vehicle Depot</LongName>
+      <FullName>Vehicle Depot</FullName>
+      <Shape>VehicleDepot1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="factory_tall" Base="Core.Default">
+    <Criteria>
+      <Name>factory_tall</Name>
+      <Name>FactoryTall</Name>
+      <Name>Vertical Factory</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>FAC</ShortName>
+      <LongName>Vertical Factory</LongName>
+      <FullName>Vertical Factory</FullName>
+      <Shape>factory_tall.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="QuadVTOL1" Base="Rotorcraft.Attack">
+    <Criteria>
+      <Name>QuadVTOL1</Name>
+      <Name>QuadVTOL1</Name>
+      <Name>VL-49 Tarantula</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>VL-49</ShortName>
+      <LongName>VL-49 Tarantula</LongName>
+      <FullName>VL-49 Tarantula</FullName>
+      <Shape>QuadVTOL1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="UtilityHelo1" Base="Rotorcraft.Attack">
+    <Criteria>
+      <Name>UtilityHelo1</Name>
+      <Name>UtilityHelo1</Name>
+      <Name>UH-90 Ibis</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>UH-90</ShortName>
+      <LongName>UH-90 Ibis</LongName>
+      <FullName>UH-90 Ibis</FullName>
+      <Shape>UtilityHelo1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="UGV1_grenade" Base="Vehicle.Military.APC">
+    <Criteria>
+      <Name>UGV1_grenade</Name>
+      <Name>UGV1_grenade</Name>
+      <Name>Hexhound GMG</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>UGV</ShortName>
+      <LongName>Hexhound GMG</LongName>
+      <FullName>Hexhound GMG</FullName>
+      <Shape>UGV1_grenade.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="UGV1_SAM" Base="Vehicle.Military.APC">
+    <Criteria>
+      <Name>UGV1_SAM</Name>
+      <Name>UGV1_sam</Name>
+      <Name>Hexhound SAM</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>UGV</ShortName>
+      <LongName>Hexhound SAM</LongName>
+      <FullName>Hexhound SAM</FullName>
+      <Shape>UGV1_SAM.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="UGVDozer1" Base="Vehicle.Military.Truck">
+    <Criteria>
+      <Name>UGVDozer1</Name>
+      <Name>UGVDozer1</Name>
+      <Name>M12 Jackknife</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>CEV</ShortName>
+      <LongName>M12 Jackknife</LongName>
+      <FullName>M12 Jackknife</FullName>
+      <Shape>UGVDozer1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="CRAMTrailer1" Base="Vehicle.Military.APC">
+    <Criteria>
+      <Name>CRAMTrailer1</Name>
+      <Name>CRAMTrailer1</Name>
+      <Name>CRAM Trailer</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>CRAM</ShortName>
+      <LongName>CRAM Trailer</LongName>
+      <FullName>CRAM Trailer</FullName>
+      <Shape>CRAMTrailer1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="LaserTrailer1" Base="Vehicle.Military.APC">
+    <Criteria>
+      <Name>LaserTrailer1</Name>
+      <Name>LaserTrailer1</Name>
+      <Name>Laser CIWS Trailer</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>CIWS (L)</ShortName>
+      <LongName>Laser CIWS Trailer</LongName>
+      <FullName>Laser CIWS Trailer</FullName>
+      <Shape>LaserTrailer1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="ammunitionBunker" Base="Core.Default">
+    <Criteria>
+      <Name>ammunitionBunker</Name>
+      <Name>ammunitionBunker</Name>
+      <Name>Munitions Bunker</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>AMMO</ShortName>
+      <LongName>Munitions Bunker</LongName>
+      <FullName>Munitions Bunker</FullName>
+      <Shape>ammunitionBunker.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="guardTower1" Base="Core.Default">
+    <Criteria>
+      <Name>guardTower1</Name>
+      <Name>guardTower1</Name>
+      <Name>Guard Tower</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>TWR</ShortName>
+      <LongName>Guard Tower</LongName>
+      <FullName>Guard Tower</FullName>
+      <Shape>guardTower1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="MunitionsPallet1" Base="Core.Default">
+    <Criteria>
+      <Name>MunitionsPallet1</Name>
+      <Name>MunitionsPallet1</Name>
+      <Name>Munitions Pallet</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>CTNR</ShortName>
+      <LongName>Munitions Pallet</LongName>
+      <FullName>Munitions Pallet</FullName>
+      <Shape>MunitionsPallet1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+  <DefaultProperties Id="NavalPallet1" Base="Core.Default">
+    <Criteria>
+      <Name>NavalPallet1</Name>
+      <Name>NavalPallet1</Name>
+      <Name>Naval Supply Pallet</Name>
+    </Criteria>
+    <Properties>
+      <ShortName>CTNR</ShortName>
+      <LongName>Naval Supply Pallet</LongName>
+      <FullName>Naval Supply Pallet</FullName>
+      <Shape>NavalPallet1.obj</Shape>
+    </Properties>
+  </DefaultProperties>
+</DefaultPropertiesCollection>
