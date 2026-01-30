@@ -28,8 +28,8 @@
 	<String ID="RecordingMenuHelp">设置飞行数据记录</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;实时遥测...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">记录当前正在进行的飞行</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4.0 Legacy Real-Time Telemetry...</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Record a flight currently in progress in older versions of Falcon 4</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4.0传统实时遥测...</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">在旧版本的Falcon 4中记录当前进行中的飞行</String>
 	<String ID="RecordingADSBTelemetryCmdText">ADS-B遥测...</String>
 	<String ID="RecordingADSBTelemetryCmdHelp">记录空中ADS-B遥测数据</String>
 	<String ID="RecordingRemoteControl0Text">遥控1</String>
@@ -151,11 +151,11 @@
 	<String ID="OptionsTerrainTextFalcon4">Falcon 4.0</String>
 	<String ID="OptionsTerrainHelpFalcon4">使用Falcon 4.0地形</String>
 	<String ID="OptionsTerrainTextBMS">Falcon BMS</String>
-	<String ID="OptionsTerrainHelpBMS">Use terrain from Falcon BMS 4.38+</String>
-	<String ID="OptionsTerrainTextIL2">IL-2 Sturmovik</String>
-	<String ID="OptionsTerrainHelpIL2">显示IL-2 Sturmovik地形</String>
-	<String ID="OptionsTerrainTextNuclearOption">Nuclear Option</String>
-	<String ID="OptionsTerrainHelpNuclearOption">Use terrain from Nuclear Option</String>
+	<String ID="OptionsTerrainHelpBMS">使用Falcon BMS 4.38+版本的地形</String>
+	<String ID="OptionsTerrainTextIL2">IL-2捍卫雄鹰</String>
+	<String ID="OptionsTerrainHelpIL2">显示IL-2捍卫雄鹰地形</String>
+	<String ID="OptionsTerrainTextNuclearOption">核选项</String>
+	<String ID="OptionsTerrainHelpNuclearOption">使用核选项中的地形</String>
 
 	<String ID="OptionsLanguageText">语言选择</String>
 	<String ID="OptionsLanguageAutoText">（&amp;自动）</String>
@@ -231,8 +231,8 @@
 
 	<String ID="PauseOnEventCmdText">在事件处暂停</String>
 	<String ID="PauseOnEventCmdHelp">在射击日志的每个事件处暂停播放</String>
-	<String ID="DisplayEventOnPauseCmdText">Show Event in 3D View</String>
-	<String ID="DisplayEventOnPauseCmdHelp">Display in the 3D view, the event which has triggerd the pause</String>
+	<String ID="DisplayEventOnPauseCmdText">在3D视图中显示事件</String>
+	<String ID="DisplayEventOnPauseCmdHelp">在3D视图中显示触发暂停的事件</String>
 
 	<String ID="OptionsAssociateFileTypesText">&amp;关联acmi文件至Tacview</String>
 	<String ID="OptionsAssociateFileTypesHelp">在Windows里双击acmi飞行记录文件时用Tacview打开。</String>
@@ -254,8 +254,8 @@
 	<String ID="InsertBookmarkHelp">在事件和时间线里创建并插入书签</String>
 	<String ID="RemoveBookmarkText">&amp;删除书签</String>
 	<String ID="RemoveBookmarkHelp">删除这个书签</String>
-	<String ID="RemoveEventText">&amp;Remove Event</String>
-	<String ID="RemoveEventHelp">Delete this event</String>
+	<String ID="RemoveEventText">&amp;删除事件</String>
+	<String ID="RemoveEventHelp">删除这个事件</String>
 	<String ID="ShareCopyShortcutText">&amp;复制快捷方式&#9;(Ctrl+C)</String>
 	<String ID="ShareCopyShortcutHelp">创建当前视角的快捷方式，可以与朋友分享</String>
 	<String ID="SharePasteShortcutText">&amp;粘贴快捷方式&#9;(Ctrl+V)</String>
@@ -459,18 +459,18 @@
 	<String ID="RollText">滚转</String>
 	<String ID="PitchHelp">航空器俯仰姿态</String>
 	<String ID="PitchText">俯仰</String>
-	<String ID="LocalizerLateralDeviationText">Lateral Deviation</String>
-	<String ID="LocalizerLateralDeviationHelp">How far the aircraft is from the runway centerline, left or right.</String>
-	<String ID="LocalizerAngularDeviationText">Localizer Angle</String>
-	<String ID="LocalizerAngularDeviationHelp">The angle difference from the runway centerline.</String>
-	<String ID="GlideslopeVerticalDeviationText">Vertical Deviation</String>
-	<String ID="GlideslopeVerticalDeviationHelp">How far the aircraft is above or below the glideslope.</String>
-	<String ID="GlideslopeAngularDeviationText">Glideslope Angle</String>
-	<String ID="GlideslopeAngularDeviationHelp">The angle difference from the perfect descent path.</String>
-	<String ID="Glideslope30Text">3° Glideslope</String>
-	<String ID="Glideslope30Help">Draws a standard 3-degree glideslope coming from the secondary object.</String>
-	<String ID="Glideslope35Text">3.5° Glideslope</String>
-	<String ID="Glideslope35Help">Draws a 3.5-degree glideslope used for aircraft carriers, coming from the secondary object.</String>
+	<String ID="LocalizerLateralDeviationText">横向偏移</String>
+	<String ID="LocalizerLateralDeviationHelp">航空器距离跑道中心线的距离，偏左或偏右。</String>
+	<String ID="LocalizerAngularDeviationText">航向道角</String>
+	<String ID="LocalizerAngularDeviationHelp">跑道中心线的角度偏差。</String>
+	<String ID="GlideslopeVerticalDeviationText">垂直偏差</String>
+	<String ID="GlideslopeVerticalDeviationHelp">航空器高于或低于下滑道的距离。</String>
+	<String ID="GlideslopeAngularDeviationText">下滑道角</String>
+	<String ID="GlideslopeAngularDeviationHelp">与完美下降路径的角度偏差。</String>
+	<String ID="Glideslope30Text">3°下滑道</String>
+	<String ID="Glideslope30Help">绘制一条源自次要物体的标准3度下滑道。</String>
+	<String ID="Glideslope35Text">3.5°下滑道</String>
+	<String ID="Glideslope35Help">绘制一条源自次要物体的3.5度下滑道，专用于航空母舰。</String>
 	<String ID="HeartRateHelp">飞行员的心率，以每分钟为单位</String>
 	<String ID="HeartRateText">心率</String>
 	<String ID="SpO2Help">血液中氧饱和度的百分比</String>
@@ -785,14 +785,14 @@
 	<String ID="CmdMergeHelp">合并现存飞行记录与当前所有载入数据。</String>
 	<String ID="CmdSaveHelp">保存飞行记录为高压缩格式。</String>
 	<String ID="CmdExportFlightLogHelp">导出飞行日志为XML或CSV文件。</String>
-	<String ID="CmdExportTelemetryHelp">Export telemetry as a CSV File.</String>
+	<String ID="CmdExportTelemetryHelp">将遥测数据导出为CSV文件。</String>
 	<String ID="CmdFalcon4TheaterHelp">设置Falcon 4.0战区使用VHS文件。(Aegean, Balkan, Israel, Korea...)</String>
 	<String ID="CmdFullscreenHelp">以全屏模式启动Tacview。</String>
 	<String ID="CmdQuietHelp">Tacview将执行所有指定操作然后不显示任何窗口退出。</String>
 	<String ID="CmdConnectRealTimeTelemetryHelp">使用最后已知的参数连接实时遥测。</String>
 	<String ID="CmdConnectRemoteControlHelp">使用最后已知的参数连接特定遥控。</String>
 	<String ID="CmdQuitHelp">Tacview将在所有指定操作完成后关闭。</String>
-	<String ID="CmdSetTimeHelp">Seek to the given ISO-formatted time. Load telemetry data first.</String>
+	<String ID="CmdSetTimeHelp">查找指定的ISO格式时间。优先加载遥测数据。</String>
 	<String ID="CmdDataCollectionHelp">可用于禁用匿名数据收集。</String>
 	<String ID="CmdVBOOffHelp">禁用顶点缓冲区物体以避免在一些ATI交火配置上崩溃。</String>
 	<String ID="CmdDebugModeHelp">显示调试信息以帮助修补错误。</String>
@@ -803,7 +803,7 @@
 	<String ID="CmdRegisterSystemProductKeyHelp">为整个系统使用提供的秘钥激活Tacview。</String>
 	<String ID="CmdRegisterSessionProductKeyHelp">只为当前会话使用秘钥激活Tacview。</String>
 	<String ID="CmdDisplayFrameRateHelp">在3D窗口里显示帧率</String>
-	<String ID="CmdMSAAHelp">Disable Multi-Sample Anti-Aliasing for better performance on less powerful graphics cards.</String>
+	<String ID="CmdMSAAHelp">为性能较弱的显卡禁用多重采样抗锯齿以提升性能。</String>
 	<String ID="CmdResourceFolderHelp">声明存储Tacview资源的附加自定义目录</String>
 	<String ID="CmdAddOnsFolderHelp">声明从何处加载加载项的附加自定义文件夹</String>
 	<String ID="CmdReadOnlyHelp">禁用插件和导出功能</String>
@@ -936,7 +936,7 @@
 	<String ID="ExportGroupGeneral">通用</String>
 	<String ID="ExportGroupPerformance">性能</String>
 	<String ID="ExportGroupEnergy">能量</String>
-	<String ID="ExportGroupNav">Navigation</String>
+	<String ID="ExportGroupNav">导航</String>
 	<String ID="ExportGroupFuel">燃油</String>
 	<String ID="ExportGroupMisc">其他</String>
 
