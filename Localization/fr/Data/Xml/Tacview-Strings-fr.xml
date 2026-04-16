@@ -27,7 +27,7 @@
 	<String ID="RecordingMenuHelp">Définir les paramètres d'enregistrement des vols</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Télémétrie en temps-réel...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">Enregistrer un vol actuellement en cours</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Ancienne télémétrie en temps-réel pour Falcon 4.0...</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Ancienne télémétrie en temps-réel pour Falcon BMS...</String>
 	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Enregistrer un vol actuellement en cours dans les anciennes versions de Falcon 4</String>
 	<String ID="RecordingADSBTelemetryCmdText">Télémétrie ADS-B radio...</String>
 	<String ID="RecordingADSBTelemetryCmdHelp">Enregistrer télémétrie ADS-B à l’aide un récepteur radio</String>
@@ -172,6 +172,9 @@
 	<String ID="OptionsMetricAirplaneUnitsText">Métrique - Avion</String>
 	<String ID="OptionsMetricAirplaneUnitsHelp">Vitesse: km/h - Vitesse verticale: m/min - Altitude: m - Distance: km</String>
 
+	<String ID="OptionsMixedHelicopterUnitsText">Mixte - Hélicoptère</String>
+	<String ID="OptionsMixedHelicopterUnitsHelp">Vitesse: kts - Vitesse verticale: ft/min - Altitude: ft - Distance: km</String>
+
 	<String ID="OptionsImperialDataAnalysisMIUnitsText">Impérial - Analyse de données (mi)</String>
 	<String ID="OptionsImperialDataAnalysisMIUnitsHelp">Vitesse: mph - Vitesse verticale: ft/min - Altitude: ft - Distance: ft</String>
 	<String ID="OptionsImperialDataAnalysisNMUnitsText">Impérial - Analyse de données (nm)</String>
@@ -264,6 +267,7 @@
 	<String ID="DefineControlHelp">Assigne un contrôle clavier ou joystick à cette commande</String>
 	<String ID="LaserPointerHelp">Affiche un pointeur laser pour mettre souligner des objets pendant un debriefing en ligne</String>
 	<String ID="MousePositionHelp">Affiche la latitude, longitude et position bullseye du curseur de la souris</String>
+	<String ID="ToogleMuteMediaShortcutHelp">Activer ou désactiver le son de la fenêtre multimédia correspondante</String>
 
 	<String ID="DrawHeadingText">Cap</String>
 	<String ID="DrawCourseText">Course</String>
@@ -383,6 +387,7 @@
 	<!-- Telemetry -->
 
 	<String ID="DisplayObjectNameText">Nom de l’objet</String>
+	<String ID="DisplayObjectCallSignText">Indicatif d’appel</String>
 	<String ID="DisplayPilotNameText">Nom du pilote</String>
 	<String ID="DisplayLabelText">Label</String>
 
@@ -644,6 +649,7 @@ Assurez-vous que tout est correctement connecté et configuré, puis cliquez sur
 	<String ID="AntiAircraftType">(Défense antiaérienne: AAA/SAM)</String>
 	<String ID="TankType">(Tank)</String>
 	<String ID="WarshipType">(Navire militaire)</String>
+	<String ID="AircraftCarrier">(Porte-avions)</String>
 	<String ID="SubmarineType">(Sous-marin)</String>
 	<String ID="InfantryType">(Infanterie)</String>
 	<String ID="BuildingType">(Batiment)</String>
@@ -796,6 +802,7 @@ Assurez-vous que tout est correctement connecté et configuré, puis cliquez sur
 	<String ID="ObjectsLists">Listes d'objets</String>
 	<String ID="FreeCamera">Caméra libre</String>
 	<String ID="ChartWindow">Graphiques</String>
+	<String ID="MediaWindows">Fenêtres multimédias</String>
 
 	<String ID="ControlsArrows">[W] [A] [S] [D] / [E] [C]</String>
 	<String ID="ControlsCtrlLeftClick">[Ctrl] + [Clic Gauche]</String>
@@ -822,6 +829,7 @@ Assurez-vous que tout est correctement connecté et configuré, puis cliquez sur
 	<String ID="LaserPointerShortcut">[Shift] + {Souris}</String>
 	<String ID="MousePositionShortcut">[Shift] + [Ctrl] + {Souris}</String>
 	<String ID="ControlsDeselectObjects">[Ctrl] + [N]</String>
+	<String ID="ControlsCtrlAltF1-F8">[Ctrl] + [Alt] + [F1] à [F8]</String>
 
 	<String ID="ControlsBackwardForward">Avant/Arrière dans le temps</String>
 	<String ID="ControlsSelectEvent">Va à l'événement et sélectionne les objets concernés</String>
@@ -858,7 +866,7 @@ Assurez-vous que tout est correctement connecté et configuré, puis cliquez sur
 	<String ID="SaveFileRequestText">Souhaitez-vous enregistrer les modifications apportées à '{0}'&#160;?</String>
 	<String ID="SaveButton">&amp;Enregistrer</String>
 	<String ID="DontSaveButton">&amp;Ne pas enregistrer</String>
-	<String ID="IL2SturmovikIsRunningText">Afin d’assurer un jeu équitable et de prévenir la triche, veuillez fermer IL-2 Sturmovik avant d’utiliser Tacview.</String>
+	<String ID="IL2SturmovikIsRunningText">Par souci d’équité, veuillez fermer IL-2 avant d’utiliser Tacview.</String>
 	<String ID="RemoveObjectConfirmation">Etes-vous certain de vouloir supprimer l’objet [{0}] des données de télémétrie ?</String>
 	<String ID="OK">&amp;OK</String>
 	<String ID="TrimBeforeConfirmation">Etes-vous certain de vouloir supprimer toutes les données de télémétrie qui précèdent {0} ?</String>
@@ -1158,7 +1166,7 @@ Assurez-vous que tout est correctement connecté et configuré, puis cliquez sur
 	<String ID="TTShare">Partager Raccourcis</String>
 	<String ID="TTTakeControl">Prendre le contrôle (Débriefing en ligne)</String>
 
-	<String ID="TTObjectsRange">Distance et vitesse de rapprochement des objets sélectionnés&#10;(Cliquez pour échanger les objets sélectionnés, Click-Droit pour voir les options)</String>
+	<String ID="TTObjectsRange">Distance et vitesse de rapprochement des objets sélectionnés&#10;(Cliquez pour échanger les objets sélectionnés)</String>
 	<String ID="TTDogfightButton">Mode caméra combat tournoyant</String>
 	<String ID="TTTrailSize">Taille des trainées</String>
 	<String ID="TTTrailSizeValueHMS">{0} h {1} m {2} s</String>

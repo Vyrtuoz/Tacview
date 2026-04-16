@@ -28,7 +28,7 @@
 	<String ID="RecordingMenuHelp">設置飛行資料記錄</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;即時遙測...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">記錄當前正在進行的飛行</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4.0 Legacy Real-Time Telemetry...</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon BMS Legacy Real-Time Telemetry...</String>
 	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Record a flight currently in progress in older versions of Falcon 4</String>
 	<String ID="RecordingADSBTelemetryCmdText">ADS-B Radio Telemetry...</String>
 	<String ID="RecordingADSBTelemetryCmdHelp">Record ADS-B telemetry over the air</String>
@@ -173,6 +173,9 @@
 	<String ID="OptionsMetricAirplaneUnitsText">公制 - 飛機</String>
 	<String ID="OptionsMetricAirplaneUnitsHelp">速度: km/h - 垂直速度: m/min - 高度: m - 距離: km</String>
 
+	<String ID="OptionsMixedHelicopterUnitsText">Mixed - Helicopter</String>
+	<String ID="OptionsMixedHelicopterUnitsHelp">Speed: kts - Vertical Speed: ft/min - Altitude: ft - Distance: km</String>
+
 	<String ID="OptionsImperialDataAnalysisMIUnitsText">英制 - 資料分析 (mi)</String>
 	<String ID="OptionsImperialDataAnalysisMIUnitsHelp">速度: mph - 垂直速度: ft/min - 高度: ft - 距離: ft</String>
 	<String ID="OptionsImperialDataAnalysisNMUnitsText">英制 - 資料分析 (nm)</String>
@@ -265,6 +268,7 @@
 	<String ID="DefineControlHelp">為此命令分配自訂搖杆或鍵盤輸入</String>
 	<String ID="LaserPointerHelp">Display a laser pointer to highlight objects during an online debriefing</String>
 	<String ID="MousePositionHelp">Display latitude, longitude and bullseye position of the mouse cursor</String>
+	<String ID="ToogleMuteMediaShortcutHelp">Mute or unmute the corresponding media window</String>
 
 	<String ID="DrawHeadingText">Heading</String>
 	<String ID="DrawCourseText">Course</String>
@@ -384,6 +388,7 @@
 	<!-- Telemetry -->
 
 	<String ID="DisplayObjectNameText">Object Name</String>
+	<String ID="DisplayObjectCallSignText">Call Sign</String>
 	<String ID="DisplayPilotNameText">Pilot Name</String>
 	<String ID="DisplayLabelText">Label</String>
 
@@ -667,6 +672,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="AntiAircraftType">(防空: AAA/SAM)</String>
 	<String ID="TankType">(坦克)</String>
 	<String ID="WarshipType">(軍艦)</String>
+	<String ID="AircraftCarrier">(Aircraft Carrier)</String>
 	<String ID="SubmarineType">(潛艇)</String>
 	<String ID="InfantryType">(步兵)</String>
 	<String ID="BuildingType">(建築)</String>
@@ -818,6 +824,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="ObjectsLists">物體清單</String>
 	<String ID="FreeCamera">自由鏡頭</String>
 	<String ID="ChartWindow">圖表視窗</String>
+	<String ID="MediaWindows">Media Windows</String>
 
 	<String ID="ControlsArrows">[W] [A] [S] [D] / [E] [C]</String>
 	<String ID="ControlsCtrlLeftClick">[Ctrl] + [滑鼠左鍵]</String>
@@ -844,6 +851,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="LaserPointerShortcut">[Shift] + {Mouse}</String>
 	<String ID="MousePositionShortcut">[Shift] + [Ctrl] + {Mouse}</String>
 	<String ID="ControlsDeselectObjects">[Ctrl] + [N]</String>
+	<String ID="ControlsCtrlAltF1-F8">[Ctrl] + [Alt] + [F1] to [F8]</String>
 
 	<String ID="ControlsBackwardForward">時間倒退/前進</String>
 	<String ID="ControlsSelectEvent">前往事件並選擇關聯物體</String>
@@ -1229,7 +1237,7 @@ Make sure everything is properly connected to your computer and configured, then
 
 	<String ID="TTDisplayCockpitInstruments">顯示駕駛艙儀錶</String>
 	<String ID="TTDrawHeight">顯示物體離地高度</String>
-	<String ID="TTDrawLocalVectors">Display Selected Objects Vectors</String>
+	<String ID="TTDrawLocalVectors">Display Selected Object Vectors</String>
 	<String ID="TTDrawIDs">顯示物體圖示</String>
 	<String ID="TTDrawThreats">顯示預警雷達和防空系統有效範圍</String>
 	<String ID="TTDrawRadarLocks">顯示雷達鎖定（當可用時）</String>
@@ -1237,7 +1245,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="TTShare">分享快捷方式</String>
 	<String ID="TTTakeControl">取得控制（連線彙報）</String>
 
-	<String ID="TTObjectsRange">被選主次物體之間相對關係資料&#10;（滑鼠左鍵點擊切換被選物體，滑鼠右鍵點擊查看選項）</String>
+	<String ID="TTObjectsRange">被選主次物體之間相對關係資料&#10;（滑鼠左鍵點擊切換被選物體）</String>
 	<String ID="TTDogfightButton">格鬥鏡頭模式</String>
 	<String ID="TTTrailSize">尾跡長度調整</String>
 	<String ID="TTTrailSizeValueHMS">{0} 時 {1} 分 {2} 秒</String>

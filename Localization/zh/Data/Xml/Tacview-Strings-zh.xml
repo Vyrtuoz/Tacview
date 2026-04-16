@@ -28,8 +28,8 @@
 	<String ID="RecordingMenuHelp">设置飞行数据记录</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;实时遥测...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">记录当前正在进行的飞行</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4.0传统实时遥测...</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">在旧版本的Falcon 4中记录当前进行中的飞行</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon BMS Legacy Real-Time Telemetry...</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Record a flight currently in progress in older versions of Falcon 4</String>
 	<String ID="RecordingADSBTelemetryCmdText">ADS-B遥测...</String>
 	<String ID="RecordingADSBTelemetryCmdHelp">记录空中ADS-B遥测数据</String>
 	<String ID="RecordingRemoteControl0Text">遥控1</String>
@@ -173,6 +173,9 @@
 	<String ID="OptionsMetricAirplaneUnitsText">公制 - 飞机</String>
 	<String ID="OptionsMetricAirplaneUnitsHelp">速度: km/h - 垂直速度: m/min - 高度: m - 距离: km</String>
 
+	<String ID="OptionsMixedHelicopterUnitsText">Mixed - Helicopter</String>
+	<String ID="OptionsMixedHelicopterUnitsHelp">Speed: kts - Vertical Speed: ft/min - Altitude: ft - Distance: km</String>
+
 	<String ID="OptionsImperialDataAnalysisMIUnitsText">英制 - 数据分析 (mi)</String>
 	<String ID="OptionsImperialDataAnalysisMIUnitsHelp">速度: mph - 垂直速度: ft/min - 高度: ft - 距离: ft</String>
 	<String ID="OptionsImperialDataAnalysisNMUnitsText">英制 - 数据分析 (nm)</String>
@@ -265,6 +268,7 @@
 	<String ID="DefineControlHelp">为此命令分配自定义摇杆或键盘输入</String>
 	<String ID="LaserPointerHelp">在联机任务报告期间显示用于突出显示物体的激光指针</String>
 	<String ID="MousePositionHelp">显示鼠标光标的纬度、经度和靶眼位置</String>
+	<String ID="ToogleMuteMediaShortcutHelp">Mute or unmute the corresponding media window</String>
 
 	<String ID="DrawHeadingText">航向</String>
 	<String ID="DrawCourseText">航线</String>
@@ -384,6 +388,7 @@
 	<!-- Telemetry -->
 
 	<String ID="DisplayObjectNameText">物体名称</String>
+	<String ID="DisplayObjectCallSignText">Call Sign</String>
 	<String ID="DisplayPilotNameText">飞行员名称</String>
 	<String ID="DisplayLabelText">标签</String>
 
@@ -667,6 +672,7 @@
 	<String ID="AntiAircraftType">(防空: AAA/SAM)</String>
 	<String ID="TankType">(坦克)</String>
 	<String ID="WarshipType">(军舰)</String>
+	<String ID="AircraftCarrier">(Aircraft Carrier)</String>
 	<String ID="SubmarineType">(潜艇)</String>
 	<String ID="InfantryType">(步兵)</String>
 	<String ID="BuildingType">(建筑)</String>
@@ -819,6 +825,7 @@
 	<String ID="ObjectsLists">物体列表</String>
 	<String ID="FreeCamera">自由镜头</String>
 	<String ID="ChartWindow">图表窗口</String>
+	<String ID="MediaWindows">Media Windows</String>
 
 	<String ID="ControlsArrows">[W] [A] [S] [D] / [E] [C]</String>
 	<String ID="ControlsCtrlLeftClick">[Ctrl] + [鼠标左键]</String>
@@ -845,6 +852,7 @@
 	<String ID="LaserPointerShortcut">[Shift] + {Mouse}</String>
 	<String ID="MousePositionShortcut">[Shift] + [Ctrl] + {Mouse}</String>
 	<String ID="ControlsDeselectObjects">[Ctrl] + [N]</String>
+	<String ID="ControlsCtrlAltF1-F8">[Ctrl] + [Alt] + [F1] to [F8]</String>
 
 	<String ID="ControlsBackwardForward">时间倒退/前进</String>
 	<String ID="ControlsSelectEvent">前往事件并选择关联物体</String>
@@ -1239,7 +1247,7 @@
 	<String ID="TTShare">分享快捷方式</String>
 	<String ID="TTTakeControl">取得控制（联机汇报）</String>
 
-	<String ID="TTObjectsRange">被选主次物体之间相对关系数据&#10;（鼠标左键点击切换被选物体，鼠标右键点击查看选项）</String>
+	<String ID="TTObjectsRange">被选主次物体之间相对关系数据&#10;（鼠标左键点击切换被选物体）</String>
 	<String ID="TTDogfightButton">格斗镜头模式</String>
 	<String ID="TTTrailSize">尾迹长度调整</String>
 	<String ID="TTTrailSizeValueHMS">{0} 时 {1} 分 {2} 秒</String>

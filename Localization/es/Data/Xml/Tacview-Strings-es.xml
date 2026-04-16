@@ -28,7 +28,7 @@
 	<String ID="RecordingMenuHelp">Configurar los datos de vuelo a grabar</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Telemetría en tiempo real...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">Grabar un vuelo actualmente en proceso</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4.0 Legacy Telemetría en tiempo real...</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon BMS Legacy Telemetría en tiempo real...</String>
 	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Grabar vuelo actualmente en progreso de una version de Falcon 4 anterior</String>
 	<String ID="RecordingADSBTelemetryCmdText">Radio telemetría ADS-B...</String>
 	<String ID="RecordingADSBTelemetryCmdHelp">Grabar Telemetría ADS-B en el aire</String>
@@ -173,6 +173,9 @@
 	<String ID="OptionsMetricAirplaneUnitsText">Métrico - Avión</String>
 	<String ID="OptionsMetricAirplaneUnitsHelp">Velocidad: km/h – Velocidad Vertical: m/min - Altitud: m - Distancia: km</String>
 
+	<String ID="OptionsMixedHelicopterUnitsText">Mixed - Helicopter</String>
+	<String ID="OptionsMixedHelicopterUnitsHelp">Speed: kts - Vertical Speed: ft/min - Altitude: ft - Distance: km</String>
+
 	<String ID="OptionsImperialDataAnalysisMIUnitsText">Imperial – Análisis de datos (mi)</String>
 	<String ID="OptionsImperialDataAnalysisMIUnitsHelp">Velocidad: mph – Velocidad Vertical: ft/min - Altitud: ft - Distancia: ft</String>
 	<String ID="OptionsImperialDataAnalysisNMUnitsText">Imperial – Análisis de datos (nm)</String>
@@ -265,6 +268,7 @@
 	<String ID="DefineControlHelp">Asignar una tcla del teclado o boton del joystick a este comando</String>
 	<String ID="LaserPointerHelp">Mostrar un puntero laser para remarcar objetos en un debriefing online</String>
 	<String ID="MousePositionHelp">Mostrar latitud, longitud y posicion bullseye del cursor del raton</String>
+	<String ID="ToogleMuteMediaShortcutHelp">Mute or unmute the corresponding media window</String>
 
 	<String ID="DrawHeadingText">Rumbo</String>
 	<String ID="DrawCourseText">Curso</String>
@@ -384,6 +388,7 @@
 	<!-- Telemetry -->
 
 	<String ID="DisplayObjectNameText">Nombre del objeto</String>
+	<String ID="DisplayObjectCallSignText">Call Sign</String>
 	<String ID="DisplayPilotNameText">Nombre del piloto</String>
 	<String ID="DisplayLabelText">Etiqueta</String>
 
@@ -645,6 +650,7 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="AntiAircraftType">(Anti-Aircraft: AAA/SAM)</String>
 	<String ID="TankType">(Tanque)</String>
 	<String ID="WarshipType">(Barco de Guerra)</String>
+	<String ID="AircraftCarrier">(Aircraft Carrier)</String>
 	<String ID="SubmarineType">(Submarino)</String>
 	<String ID="InfantryType">(Infanteria)</String>
 	<String ID="BuildingType">(Edificio)</String>
@@ -797,6 +803,7 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="ObjectsLists">Lista de objetos</String>
 	<String ID="FreeCamera">Cámara Libre</String>
 	<String ID="ChartWindow">Ventana de grafico</String>
+	<String ID="MediaWindows">Media Windows</String>
 
 	<String ID="ControlsArrows">[W] [A] [S] [D] / [E] [C]</String>
 	<String ID="ControlsCtrlLeftClick">[Ctrl] + [Click Izquierdo]</String>
@@ -823,6 +830,7 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="LaserPointerShortcut">[Shift] + {Mouse}</String>
 	<String ID="MousePositionShortcut">[Shift] + [Ctrl] + {Mouse}</String>
 	<String ID="ControlsDeselectObjects">[Ctrl] + [N]</String>
+	<String ID="ControlsCtrlAltF1-F8">[Ctrl] + [Alt] + [F1] to [F8]</String>
 
 	<String ID="ControlsBackwardForward">Atrasar/Adelantar en el tiempo</String>
 	<String ID="ControlsSelectEvent">Ir al evento y objeto seleccionado</String>
@@ -1151,7 +1159,7 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 
 	<String ID="TTDisplayCockpitInstruments">Mostrar los instrumentos de cabina</String>
 	<String ID="TTDrawHeight">Mostrar altura de objetos</String>
-	<String ID="TTDrawLocalVectors">Display Selected Objects Vectors</String>
+	<String ID="TTDrawLocalVectors">Display Selected Object Vectors</String>
 	<String ID="TTDrawIDs">Mostrar ID de objetos</String>
 	<String ID="TTDrawThreats">Mostrar rango letal SAM/AAA</String>
 	<String ID="TTDrawRadarLocks">Mostrar blocajes radar (Cuando disponible)</String>
@@ -1159,7 +1167,7 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="TTShare">Compartir accesos directos</String>
 	<String ID="TTTakeControl">Tomar el control (Debriefing en línea)</String>
 
-	<String ID="TTObjectsRange">Rango y velocidad de acercamiento entre los objetivos seleccionados&#10;(Click para intercambiar objetos, Click-Derecho para opciones)</String>
+	<String ID="TTObjectsRange">Rango y velocidad de acercamiento entre los objetivos seleccionados&#10;(Click para intercambiar objetos)</String>
 	<String ID="TTDogfightButton">Modo de cámara Dogfight</String>
 	<String ID="TTTrailSize">Tamaño de estela</String>
 	<String ID="TTTrailSizeValueHMS">{0} h {1} m {2} s</String>

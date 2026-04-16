@@ -28,7 +28,7 @@
 	<String ID="RecordingMenuHelp">Selezionare Impostazioni di registrazione dei dati di volo</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Real-Time Telemetry...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">Record a flight currently in progress</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4.0 Legacy Real-Time Telemetry...</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon BMS Legacy Real-Time Telemetry...</String>
 	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Record a flight currently in progress in older versions of Falcon 4</String>
 	<String ID="RecordingADSBTelemetryCmdText">ADS-B Radio Telemetry...</String>
 	<String ID="RecordingADSBTelemetryCmdHelp">Record ADS-B telemetry over the air</String>
@@ -173,6 +173,9 @@
 	<String ID="OptionsMetricAirplaneUnitsText">Metrico - Aereoplani</String>
 	<String ID="OptionsMetricAirplaneUnitsHelp">Velocità: km/h - Velocità Verticale: m/min - Altitudine: m - Distanza: km</String>
 
+	<String ID="OptionsMixedHelicopterUnitsText">Mixed - Helicopter</String>
+	<String ID="OptionsMixedHelicopterUnitsHelp">Speed: kts - Vertical Speed: ft/min - Altitude: ft - Distance: km</String>
+
 	<String ID="OptionsImperialDataAnalysisMIUnitsText">Imperiale - Analisi dei dati (mi)</String>
 	<String ID="OptionsImperialDataAnalysisMIUnitsHelp">Velocità: mph - Velocità Verticale: ft/min - Altitudine: ft - Distanza: ft</String>
 	<String ID="OptionsImperialDataAnalysisNMUnitsText">Imperiale - Analisi dei dati (nm)</String>
@@ -265,6 +268,7 @@
 	<String ID="DefineControlHelp">Assign custom joystick or keyboard input to this command</String>
 	<String ID="LaserPointerHelp">Display a laser pointer to highlight objects during an online debriefing</String>
 	<String ID="MousePositionHelp">Display latitude, longitude and bullseye position of the mouse cursor</String>
+	<String ID="ToogleMuteMediaShortcutHelp">Mute or unmute the corresponding media window</String>
 
 	<String ID="DrawHeadingText">Heading</String>
 	<String ID="DrawCourseText">Course</String>
@@ -384,6 +388,7 @@
 	<!-- Telemetry -->
 
 	<String ID="DisplayObjectNameText">Object Name</String>
+	<String ID="DisplayObjectCallSignText">Call Sign</String>
 	<String ID="DisplayPilotNameText">Pilot Name</String>
 	<String ID="DisplayLabelText">Label</String>
 
@@ -645,6 +650,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="AntiAircraftType">(Anti-Aircraft: AAA/SAM)</String>
 	<String ID="TankType">(Tank)</String>
 	<String ID="WarshipType">(Warship)</String>
+	<String ID="AircraftCarrier">(Aircraft Carrier)</String>
 	<String ID="SubmarineType">(Submarine)</String>
 	<String ID="InfantryType">(Infantry)</String>
 	<String ID="BuildingType">(Building)</String>
@@ -797,6 +803,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="ObjectsLists">Lista degli Oggetti</String>
 	<String ID="FreeCamera">Camera Libera</String>
 	<String ID="ChartWindow">Finestra del Grafico</String>
+	<String ID="MediaWindows">Media Windows</String>
 
 	<String ID="ControlsArrows">[W] [A] [S] [D] / [E] [C]</String>
 	<String ID="ControlsCtrlLeftClick">[Ctrl] + [Clic Sinistro]</String>
@@ -823,6 +830,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="LaserPointerShortcut">[Shift] + {Mouse}</String>
 	<String ID="MousePositionShortcut">[Shift] + [Ctrl] + {Mouse}</String>
 	<String ID="ControlsDeselectObjects">[Ctrl] + [N]</String>
+	<String ID="ControlsCtrlAltF1-F8">[Ctrl] + [Alt] + [F1] to [F8]</String>
 
 	<String ID="ControlsBackwardForward">Indietro/Avanti nel Tempo</String>
 	<String ID="ControlsSelectEvent">Vai all'evento e seleziona gli oggetti associati</String>
@@ -859,7 +867,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="SaveFileRequestText">Vuoi salvare le modifiche '{0}'&#160;?</String>
 	<String ID="SaveButton">&amp;Salva</String>
 	<String ID="DontSaveButton">&amp;Non salvare</String>
-	<String ID="IL2SturmovikIsRunningText">To ensure fair play and to prevent cheating, please close IL-2 Sturmovik before using Tacview.</String>
+	<String ID="IL2SturmovikIsRunningText">In the spirit of fair play, please close IL-2 before using Tacview.</String>
 	<String ID="RemoveObjectConfirmation">Are you sure you want to remove the object [{0}] from the telemetry data?</String>
 	<String ID="OK">&amp;OK</String>
 	<String ID="TrimBeforeConfirmation">Are you sure you want to remove all telemetry data before {0}?</String>
@@ -1151,7 +1159,7 @@ Make sure everything is properly connected to your computer and configured, then
 
 	<String ID="TTDisplayCockpitInstruments">Display Cockpit Instruments</String>
 	<String ID="TTDrawHeight">Mostra la Quota degli Oggetti</String>
-	<String ID="TTDrawLocalVectors">Display Selected Objects Vectors</String>
+	<String ID="TTDrawLocalVectors">Display Selected Object Vectors</String>
 	<String ID="TTDrawIDs">Mostra gli ID degli Oggetti</String>
 	<String ID="TTDrawThreats">Mostra la Distanza Letale dei SAM/AAA</String>
 	<String ID="TTDrawRadarLocks">Mostra il Lock Radar (quando disponibile)</String>
@@ -1159,7 +1167,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="TTShare">Condividi Scorciatoie</String>
 	<String ID="TTTakeControl">Prendi il Controllo (Debriefing Online)</String>
 
-	<String ID="TTObjectsRange">Distanza e il tasso di chiusura tra gli oggetti selezionati&#10;(Clicca per passare tra gli oggetti selezionati, fare clic destro per le opzioni)</String>
+	<String ID="TTObjectsRange">Distanza e il tasso di chiusura tra gli oggetti selezionati&#10;(Clicca per passare tra gli oggetti selezionati)</String>
 	<String ID="TTDogfightButton">Camera in modalità Dogfight</String>
 	<String ID="TTTrailSize">Dimensioni delle scie</String>
 	<String ID="TTTrailSizeValueHMS">{0} h {1} m {2} s</String>

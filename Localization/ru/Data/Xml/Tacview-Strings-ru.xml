@@ -28,7 +28,7 @@
 	<String ID="RecordingMenuHelp">Задать свойства записи полета</String>
 	<String ID="RecordingRealTimeTelemetryCmdText">&amp;Телеметрия в реальном времени...</String>
 	<String ID="RecordingRealTimeTelemetryCmdHelp">Записать текущий полет</String>
-	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon 4.0 Legacy Real-Time Telemetry...</String>
+	<String ID="RecordingFalcon4RealTimeTelemetryCmdText">Falcon BMS Legacy Real-Time Telemetry...</String>
 	<String ID="RecordingFalcon4RealTimeTelemetryCmdHelp">Record a flight currently in progress in older versions of Falcon 4</String>
 	<String ID="RecordingADSBTelemetryCmdText">ADS-B радио телеметрия...</String>
 	<String ID="RecordingADSBTelemetryCmdHelp">Записывать ADS-B телеметрию в воздухе</String>
@@ -173,6 +173,9 @@
 	<String ID="OptionsMetricAirplaneUnitsText">Метрическая - Самолет</String>
 	<String ID="OptionsMetricAirplaneUnitsHelp">Скорость: км/час - Вертикальная скорость: м/мин - Высота: м - Расстояние: км</String>
 
+	<String ID="OptionsMixedHelicopterUnitsText">Mixed - Helicopter</String>
+	<String ID="OptionsMixedHelicopterUnitsHelp">Speed: kts - Vertical Speed: ft/min - Altitude: ft - Distance: km</String>
+
 	<String ID="OptionsImperialDataAnalysisMIUnitsText">Имперская - Анализ Данных (мили)</String>
 	<String ID="OptionsImperialDataAnalysisMIUnitsHelp">Скорость: миль/час - Вертикальная Скорость: фут/мин - Высота: фут - Расстояние: фут</String>
 	<String ID="OptionsImperialDataAnalysisNMUnitsText">Имперская - Анализ Данных (морские мили)</String>
@@ -265,6 +268,7 @@
 	<String ID="DefineControlHelp">Назначить исполнение комадны на джойстик или клавиатуру</String>
 	<String ID="LaserPointerHelp">ОТобразить лазерную указку, чтобы подсветить объекты во время онйлан дебрифинга</String>
 	<String ID="MousePositionHelp">Отображать широту, долготу и относительный ориентир по положению курсора мыши</String>
+	<String ID="ToogleMuteMediaShortcutHelp">Mute or unmute the corresponding media window</String>
 
 	<String ID="DrawHeadingText">Направление</String>
 	<String ID="DrawCourseText">Курс</String>
@@ -384,6 +388,7 @@
 	<!-- Telemetry -->
 
 	<String ID="DisplayObjectNameText">Имя объекта</String>
+	<String ID="DisplayObjectCallSignText">Call Sign</String>
 	<String ID="DisplayPilotNameText">Имя пилота</String>
 	<String ID="DisplayLabelText">Метка</String>
 
@@ -645,6 +650,7 @@
 	<String ID="AntiAircraftType">(ПВО: ЗУ/ЗРК)</String>
 	<String ID="TankType">(Танк)</String>
 	<String ID="WarshipType">(Корабль)</String>
+	<String ID="AircraftCarrier">(Aircraft Carrier)</String>
 	<String ID="SubmarineType">(Подлодка)</String>
 	<String ID="InfantryType">(Пехота)</String>
 	<String ID="BuildingType">(Здание)</String>
@@ -797,6 +803,7 @@
 	<String ID="ObjectsLists">Списки объектов</String>
 	<String ID="FreeCamera">Свободная камера</String>
 	<String ID="ChartWindow">Окно с графиком</String>
+	<String ID="MediaWindows">Media Windows</String>
 
 	<String ID="ControlsArrows">[W] [A] [S] [D]/[E] [C]</String>
 	<String ID="ControlsCtrlLeftClick">[Ctrl] + [ЛКМ]</String>
@@ -823,6 +830,7 @@
 	<String ID="LaserPointerShortcut">[Shift] + {Mouse}</String>
 	<String ID="MousePositionShortcut">[Shift] + [Ctrl] + {ЛКМ}</String>
 	<String ID="ControlsDeselectObjects">[Ctrl] + [N]</String>
+	<String ID="ControlsCtrlAltF1-F8">[Ctrl] + [Alt] + [F1] to [F8]</String>
 
 	<String ID="ControlsBackwardForward">Промотать назад/вперед</String>
 	<String ID="ControlsSelectEvent">Перейти к событию и выделить ассоциированные объекты</String>
@@ -1159,7 +1167,7 @@
 	<String ID="TTShare">Поделиться метками</String>
 	<String ID="TTTakeControl">Принять руководство по управлению дебрифингом</String>
 
-	<String ID="TTObjectsRange">Расстояние и темп сближения между выбранными объектами&#10;(ЛКМ, чтобы поменять объекты местами, ПКМ - опции)</String>
+	<String ID="TTObjectsRange">Расстояние и темп сближения между выбранными объектами&#10;(ЛКМ, чтобы поменять объекты местами)</String>
 	<String ID="TTDogfightButton">Камера - боевой режим</String>
 	<String ID="TTTrailSize">Размер следа</String>
 	<String ID="TTTrailSizeValueHMS">{0} ч {1} м {2} с</String>
