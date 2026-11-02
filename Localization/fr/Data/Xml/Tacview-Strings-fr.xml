@@ -124,8 +124,11 @@
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Textures personnalisées</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Afficher toutes les textures déclarées dans CustomTextureList.xml</String>
 	<String ID="OptionsDisplayControlsPositionText">Afficher la position des contrôles</String>
-	<String ID="OptionsAlwaysDisplayBullseyeText">Toujours afficher le Bullseye</String>
-	<String ID="OptionsAlwaysDisplayBullseyeHelp">Toujours afficher le Bullseye dans la vue 3D</String>
+	<String ID="OptionsBullseyeText">Bullseye</String>
+	<String ID="OptionsBullseyeAlwaysVisibleText">Toujours visible</String>
+	<String ID="OptionsBullseyeAlwaysVisibleHelp">Toujours afficher le Bullseye dans la vue 3D</String>
+	<String ID="OptionsBullseyeWideSpacingText">Espacement large</String>
+	<String ID="OptionsBullseyeWideSpacingHelp">Augmente l’espacement des cercles de bullseye pour une meilleure lisibilité à longue distance</String>
 	<String ID="OptionsAutoHideCoordinatesText">Cacher automatiquement les coordonnées</String>
 	<String ID="OptionsAutoHideCoordinatesHelp">Masquer automatiquement les coordonnées latitude/longitude lorsque des coordonnées bullseye sont présentes</String>
 	<String ID="OptionsUIScaleText">Echelle interface utilisateur</String>
@@ -480,6 +483,15 @@
 	<String ID="SpO2Help">Pourcentage de sang saturé d’oxygène</String>
 	<String ID="SpO2Text">SpO2</String>
 
+	<String ID="RelativeDistanceText">Distance relative</String>
+	<String ID="RelativeDistanceHelp">Distance entre les deux objets sélectionnés</String>
+	<String ID="RelativeBearingText">Relèvement relatif</String>
+	<String ID="RelativeBearingHelp">Relèvement du second objet par rapport au premier objet sélectionné</String>
+	<String ID="ClosureRateText">Vitesse de rapprochement</String>
+	<String ID="ClosureRateHelp">Vitesse à laquelle les deux objets sélectionnés se rapprochent ou s’éloignent</String>
+	<String ID="VerticalSeparationText">Séparation verticale</String>
+	<String ID="VerticalSeparationHelp">Différence d’altitude entre les deux objets sélectionnés</String>
+
 	<String ID="NavaidsLabelsText">Aides à la navigation</String>
 	<String ID="NavaidsLabelsAlwaysText">Toujours</String>
 	<String ID="NavaidsLabelsAlwaysHelp">Affiche les étiquettes de toutes les aides à la navigation</String>
@@ -493,8 +505,12 @@
 	<String ID="RelativeTimeHelp">Pour comparer plus facilement des données</String>
 	<String ID="RelativeTimeText">Temps relatif</String>
 
-	<String ID="NoTelemetryHelp">Pas de télémétrie affichée</String>
-	<String ID="NoTelemetryText">Désactivé</String>
+	<String ID="WallDisabledHelp">Masquer les murs</String>
+	<String ID="WallDisabledText">Désactivé</String>
+	<String ID="WallSelectedObjectsHelp">Afficher les murs uniquement pour les objets sélectionnés</String>
+	<String ID="WallSelectedObjectsText">Sélection uniquement</String>
+	<String ID="WallAllObjectsHelp">Afficher les murs pour tous les objets</String>
+	<String ID="WallAllObjectsText">Tous les objets</String>
 
 	<String ID="TelemetryMinValue">Min&#9;{0}</String>
 	<String ID="TelemetryMaxValue">Max&#9;{0}</String>
@@ -851,7 +867,7 @@ Assurez-vous que tout est correctement connecté et configuré, puis cliquez sur
 	<!-- Additional Tooltips -->
 	<String ID="UpdateAvailableTooltip">Une nouvelle version de Tacview est disponible !</String>
 	<String ID="DCSWorldHookedSmallTooltip">L'enregistrement des vols de 'DCS World' est activé</String>
-	<String ID="TwitterLinkTooltip">Twitter</String>
+	<String ID="TwitterLinkTooltip">X (Twitter)</String>
 	<String ID="FacebookLinkTooltip">Facebook</String>
 	<String ID="FlightSimHookTooltipTitle">Vous pouvez maintenant fermer Tacview</String>
 	<String ID="FlightSimHookTooltipMessage">Lorsque cette icone est visible, tous les vols sont automatiquement enregistrés par votre simulateur de vol. Il n'est pas nécessaire de garder Tacview ouvert pendant que vous volez.</String>
@@ -965,6 +981,7 @@ Assurez-vous que tout est correctement connecté et configuré, puis cliquez sur
 	<String ID="UnitLabelCAS">CAS ({0})</String>
 	<String ID="UnitLabelIAS">IAS ({0})</String>
 	<String ID="UnitLabelGS">Vitesse sol ({0})</String>
+	<String ID="UnitLabelClosureRate">Vitesse de rapprochement ({0})</String>
 	<String ID="UnitLabelAbsoluteTime">Temps</String>
 	<String ID="UnitLabelRelativeTime">Temps relatif</String>
 	<String ID="UnitLabelMachNumber">Mach</String>
@@ -984,8 +1001,10 @@ Assurez-vous que tout est correctement connecté et configuré, puis cliquez sur
 	<String ID="UnitLabelVS">VS ({0})</String>
 	<String ID="UnitLabelHeading">Orientation (°)</String>
 	<String ID="UnitLabelTrack">Cap (°)</String>
+	<String ID="UnitLabelRelativeBearing">Relèvement relatif (°)</String>
 	<String ID="UnitLabelDistanceAir">Distance Air ({0})</String>
 	<String ID="UnitLabelDistanceGround">Distance Sol ({0})</String>
+	<String ID="UnitLabelRelativeDistance">Distance Relative ({0})</String>
 	<String ID="UnitLabelRoll">Roulis ({0})</String>
 	<String ID="UnitLabelPitch">Tangage ({0})</String>
 	<String ID="UnitLabelFuel">Carburant ({0})</String>
@@ -996,6 +1015,7 @@ Assurez-vous que tout est correctement connecté et configuré, puis cliquez sur
 	<String ID="UnitLabelGlideslopeAngularDeviation">Angle pente descente (°)</String>
 	<String ID="UnitLabelHeartRate">Fréquence cardiaque (BPM)</String>
 	<String ID="UnitLabelSpO2">SpO2 (%)</String>
+	<String ID="UnitLabelVerticalSeparation">Séparation verticale ({0})</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -1006,7 +1026,7 @@ Assurez-vous que tout est correctement connecté et configuré, puis cliquez sur
 	<String ID="InvalidShortcutText">Impossible de trouver dans cette mission les objets et l'heure contenus dans ce raccourci. Assurez-vous d'avoir ouvert le bon fichier et d'avoir copié/collé l'intégralité du raccourci.</String>
 
 	<String ID="AboutTitle">A propos de Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2025, Raia Software. Tous droits réservés.&#10;Ce logiciel est protégé par les lois internationales sur le copyright.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2026, Raia Software. Tous droits réservés.&#10;Ce logiciel est protégé par les lois internationales sur le copyright.</String>
 
 	<String ID="LoadingInProgressShort">Chargement...</String>
 	<String ID="LoadingInProgress">Chargement de '{0}'</String>

@@ -124,8 +124,11 @@
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Własne tekstury</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Wyświetl wszystkie tekstury dzefiniowane w CustomTextureList.xml</String>
 	<String ID="OptionsDisplayControlsPositionText">Display Controls Position</String>
-	<String ID="OptionsAlwaysDisplayBullseyeText">Zawsze pokazuj Bullseye</String>
-	<String ID="OptionsAlwaysDisplayBullseyeHelp">Zawsze pokazju Bullseye w widoku 3D</String>
+	<String ID="OptionsBullseyeText">Bullseye</String>
+	<String ID="OptionsBullseyeAlwaysVisibleText">Zawsze widoczny</String>
+	<String ID="OptionsBullseyeAlwaysVisibleHelp">Zawsze pokazuj Bullseye w widoku 3D</String>
+	<String ID="OptionsBullseyeWideSpacingText">Szersze odstępy</String>
+	<String ID="OptionsBullseyeWideSpacingHelp">Zwiększa odstępy między okręgami Bullseye dla lepszej czytelności na dużych odległościach</String>
 	<String ID="OptionsAutoHideCoordinatesText">Auto ukrywanie koordynatów</String>
 	<String ID="OptionsAutoHideCoordinatesHelp">Auto ukrywaj dł. i szr. geograficzną, kiedy występują współrzędne bullseye</String>
 	<String ID="OptionsUIScaleText">Skalowanie UI</String>
@@ -480,6 +483,15 @@
 	<String ID="SpO2Help">Percentage of blood that is saturated with oxygen</String>
 	<String ID="SpO2Text">SpO2</String>
 
+	<String ID="RelativeDistanceText">Relative Distance</String>
+	<String ID="RelativeDistanceHelp">Distance between the two selected objects</String>
+	<String ID="RelativeBearingText">Relative Bearing</String>
+	<String ID="RelativeBearingHelp">Bearing from the first selected object to the second selected object</String>
+	<String ID="ClosureRateText">Closure Rate</String>
+	<String ID="ClosureRateHelp">Rate at which the two selected objects are getting closer or farther apart</String>
+	<String ID="VerticalSeparationText">Vertical Separation</String>
+	<String ID="VerticalSeparationHelp">Altitude difference between the two selected objects</String>
+
 	<String ID="NavaidsLabelsText">Etykiety pomocy nawigacyjnej</String>
 	<String ID="NavaidsLabelsAlwaysText">Zawsze</String>
 	<String ID="NavaidsLabelsAlwaysHelp">Pokarz wszystkie etykety pomocy nawigacyjnej</String>
@@ -493,8 +505,12 @@
 	<String ID="RelativeTimeHelp">Ułatw porownywanie danych</String>
 	<String ID="RelativeTimeText">Czas względny</String>
 
-	<String ID="NoTelemetryHelp">Telemetria nie zostanie wyświetlona</String>
-	<String ID="NoTelemetryText">Wyłaczone</String>
+	<String ID="WallDisabledHelp">Telemetria nie zostanie wyświetlona</String>
+	<String ID="WallDisabledText">Wyłaczone</String>
+	<String ID="WallSelectedObjectsHelp">Show walls for selected objects only</String>
+	<String ID="WallSelectedObjectsText">Selected only</String>
+	<String ID="WallAllObjectsHelp">Show walls for all objects</String>
+	<String ID="WallAllObjectsText">All objects</String>
 
 	<String ID="TelemetryMinValue">Min&#9;{0}</String>
 	<String ID="TelemetryMaxValue">Max&#9;{0}</String>
@@ -851,7 +867,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<!-- Additional Tooltips -->
 	<String ID="UpdateAvailableTooltip">A new version of Tacview is available!</String>
 	<String ID="DCSWorldHookedSmallTooltip">'DCS World' flights recording is enabled</String>
-	<String ID="TwitterLinkTooltip">Twitter</String>
+	<String ID="TwitterLinkTooltip">X (Twitter)</String>
 	<String ID="FacebookLinkTooltip">Facebook</String>
 	<String ID="FlightSimHookTooltipTitle">You can now close Tacview</String>
 	<String ID="FlightSimHookTooltipMessage">When this icon is visible, all flights are automatically recorded by your flight simulator.&#10;It is not necessary to keep Tacview running while you are flying.</String>
@@ -965,6 +981,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="UnitLabelCAS">CAS ({0})</String>
 	<String ID="UnitLabelIAS">IAS ({0})</String>
 	<String ID="UnitLabelGS">Ground Speed ({0})</String>
+	<String ID="UnitLabelClosureRate">Closure Rate ({0})</String>
 	<String ID="UnitLabelAbsoluteTime">Time</String>
 	<String ID="UnitLabelRelativeTime">Relative Time</String>
 	<String ID="UnitLabelMachNumber">Mach</String>
@@ -984,8 +1001,10 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="UnitLabelVS">VS ({0})</String>
 	<String ID="UnitLabelHeading">Heading (°)</String>
 	<String ID="UnitLabelTrack">Track (°)</String>
+	<String ID="UnitLabelRelativeBearing">Relative Bearing (°)</String>
 	<String ID="UnitLabelDistanceAir">Air Distance ({0})</String>
 	<String ID="UnitLabelDistanceGround">Ground Distance ({0})</String>
+	<String ID="UnitLabelRelativeDistance">Relative Distance ({0})</String>
 	<String ID="UnitLabelRoll">Roll ({0})</String>
 	<String ID="UnitLabelPitch">Pitch ({0})</String>
 	<String ID="UnitLabelFuel">Fuel ({0})</String>
@@ -996,6 +1015,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="UnitLabelGlideslopeAngularDeviation">Glideslope Deviation (°)</String>
 	<String ID="UnitLabelHeartRate">Heart Rate (BPM)</String>
 	<String ID="UnitLabelSpO2">SpO2 (%)</String>
+	<String ID="UnitLabelVerticalSeparation">Vertical Separation ({0})</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -1006,7 +1026,7 @@ Make sure everything is properly connected to your computer and configured, then
 	<String ID="InvalidShortcutText">Cannot find in the current mission the objects and time referenced by this shortcut. Make sure you have opened the right file and copy/pasted the whole shortcut.</String>
 
 	<String ID="AboutTitle">About Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2025, Raia Software. All Rights Reserved.&#10;This computer program is protected by copyright law and international treaties.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2026, Raia Software. All Rights Reserved.&#10;This computer program is protected by copyright law and international treaties.</String>
 
 	<String ID="LoadingInProgressShort">Loading...</String>
 	<String ID="LoadingInProgress">Loading '{0}'</String>

@@ -125,8 +125,11 @@
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">自定义纹理</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">显示CustomTextureList.xml中声明的所有纹理</String>
 	<String ID="OptionsDisplayControlsPositionText">显示控制器位置</String>
-	<String ID="OptionsAlwaysDisplayBullseyeText">总是显示靶眼</String>
-	<String ID="OptionsAlwaysDisplayBullseyeHelp">总是在3D视野里显示靶眼</String>
+	<String ID="OptionsBullseyeText">靶眼</String>
+	<String ID="OptionsBullseyeAlwaysVisibleText">始终可见</String>
+	<String ID="OptionsBullseyeAlwaysVisibleHelp">总是在3D视图中显示靶眼</String>
+	<String ID="OptionsBullseyeWideSpacingText">宽间距</String>
+	<String ID="OptionsBullseyeWideSpacingHelp">增大靶眼圆圈之间的间距，以提高远距离可读性</String>
 	<String ID="OptionsAutoHideCoordinatesText">自动隐藏坐标</String>
 	<String ID="OptionsAutoHideCoordinatesHelp">每当出现靶眼坐标时，自动隐藏纬度/经度坐标</String>
 	<String ID="OptionsUIScaleText">用户界面缩放</String>
@@ -481,6 +484,15 @@
 	<String ID="SpO2Help">血液中氧饱和度的百分比</String>
 	<String ID="SpO2Text">SpO2</String>
 
+	<String ID="RelativeDistanceText">Relative Distance</String>
+	<String ID="RelativeDistanceHelp">Distance between the two selected objects</String>
+	<String ID="RelativeBearingText">Relative Bearing</String>
+	<String ID="RelativeBearingHelp">Bearing from the first selected object to the second selected object</String>
+	<String ID="ClosureRateText">Closure Rate</String>
+	<String ID="ClosureRateHelp">Rate at which the two selected objects are getting closer or farther apart</String>
+	<String ID="VerticalSeparationText">Vertical Separation</String>
+	<String ID="VerticalSeparationHelp">Altitude difference between the two selected objects</String>
+
 	<String ID="NavaidsLabelsText">助航标签</String>
 	<String ID="NavaidsLabelsAlwaysText">总是</String>
 	<String ID="NavaidsLabelsAlwaysHelp">显示所有助航标签</String>
@@ -494,8 +506,12 @@
 	<String ID="RelativeTimeHelp">使数据对比更容易</String>
 	<String ID="RelativeTimeText">相对时间</String>
 
-	<String ID="NoTelemetryHelp">不显示遥测</String>
-	<String ID="NoTelemetryText">禁用</String>
+	<String ID="WallDisabledHelp">不显示遥测</String>
+	<String ID="WallDisabledText">禁用</String>
+	<String ID="WallSelectedObjectsHelp">Show walls for selected objects only</String>
+	<String ID="WallSelectedObjectsText">Selected only</String>
+	<String ID="WallAllObjectsHelp">Show walls for all objects</String>
+	<String ID="WallAllObjectsText">All objects</String>
 
 	<String ID="TelemetryMinValue">最低&#9;{0}</String>
 	<String ID="TelemetryMaxValue">最高&#9;{0}</String>
@@ -874,7 +890,7 @@
 	<!-- Additional Tooltips -->
 	<String ID="UpdateAvailableTooltip">有新版本Tacview可用！</String>
 	<String ID="DCSWorldHookedSmallTooltip">'DCS World'飞行记录已启用</String>
-	<String ID="TwitterLinkTooltip">Twitter</String>
+	<String ID="TwitterLinkTooltip">X (Twitter)</String>
 	<String ID="FacebookLinkTooltip">Facebook</String>
 	<String ID="FlightSimHookTooltipTitle">你现在可以关闭Tacview</String>
 	<String ID="FlightSimHookTooltipMessage">当此图标可见时，所有飞行记录将由模拟飞行软件自动生成。&#10;你在飞行时没有必要保持Tacview运行。</String>
@@ -1038,6 +1054,7 @@
 	<String ID="UnitLabelCAS">CAS ({0})</String>
 	<String ID="UnitLabelIAS">IAS ({0})</String>
 	<String ID="UnitLabelGS">Ground Speed ({0})</String>
+	<String ID="UnitLabelClosureRate">Closure Rate ({0})</String>
 	<String ID="UnitLabelAbsoluteTime">Time</String>
 	<String ID="UnitLabelRelativeTime">Relative Time</String>
 	<String ID="UnitLabelMachNumber">Mach</String>
@@ -1057,8 +1074,10 @@
 	<String ID="UnitLabelVS">VS ({0})</String>
 	<String ID="UnitLabelHeading">Heading (°)</String>
 	<String ID="UnitLabelTrack">Track (°)</String>
+	<String ID="UnitLabelRelativeBearing">Relative Bearing (°)</String>
 	<String ID="UnitLabelDistanceAir">Air Distance ({0})</String>
 	<String ID="UnitLabelDistanceGround">Ground Distance ({0})</String>
+	<String ID="UnitLabelRelativeDistance">Relative Distance ({0})</String>
 	<String ID="UnitLabelRoll">Roll ({0})</String>
 	<String ID="UnitLabelPitch">Pitch ({0})</String>
 	<String ID="UnitLabelFuel">Fuel ({0})</String>
@@ -1069,6 +1088,7 @@
 	<String ID="UnitLabelGlideslopeAngularDeviation">Glideslope Deviation (°)</String>
 	<String ID="UnitLabelHeartRate">Heart Rate (BPM)</String>
 	<String ID="UnitLabelSpO2">SpO2 (%)</String>
+	<String ID="UnitLabelVerticalSeparation">Vertical Separation ({0})</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -1079,7 +1099,7 @@
 	<String ID="InvalidShortcutText">在当前任务里无法通过快捷方式找到物体和时间参考。请确认打开了正确的文件且复制/粘贴了整个快捷方式。</String>
 
 	<String ID="AboutTitle">关于Tacview</String>
-	<String ID="AboutCopyright">版权© 2006-2025, Raia Software. 保留所有权利。&#10;此计算机程序受到版权法和国际协约保护。</String>
+	<String ID="AboutCopyright">版权© 2006-2026, Raia Software. 保留所有权利。&#10;此计算机程序受到版权法和国际协约保护。</String>
 
 	<String ID="LoadingInProgressShort">载入...</String>
 	<String ID="LoadingInProgress">载入'{0}'</String>

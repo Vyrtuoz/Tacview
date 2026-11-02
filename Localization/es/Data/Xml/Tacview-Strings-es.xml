@@ -125,8 +125,11 @@
 	<String ID="OptionsTerrainDisplayModeCustomTexturesText">Textura Personalizada</String>
 	<String ID="OptionsTerrainDisplayModeCustomTexturesHelp">Mostrar todas las texturas indicadas en CustomTextureList.xml</String>
 	<String ID="OptionsDisplayControlsPositionText">Mostras posicion de los controles</String>
-	<String ID="OptionsAlwaysDisplayBullseyeText">Siempre mostrar Bullseye</String>
-	<String ID="OptionsAlwaysDisplayBullseyeHelp">Mostrar siempre el Bullseye en la vista 3D</String>
+	<String ID="OptionsBullseyeText">Bullseye</String>
+	<String ID="OptionsBullseyeAlwaysVisibleText">Siempre visible</String>
+	<String ID="OptionsBullseyeAlwaysVisibleHelp">Mostrar siempre el Bullseye en la vista 3D</String>
+	<String ID="OptionsBullseyeWideSpacingText">Espaciado amplio</String>
+	<String ID="OptionsBullseyeWideSpacingHelp">Aumenta el espaciado de los círculos de Bullseye para mejorar la legibilidad a larga distancia</String>
 	<String ID="OptionsAutoHideCoordinatesText">Auto ocultar coordenadas</String>
 	<String ID="OptionsAutoHideCoordinatesHelp">Auto ocultar coordenadas latitude/longitude cuandolas coordenadas del bullseye esten presentes</String>
 	<String ID="OptionsUIScaleText">Ajuste de tamaño de la UI</String>
@@ -481,6 +484,15 @@
 	<String ID="SpO2Help">Porcentaje de sangre saturada por oxigenon</String>
 	<String ID="SpO2Text">SpO2</String>
 
+	<String ID="RelativeDistanceText">Relative Distance</String>
+	<String ID="RelativeDistanceHelp">Distance between the two selected objects</String>
+	<String ID="RelativeBearingText">Relative Bearing</String>
+	<String ID="RelativeBearingHelp">Bearing from the first selected object to the second selected object</String>
+	<String ID="ClosureRateText">Closure Rate</String>
+	<String ID="ClosureRateHelp">Rate at which the two selected objects are getting closer or farther apart</String>
+	<String ID="VerticalSeparationText">Vertical Separation</String>
+	<String ID="VerticalSeparationHelp">Altitude difference between the two selected objects</String>
+
 	<String ID="NavaidsLabelsText">Etiquetas de ayuda a la navegación</String>
 	<String ID="NavaidsLabelsAlwaysText">Siempre</String>
 	<String ID="NavaidsLabelsAlwaysHelp">Mostrar todas las etiquetas de ayuda a la navegación</String>
@@ -494,8 +506,12 @@
 	<String ID="RelativeTimeHelp">Hace la comparación más fácil</String>
 	<String ID="RelativeTimeText">Tiempo relativo</String>
 
-	<String ID="NoTelemetryHelp">Sin telemetría mostrar</String>
-	<String ID="NoTelemetryText">Deshabilitado</String>
+	<String ID="WallDisabledHelp">Sin telemetría mostrar</String>
+	<String ID="WallDisabledText">Deshabilitado</String>
+	<String ID="WallSelectedObjectsHelp">Show walls for selected objects only</String>
+	<String ID="WallSelectedObjectsText">Selected only</String>
+	<String ID="WallAllObjectsHelp">Show walls for all objects</String>
+	<String ID="WallAllObjectsText">All objects</String>
 
 	<String ID="TelemetryMinValue">Min&#9;{0}</String>
 	<String ID="TelemetryMaxValue">Max&#9;{0}</String>
@@ -852,7 +868,7 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<!-- Additional Tooltips -->
 	<String ID="UpdateAvailableTooltip">Nueva versión de Tacview disponible</String>
 	<String ID="DCSWorldHookedSmallTooltip">El grabador de vuelos de 'DCS World' está activado</String>
-	<String ID="TwitterLinkTooltip">Twitter - Actual X -</String>
+	<String ID="TwitterLinkTooltip">X (Twitter)</String>
 	<String ID="FacebookLinkTooltip">Facebook</String>
 	<String ID="FlightSimHookTooltipTitle">Ya puede cerrar Tacview</String>
 	<String ID="FlightSimHookTooltipMessage">Cuando este icono es visible todos los vuelos son automáticamente grabados por tu simulador de vuelo.&#10; No es necesario tener Tacview en funcionamiento mientras estas volando.</String>
@@ -966,6 +982,7 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="UnitLabelCAS">CAS ({0})</String>
 	<String ID="UnitLabelIAS">IAS ({0})</String>
 	<String ID="UnitLabelGS">Ground Speed ({0})</String>
+	<String ID="UnitLabelClosureRate">Closure Rate ({0})</String>
 	<String ID="UnitLabelAbsoluteTime">Tiempo</String>
 	<String ID="UnitLabelRelativeTime">Tiempo relativo</String>
 	<String ID="UnitLabelMachNumber">Mach</String>
@@ -985,8 +1002,10 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="UnitLabelVS">VS ({0})</String>
 	<String ID="UnitLabelHeading">Rumbo (°)</String>
 	<String ID="UnitLabelTrack">Seguimiento (°)</String>
+	<String ID="UnitLabelRelativeBearing">Relative Bearing (°)</String>
 	<String ID="UnitLabelDistanceAir">Distancia aérea ({0})</String>
 	<String ID="UnitLabelDistanceGround">Distancia terrestre ({0})</String>
+	<String ID="UnitLabelRelativeDistance">Relative Distance ({0})</String>
 	<String ID="UnitLabelRoll">Roll ({0})</String>
 	<String ID="UnitLabelPitch">Pitch ({0})</String>
 	<String ID="UnitLabelFuel">Fuel ({0})</String>
@@ -997,6 +1016,7 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="UnitLabelGlideslopeAngularDeviation">Desviacion de senda de planeo (°)</String>
 	<String ID="UnitLabelHeartRate">Pulso (BPM)</String>
 	<String ID="UnitLabelSpO2">SpO2 (%)</String>
+	<String ID="UnitLabelVerticalSeparation">Vertical Separation ({0})</String>
 
 	<!-- **** Not certified below **** -->
 
@@ -1007,7 +1027,7 @@ Make sure todo esta correctamente conectado y configurado en tu ordenador, ¡des
 	<String ID="InvalidShortcutText">No es posible encontrar en la misión actual los objetos y tiempos de referencia del acceso directo. Asegúrese de haber abierto el archivo correcto y haber copiado/pegado el acceso directo entero.</String>
 
 	<String ID="AboutTitle">Sobre Tacview</String>
-	<String ID="AboutCopyright">Copyright © 2006-2025, Raia Software. Todos los derechos reservados.&#10;Este programa informático está protegido por las leyes de copyright y la ley internacional de tratados.</String>
+	<String ID="AboutCopyright">Copyright © 2006-2026, Raia Software. Todos los derechos reservados.&#10;Este programa informático está protegido por las leyes de copyright y la ley internacional de tratados.</String>
 
 	<String ID="LoadingInProgressShort">Cargando...</String>
 	<String ID="LoadingInProgress">Cargando '{0}'</String>
