@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<DefaultPropertiesCollection Priority="0.1">
+<DefaultPropertiesCollection Priority="0.1" version="1.0">
 
 	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
 	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
@@ -109,14 +109,27 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Vehicle.Truck.M978" Base="Vehicle.Truck.Tanker">
+	<DefaultProperties Id="Vehicle.Tanker.M978" Base="Vehicle.Military.Tanker">
 		<Criteria>
 			<Name>M 978</Name>
+			<Name>M978 HEMTT Tanker</Name>	<!-- DCS 2.9.28.26283 -->
 		</Criteria>
 		<Properties>
 			<ShortName>M978</ShortName>
-			<LongName>M978</LongName>
-			<FullName>M978 Tanker</FullName>
+			<LongName>M978 HEMTT</LongName>
+			<FullName>M978 HEMTT Tanker</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Truck.M1083" Base="Vehicle.Military.Truck">
+		<Criteria>
+			<Name>M1083</Name>
+			<Name>CHAP_M1083</Name>		<!-- DCS 2.9.28.26283 -->
+		</Criteria>
+		<Properties>
+			<ShortName>M1083</ShortName>
+			<LongName>M1083</LongName>
+			<FullName>M1083</FullName>
 		</Properties>
 	</DefaultProperties>
 

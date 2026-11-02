@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<DefaultPropertiesCollection Priority="0.0">
+<DefaultPropertiesCollection Priority="0.0" version="1.0">
 
 	<!--
 
@@ -67,7 +67,7 @@
 			<Name>*</Name>
 		</Criteria>
 		<Properties>
-			<Color>Blue</Color>
+			<Color>Undefined</Color>
 			<Visible>1</Visible>
 			<Health>1</Health>
 			<EngagementMode>1</EngagementMode>

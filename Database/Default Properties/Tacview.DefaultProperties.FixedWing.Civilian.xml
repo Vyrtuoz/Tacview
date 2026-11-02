@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<DefaultPropertiesCollection Priority="0.1">
+<DefaultPropertiesCollection Priority="0.1" version="1.0">
 
-	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
-	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+	<!--
+		ICAO aircraft codes:
+
+		https://en.wikipedia.org/wiki/List_of_aircraft_type_designators
+		https://skybrary.aero/aircraft/be10
+		https://www2023.icao.int/publications/DOC8643/Pages/Search.aspx
+
+		NATO aircraft codes:
+
+		https://en.wikipedia.org/wiki/NATO_reporting_name
+	-->
 
 	<!-- Core Declarations -->
 
@@ -338,6 +347,7 @@
 
 	<DefaultProperties Id="FixedWing.B100" Base="FixedWing.C90">
 		<Criteria>
+			<Name>BE10</Name>
 			<Name>B100</Name>
 			<Name>Beechcraft B100</Name>
 			<Name>King Air B100</Name>
@@ -928,6 +938,19 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.GIV" Base="FixedWing.GA.TwinJet.Tail">
+		<Criteria>
+			<Name>GLF5</Name>
+			<Name>Gulfstream IV</Name>
+			<Name>Gulfstream G-IV</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>GIV</ShortName>
+			<LongName>Gulfstream IV</LongName>
+			<FullName>Gulfstream IV</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.G550" Base="FixedWing.GA.TwinJet.Tail">
 		<Criteria>
 			<Name>G550</Name>
@@ -1218,6 +1241,19 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.PA-28-235" Base="FixedWing.PA-28-180">
+		<Criteria>
+			<Name>P28B</Name>
+			<Name>PA-28-235</Name>
+			<Name>Cherokee Charger</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>PA-28-235</ShortName>
+			<LongName>PA-28-235 Cherokee Charger</LongName>
+			<FullName>Piper PA-28-235 Cherokee Charger</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.PA-31" Base="FixedWing.GA.TwinEngine.LowWing.Tricycle">
 		<Criteria>
 			<Name>PA-31</Name>
@@ -1438,18 +1474,6 @@
 			<ShortName>BE36</ShortName>
 			<LongName>Bonanza 36</LongName>
 			<FullName>Beechcraft Bonanza 36</FullName>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="FixedWing.GIV" Base="FixedWing.GA.TwinJet.Tail">
-		<Criteria>
-			<Name>Gulfstream IV</Name>
-			<Name>Gulfstream G-IV</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>GIV</ShortName>
-			<LongName>Gulfstream IV</LongName>
-			<FullName>Gulfstream IV</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -2075,6 +2099,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="FixedWing.B757-200" Base="FixedWing.B757">
+		<Criteria>
+			<Name>B752</Name>
+			<Name>757-200</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B757</ShortName>
+			<LongName>Boeing 757-200</LongName>
+			<FullName>Boeing 757-200</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="FixedWing.B767" Base="FixedWing.B707">
 		<Criteria>
 			<Name>B767</Name>
@@ -2084,6 +2120,19 @@
 			<ShortName>B767</ShortName>
 			<LongName>Boeing 767</LongName>
 			<FullName>Boeing 767</FullName>
+			<Shape>FixedWing.B767.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B767-300ER" Base="FixedWing.B767">
+		<Criteria>
+			<Name>B763</Name>
+			<Name>767-300ER</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B763</ShortName>
+			<LongName>Boeing 767-300ER</LongName>
+			<FullName>Boeing 767-300ER</FullName>
 			<Shape>FixedWing.B767.obj</Shape>
 		</Properties>
 	</DefaultProperties>
@@ -2109,6 +2158,18 @@
 			<ShortName>B77W</ShortName>
 			<LongName>Boeing 777-300ER</LongName>
 			<FullName>Boeing 777-300ER</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.B777-200" Base="FixedWing.B777">
+		<Criteria>
+			<Name>B772</Name>
+			<Name>777-200</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>B777</ShortName>
+			<LongName>Boeing 777-200</LongName>
+			<FullName>Boeing 777-200</FullName>
 		</Properties>
 	</DefaultProperties>
 
@@ -2195,12 +2256,13 @@
 
 	<DefaultProperties Id="FixedWing.CRJ700" Base="FixedWing.Heavy.Jet.Tail">
 		<Criteria>
+			<Name>CRJ7</Name>
 			<Name>CRJ 700</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>CRJ700</ShortName>
 			<LongName>Bombardier CRJ700</LongName>
-			<FullName>Bombardier CRJ700</FullName>
+			<FullName>Bombardier Canadair Regional Jet 700</FullName>
 			<Shape>FixedWing.CRJ700.obj</Shape>
 		</Properties>
 	</DefaultProperties>
@@ -2220,6 +2282,7 @@
 
 	<DefaultProperties Id="FixedWing.DHC-8-100" Base="FixedWing.DHC-8">
 		<Criteria>
+			<Name>DH8A</Name>
 			<Name>DHC-8-100</Name>
 			<Name>Dash 8-100</Name>
 		</Criteria>
@@ -2233,6 +2296,7 @@
 
 	<DefaultProperties Id="FixedWing.DHC-8-200" Base="FixedWing.DHC-8-100">
 		<Criteria>
+			<Name>DH8B</Name>
 			<Name>DHC-8-200</Name>
 			<Name>Dash 8-200</Name>
 		</Criteria>
@@ -2245,6 +2309,7 @@
 
 	<DefaultProperties Id="FixedWing.DHC-8-300" Base="FixedWing.DHC-8-200">
 		<Criteria>
+			<Name>DH8C</Name>
 			<Name>DHC-8-300</Name>
 			<Name>Dash 8-300</Name>
 		</Criteria>
@@ -2270,6 +2335,7 @@
 
 	<DefaultProperties Id="FixedWing.DHC-8-400" Base="FixedWing.DHC-8-300">
 		<Criteria>
+			<Name>DH8D</Name>
 			<Name>DHC-8-400</Name>
 			<Name>Dash 8-400</Name>
 		</Criteria>
@@ -2400,6 +2466,18 @@
 			<ShortName>A220</ShortName>
 			<LongName>Airbus A220</LongName>
 			<FullName>Airbus A220</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.A220-300" Base="FixedWing.A220">
+		<Criteria>
+			<Name>A220-300</Name>
+			<Name>BCS3</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A220</ShortName>
+			<LongName>Airbus A220-300</LongName>
+			<FullName>Airbus A220-300</FullName>
 		</Properties>
 	</DefaultProperties>
 

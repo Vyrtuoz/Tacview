@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<DefaultPropertiesCollection Priority="0.1">
+<DefaultPropertiesCollection Priority="0.1" version="1.0">
 
 	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
 	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
@@ -12,13 +12,22 @@
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Watercraft.LST" Base="Watercraft.Military">
+	<DefaultProperties Id="Watercraft.LandingCraft" Base="Watercraft.Military">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.LST" Base="Watercraft.LandingCraft">
 		<Properties>
 			<Shape>Watercraft.Warship.obj</Shape>
 		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Watercraft.Corvette" Base="Watercraft.Military">
+	<DefaultProperties Id="Watercraft.Escort" Base="Watercraft.Military">
+		<Properties>
+			<Shape>Watercraft.Warship.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Corvette" Base="Watercraft.Escort">
 		<Properties>
 			<Shape>Watercraft.Warship.obj</Shape>
 		</Properties>
@@ -33,11 +42,24 @@
 	<DefaultProperties Id="Watercraft.Destroyer" Base="Watercraft.Frigate">
 	</DefaultProperties>
 
-	<DefaultProperties Id="Watercraft.Cruiser" Base="Watercraft.Destroyer">
+	<DefaultProperties Id="Watercraft.CapitalShip" Base="Watercraft.Military">
+		<Properties>
+			<Shape>Watercraft.Warship.obj</Shape>
+		</Properties>
 	</DefaultProperties>
 
-	<DefaultProperties Id="Watercraft.AircraftCarrier" Base="Watercraft.Military">
+	<DefaultProperties Id="Watercraft.Cruiser" Base="Watercraft.CapitalShip">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Battlecruiser" Base="Watercraft.Cruiser">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Battleship" Base="Watercraft.Battlecruiser">
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.AircraftCarrier" Base="Watercraft.CapitalShip">
 		<Properties>
+			<AdditionalType>AircraftCarrier</AdditionalType>
 			<Shape>Watercraft.CVN-68.obj</Shape>
 		</Properties>
 	</DefaultProperties>
@@ -106,6 +128,107 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Watercraft.NewOrleans" Base="Watercraft.Cruiser">
+		<Criteria>
+			<Name>NewOrleans</Name>
+			<Name>New Orleans</Name>
+			<Name>USS New Orleans</Name>
+			<Name>CA-32</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>New Orleans</ShortName>
+			<LongName>USS New Orleans</LongName>
+			<FullName>USS New Orleans (CA-32)</FullName>
+			<Shape>Watercraft.NewOrleans.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Northampton" Base="Watercraft.Cruiser">
+		<Criteria>
+			<Name>Northampton</Name>
+			<Name>USS Northampton</Name>
+			<Name>CA-26</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Northampton</ShortName>
+			<LongName>USS Northampton</LongName>
+			<FullName>USS Northampton (CA-26)</FullName>
+			<Shape>Watercraft.Northampton.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Pensacola" Base="Watercraft.Cruiser">
+		<Criteria>
+			<Name>Pensacola</Name>
+			<Name>USS Pensacola</Name>
+			<Name>CA-24</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Pensacola</ShortName>
+			<LongName>USS Pensacola</LongName>
+			<FullName>USS Pensacola (CA-24)</FullName>
+			<Shape>Watercraft.Pensacola.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Portland" Base="Watercraft.Cruiser">
+		<Criteria>
+			<Name>Portland</Name>
+			<Name>USS Portland</Name>
+			<Name>CA-33</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Portland</ShortName>
+			<LongName>USS Portland</LongName>
+			<FullName>USS Portland (CA-33)</FullName>
+			<Shape>Watercraft.Portland.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Atlanta" Base="Watercraft.Cruiser">
+		<Criteria>
+			<Name>Atlanta</Name>
+			<Name>USS Atlanta</Name>
+			<Name>CL-51</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Atlanta</ShortName>
+			<LongName>USS Atlanta</LongName>
+			<FullName>USS Atlanta (CL-51)</FullName>
+			<Shape>Watercraft.Atlanta.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Commonwealth Cruisers (i.e. Australia) -->
+
+	<DefaultProperties Id="Watercraft.Hobart" Base="Watercraft.Cruiser">
+		<Criteria>
+			<Name>Hobart</Name>
+			<Name>D63</Name>
+			<Name>HMAS Hobart</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Hobart</ShortName>
+			<LongName>HMAS Hobart</LongName>
+			<FullName>HMAS Hobart (D63)</FullName>
+			<Shape>Watercraft.Hobart.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+		<DefaultProperties Id="Watercraft.Australia" Base="Watercraft.Cruiser">
+		<Criteria>
+			<Name>Australia</Name>
+			<Name>D84</Name>
+			<Name>HMAS Australia</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Australia</ShortName>
+			<LongName>HMAS Australia</LongName>
+			<FullName>HMAS Australia (D84)</FullName>
+			<Shape>Watercraft.Australia.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- North American Destroyers -->
 
 	<DefaultProperties Id="Watercraft.ArleighBurke" Base="Watercraft.Destroyer">
@@ -121,7 +244,133 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Watercraft.Bagley" Base="Watercraft.Destroyer">
+		<Criteria>
+			<Name>Bagley</Name>
+			<Name>DD-386</Name>
+			<Name>USS Bagley</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Bagley</ShortName>
+			<LongName>USS Bagley</LongName>
+			<FullName>USS Bagley (DD-386)</FullName>
+			<Shape>Watercraft.Bagley.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Balch" Base="Watercraft.Destroyer">
+		<Criteria>
+			<Name>Balch</Name>
+			<Name>DD-363</Name>
+			<Name>USS Balch</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Balch</ShortName>
+			<LongName>USS Balch</LongName>
+			<FullName>USS Balch (DD-363)</FullName>
+			<Shape>Watercraft.Balch.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Benham" Base="Watercraft.Destroyer">
+		<Criteria>
+			<Name>Benham</Name>
+			<Name>DD-397</Name>
+			<Name>USS Benham</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Benham</ShortName>
+			<LongName>USS Benham</LongName>
+			<FullName>USS Benham (DD-397)</FullName>
+			<Shape>Watercraft.Benham.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Benson" Base="Watercraft.Destroyer">
+		<Criteria>
+			<Name>Benson</Name>
+			<Name>DD-421</Name>
+			<Name>USS Benson</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Benson</ShortName>
+			<LongName>USS Benson</LongName>
+			<FullName>USS Benson (DD-421)</FullName>
+			<Shape>Watercraft.Benson.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Farragut" Base="Watercraft.Destroyer">
+		<Criteria>
+			<Name>Farragut</Name>
+			<Name>DD-348</Name>
+			<Name>USS Farragut</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Farragut</ShortName>
+			<LongName>USS Farragut</LongName>
+			<FullName>USS Farragut (DD-348)</FullName>
+			<Shape>Watercraft.Farragut.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Gridley" Base="Watercraft.Destroyer">
+		<Criteria>
+			<Name>Gridley</Name>
+			<Name>DD-380</Name>
+			<Name>USS Gridley</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Gridley</ShortName>
+			<LongName>USS Gridley</LongName>
+			<FullName>USS Gridley (DD-380)</FullName>
+			<Shape>Watercraft.Gridley.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Mahan" Base="Watercraft.Destroyer">
+		<Criteria>
+			<Name>Mahan</Name>
+			<Name>DD-380</Name>
+			<Name>USS Mahan</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mahan</ShortName>
+			<LongName>USS Mahan</LongName>
+			<FullName>USS Mahan (DD-380)</FullName>
+			<Shape>Watercraft.Mahan.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- North American Aircraft Carriers -->
+
+	<DefaultProperties Id="Watercraft.CV-2" Base="Watercraft.AircraftCarrier">
+		<Criteria>
+			<Name>Lexington</Name>
+			<Name>CV-2</Name>
+			<Name>USS Lexington</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Lexington</ShortName>
+			<LongName>USS Lexington</LongName>
+			<FullName>USS Lexington (CV-2)</FullName>
+			<Shape>Watercraft.Lexington.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.CV-10" Base="Watercraft.AircraftCarrier">
+		<Criteria>
+			<Name>Yorktown</Name>
+			<Name>CV-10</Name>
+			<Name>USS Yorktown</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Yorktown</ShortName>
+			<LongName>USS Yorktown</LongName>
+			<FullName>USS Yorktown (CV-10)</FullName>
+			<Shape>Watercraft.Yorktown.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="Watercraft.CV-41" Base="Watercraft.AircraftCarrier">
 		<Criteria>
@@ -656,6 +905,29 @@
 
 	<!-- EU Frigates -->
 
+	<DefaultProperties Id="Watercraft.F209" Base="Watercraft.Frigate">
+		<Criteria>
+			<Name>F209</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F225</ShortName>
+			<LongName>Rheinland-Pfalz</LongName>
+			<FullName>Rheinland-Pfalz (F209)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.F225" Base="Watercraft.F209">
+		<Criteria>
+			<Name>F225</Name>
+			<Name>Rheinland-Pfalz</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F225</ShortName>
+			<LongName>Rheinland-Pfalz</LongName>
+			<FullName>Rheinland-Pfalz (F225)</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Watercraft.D615" Base="Watercraft.Frigate">
 		<Criteria>
 			<Name>D615</Name>
@@ -944,5 +1216,319 @@
 			<Shape>Watercraft.Type 052D.obj</Shape>
 		</Properties>
 	</DefaultProperties>
+
+	<!-- Japanese Battlecruisers -->
+
+	<DefaultProperties Id="Watercraft.Hiei" Base="Watercraft.Battlecruiser">
+		<Criteria>
+			<Name>Hiei</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Hiei</ShortName>
+			<LongName>Hiei</LongName>
+			<FullName>Hiei</FullName>
+			<Shape>Watercraft.Hiei.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Japanese Battleships -->
+
+	<DefaultProperties Id="Watercraft.Kongo" Base="Watercraft.Battleship">
+		<Criteria>
+			<Name>Kongo</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Kongo</ShortName>
+			<LongName>Kongo</LongName>
+			<FullName>Kongo</FullName>
+			<Shape>Watercraft.Kongo.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Yamato" Base="Watercraft.Battleship">
+		<Criteria>
+			<Name>Yamato</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Yamato</ShortName>
+			<LongName>Yamato</LongName>
+			<FullName>Yamato</FullName>
+			<Shape>Watercraft.Yamato.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Japanese Cruisers -->
+
+	<DefaultProperties Id="Watercraft.Aoba" Base="Watercraft.Cruiser">
+		<Criteria>
+			<Name>Aoba</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Aoba</ShortName>
+			<LongName>Aoba</LongName>
+			<FullName>Aoba</FullName>
+			<Shape>Watercraft.Aoba.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Furutaka" Base="Watercraft.Cruiser">
+		<Criteria>
+			<Name>Furutaka</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Furutaka</ShortName>
+			<LongName>Furutaka</LongName>
+			<FullName>Furutaka</FullName>
+			<Shape>Watercraft.Furutaka.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Mogami" Base="Watercraft.Cruiser">
+		<Criteria>
+			<Name>Mogami</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mogami</ShortName>
+			<LongName>Mogami</LongName>
+			<FullName>Mogami</FullName>
+			<Shape>Watercraft.Mogami.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Myoko" Base="Watercraft.Cruiser">
+		<Criteria>
+			<Name>Myoko</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Myoko</ShortName>
+			<LongName>Myoko</LongName>
+			<FullName>Myoko</FullName>
+			<Shape>Watercraft.Myoko.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Tone" Base="Watercraft.Cruiser">
+		<Criteria>
+			<Name>Tone</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Tone</ShortName>
+			<LongName>Tone</LongName>
+			<FullName>Tone</FullName>
+			<Shape>Watercraft.Tone.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Takao" Base="Watercraft.Cruiser">
+		<Criteria>
+			<Name>Takao</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Takao</ShortName>
+			<LongName>Takao</LongName>
+			<FullName>Takao</FullName>
+			<Shape>Watercraft.Takao.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Kuma" Base="Watercraft.Cruiser">
+		<Criteria>
+			<Name>Kuma</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Kuma</ShortName>
+			<LongName>Kuma</LongName>
+			<FullName>Kuma</FullName>
+			<Shape>Watercraft.Kuma.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Yubari" Base="Watercraft.Cruiser">
+		<Criteria>
+			<Name>Yubari</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Yubari</ShortName>
+			<LongName>Yubari</LongName>
+			<FullName>Yubari</FullName>
+			<Shape>Watercraft.Yubari.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Japanese Aircraft Carriers -->
+
+	<DefaultProperties Id="Watercraft.Akagi" Base="Watercraft.AircraftCarrier">
+		<Criteria>
+			<Name>Akagi</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Akagi</ShortName>
+			<LongName>Akagi</LongName>
+			<FullName>Akagi</FullName>
+			<Shape>Watercraft.Akagi.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Hiryu" Base="Watercraft.AircraftCarrier">
+		<Criteria>
+			<Name>Hiryu</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Hiryu</ShortName>
+			<LongName>Hiryu</LongName>
+			<FullName>Hiryu</FullName>
+			<Shape>Watercraft.Hiryu.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Junyo" Base="Watercraft.AircraftCarrier">
+		<Criteria>
+			<Name>Junyo</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Junyo</ShortName>
+			<LongName>Junyo</LongName>
+			<FullName>Junyo</FullName>
+			<Shape>Watercraft.Junyo.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Kaga" Base="Watercraft.AircraftCarrier">
+		<Criteria>
+			<Name>Kaga</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Kaga</ShortName>
+			<LongName>Kaga</LongName>
+			<FullName>Kaga</FullName>
+			<Shape>Watercraft.Kaga.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Shoho" Base="Watercraft.AircraftCarrier">
+		<Criteria>
+			<Name>Shoho</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Shoho</ShortName>
+			<LongName>Shoho</LongName>
+			<FullName>Shoho</FullName>
+			<Shape>Watercraft.Shoho.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Ryujo" Base="Watercraft.AircraftCarrier">
+		<Criteria>
+			<Name>Ryujo</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Ryujo</ShortName>
+			<LongName>Ryujo</LongName>
+			<FullName>Ryujo</FullName>
+			<Shape>Watercraft.Ryujo.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Shokaku" Base="Watercraft.AircraftCarrier">
+		<Criteria>
+			<Name>Shokaku</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Shokaku</ShortName>
+			<LongName>Shokaku</LongName>
+			<FullName>Shokaku</FullName>
+			<Shape>Watercraft.Shokaku.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Soryu" Base="Watercraft.AircraftCarrier">
+		<Criteria>
+			<Name>Soryu</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Soryu</ShortName>
+			<LongName>Soryu</LongName>
+			<FullName>Soryu</FullName>
+			<Shape>Watercraft.Soryu.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Japanese Destroyers -->
+
+	<DefaultProperties Id="Watercraft.Asashio" Base="Watercraft.Destroyer">
+		<Criteria>
+			<Name>Asashio</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Asashio</ShortName>
+			<LongName>Asashio</LongName>
+			<FullName>Asashio</FullName>
+			<Shape>Watercraft.Asashio.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Fubuki" Base="Watercraft.Destroyer">
+		<Criteria>
+			<Name>Fubuki</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Fubuki</ShortName>
+			<LongName>Fubuki</LongName>
+			<FullName>Fubuki</FullName>
+			<Shape>Watercraft.Fubuki.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Hatsuharu" Base="Watercraft.Destroyer">
+		<Criteria>
+			<Name>Hatsuharu</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Hatsuharu</ShortName>
+			<LongName>Hatsuharu</LongName>
+			<FullName>Hatsuharu</FullName>
+			<Shape>Watercraft.Hatsuharu.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Minekaze" Base="Watercraft.Destroyer">
+		<Criteria>
+			<Name>Minekaze</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Minekaze</ShortName>
+			<LongName>Minekaze</LongName>
+			<FullName>Minekaze</FullName>
+			<Shape>Watercraft.Minekaze.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.Shiratsuyu" Base="Watercraft.Destroyer">
+		<Criteria>
+			<Name>Shiratsuyu</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Shiratsuyu</ShortName>
+			<LongName>Shiratsuyu</LongName>
+			<FullName>Shiratsuyu</FullName>
+			<Shape>Watercraft.Shiratsuyu.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Japanese Landing Craft -->
+
+	<DefaultProperties Id="Watercraft.Daihatsu" Base="Watercraft.LandingCraft">
+		<Criteria>
+			<Name>Daihatsu</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Daihatsu</ShortName>
+			<LongName>Daihatsu</LongName>
+			<FullName>Daihatsu</FullName>
+			<Shape>Watercraft.Daihatsu.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+
 
 </DefaultPropertiesCollection>

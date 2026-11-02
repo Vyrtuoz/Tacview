@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<DefaultPropertiesCollection Priority="0.1">
+<DefaultPropertiesCollection Priority="0.1" version="1.0">
 
 	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
 	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
@@ -149,5 +149,34 @@
 			<Shape>Vehicle.Car.Humvee.obj</Shape>
 		</Properties>
 	</DefaultProperties>
+
+	<DefaultProperties Id="Vehicle.Pickup.F100" Base="Vehicle.Civilian.Pickup">
+		<Criteria>
+			<Name>F-100</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F-100</ShortName>
+			<LongName>F-100</LongName>
+			<FullName>Ford F-100</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<!-- Western Vans -->
+
+	<DefaultProperties Id="Vehicle.Truck.P20" Base="Vehicle.Civilian.Truck">
+		<Criteria>
+			<Name>P20</Name>
+			<Name>P20_drivable</Name>	<!-- DCS 2.9.28.26283 -->
+			<Name>Step Van</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>P20</ShortName>
+			<LongName>P20 Step Van</LongName>
+			<FullName>Chevrolet P20 Step Van</FullName>
+			<Shape>Vehicle.Truck.P20.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	
 
 </DefaultPropertiesCollection>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<DefaultPropertiesCollection Priority="0.1">
+<DefaultPropertiesCollection Priority="0.1" version="1.0">
 
 	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
 	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
@@ -87,6 +87,21 @@
 	</DefaultProperties>
 
 	<!-- North American SAM -->
+
+	<DefaultProperties Id="AntiAircraft.Centurion C-RAM" Base="AntiAircraft.SAM">
+		<Criteria>
+			<Name>C-RAM</Name>
+			<Name>HEMTT_C-RAM_Phalanx</Name>	<!-- DCS 2.9.26.23303 -->
+			<Name>Phalanx</Name>
+			<Name>LPWS</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>C-RAM</ShortName>
+			<LongName>Centurion C-RAM</LongName>
+			<FullName>Centurion C-RAM (LPWS)</FullName>
+			<EngagementRange>2000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
 
 	<DefaultProperties Id="AntiAircraft.SAM.AN/TWQ-1" Base="AntiAircraft.SAM.Launcher">
 		<Criteria>
@@ -1000,6 +1015,20 @@
 			<LongName>SA-19 Grison</LongName>
 			<FullName>SA-19 Grison (2S6 Tunguska)</FullName>
 			<EngagementRange>7000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.SA-22" Base="AntiAircraft.SAM.AAA">
+		<Criteria>
+			<Name>SA-22</Name>
+			<Name>SA-22 Greyhound</Name>
+			<Name>Pantsir</Name>		
+			<Name>CHAP_PantsirS1</Name> <!-- DCS World 2.9.26.23303 -->
+		</Criteria>
+		<Properties>
+			<ShortName>SA-22</ShortName>
+			<LongName>SA-22 Greyhound</LongName>
+			<EngagementRange>19000</EngagementRange>
 		</Properties>
 	</DefaultProperties>
 

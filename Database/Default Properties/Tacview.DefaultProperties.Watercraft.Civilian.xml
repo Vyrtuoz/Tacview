@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<DefaultPropertiesCollection Priority="0.1">
+<DefaultPropertiesCollection Priority="0.1" version="1.0">
 
 	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
 	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
@@ -107,4 +107,27 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Watercraft.Kamikawa Maru" Base="Watercraft.Cargo">
+		<Criteria>
+			<Name>Kamikawa Maru</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Kamikawa Maru</ShortName>
+			<LongName>Kamikawa Maru</LongName>
+			<FullName>Kamikawa Maru</FullName>
+			<Shape>Watercraft.Kamikawa-Maru.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Watercraft.T3" Base="Watercraft.Tanker">
+		<Criteria>
+			<Name>T3</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>T3</ShortName>
+			<LongName>T3</LongName>
+			<FullName>T3 Tanker</FullName>
+			<Shape>Watercraft.T3.obj</Shape>
+		</Properties>
+	</DefaultProperties>
 </DefaultPropertiesCollection>

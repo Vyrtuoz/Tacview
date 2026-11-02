@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<DefaultPropertiesCollection Priority="0.1">
+<DefaultPropertiesCollection Priority="0.1" version="1.0">
 
-	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
-	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+	<!--
+		ICAO aircraft codes:
+
+		https://en.wikipedia.org/wiki/List_of_aircraft_type_designators
+		https://skybrary.aero/aircraft/be10
+		https://www2023.icao.int/publications/DOC8643/Pages/Search.aspx
+
+		NATO aircraft codes:
+
+		https://en.wikipedia.org/wiki/NATO_reporting_name
+	-->
 
 	<!-- Core Declarations -->
 
@@ -140,6 +149,40 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Rotorcraft.S76" Base="Rotorcraft.Transport">
+		<Criteria>
+			<Name>S-76</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>S-76</ShortName>
+			<LongName>Sikorsky S-76</LongName>
+			<FullName>Sikorsky S-76</FullName>
+			<Shape>Rotorcraft.S-76.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.S76B" Base="Rotorcraft.S76">
+		<Criteria>
+			<Name>S-76B</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>S-76B</ShortName>
+			<LongName>Sikorsky S-76B</LongName>
+			<FullName>Sikorsky S-76B</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.S76C" Base="Rotorcraft.S76B">
+		<Criteria>
+			<Name>S-76C</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>S-76C</ShortName>
+			<LongName>Sikorsky S-76C</LongName>
+			<FullName>Sikorsky S-76C</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<!-- EU Helicopters -->
 
 	<DefaultProperties Id="Rotorcraft.AS350" Base="Rotorcraft.Transport">
@@ -196,6 +239,18 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Rotorcraft.G2" Base="Rotorcraft.Transport">
+		<Criteria>
+			<Name>G2</Name>
+			<Name>Cabri G2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>G2</ShortName>
+			<LongName>Cabri G2</LongName>
+			<FullName>Guimbal Cabri G2</FullName>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Rotorcraft.EC120" Base="Rotorcraft.Transport">
 		<Criteria>
 			<Name>EC-120</Name>
@@ -238,6 +293,20 @@
 		</Properties>
 	</DefaultProperties>
 
+	<DefaultProperties Id="Rotorcraft.H145" Base="Rotorcraft.EC135">
+		<Criteria>
+			<Name>H145</Name>
+			<Name>H-145</Name>
+			<Name>EC145</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>H145</ShortName>
+			<LongName>Airbus H145</LongName>
+			<FullName>Airbus Helicopters H145</FullName>
+			<Shape>Rotorcraft.EC135.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Rotorcraft.SA341" Base="Rotorcraft.Transport">
 		<Criteria>
 			<Name>SA 341</Name>
@@ -259,40 +328,6 @@
 			<LongName>SA 341G Gazelle</LongName>
 			<FullName>Aérospatiale SA 341G Gazelle</FullName>
 			<Shape>Rotorcraft.SA341G.obj</Shape>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="Rotorcraft.S76" Base="Rotorcraft.Transport">
-		<Criteria>
-			<Name>S-76</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>S-76</ShortName>
-			<LongName>Sikorsky S-76</LongName>
-			<FullName>Sikorsky S-76</FullName>
-			<Shape>Rotorcraft.S-76.obj</Shape>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="Rotorcraft.S76B" Base="Rotorcraft.S76">
-		<Criteria>
-			<Name>S-76B</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>S-76B</ShortName>
-			<LongName>Sikorsky S-76B</LongName>
-			<FullName>Sikorsky S-76B</FullName>
-		</Properties>
-	</DefaultProperties>
-
-	<DefaultProperties Id="Rotorcraft.S76C" Base="Rotorcraft.S76B">
-		<Criteria>
-			<Name>S-76C</Name>
-		</Criteria>
-		<Properties>
-			<ShortName>S-76C</ShortName>
-			<LongName>Sikorsky S-76C</LongName>
-			<FullName>Sikorsky S-76C</FullName>
 		</Properties>
 	</DefaultProperties>
 

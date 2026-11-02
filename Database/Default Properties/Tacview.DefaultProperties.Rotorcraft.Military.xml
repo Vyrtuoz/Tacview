@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<DefaultPropertiesCollection Priority="0.1">
+<DefaultPropertiesCollection Priority="0.1" version="1.0">
 
-	<!-- ICAO aircraft codes https://www.icao.int/publications/DOC8643/Pages/Search.aspx -->
-	<!-- NATO aircraft codes https://en.wikipedia.org/wiki/NATO_reporting_name -->
+	<!--
+		ICAO aircraft codes:
+
+		https://en.wikipedia.org/wiki/List_of_aircraft_type_designators
+		https://skybrary.aero/aircraft/be10
+		https://www2023.icao.int/publications/DOC8643/Pages/Search.aspx
+
+		NATO aircraft codes:
+
+		https://en.wikipedia.org/wiki/NATO_reporting_name
+	-->
 
 	<!-- Core Declarations -->
 
@@ -194,7 +203,7 @@
 			<FullName>Bell CH-146 Griffon</FullName>
 		</Properties>
 	</DefaultProperties>
-	
+
 	<DefaultProperties Id="Rotorcraft.MH-6" Base="Core.Rotorcraft">
 		<Criteria>
 			<Name>MH-6</Name>
@@ -206,7 +215,19 @@
 			<Shape>Rotorcraft.MD 500.obj</Shape>
 		</Properties>
 	</DefaultProperties>
-	
+
+	<DefaultProperties Id="Rotorcraft.AH-6" Base="Rotorcraft.MH-6">
+		<Criteria>
+			<Name>AH-6</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AH-6</ShortName>
+			<LongName>AH-6 Little Bird</LongName>
+			<FullName>AH-6 Little Bird</FullName>
+			<Shape>Rotorcraft.MD 500.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
 	<DefaultProperties Id="Rotorcraft.MH-9" Base="Rotorcraft.MH-6">	<!-- ARMA 3 -->
 		<Criteria>
 			<Name>MH-9</Name>
@@ -218,7 +239,7 @@
 			<Shape>Rotorcraft.MD 500.obj</Shape>
 		</Properties>
 	</DefaultProperties>
-	
+
 	<DefaultProperties Id="Rotorcraft.MD 500" Base="Rotorcraft.MH-6">
 		<Criteria>
 			<Name>MD 500</Name>
@@ -428,6 +449,7 @@
 		<Criteria>
 			<Name>NH90</Name>
 			<Name>NHIndustries NH90</Name>
+			<Name>NH-90</Name> 
 		</Criteria>
 		<Properties>
 			<ShortName>NH90</ShortName>
