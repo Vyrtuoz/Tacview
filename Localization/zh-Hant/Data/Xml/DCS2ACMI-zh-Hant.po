@@ -100,6 +100,12 @@ msgstr ""
 msgid "Unknown Terrain"
 msgstr "未知地形"
 
+msgid "Tacview2PredefinedElevationMap"
+msgstr "Elevation for Tacview 2"
+
+msgid "Tacview2PredefinedImageryMap"
+msgstr "Imagery for Tacview 2"
+
 msgid "never"
 msgstr ""
 
